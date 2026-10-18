@@ -11,7 +11,7 @@ Copiar, redistribuir, adaptar e usar os dados para qualquer fim, inclusive comer
 
 ## Como dar o crédito
 
-> Fonte: Eleições 2026 · 2º turno — dados abertos (https://github.com/aluadocoelho/eleicoes-2026-dados), CC BY 4.0.
+> Fonte: Eleições 2026 · 2º turno — dados abertos (https://github.com/aluadocoelho/Eleicoes-de-2026), CC BY 4.0.
 
 Ao usar um dado específico, cite também a fonte original indicada no campo `url` da linha.
 

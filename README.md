@@ -9,14 +9,14 @@ Cada linha traz o link (`url`) da reportagem ou checagem de onde a informação 
 Os arquivos ficam em `data/` e podem ser lidos direto, sem chave nem cadastro:
 
 ```
-https://raw.githubusercontent.com/aluadocoelho/eleicoes-2026-dados/main/data/pesquisas.json
+https://raw.githubusercontent.com/aluadocoelho/Eleicoes-de-2026/main/data/pesquisas.json
 ```
 
 Troque `pesquisas.json` pelo conjunto que quiser. Exemplo em Python:
 
 ```python
 import json, urllib.request
-url = "https://raw.githubusercontent.com/aluadocoelho/eleicoes-2026-dados/main/data/pesquisas.json"
+url = "https://raw.githubusercontent.com/aluadocoelho/Eleicoes-de-2026/main/data/pesquisas.json"
 pesquisas = json.load(urllib.request.urlopen(url))
 ```
 
