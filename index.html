@@ -6,7 +6,7 @@
 <title>Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula</title>
 <meta name="description" content="Pesquisas, redes sociais, agenda das campanhas, checagem de fatos e boatos desmentidos do 2º turno da eleição presidencial de 2026, em linguagem simples e com link para cada fonte.">
 <meta property="og:title" content="Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula">
-<meta property="og:description" content="Como está a disputa, quem disse mais coisas falsas, boatos desmentidos e agenda dos candidatos, com fonte em cada dado.">
+<meta property="og:description" content="Quem está na frente, quem disse mais coisas falsas, boatos desmentidos e agenda dos candidatos, com fonte em cada dado.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aluadocoelho.github.io/Eleicoes-de-2026/">
 <meta name="theme-color" content="#FFFFFF">
@@ -139,6 +139,46 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el [data-dash-source-state=empty]{color:transparent}
 .el [data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
 
+
+/* Início reorganizado */
+.el-intro{font-size:var(--cds-font-size-body);line-height:1.55;margin:0;padding:var(--cds-pad-md) var(--cds-pad-lg);background:#F6F8FB;border-radius:var(--cds-radius);border-left:4px solid #16181D}
+.el-banner{background:#1B1F27;color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:12px}
+.el-banner[hidden]{display:none}
+.el-bn-tag{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);letter-spacing:.06em;text-transform:uppercase;background:#FFFFFF;color:#1B1F27;border-radius:999px;padding:5px 12px}
+.el-bn-dot{width:8px;height:8px;border-radius:50%;background:#1B1F27}
+.el-bn-tag.el-live .el-bn-dot{background:#E5484D}
+@media (prefers-reduced-motion:no-preference){.el-bn-tag.el-live .el-bn-dot{animation:el-pulse 1.4s ease-in-out infinite}}
+@keyframes el-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.el-bn-t{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.5rem,5vw,2.1rem);line-height:1.15;margin:0}
+.el-bn-d{margin:0;color:#D5D9E0;line-height:1.5;font-size:var(--cds-font-size-body)}
+.el-bn-rows{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr))}
+.el-bn-row{display:flex;gap:10px;align-items:flex-start;background:rgba(255,255,255,.08);border-radius:8px;padding:12px}
+.el-bn-row svg{flex:none;margin-top:2px}
+.el-bn-l{display:block;font-size:var(--cds-font-size-caption);color:#AEB4BF;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.el-bn-v{display:block;line-height:1.45;font-size:var(--cds-font-size-body)}
+.el-bn-foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:var(--cds-font-size-caption);color:#AEB4BF}
+.el-bn-foot a{color:#FFFFFF;display:inline-flex;align-items:center;gap:4px;text-underline-offset:3px}
+.el-bn-foot .el-ext{color:#FFFFFF}
+.el-bn-count{font-weight:var(--cds-font-weight-medium);color:#FFFFFF;font-size:var(--cds-font-size-body)}
+.el-hero-q{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:4px 0 0}
+.el-hero .el-verdict{margin:6px 0 4px}
+.el-hero-plain{font-size:clamp(1.05rem,3.6vw,1.2rem);line-height:1.45;margin:0 0 var(--cds-gap-md)}
+.el-hero-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:4px 0 0;line-height:1.5}
+.el-sec{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.35rem,4.5vw,1.6rem);margin:var(--cds-gap-sm) 0 0}
+.el-qgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:var(--cds-gap-md)}
+.el-q{background:#FFFFFF;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:flex;flex-direction:column;gap:8px;min-width:0}
+.el-q-top{display:flex;align-items:center;gap:10px}
+.el-ico{width:38px;height:38px;border-radius:50%;background:#F1F3F6;display:inline-flex;align-items:center;justify-content:center;flex:none;color:#16181D}
+.el-q-t{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0;line-height:1.3}
+.el-q-a{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.55rem,5vw,1.9rem);line-height:1.15;margin:4px 0 0}
+.el-q-s{margin:0;line-height:1.55;font-size:var(--cds-font-size-body)}
+.el .el-q-s b{font-weight:var(--cds-font-weight-medium);font-variant-numeric:tabular-nums}
+.el-q-more{margin-top:auto;align-self:flex-start;appearance:none;background:none;border:0;padding:8px 0 0;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);color:var(--color-fg);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.el-mbars{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.el-mbar{display:grid;grid-template-columns:4rem 1fr 3.2rem;align-items:center;gap:10px;font-weight:var(--cds-font-weight-medium)}
+.el-mbar .el-track{height:12px}
+.el .el-mbar b{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.35rem;text-align:right;font-variant-numeric:tabular-nums}
+
 /* Celular */
 @media (max-width:40rem){
   .el-t .el-sm-hide{display:none}
@@ -175,16 +215,20 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <!-- ================= INÍCIO ================= -->
   <section class="el-page" id="inicio">
+    <div class="el-banner" id="banner" data-source="destaques" hidden></div>
+
     <div class="el-hero" id="hero">
-      <p class="el-eyebrow">Como está a disputa, segundo as pesquisas</p>
-      <h2 class="el-verdict" id="hero-verdict">—</h2>
+      <p class="el-eyebrow">Pergunta principal</p>
+      <h2 class="el-hero-q">Quem está na frente nas pesquisas?</h2>
+      <p class="el-verdict" id="hero-verdict">—</p>
+      <p class="el-hero-plain" id="hero-plain"></p>
       <div class="el-names">
         <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="resumo" data-field="media_flavio">—</span>%</span></div>
         <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="resumo" data-field="media_lula">—</span>%</span></div>
       </div>
       <div class="el-tug dash-skeleton" id="tug" data-source="resumo"></div>
       <div class="el-tug-mid"><span>metade dos votos</span></div>
-      <p class="el-explain">Juntando a pesquisa mais recente de cada instituto, Flávio tem em média <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>. <span id="hero-explain"></span></p>
+      <p class="el-hero-note">Média das pesquisas mais recentes de <span data-source="resumo" data-field="n">—</span> institutos, contando só os votos dados a um dos dois. Flávio aparece à frente em <span data-source="resumo" data-field="flavio_frente">—</span> delas; Lula, em <span data-source="resumo" data-field="lula_frente">—</span>.</p>
       <details class="el-details">
         <summary>O que é voto válido, margem de erro e empate técnico?</summary>
         <p><b>Votos válidos</b> são os votos dados a um dos candidatos, sem contar brancos e nulos. É assim que o TSE decide quem vence.</p>
@@ -194,83 +238,65 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <button class="el-cta" data-go="pesquisas">Ver todas as pesquisas →</button>
     </div>
 
-    <div class="el-card el-simple" id="card-falsas">
-      <h2 class="el-h">Quem disse mais coisas falsas até agora</h2>
-      <div class="el-names" style="margin-top:var(--cds-gap-sm)">
-        <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</span></span></div>
-        <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</span></span></div>
-      </div>
-      <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula.</p>
-      <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
-      <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>
-      <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
-      <table class="el-t el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
-        <thead><tr>
-          <th data-field="agencia">Checador</th>
-          <th data-field="candidato">Candidato</th>
-          <th class="el-num" data-field="falsas">Falsas</th>
-          <th class="el-num" data-field="total">Checadas</th>
-          <th class="el-num" data-field="taxa">Taxa de falsas</th>
-        </tr></thead>
-        <tbody></tbody>
-      </table>
-      <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas e lives, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
-      <button class="el-cta" data-go="checagem">Ver as falas checadas →</button>
+    <h2 class="el-sec">O que mais você precisa saber</h2>
+    <div class="el-qgrid">
+      <article class="el-q" id="q-tendencia">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><h3 class="el-q-t">Quem está subindo?</h3></div>
+        <p class="el-q-a" id="q-tend-a">—</p>
+        <p class="el-q-s">No começo do 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b>. Agora é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b>.</p>
+        <button class="el-q-more" data-go="pesquisas">Ver as pesquisas →</button>
+      </article>
+
+      <article class="el-q" id="q-pt">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="10" width="18" height="11" rx="2"/><path d="M8 10V4h8v6"/><path d="M10 7h4"/></svg></span><h3 class="el-q-t">Quem ganhou o 1º turno?</h3></div>
+        <p class="el-q-a" id="q-pt-a">—</p>
+        <p class="el-q-s"><span class="el-cf">Flávio teve <b data-source="primeiro_turno" data-where="candidato=Fl%C3%A1vio%20Bolsonaro" data-field="pct">—</b>%</span> e <span class="el-cl">Lula, <b data-source="primeiro_turno" data-where="candidato=Lula" data-field="pct">—</b>%</span>, em 4 de outubro. Como ninguém passou da metade, os dois voltam a disputar.</p>
+      </article>
+
+      <article class="el-q" id="q-falsas">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></svg></span><h3 class="el-q-t">Quem disse mais coisas falsas?</h3></div>
+        <div class="el-mbars" data-source="taxa_resumo">
+          <div class="el-mbar"><span class="el-cf">Flávio</span><div class="el-track"><div class="el-fill" id="mb-f"></div></div><b class="el-cf" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</b></div>
+          <div class="el-mbar"><span class="el-cl">Lula</span><div class="el-track"><div class="el-fill" id="mb-l"></div></div><b class="el-cl" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</b></div>
+        </div>
+        <p class="el-q-s">das falas checadas de cada um foram classificadas como falsas. O resultado muda conforme o checador.</p>
+        <button class="el-q-more" data-go="checagem">Ver as checagens →</button>
+      </article>
+
+      <article class="el-q" id="q-redes">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h3 class="el-q-t">Quem movimenta mais as redes?</h3></div>
+        <p class="el-q-a" id="q-redes-a">—</p>
+        <p class="el-q-s">Desde o 1º turno, Lula teve <b data-source="razao_redes" data-field="razao">—</b> vezes as curtidas, comentários e compartilhamentos de Flávio. Isso mostra mobilização, não quem vai ganhar.</p>
+        <button class="el-q-more" data-go="redes">Ver as redes →</button>
+      </article>
+
+      <article class="el-q" id="q-boatos">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3 class="el-q-t">Tem muito boato circulando?</h3></div>
+        <p class="el-q-a"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
+        <p class="el-q-s"><b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Antes de compartilhar algo, confira a fonte.</p>
+        <button class="el-q-more" data-go="checagem">Ver os boatos →</button>
+      </article>
+
+      <article class="el-q" id="q-voto">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><h3 class="el-q-t">Quando é a votação?</h3></div>
+        <p class="el-q-a" data-source="destaques" data-where="id=votacao" data-field="data">—</p>
+        <p class="el-q-s">Das <b data-source="destaques" data-where="id=votacao" data-field="hora_inicio">—</b> às <b data-source="destaques" data-where="id=votacao" data-field="hora_fim">—</b>, horário de Brasília. <span data-source="destaques" data-where="id=votacao" data-field="como_assistir">—</span></p>
+      </article>
     </div>
 
-    <div class="el-grid">
-      <div class="el-card el-simple" id="card-tendencia">
-        <h2 class="el-h">Para onde a disputa está indo</h2>
-        <p class="el-big">Movimento <span data-source="tendencia" data-field="movimento">—</span></p>
-        <p class="el-txt">Nas primeiras pesquisas do 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b>. Nas mais recentes, é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b>.</p>
-        <p class="el-txt el-muted">Média dos <span data-source="tendencia" data-field="n">—</span> institutos que já fizeram mais de uma pesquisa.</p>
-      </div>
-
-      <div class="el-card el-simple" id="card-pt-simples">
-        <h2 class="el-h">Como foi o 1º turno</h2>
-        <p class="el-big"><span class="el-cf">Flávio <span data-source="primeiro_turno" data-where="candidato=Fl%C3%A1vio%20Bolsonaro" data-field="pct">—</span>%</span> · <span class="el-cl">Lula <span data-source="primeiro_turno" data-where="candidato=Lula" data-field="pct">—</span>%</span></p>
-        <p class="el-txt">Em 4 de outubro, Flávio ficou na frente por <b data-source="pt_dif" data-field="dif">—</b> pontos, o equivalente a <b data-source="pt_dif" data-field="votos">—</b> votos. Como ninguém passou da metade, os dois voltam a disputar.</p>
-      </div>
-
-      <div class="el-card el-simple" id="card-redes-simples">
-        <h2 class="el-h">Nas redes sociais</h2>
-        <p class="el-big">Lula com <span data-source="razao_redes" data-field="razao">—</span>× mais interações</p>
-        <p class="el-txt">Desde o 1º turno, os perfis de Lula somaram <b data-source="razao_redes" data-field="lula">—</b> curtidas, comentários e compartilhamentos, contra <b data-source="razao_redes" data-field="flavio">—</b> de Flávio.</p>
-        <p class="el-txt el-muted">Atenção: engajamento mostra mobilização, não intenção de voto.</p>
-        <button class="el-cta" data-go="redes">Ver redes sociais →</button>
-      </div>
-
-      <div class="el-card el-simple" id="card-boatos-simples">
-        <h2 class="el-h">Cuidado com boatos</h2>
-        <p class="el-big"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
-        <p class="el-txt"><b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Os mais recentes:</p>
-        <table class="el-t el-stk" id="t-boatos-mini" data-source="boatos" data-row-key="id">
-          <thead class="el-vh"><tr><th data-field="boato">Boato</th><th data-field="veredito">Selo</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Antes de compartilhar, confira a fonte.</p>
-        <button class="el-cta" data-go="checagem">Ver checagem de fatos →</button>
-      </div>
-
-      <div class="el-card el-simple" id="card-agenda-simples">
-        <h2 class="el-h">Próximos dias</h2>
-        <table class="el-t el-stk" id="t-agenda-mini" data-source="agenda" data-row-key="data">
-          <thead><tr><th data-field="data">Dia</th><th data-field="lula">Lula</th><th data-field="flavio">Flávio</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <button class="el-cta" data-go="campanha">Ver agenda e campanhas →</button>
-      </div>
-
-      <div class="el-card el-simple">
-        <h2 class="el-h">Dia da votação</h2>
-        <p class="el-big">Domingo, 25 de outubro</p>
-        <p class="el-txt">Das 8h às 17h, no horário de Brasília. Leve um documento oficial com foto. Quem não votou no 1º turno também pode votar no 2º.</p>
-      </div>
+    <div class="el-card el-simple" id="card-agenda-simples">
+      <h2 class="el-h">O que os candidatos fazem nos próximos dias</h2>
+      <table class="el-t el-stk" id="t-agenda-mini" data-source="agenda" data-row-key="data">
+        <thead><tr><th data-field="data">Dia</th><th data-field="lula">Lula</th><th data-field="flavio">Flávio</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <button class="el-cta" data-go="campanha">Ver agenda completa →</button>
     </div>
   </section>
 
   <!-- ================= PESQUISAS ================= -->
   <section class="el-page" id="pesquisas" hidden>
+    <p class="el-intro">Aqui estão todas as pesquisas do 2º turno. No gráfico, cada bolinha é uma pesquisa: quanto mais acima da linha do meio, mais Flávio está à frente; quanto mais abaixo, mais Lula.</p>
     <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
     <div class="el-kpis">
       <div class="el-card">
@@ -345,6 +371,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <!-- ================= REDES ================= -->
   <section class="el-page" id="redes" hidden>
+    <p class="el-intro">Como os dois candidatos se saem nas redes sociais. Lembre: curtidas e seguidores mostram quem está mobilizando apoiadores, não quem vai ganhar.</p>
     <div class="el-kpis">
       <div class="el-card">
         <div class="el-kpi-label">Interações de Lula ÷ Flávio · 2º turno</div>
@@ -388,6 +415,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <!-- ================= CAMPANHAS ================= -->
   <section class="el-page" id="campanha" hidden>
+    <p class="el-intro">O que cada candidato vai fazer nos próximos dias e o que já aconteceu na campanha, do mais recente ao mais antigo.</p>
     <div class="el-card" id="card-agenda">
       <h2 class="el-h">Agenda da última semana</h2>
       <p class="el-note">Compromissos divulgados pelas campanhas; podem mudar.</p>
@@ -429,6 +457,30 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         <span><i class="el-dot" style="background:var(--f-mid)"></i>Impreciso ou sem contexto</span>
         <span><i class="el-dot" style="background:var(--f-false)"></i>Falso</span>
       </div>
+    </div>
+
+    <div class="el-card el-simple" id="card-falsas">
+      <h2 class="el-h">Quem disse mais coisas falsas até agora</h2>
+      <p class="el-note" style="margin-bottom:0">Só falas dos próprios candidatos, em entrevistas, lives e debates.</p>
+      <div class="el-names" style="margin-top:var(--cds-gap-sm)">
+        <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</span></span></div>
+        <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</span></span></div>
+      </div>
+      <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula.</p>
+      <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
+      <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>
+      <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
+      <table class="el-t el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
+        <thead><tr>
+          <th data-field="agencia">Checador</th>
+          <th data-field="candidato">Candidato</th>
+          <th class="el-num" data-field="falsas">Falsas</th>
+          <th class="el-num" data-field="total">Checadas</th>
+          <th class="el-num" data-field="taxa">Taxa de falsas</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas e lives, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
     </div>
 
     <div class="el-card" id="card-placar">
@@ -562,7 +614,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -1146,6 +1198,69 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const byDateDesc = (a, b) => String(b.data).localeCompare(String(a.data)) || String(a.id).localeCompare(String(b.id));
   const todayISO = () => { const t = new Date(); return new Date(t.getTime() - t.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
 
+  // ---------- Banner do próximo evento ----------
+  const longDate = v => { const s = new Date(String(v).slice(0, 10) + "T12:00:00Z").toLocaleDateString("pt-BR", {weekday: "long", day: "numeric", month: "long", timeZone: "UTC"}); return s.charAt(0).toUpperCase() + s.slice(1); };
+  const hFmt = v => { if (!v) return "—"; const [hh, mm] = String(v).split(":"); return String(Number(hh)) + "h" + (mm && mm !== "00" ? mm : ""); };
+  const spDate = d => d.toLocaleDateString("sv-SE", {timeZone: "America/Sao_Paulo"});
+  const BICO = {
+    quando: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+    onde: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+    como: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg>'
+  };
+  function svgFrom(str) { const t = document.createElement("template"); t.innerHTML = str; return t.content.firstChild; }
+  function evTimes(e) {
+    const start = e.hora_inicio ? new Date(e.data + "T" + e.hora_inicio + ":00-03:00") : new Date(e.data + "T00:00:00-03:00");
+    const end = e.hora_fim ? new Date(e.data + "T" + e.hora_fim + ":00-03:00") : new Date(e.data + "T23:59:00-03:00");
+    return {start, end};
+  }
+  function renderBanner() {
+    const box = document.getElementById("banner");
+    if (!box) return;
+    const d = dash.data("destaques");
+    if (d.status !== "ok" || !d.data || !d.data.length) { box.hidden = true; box.replaceChildren(); return; }
+    const now = new Date();
+    const evs = d.data.slice().map(e => ({e, t: evTimes(e)})).filter(x => x.t.end >= now).sort((a, b) => a.t.start - b.t.start);
+    if (!evs.length) { box.hidden = true; box.replaceChildren(); return; }
+    const {e, t} = evs[0];
+    const today = spDate(now), tomorrow = spDate(new Date(now.getTime() + 86400000));
+    const live = now >= t.start && now <= t.end && !!e.hora_inicio;
+    const dayWord = e.data === today ? "Hoje" : e.data === tomorrow ? "Amanhã" : longDate(e.data);
+    const tagText = live ? "Ao vivo agora" : (e.data === today ? "Hoje" : e.data === tomorrow ? "Amanhã" : longDate(e.data).split(",")[0] + ", " + dFmt(dParse(e.data))) + (e.hora_inicio ? " · " + hFmt(e.hora_inicio) : "");
+    const whenText = (e.data === today || e.data === tomorrow ? dayWord + ", " + longDate(e.data).toLowerCase() : dayWord) + (e.hora_inicio ? ", das " + hFmt(e.hora_inicio) + (e.hora_fim ? " às " + hFmt(e.hora_fim) : "") : ", horário a confirmar") + " (horário de Brasília)";
+    const labels = e.tipo === "Votação" ? ["Quando", "Onde votar", "Importante"] : ["Quando", "Onde", "Como assistir"];
+    box.replaceChildren();
+    const tag = document.createElement("span"); tag.className = "el-bn-tag" + (live ? " el-live" : "");
+    const dot = document.createElement("i"); dot.className = "el-bn-dot"; tag.append(dot, document.createTextNode(tagText));
+    const h = document.createElement("h2"); h.className = "el-bn-t"; h.textContent = e.titulo;
+    box.append(tag, h);
+    if (e.descricao) { const p = document.createElement("p"); p.className = "el-bn-d"; p.textContent = e.descricao; box.appendChild(p); }
+    const rows = document.createElement("div"); rows.className = "el-bn-rows";
+    [[BICO.quando, labels[0], whenText], [BICO.onde, labels[1], e.local], [BICO.como, labels[2], e.como_assistir]].forEach(([ico, l, v]) => {
+      if (!v) return;
+      const r = document.createElement("div"); r.className = "el-bn-row";
+      r.appendChild(svgFrom(ico));
+      const w = document.createElement("div");
+      const a = document.createElement("span"); a.className = "el-bn-l"; a.textContent = l;
+      const b = document.createElement("span"); b.className = "el-bn-v"; b.textContent = v;
+      w.append(a, b); r.appendChild(w); rows.appendChild(r);
+    });
+    box.appendChild(rows);
+    const foot = document.createElement("div"); foot.className = "el-bn-foot";
+    const c = document.createElement("span"); c.className = "el-bn-count";
+    if (live) c.textContent = "Está acontecendo agora.";
+    else if (e.hora_inicio) {
+      const mins = Math.max(0, Math.round((t.start - now) / 60000));
+      const dd = Math.floor(mins / 1440), hh = Math.floor((mins % 1440) / 60), mm = mins % 60;
+      c.textContent = "Começa em " + (dd ? dd + (dd === 1 ? " dia" : " dias") + (hh ? " e " + hh + "h" : "") : (hh ? hh + "h " : "") + mm + "min");
+    } else c.textContent = "";
+    foot.appendChild(c);
+    const u = safeUrl(e.url);
+    if (u) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = "Fonte"; a.appendChild(extIcon()); foot.appendChild(a); }
+    box.appendChild(foot);
+    box.hidden = false;
+  }
+  setInterval(renderBanner, 30000);
+
   // ---------- Desenho ----------
   function redraw() {
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
@@ -1159,14 +1274,33 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     // Início
     const rs = dash.data("resumo");
-    const hv = document.getElementById("hero-verdict"), he = document.getElementById("hero-explain"), vd = document.getElementById("verdict");
+    const hv = document.getElementById("hero-verdict"), he = document.getElementById("hero-plain"), vd = document.getElementById("verdict");
     if (rs.status === "ok" && rs.data && rs.data[0]) {
       const r = rs.data[0], tie = Math.abs(r.dif) <= 2;
       hv.textContent = tie ? "Empate técnico" : (r.dif > 0 ? "Flávio à frente" : "Lula à frente");
       hv.style.color = tie ? "var(--color-fg)" : (r.dif > 0 ? CF : CL);
-      he.textContent = tie ? "A diferença entre os dois é menor do que a margem de erro das pesquisas. Na prática, a disputa está aberta e qualquer um pode vencer." : "A diferença é maior do que a margem de erro da maioria das pesquisas.";
+      he.textContent = tie ? "Os dois estão praticamente empatados. Qualquer um pode vencer." : (r.dif > 0 ? "Flávio está à frente, com uma diferença maior que a margem de erro." : "Lula está à frente, com uma diferença maior que a margem de erro.");
       vd.textContent = tie ? "Diferença dentro da margem de erro: empate técnico." : "";
     } else { hv.textContent = "—"; he.textContent = ""; vd.textContent = ""; }
+
+    // Respostas curtas
+    const setAns = (id, text, color) => { const el = document.getElementById(id); if (!el) return; el.textContent = text; el.style.color = color || ""; };
+    const td0 = dash.data("tendencia"), tdr = td0.status === "ok" && td0.data && td0.data[0];
+    if (tdr) setAns("q-tend-a", tdr.movimento === "a favor de Lula" ? "Lula" : tdr.movimento === "a favor de Flávio" ? "Flávio" : "Ninguém: está estável", tdr.movimento === "a favor de Lula" ? CL : tdr.movimento === "a favor de Flávio" ? CF : null);
+    else setAns("q-tend-a", "—");
+    const pd0 = dash.data("pt_dif"), pdr = pd0.status === "ok" && pd0.data && pd0.data[0];
+    if (pdr) setAns("q-pt-a", pdr.dif > 0 ? (pdr.dif < 3 ? "Flávio, por pouco" : "Flávio") : pdr.dif < 0 ? (pdr.dif > -3 ? "Lula, por pouco" : "Lula") : "Empate", pdr.dif > 0 ? CF : pdr.dif < 0 ? CL : null);
+    else setAns("q-pt-a", "—");
+    const rz0 = dash.data("razao_redes"), rzr = rz0.status === "ok" && rz0.data && rz0.data[0];
+    if (rzr) setAns("q-redes-a", rzr.razao > 1 ? "Lula" : rzr.razao < 1 ? "Flávio" : "Empatados", rzr.razao > 1 ? CL : rzr.razao < 1 ? CF : null);
+    else setAns("q-redes-a", "—");
+    const tx0 = dash.data("taxa_resumo");
+    const txOf = c => { const r = tx0.status === "ok" ? (tx0.data || []).find(x => x.candidato === c) : null; return r && r.taxa != null ? r.taxa : null; };
+    const mbf = document.getElementById("mb-f"), mbl = document.getElementById("mb-l");
+    if (mbf) { const v = txOf("Flávio"); mbf.style.width = v == null ? "0" : Math.max(2, v * 100) + "%"; mbf.style.background = CF; }
+    if (mbl) { const v = txOf("Lula"); mbl.style.width = v == null ? "0" : Math.max(2, v * 100) + "%"; mbl.style.background = CL; }
+    fillMarks("destaques", {data: longDate, hora_inicio: hFmt, hora_fim: hFmt});
+    renderBanner();
     const tug = document.getElementById("tug");
     const tr = blockState(tug, "resumo");
     drawTug(tug, tr && tr[0]);
@@ -1179,11 +1313,6 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       {f: "agencia"},
       {f: "candidato", render: (td, r) => td.append("span").style("color", r.candidato === "Lula" ? CL : CF).style("font-weight", "var(--cds-font-weight-medium)").text(r.candidato)},
       {f: "falsas", fmt: fInt, cls: "el-num"}, {f: "total", fmt: fInt, cls: "el-num"}, {f: "taxa", fmt: fPct0, cls: "el-num"}
-    ], r => r.id);
-
-    const boAll = blockState(document.getElementById("t-boatos-mini"), "boatos");
-    table("#t-boatos-mini", boAll ? boAll.slice().sort(byDateDesc).slice(0, 3) : null, [
-      {f: "boato"}, {f: "veredito", render: dotCell("veredito", () => CAT["Falso"])}
     ], r => r.id);
 
     const agAll = blockState(document.getElementById("t-agenda-mini"), "agenda");

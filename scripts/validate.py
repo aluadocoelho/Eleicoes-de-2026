@@ -92,6 +92,13 @@ SCHEMAS = {
         },
         "required": ["id", "data", "alvo", "boato", "veredito", "agencia", "url", "beneficiado", "origem_campo"],
     },
+    "destaques": {
+        "key": "id",
+        "fields": ["id", "tipo", "titulo", "data", "hora_inicio", "hora_fim", "local", "como_assistir", "descricao", "url"],
+        "dates": ["data"],
+        "enums": {"tipo": ["Debate", "Votação", "Entrevista", "Outro"]},
+        "required": ["id", "tipo", "titulo", "data", "url"],
+    },
 }
 
 
@@ -142,6 +149,13 @@ def check(name, spec, rows):
                     errs.append(f"{name}[{i}]: verdadeiro + impreciso + falso ≠ total")
             except (KeyError, TypeError):
                 pass
+    if name == "destaques":
+        hora = re.compile(r"^\d{2}:\d{2}$")
+        for i, r in enumerate(rows):
+            for f in ("hora_inicio", "hora_fim"):
+                v = r.get(f)
+                if v is not None and not hora.match(str(v)):
+                    errs.append(f"{name}[{i}]: {f} deveria ser HH:MM, veio {v!r}")
     if name == "boatos":
         for i, r in enumerate(rows):
             if r.get("alvo") and r.get("beneficiado") and r["alvo"] == r["beneficiado"]:

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "debate-band",
+  "tipo": "Debate",
+  "titulo": "Debate na Band: Lula × Flávio",
+  "data": "2026-10-18",
+  "hora_inicio": "20:00",
+  "hora_fim": "22:00",
+  "local": "Estúdios da Band, em São Paulo",
+  "como_assistir": "TV aberta: Band (pré-debate às 19h30). TV por assinatura: BandNews TV. Internet: band.com.br, app Bandplay e YouTube (Band Jornalismo). Rádio: Rádio Bandeirantes e BandNews FM.",
+  "descricao": "Primeiro encontro cara a cara dos dois no 2º turno, com perguntas de jornalistas da Band e de veículos parceiros.",
+  "url": "https://www.band.com.br/politica/eleicoes/o-que-voce-precisa-saber-sobre-o-debate-entre-lula-e-flavio-na-band"
+ },
+ {
+  "id": "debate-globo",
+  "tipo": "Debate",
+  "titulo": "Debate na TV Globo",
+  "data": "2026-10-23",
+  "hora_inicio": null,
+  "hora_fim": null,
+  "local": "TV Globo",
+  "como_assistir": "TV Globo. Horário e canais de transmissão ainda não confirmados.",
+  "descricao": "Último debate antes da votação.",
+  "url": "https://www.infomoney.com.br/politica/lula-e-flavio-confirmam-debate-na-band-confronto-pode-mudar-dinamica-do-2o-turno/"
+ },
+ {
+  "id": "votacao",
+  "tipo": "Votação",
+  "titulo": "Dia da votação do 2º turno",
+  "data": "2026-10-25",
+  "hora_inicio": "08:00",
+  "hora_fim": "17:00",
+  "local": "Na sua seção eleitoral (o local aparece no título de eleitor e no app e-Título)",
+  "como_assistir": "Leve um documento oficial com foto. Quem não votou no 1º turno também pode votar no 2º.",
+  "descricao": "Horário de Brasília.",
+  "url": "https://metropoles.com/brasil/flavio-tenta-deixar-defensiva-e-mobilizar-aliados-na-reta-final-do-2o-turno"
+ }
+]

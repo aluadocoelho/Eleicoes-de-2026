@@ -38,6 +38,7 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 | `checagens_placar.json` | Contagem de selos por candidato, checador e evento | `id, candidato, agencia, evento, data, total, verdadeiro, impreciso, falso, nota, url` |
 | `checagens.json` | Falas dos candidatos checadas, uma por linha | `id, data, candidato, agencia, evento, afirmacao, veredito, categoria, explicacao, url, direcao` |
 | `boatos.json` | Conteúdos virais desmentidos ou retirados pelo TSE | `id, data, alvo, boato, veredito, agencia, explicacao, url, beneficiado, origem_campo, origem_detalhe, tema` |
+| `destaques.json` | Próximos eventos (debates, dia da votação) para o banner da página | `id, tipo, titulo, data, hora_inicio, hora_fim, local, como_assistir, descricao, url` |
 | `factcheck_api.json` | Checagens brutas da Google Fact Check Tools API (aparece após a primeira busca) | `id, termo, afirmacao, quem_disse, data_afirmacao, checador, selo, titulo, data_checagem, url` |
 
 ### Critérios
