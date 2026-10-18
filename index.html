@@ -1696,8 +1696,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   // ---------- Códigos de verificação ----------
   const SELO_KEY = {pesquisas: "id", ultimas: "id", primeiro_turno: "candidato", transferencia: "id", redes: "id", sinais: "id", agenda: "data", campanha: "id", destaques: "id", checagens_placar: "id", checagens: "id", boatos: "id", aovivo: "id"};
   let seloMap = null, seloAll = null;
+  // Os códigos só existem na página pública; no painel, este conjunto não existe e é ignorado.
+  function selosData() { try { const d = dash.data("selos"); return d && d.status ? d : {status: "missing", data: []}; } catch (e) { return {status: "missing", data: []}; } }
   function loadSelos() {
-    const d = dash.data("selos");
+    const d = selosData();
     if (d.status !== "ok" || !d.data) { seloMap = null; seloAll = null; return; }
     if (seloAll === d.data) return;
     seloAll = d.data; seloMap = {};
@@ -1732,7 +1734,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const set = (color, txt) => { box.style.setProperty("--vf-c", color); st.append(mk("i"), document.createTextNode(txt)); box.appendChild(st); };
     const code = normCode(raw);
     if (!code) { set("var(--color-bad)", "Código incompleto"); box.appendChild(mk("p", null, "O código tem 8 letras e números, como 3F9A-12C7. Confira se digitou tudo.")); out.appendChild(box); return; }
-    const d = dash.data("selos");
+    const d = selosData();
     if (d.status !== "ok") {
       set("var(--color-fg-muted)", d.status === "loading" ? "Carregando os códigos…" : "A verificação não está disponível aqui");
       if (d.status !== "loading") { const p = mk("p", null, "Confira na página pública: "); const a = document.createElement("a"); a.href = "https://aluadocoelho.github.io/Eleicoes-de-2026/#verificar=" + code; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = "aluadocoelho.github.io/Eleicoes-de-2026"; p.appendChild(a); box.appendChild(p); }
