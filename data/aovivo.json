@@ -63,5 +63,18 @@
   "categoria": null,
   "fonte": "Band",
   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ },
+ {
+  "id": "band-06",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "20:01",
+  "tipo": "Momento",
+  "candidato": null,
+  "texto": "O início do debate foi adiado em 15 minutos e deve começar por volta das 20h15, segundo a cobertura ao vivo da Exame. Até agora, a página da Band ainda mostra 20h.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Exame (ao vivo)",
+  "url": "https://exame.com/live-blog/brasil/debate-da-band-lula-e-flavio-bolsonaro-ao-vivo/"
  }
 ]
