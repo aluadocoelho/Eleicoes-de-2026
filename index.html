@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula</title>
+<meta name="description" content="Pesquisas, redes sociais, agenda das campanhas, checagem de fatos e boatos desmentidos do 2º turno da eleição presidencial de 2026, em linguagem simples e com link para cada fonte.">
+<meta property="og:title" content="Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula">
+<meta property="og:description" content="Como está a disputa, quem disse mais coisas falsas, boatos desmentidos e agenda dos candidatos, com fonte em cada dado.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aluadocoelho.github.io/Eleicoes-de-2026/">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='8' width='14' height='16' rx='3' fill='%231F4FA8'/%3E%3Crect x='16' y='8' width='14' height='16' rx='3' fill='%23D62B2B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --font-anthropic-sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-anthropic-serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --cds-font-size-caption:.8125rem; --cds-font-size-body:.9375rem; --cds-font-size-heading:1.0625rem; --cds-font-size-title:1.75rem;
+  --cds-font-weight-medium:600;
+  --cds-gap-xs:4px; --cds-gap-sm:8px; --cds-gap-md:16px; --cds-gap-lg:24px; --cds-gap-xl:40px;
+  --cds-pad-xs:4px; --cds-pad-sm:8px; --cds-pad-md:14px; --cds-pad-lg:20px; --cds-pad-xl:32px;
+  --cds-radius:10px; --cds-shadow-popover:0 6px 24px rgba(16,24,40,.12); --cds-dur-slow:.3s;
+}
+html,body{margin:0;padding:0;background:#FFFFFF}
+body{-webkit-text-size-adjust:100%}
+.dash-skeleton{color:transparent!important;background:linear-gradient(90deg,#EEF0F3 25%,#F6F7F9 50%,#EEF0F3 75%);background-size:200% 100%;border-radius:6px}
+span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
+@media (prefers-reduced-motion:no-preference){.dash-skeleton{animation:el-sk 1.2s linear infinite}}
+@keyframes el-sk{from{background-position:200% 0}to{background-position:-200% 0}}
+.el-foot a{color:inherit}
+
+.el{
+  --cf:#1F4FA8; --cl:#D62B2B;
+  --f-true:#1E7B47; --f-mid:#C98A0B; --f-false:#26282E;
+  --color-fg:#16181D; --color-fg-muted:#5A6170; --color-bg:#FFFFFF; --color-panel:#FFFFFF; --color-border-line:#E4E7EC;
+  --color-ok:#1E7B47; --color-warn:#C98A0B; --color-bad:#B42318;
+  --cds-chart-grid:#EEF0F3; --cds-chart-axis:#C8CDD6; --cds-chart-reference:#9AA0AC; --cds-chart-muted:#C3C8D1;
+  --cds-surface-popover:#FFFFFF; --cds-border:#E4E7EC; --cds-text-secondary:#5A6170;
+  color-scheme:light;
+  background:#FFFFFF; color:var(--color-fg);
+  font-family:var(--font-anthropic-sans);
+  display:flex; flex-direction:column; gap:var(--cds-gap-lg);
+  padding:clamp(16px,4vw,40px); min-height:100%; box-sizing:border-box;
+}
+.el *{box-sizing:border-box}
+.el-wrap{max-width:72rem;width:100%;margin-inline:auto;display:flex;flex-direction:column;gap:var(--cds-gap-lg)}
+.el-eyebrow{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.06em;margin:0}
+.el-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);line-height:1.15;margin:var(--cds-gap-xs) 0 0}
+.el-legend{display:flex;gap:var(--cds-gap-md);flex-wrap:wrap;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:var(--cds-gap-sm)}
+.el-legend span{display:inline-flex;align-items:center;gap:var(--cds-gap-xs)}
+.el-dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;flex:none}
+.el-cf{color:var(--cf)} .el-cl{color:var(--cl)}
+.el-tabs{display:flex;gap:2px;border-bottom:1px solid var(--color-border-line);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;position:sticky;top:0;background:#FFFFFF;z-index:2}
+.el-tabs::-webkit-scrollbar{display:none}
+.el-tab{appearance:none;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:12px 14px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);color:var(--color-fg-muted);cursor:pointer;white-space:nowrap}
+.el-tab[aria-selected="true"]{color:var(--color-fg);border-bottom-color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.el-page{display:flex;flex-direction:column;gap:var(--cds-gap-md)}
+.el-page[hidden]{display:none}
+.el-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:var(--cds-gap-md)}
+.el-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
+.el-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.el-kpi-label{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.el-kpi-val{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;line-height:1.2;margin-top:var(--cds-gap-xs)}
+.el-kpi-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:var(--cds-gap-xs)}
+.el-h{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0}
+.el-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
+.el-take{margin:0;color:var(--color-fg-muted);font-size:var(--cds-font-size-body);line-height:1.5}
+.el .el-take b,.el .el-txt b{font-weight:var(--cds-font-weight-medium);color:var(--color-fg);font-variant-numeric:tabular-nums}
+.el-txt{font-size:var(--cds-font-size-body);line-height:1.55;margin:0 0 var(--cds-gap-sm)}
+.el-muted{color:var(--color-fg-muted)}
+
+/* Início */
+.el-hero{background:#F6F8FB;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:clamp(18px,4vw,32px)}
+.el-verdict{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(2rem,7vw,3.25rem);line-height:1.05;margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
+.el-names{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--cds-gap-md);margin-bottom:var(--cds-gap-sm)}
+.el-name{display:flex;flex-direction:column;gap:2px}
+.el-name.el-r{text-align:right;align-items:flex-end}
+.el-name-n{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium)}
+.el-name-p{font-family:var(--font-anthropic-serif);font-size:clamp(1.75rem,6vw,2.5rem);line-height:1;font-variant-numeric:tabular-nums}
+.el-tug{position:relative;display:flex;height:22px;border-radius:999px;overflow:hidden;background:var(--cds-chart-grid)}
+.el-tug i{display:block;height:100%}
+.el-tug-mid{position:relative;height:28px}
+.el-tug-mid::before{content:"";position:absolute;left:50%;top:-30px;height:34px;width:2px;background:#16181D;transform:translateX(-1px)}
+.el-tug-mid span{position:absolute;left:50%;top:6px;transform:translateX(-50%);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);white-space:nowrap}
+.el-explain{font-size:var(--cds-font-size-body);line-height:1.55;margin:var(--cds-gap-sm) 0 0}
+.el-details{margin-top:var(--cds-gap-md);font-size:var(--cds-font-size-body)}
+.el-details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:var(--cds-font-weight-medium)}
+.el-details p{margin:var(--cds-gap-xs) 0;color:var(--color-fg-muted);line-height:1.55}
+.el-cta{appearance:none;background:#FFFFFF;border:1px solid var(--color-fg);color:var(--color-fg);border-radius:999px;padding:10px 18px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);cursor:pointer;margin-top:var(--cds-gap-md);display:inline-flex;align-items:center;gap:8px}
+.el-cta:hover{background:#F2F4F7}
+.el-simple .el-h{margin-bottom:var(--cds-gap-sm)}
+.el-big{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);line-height:1.15;margin:0 0 var(--cds-gap-sm)}
+.el-vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Gráficos e tabelas */
+.el-chart{position:relative;min-height:300px}
+.el-chart-sm{position:relative;min-height:184px}
+.el-tip{position:absolute;top:0;left:0;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);pointer-events:none;opacity:0;white-space:nowrap;font-variant-numeric:tabular-nums;z-index:3}
+.el-tip .el-tip-d{color:var(--cds-text-secondary)}
+.el-scroll{overflow:auto;max-height:32rem}
+table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.el-t th{text-align:left;font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted);border-bottom:1px solid var(--color-border-line);padding:var(--cds-pad-xs) var(--cds-pad-sm);position:sticky;top:0;background:var(--color-panel);white-space:nowrap}
+.el-t td{border-bottom:1px solid var(--color-border-line);padding:var(--cds-pad-sm);vertical-align:top;line-height:1.45}
+.el-t .el-num{text-align:right;white-space:nowrap}
+.el-t .el-nowrap{white-space:nowrap}
+.el-t a{color:var(--color-fg);text-decoration:underline;text-decoration-color:var(--color-border-line);text-underline-offset:3px;display:inline-flex;align-items:center;gap:4px}
+.el-t a:hover{text-decoration-color:var(--color-fg)}
+.el-ext{flex:none;color:var(--color-fg-muted)}
+.el-div{display:flex;align-items:center;gap:var(--cds-gap-sm);white-space:nowrap}
+.el-div-track{position:relative;flex:1;min-width:4rem;height:.5rem}
+.el-div-track::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--cds-chart-reference)}
+.el-div-bar{position:absolute;top:0;height:100%;border-radius:999px}
+.el-pair{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--cds-gap-xs) var(--cds-gap-sm)}
+.el-track{height:.5rem;border-radius:999px;background:var(--cds-chart-grid);overflow:hidden}
+.el-fill{height:100%;border-radius:999px}
+.el-rm{padding:var(--cds-pad-sm) 0;border-bottom:1px solid var(--color-border-line)}
+.el-rm:last-child{border-bottom:0}
+.el-rm-t{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium)}
+.el-rm-s{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-bottom:var(--cds-gap-xs);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.el-rm-s a{color:var(--color-fg-muted);display:inline-flex;align-items:center;gap:4px;text-underline-offset:3px}
+.el-rm .el-pair{font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.el-badge{display:inline-block;padding:0 var(--cds-pad-xs);border-radius:var(--cds-radius);border:1px solid var(--color-border-line);white-space:nowrap;color:var(--color-fg-muted)}
+.el-src{color:var(--color-fg-muted)}
+.el-foot{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0}
+.el-chips{display:flex;flex-wrap:wrap;gap:var(--cds-gap-xs);align-items:center;margin-bottom:var(--cds-gap-sm)}
+.el-chip-l{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-right:var(--cds-gap-xs)}
+.el-chip{appearance:none;font:inherit;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line);background:#FFFFFF;color:var(--color-fg-muted);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
+.el-chip[aria-pressed="true"]{color:#FFFFFF;background:var(--color-fg);border-color:var(--color-fg)}
+.el-stack{display:flex;height:.5rem;border-radius:999px;overflow:hidden;min-width:5rem;flex:1;gap:2px}
+.el-stack i{display:block;height:100%}
+.el-vd{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.el-howto p{margin:var(--cds-gap-xs) 0 0;font-size:var(--cds-font-size-body);color:var(--color-fg-muted);max-width:60rem;line-height:1.55}
+.el-t .el-mx span{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-heading);font-variant-numeric:tabular-nums}
+.el-fail{display:flex;align-items:center;justify-content:center;gap:var(--cds-gap-xs);color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);min-height:inherit;height:100%}
+.el-fail::before{content:"";width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)}
+.el [data-dash-source-state=empty]{color:transparent}
+.el [data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+
+/* Celular */
+@media (max-width:40rem){
+  .el-t .el-sm-hide{display:none}
+  .el-card{padding:var(--cds-pad-md)}
+  .el-t.el-stk thead{display:none}
+  .el-t.el-stk,.el-t.el-stk tbody{display:block}
+  .el-t.el-stk tr{display:block;border-bottom:1px solid var(--color-border-line);padding:var(--cds-pad-sm) 0}
+  .el-t.el-stk td{display:block;border:0;padding:3px 0;font-size:var(--cds-font-size-body)}
+  .el-t.el-stk td.el-num{text-align:left}
+  .el-t.el-stk td[data-label]::before{content:attr(data-label);display:block;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-bottom:1px}
+  .el-scroll{max-height:none}
+  .el-names .el-name-n{font-size:var(--cds-font-size-caption)}
+}
+</style>
+</head>
+<body>
+<div class="el"><div class="el-wrap">
+  <header>
+    <p class="el-eyebrow">Eleição presidencial 2026 · 2º turno</p>
+    <h1 class="el-title">Flávio Bolsonaro × Lula</h1>
+    <div class="el-legend">
+      <span><i class="el-dot" style="background:var(--cf)"></i>Flávio Bolsonaro (PL)</span>
+      <span><i class="el-dot" style="background:var(--cl)"></i>Lula (PT)</span>
+    </div>
+  </header>
+
+  <nav class="el-tabs" role="tablist">
+    <button class="el-tab" role="tab" data-tab="inicio" aria-selected="true">Início</button>
+    <button class="el-tab" role="tab" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
+    <button class="el-tab" role="tab" data-tab="redes" aria-selected="false">Redes sociais</button>
+    <button class="el-tab" role="tab" data-tab="campanha" aria-selected="false">Campanhas</button>
+    <button class="el-tab" role="tab" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
+  </nav>
+
+  <!-- ================= INÍCIO ================= -->
+  <section class="el-page" id="inicio">
+    <div class="el-hero" id="hero">
+      <p class="el-eyebrow">Como está a disputa, segundo as pesquisas</p>
+      <h2 class="el-verdict" id="hero-verdict">—</h2>
+      <div class="el-names">
+        <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="resumo" data-field="media_flavio">—</span>%</span></div>
+        <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="resumo" data-field="media_lula">—</span>%</span></div>
+      </div>
+      <div class="el-tug dash-skeleton" id="tug" data-source="resumo"></div>
+      <div class="el-tug-mid"><span>metade dos votos</span></div>
+      <p class="el-explain">Juntando a pesquisa mais recente de cada instituto, Flávio tem em média <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>. <span id="hero-explain"></span></p>
+      <details class="el-details">
+        <summary>O que é voto válido, margem de erro e empate técnico?</summary>
+        <p><b>Votos válidos</b> são os votos dados a um dos candidatos, sem contar brancos e nulos. É assim que o TSE decide quem vence.</p>
+        <p><b>Margem de erro</b> é o quanto o resultado de uma pesquisa pode variar para mais ou para menos, porque ela ouve só uma parte dos eleitores.</p>
+        <p><b>Empate técnico</b> acontece quando a diferença entre os dois é menor do que essa margem: não dá para afirmar quem está na frente.</p>
+      </details>
+      <button class="el-cta" data-go="pesquisas">Ver todas as pesquisas →</button>
+    </div>
+
+    <div class="el-card el-simple" id="card-falsas">
+      <h2 class="el-h">Quem disse mais coisas falsas até agora</h2>
+      <div class="el-names" style="margin-top:var(--cds-gap-sm)">
+        <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</span></span></div>
+        <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</span></span></div>
+      </div>
+      <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula.</p>
+      <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
+      <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>
+      <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
+      <table class="el-t el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
+        <thead><tr>
+          <th data-field="agencia">Checador</th>
+          <th data-field="candidato">Candidato</th>
+          <th class="el-num" data-field="falsas">Falsas</th>
+          <th class="el-num" data-field="total">Checadas</th>
+          <th class="el-num" data-field="taxa">Taxa de falsas</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas e lives, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
+      <button class="el-cta" data-go="checagem">Ver as falas checadas →</button>
+    </div>
+
+    <div class="el-grid">
+      <div class="el-card el-simple" id="card-tendencia">
+        <h2 class="el-h">Para onde a disputa está indo</h2>
+        <p class="el-big">Movimento <span data-source="tendencia" data-field="movimento">—</span></p>
+        <p class="el-txt">Nas primeiras pesquisas do 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b>. Nas mais recentes, é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b>.</p>
+        <p class="el-txt el-muted">Média dos <span data-source="tendencia" data-field="n">—</span> institutos que já fizeram mais de uma pesquisa.</p>
+      </div>
+
+      <div class="el-card el-simple" id="card-pt-simples">
+        <h2 class="el-h">Como foi o 1º turno</h2>
+        <p class="el-big"><span class="el-cf">Flávio <span data-source="primeiro_turno" data-where="candidato=Fl%C3%A1vio%20Bolsonaro" data-field="pct">—</span>%</span> · <span class="el-cl">Lula <span data-source="primeiro_turno" data-where="candidato=Lula" data-field="pct">—</span>%</span></p>
+        <p class="el-txt">Em 4 de outubro, Flávio ficou na frente por <b data-source="pt_dif" data-field="dif">—</b> pontos, o equivalente a <b data-source="pt_dif" data-field="votos">—</b> votos. Como ninguém passou da metade, os dois voltam a disputar.</p>
+      </div>
+
+      <div class="el-card el-simple" id="card-redes-simples">
+        <h2 class="el-h">Nas redes sociais</h2>
+        <p class="el-big">Lula com <span data-source="razao_redes" data-field="razao">—</span>× mais interações</p>
+        <p class="el-txt">Desde o 1º turno, os perfis de Lula somaram <b data-source="razao_redes" data-field="lula">—</b> curtidas, comentários e compartilhamentos, contra <b data-source="razao_redes" data-field="flavio">—</b> de Flávio.</p>
+        <p class="el-txt el-muted">Atenção: engajamento mostra mobilização, não intenção de voto.</p>
+        <button class="el-cta" data-go="redes">Ver redes sociais →</button>
+      </div>
+
+      <div class="el-card el-simple" id="card-boatos-simples">
+        <h2 class="el-h">Cuidado com boatos</h2>
+        <p class="el-big"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
+        <p class="el-txt"><b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Os mais recentes:</p>
+        <table class="el-t el-stk" id="t-boatos-mini" data-source="boatos" data-row-key="id">
+          <thead class="el-vh"><tr><th data-field="boato">Boato</th><th data-field="veredito">Selo</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Antes de compartilhar, confira a fonte.</p>
+        <button class="el-cta" data-go="checagem">Ver checagem de fatos →</button>
+      </div>
+
+      <div class="el-card el-simple" id="card-agenda-simples">
+        <h2 class="el-h">Próximos dias</h2>
+        <table class="el-t el-stk" id="t-agenda-mini" data-source="agenda" data-row-key="data">
+          <thead><tr><th data-field="data">Dia</th><th data-field="lula">Lula</th><th data-field="flavio">Flávio</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button class="el-cta" data-go="campanha">Ver agenda e campanhas →</button>
+      </div>
+
+      <div class="el-card el-simple">
+        <h2 class="el-h">Dia da votação</h2>
+        <p class="el-big">Domingo, 25 de outubro</p>
+        <p class="el-txt">Das 8h às 17h, no horário de Brasília. Leve um documento oficial com foto. Quem não votou no 1º turno também pode votar no 2º.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PESQUISAS ================= -->
+  <section class="el-page" id="pesquisas" hidden>
+    <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
+    <div class="el-kpis">
+      <div class="el-card">
+        <div class="el-kpi-label">Flávio · média das últimas rodadas</div>
+        <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="resumo" data-field="media_flavio">—</span>%</div>
+        <div class="el-kpi-note">Votos válidos</div>
+      </div>
+      <div class="el-card">
+        <div class="el-kpi-label">Lula · média das últimas rodadas</div>
+        <div class="el-kpi-val el-cl"><span class="dash-skeleton" data-source="resumo" data-field="media_lula">—</span>%</div>
+        <div class="el-kpi-note">Votos válidos</div>
+      </div>
+      <div class="el-card">
+        <div class="el-kpi-label">Institutos com Flávio à frente</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-source="resumo" data-field="flavio_frente">—</span> de <span data-source="resumo" data-field="n">—</span></div>
+        <div class="el-kpi-note">Última rodada de cada um</div>
+      </div>
+      <div class="el-card">
+        <div class="el-kpi-label">Vantagem de Flávio no 1º turno</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-source="pt_dif" data-field="dif">—</span> pt</div>
+        <div class="el-kpi-note"><span data-source="pt_dif" data-field="votos">—</span> votos · 4 out</div>
+      </div>
+    </div>
+
+    <div class="el-card" id="card-dif">
+      <h2 class="el-h">Diferença Flávio − Lula em cada pesquisa</h2>
+      <p class="el-note">Pontos nos votos válidos, por data de divulgação. Linhas cinza ligam rodadas do mesmo instituto; toque ou passe o mouse para ver os números.</p>
+      <div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div>
+    </div>
+
+    <div class="el-card" id="card-ultimas">
+      <h2 class="el-h">Última rodada de cada instituto</h2>
+      <p class="el-note">Votos válidos; a barra mostra para quem pende a diferença. O nome do instituto leva à reportagem de origem.</p>
+      <div class="el-scroll">
+        <table class="el-t" id="t-ultimas" data-source="ultimas" data-row-key="instituto">
+          <thead><tr>
+            <th data-field="instituto">Instituto</th>
+            <th data-field="divulgacao">Data</th>
+            <th class="el-num" data-field="flavio_validos">Flávio</th>
+            <th class="el-num" data-field="lula_validos">Lula</th>
+            <th data-field="dif">Diferença</th>
+            <th class="el-num el-sm-hide" data-field="amostra">Amostra</th>
+            <th class="el-num el-sm-hide" data-field="margem">Margem</th>
+            <th class="el-sm-hide" data-field="fonte">Fonte</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="el-grid">
+      <div class="el-card" id="card-pt">
+        <h2 class="el-h">Resultado do 1º turno</h2>
+        <p class="el-note">% dos votos válidos, 4 de outubro (TSE).</p>
+        <div class="el-chart-sm dash-skeleton" id="ch-pt" data-source="primeiro_turno"><svg></svg></div>
+      </div>
+      <div class="el-card" id="card-transf">
+        <h2 class="el-h">Para onde vão os votos da terceira via</h2>
+        <p class="el-note">Intenção de voto no 2º turno entre eleitores de candidatos derrotados. O restante declara branco, nulo ou indecisão.</p>
+        <table class="el-t el-stk" id="t-transf" data-source="transferencia" data-row-key="id">
+          <thead><tr>
+            <th data-field="grupo">Grupo</th>
+            <th data-field="pesquisa">Pesquisa</th>
+            <th data-field="flavio">Flávio</th>
+            <th data-field="lula">Lula</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REDES ================= -->
+  <section class="el-page" id="redes" hidden>
+    <div class="el-kpis">
+      <div class="el-card">
+        <div class="el-kpi-label">Interações de Lula ÷ Flávio · 2º turno</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-source="razao_redes" data-field="razao">—</span>×</div>
+        <div class="el-kpi-note"><span data-source="razao_redes" data-field="lula">—</span> contra <span data-source="razao_redes" data-field="flavio">—</span> · 5 a 17 out</div>
+      </div>
+      <div class="el-card">
+        <div class="el-kpi-label">Interações por post · Flávio</div>
+        <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="redes" data-where="id=int-post" data-field="flavio">—</span></div>
+        <div class="el-kpi-note">Lula: <span data-source="redes" data-where="id=int-post" data-field="lula">—</span> · 6 a 15 out</div>
+      </div>
+      <div class="el-card">
+        <div class="el-kpi-label">Novos seguidores · Flávio</div>
+        <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="redes" data-where="id=seguidores" data-field="flavio">—</span></div>
+        <div class="el-kpi-note">Lula: <span data-source="redes" data-where="id=seguidores" data-field="lula">—</span> · 4 a 8 out</div>
+      </div>
+    </div>
+
+    <div class="el-grid">
+      <div class="el-card" id="card-redes">
+        <h2 class="el-h">Lula e Flávio nas redes</h2>
+        <p class="el-note">Perfis oficiais no Instagram, Facebook, TikTok e X, segundo a Bites. Cada métrica na sua própria escala.</p>
+        <div class="dash-skeleton" id="ch-redes" data-source="redes" style="min-height:16rem"></div>
+      </div>
+      <div class="el-card" id="card-sinais">
+        <h2 class="el-h">Sinais de inteligência digital</h2>
+        <p class="el-note">Leituras de Quaest e Bites sobre o ambiente digital desde o 1º turno.</p>
+        <div class="el-scroll">
+          <table class="el-t el-stk" id="t-sinais" data-source="sinais" data-row-key="id">
+            <thead><tr>
+              <th data-field="data">Data</th>
+              <th data-field="sinal">Sinal</th>
+              <th data-field="fonte">Fonte</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CAMPANHAS ================= -->
+  <section class="el-page" id="campanha" hidden>
+    <div class="el-card" id="card-agenda">
+      <h2 class="el-h">Agenda da última semana</h2>
+      <p class="el-note">Compromissos divulgados pelas campanhas; podem mudar.</p>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-agenda" data-source="agenda" data-row-key="data">
+          <thead><tr>
+            <th data-field="data">Dia</th>
+            <th data-field="lula">Lula</th>
+            <th data-field="flavio">Flávio</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="el-card" id="card-eventos">
+      <h2 class="el-h">Linha do tempo do 2º turno</h2>
+      <p class="el-note">Apoios, decisões do TSE, debates e mudanças de estratégia, do mais recente ao mais antigo.</p>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-eventos" data-source="campanha" data-row-key="id">
+          <thead><tr>
+            <th data-field="data">Data</th>
+            <th data-field="tipo">Tipo</th>
+            <th data-field="descricao">O que aconteceu</th>
+            <th data-field="fonte">Fonte</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CHECAGEM ================= -->
+  <section class="el-page" id="checagem" hidden>
+    <div class="el-card el-howto">
+      <h2 class="el-h">Como ler esta aba</h2>
+      <p>Reúne checagens da Lupa, do Aos Fatos e do Ranking dos Políticos sobre falas dos dois candidatos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
+      <div class="el-legend">
+        <span><i class="el-dot" style="background:var(--f-true)"></i>Verdadeiro</span>
+        <span><i class="el-dot" style="background:var(--f-mid)"></i>Impreciso ou sem contexto</span>
+        <span><i class="el-dot" style="background:var(--f-false)"></i>Falso</span>
+      </div>
+    </div>
+
+    <div class="el-card" id="card-placar">
+      <h2 class="el-h">Placar por checagem</h2>
+      <p class="el-note">Afirmações em cada faixa, por checador e entrevista.</p>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-placar" data-source="checagens_placar" data-row-key="id">
+          <thead><tr>
+            <th data-field="candidato">Candidato</th>
+            <th data-field="agencia">Checador</th>
+            <th data-field="evento">Evento</th>
+            <th data-field="data">Data</th>
+            <th class="el-num" data-field="verdadeiro">Verdadeiro</th>
+            <th class="el-num" data-field="impreciso">Impreciso</th>
+            <th class="el-num" data-field="falso">Falso</th>
+            <th data-field="total">Total</th>
+            <th class="el-sm-hide" data-field="nota">Observação</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="el-card" id="card-direcao">
+      <h2 class="el-h">Tipo de fala × resultado da checagem</h2>
+      <p class="el-note">Cada afirmação checada foi classificada pelo painel conforme a quem se dirige: ataque ao adversário, defesa de si ou do próprio governo, ou proposta e outros temas.</p>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-direcao" data-source="checagens_direcao" data-row-key="id">
+          <thead><tr>
+            <th data-field="candidato">Quem falou</th>
+            <th data-field="direcao">Tipo de fala</th>
+            <th class="el-num" data-field="verdadeiro">Verdadeiro</th>
+            <th class="el-num" data-field="impreciso">Impreciso</th>
+            <th class="el-num" data-field="falso">Falso</th>
+            <th data-field="total">Total</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="el-card" id="card-checagens">
+      <h2 class="el-h">Afirmações checadas</h2>
+      <p class="el-note">Falas dos candidatos em entrevistas e lives, com o selo original do checador e a explicação resumida.</p>
+      <div class="el-chips" id="chips-cand">
+        <span class="el-chip-l">Candidato</span>
+        <button class="el-chip" data-cand="Todos" aria-pressed="true">Todos</button>
+        <button class="el-chip" data-cand="Lula" aria-pressed="false">Lula</button>
+        <button class="el-chip" data-cand="Flávio" aria-pressed="false">Flávio</button>
+      </div>
+      <div class="el-chips" id="chips-cat">
+        <span class="el-chip-l">Faixa</span>
+        <button class="el-chip" data-cat="Todas" aria-pressed="true">Todas</button>
+        <button class="el-chip" data-cat="Verdadeiro" aria-pressed="false">Verdadeiro</button>
+        <button class="el-chip" data-cat="Impreciso ou sem contexto" aria-pressed="false">Impreciso</button>
+        <button class="el-chip" data-cat="Falso" aria-pressed="false">Falso</button>
+      </div>
+      <div class="el-chips" id="chips-dir">
+        <span class="el-chip-l">Tipo de fala</span>
+        <button class="el-chip" data-dir="Todas" aria-pressed="true">Todas</button>
+        <button class="el-chip" data-dir="Ataque ao adversário" aria-pressed="false">Ataque</button>
+        <button class="el-chip" data-dir="Defesa de si ou do próprio governo" aria-pressed="false">Defesa</button>
+        <button class="el-chip" data-dir="Proposta ou outro tema" aria-pressed="false">Outros</button>
+      </div>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-checagens" data-source="checagens" data-row-key="id">
+          <thead><tr>
+            <th data-field="data">Data</th>
+            <th data-field="candidato">Quem</th>
+            <th data-field="afirmacao">Afirmação</th>
+            <th data-field="direcao">Tipo de fala</th>
+            <th data-field="veredito">Selo</th>
+            <th data-field="explicacao">Por quê</th>
+            <th data-field="agencia">Checador</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="el-card" id="card-matriz">
+      <h2 class="el-h">Direção dos boatos: de onde vêm e contra quem</h2>
+      <p class="el-note">Número de boatos desmentidos por origem e alvo. A origem só é contada quando a checagem ou a decisão do TSE aponta quem publicou; na maioria dos casos ela não é identificada.</p>
+      <table class="el-t" id="t-matriz">
+        <thead><tr>
+          <th>Origem</th>
+          <th class="el-num">Contra <span class="el-cl">Lula</span></th>
+          <th class="el-num">Contra <span class="el-cf">Flávio</span></th>
+        </tr></thead>
+        <tbody>
+          <tr><td>Campo de Flávio</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-flavio" data-field="n">—</span></td></tr>
+          <tr><td>Campo de Lula</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-flavio" data-field="n">—</span></td></tr>
+          <tr><td>Não identificada</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-flavio" data-field="n">—</span></td></tr>
+        </tbody>
+      </table>
+      <p class="el-note" style="margin:var(--cds-gap-sm) 0 0">Um boato contra um candidato favorece o outro.</p>
+    </div>
+
+    <div class="el-card" id="card-boatos">
+      <h2 class="el-h">Boatos desmentidos</h2>
+      <p class="el-note">Conteúdos virais sobre os candidatos, desmentidos por checadores ou retirados pelo TSE, com alvo, quem a narrativa favorece e a origem quando conhecida.</p>
+      <div class="el-scroll">
+        <table class="el-t el-stk" id="t-boatos" data-source="boatos" data-row-key="id">
+          <thead><tr>
+            <th data-field="data">Data</th>
+            <th data-field="alvo">Contra</th>
+            <th class="el-sm-hide" data-field="beneficiado">Favorece</th>
+            <th data-field="origem_campo">Origem</th>
+            <th data-field="boato">Boato</th>
+            <th class="el-sm-hide" data-field="tema">Tema</th>
+            <th data-field="veredito">Selo</th>
+            <th class="el-sm-hide" data-field="origem_detalhe">Sobre a origem</th>
+            <th data-field="explicacao">O que se sabe</th>
+            <th data-field="agencia">Quem desmentiu</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados várias vezes ao dia. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). <span id="el-upd"></span></p>
+</div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
+<script>
+(function () {
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos"];
+  var store = {}, calcs = [], listeners = [];
+  DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
+  function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
+  function computeCalcs() {
+    calcs.forEach(function (c) {
+      var ins = c.inputs.map(function (i) { return store[i] || {status: "missing"}; });
+      var bad = ins.find(function (s) { return s.status !== "ok"; });
+      if (bad) { store[c.id] = {status: bad.status === "loading" ? "loading" : "error", data: []}; return; }
+      try { store[c.id] = {status: "ok", data: c.fn.apply(null, ins.map(function (s) { return s.data; }))}; }
+      catch (e) { console.error("cálculo " + c.id, e); store[c.id] = {status: "error", data: []}; }
+    });
+  }
+  window.dash = {
+    calc: function (id, spec) { calcs.push({id: id, inputs: spec.inputs, fn: spec.fn}); store[id] = {status: "loading", data: []}; },
+    data: function (id) { return store[id] || {status: "missing", data: []}; },
+    onData: function (fn) { listeners.push(fn); fn(); },
+    setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
+    loader: function () {}, refresh: function () {}
+  };
+  var ts = Date.now();
+  window.addEventListener("load", function () {
+    Promise.all(DATASETS.map(function (id) {
+      return fetch("data/" + id + ".json?v=" + ts, {cache: "no-store"})
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (rows) { store[id] = {status: "ok", data: rows}; })
+        .catch(function () { store[id] = {status: "error", data: []}; });
+    })).then(function () { computeCalcs(); run(); });
+    fetch("https://api.github.com/repos/aluadocoelho/Eleicoes-de-2026/commits?path=data&per_page=1")
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (c) {
+        var d = c && c[0] && c[0].commit && c[0].commit.committer && c[0].commit.committer.date;
+        if (d) document.getElementById("el-upd").textContent = "Última atualização dos dados: " + new Date(d).toLocaleString("pt-BR", {dateStyle: "short", timeStyle: "short", timeZone: "America/Sao_Paulo"}) + ".";
+      }).catch(function () {});
+  });
+  var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(run, 150); });
+})();
+</script>
+<script>
+(function () {
+  const CF = "#1F4FA8", CL = "#D62B2B";
+  const CAT = {"Verdadeiro": "#1E7B47", "Impreciso ou sem contexto": "#C98A0B", "Falso": "#26282E"};
+  const DIRC = {"Ataque ao adversário": "#7B4FD0", "Defesa de si ou do próprio governo": "#1A9C8C", "Proposta ou outro tema": "#9AA0AC"};
+  const Lc = d3.formatLocale({decimal: ",", thousands: ".", grouping: [3], currency: ["R$ ", ""]});
+  const fNum = Lc.format(",.2~f");
+  const f1 = Lc.format(".1f");
+  const fInt = Lc.format(",d");
+  const fComp = new Intl.NumberFormat("pt-BR", {notation: "compact", maximumFractionDigits: 1});
+  const dParse = s => new Date(String(s).slice(0, 10) + "T12:00:00Z");
+  const dFmt = d3.utcFormat("%d/%m");
+  const wd = d3.utcFormat("%a");
+  const DIAS = {Sun: "dom", Mon: "seg", Tue: "ter", Wed: "qua", Thu: "qui", Fri: "sex", Sat: "sáb"};
+  const dayFmt = v => (DIAS[wd(dParse(v))] || "") + " " + dFmt(dParse(v));
+  const pct = v => (v == null || v === "" ? "—" : fNum(+v) + "%");
+  const NS = "http://www.w3.org/2000/svg";
+
+  // ---------- Cálculos ----------
+  dash.calc("ultimas", {
+    title: "Última rodada por instituto",
+    description: "A pesquisa mais recente de cada instituto, com a diferença Flávio − Lula em pontos dos votos válidos.",
+    inputs: ["pesquisas"],
+    fn: (pesquisas) => {
+      const by = new Map();
+      for (const r of pesquisas) {
+        const p = by.get(r.instituto);
+        if (!p || String(r.divulgacao) > String(p.divulgacao)) by.set(r.instituto, r);
+      }
+      return Array.from(by.values()).map(r => ({
+        instituto: r.instituto,
+        divulgacao: r.divulgacao,
+        flavio_validos: Number(r.flavio_validos),
+        lula_validos: Number(r.lula_validos),
+        dif: Math.round((Number(r.flavio_validos) - Number(r.lula_validos)) * 100) / 100,
+        amostra: r.amostra == null ? null : Number(r.amostra),
+        margem: r.margem == null ? null : Number(r.margem),
+        fonte: r.fonte == null ? null : r.fonte,
+        url: r.url == null ? null : r.url
+      })).sort((a, b) => String(b.divulgacao).localeCompare(String(a.divulgacao)) || b.dif - a.dif);
+    }
+  });
+
+  dash.calc("resumo", {
+    title: "Média das últimas rodadas",
+    description: "Média simples dos votos válidos na última rodada de cada instituto e quantos põem cada candidato à frente.",
+    inputs: ["ultimas"],
+    fn: (ultimas) => {
+      const n = ultimas.length;
+      const r1 = x => Math.round(x * 10) / 10;
+      const mf = ultimas.reduce((s, d) => s + d.flavio_validos, 0) / n;
+      const ml = ultimas.reduce((s, d) => s + d.lula_validos, 0) / n;
+      return [{
+        media_flavio: r1(mf), media_lula: r1(ml), dif: r1(r1(mf) - r1(ml)), n: n,
+        flavio_frente: ultimas.filter(d => d.dif > 0).length,
+        lula_frente: ultimas.filter(d => d.dif < 0).length,
+        empate: ultimas.filter(d => d.dif === 0).length
+      }];
+    }
+  });
+
+  dash.calc("tendencia", {
+    title: "Tendência no 2º turno",
+    description: "Para institutos com mais de uma rodada, média da diferença Flávio − Lula na primeira e na última rodada, em pontos.",
+    inputs: ["pesquisas"],
+    fn: (pesquisas) => {
+      const g = {};
+      for (const r of pesquisas) (g[r.instituto] = g[r.instituto] || []).push(r);
+      const multi = Object.values(g).filter(v => v.length > 1).map(v => v.slice().sort((a, b) => String(a.divulgacao).localeCompare(String(b.divulgacao))));
+      const dif = r => Number(r.flavio_validos) - Number(r.lula_validos);
+      const n = multi.length;
+      if (!n) return [];
+      const ini = multi.reduce((s, v) => s + dif(v[0]), 0) / n;
+      const fim = multi.reduce((s, v) => s + dif(v[v.length - 1]), 0) / n;
+      const r1 = x => Math.round(x * 10) / 10;
+      const lider = x => r1(x) > 0 ? "Flávio" : r1(x) < 0 ? "Lula" : "ninguém";
+      const ch = r1(fim) - r1(ini);
+      return [{
+        inicio: Math.abs(r1(ini)), inicio_lider: lider(ini),
+        agora: Math.abs(r1(fim)), agora_lider: lider(fim),
+        n: n,
+        movimento: ch < 0 ? "a favor de Lula" : ch > 0 ? "a favor de Flávio" : "estável"
+      }];
+    }
+  });
+
+  dash.calc("pt_dif", {
+    title: "Vantagem no 1º turno",
+    description: "Diferença entre Flávio e Lula no 1º turno, em pontos dos votos válidos e em votos.",
+    inputs: ["primeiro_turno"],
+    fn: (primeiro_turno) => {
+      const f = primeiro_turno.find(r => r.candidato === "Flávio Bolsonaro");
+      const l = primeiro_turno.find(r => r.candidato === "Lula");
+      return [{dif: Math.round((Number(f.pct) - Number(l.pct)) * 100) / 100, votos: Number(f.votos) - Number(l.votos)}];
+    }
+  });
+
+  dash.calc("razao_redes", {
+    title: "Interações Lula ÷ Flávio",
+    description: "Quantas vezes as interações nos perfis de Lula superam as de Flávio de 5 a 17 de outubro.",
+    inputs: ["redes"],
+    fn: (redes) => {
+      const r = redes.find(x => x.id === "int-2t");
+      return [{razao: Math.round(Number(r.lula) / Number(r.flavio) * 10) / 10, lula: Number(r.lula), flavio: Number(r.flavio)}];
+    }
+  });
+
+  dash.calc("checagens_direcao", {
+    title: "Tipo de fala × faixa",
+    description: "Afirmações checadas contadas por candidato, tipo de fala (classificação do painel) e faixa do selo.",
+    inputs: ["checagens"],
+    fn: (checagens) => {
+      const out = {};
+      for (const r of checagens) {
+        const id = r.candidato + "|" + r.direcao;
+        if (!out[id]) out[id] = {id: id, candidato: r.candidato, direcao: r.direcao, verdadeiro: 0, impreciso: 0, falso: 0, total: 0};
+        const o = out[id];
+        if (r.categoria === "Verdadeiro") o.verdadeiro++;
+        else if (r.categoria === "Falso") o.falso++;
+        else o.impreciso++;
+        o.total++;
+      }
+      return Object.values(out).sort((a, b) => a.candidato.localeCompare(b.candidato) || b.total - a.total);
+    }
+  });
+
+  dash.calc("boatos_matriz", {
+    title: "Boatos por origem e alvo",
+    description: "Quantos boatos desmentidos há em cada combinação de origem (quando apontada pela fonte) e candidato atacado.",
+    inputs: ["boatos"],
+    fn: (boatos) => {
+      const orig = [["cf", "Campo de Flávio"], ["cl", "Campo de Lula"], ["ni", "Não identificada"]];
+      const alvos = [["lula", "Lula"], ["flavio", "Flávio"]];
+      const rows = [];
+      for (const [ok, o] of orig) for (const [ak, a] of alvos) {
+        rows.push({id: ok + "-" + ak, origem_campo: o, alvo: a, n: boatos.filter(b => b.alvo === a && (b.origem_campo === o || (ok === "ni" && b.origem_campo !== "Campo de Flávio" && b.origem_campo !== "Campo de Lula"))).length});
+      }
+      return rows;
+    }
+  });
+
+  dash.calc("boatos_resumo", {
+    title: "Total de boatos",
+    description: "Quantos boatos desmentidos há no total e contra cada candidato.",
+    inputs: ["boatos"],
+    fn: (boatos) => [{total: boatos.length, contra_lula: boatos.filter(b => b.alvo === "Lula").length, contra_flavio: boatos.filter(b => b.alvo === "Flávio").length}]
+  });
+
+  dash.calc("taxa_falsas", {
+    title: "Taxa de falas falsas no tempo",
+    description: "Para cada candidato, a parcela de falas classificadas como falsas, somando todas as checagens até cada data.",
+    inputs: ["checagens_placar"],
+    fn: (checagens_placar) => {
+      const out = [];
+      for (const cand of ["Flávio", "Lula"]) {
+        const rows = checagens_placar.filter(r => r.candidato === cand).sort((a, b) => String(a.data).localeCompare(String(b.data)));
+        const datas = Array.from(new Set(rows.map(r => String(r.data))));
+        for (const d of datas) {
+          const ate = rows.filter(r => String(r.data) <= d);
+          const f = ate.reduce((s, r) => s + Number(r.falso), 0);
+          const t = ate.reduce((s, r) => s + Number(r.total), 0);
+          out.push({id: cand + "|" + d, candidato: cand, data: d, falsas: f, total: t, taxa: t ? Math.round(f / t * 1000) / 1000 : null});
+        }
+      }
+      return out;
+    }
+  });
+
+  dash.calc("taxa_resumo", {
+    title: "Taxa de falas falsas até agora",
+    description: "Falas falsas sobre o total de falas checadas de cada candidato, somando todas as checagens.",
+    inputs: ["checagens_placar"],
+    fn: (checagens_placar) => ["Flávio", "Lula"].map(cand => {
+      const rows = checagens_placar.filter(r => r.candidato === cand);
+      const f = rows.reduce((s, r) => s + Number(r.falso), 0);
+      const t = rows.reduce((s, r) => s + Number(r.total), 0);
+      return {candidato: cand, falsas: f, total: t, taxa: t ? Math.round(f / t * 1000) / 1000 : null};
+    })
+  });
+
+  dash.calc("taxa_checador", {
+    title: "Taxa de falsas por checador",
+    description: "Falas falsas sobre o total checado, separado por checador e candidato.",
+    inputs: ["checagens_placar"],
+    fn: (checagens_placar) => {
+      const g = {};
+      for (const r of checagens_placar) {
+        const id = r.agencia + "|" + r.candidato;
+        if (!g[id]) g[id] = {id: id, agencia: r.agencia, candidato: r.candidato, falsas: 0, total: 0};
+        g[id].falsas += Number(r.falso);
+        g[id].total += Number(r.total);
+      }
+      return Object.values(g).map(o => ({...o, taxa: o.total ? Math.round(o.falsas / o.total * 1000) / 1000 : null}))
+        .sort((a, b) => a.agencia.localeCompare(b.agencia) || a.candidato.localeCompare(b.candidato));
+    }
+  });
+
+  // ---------- Ajudantes ----------
+  const failNode = () => { const d = document.createElement("div"); d.className = "el-fail"; d.textContent = "Não foi possível carregar"; return d; };
+  const isFail = s => s === "error" || s === "connect" || s === "declined" || s === "missing";
+
+  function fillMarks(id, fmt) {
+    const d = dash.data(id);
+    document.querySelectorAll(`[data-source="${id}"][data-field]:not(th):not(table)`).forEach(el => {
+      if (d.status !== "ok") {
+        if (d.status === "loading") el.classList.add("dash-skeleton"); else el.classList.remove("dash-skeleton");
+        el.textContent = "—";
+        return;
+      }
+      el.classList.remove("dash-skeleton");
+      const rows = d.data || [];
+      let row = rows[0];
+      const w = el.getAttribute("data-where");
+      if (w) {
+        const i = w.indexOf("=");
+        const k = w.slice(0, i), v = decodeURIComponent(w.slice(i + 1));
+        row = rows.find(r => String(r[k]) === v);
+      }
+      const field = el.getAttribute("data-field");
+      const v = row ? row[field] : null;
+      el.textContent = v == null ? "—" : (fmt[field] ? fmt[field](v) : String(v));
+    });
+  }
+
+  function blockState(el, id) {
+    const d = dash.data(id);
+    if (d.status === "ok") { el.classList.remove("dash-skeleton"); el.querySelectorAll(".el-fail").forEach(n => n.remove()); return d.data || []; }
+    if (d.status === "loading") { el.classList.add("dash-skeleton"); return null; }
+    el.classList.remove("dash-skeleton");
+    if (isFail(d.status) && !el.querySelector(".el-fail")) el.appendChild(failNode());
+    return null;
+  }
+
+  function table(sel, rows, cols, keyFn) {
+    const labels = Array.from(document.querySelectorAll(sel + " thead th")).map(th => th.textContent.trim());
+    const tb = d3.select(sel).select("tbody");
+    if (!rows) { tb.selectAll("tr").remove(); return; }
+    const tr = tb.selectAll("tr").data(rows).join("tr").attr("data-key", keyFn ? keyFn : null);
+    tr.selectAll("td").data(r => cols.map(c => ({c, r}))).join("td")
+      .attr("class", d => d.c.cls || null)
+      .attr("data-label", (d, i) => labels[i] || null)
+      .each(function (d) {
+        const td = d3.select(this);
+        td.selectAll("*").remove();
+        td.text("");
+        if (d.c.render) d.c.render(td, d.r);
+        else { const v = d.r[d.c.f]; td.text(v == null ? "—" : (d.c.fmt ? d.c.fmt(v) : String(v))); }
+      });
+  }
+
+  function extIcon() {
+    const s = document.createElementNS(NS, "svg");
+    s.setAttribute("viewBox", "0 0 24 24"); s.setAttribute("width", "13"); s.setAttribute("height", "13");
+    s.setAttribute("aria-hidden", "true"); s.setAttribute("class", "el-ext");
+    const p = document.createElementNS(NS, "path");
+    p.setAttribute("d", "M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5");
+    p.setAttribute("fill", "none"); p.setAttribute("stroke", "currentColor"); p.setAttribute("stroke-width", "2");
+    p.setAttribute("stroke-linecap", "round"); p.setAttribute("stroke-linejoin", "round");
+    s.appendChild(p);
+    return s;
+  }
+  const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
+  const linkCell = field => (td, r) => {
+    const u = safeUrl(r.url);
+    const t = r[field] == null ? "—" : String(r[field]);
+    if (u) {
+      const a = td.append("a").attr("href", u).attr("target", "_blank").attr("rel", "noopener noreferrer").attr("title", "Abrir a fonte em nova aba");
+      a.text(t);
+      a.node().appendChild(extIcon());
+    } else td.text(t);
+  };
+  const dotCell = (field, colorOf) => (td, r) => {
+    const s = td.append("span").attr("class", "el-vd");
+    const c = colorOf(r);
+    if (c) s.append("i").attr("class", "el-dot").style("background", c);
+    s.append("span").text(r[field] == null ? "—" : r[field]);
+  };
+  const stackCell = (td, r) => {
+    const w = td.append("div").attr("class", "el-div");
+    const st = w.append("div").attr("class", "el-stack");
+    const tot = Number(r.total) || 1;
+    for (const [k, c] of [["verdadeiro", CAT["Verdadeiro"]], ["impreciso", CAT["Impreciso ou sem contexto"]], ["falso", CAT["Falso"]]]) {
+      const v = Number(r[k]);
+      if (v > 0) st.append("i").style("width", (v / tot * 100) + "%").style("background", c);
+    }
+    w.append("span").text(fInt(r.total));
+  };
+
+  function measure(svg, texts) {
+    const t = svg.append("text").style("font-size", "var(--cds-font-size-caption)").attr("visibility", "hidden");
+    let m = 0;
+    for (const s of texts) { t.text(s); m = Math.max(m, t.node().getComputedTextLength()); }
+    t.remove();
+    return m;
+  }
+
+  // ---------- Gráfico: diferença por pesquisa ----------
+  function drawDif(box, rows) {
+    const svg = d3.select(box).select("svg");
+    const tip = box.querySelector(".el-tip");
+    svg.selectAll("*").remove();
+    const W = box.clientWidth;
+    if (!W || !rows || !rows.length) return;
+    const H = W < 480 ? 260 : 300;
+    box.style.minHeight = H + "px";
+    const data = rows.map(r => ({
+      instituto: r.instituto, d: dParse(r.divulgacao),
+      f: Number(r.flavio_validos), l: Number(r.lula_validos),
+      dif: Math.round((Number(r.flavio_validos) - Number(r.lula_validos)) * 100) / 100
+    }));
+    const m = Math.max(2, Math.ceil(d3.max(data, d => Math.abs(d.dif)) + 0.5));
+    const y = d3.scaleLinear([-m, m], [H - 30, 14]);
+    const ticks = y.ticks(6).filter(Number.isInteger);
+    const yLab = v => v === 0 ? "empate" : (v > 0 ? "F +" : "L +") + Lc.format("d")(Math.abs(v));
+    svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
+    const left = Math.ceil(measure(svg, ticks.map(yLab))) + 12;
+    const right = 12;
+    const ext = d3.extent(data, d => d.d);
+    const x = d3.scaleUtc([d3.utcDay.offset(ext[0], -1), d3.utcDay.offset(ext[1], 1)], [left, W - right]);
+    const g = svg.append("g");
+    g.append("rect").attr("x", left).attr("y", y(m)).attr("width", W - right - left).attr("height", y(0) - y(m)).attr("fill", CF).attr("opacity", 0.04);
+    g.append("rect").attr("x", left).attr("y", y(0)).attr("width", W - right - left).attr("height", y(-m) - y(0)).attr("fill", CL).attr("opacity", 0.04);
+    g.selectAll("line.grid").data(ticks.filter(t => t !== 0)).join("line")
+      .attr("x1", left).attr("x2", W - right).attr("y1", t => y(t)).attr("y2", t => y(t))
+      .attr("stroke", "var(--cds-chart-grid)").attr("stroke-width", 1);
+    g.append("line").attr("x1", left).attr("x2", W - right).attr("y1", y(0)).attr("y2", y(0))
+      .attr("stroke", "var(--cds-chart-reference)").attr("stroke-width", 1).attr("stroke-dasharray", "4 3");
+    g.selectAll("text.yl").data(ticks).join("text")
+      .attr("x", left - 8).attr("y", t => y(t)).attr("dy", "0.32em").attr("text-anchor", "end")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(yLab);
+    const xt = x.ticks(d3.utcDay.every(W < 520 ? 3 : 2));
+    g.selectAll("text.xl").data(xt).join("text")
+      .attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(dFmt);
+    g.append("text").attr("x", left + 6).attr("y", y(m) + 4).attr("dy", "0.7em")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", CF).text("Flávio à frente ↑");
+    g.append("text").attr("x", left + 6).attr("y", y(-m) - 6)
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", CL).text("Lula à frente ↓");
+    const line = d3.line().x(d => x(d.d)).y(d => y(d.dif));
+    const groups = d3.groups(data, d => d.instituto).filter(([, v]) => v.length > 1);
+    g.selectAll("path.inst").data(groups).join("path")
+      .attr("d", ([, v]) => line(v.slice().sort((a, b) => a.d - b.d)))
+      .attr("fill", "none").attr("stroke", "var(--cds-chart-muted)").attr("stroke-width", 1.5)
+      .attr("stroke-linecap", "round").attr("stroke-linejoin", "round");
+    const color = d => d.dif > 0 ? CF : d.dif < 0 ? CL : "var(--color-fg-muted)";
+    const dots = g.selectAll("circle.pt").data(data).join("circle")
+      .attr("cx", d => x(d.d)).attr("cy", d => y(d.dif)).attr("r", 5.5)
+      .attr("fill", color).attr("stroke", "#FFFFFF").attr("stroke-width", 1.5);
+    const hide = () => { tip.style.opacity = 0; dots.attr("r", 5.5); };
+    svg.on("pointermove pointerdown", (ev) => {
+      const [px, py] = d3.pointer(ev);
+      const best = d3.least(data, d => Math.hypot(x(d.d) - px, y(d.dif) - py));
+      if (!best || Math.hypot(x(best.d) - px, y(best.dif) - py) > 32) { hide(); return; }
+      dots.attr("r", d => d === best ? 7.5 : 5.5);
+      tip.replaceChildren();
+      const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = best.instituto + " · " + dFmt(best.d); tip.appendChild(a);
+      for (const [nm, v, c] of [["Flávio", best.f, CF], ["Lula", best.l, CL]]) {
+        const r = document.createElement("div");
+        const s = document.createElement("i"); s.className = "el-dot"; s.style.background = c; s.style.marginRight = "6px";
+        r.appendChild(s); r.appendChild(document.createTextNode(nm + " " + pct(v))); tip.appendChild(r);
+      }
+      tip.style.opacity = 1;
+      const tw = tip.offsetWidth, th = tip.offsetHeight;
+      let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
+      let ty = y(best.dif) - th / 2; ty = Math.max(0, Math.min(H - th, ty));
+      tip.style.left = tx + "px"; tip.style.top = ty + "px";
+    }).on("pointerleave", hide);
+  }
+
+  // ---------- Gráfico: taxa de falas falsas ----------
+  const fPct0 = v => (v == null ? "—" : Lc.format(".0%")(v));
+  function drawFalsas(box, rows) {
+    const svg = d3.select(box).select("svg");
+    const tip = box.querySelector(".el-tip");
+    svg.selectAll("*").remove();
+    const W = box.clientWidth;
+    if (!W || !rows || !rows.length) return;
+    const H = 240;
+    const data = rows.filter(r => r.taxa != null).map(r => ({...r, d: dParse(r.data)}));
+    if (!data.length) return;
+    svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
+    const ext = d3.extent(data, d => d.d);
+    let x0 = d3.utcDay.offset(ext[0], -1), x1 = d3.utcDay.offset(ext[1], 1);
+    if (+ext[0] === +ext[1]) { x0 = d3.utcDay.offset(ext[0], -3); x1 = d3.utcDay.offset(ext[1], 3); }
+    const top = Math.max(0.6, Math.ceil((d3.max(data, d => d.taxa) + 0.1) * 10) / 10);
+    const y = d3.scaleLinear([0, top], [H - 28, 12]);
+    const ticks = y.ticks(4);
+    const left = Math.ceil(measure(svg, ticks.map(fPct0))) + 10;
+    const endW = Math.ceil(measure(svg, ["Flávio 100%", "Lula 100%"])) + 14;
+    const x = d3.scaleUtc([x0, x1], [left, Math.max(left + 40, W - endW)]);
+    const g = svg.append("g");
+    g.selectAll("line.grid").data(ticks).join("line")
+      .attr("x1", left).attr("x2", W - endW).attr("y1", t => y(t)).attr("y2", t => y(t))
+      .attr("stroke", t => t === 0 ? "var(--cds-chart-axis)" : "var(--cds-chart-grid)").attr("stroke-width", 1);
+    g.selectAll("text.yl").data(ticks).join("text")
+      .attr("x", left - 8).attr("y", t => y(t)).attr("dy", "0.32em").attr("text-anchor", "end")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(fPct0);
+    const xt = x.ticks(d3.utcDay.every(W < 520 ? 4 : 2));
+    g.selectAll("text.xl").data(xt).join("text")
+      .attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(dFmt);
+    const line = d3.line().x(d => x(d.d)).y(d => y(d.taxa));
+    const series = [["Flávio", CF], ["Lula", CL]].map(([c, col]) => ({c, col, v: data.filter(d => d.candidato === c).sort((a, b) => a.d - b.d)})).filter(s => s.v.length);
+    for (const s of series) {
+      if (s.v.length > 1) g.append("path").attr("d", line(s.v)).attr("fill", "none").attr("stroke", s.col).attr("stroke-width", 2.5).attr("stroke-linecap", "round").attr("stroke-linejoin", "round");
+      g.selectAll(null).data(s.v).join("circle").attr("cx", d => x(d.d)).attr("cy", d => y(d.taxa)).attr("r", 5).attr("fill", s.col).attr("stroke", "#FFFFFF").attr("stroke-width", 1.5);
+    }
+    // rótulos no fim de cada linha, afastados se colidirem
+    const ends = series.map(s => { const e = s.v[s.v.length - 1]; return {s, e, yy: y(e.taxa)}; }).sort((a, b) => a.yy - b.yy);
+    for (let i = 1; i < ends.length; i++) if (ends[i].yy - ends[i - 1].yy < 16) ends[i].yy = ends[i - 1].yy + 16;
+    for (const o of ends) {
+      g.append("text").attr("x", x(o.e.d) + 9).attr("y", o.yy).attr("dy", "0.32em")
+        .style("font-size", "var(--cds-font-size-caption)").style("font-weight", "var(--cds-font-weight-medium)")
+        .attr("fill", o.s.col).text(o.s.c + " " + fPct0(o.e.taxa));
+    }
+    const hide = () => { tip.style.opacity = 0; };
+    svg.on("pointermove pointerdown", (ev) => {
+      const [px, py] = d3.pointer(ev);
+      const best = d3.least(data, d => Math.hypot(x(d.d) - px, y(d.taxa) - py));
+      if (!best || Math.hypot(x(best.d) - px, y(best.taxa) - py) > 32) { hide(); return; }
+      tip.replaceChildren();
+      const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = "Até " + dFmt(best.d); tip.appendChild(a);
+      const r = document.createElement("div");
+      const s = document.createElement("i"); s.className = "el-dot"; s.style.background = best.candidato === "Lula" ? CL : CF; s.style.marginRight = "6px";
+      r.appendChild(s); r.appendChild(document.createTextNode(best.candidato + ": " + fInt(best.falsas) + " falsas de " + fInt(best.total) + " (" + fPct0(best.taxa) + ")"));
+      tip.appendChild(r);
+      tip.style.opacity = 1;
+      const tw = tip.offsetWidth, th = tip.offsetHeight;
+      let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
+      let ty = y(best.taxa) - th - 8; if (ty < 0) ty = y(best.taxa) + 10;
+      tip.style.left = tx + "px"; tip.style.top = ty + "px";
+    }).on("pointerleave", hide);
+  }
+
+  // ---------- Gráfico: 1º turno ----------
+  function drawPT(box, rows) {
+    const svg = d3.select(box).select("svg");
+    svg.selectAll("*").remove();
+    const W = box.clientWidth;
+    if (!W || !rows || !rows.length) return;
+    const data = rows.map(r => ({nome: r.candidato, partido: r.partido, pct: Number(r.pct)})).sort((a, b) => b.pct - a.pct);
+    const rowH = 30, H = data.length * rowH;
+    svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
+    const lab = d => d.nome + " (" + d.partido + ")";
+    const val = d => Lc.format(",.2f")(d.pct) + "%";
+    const left = Math.ceil(measure(svg, data.map(lab))) + 12;
+    const vw = Math.ceil(measure(svg, data.map(val))) + 10;
+    const x = d3.scaleLinear([0, d3.max(data, d => d.pct)], [left, Math.max(left + 20, W - vw)]);
+    const col = d => d.nome === "Flávio Bolsonaro" ? CF : d.nome === "Lula" ? CL : "var(--cds-chart-muted)";
+    const g = svg.selectAll("g.r").data(data).join("g").attr("transform", (d, i) => `translate(0,${i * rowH})`);
+    g.append("text").attr("x", left - 10).attr("y", rowH / 2).attr("dy", "0.32em").attr("text-anchor", "end")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg)").text(lab);
+    g.append("rect").attr("x", left).attr("y", rowH / 2 - 6).attr("height", 12).attr("rx", 4)
+      .attr("width", d => Math.max(2, x(d.pct) - left)).attr("fill", col);
+    g.append("text").attr("x", d => Math.max(left + 2, x(d.pct)) + 6).attr("y", rowH / 2).attr("dy", "0.32em")
+      .style("font-size", "var(--cds-font-size-caption)").style("font-variant-numeric", "tabular-nums")
+      .attr("fill", "var(--color-fg-muted)").text(val);
+  }
+
+  // ---------- Barras em HTML ----------
+  function pairBar(parent, label, value, max, color, text) {
+    const grid = document.createElement("div"); grid.className = "el-pair";
+    const a = document.createElement("span"); a.textContent = label; a.style.color = color;
+    const tr = document.createElement("div"); tr.className = "el-track";
+    const fl = document.createElement("div"); fl.className = "el-fill"; fl.style.background = color; fl.style.width = (max ? Math.max(1, value / max * 100) : 0) + "%";
+    tr.appendChild(fl);
+    const b = document.createElement("span"); b.textContent = text;
+    grid.append(a, tr, b); parent.appendChild(grid);
+  }
+
+  function drawRedes(box, rows) {
+    box.querySelectorAll(".el-rm").forEach(n => n.remove());
+    if (!rows) return;
+    for (const r of rows) {
+      const lula = Number(r.lula), fla = Number(r.flavio), mx = Math.max(lula, fla);
+      const wrap = document.createElement("div"); wrap.className = "el-rm";
+      const t = document.createElement("div"); t.className = "el-rm-t"; t.textContent = r.metrica;
+      const s = document.createElement("div"); s.className = "el-rm-s";
+      const per = document.createElement("span"); per.textContent = r.periodo + " ·"; s.appendChild(per);
+      const u = safeUrl(r.url);
+      if (u) {
+        const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.title = "Abrir a fonte em nova aba";
+        a.textContent = r.fonte; a.appendChild(extIcon()); s.appendChild(a);
+      } else { const f = document.createElement("span"); f.textContent = r.fonte; s.appendChild(f); }
+      wrap.append(t, s);
+      pairBar(wrap, "Lula", lula, mx, CL, fComp.format(lula));
+      pairBar(wrap, "Flávio", fla, mx, CF, fComp.format(fla));
+      box.appendChild(wrap);
+    }
+  }
+
+  function drawTug(box, row) {
+    box.replaceChildren();
+    if (!row) return;
+    const f = Number(row.media_flavio), l = Number(row.media_lula), tot = f + l;
+    if (!tot) return;
+    const a = document.createElement("i"); a.style.width = (f / tot * 100) + "%"; a.style.background = CF;
+    const b = document.createElement("i"); b.style.width = (l / tot * 100) + "%"; b.style.background = CL;
+    box.append(a, b);
+  }
+
+  let maxAbsDif = 1;
+  const colsUltimas = [
+    {f: "instituto", render: linkCell("instituto")},
+    {f: "divulgacao", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+    {f: "flavio_validos", fmt: pct, cls: "el-num"},
+    {f: "lula_validos", fmt: pct, cls: "el-num"},
+    {f: "dif", render: (td, r) => {
+      const w = td.append("div").attr("class", "el-div");
+      const tr = w.append("div").attr("class", "el-div-track");
+      const half = Math.abs(r.dif) / maxAbsDif * 50;
+      if (r.dif > 0) tr.append("div").attr("class", "el-div-bar").style("left", "50%").style("width", half + "%").style("background", CF);
+      if (r.dif < 0) tr.append("div").attr("class", "el-div-bar").style("right", "50%").style("width", half + "%").style("background", CL);
+      w.append("span").text(r.dif === 0 ? "empate" : (r.dif > 0 ? "Flávio +" : "Lula +") + fNum(Math.abs(r.dif)));
+    }},
+    {f: "amostra", fmt: v => fInt(v), cls: "el-num el-sm-hide"},
+    {f: "margem", fmt: v => "± " + fNum(v), cls: "el-num el-sm-hide"},
+    {f: "fonte", cls: "el-src el-sm-hide"}
+  ];
+
+  const pctBar = (key, color) => (td, r) => {
+    const v = Number(r[key]);
+    const grid = document.createElement("div"); grid.className = "el-pair"; grid.style.gridTemplateColumns = "1fr auto";
+    const tr = document.createElement("div"); tr.className = "el-track"; tr.style.minWidth = "3rem";
+    const fl = document.createElement("div"); fl.className = "el-fill"; fl.style.background = color; fl.style.width = v + "%";
+    tr.appendChild(fl);
+    const b = document.createElement("span"); b.textContent = fNum(v) + "%";
+    grid.append(tr, b); td.node().appendChild(grid);
+  };
+
+  let fCand = "Todos", fCat = "Todas", fDir = "Todas";
+  function chipGroup(id, attr, set) {
+    const btns = Array.from(document.querySelectorAll(`#${id} .el-chip`));
+    btns.forEach(b => b.addEventListener("click", () => {
+      btns.forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+      set(b.getAttribute(attr));
+      redraw();
+    }));
+  }
+  chipGroup("chips-cand", "data-cand", v => { fCand = v; });
+  chipGroup("chips-cat", "data-cat", v => { fCat = v; });
+  chipGroup("chips-dir", "data-dir", v => { fDir = v; });
+
+  const byDateDesc = (a, b) => String(b.data).localeCompare(String(a.data)) || String(a.id).localeCompare(String(b.id));
+  const todayISO = () => { const t = new Date(); return new Date(t.getTime() - t.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
+
+  // ---------- Desenho ----------
+  function redraw() {
+    fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
+    fillMarks("tendencia", {inicio: f1, agora: f1});
+    fillMarks("primeiro_turno", {pct: v => fNum(v)});
+    fillMarks("pt_dif", {dif: v => fNum(v), votos: v => fInt(v)});
+    fillMarks("razao_redes", {razao: f1, lula: v => fComp.format(v), flavio: v => fComp.format(v)});
+    fillMarks("redes", {lula: v => fComp.format(v), flavio: v => fComp.format(v)});
+    fillMarks("boatos_matriz", {n: v => fInt(v)});
+    fillMarks("boatos_resumo", {total: v => fInt(v), contra_lula: v => fInt(v), contra_flavio: v => fInt(v)});
+
+    // Início
+    const rs = dash.data("resumo");
+    const hv = document.getElementById("hero-verdict"), he = document.getElementById("hero-explain"), vd = document.getElementById("verdict");
+    if (rs.status === "ok" && rs.data && rs.data[0]) {
+      const r = rs.data[0], tie = Math.abs(r.dif) <= 2;
+      hv.textContent = tie ? "Empate técnico" : (r.dif > 0 ? "Flávio à frente" : "Lula à frente");
+      hv.style.color = tie ? "var(--color-fg)" : (r.dif > 0 ? CF : CL);
+      he.textContent = tie ? "A diferença entre os dois é menor do que a margem de erro das pesquisas. Na prática, a disputa está aberta e qualquer um pode vencer." : "A diferença é maior do que a margem de erro da maioria das pesquisas.";
+      vd.textContent = tie ? "Diferença dentro da margem de erro: empate técnico." : "";
+    } else { hv.textContent = "—"; he.textContent = ""; vd.textContent = ""; }
+    const tug = document.getElementById("tug");
+    const tr = blockState(tug, "resumo");
+    drawTug(tug, tr && tr[0]);
+
+    fillMarks("taxa_resumo", {taxa: fPct0, falsas: v => fInt(v), total: v => fInt(v)});
+    const fl = document.getElementById("ch-falsas");
+    drawFalsas(fl, blockState(fl, "taxa_falsas"));
+    const tc = blockState(document.getElementById("t-taxa-checador"), "taxa_checador");
+    table("#t-taxa-checador", tc, [
+      {f: "agencia"},
+      {f: "candidato", render: (td, r) => td.append("span").style("color", r.candidato === "Lula" ? CL : CF).style("font-weight", "var(--cds-font-weight-medium)").text(r.candidato)},
+      {f: "falsas", fmt: fInt, cls: "el-num"}, {f: "total", fmt: fInt, cls: "el-num"}, {f: "taxa", fmt: fPct0, cls: "el-num"}
+    ], r => r.id);
+
+    const boAll = blockState(document.getElementById("t-boatos-mini"), "boatos");
+    table("#t-boatos-mini", boAll ? boAll.slice().sort(byDateDesc).slice(0, 3) : null, [
+      {f: "boato"}, {f: "veredito", render: dotCell("veredito", () => CAT["Falso"])}
+    ], r => r.id);
+
+    const agAll = blockState(document.getElementById("t-agenda-mini"), "agenda");
+    const today = todayISO();
+    let agNext = agAll ? agAll.filter(r => String(r.data) >= today).sort((a, b) => String(a.data).localeCompare(String(b.data))).slice(0, 3) : null;
+    if (agNext && !agNext.length) agNext = agAll.slice().sort((a, b) => String(b.data).localeCompare(String(a.data))).slice(0, 1);
+    table("#t-agenda-mini", agNext, [
+      {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
+    ], r => r.data);
+
+    // Pesquisas
+    const dif = document.getElementById("ch-dif");
+    drawDif(dif, blockState(dif, "pesquisas"));
+    const ult = blockState(document.getElementById("t-ultimas"), "ultimas");
+    if (ult) maxAbsDif = Math.max(1, d3.max(ult, d => Math.abs(d.dif)));
+    table("#t-ultimas", ult, colsUltimas);
+    const pt = document.getElementById("ch-pt");
+    drawPT(pt, blockState(pt, "primeiro_turno"));
+    const trf = blockState(document.getElementById("t-transf"), "transferencia");
+    table("#t-transf", trf, [
+      {f: "grupo"}, {f: "pesquisa", render: linkCell("pesquisa")},
+      {f: "flavio", render: pctBar("flavio", CF)}, {f: "lula", render: pctBar("lula", CL)}
+    ], r => r.id);
+
+    // Redes
+    const rd = document.getElementById("ch-redes");
+    drawRedes(rd, blockState(rd, "redes"));
+    const si = blockState(document.getElementById("t-sinais"), "sinais");
+    table("#t-sinais", si ? si.slice().sort(byDateDesc) : null, [
+      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"}, {f: "sinal"}, {f: "fonte", render: linkCell("fonte")}
+    ], r => r.id);
+
+    // Campanhas
+    const ag = blockState(document.getElementById("t-agenda"), "agenda");
+    table("#t-agenda", ag ? ag.slice().sort((a, b) => String(a.data).localeCompare(String(b.data))) : null, [
+      {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
+    ], r => r.data);
+    const ev = blockState(document.getElementById("t-eventos"), "campanha");
+    table("#t-eventos", ev ? ev.slice().sort(byDateDesc) : null, [
+      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "tipo", render: (td, r) => td.append("span").attr("class", "el-badge").text(r.tipo)},
+      {f: "descricao"}, {f: "fonte", render: linkCell("fonte")}
+    ], r => r.id);
+
+    // Checagem
+    const pl = blockState(document.getElementById("t-placar"), "checagens_placar");
+    table("#t-placar", pl ? pl.slice().sort((a, b) => String(b.data).localeCompare(String(a.data)) || String(a.agencia).localeCompare(String(b.agencia))) : null, [
+      {f: "candidato"}, {f: "agencia", render: linkCell("agencia")}, {f: "evento"},
+      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "verdadeiro", fmt: fInt, cls: "el-num"}, {f: "impreciso", fmt: fInt, cls: "el-num"}, {f: "falso", fmt: fInt, cls: "el-num"},
+      {f: "total", render: stackCell}, {f: "nota", cls: "el-src el-sm-hide"}
+    ], r => r.id);
+
+    const dr = blockState(document.getElementById("t-direcao"), "checagens_direcao");
+    table("#t-direcao", dr, [
+      {f: "candidato"}, {f: "direcao", render: dotCell("direcao", r => DIRC[r.direcao])},
+      {f: "verdadeiro", fmt: fInt, cls: "el-num"}, {f: "impreciso", fmt: fInt, cls: "el-num"}, {f: "falso", fmt: fInt, cls: "el-num"},
+      {f: "total", render: stackCell}
+    ], r => r.id);
+
+    const ck = blockState(document.getElementById("t-checagens"), "checagens");
+    const ckRows = ck ? ck.filter(r => (fCand === "Todos" || r.candidato === fCand) && (fCat === "Todas" || r.categoria === fCat) && (fDir === "Todas" || r.direcao === fDir)).sort(byDateDesc) : null;
+    table("#t-checagens", ckRows, [
+      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"}, {f: "candidato"}, {f: "afirmacao"},
+      {f: "direcao", render: dotCell("direcao", r => DIRC[r.direcao])},
+      {f: "veredito", render: dotCell("veredito", r => CAT[r.categoria])},
+      {f: "explicacao", cls: "el-src"},
+      {f: "agencia", render: linkCell("agencia")}
+    ], r => r.id);
+
+    const bo = blockState(document.getElementById("t-boatos"), "boatos");
+    table("#t-boatos", bo ? bo.slice().sort(byDateDesc) : null, [
+      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "alvo", render: (td, r) => td.append("span").style("color", r.alvo === "Lula" ? CL : r.alvo === "Flávio" ? CF : null).style("font-weight", "var(--cds-font-weight-medium)").text(r.alvo == null ? "—" : r.alvo)},
+      {f: "beneficiado", cls: "el-sm-hide"},
+      {f: "origem_campo", cls: "el-nowrap"}, {f: "boato"}, {f: "tema", cls: "el-src el-sm-hide"},
+      {f: "veredito", render: dotCell("veredito", r => /^Removido|^Sem/.test(r.veredito) ? CAT["Impreciso ou sem contexto"] : CAT["Falso"])},
+      {f: "origem_detalhe", cls: "el-src el-sm-hide"},
+      {f: "explicacao", cls: "el-src"}, {f: "agencia", render: linkCell("agencia")}
+    ], r => r.id);
+  }
+
+  // ---------- Abas ----------
+  const tabs = Array.from(document.querySelectorAll(".el-tab"));
+  const pages = Array.from(document.querySelectorAll(".el-page"));
+  function show(id, link) {
+    pages.forEach(p => { p.hidden = p.id !== id; });
+    tabs.forEach(t => t.setAttribute("aria-selected", String(t.dataset.tab === id)));
+    const active = tabs.find(t => t.dataset.tab === id);
+    if (active && active.scrollIntoView) active.scrollIntoView({block: "nearest", inline: "nearest"});
+    if (link) dash.setLink(id);
+    redraw();
+  }
+  tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab, true)));
+  document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => {
+    show(b.getAttribute("data-go"), true);
+    const nav = document.querySelector(".el-tabs");
+    if (nav) nav.scrollIntoView({block: "start"});
+  }));
+
+  dash.onData(redraw);
+
+  const h = location.hash.slice(1);
+  if (pages.some(p => p.id === h)) show(h, false);
+  else {
+    const el = h ? document.getElementById(h) : null;
+    const pg = el && el.closest(".el-page");
+    if (pg) { show(pg.id, false); el.scrollIntoView(); }
+  }
+})();
+</script>
+</body>
+</html>

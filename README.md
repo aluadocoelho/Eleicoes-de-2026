@@ -1,5 +1,7 @@
 # Eleições 2026 · 2º turno — dados abertos
 
+**Página pública:** https://aluadocoelho.github.io/Eleicoes-de-2026/ — versão em linguagem simples, feita para celular, que lê os dados deste repositório.
+
 Dados reunidos sobre o 2º turno da eleição presidencial de 2026 (Flávio Bolsonaro, PL × Lula, PT; votação em 25 de outubro): pesquisas de intenção de voto, redes sociais, agenda e eventos das campanhas, checagens de fatos e boatos desmentidos.
 
 Cada linha traz o link (`url`) da reportagem ou checagem de onde a informação saiu. Os textos são resumos com palavras próprias; para o conteúdo completo, siga o link.
@@ -51,6 +53,7 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 
 - **Checagens da Google Fact Check API**: a automação `.github/workflows/factcheck.yml` roda de hora em hora no GitHub Actions e acrescenta checagens novas em `data/factcheck_api.json`. Para ativá-la, crie uma chave gratuita no Google Cloud com a *Fact Check Tools API* habilitada e salve-a como segredo do repositório com o nome `GOOGLE_FACTCHECK_API_KEY` (Settings → Secrets and variables → Actions). Sem a chave, a automação roda e termina sem fazer nada.
 - **Demais conjuntos**: pesquisas, redes, agenda, campanha e checagens selecionadas exigem ler reportagens e são atualizados por uma tarefa agendada do Claude, com as mesmas regras acima.
+- **Página pública** (`index.html`): publicada pelo GitHub Pages a partir da raiz do repositório. Ela lê os arquivos de `data/` a cada visita, então mostra sempre a versão mais recente dos dados.
 - **Validação**: toda mudança em `data/` passa por `scripts/validate.py` (`.github/workflows/validate.yml`), que confere chaves, tipos, datas, categorias, ids repetidos e links `https://`. Rode localmente com `python scripts/validate.py`.
 
 ## Licença
