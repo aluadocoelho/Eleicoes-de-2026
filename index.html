@@ -273,6 +273,18 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-sticky.el-stuck .el-tabs{border-bottom:0}
 .el-page{scroll-margin-top:var(--stick-h,130px)}
 
+/* Acessibilidade */
+.el{--focus:#5B2DBF}
+.el[data-theme="dark"]{--focus:#FFD43B}
+@media (prefers-color-scheme:dark){.el:not([data-theme="light"]){--focus:#FFD43B}}
+.el :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+.el .el-tab:focus-visible{outline-offset:-3px}
+.el-main{display:flex;flex-direction:column;gap:var(--cds-gap-lg);outline:none}
+.el-skip{position:absolute;left:12px;top:-60px;z-index:20;background:#16181D;color:#FFFFFF;padding:12px 18px;border-radius:12px;font-weight:700;text-decoration:none}
+.el-skip:focus{top:12px}
+.el-a11y-box b{color:var(--color-fg)}
+@media (prefers-reduced-motion:reduce){.el *,.el *::before,.el *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
 /* Códigos de verificação */
 .el-cod{appearance:none;border:0;background:none;padding:2px 0;margin:0;font:inherit;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.7rem;letter-spacing:.02em;color:var(--color-fg-muted);cursor:pointer;display:inline-flex;align-items:center;gap:4px;min-height:24px;text-decoration:underline dotted;text-underline-offset:3px;white-space:nowrap}
 .el-cod:hover{color:var(--accent-text)}
@@ -383,6 +395,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 </head>
 <body>
 <div class="el"><div class="el-wrap">
+  <a class="el-skip" href="#conteudo" id="skip-link">Pular para o conteúdo</a>
+  <div class="el-vh" id="a11y-live" role="status" aria-live="polite" aria-atomic="true"></div>
   <div class="el-sticky" id="el-sticky">
   <header>
     <div class="el-flag" aria-hidden="true"><i style="background:var(--cf)"></i><i style="background:var(--cl)"></i></div>
@@ -398,6 +412,9 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <button class="el-theme" id="reload-btn" type="button" aria-label="Atualizar a página e buscar os dados de novo" title="Atualizar">
         <svg class="el-reload-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
         <span class="el-theme-l">Atualizar</span>
+      </button>
+      <button class="el-theme" id="font-btn" type="button" aria-label="Aumentar o tamanho da letra" title="Tamanho da letra">
+        <span aria-hidden="true" style="font-weight:800;font-size:.95rem;line-height:1">A<span style="font-size:.75em">+</span></span>
       </button>
       <button class="el-theme" id="theme-btn" type="button" aria-pressed="false">
         <svg id="theme-ico-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
@@ -417,19 +434,20 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     </div>
   </header>
 
-  <nav class="el-tabs" role="tablist">
-    <button class="el-tab" role="tab" data-tab="inicio" aria-selected="true">Início</button>
-    <button class="el-tab" role="tab" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
-    <button class="el-tab" role="tab" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
-    <button class="el-tab" role="tab" data-tab="redes" aria-selected="false">Redes sociais</button>
-    <button class="el-tab" role="tab" data-tab="campanha" aria-selected="false">Campanhas</button>
-    <button class="el-tab" role="tab" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
-    <button class="el-tab" role="tab" data-tab="verificar" aria-selected="false">Verificar</button>
+  <nav class="el-tabs" role="tablist" aria-label="Seções da página">
+    <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
+    <button class="el-tab" role="tab" id="tab-aovivo" aria-controls="aovivo" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
+    <button class="el-tab" role="tab" id="tab-pesquisas" aria-controls="pesquisas" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
+    <button class="el-tab" role="tab" id="tab-redes" aria-controls="redes" data-tab="redes" aria-selected="false">Redes sociais</button>
+    <button class="el-tab" role="tab" id="tab-campanha" aria-controls="campanha" data-tab="campanha" aria-selected="false">Campanhas</button>
+    <button class="el-tab" role="tab" id="tab-checagem" aria-controls="checagem" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
+    <button class="el-tab" role="tab" id="tab-verificar" aria-controls="verificar" data-tab="verificar" aria-selected="false">Verificar</button>
   </nav>
   </div>
 
   <!-- ================= INÍCIO ================= -->
-  <section class="el-page" id="inicio">
+  <main id="conteudo" tabindex="-1" class="el-main">
+  <section class="el-page" id="inicio" role="tabpanel" aria-labelledby="tab-inicio" tabindex="-1">
     <div class="el-banner" id="banner" data-source="destaques" hidden></div>
 
     <div class="el-hero" id="hero">
@@ -510,7 +528,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= AO VIVO ================= -->
-  <section class="el-page" id="aovivo" hidden>
+  <section class="el-page" id="aovivo" role="tabpanel" aria-labelledby="tab-aovivo" tabindex="-1" hidden>
     <div class="el-lv-head" id="lv-head" data-source="destaques"></div>
     <div class="el-lv-sum" id="lv-sum" data-source="aovivo">
       <div class="el-lv-box"><b id="lv-n">—</b><span>atualizações do evento</span></div>
@@ -529,7 +547,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= PESQUISAS ================= -->
-  <section class="el-page" id="pesquisas" hidden>
+  <section class="el-page" id="pesquisas" role="tabpanel" aria-labelledby="tab-pesquisas" tabindex="-1" hidden>
     <p class="el-intro">Aqui estão todas as pesquisas do 2º turno. No gráfico, cada bolinha é uma pesquisa: quanto mais acima da linha do meio, mais Flávio está à frente; quanto mais abaixo, mais Lula.</p>
     <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
     <div class="el-kpis">
@@ -604,7 +622,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= REDES ================= -->
-  <section class="el-page" id="redes" hidden>
+  <section class="el-page" id="redes" role="tabpanel" aria-labelledby="tab-redes" tabindex="-1" hidden>
     <p class="el-intro">Como os dois candidatos se saem nas redes sociais. Lembre: curtidas e seguidores mostram quem está mobilizando apoiadores, não quem vai ganhar.</p>
     <div class="el-kpis">
       <div class="el-card">
@@ -648,7 +666,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= CAMPANHAS ================= -->
-  <section class="el-page" id="campanha" hidden>
+  <section class="el-page" id="campanha" role="tabpanel" aria-labelledby="tab-campanha" tabindex="-1" hidden>
     <p class="el-intro">O que cada candidato vai fazer nos próximos dias e o que já aconteceu na campanha, do mais recente ao mais antigo.</p>
     <div class="el-card" id="card-agenda">
       <h2 class="el-h">Agenda da última semana</h2>
@@ -682,7 +700,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= CHECAGEM ================= -->
-  <section class="el-page" id="checagem" hidden>
+  <section class="el-page" id="checagem" role="tabpanel" aria-labelledby="tab-checagem" tabindex="-1" hidden>
     <div class="el-card el-howto">
       <h2 class="el-h">Como ler esta aba</h2>
       <p>Reúne checagens da Lupa, do Aos Fatos e do Ranking dos Políticos sobre falas dos dois candidatos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
@@ -843,7 +861,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   </section>
 
   <!-- ================= VERIFICAR ================= -->
-  <section class="el-page" id="verificar" hidden>
+  <section class="el-page" id="verificar" role="tabpanel" aria-labelledby="tab-verificar" tabindex="-1" hidden>
     <div class="el-vf-hero">
       <span class="el-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
       <h2 class="el-bn-t">Recebeu um print desta página?</h2>
@@ -861,6 +879,13 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <p>Os dados ficam num repositório público no GitHub, que guarda com data e hora tudo o que foi publicado e corrigido. Quando uma informação é corrigida, o código antigo continua aqui, marcado como versão antiga, para que um print antigo e verdadeiro também possa ser conferido.</p>
       <p>Prints sem código, ou com um código que não aparece aqui, não saíram desta página.</p>
     </div>
+  </section>
+
+  </main>
+
+  <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
+    <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
+    <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. Na página pública, o botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
   </section>
 
   <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada 2 horas, das 7h às 23h. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados).</p>
@@ -943,6 +968,29 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     CAT["Falso"] = g("--f-false", "#26282E");
   }
   applyTheme(); readColors();
+  // Tamanho da letra: normal, maior, bem maior
+  const FONT_STEPS = [100, 115, 130], FONT_NAMES = ["normal", "maior", "bem maior"];
+  let fontStep = 0;
+  try { fontStep = Math.max(0, FONT_STEPS.indexOf(Number(localStorage.getItem("el-letra")))); } catch (e) {}
+  function applyFont() {
+    document.documentElement.style.fontSize = FONT_STEPS[fontStep] === 100 ? "" : FONT_STEPS[fontStep] + "%";
+    const fb = document.getElementById("font-btn");
+    const next = (fontStep + 1) % FONT_STEPS.length;
+    fb.setAttribute("aria-label", "Tamanho da letra: " + FONT_NAMES[fontStep] + ". Toque para deixar " + FONT_NAMES[next] + ".");
+    fb.setAttribute("aria-pressed", String(fontStep > 0));
+  }
+  applyFont();
+  document.getElementById("font-btn").addEventListener("click", () => {
+    fontStep = (fontStep + 1) % FONT_STEPS.length;
+    try { localStorage.setItem("el-letra", String(FONT_STEPS[fontStep])); } catch (e) {}
+    applyFont(); announce("Tamanho da letra: " + FONT_NAMES[fontStep] + "."); setTimeout(redraw, 50);
+  });
+  function announce(msg) { const n = document.getElementById("a11y-live"); if (!n) return; n.textContent = ""; setTimeout(() => { n.textContent = msg; }, 60); }
+  document.getElementById("skip-link").addEventListener("click", ev => {
+    ev.preventDefault();
+    const pg = document.querySelector(".el-page:not([hidden])") || document.getElementById("conteudo");
+    pg.focus({preventScroll: true}); pg.scrollIntoView({block: "start"});
+  });
   document.getElementById("reload-btn").addEventListener("click", ev => {
     const b = ev.currentTarget;
     b.classList.add("el-loading"); b.disabled = true;
@@ -1569,7 +1617,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     box.appendChild(foot);
     box.hidden = false;
   }
-  setInterval(renderBanner, 30000);
+  setInterval(() => { renderBanner(); a11yStructure(); }, 30000);
 
   // ---------- Faixa de atualização ----------
   function renderStatus() {
@@ -1709,7 +1757,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       feed.appendChild(li);
     });
   }
-  setInterval(renderLive, 30000);
+  setInterval(() => { renderLive(); a11yStructure(); }, 30000);
 
   // ---------- Desenho ----------
   // ---------- Códigos de verificação ----------
@@ -1849,6 +1897,59 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     });
   }
   setInterval(() => { try { renderNew(); } catch (e) {} }, 60000);
+
+  // ---------- Leitor de tela: gráficos, tabelas e links ----------
+  const pctTxt = v => v == null ? "sem dado" : fNum(v).replace(".", ",") + "%";
+  function label(el, text) { if (!el) return; el.setAttribute("role", "img"); el.setAttribute("aria-label", text); el.querySelectorAll("svg").forEach(sv => sv.setAttribute("aria-hidden", "true")); }
+  function describeCharts() {
+    const rs = dash.data("resumo"), r = rs.status === "ok" && rs.data && rs.data[0];
+    if (r) label(document.getElementById("tug"), "Barra: Flávio Bolsonaro com " + pctTxt(r.media_flavio) + " e Lula com " + pctTxt(r.media_lula) + " dos votos válidos, na média das pesquisas.");
+    const ps = dash.data("pesquisas");
+    if (ps.status === "ok" && ps.data && ps.data.length) {
+      const ds = ps.data.map(x => String(x.divulgacao)).sort();
+      const fl = ps.data.filter(x => x.flavio_validos > x.lula_validos).length, lu = ps.data.filter(x => x.lula_validos > x.flavio_validos).length;
+      label(document.getElementById("ch-dif"), "Gráfico com " + ps.data.length + " pesquisas divulgadas de " + dFmt(dParse(ds[0])) + " a " + dFmt(dParse(ds[ds.length - 1])) + ". Flávio aparece à frente em " + fl + ", Lula em " + lu + (ps.data.length - fl - lu ? ", e há empate em " + (ps.data.length - fl - lu) : "") + ". Os números de cada instituto estão na tabela logo abaixo.");
+    }
+    const pt = dash.data("primeiro_turno");
+    if (pt.status === "ok" && pt.data) label(document.getElementById("ch-pt"), "Resultado do 1º turno, em votos válidos: " + pt.data.slice().sort((a, b) => b.pct - a.pct).map(x => x.candidato + " " + pctTxt(x.pct)).join("; ") + ".");
+    const tx = dash.data("taxa_resumo");
+    if (tx.status === "ok" && tx.data) label(document.getElementById("ch-falsas"), "Gráfico de linha da porcentagem de falas falsas ao longo do tempo. Agora: " + tx.data.map(x => x.candidato + " " + (x.taxa == null ? "sem dado" : Math.round(x.taxa * 100) + "% (" + x.falsas + " de " + x.total + " falas checadas)")).join("; ") + ".");
+    const mb = document.querySelector("#q-falsas .el-mbars");
+    if (mb && tx.status === "ok" && tx.data) label(mb, "Falas checadas classificadas como falsas: " + tx.data.map(x => x.candidato + " " + (x.taxa == null ? "sem dado" : Math.round(x.taxa * 100) + "%")).join(", ") + ".");
+  }
+  function a11yStructure() {
+    document.querySelectorAll(".el table.el-t").forEach(t => {
+      t.setAttribute("role", "table");
+      const h = t.closest(".el-card") && t.closest(".el-card").querySelector("h2, h3");
+      if (h && !t.hasAttribute("aria-label")) t.setAttribute("aria-label", h.textContent.trim());
+      t.querySelectorAll("thead, tbody").forEach(g => g.setAttribute("role", "rowgroup"));
+      t.querySelectorAll("tr").forEach(r => r.setAttribute("role", "row"));
+      t.querySelectorAll("th").forEach(c => { c.setAttribute("role", "columnheader"); c.setAttribute("scope", "col"); });
+      t.querySelectorAll("td").forEach(c => c.setAttribute("role", "cell"));
+    });
+    document.querySelectorAll('.el a[target="_blank"]').forEach(a => {
+      if (a.querySelector(".el-newtab")) return;
+      const sp = document.createElement("span"); sp.className = "el-vh el-newtab"; sp.textContent = " (abre em nova aba)"; a.appendChild(sp);
+    });
+    document.querySelectorAll(".el svg.el-ext").forEach(sv => sv.setAttribute("aria-hidden", "true"));
+    document.querySelectorAll(".el-chips").forEach(g => {
+      if (g.getAttribute("role")) return;
+      const l = g.querySelector(".el-chip-l"); g.setAttribute("role", "group");
+      if (l) g.setAttribute("aria-label", l.textContent.replace(":", "").trim());
+    });
+    document.querySelectorAll(".el-new").forEach(n => { if (!n.querySelector(".el-vh")) { n.setAttribute("aria-label", "Novidade de hoje"); } });
+  }
+  // Avisa o leitor de tela quando chega novidade no ao vivo (com a aba aberta)
+  let lvSeen = null;
+  function announceLive() {
+    const d = dash.data("aovivo"); if (d.status !== "ok" || !d.data) return;
+    const ids = new Set(d.data.map(r => r.id));
+    if (lvSeen) {
+      const novos = d.data.filter(r => !lvSeen.has(r.id) && r.tipo !== "Programação");
+      if (novos.length && !document.getElementById("aovivo").hidden) announce(novos.length === 1 ? "Novidade no ao vivo: " + novos[0].texto : novos.length + " novidades no ao vivo. A mais recente: " + novos[novos.length - 1].texto);
+    }
+    lvSeen = ids;
+  }
 
   function redraw() {
     readColors();
@@ -1991,6 +2092,9 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const vin = document.getElementById("vf-in");
     if (!document.getElementById("verificar").hidden && vin && vin.value) renderVerify(vin.value);
     setupMore();
+    describeCharts();
+    a11yStructure();
+    announceLive();
   }
 
   // ---------- Abas ----------
@@ -1998,7 +2102,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const pages = Array.from(document.querySelectorAll(".el-page"));
   function show(id, link) {
     pages.forEach(p => { p.hidden = p.id !== id; });
-    tabs.forEach(t => t.setAttribute("aria-selected", String(t.dataset.tab === id)));
+    tabs.forEach(t => { const on = t.dataset.tab === id; t.setAttribute("aria-selected", String(on)); t.tabIndex = on ? 0 : -1; });
     const active = tabs.find(t => t.dataset.tab === id);
     if (active && active.scrollIntoView) active.scrollIntoView({block: "nearest", inline: "nearest"});
     if (link) dash.setLink(id);
@@ -2034,9 +2138,21 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (top < stick.getBoundingClientRect().bottom || top > window.innerHeight) sec.scrollIntoView({block: "start"});
   }
   tabs.forEach(t => t.addEventListener("click", () => { show(t.dataset.tab, true); goTop(t.dataset.tab); }));
+  tabs.forEach((t, i) => t.addEventListener("keydown", ev => {
+    let j = null;
+    if (ev.key === "ArrowRight") j = (i + 1) % tabs.length;
+    else if (ev.key === "ArrowLeft") j = (i - 1 + tabs.length) % tabs.length;
+    else if (ev.key === "Home") j = 0;
+    else if (ev.key === "End") j = tabs.length - 1;
+    if (j === null) return;
+    ev.preventDefault();
+    show(tabs[j].dataset.tab, true); tabs[j].focus(); goTop(tabs[j].dataset.tab);
+  }));
+  tabs.forEach(t => { t.tabIndex = t.getAttribute("aria-selected") === "true" ? 0 : -1; });
   document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => {
     const id = b.getAttribute("data-go");
     show(id, true); goTop(id);
+    const pg = document.getElementById(id); if (pg) pg.focus({preventScroll: true});
   }));
 
   dash.onData(redraw);
@@ -2056,5 +2172,11 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
 })();
 </script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+<script>window.addEventListener("load", function () { try { if (window.VLibras) new window.VLibras.Widget("https://vlibras.gov.br/app"); } catch (e) {} });</script>
 </body>
 </html>
