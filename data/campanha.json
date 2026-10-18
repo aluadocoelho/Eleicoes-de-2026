@@ -110,5 +110,45 @@
   "descricao": "Primeiro debate direto do 2º turno, na Band, às 20h. O próximo é na TV Globo, em 23/10.",
   "fonte": "Band / InfoMoney",
   "url": "https://www.infomoney.com.br/politica/lula-e-flavio-confirmam-debate-na-band-confronto-pode-mudar-dinamica-do-2o-turno/"
+ },
+ {
+  "id": "e15",
+  "data": "2026-10-10",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Nunes Marques, presidente do TSE, suspende peça de Lula que associava Flávio e o vice Alfredo Gaspar a crimes.",
+  "fonte": "Revista Oeste",
+  "url": "https://revistaoeste.com/politica/tse-suspende-propaganda-de-lula-contra-flavio/"
+ },
+ {
+  "id": "e16",
+  "data": "2026-10-13",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Ministra Estela Aranha manda a campanha de Lula tirar do ar anúncio impulsionado que ligava Flávio ao crime organizado (impulsionar ataque é proibido).",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-tirar-do-ar-video-que-liga-flavio-ao-crime-organizado/"
+ },
+ {
+  "id": "e17",
+  "data": "2026-10-16",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "TSE proíbe propaganda de Flávio que associava Lula a crimes de presos em \"saidinha\" com fala fora de contexto.",
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/colunas/demetrio-vecchioli/tse-proibe-propaganda-de-flavio-associando-lula-a-crimes-em-saidinhas"
+ },
+ {
+  "id": "e18",
+  "data": "2026-10-16",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Plenário do TSE mantém, por unanimidade, ordem para a Meta não reduzir o alcance de posts sobre os candidatos, sob multa diária de R$ 500 mil.",
+  "fonte": "O Povo",
+  "url": "https://www.opovo.com.br/noticias/brasil/2026/10/18/tse-mantem-ordem-para-meta-garantir-isonomia-a-lula-e-flavio-nas-plataformas.html"
+ },
+ {
+  "id": "e19",
+  "data": "2026-10-18",
+  "tipo": "Estratégia",
+  "descricao": "Flávio faz ato na Paulista com Tarcísio, Nikolas Ferreira e senadores eleitos; no Rio e em SP, artistas fazem atos pró-democracia sem a presença de Lula.",
+  "fonte": "O Tempo / TMC",
+  "url": "https://www.otempo.com.br/eleicoes/2026/2026/10/18/flavio-bolsonaro-reune-tarcisio-de-freitas-nikolas-ferreira-e-outros-politicos-em-ato-na-paulista"
  }
 ]
