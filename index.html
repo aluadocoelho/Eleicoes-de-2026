@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula</title>
-<meta name="description" content="Pesquisas, redes sociais, agenda das campanhas, checagem de fatos e boatos desmentidos do 2º turno da eleição presidencial de 2026, em linguagem simples e com link para cada fonte.">
+<meta name="description" content="Pesquisas, debate ao vivo, redes sociais, agenda das campanhas, checagem de fatos e boatos desmentidos do 2º turno da eleição presidencial de 2026, em linguagem simples e com link para cada fonte.">
 <meta property="og:title" content="Eleição 2026 · 2º turno — Flávio Bolsonaro × Lula">
 <meta property="og:description" content="Quem está na frente, quem disse mais coisas falsas, boatos desmentidos e agenda dos candidatos, com fonte em cada dado.">
 <meta property="og:type" content="website">
@@ -25,6 +25,9 @@
   --cds-radius:10px; --cds-shadow-popover:0 6px 24px rgba(16,24,40,.12); --cds-dur-slow:.3s;
 }
 html,body{margin:0;padding:0;background:#FFFFFF}
+:root[data-theme="dark"],:root[data-theme="dark"] body{background:#0F1117}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]),:root:not([data-theme="light"]) body{background:#0F1117}}
+:root[data-theme="dark"] .dash-skeleton{background:linear-gradient(90deg,#1E222C 25%,#262B36 50%,#1E222C 75%);background-size:200% 100%}
 body{-webkit-text-size-adjust:100%}
 .dash-skeleton{color:transparent!important;background:linear-gradient(90deg,#EEF0F3 25%,#F6F7F9 50%,#EEF0F3 75%);background-size:200% 100%;border-radius:6px}
 span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
@@ -39,13 +42,70 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
   --color-ok:#1E7B47; --color-warn:#C98A0B; --color-bad:#B42318;
   --cds-chart-grid:#EEF0F3; --cds-chart-axis:#C8CDD6; --cds-chart-reference:#9AA0AC; --cds-chart-muted:#C3C8D1;
   --cds-surface-popover:#FFFFFF; --cds-border:#E4E7EC; --cds-text-secondary:#5A6170;
+  --accent:#5B2DBF; --accent-text:#5B2DBF; --accent-soft:#F0EBFC; --on-accent:#FFFFFF;
+  --surface-soft:#F6F8FB; --surface-ico:#F1F3F6; --surface-hover:#F2F4F7;
+  --banner-bg:#5B2DBF; --banner-row:rgba(255,255,255,.12); --banner-muted:#E2D9FA;
+  --ink:#16181D; --lift:4px;
   color-scheme:light;
-  background:#FFFFFF; color:var(--color-fg);
+  background:var(--color-bg); color:var(--color-fg);
   font-family:var(--font-anthropic-sans);
   display:flex; flex-direction:column; gap:var(--cds-gap-lg);
   padding:clamp(16px,4vw,40px); min-height:100%; box-sizing:border-box;
 }
+.el[data-theme="dark"]{
+  --cf:#7EA6FF; --cl:#FF7A7A;
+  --f-true:#4CC38A; --f-mid:#E5A93A; --f-false:#C9CED8;
+  --color-fg:#ECEEF3; --color-fg-muted:#A6ADBB; --color-bg:#0F1117; --color-panel:#171A22; --color-border-line:#2A2F3A;
+  --color-ok:#4CC38A; --color-warn:#E5A93A; --color-bad:#FF6B6B;
+  --cds-chart-grid:#242936; --cds-chart-axis:#3A4150; --cds-chart-reference:#6B7385; --cds-chart-muted:#4A5162;
+  --cds-surface-popover:#1E222C; --cds-border:#2A2F3A; --cds-text-secondary:#A6ADBB;
+  --accent:#6A45D9; --accent-text:#B9A3FF; --accent-soft:#211A38; --on-accent:#FFFFFF;
+  --surface-soft:#151922; --surface-ico:#232836; --surface-hover:#1E2330;
+  --banner-bg:#3E2492; --banner-row:rgba(255,255,255,.1); --banner-muted:#D3C6F7;
+  --ink:#B9A3FF;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:dark){
+  .el:not([data-theme="light"]){
+    --cf:#7EA6FF; --cl:#FF7A7A;
+    --f-true:#4CC38A; --f-mid:#E5A93A; --f-false:#C9CED8;
+    --color-fg:#ECEEF3; --color-fg-muted:#A6ADBB; --color-bg:#0F1117; --color-panel:#171A22; --color-border-line:#2A2F3A;
+    --color-ok:#4CC38A; --color-warn:#E5A93A; --color-bad:#FF6B6B;
+    --cds-chart-grid:#242936; --cds-chart-axis:#3A4150; --cds-chart-reference:#6B7385; --cds-chart-muted:#4A5162;
+    --cds-surface-popover:#1E222C; --cds-border:#2A2F3A; --cds-text-secondary:#A6ADBB;
+    --accent:#6A45D9; --accent-text:#B9A3FF; --accent-soft:#211A38; --on-accent:#FFFFFF;
+    --surface-soft:#151922; --surface-ico:#232836; --surface-hover:#1E2330;
+    --banner-bg:#3E2492; --banner-row:rgba(255,255,255,.1); --banner-muted:#D3C6F7;
+    --ink:#B9A3FF;
+    color-scheme:dark;
+  }
+}
 .el *{box-sizing:border-box}
+/* Faixa de cores e topo */
+.el-flag{display:flex;height:8px;border-radius:999px;overflow:hidden;margin-bottom:var(--cds-gap-md)}
+.el-flag i{flex:1;display:block}
+.el-top{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--cds-gap-md)}
+.el-brand{display:flex;align-items:center;gap:14px}
+.el-seal{flex:none;width:58px;height:58px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1}
+.el-seal b{font-family:var(--font-anthropic-serif);font-size:1.45rem;font-weight:700}
+.el-seal span{font-size:.56rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+/* Botões com sombra sólida que sobem na diagonal */
+.el-btn,.el-cta,.el-q-more,.el-chip,.el-theme{
+  --bs:var(--ink);
+  position:relative;transform:translate(0,0);box-shadow:0 0 0 var(--bs);
+  border:2px solid var(--ink);border-radius:14px;
+}
+@media (prefers-reduced-motion:no-preference){
+  .el-btn,.el-cta,.el-q-more,.el-chip,.el-theme{transition:transform .16s ease,box-shadow .16s ease,background-color .16s ease}
+}
+.el-btn:hover,.el-cta:hover,.el-q-more:hover,.el-chip:hover,.el-theme:hover,
+.el-btn:focus-visible,.el-cta:focus-visible,.el-q-more:focus-visible,.el-chip:focus-visible,.el-theme:focus-visible{
+  transform:translate(calc(-1 * var(--lift)),calc(-1 * var(--lift)));box-shadow:var(--lift) var(--lift) 0 var(--bs);outline:none
+}
+.el-btn:active,.el-cta:active,.el-q-more:active,.el-chip:active,.el-theme:active{transform:translate(0,0);box-shadow:0 0 0 var(--bs)}
+.el-theme{appearance:none;flex:none;display:inline-flex;align-items:center;gap:8px;background:var(--color-panel);color:var(--color-fg);padding:8px 14px;min-height:44px;font:inherit;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);cursor:pointer}
+.el-theme svg{flex:none}
+@media (max-width:40rem){.el-theme-l{display:none}.el-theme{padding:8px 11px}}
 .el-wrap{max-width:72rem;width:100%;margin-inline:auto;display:flex;flex-direction:column;gap:var(--cds-gap-lg)}
 .el-eyebrow{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.06em;margin:0}
 .el-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);line-height:1.15;margin:var(--cds-gap-xs) 0 0}
@@ -53,10 +113,14 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-legend span{display:inline-flex;align-items:center;gap:var(--cds-gap-xs)}
 .el-dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;flex:none}
 .el-cf{color:var(--cf)} .el-cl{color:var(--cl)}
-.el-tabs{display:flex;gap:2px;border-bottom:1px solid var(--color-border-line);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;position:sticky;top:0;background:#FFFFFF;z-index:2}
+.el-tabs{display:flex;gap:2px;border-bottom:1px solid var(--color-border-line);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;position:sticky;top:0;background:var(--color-bg);z-index:2}
 .el-tabs::-webkit-scrollbar{display:none}
 .el-tab{appearance:none;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:12px 14px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);color:var(--color-fg-muted);cursor:pointer;white-space:nowrap}
-.el-tab[aria-selected="true"]{color:var(--color-fg);border-bottom-color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.el-tab[aria-selected="true"]{color:var(--accent-text);border-bottom-color:var(--accent-text);font-weight:var(--cds-font-weight-medium)}
+.el-tab{display:inline-flex;align-items:center;gap:7px}
+.el-tab-dot{width:8px;height:8px;border-radius:50%;background:#E5484D;flex:none}
+.el-tab-dot[hidden]{display:none}
+@media (prefers-reduced-motion:no-preference){.el-tab-dot{animation:el-pulse 1.4s ease-in-out infinite}}
 .el-page{display:flex;flex-direction:column;gap:var(--cds-gap-md)}
 .el-page[hidden]{display:none}
 .el-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:var(--cds-gap-md)}
@@ -73,7 +137,7 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-muted{color:var(--color-fg-muted)}
 
 /* Início */
-.el-hero{background:#F6F8FB;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:clamp(18px,4vw,32px)}
+.el-hero{background:var(--surface-soft);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:clamp(18px,4vw,32px)}
 .el-verdict{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(2rem,7vw,3.25rem);line-height:1.05;margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
 .el-names{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--cds-gap-md);margin-bottom:var(--cds-gap-sm)}
 .el-name{display:flex;flex-direction:column;gap:2px}
@@ -83,14 +147,13 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-tug{position:relative;display:flex;height:22px;border-radius:999px;overflow:hidden;background:var(--cds-chart-grid)}
 .el-tug i{display:block;height:100%}
 .el-tug-mid{position:relative;height:28px}
-.el-tug-mid::before{content:"";position:absolute;left:50%;top:-30px;height:34px;width:2px;background:#16181D;transform:translateX(-1px)}
+.el-tug-mid::before{content:"";position:absolute;left:50%;top:-30px;height:34px;width:2px;background:var(--color-fg);transform:translateX(-1px)}
 .el-tug-mid span{position:absolute;left:50%;top:6px;transform:translateX(-50%);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);white-space:nowrap}
 .el-explain{font-size:var(--cds-font-size-body);line-height:1.55;margin:var(--cds-gap-sm) 0 0}
 .el-details{margin-top:var(--cds-gap-md);font-size:var(--cds-font-size-body)}
 .el-details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:var(--cds-font-weight-medium)}
 .el-details p{margin:var(--cds-gap-xs) 0;color:var(--color-fg-muted);line-height:1.55}
-.el-cta{appearance:none;background:#FFFFFF;border:1px solid var(--color-fg);color:var(--color-fg);border-radius:999px;padding:10px 18px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);cursor:pointer;margin-top:var(--cds-gap-md);display:inline-flex;align-items:center;gap:8px}
-.el-cta:hover{background:#F2F4F7}
+.el-cta{appearance:none;background:var(--accent);color:var(--on-accent);padding:11px 20px;min-height:48px;font:inherit;font-size:var(--cds-font-size-body);font-weight:700;cursor:pointer;margin-top:var(--cds-gap-md);display:inline-flex;align-items:center;gap:8px;align-self:flex-start}
 .el-simple .el-h{margin-bottom:var(--cds-gap-sm)}
 .el-big{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);line-height:1.15;margin:0 0 var(--cds-gap-sm)}
 .el-vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -127,8 +190,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-foot{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0}
 .el-chips{display:flex;flex-wrap:wrap;gap:var(--cds-gap-xs);align-items:center;margin-bottom:var(--cds-gap-sm)}
 .el-chip-l{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-right:var(--cds-gap-xs)}
-.el-chip{appearance:none;font:inherit;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line);background:#FFFFFF;color:var(--color-fg-muted);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
-.el-chip[aria-pressed="true"]{color:#FFFFFF;background:var(--color-fg);border-color:var(--color-fg)}
+.el-chip{appearance:none;font:inherit;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);background:var(--color-panel);color:var(--color-fg);border-radius:999px;padding:6px 14px;min-height:40px;cursor:pointer}
+.el-chip[aria-pressed="true"]{color:var(--on-accent);background:var(--accent)}
 .el-stack{display:flex;height:.5rem;border-radius:999px;overflow:hidden;min-width:5rem;flex:1;gap:2px}
 .el-stack i{display:block;height:100%}
 .el-vd{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
@@ -141,22 +204,23 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
 
 /* Início reorganizado */
-.el-intro{font-size:var(--cds-font-size-body);line-height:1.55;margin:0;padding:var(--cds-pad-md) var(--cds-pad-lg);background:#F6F8FB;border-radius:var(--cds-radius);border-left:4px solid #16181D}
-.el-banner{background:#1B1F27;color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:12px}
+.el-intro{font-size:var(--cds-font-size-body);line-height:1.55;margin:0;padding:var(--cds-pad-md) var(--cds-pad-lg);background:var(--accent-soft);border-radius:var(--cds-radius)}
+.el-banner{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:12px}
 .el-banner[hidden]{display:none}
-.el-bn-tag{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);letter-spacing:.06em;text-transform:uppercase;background:#FFFFFF;color:#1B1F27;border-radius:999px;padding:5px 12px}
-.el-bn-dot{width:8px;height:8px;border-radius:50%;background:#1B1F27}
+.el-bn-tag{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);letter-spacing:.06em;text-transform:uppercase;background:#FFFFFF;color:#3E2492;border-radius:999px;padding:5px 12px}
+.el-bn-dot{width:8px;height:8px;border-radius:50%;background:#5B2DBF}
 .el-bn-tag.el-live .el-bn-dot{background:#E5484D}
 @media (prefers-reduced-motion:no-preference){.el-bn-tag.el-live .el-bn-dot{animation:el-pulse 1.4s ease-in-out infinite}}
 @keyframes el-pulse{0%,100%{opacity:1}50%{opacity:.3}}
 .el-bn-t{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.5rem,5vw,2.1rem);line-height:1.15;margin:0}
-.el-bn-d{margin:0;color:#D5D9E0;line-height:1.5;font-size:var(--cds-font-size-body)}
+.el-bn-d{margin:0;color:var(--banner-muted);line-height:1.5;font-size:var(--cds-font-size-body)}
 .el-bn-rows{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr))}
-.el-bn-row{display:flex;gap:10px;align-items:flex-start;background:rgba(255,255,255,.08);border-radius:8px;padding:12px}
+.el-bn-row{display:flex;gap:10px;align-items:flex-start;background:var(--banner-row);border-radius:12px;padding:12px}
 .el-bn-row svg{flex:none;margin-top:2px}
-.el-bn-l{display:block;font-size:var(--cds-font-size-caption);color:#AEB4BF;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.el-bn-l{display:block;font-size:var(--cds-font-size-caption);color:var(--banner-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
 .el-bn-v{display:block;line-height:1.45;font-size:var(--cds-font-size-body)}
-.el-bn-foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:var(--cds-font-size-caption);color:#AEB4BF}
+.el-bn-foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:var(--cds-font-size-caption);color:var(--banner-muted)}
+.el-bn-go{appearance:none;background:#FFFFFF;color:#3E2492;--bs:#16181D;border-color:#16181D;padding:10px 18px;min-height:46px;font:inherit;font-size:var(--cds-font-size-body);font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;align-self:flex-start}
 .el-bn-foot a{color:#FFFFFF;display:inline-flex;align-items:center;gap:4px;text-underline-offset:3px}
 .el-bn-foot .el-ext{color:#FFFFFF}
 .el-bn-count{font-weight:var(--cds-font-weight-medium);color:#FFFFFF;font-size:var(--cds-font-size-body)}
@@ -166,26 +230,53 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-hero-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:4px 0 0;line-height:1.5}
 .el-sec{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.35rem,4.5vw,1.6rem);margin:var(--cds-gap-sm) 0 0}
 .el-qgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:var(--cds-gap-md)}
-.el-q{background:#FFFFFF;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:flex;flex-direction:column;gap:8px;min-width:0}
+.el-q{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:flex;flex-direction:column;gap:8px;min-width:0}
 .el-q-top{display:flex;align-items:center;gap:10px}
-.el-ico{width:38px;height:38px;border-radius:50%;background:#F1F3F6;display:inline-flex;align-items:center;justify-content:center;flex:none;color:#16181D}
+.el-ico{width:40px;height:40px;border-radius:12px;background:var(--accent);display:inline-flex;align-items:center;justify-content:center;flex:none;color:var(--on-accent)}
 .el-q-t{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0;line-height:1.3}
 .el-q-a{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.55rem,5vw,1.9rem);line-height:1.15;margin:4px 0 0}
 .el-q-s{margin:0;line-height:1.55;font-size:var(--cds-font-size-body)}
 .el .el-q-s b{font-weight:var(--cds-font-weight-medium);font-variant-numeric:tabular-nums}
-.el-q-more{margin-top:auto;align-self:flex-start;appearance:none;background:none;border:0;padding:8px 0 0;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);color:var(--color-fg);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.el-q-more{margin-top:auto;align-self:flex-start;appearance:none;background:var(--accent-soft);padding:8px 16px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:700;color:var(--accent-text);cursor:pointer}
 .el-mbars{display:flex;flex-direction:column;gap:10px;margin-top:6px}
 .el-mbar{display:grid;grid-template-columns:4rem 1fr 3.2rem;align-items:center;gap:10px;font-weight:var(--cds-font-weight-medium)}
 .el-mbar .el-track{height:12px}
 .el .el-mbar b{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.35rem;text-align:right;font-variant-numeric:tabular-nums}
 
 
-.el-upd{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);background:#F6F8FB;border:1px solid var(--color-border-line);border-radius:999px;padding:8px 14px;line-height:1.4}
+.el-upd{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);background:var(--accent-soft);border:0;border-radius:999px;padding:8px 14px;line-height:1.4}
 .el-upd[hidden]{display:none}
 .el-upd svg{flex:none;color:var(--color-fg)}
 .el .el-upd b{color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
 .el-upd-all{flex-basis:100%;padding-left:26px}
 @media (max-width:40rem){.el-upd{border-radius:var(--cds-radius)}.el-upd-sep{display:none}#upd-next{display:block}}
+
+/* Ao vivo */
+.el-lv-head{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:10px}
+.el-lv-head .el-bn-t{color:#FFFFFF}
+.el-lv-sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--cds-gap-sm)}
+@media (max-width:40rem){.el-lv-box{padding:10px 12px}.el-lv-box b{font-size:1.35rem}.el-lv-box span{font-size:.75rem}}
+.el-lv-box{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md) var(--cds-pad-lg);display:flex;flex-direction:column;gap:6px}
+.el-lv-box b{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.6rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.el-lv-box span{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.45}
+.el-feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;position:relative}
+.el-feed::before{content:"";position:absolute;left:3.6rem;top:6px;bottom:6px;width:2px;background:var(--color-border-line)}
+.el-fi{display:grid;grid-template-columns:3.1rem 1fr;gap:0 1.3rem;padding:0 0 var(--cds-gap-md);position:relative}
+.el-fi-h{font-family:var(--font-anthropic-serif);font-size:1.15rem;font-variant-numeric:tabular-nums;text-align:right;padding-top:12px;color:var(--color-fg)}
+.el-fi-b{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:12px 14px;display:flex;flex-direction:column;gap:6px;position:relative;min-width:0}
+.el-fi-b::before{content:"";position:absolute;left:calc(-0.65rem - 6px);top:16px;width:10px;height:10px;border-radius:50%;background:var(--fi-c,var(--color-fg-muted));box-shadow:0 0 0 3px var(--color-bg)}
+.el-fi-top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:var(--cds-font-size-caption)}
+.el-fi-tag{font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:.72rem;padding:3px 8px;border-radius:999px;background:var(--surface-ico);color:var(--color-fg)}
+.el-fi-tag.el-k-check{background:var(--accent);color:var(--on-accent)}
+.el-fi-who{font-weight:700}
+.el-fi-t{margin:0;font-size:var(--cds-font-size-body);line-height:1.55}
+.el-fi-v{display:inline-flex;align-items:center;gap:6px;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium)}
+.el-fi-s{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.el-fi-s a{color:var(--color-fg-muted);display:inline-flex;align-items:center;gap:4px;text-underline-offset:3px}
+.el-fi.el-plan .el-fi-b{background:var(--surface-soft);border-style:dashed}
+.el-fi.el-plan .el-fi-h{color:var(--color-fg-muted)}
+.el-empty{background:var(--surface-soft);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);color:var(--color-fg-muted);line-height:1.55;margin:0}
+@media (max-width:40rem){.el-feed::before{left:2.9rem}.el-fi{grid-template-columns:2.6rem 1fr;gap:0 1.1rem}.el-fi-h{font-size:1rem}}
 
 /* Celular */
 @media (max-width:40rem){
@@ -205,8 +296,21 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 <body>
 <div class="el"><div class="el-wrap">
   <header>
-    <p class="el-eyebrow">Eleição presidencial 2026 · 2º turno</p>
-    <h1 class="el-title">Flávio Bolsonaro × Lula</h1>
+    <div class="el-flag" aria-hidden="true"><i style="background:var(--cf)"></i><i style="background:var(--cl)"></i></div>
+    <div class="el-top">
+      <div class="el-brand">
+        <div class="el-seal" aria-hidden="true"><b>2º</b><span>turno</span></div>
+        <div>
+          <p class="el-eyebrow">Eleição presidencial 2026</p>
+          <h1 class="el-title" style="margin-top:2px">Flávio Bolsonaro × Lula</h1>
+        </div>
+      </div>
+      <button class="el-theme" id="theme-btn" type="button" aria-pressed="false">
+        <svg id="theme-ico-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg id="theme-ico-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <span class="el-theme-l" id="theme-lbl">Modo escuro</span>
+      </button>
+    </div>
     <div class="el-legend">
       <span><i class="el-dot" style="background:var(--cf)"></i>Flávio Bolsonaro (PL)</span>
       <span><i class="el-dot" style="background:var(--cl)"></i>Lula (PT)</span>
@@ -221,6 +325,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <nav class="el-tabs" role="tablist">
     <button class="el-tab" role="tab" data-tab="inicio" aria-selected="true">Início</button>
+    <button class="el-tab" role="tab" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
     <button class="el-tab" role="tab" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
     <button class="el-tab" role="tab" data-tab="redes" aria-selected="false">Redes sociais</button>
     <button class="el-tab" role="tab" data-tab="campanha" aria-selected="false">Campanhas</button>
@@ -306,6 +411,25 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       </table>
       <button class="el-cta" data-go="campanha">Ver agenda completa →</button>
     </div>
+  </section>
+
+  <!-- ================= AO VIVO ================= -->
+  <section class="el-page" id="aovivo" hidden>
+    <div class="el-lv-head" id="lv-head" data-source="destaques"></div>
+    <div class="el-lv-sum" id="lv-sum" data-source="aovivo">
+      <div class="el-lv-box"><b id="lv-n">—</b><span>atualizações do evento</span></div>
+      <div class="el-lv-box"><b class="el-cf" id="lv-f">—</b><span id="lv-f-s">falas de Flávio checadas</span></div>
+      <div class="el-lv-box"><b class="el-cl" id="lv-l">—</b><span id="lv-l-s">falas de Lula checadas</span></div>
+    </div>
+    <div class="el-chips" id="lv-chips">
+      <span class="el-chip-l">Mostrar:</span>
+      <button class="el-chip" data-lv="Tudo" aria-pressed="true">Tudo</button>
+      <button class="el-chip" data-lv="Flávio" aria-pressed="false">Flávio</button>
+      <button class="el-chip" data-lv="Lula" aria-pressed="false">Lula</button>
+      <button class="el-chip" data-lv="Checagem" aria-pressed="false">Só checagens</button>
+    </div>
+    <ol class="el-feed" id="lv-feed" data-source="aovivo"></ol>
+    <p class="el-foot">O mais recente aparece primeiro. Os momentos e as checagens vêm das coberturas ao vivo de veículos e checadores, com link para cada um. Uma fala só aparece como checada quando o checador publicou o selo. Durante o debate, esta página recebe novidades mais ou menos a cada meia hora.</p>
   </section>
 
   <!-- ================= PESQUISAS ================= -->
@@ -628,7 +752,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -648,23 +772,66 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
     loader: function () {}, refresh: function () {}
   };
-  var ts = Date.now();
-  window.addEventListener("load", function () {
+  function load() {
+    var ts = Date.now();
     Promise.all(DATASETS.map(function (id) {
       return fetch("data/" + id + ".json?v=" + ts, {cache: "no-store"})
         .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
         .then(function (rows) { store[id] = {status: "ok", data: rows}; })
-        .catch(function () { store[id] = {status: "error", data: []}; });
+        .catch(function () { if (store[id].status !== "ok") store[id] = {status: "error", data: []}; });
     })).then(function () { computeCalcs(); run(); });
+  }
+  window.addEventListener("load", function () {
+    load();
+    setInterval(function () { if (!document.hidden) load(); }, 180000);
+    document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
   });
   var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(run, 150); });
 })();
 </script>
 <script>
 (function () {
-  const CF = "#1F4FA8", CL = "#D62B2B";
+  let CF = "#1F4FA8", CL = "#D62B2B";
   const CAT = {"Verdadeiro": "#1E7B47", "Impreciso ou sem contexto": "#C98A0B", "Falso": "#26282E"};
   const DIRC = {"Ataque ao adversário": "#7B4FD0", "Defesa de si ou do próprio governo": "#1A9C8C", "Proposta ou outro tema": "#9AA0AC"};
+
+  // ---------- Tema claro/escuro ----------
+  const ROOT = document.querySelector(".el");
+  const mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  let themePref = null;
+  try { themePref = localStorage.getItem("el-tema"); } catch (e) {}
+  if (themePref !== "dark" && themePref !== "light") themePref = null;
+  const isDark = () => themePref ? themePref === "dark" : !!(mq && mq.matches);
+  function applyTheme() {
+    if (themePref) ROOT.setAttribute("data-theme", themePref); else ROOT.removeAttribute("data-theme");
+    const dark = isDark();
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    const btn = document.getElementById("theme-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", String(dark));
+      btn.setAttribute("aria-label", dark ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+      document.getElementById("theme-lbl").textContent = dark ? "Modo claro" : "Modo escuro";
+      document.getElementById("theme-ico-moon").style.display = dark ? "none" : "";
+      document.getElementById("theme-ico-sun").style.display = dark ? "" : "none";
+    }
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", dark ? "#0F1117" : "#FFFFFF");
+  }
+  function readColors() {
+    const st = getComputedStyle(ROOT);
+    const g = (n, fb) => (st.getPropertyValue(n) || "").trim() || fb;
+    CF = g("--cf", "#1F4FA8"); CL = g("--cl", "#D62B2B");
+    CAT["Verdadeiro"] = g("--f-true", "#1E7B47");
+    CAT["Impreciso ou sem contexto"] = g("--f-mid", "#C98A0B");
+    CAT["Falso"] = g("--f-false", "#26282E");
+  }
+  applyTheme(); readColors();
+  document.getElementById("theme-btn").addEventListener("click", () => {
+    themePref = isDark() ? "light" : "dark";
+    try { localStorage.setItem("el-tema", themePref); } catch (e) {}
+    applyTheme(); redraw();
+  });
+  if (mq) { const onMq = () => { if (!themePref) { applyTheme(); redraw(); } }; if (mq.addEventListener) mq.addEventListener("change", onMq); else if (mq.addListener) mq.addListener(onMq); }
   const Lc = d3.formatLocale({decimal: ",", thousands: ".", grouping: [3], currency: ["R$ ", ""]});
   const fNum = Lc.format(",.2~f");
   const f1 = Lc.format(".1f");
@@ -1007,7 +1174,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const color = d => d.dif > 0 ? CF : d.dif < 0 ? CL : "var(--color-fg-muted)";
     const dots = g.selectAll("circle.pt").data(data).join("circle")
       .attr("cx", d => x(d.d)).attr("cy", d => y(d.dif)).attr("r", 5.5)
-      .attr("fill", color).attr("stroke", "#FFFFFF").attr("stroke-width", 1.5);
+      .attr("fill", color).style("stroke", "var(--color-panel)").attr("stroke-width", 1.5);
     const hide = () => { tip.style.opacity = 0; dots.attr("r", 5.5); };
     svg.on("pointermove pointerdown", (ev) => {
       const [px, py] = d3.pointer(ev);
@@ -1065,7 +1232,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const series = [["Flávio", CF], ["Lula", CL]].map(([c, col]) => ({c, col, v: data.filter(d => d.candidato === c).sort((a, b) => a.d - b.d)})).filter(s => s.v.length);
     for (const s of series) {
       if (s.v.length > 1) g.append("path").attr("d", line(s.v)).attr("fill", "none").attr("stroke", s.col).attr("stroke-width", 2.5).attr("stroke-linecap", "round").attr("stroke-linejoin", "round");
-      g.selectAll(null).data(s.v).join("circle").attr("cx", d => x(d.d)).attr("cy", d => y(d.taxa)).attr("r", 5).attr("fill", s.col).attr("stroke", "#FFFFFF").attr("stroke-width", 1.5);
+      g.selectAll(null).data(s.v).join("circle").attr("cx", d => x(d.d)).attr("cy", d => y(d.taxa)).attr("r", 5).attr("fill", s.col).style("stroke", "var(--color-panel)").attr("stroke-width", 1.5);
     }
     // rótulos no fim de cada linha, afastados se colidirem
     const ends = series.map(s => { const e = s.v[s.v.length - 1]; return {s, e, yy: y(e.taxa)}; }).sort((a, b) => a.yy - b.yy);
@@ -1253,6 +1420,12 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       w.append(a, b); r.appendChild(w); rows.appendChild(r);
     });
     box.appendChild(rows);
+    if ((e.tipo === "Debate" || e.tipo === "Entrevista") && (live || e.data === today)) {
+      const go = document.createElement("button"); go.type = "button"; go.className = "el-btn el-bn-go";
+      go.textContent = live ? "Acompanhar ao vivo →" : "Ver o que vai acontecer →";
+      go.addEventListener("click", () => { show("aovivo", true); const nav = document.querySelector(".el-tabs"); if (nav) nav.scrollIntoView({block: "start"}); });
+      box.appendChild(go);
+    }
     const foot = document.createElement("div"); foot.className = "el-bn-foot";
     const c = document.createElement("span"); c.className = "el-bn-count";
     if (live) c.textContent = "Está acontecendo agora.";
@@ -1299,8 +1472,116 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
   setInterval(renderStatus, 60000);
 
+  // ---------- Ao vivo ----------
+  let lvFilter = "Tudo";
+  chipGroup("lv-chips", "data-lv", v => { lvFilter = v; });
+  function pickLiveEvent() {
+    const d = dash.data("destaques");
+    if (d.status !== "ok" || !d.data) return null;
+    const lv = dash.data("aovivo"), rows = lv.status === "ok" ? (lv.data || []) : [];
+    const now = new Date(), H = 3600000;
+    const evs = d.data.filter(e => e.tipo === "Debate" || e.tipo === "Entrevista").map(e => {
+      const t = evTimes(e);
+      return {e, t, liveEnd: new Date(t.end.getTime() + 0.5 * H)};
+    });
+    const live = evs.find(x => x.e.hora_inicio && now >= x.t.start && now <= x.liveEnd);
+    if (live) return Object.assign(live, {state: "live"});
+    const hasRows = x => rows.some(r => r.evento === x.e.id);
+    const upcoming = evs.filter(x => x.t.start > now).sort((a, b) => a.t.start - b.t.start)[0];
+    const recent = evs.filter(x => x.t.end < now && hasRows(x)).sort((a, b) => b.t.end - a.t.end)[0];
+    if (upcoming && upcoming.t.start - now < 12 * H) return Object.assign(upcoming, {state: "soon"});
+    if (recent && now - recent.t.end < 48 * H) return Object.assign(recent, {state: "ended"});
+    if (upcoming) return Object.assign(upcoming, {state: "soon"});
+    if (recent) return Object.assign(recent, {state: "ended"});
+    return null;
+  }
+  function mk(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function renderLive() {
+    const head = document.getElementById("lv-head"), feed = document.getElementById("lv-feed");
+    if (!head || !feed) return;
+    const pick = pickLiveEvent();
+    const dot = document.getElementById("tab-live-dot");
+    if (dot) dot.hidden = !(pick && pick.state === "live");
+    head.replaceChildren(); feed.replaceChildren();
+    if (!pick) {
+      head.appendChild(mk("h2", "el-bn-t", "Nenhum debate marcado agora"));
+      head.appendChild(mk("p", "el-bn-d", "Quando houver um debate ou uma entrevista importante, esta página mostra tudo o que acontecer, na hora."));
+      ["lv-n", "lv-f", "lv-l"].forEach(id => { document.getElementById(id).textContent = "—"; });
+      return;
+    }
+    const {e, t, state} = pick, now = new Date();
+    const today = spDate(now);
+    const tag = mk("span", "el-bn-tag" + (state === "live" ? " el-live" : ""));
+    tag.append(mk("i", "el-bn-dot"), document.createTextNode(state === "live" ? "Ao vivo agora" : state === "ended" ? "Já terminou · veja como foi" : (e.data === today ? "Hoje" : longDate(e.data)) + (e.hora_inicio ? " · " + hFmt(e.hora_inicio) : "")));
+    head.append(tag, mk("h2", "el-bn-t", e.titulo));
+    let sub = "";
+    if (state === "soon" && e.hora_inicio) {
+      const mins = Math.max(0, Math.round((t.start - now) / 60000));
+      const hh = Math.floor(mins / 60), mm = mins % 60;
+      sub = "Começa em " + (hh >= 24 ? Math.floor(hh / 24) + " dia(s)" : (hh ? hh + "h " : "") + mm + "min") + ". ";
+    }
+    if (state !== "ended" && e.como_assistir) sub += "Como assistir: " + e.como_assistir;
+    if (state === "ended") sub = "Abaixo, os principais momentos e as falas checadas, do fim para o começo.";
+    if (sub) head.appendChild(mk("p", "el-bn-d", sub));
+
+    const lv = dash.data("aovivo");
+    const all = lv.status === "ok" ? (lv.data || []).filter(r => r.evento === e.id) : [];
+    const ord = r => String(r.data || "") + "T" + String(r.hora || "00:00");
+    all.sort((a, b) => ord(b).localeCompare(ord(a)) || String(b.id).localeCompare(String(a.id)));
+    document.getElementById("lv-n").textContent = lv.status === "ok" ? fInt(all.length) : "—";
+    const sumOf = c => {
+      const ck = all.filter(r => r.tipo === "Checagem" && r.candidato === c);
+      const n = k => ck.filter(r => r.categoria === k).length;
+      return {total: ck.length, falso: n("Falso"), imp: n("Impreciso ou sem contexto"), ver: n("Verdadeiro")};
+    };
+    [["Flávio", "lv-f"], ["Lula", "lv-l"]].forEach(([c, id]) => {
+      const s = sumOf(c);
+      document.getElementById(id).textContent = lv.status === "ok" ? fInt(s.total) : "—";
+      document.getElementById(id + "-s").textContent = s.total
+        ? "de " + c + " checadas: " + s.falso + " falsa" + (s.falso === 1 ? "" : "s") + ", " + s.imp + " imprecisa" + (s.imp === 1 ? "" : "s") + " ou sem contexto, " + s.ver + " verdadeira" + (s.ver === 1 ? "" : "s")
+        : "falas de " + c + " checadas";
+    });
+
+    const rows = all.filter(r => lvFilter === "Tudo" || (lvFilter === "Checagem" ? r.tipo === "Checagem" : r.candidato === lvFilter));
+    if (lv.status !== "ok") { feed.appendChild(mk("li", "el-empty", lv.status === "error" ? "Não foi possível carregar a cobertura ao vivo." : "Carregando…")); return; }
+    if (!rows.length) {
+      feed.appendChild(mk("li", "el-empty", all.length ? "Nada com esse filtro ainda." : (state === "soon" ? "Assim que o debate começar, os principais momentos e as checagens das falas aparecem aqui." : "Ainda não há registros deste evento.")));
+      return;
+    }
+    rows.forEach(r => {
+      const when = r.data && r.hora ? new Date(r.data + "T" + r.hora + ":00-03:00") : null;
+      const planned = r.tipo === "Programação" && when && when > now;
+      const li = mk("li", "el-fi" + (planned ? " el-plan" : ""));
+      li.appendChild(mk("div", "el-fi-h", hFmt(r.hora)));
+      const b = mk("div", "el-fi-b");
+      const col = r.tipo === "Checagem" && r.categoria ? CAT[r.categoria] : r.candidato === "Flávio" ? CF : r.candidato === "Lula" ? CL : "var(--accent)";
+      b.style.setProperty("--fi-c", col);
+      const top = mk("div", "el-fi-top");
+      top.appendChild(mk("span", "el-fi-tag" + (r.tipo === "Checagem" ? " el-k-check" : ""), planned ? "Previsto" : r.tipo));
+      if (r.candidato) { const w = mk("span", "el-fi-who", r.candidato); w.style.color = r.candidato === "Flávio" ? CF : CL; top.appendChild(w); }
+      b.appendChild(top);
+      b.appendChild(mk("p", "el-fi-t", r.texto));
+      if (r.tipo === "Checagem" && r.veredito) {
+        const v = mk("span", "el-fi-v");
+        const i = mk("i", "el-dot"); i.style.background = CAT[r.categoria] || "var(--color-fg-muted)";
+        v.append(i, document.createTextNode("Selo: " + r.veredito));
+        b.appendChild(v);
+      }
+      const s = mk("div", "el-fi-s");
+      const u = safeUrl(r.url);
+      if (u) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = r.fonte || "Fonte"; a.appendChild(extIcon()); s.appendChild(a); }
+      else if (r.fonte) s.textContent = r.fonte;
+      b.appendChild(s);
+      li.appendChild(b);
+      feed.appendChild(li);
+    });
+  }
+  setInterval(renderLive, 30000);
+
   // ---------- Desenho ----------
   function redraw() {
+    readColors();
+    renderLive();
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
     fillMarks("tendencia", {inicio: f1, agora: f1});
     fillMarks("primeiro_turno", {pct: v => fNum(v)});

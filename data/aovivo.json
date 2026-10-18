@@ -1,0 +1,67 @@
+[
+ {
+  "id": "band-p01",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "18:00",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "A BandNews TV, na TV por assinatura, começa a cobertura do debate.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Band",
+  "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ },
+ {
+  "id": "band-p02",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "19:00",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Começa a transmissão pela internet, no site band.com.br e no canal Band Jornalismo no YouTube.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Band",
+  "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ },
+ {
+  "id": "band-p03",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "19:30",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Pré-debate na TV aberta, no canal da Band.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Band",
+  "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ },
+ {
+  "id": "band-p04",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "20:00",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Começa o debate, com mediação de Eduardo Oinegue e Adriana Araújo. São três blocos. No 1º, cada candidato responde a uma pergunta dos âncoras e depois os dois têm 30 minutos livres para debater. No 2º e no 3º, há perguntas dos jornalistas e um candidato pergunta direto ao outro. O 3º bloco termina com as considerações finais. Por sorteio, Flávio fica do lado esquerdo do estúdio e Lula do lado direito.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Band",
+  "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ },
+ {
+  "id": "band-p05",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "22:00",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Horário previsto para o fim do debate.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Band",
+  "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+ }
+]

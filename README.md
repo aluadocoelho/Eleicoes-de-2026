@@ -39,6 +39,7 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 | `checagens.json` | Falas dos candidatos checadas, uma por linha | `id, data, candidato, agencia, evento, afirmacao, veredito, categoria, explicacao, url, direcao` |
 | `boatos.json` | Conteúdos virais desmentidos ou retirados pelo TSE | `id, data, alvo, boato, veredito, agencia, explicacao, url, beneficiado, origem_campo, origem_detalhe, tema` |
 | `destaques.json` | Próximos eventos (debates, dia da votação) para o banner da página | `id, tipo, titulo, data, hora_inicio, hora_fim, local, como_assistir, descricao, url` |
+| `aovivo.json` | Cobertura ao vivo de debates e entrevistas: programação, momentos e falas checadas na hora | `id, evento, data, hora, tipo, candidato, texto, veredito, categoria, fonte, url` |
 | `status.json` | Hora da última atualização e horários das próximas (Brasília) | `id, ultima_atualizacao, horarios, fuso, url` |
 | `factcheck_api.json` | Checagens brutas da Google Fact Check Tools API (aparece após a primeira busca) | `id, termo, afirmacao, quem_disse, data_afirmacao, checador, selo, titulo, data_checagem, url` |
 
@@ -55,7 +56,8 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 
 - **Checagens da Google Fact Check API**: a automação `.github/workflows/factcheck.yml` roda de hora em hora no GitHub Actions e acrescenta checagens novas em `data/factcheck_api.json`. Para ativá-la, crie uma chave gratuita no Google Cloud com a *Fact Check Tools API* habilitada e salve-a como segredo do repositório com o nome `GOOGLE_FACTCHECK_API_KEY` (Settings → Secrets and variables → Actions). Sem a chave, a automação roda e termina sem fazer nada.
 - **Demais conjuntos**: pesquisas, redes, agenda, campanha e checagens selecionadas exigem ler reportagens e são atualizados por uma tarefa agendada do Claude a cada 2 horas, das 7h às 23h (horário de Brasília), com as mesmas regras acima.
-- **Página pública** (`index.html`): publicada pelo GitHub Pages a partir da raiz do repositório. Ela lê os arquivos de `data/` a cada visita, então mostra sempre a versão mais recente dos dados.
+- **Ao vivo** (`aovivo.json`): durante debates e entrevistas, tarefas extras do Claude acrescentam momentos e falas checadas mais ou menos a cada meia hora. `evento` é o `id` do evento em `destaques.json`, e `tipo` é um de Programação, Momento, Fala ou Checagem. Uma linha só é Checagem quando o checador publicou o selo, que fica em `veredito`.
+- **Página pública** (`index.html`): publicada pelo GitHub Pages a partir da raiz do repositório. Ela lê os arquivos de `data/` a cada visita e de novo a cada 3 minutos com a página aberta. Tem modo claro e escuro (segue o celular e tem um botão para trocar).
 - **Validação**: toda mudança em `data/` passa por `scripts/validate.py` (`.github/workflows/validate.yml`), que confere chaves, tipos, datas, categorias, ids repetidos e links `https://`. Rode localmente com `python scripts/validate.py`.
 
 ## Licença

@@ -99,6 +99,17 @@ SCHEMAS = {
         "enums": {"tipo": ["Debate", "Votação", "Entrevista", "Outro"]},
         "required": ["id", "tipo", "titulo", "data", "url"],
     },
+    "aovivo": {
+        "key": "id",
+        "fields": ["id", "evento", "data", "hora", "tipo", "candidato", "texto", "veredito", "categoria", "fonte", "url"],
+        "dates": ["data"],
+        "enums": {
+            "tipo": ["Programação", "Momento", "Fala", "Checagem"],
+            "candidato": ["Lula", "Flávio"],
+            "categoria": ["Verdadeiro", "Impreciso ou sem contexto", "Falso"],
+        },
+        "required": ["id", "evento", "data", "hora", "tipo", "texto", "fonte", "url"],
+    },
     "status": {
         "key": "id",
         "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],
@@ -161,6 +172,13 @@ def check(name, spec, rows):
                 v = r.get(f)
                 if v is not None and not hora.match(str(v)):
                     errs.append(f"{name}[{i}]: {f} deveria ser HH:MM, veio {v!r}")
+    if name == "aovivo":
+        hora = re.compile(r"^\d{2}:\d{2}$")
+        for i, r in enumerate(rows):
+            if r.get("hora") is not None and not hora.match(str(r["hora"])):
+                errs.append(f"{name}[{i}]: hora deveria ser HH:MM, veio {r['hora']!r}")
+            if r.get("tipo") == "Checagem" and (not r.get("veredito") or not r.get("categoria") or not r.get("candidato")):
+                errs.append(f"{name}[{i}]: checagem precisa de candidato, veredito e categoria")
     if name == "boatos":
         for i, r in enumerate(rows):
             if r.get("alvo") and r.get("beneficiado") and r["alvo"] == r["beneficiado"]:
