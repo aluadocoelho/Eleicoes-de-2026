@@ -179,6 +179,14 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-mbar .el-track{height:12px}
 .el .el-mbar b{font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.35rem;text-align:right;font-variant-numeric:tabular-nums}
 
+
+.el-upd{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);background:#F6F8FB;border:1px solid var(--color-border-line);border-radius:999px;padding:8px 14px;line-height:1.4}
+.el-upd[hidden]{display:none}
+.el-upd svg{flex:none;color:var(--color-fg)}
+.el .el-upd b{color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.el-upd-all{flex-basis:100%;padding-left:26px}
+@media (max-width:40rem){.el-upd{border-radius:var(--cds-radius)}.el-upd-sep{display:none}#upd-next{display:block}}
+
 /* Celular */
 @media (max-width:40rem){
   .el-t .el-sm-hide{display:none}
@@ -204,6 +212,12 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <span><i class="el-dot" style="background:var(--cl)"></i>Lula (PT)</span>
     </div>
   </header>
+
+  <div class="el-upd" id="upd-strip" data-source="status" hidden>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+    <span><b id="upd-last">—</b><span class="el-upd-sep"> · </span><span id="upd-next">—</span></span>
+    <span class="el-upd-all" id="upd-all"></span>
+  </div>
 
   <nav class="el-tabs" role="tablist">
     <button class="el-tab" role="tab" data-tab="inicio" aria-selected="true">Início</button>
@@ -608,13 +622,13 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     </div>
   </section>
 
-  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados várias vezes ao dia. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). <span id="el-upd"></span></p>
+  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada 2 horas, das 7h às 23h. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados).</p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -642,12 +656,6 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         .then(function (rows) { store[id] = {status: "ok", data: rows}; })
         .catch(function () { store[id] = {status: "error", data: []}; });
     })).then(function () { computeCalcs(); run(); });
-    fetch("https://api.github.com/repos/aluadocoelho/Eleicoes-de-2026/commits?path=data&per_page=1")
-      .then(function (r) { return r.ok ? r.json() : []; })
-      .then(function (c) {
-        var d = c && c[0] && c[0].commit && c[0].commit.committer && c[0].commit.committer.date;
-        if (d) document.getElementById("el-upd").textContent = "Última atualização dos dados: " + new Date(d).toLocaleString("pt-BR", {dateStyle: "short", timeStyle: "short", timeZone: "America/Sao_Paulo"}) + ".";
-      }).catch(function () {});
   });
   var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(run, 150); });
 })();
@@ -1261,6 +1269,36 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
   setInterval(renderBanner, 30000);
 
+  // ---------- Faixa de atualização ----------
+  function renderStatus() {
+    const box = document.getElementById("upd-strip");
+    if (!box) return;
+    const d = dash.data("status");
+    const r = d.status === "ok" && d.data && d.data[0];
+    if (!r) { box.hidden = true; return; }
+    const now = new Date();
+    const last = r.ultima_atualizacao ? new Date(r.ultima_atualizacao) : null;
+    const today = spDate(now), yest = spDate(new Date(now.getTime() - 86400000));
+    const hm = dt => dt.toLocaleTimeString("pt-BR", {hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo"}).replace(":", "h");
+    let lastTxt = "—";
+    if (last && !isNaN(last)) {
+      const ld = spDate(last);
+      lastTxt = "Atualizado " + (ld === today ? "hoje" : ld === yest ? "ontem" : "em " + last.toLocaleDateString("pt-BR", {day: "2-digit", month: "2-digit", timeZone: "America/Sao_Paulo"})) + " às " + hm(last);
+    }
+    const slots = String(r.horarios || "").split(",").map(s => s.trim()).filter(Boolean).sort();
+    let nextTxt = "";
+    if (slots.length) {
+      const nowHM = now.toLocaleTimeString("en-GB", {hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "America/Sao_Paulo"});
+      const nx = slots.find(s => s > nowHM);
+      nextTxt = "Próxima atualização: " + (nx ? "hoje, por volta das " + hFmt(nx) : "amanhã, por volta das " + hFmt(slots[0]));
+      document.getElementById("upd-all").textContent = "Horários: " + slots.map(hFmt).join(", ") + " (horário de Brasília).";
+    }
+    document.getElementById("upd-last").textContent = lastTxt;
+    document.getElementById("upd-next").textContent = nextTxt;
+    box.hidden = false;
+  }
+  setInterval(renderStatus, 60000);
+
   // ---------- Desenho ----------
   function redraw() {
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
@@ -1301,6 +1339,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (mbl) { const v = txOf("Lula"); mbl.style.width = v == null ? "0" : Math.max(2, v * 100) + "%"; mbl.style.background = CL; }
     fillMarks("destaques", {data: longDate, hora_inicio: hFmt, hora_fim: hFmt});
     renderBanner();
+    renderStatus();
     const tug = document.getElementById("tug");
     const tr = blockState(tug, "resumo");
     drawTug(tug, tr && tr[0]);

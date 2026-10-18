@@ -99,6 +99,11 @@ SCHEMAS = {
         "enums": {"tipo": ["Debate", "Votação", "Entrevista", "Outro"]},
         "required": ["id", "tipo", "titulo", "data", "url"],
     },
+    "status": {
+        "key": "id",
+        "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],
+        "required": ["id", "ultima_atualizacao", "horarios"],
+    },
 }
 
 
