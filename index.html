@@ -961,6 +961,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         if (!p || String(r.divulgacao) > String(p.divulgacao)) by.set(r.instituto, r);
       }
       return Array.from(by.values()).map(r => ({
+        id: r.id,
         instituto: r.instituto,
         divulgacao: r.divulgacao,
         flavio_validos: Number(r.flavio_validos),
