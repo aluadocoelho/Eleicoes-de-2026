@@ -1,0 +1,38 @@
+[
+ {
+  "id": "int-2t",
+  "metrica": "Interações nos perfis oficiais",
+  "periodo": "5–17 out (2º turno)",
+  "lula": 110700000,
+  "flavio": 31300000,
+  "fonte": "Bites, via Jamildo",
+  "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+ },
+ {
+  "id": "int-1t",
+  "metrica": "Interações nos perfis oficiais",
+  "periodo": "16 ago–4 out (1º turno)",
+  "lula": 83800000,
+  "flavio": 73700000,
+  "fonte": "Bites, via Jamildo",
+  "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+ },
+ {
+  "id": "int-post",
+  "metrica": "Interações por post",
+  "periodo": "6–15 out",
+  "lula": 174500,
+  "flavio": 222400,
+  "fonte": "Bites, via R7/Enfoque MS",
+  "url": "https://www.enfoquems.com.br/lula-tem-quase-quatro-vezes-mais-interacoes-que-flavio-bolsonaro-nas-redes-sociais/"
+ },
+ {
+  "id": "seguidores",
+  "metrica": "Novos seguidores",
+  "periodo": "4–8 out",
+  "lula": 958400,
+  "flavio": 1740000,
+  "fonte": "Bites, via CNN Brasil",
+  "url": "https://gazetadoparana.com.br/publico/lula-publica-mais-flavio-ganha-seguidores-mais-rapido-o-que-os-numeros-revelam-sobre-a-disputa-digital-no-segundo-turno"
+ }
+]

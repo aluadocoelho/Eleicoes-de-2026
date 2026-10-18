@@ -1,0 +1,67 @@
+[
+ {
+  "id": "lupa-lula",
+  "candidato": "Lula",
+  "agencia": "Lupa",
+  "evento": "Entrevista à TV Globo",
+  "data": "2026-10-15",
+  "total": 13,
+  "verdadeiro": 5,
+  "impreciso": 6,
+  "falso": 2,
+  "nota": "Inclui 3 falas repetidas do JN de 27/08. Intermediárias: 4 exageradas, 1 sem contexto, 1 subestimada.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/"
+ },
+ {
+  "id": "lupa-flavio",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Entrevista à TV Globo",
+  "data": "2026-10-16",
+  "total": 18,
+  "verdadeiro": 3,
+  "impreciso": 8,
+  "falso": 7,
+  "nota": "Intermediárias: 5 sem contexto, 2 exageradas, 1 insustentável.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/"
+ },
+ {
+  "id": "lupa-live",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Live de campanha",
+  "data": "2026-10-01",
+  "total": 10,
+  "verdadeiro": 1,
+  "impreciso": 4,
+  "falso": 5,
+  "nota": "Só as 10 falas do próprio Flávio; as 6 de aliados (Derrite, Daniella Marques, Douglas Ruas) ficaram de fora. Intermediárias: 3 sem contexto, 1 exagerada.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/"
+ },
+ {
+  "id": "rk-lula",
+  "candidato": "Lula",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Entrevista ao Jornal Nacional",
+  "data": "2026-10-15",
+  "total": 27,
+  "verdadeiro": 8,
+  "impreciso": 11,
+  "falso": 8,
+  "nota": "Classes: verdadeira, imprecisa, falsa.",
+  "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026"
+ },
+ {
+  "id": "rk-flavio",
+  "candidato": "Flávio",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Entrevista ao Jornal Nacional",
+  "data": "2026-10-16",
+  "total": 26,
+  "verdadeiro": 9,
+  "impreciso": 12,
+  "falso": 5,
+  "nota": "Classes: verdadeira, imprecisa, falsa.",
+  "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026"
+ }
+]

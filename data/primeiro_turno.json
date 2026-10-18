@@ -1,0 +1,38 @@
+[
+ {
+  "candidato": "Flávio Bolsonaro",
+  "partido": "PL",
+  "pct": 47.03,
+  "votos": 56104503
+ },
+ {
+  "candidato": "Lula",
+  "partido": "PT",
+  "pct": 45.16,
+  "votos": 53879538
+ },
+ {
+  "candidato": "Augusto Cury",
+  "partido": "Avante",
+  "pct": 2.89,
+  "votos": null
+ },
+ {
+  "candidato": "Renan Santos",
+  "partido": "Missão",
+  "pct": 2.24,
+  "votos": 2670000
+ },
+ {
+  "candidato": "Ronaldo Caiado",
+  "partido": "PSD",
+  "pct": 2.18,
+  "votos": 2600000
+ },
+ {
+  "candidato": "Romeu Zema",
+  "partido": "Novo",
+  "pct": 0.27,
+  "votos": null
+ }
+]

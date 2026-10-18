@@ -1,0 +1,114 @@
+[
+ {
+  "id": "e01",
+  "data": "2026-10-04",
+  "tipo": "Resultado",
+  "descricao": "1º turno: Flávio termina à frente por cerca de 2,2 milhões de votos, contra o que indicava a maioria das pesquisas.",
+  "fonte": "TSE, via Metrópoles",
+  "url": "https://www.metropoles.com/brasil/datafolha-divulga-pesquisa-2-turno"
+ },
+ {
+  "id": "e02",
+  "data": "2026-10-05",
+  "tipo": "Apoio",
+  "descricao": "Zema (Novo) declara apoio a Flávio. Renan Santos (Missão) diz que não apoiará ninguém; PSD libera diretórios estaduais.",
+  "fonte": "Grupo A Hora / Agência Brasil",
+  "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renan-descarta-apoio-no-2o-turno-psd-de-caiado-libera-bases-estaduais"
+ },
+ {
+  "id": "e03",
+  "data": "2026-10-06",
+  "tipo": "Apoio",
+  "descricao": "Caiado formaliza apoio a Flávio em evento em Goiânia.",
+  "fonte": "Estado de Minas / Terra",
+  "url": "https://www.em.com.br/politica/2026/10/7517814-lula-x-flavio-no-2-turno-para-onde-vao-os-votos-de-cury-renan-e-caiado.html"
+ },
+ {
+  "id": "e04",
+  "data": "2026-10-06",
+  "tipo": "Apoio",
+  "descricao": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio — informação conflitante).",
+  "fonte": "Grupo A Hora / Exame",
+  "url": "https://grupoahora.net.br/conteudos/2026/10/05/flavio-ou-lula-veja-quem-cury-renan-caiado-e-zema-apoiarao-no-2o-turno/"
+ },
+ {
+  "id": "e05",
+  "data": "2026-10-07",
+  "tipo": "Apoio",
+  "descricao": "Levantamento de governadores: 10 apoiam Flávio e 5 apoiam Lula.",
+  "fonte": "Gazeta do Povo",
+  "url": "https://www.gazetadopovo.com.br/eleicoes/2026/quem-herda-votos-cury-renan-caiado-segundo-turno-presidente/"
+ },
+ {
+  "id": "e06",
+  "data": "2026-10-12",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Campanha de Lula aciona o TSE contra posts que associam o comício da Paulista a uso de drogas e vandalismo.",
+  "fonte": "Agência Brasil",
+  "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-aciona-tse-apos-post-falso-sobre-comicio-na-paulista"
+ },
+ {
+  "id": "e07",
+  "data": "2026-10-13",
+  "tipo": "Debate",
+  "descricao": "Flávio diz que não irá ao debate da Band; Lula confirma presença e, no dia seguinte, Flávio também confirma.",
+  "fonte": "CNN Brasil / O Hoje",
+  "url": "https://ohoje.com/2026/10/18/lula-e-flavio-bolsonaro-intensificam-campanha-na-ultima-semana-antes-do-2o-turno/"
+ },
+ {
+  "id": "e08",
+  "data": "2026-10-14",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "TSE ordena que Flávio e Nikolas Ferreira removam vídeo com crianças contra Lula.",
+  "fonte": "Agência Brasil",
+  "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-aciona-tse-apos-post-falso-sobre-comicio-na-paulista"
+ },
+ {
+  "id": "e09",
+  "data": "2026-10-15",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "TSE manda remover vídeo de Flávio que associa Lula às fraudes do INSS.",
+  "fonte": "CNN Brasil / Times Brasil",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/tse-determina-remocao-de-video-de-flavio-que-liga-lula-a-caso-do-inss/"
+ },
+ {
+  "id": "e10",
+  "data": "2026-10-15",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Flávio pede ao TSE a remoção de 221 posts e a suspensão de 32 perfis pró-Lula.",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-pede-ao-tse-remocao-de-221-posts-de-perfis-pro-lula-por-fake-news/"
+ },
+ {
+  "id": "e11",
+  "data": "2026-10-17",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "TSE nega remover vídeo de Lula que chama Flávio de mentiroso: entendeu como crítica política.",
+  "fonte": "Viva",
+  "url": "https://viva.com.br/politica/tse-nega-remocao-de-video-de-lula-que-chama-flavio-bolsonaro-de-mentiroso.html"
+ },
+ {
+  "id": "e12",
+  "data": "2026-10-17",
+  "tipo": "Estratégia",
+  "descricao": "Flávio planeja ampliar atos de rua e endurecer ataques para sair da defensiva na última semana.",
+  "fonte": "Metrópoles",
+  "url": "https://metropoles.com/brasil/flavio-tenta-deixar-defensiva-e-mobilizar-aliados-na-reta-final-do-2o-turno"
+ },
+ {
+  "id": "e13",
+  "data": "2026-10-18",
+  "tipo": "Estratégia",
+  "descricao": "Lula vai explorar a proposta de Flávio de cortar R$ 250 bilhões do Orçamento, com alerta sobre programas sociais.",
+  "fonte": "Metrópoles (Thiago Herdy)",
+  "url": "https://www.metropoles.com/colunas/thiago-herdy/a-estrategia-de-lula-na-ultima-semana-antes-da-eleicao"
+ },
+ {
+  "id": "e14",
+  "data": "2026-10-18",
+  "tipo": "Debate",
+  "descricao": "Primeiro debate direto do 2º turno, na Band, às 20h. O próximo é na TV Globo, em 23/10.",
+  "fonte": "Band / InfoMoney",
+  "url": "https://www.infomoney.com.br/politica/lula-e-flavio-confirmam-debate-na-band-confronto-pode-mudar-dinamica-do-2o-turno/"
+ }
+]

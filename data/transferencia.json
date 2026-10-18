@@ -1,0 +1,34 @@
+[
+ {
+  "id": "quaest-caiado",
+  "grupo": "Eleitores de Caiado",
+  "pesquisa": "Quaest (14/10)",
+  "flavio": 42,
+  "lula": 23,
+  "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+ },
+ {
+  "id": "quaest-renan",
+  "grupo": "Eleitores de Renan Santos",
+  "pesquisa": "Quaest (14/10)",
+  "flavio": 40,
+  "lula": 14,
+  "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+ },
+ {
+  "id": "quaest-cury",
+  "grupo": "Eleitores de Cury",
+  "pesquisa": "Quaest (14/10)",
+  "flavio": 30,
+  "lula": 34,
+  "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+ },
+ {
+  "id": "ipespe-cury",
+  "grupo": "Eleitores de Cury",
+  "pesquisa": "Ipespe (17/10)",
+  "flavio": 50,
+  "lula": 31,
+  "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
+ }
+]

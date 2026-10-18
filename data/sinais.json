@@ -1,0 +1,44 @@
+[
+ {
+  "id": "ipd",
+  "data": "2026-10-18",
+  "sinal": "Lula ultrapassa Flávio no Índice de Popularidade Digital da Quaest (175 variáveis de redes, Google e Wikipédia). Flávio cai de 80 para 76,4 pontos.",
+  "fonte": "Quaest, via Folha / DCM",
+  "url": "https://www.diariodocentrodomundo.com.br/lula-supera-flavio-bolsonaro-popularidade-digital-quaest"
+ },
+ {
+  "id": "virada",
+  "data": "2026-10-17",
+  "sinal": "Diferença de interações a favor de Lula cresceu em relação ao 1º turno; Bites atribui à entrada de apoiadores e comunicadores na campanha.",
+  "fonte": "Bites, via Jamildo",
+  "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+ },
+ {
+  "id": "sentimento",
+  "data": "2026-10-11",
+  "sinal": "Das 13,3 milhões de menções a Lula em português desde o 1º turno, 46% eram negativas e 22,8% positivas.",
+  "fonte": "Bites, via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/apos-conselho-sobre-redes-lula-intensifica-presenca-on-line/"
+ },
+ {
+  "id": "eficiencia",
+  "data": "2026-10-16",
+  "sinal": "Flávio posta menos, mas cada post rende mais: média de interações por post acima da de Lula.",
+  "fonte": "Bites, via R7",
+  "url": "https://www.enfoquems.com.br/lula-tem-quase-quatro-vezes-mais-interacoes-que-flavio-bolsonaro-nas-redes-sociais/"
+ },
+ {
+  "id": "mobilizacao",
+  "data": "2026-10-09",
+  "sinal": "Campanhas lançam canais de mobilização no WhatsApp: ‘Exército do Lula’ (André Janones, mais de 2,6 milhões de seguidores) e ‘Tropa do Flávio’.",
+  "fonte": "Brasil 247",
+  "url": "https://www.brasil247.com/midia/exercito-do-lula-e-tropa-do-flavio-bolsonaro-intensificam-mobilizacao-nas-redes-no-2o-turno/"
+ },
+ {
+  "id": "aviso",
+  "data": "2026-10-17",
+  "sinal": "Métricas de redes medem atenção e mobilização; isoladamente não indicam mudança de intenção de voto.",
+  "fonte": "Bites",
+  "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+ }
+]
