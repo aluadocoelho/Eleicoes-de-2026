@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-trump-mandou-recado-com-ameaca-a-lula-video-e-manipulado.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Donald Trump ameaça Lula de prisão",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo manipulado usa imagem de Trump para simular ameaça de prisão a Lula",
+  "data_checagem": "2026-10-16",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-trump-mandou-recado-com-ameaca-a-lula-video-e-manipulado.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/video-cirio-nazare-ato-flavio/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo mostra \"Bloco do 22\" em Minas Gerais",
@@ -410,7 +422,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -626,7 +638,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -639,8 +651,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -1286,8 +1298,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -1728,6 +1740,18 @@
   "url": "https://checamos.afp.com/doc.afp.com.C6XC3KF"
  },
  {
+  "id": "https://www.aosfatos.org/noticias/trump-capturar-prender-lula/",
+  "termo": "Lula",
+  "afirmacao": "Donald Trump disse que “fará com Lula o que fez com Maduro”",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-08-28",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que Trump disse em discurso que vai capturar e prender Lula",
+  "data_checagem": "2026-08-28",
+  "url": "https://www.aosfatos.org/noticias/trump-capturar-prender-lula/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/construcao-ponte-china-brasil/",
   "termo": "Lula",
   "afirmacao": "Enquanto Lula trabalha [construindo pontes] a extrema direita fascista rouba",
@@ -1923,8 +1947,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2604,6 +2628,30 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Virgínia Fonseca demonstra apoio a Lula e posta foto 'fazendo o L'",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vírginia Fonseca não postou foto 'fazendo o L'; imagem foi alterada por IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/explica-meta-ia-geracao-de-fotos-lula-flavio.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Assistente de inteligência artificial no WhatsApp faz artes para Lula e Flávio, sem distinção",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Enganoso",
+  "titulo": "Meta AI gerou imagem com Flávio, mas recusou o mesmo pedido para Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/explica-meta-ia-geracao-de-fotos-lula-flavio.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Papa Leão 14 declarou apoio a Flávio Bolsonaro no segundo turno",
@@ -2614,6 +2662,18 @@
   "titulo": "É falso que Papa Leão 14 declarou apoio a Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Post diz que imagem da Avenida Paulista de ato pró-Lula é IA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Posts no X distorcem atos pró-Lula na Paulista e em Copacabana",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/14/lula-nao-disse-que-criminosos-roubam-para-tomar-cerveja-video-e-editado.ghtm",
@@ -2664,6 +2724,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/13/desinformacao-falso-imagem-manifestacao-bolsonarista-ia-pro-lula-eleicoes.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Imagem de manifestação pró-Lula deste domingo (11) foi gerada por IA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Foto de ato pró-Lula na Paulista é real; imagem bolsonarista é que usou IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/13/desinformacao-falso-imagem-manifestacao-bolsonarista-ia-pro-lula-eleicoes.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/07/diferenca-de-votos-entre-senadores-do-pl-e-flavio-nao-significa-fraude.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "A conta não fecha. Somente os senadores do PL tiveram 58.123.987 votos. Flávio Bolsonaro teve 56.076.888. Quem vota nos senadores do PL e não vota no Flávio do PL",
@@ -2674,6 +2746,18 @@
   "titulo": "Diferença de votos entre senadores do PL e Flávio não significa fraude",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/07/diferenca-de-votos-entre-senadores-do-pl-e-flavio-nao-significa-fraude.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/06/falso-video-flavio-bolsonaro-critica-direitos-trabalhistas.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro disse que o trabalhador vai ter que decidir um dia entre menos direitos e emprego ou todos os direitos e desemprego.",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não criticou direitos trabalhistas; áudio foi adulterado",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/06/falso-video-flavio-bolsonaro-critica-direitos-trabalhistas.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-jogou-bandeira-brasil-chao-apos-votar.ghtm",
@@ -2710,6 +2794,18 @@
   "titulo": "Avião dos EUA veio ao Brasil para exercício militar e já deixou o país",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "TSE determinou dias diferentes para eleitores do Flávio e do Lula votarem",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Todo mundo vota hoje; TSE não separou dias para eleitores de Flávio e Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/03/desinformacao-falso-policia-militar-sp-alerta-ataques-pcc-flavio-eleicoes.ghtm",
@@ -2820,6 +2916,30 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/24/fala-de-lula-sobre-delacoes-e-antiga-e-nao-tem-relacao-com-caso-master.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula afirmou que 'se delações continuarem, nenhum de nós escapa'",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Fala de Lula sobre delações é antiga e não tem relação com caso Master",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/24/fala-de-lula-sobre-delacoes-e-antiga-e-nao-tem-relacao-com-caso-master.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/24/e-falso-que-lula-tenha-chorado-ao-falar-sobre-flavio-bolsonaro-na-record.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Lula chorou ao falar sobre plano econômico de Flávio Bolsonaro na Record",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula chorou ao falar sobre Flávio Bolsonaro na Record",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/24/e-falso-que-lula-tenha-chorado-ao-falar-sobre-flavio-bolsonaro-na-record.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/24/e-falso-que-dupla-presa-com-r-25-mi-tinha-ligacao-com-campanha-de-lula.ghtm",
   "termo": "Lula",
   "afirmacao": "PF prende dupla com R$ 2,5 mi que seriam destinados à compra de voto para Lula",
@@ -2844,6 +2964,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/23/falso-lula-recebeu-300-milhoes-vorcaro.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula recebeu transferência de R$ 300 milhões de Vorcaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Documentos do caso Master não mostram que Lula recebeu R$ 300 mi de Vorcaro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/23/falso-lula-recebeu-300-milhoes-vorcaro.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/18/desinformacao-falso-flavio-bolsonaro-eua-viagem-fuga-video-antigo.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "\"Fuga ou visita ao irmão? Flávio Bolsonaro viajar para os EUA. Será que o rachadinha já ta dando no pé\".",
@@ -2854,6 +2986,18 @@
   "titulo": "Flávio Bolsonaro não viajou aos EUA em setembro; imagens são de maio",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/18/desinformacao-falso-flavio-bolsonaro-eua-viagem-fuga-video-antigo.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/16/video-de-flavio-bolsonaro-embarcando-para-os-eua-e-de-maio.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro viaja para os EUA durante a eleição para fugir",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Flávio Bolsonaro embarcando para os EUA é de maio",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/16/video-de-flavio-bolsonaro-embarcando-para-os-eua-e-de-maio.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.ghtm",
