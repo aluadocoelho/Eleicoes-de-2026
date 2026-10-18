@@ -1,0 +1,45 @@
+name: Gerar códigos de verificação
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "!data/selos.json"
+      - "scripts/selos.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  selos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar códigos
+        run: python scripts/selos.py
+      - name: Gravar se mudou
+        run: |
+          if [ -n "$(git status --porcelain data/selos.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/selos.json
+            git commit -m "Atualiza códigos de verificação"
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase origin main
+              python scripts/selos.py
+              git add data/selos.json
+              git commit --amend --no-edit || true
+            done
+          else
+            echo "Nada novo."
+          fi

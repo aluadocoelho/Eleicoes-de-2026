@@ -1,0 +1,2500 @@
+[
+ {
+  "codigo": "F83F-E3AE",
+  "conjunto": "agenda",
+  "id": "2026-10-18",
+  "registro": {
+   "data": "2026-10-18",
+   "lula": "Brasília, preparação; 20h debate na Band",
+   "flavio": "Ato na Av. Paulista com Nikolas Ferreira; 20h debate na Band",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C4F2-5B8C",
+  "conjunto": "agenda",
+  "id": "2026-10-19",
+  "registro": {
+   "data": "2026-10-19",
+   "lula": "Porto Alegre (RS)",
+   "flavio": "Marabá (PA) de manhã, Manaus (AM) à noite",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0352-3D9C",
+  "conjunto": "agenda",
+  "id": "2026-10-20",
+  "registro": {
+   "data": "2026-10-20",
+   "lula": "São Luís (MA) e Juazeiro (BA)/Petrolina (PE)",
+   "flavio": "A definir",
+   "url": "https://painelpolitico.com/flavio-e-lula-se-encontram-pela-1-vez-em-debate-neste-domingo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3BCC-F3D5",
+  "conjunto": "agenda",
+  "id": "2026-10-21",
+  "registro": {
+   "data": "2026-10-21",
+   "lula": "Brasília e Belo Horizonte; sabatina na TV Record",
+   "flavio": "Fortaleza (CE)",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EC53-0082",
+  "conjunto": "agenda",
+  "id": "2026-10-22",
+  "registro": {
+   "data": "2026-10-22",
+   "lula": "Preparação para o debate da Globo",
+   "flavio": "A definir",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E286-6B8D",
+  "conjunto": "agenda",
+  "id": "2026-10-23",
+  "registro": {
+   "data": "2026-10-23",
+   "lula": "Debate na TV Globo",
+   "flavio": "Debate na TV Globo",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3BAB-D843",
+  "conjunto": "agenda",
+  "id": "2026-10-24",
+  "registro": {
+   "data": "2026-10-24",
+   "lula": "Atos no Rio de Janeiro e em São Paulo",
+   "flavio": "Belo Horizonte de manhã, Rio à tarde, com carreatas",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0F35-91FE",
+  "conjunto": "agenda",
+  "id": "2026-10-25",
+  "registro": {
+   "data": "2026-10-25",
+   "lula": "Votação (8h–17h)",
+   "flavio": "Vota no Rio; acompanha a apuração em Brasília",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E94B-AFB3",
+  "conjunto": "aovivo",
+  "id": "band-p01",
+  "registro": {
+   "id": "band-p01",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "18:00",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "A BandNews TV, na TV por assinatura, começa a cobertura do debate.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6918-EA4A",
+  "conjunto": "aovivo",
+  "id": "band-p02",
+  "registro": {
+   "id": "band-p02",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "19:00",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Começa a transmissão pela internet, no site band.com.br e no canal Band Jornalismo no YouTube.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9716-DE13",
+  "conjunto": "aovivo",
+  "id": "band-p03",
+  "registro": {
+   "id": "band-p03",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "19:30",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Pré-debate na TV aberta, no canal da Band.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2541-D35D",
+  "conjunto": "aovivo",
+  "id": "band-p04",
+  "registro": {
+   "id": "band-p04",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:00",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Começa o debate, com mediação de Eduardo Oinegue e Adriana Araújo. São três blocos. No 1º, cada candidato responde a uma pergunta dos âncoras e depois os dois têm 30 minutos livres para debater. No 2º e no 3º, há perguntas dos jornalistas e um candidato pergunta direto ao outro. O 3º bloco termina com as considerações finais. Por sorteio, Flávio fica do lado esquerdo do estúdio e Lula do lado direito.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "84FD-481C",
+  "conjunto": "aovivo",
+  "id": "band-p05",
+  "registro": {
+   "id": "band-p05",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:00",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Horário previsto para o fim do debate.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/debate-entre-flavio-e-lula-acontece-neste-domingo-18-saiba-como-assistir"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F999-AA91",
+  "conjunto": "boatos",
+  "id": "b01",
+  "registro": {
+   "id": "b01",
+   "data": "2026-10-04",
+   "alvo": "Lula",
+   "boato": "Lula jogou a bandeira do Brasil no chão depois de votar",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "Ele entregou a bandeira ao fotógrafo oficial.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Símbolos nacionais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "21ED-007B",
+  "conjunto": "boatos",
+  "id": "b02",
+  "registro": {
+   "id": "b02",
+   "data": "2026-10-08",
+   "alvo": "Lula",
+   "boato": "Vídeo de Lula dizendo que perdeu o interesse pelos pobres",
+   "veredito": "Enganoso",
+   "agencia": "Lupa",
+   "explicacao": "O recorte inverteu o sentido de uma crítica a outros políticos.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A8E3-5767",
+  "conjunto": "boatos",
+  "id": "b03",
+  "registro": {
+   "id": "b03",
+   "data": "2026-10-03",
+   "alvo": "Lula",
+   "boato": "Xuxa critica Lula sobre a saúde das mulheres",
+   "veredito": "Editado",
+   "agencia": "Lupa",
+   "explicacao": "A gravação é de 2022 e tinha Jair Bolsonaro como alvo.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Saúde da mulher"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9C6F-038F",
+  "conjunto": "boatos",
+  "id": "b04",
+  "registro": {
+   "id": "b04",
+   "data": "2026-10-04",
+   "alvo": "Lula",
+   "boato": "Torcida do Flamengo protesta contra Lula pela proibição das bets",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "As imagens são de agosto e não mostram protesto.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Futebol e apostas"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2E5A-5630",
+  "conjunto": "boatos",
+  "id": "b05",
+  "registro": {
+   "id": "b05",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Zico segura faixa contra Lula",
+   "veredito": "Falso (IA)",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi manipulada com inteligência artificial.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Futebol"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F542-A5AE",
+  "conjunto": "boatos",
+  "id": "b06",
+  "registro": {
+   "id": "b06",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Vídeos que ligam Lula às fraudes do INSS",
+   "veredito": "Removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O tribunal viu imputação de crime sem base factual e mandou retirar os vídeos.",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-determina-remocao-de-video-de-flavio-que-liga-lula-a-caso-do-inss/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Vídeos publicados pelo PL, por Flávio e por Nikolas Ferreira, segundo a ação julgada pelo TSE.",
+   "tema": "Corrupção e INSS"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D6A6-08D0",
+  "conjunto": "boatos",
+  "id": "b07",
+  "registro": {
+   "id": "b07",
+   "data": "2026-10-08",
+   "alvo": "Flávio",
+   "boato": "Flávio disse que acabaria com o Farmácia Popular",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Não há registro da frase; a campanha negou.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Frase atribuída a Flávio sem registro; a campanha negou a autoria. Quem espalhou não foi apontado.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "18EB-E051",
+  "conjunto": "boatos",
+  "id": "b08",
+  "registro": {
+   "id": "b08",
+   "data": "2026-10-04",
+   "alvo": "Flávio",
+   "boato": "Vídeo de Flávio sobre escolher entre emprego e direitos trabalhistas",
+   "veredito": "Manipulado",
+   "agencia": "Aos Fatos",
+   "explicacao": "Um áudio falso foi inserido em gravação sobre outro tema.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Trabalho"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B9FD-A133",
+  "conjunto": "boatos",
+  "id": "b09",
+  "registro": {
+   "id": "b09",
+   "data": "2026-10-04",
+   "alvo": "Flávio",
+   "boato": "Foto de Flávio armado ao lado de um elefante abatido",
+   "veredito": "Falso (IA)",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi gerada por inteligência artificial.",
+   "url": "https://younik.com.br/as-melhores-fake-news-sobre-lula-e-flavio-bolsonaro-nas-eleicoes-2026/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Armas e meio ambiente"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6D89-DA8C",
+  "conjunto": "boatos",
+  "id": "b10",
+  "registro": {
+   "id": "b10",
+   "data": "2026-10-17",
+   "alvo": "Flávio",
+   "boato": "Flávio retiraria de Nossa Senhora Aparecida o título de padroeira",
+   "veredito": "Sem fundamento; TSE manteve o vídeo",
+   "agencia": "Imprensa / TSE",
+   "explicacao": "Flávio negou; a acusação não tem base, segundo a cobertura do caso no TSE.",
+   "url": "https://viva.com.br/politica/tse-nega-remocao-de-video-de-lula-que-chama-flavio-bolsonaro-de-mentiroso.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo do perfil de campanha \"Brasil com Lula\" levantou a dúvida; o TSE manteve o vídeo por considerá-lo crítica política.",
+   "tema": "Religião"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F7B3-BD58",
+  "conjunto": "boatos",
+  "id": "b11",
+  "registro": {
+   "id": "b11",
+   "data": "2026-10-13",
+   "alvo": "Lula",
+   "boato": "Imagem de outro país apresentada como sendo de um ato pró-Lula",
+   "veredito": "Descontextualizado; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "A foto era de um evento no Chile; o tribunal mandou retirar o conteúdo.",
+   "url": "https://jornalgrandebahia.com.br/2026/10/tse-manda-flavio-bolsonaro-apagar-video-descontextualizado-apura-propaganda-sem-audio-e-amplia-disputa-com-lula-no-2o-turno-de-2026/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Conteúdo publicado por Flávio, que o TSE mandou apagar.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E95D-2BE4",
+  "conjunto": "boatos",
+  "id": "b12",
+  "registro": {
+   "id": "b12",
+   "data": "2026-10-12",
+   "alvo": "Lula",
+   "boato": "Vídeo de mulher usando droga seria do ato pró-Lula na Paulista",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O vídeo já circulava em 10/10, um dia antes do ato; não há ligação com o evento.",
+   "url": "https://www.agencialupa.org/eleicoes/2026/10/12/video-de-mulher-com-suposta-droga-nao-e-de-ato-pro-lula-em-sp/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Lupa, Flávio e Tarcísio ajudaram a divulgar, e o canal de WhatsApp da campanha de Flávio enviou o vídeo; Flávio apagou o post por ordem do TSE.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5212-328B",
+  "conjunto": "boatos",
+  "id": "b13",
+  "registro": {
+   "id": "b13",
+   "data": "2026-10-12",
+   "alvo": "Lula",
+   "boato": "Vídeo de \"ritual de invocação de Satanás\" no ato de Lula na Paulista",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "As imagens são da Marcha para Exu, de 16 de agosto, e não têm relação com o ato de 11/10.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/12/video-de-homem-cantando-ponto-de-umbanda-nao-foi-gravado-em-ato-de-lula-em-sp/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Lupa, os deputados Zé Trovão e Paulo Bilynskyj, do PL, compartilharam a alegação e depois apagaram os posts.",
+   "tema": "Religião"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4DAB-1C2E",
+  "conjunto": "boatos",
+  "id": "b14",
+  "registro": {
+   "id": "b14",
+   "data": "2026-10-12",
+   "alvo": "Lula",
+   "boato": "Foto de trabalhadora limpando pichações no metrô após ato pró-Lula",
+   "veredito": "Falso (IA)",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi feita com inteligência artificial; a foto original, da CPTM, mostra só as pichações.",
+   "url": "https://www.agencialupa.org/eleicoes/2026/10/12/imagem-de-trabalhadora-limpando-pichacoes-na-paulista-foi-gerada-por-ia/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Lupa, a imagem foi enviada no canal oficial de WhatsApp da campanha de Flávio; quem a criou não foi identificado.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "46E9-68AB",
+  "conjunto": "boatos",
+  "id": "b15",
+  "registro": {
+   "id": "b15",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Marcola, apontado como chefe do PCC, teria declarado voto em Lula",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O conteúdo é de 2022; o diálogo citado não tinha declaração de voto e o TSE mandou removê-lo na época.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/15/e-falso-que-marcola-tenha-declarado-voto-em-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "A Lupa relata que o canal \"Tropa do Flávio\", do PL, voltou a enviar o áudio em 10/10; em 2022 a origem foi O Antagonista.",
+   "tema": "Segurança"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "839B-19CC",
+  "conjunto": "boatos",
+  "id": "b16",
+  "registro": {
+   "id": "b16",
+   "data": "2026-10-08",
+   "alvo": "Flávio",
+   "boato": "Vídeo de Flávio anunciando cortes em pensões, 13º e Pé-de-Meia",
+   "veredito": "Deepfake",
+   "agencia": "Aos Fatos",
+   "explicacao": "O vídeo foi montado com IA sobre o discurso de 4/10, em que ele não fala disso.",
+   "url": "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F6EC-D970",
+  "conjunto": "boatos",
+  "id": "b17",
+  "registro": {
+   "id": "b17",
+   "data": "2026-10-16",
+   "alvo": "Lula",
+   "boato": "Propaganda de Flávio usa fala de Lula sobre \"saidinha\" para ligá-lo a crimes",
+   "veredito": "Fora de contexto; TSE proibiu",
+   "agencia": "TSE",
+   "explicacao": "A ministra Estela Aranha viu fala tirada de contexto e proibiu nova exibição da peça.",
+   "url": "https://www.metropoles.com/colunas/demetrio-vecchioli/tse-proibe-propaganda-de-flavio-associando-lula-a-crimes-em-saidinhas",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Peça do horário eleitoral da chapa de Flávio, segundo a decisão do TSE.",
+   "tema": "Segurança"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A002-5C6B",
+  "conjunto": "boatos",
+  "id": "b18",
+  "registro": {
+   "id": "b18",
+   "data": "2026-10-10",
+   "alvo": "Flávio",
+   "boato": "Propaganda de Lula liga Flávio e seu vice a crimes (\"dupla dos escândalos\")",
+   "veredito": "Sem base factual; TSE suspendeu",
+   "agencia": "TSE",
+   "explicacao": "O ministro Nunes Marques não viu elementos mínimos para a acusação e suspendeu a peça.",
+   "url": "https://revistaoeste.com/politica/tse-suspende-propaganda-de-lula-contra-flavio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Peça do horário eleitoral da coligação de Lula, segundo a decisão do TSE.",
+   "tema": "Corrupção"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3D4E-1EF4",
+  "conjunto": "boatos",
+  "id": "b19",
+  "registro": {
+   "id": "b19",
+   "data": "2026-10-16",
+   "alvo": "Lula",
+   "boato": "Posts no X dizem que fotos e vídeos dos atos pró-Lula na Paulista e em Copacabana foram inflados com IA",
+   "veredito": "Falso",
+   "agencia": "Projeto Comprova",
+   "explicacao": "Um vídeo da Paulista era autêntico; outras imagens usadas pelos posts é que foram alteradas, eram de um ato bolsonarista ou de outro ato, em Niterói.",
+   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/posts-no-x-distorcem-atos-pro-lula-na-paulista-e-em-copacabana/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Perfis no X que, segundo o Comprova, apoiam a família Bolsonaro e defendem a candidatura de Flávio; os perfis não são nomeados.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "07AB-B2AF",
+  "conjunto": "boatos",
+  "id": "b20",
+  "registro": {
+   "id": "b20",
+   "data": "2026-10-09",
+   "alvo": "Lula",
+   "boato": "PCC e Comando Vermelho teriam declarado apoio a Lula no 2º turno",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Não há registro de manifestação das facções; o MP-RJ disse não ter informação e uma fonte do MP-SP negou.",
+   "url": "https://www.aosfatos.org/noticias/pcc-comando-vermelho-apoio-lula-falso/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A checagem não aponta perfis; diz em termos gerais que alegações parecidas são impulsionadas por bolsonaristas.",
+   "tema": "Crime organizado"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AF14-D7B9",
+  "conjunto": "boatos",
+  "id": "b21",
+  "registro": {
+   "id": "b21",
+   "data": "2026-10-09",
+   "alvo": "Lula",
+   "boato": "Governo Lula avaliaria acabar com o Bolsa Família",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "O post usa um vídeo de abril de 2025 que fala da regra de transição, não do fim do programa. O UOL Confere também desmentiu.",
+   "url": "https://www.aosfatos.org/noticias/governo-lula-extinguir-bolsa-familia/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5230-C99A",
+  "conjunto": "boatos",
+  "id": "b22",
+  "registro": {
+   "id": "b22",
+   "data": "2026-10-08",
+   "alvo": "Flávio",
+   "boato": "PF teria descoberto esquema de compra de votos para Flávio, com R$ 27 milhões apreendidos",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "O trecho da CNN usado nos posts fala de apreensões por crimes eleitorais em cinco estados e não cita Flávio.",
+   "url": "https://www.aosfatos.org/noticias/pf-esquema-compra-votos-flavio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Compra de votos"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9C09-F90F",
+  "conjunto": "boatos",
+  "id": "b23",
+  "registro": {
+   "id": "b23",
+   "data": "2026-10-08",
+   "alvo": "Lula",
+   "boato": "Página falsa do g1 atribui a Lula frase sobre mulheres com teor de pedofilia",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "O g1 nunca publicou a reportagem e não há registro da frase; a imagem é uma montagem. A AFP Checamos também desmentiu.",
+   "url": "https://www.aosfatos.org/noticias/montagem-g1-declaracao-falsa-lula-pedofilia/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Montagem"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "620C-E669",
+  "conjunto": "boatos",
+  "id": "b24",
+  "registro": {
+   "id": "b24",
+   "data": "2026-10-08",
+   "alvo": "Lula",
+   "boato": "Vídeo mostraria urna trocada por outra já com votos para Lula em Parnamirim (RN)",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "A urna foi trocada porque a tela parou; segundo o TRE-RN, os votos foram recuperados e nada foi alterado.",
+   "url": "https://www.aosfatos.org/noticias/urna-trocada-votos-lula-rn/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Urnas"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0C7C-F514",
+  "conjunto": "campanha",
+  "id": "e01",
+  "registro": {
+   "id": "e01",
+   "data": "2026-10-04",
+   "tipo": "Resultado",
+   "descricao": "1º turno: Flávio termina à frente por cerca de 2,2 milhões de votos, contra o que indicava a maioria das pesquisas.",
+   "fonte": "TSE, via Metrópoles",
+   "url": "https://www.metropoles.com/brasil/datafolha-divulga-pesquisa-2-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "274E-E682",
+  "conjunto": "campanha",
+  "id": "e02",
+  "registro": {
+   "id": "e02",
+   "data": "2026-10-05",
+   "tipo": "Apoio",
+   "descricao": "Zema (Novo) declara apoio a Flávio. Renan Santos (Missão) diz que não apoiará ninguém; PSD libera diretórios estaduais.",
+   "fonte": "Grupo A Hora / Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renan-descarta-apoio-no-2o-turno-psd-de-caiado-libera-bases-estaduais"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FF90-9BCC",
+  "conjunto": "campanha",
+  "id": "e03",
+  "registro": {
+   "id": "e03",
+   "data": "2026-10-06",
+   "tipo": "Apoio",
+   "descricao": "Caiado formaliza apoio a Flávio em evento em Goiânia.",
+   "fonte": "Estado de Minas / Terra",
+   "url": "https://www.em.com.br/politica/2026/10/7517814-lula-x-flavio-no-2-turno-para-onde-vao-os-votos-de-cury-renan-e-caiado.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2DE7-21F7",
+  "conjunto": "campanha",
+  "id": "e04",
+  "registro": {
+   "id": "e04",
+   "data": "2026-10-06",
+   "tipo": "Apoio",
+   "descricao": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio — informação conflitante).",
+   "fonte": "Grupo A Hora / Exame",
+   "url": "https://grupoahora.net.br/conteudos/2026/10/05/flavio-ou-lula-veja-quem-cury-renan-caiado-e-zema-apoiarao-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F624-EAB7",
+  "conjunto": "campanha",
+  "id": "e05",
+  "registro": {
+   "id": "e05",
+   "data": "2026-10-07",
+   "tipo": "Apoio",
+   "descricao": "Levantamento de governadores: 10 apoiam Flávio e 5 apoiam Lula.",
+   "fonte": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/quem-herda-votos-cury-renan-caiado-segundo-turno-presidente/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B187-2895",
+  "conjunto": "campanha",
+  "id": "e06",
+  "registro": {
+   "id": "e06",
+   "data": "2026-10-12",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Campanha de Lula aciona o TSE contra posts que associam o comício da Paulista a uso de drogas e vandalismo.",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-aciona-tse-apos-post-falso-sobre-comicio-na-paulista"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2986-D5CD",
+  "conjunto": "campanha",
+  "id": "e07",
+  "registro": {
+   "id": "e07",
+   "data": "2026-10-13",
+   "tipo": "Debate",
+   "descricao": "Flávio diz que não irá ao debate da Band; Lula confirma presença e, no dia seguinte, Flávio também confirma.",
+   "fonte": "CNN Brasil / O Hoje",
+   "url": "https://ohoje.com/2026/10/18/lula-e-flavio-bolsonaro-intensificam-campanha-na-ultima-semana-antes-do-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E389-A766",
+  "conjunto": "campanha",
+  "id": "e08",
+  "registro": {
+   "id": "e08",
+   "data": "2026-10-14",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "TSE ordena que Flávio e Nikolas Ferreira removam vídeo com crianças contra Lula.",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-aciona-tse-apos-post-falso-sobre-comicio-na-paulista"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8B02-7D56",
+  "conjunto": "campanha",
+  "id": "e09",
+  "registro": {
+   "id": "e09",
+   "data": "2026-10-15",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "TSE manda remover vídeo de Flávio que associa Lula às fraudes do INSS.",
+   "fonte": "CNN Brasil / Times Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-determina-remocao-de-video-de-flavio-que-liga-lula-a-caso-do-inss/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C5CD-CA14",
+  "conjunto": "campanha",
+  "id": "e10",
+  "registro": {
+   "id": "e10",
+   "data": "2026-10-15",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Flávio pede ao TSE a remoção de 221 posts e a suspensão de 32 perfis pró-Lula.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-pede-ao-tse-remocao-de-221-posts-de-perfis-pro-lula-por-fake-news/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1D8D-EE31",
+  "conjunto": "campanha",
+  "id": "e11",
+  "registro": {
+   "id": "e11",
+   "data": "2026-10-17",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "TSE nega remover vídeo de Lula que chama Flávio de mentiroso: entendeu como crítica política.",
+   "fonte": "Viva",
+   "url": "https://viva.com.br/politica/tse-nega-remocao-de-video-de-lula-que-chama-flavio-bolsonaro-de-mentiroso.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C8B5-76C1",
+  "conjunto": "campanha",
+  "id": "e12",
+  "registro": {
+   "id": "e12",
+   "data": "2026-10-17",
+   "tipo": "Estratégia",
+   "descricao": "Flávio planeja ampliar atos de rua e endurecer ataques para sair da defensiva na última semana.",
+   "fonte": "Metrópoles",
+   "url": "https://metropoles.com/brasil/flavio-tenta-deixar-defensiva-e-mobilizar-aliados-na-reta-final-do-2o-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "54BB-BE3B",
+  "conjunto": "campanha",
+  "id": "e13",
+  "registro": {
+   "id": "e13",
+   "data": "2026-10-18",
+   "tipo": "Estratégia",
+   "descricao": "Lula vai explorar a proposta de Flávio de cortar R$ 250 bilhões do Orçamento, com alerta sobre programas sociais.",
+   "fonte": "Metrópoles (Thiago Herdy)",
+   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-estrategia-de-lula-na-ultima-semana-antes-da-eleicao"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4227-C8A5",
+  "conjunto": "campanha",
+  "id": "e14",
+  "registro": {
+   "id": "e14",
+   "data": "2026-10-18",
+   "tipo": "Debate",
+   "descricao": "Primeiro debate direto do 2º turno, na Band, às 20h. O próximo é na TV Globo, em 23/10.",
+   "fonte": "Band / InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/lula-e-flavio-confirmam-debate-na-band-confronto-pode-mudar-dinamica-do-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C836-8A68",
+  "conjunto": "campanha",
+  "id": "e15",
+  "registro": {
+   "id": "e15",
+   "data": "2026-10-10",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Nunes Marques, presidente do TSE, suspende peça de Lula que associava Flávio e o vice Alfredo Gaspar a crimes.",
+   "fonte": "Revista Oeste",
+   "url": "https://revistaoeste.com/politica/tse-suspende-propaganda-de-lula-contra-flavio/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AF42-4959",
+  "conjunto": "campanha",
+  "id": "e16",
+  "registro": {
+   "id": "e16",
+   "data": "2026-10-13",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Ministra Estela Aranha manda a campanha de Lula tirar do ar anúncio impulsionado que ligava Flávio ao crime organizado (impulsionar ataque é proibido).",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-tirar-do-ar-video-que-liga-flavio-ao-crime-organizado/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0F70-4634",
+  "conjunto": "campanha",
+  "id": "e17",
+  "registro": {
+   "id": "e17",
+   "data": "2026-10-16",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "TSE proíbe propaganda de Flávio que associava Lula a crimes de presos em \"saidinha\" com fala fora de contexto.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/demetrio-vecchioli/tse-proibe-propaganda-de-flavio-associando-lula-a-crimes-em-saidinhas"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9F6F-E2F9",
+  "conjunto": "campanha",
+  "id": "e18",
+  "registro": {
+   "id": "e18",
+   "data": "2026-10-16",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Plenário do TSE mantém, por unanimidade, ordem para a Meta não reduzir o alcance de posts sobre os candidatos, sob multa diária de R$ 500 mil.",
+   "fonte": "O Povo",
+   "url": "https://www.opovo.com.br/noticias/brasil/2026/10/18/tse-mantem-ordem-para-meta-garantir-isonomia-a-lula-e-flavio-nas-plataformas.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F58A-805F",
+  "conjunto": "campanha",
+  "id": "e19",
+  "registro": {
+   "id": "e19",
+   "data": "2026-10-18",
+   "tipo": "Estratégia",
+   "descricao": "Flávio faz ato na Paulista com Tarcísio, Nikolas Ferreira e senadores eleitos; no Rio e em SP, artistas fazem atos pró-democracia sem a presença de Lula.",
+   "fonte": "O Tempo / TMC",
+   "url": "https://www.otempo.com.br/eleicoes/2026/2026/10/18/flavio-bolsonaro-reune-tarcisio-de-freitas-nikolas-ferreira-e-outros-politicos-em-ato-na-paulista"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "43E7-733E",
+  "conjunto": "campanha",
+  "id": "e20",
+  "registro": {
+   "id": "e20",
+   "data": "2026-10-18",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Ministra Estela Aranha manda Alfredo Gaspar, vice de Flávio, apagar em 24 horas post que ligava Lula ao crime organizado ao comentar o assassinato de um empresário em Pernambuco.",
+   "fonte": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ministra-do-tse-determina-que-vice-de-flavio-apague-video-que-associa-lula-ao-crime-organizado/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4274-80D0",
+  "conjunto": "campanha",
+  "id": "e21",
+  "registro": {
+   "id": "e21",
+   "data": "2026-10-18",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Corregedor-geral eleitoral, Ricardo Villas Bôas Cueva, nega pedido do Novo para barrar atos de artistas pró-democracia neste domingo; diz que vetar antes seria censura prévia, mas abusos podem ser julgados depois.",
+   "fonte": "Agenda do Poder",
+   "url": "https://agendadopoder.com.br/tse-rejeita-pedido-do-novo-para-barrar-atos-de-artistas-pro-lula-e-alerta-para-risco-de-censura-previa/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4296-376B",
+  "conjunto": "checagens",
+  "id": "f01",
+  "registro": {
+   "id": "f01",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "A dívida do Brasil é de cerca de R$ 11 trilhões",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A dívida bruta chegou a R$ 11,1 trilhões em agosto, segundo o Banco Central.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EA24-C61B",
+  "conjunto": "checagens",
+  "id": "f02",
+  "registro": {
+   "id": "f02",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Lula gastou quase R$ 350 bilhões para se reeleger",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor soma medidas fiscais do ano eleitoral, inclusive renúncias, e não é todo gasto nem voltado à reeleição.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D7C6-FA17",
+  "conjunto": "checagens",
+  "id": "f03",
+  "registro": {
+   "id": "f03",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Vorcaro pôs R$ 30 milhões em um filme sobre Lula",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Baseia-se em suposto depoimento não verificado; PF, PGR e a defesa de Vorcaro negam.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6F5F-7E19",
+  "conjunto": "checagens",
+  "id": "f04",
+  "registro": {
+   "id": "f04",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "A PF confirmou a propina do documentário de Lula",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A PF disse que Vorcaro não prestou esse depoimento.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4890-DB2B",
+  "conjunto": "checagens",
+  "id": "f05",
+  "registro": {
+   "id": "f05",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "A exploração da Margem Equatorial estava no plano de governo de Bolsonaro em 2022",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Nem o plano de 2018 nem o de 2022 mencionam o tema.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8341-42DE",
+  "conjunto": "checagens",
+  "id": "f06",
+  "registro": {
+   "id": "f06",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Bolsonaro triplicou o Bolsa Família de R$ 190 para R$ 600",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O governo propôs R$ 400; os R$ 600 vieram em 2022, de forma temporária.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B161-5EDA",
+  "conjunto": "checagens",
+  "id": "f07",
+  "registro": {
+   "id": "f07",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa e Aos Fatos",
+   "evento": "TV Globo",
+   "afirmacao": "A Constituição garante o direito à legítima defesa",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A legítima defesa está no Código Penal; a Constituição fala em ampla defesa no processo.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2FF7-C506",
+  "conjunto": "checagens",
+  "id": "f08",
+  "registro": {
+   "id": "f08",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa e Aos Fatos",
+   "evento": "TV Globo",
+   "afirmacao": "Flávio Dino entrou na Maré sem segurança policial",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A visita de 2023 teve apoio da PRF, da PF e de forças estaduais.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4B2E-FB65",
+  "conjunto": "checagens",
+  "id": "f09",
+  "registro": {
+   "id": "f09",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Lula trocou 27 superintendentes da PF",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Ao menos 26 dos 27 superintendentes regionais foram trocados.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DC35-B1B3",
+  "conjunto": "checagens",
+  "id": "f10",
+  "registro": {
+   "id": "f10",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Bolsonaro trocou só um chefe da PF",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Houve cinco diretores-gerais e ao menos 20 trocas de delegados no governo Bolsonaro.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "06EF-64AA",
+  "conjunto": "checagens",
+  "id": "f11",
+  "registro": {
+   "id": "f11",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Estudos não mostram que mais armas trazem mais violência",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Vários estudos associam mais armas a mais crimes, suicídios e acidentes.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8791-0811",
+  "conjunto": "checagens",
+  "id": "f12",
+  "registro": {
+   "id": "f12",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "O governo Lula é recordista em criminalidade",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Em 2025 a taxa de homicídios dolosos foi a menor da série iniciada em 2012.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7EE6-EEC8",
+  "conjunto": "checagens",
+  "id": "f13",
+  "registro": {
+   "id": "f13",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "O governo Lula é recordista em mulheres assassinadas",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Os feminicídios bateram recorde em 2025. A Lupa, em 1/10, classificou fala parecida como sem contexto.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AB90-8FF3",
+  "conjunto": "checagens",
+  "id": "f14",
+  "registro": {
+   "id": "f14",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "O governo não iniciou a exploração de petróleo na Margem Equatorial",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Ibama licenciou atividades em outubro de 2025 e a Petrobras opera um poço na região.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0E2D-179E",
+  "conjunto": "checagens",
+  "id": "f15",
+  "registro": {
+   "id": "f15",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "TV Globo",
+   "afirmacao": "O governo Lula teve recorde de fechamento de empresas",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Aos Fatos classificou a afirmação como falsa.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3B39-F5FB",
+  "conjunto": "checagens",
+  "id": "f16",
+  "registro": {
+   "id": "f16",
+   "data": "2026-10-16",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "TV Globo",
+   "afirmacao": "Promete criar um prontuário eletrônico único",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O sistema já existe.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AF56-AEE0",
+  "conjunto": "checagens",
+  "id": "f17",
+  "registro": {
+   "id": "f17",
+   "data": "2026-10-01",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "afirmacao": "Foi impedido por censura de ir ao debate da Globo",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Ele desistiu de participar; depois a emissora cancelou o debate.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4056-161B",
+  "conjunto": "checagens",
+  "id": "f18",
+  "registro": {
+   "id": "f18",
+   "data": "2026-10-01",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "afirmacao": "32 milhões de eleitores não votaram em 2022",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O TSE registrou 32,7 milhões de abstenções no 1º turno e 32,2 milhões no 2º.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3179-2A28",
+  "conjunto": "checagens",
+  "id": "f19",
+  "registro": {
+   "id": "f19",
+   "data": "2026-10-01",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "afirmacao": "Lula deixou o povo com fome",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Brasil saiu do Mapa da Fome em 2025.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FA5D-8C19",
+  "conjunto": "checagens",
+  "id": "f20",
+  "registro": {
+   "id": "f20",
+   "data": "2026-10-01",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "afirmacao": "Lula é o \"pai do tigrinho\"",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A lei das apostas é de 2018; o governo Lula regulamentou o setor em 2023.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6CA9-3327",
+  "conjunto": "checagens",
+  "id": "f21",
+  "registro": {
+   "id": "f21",
+   "data": "2026-10-01",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "afirmacao": "Não houve corrupção no governo Bolsonaro",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Houve investigações sobre o MEC, vacinas e orçamento secreto.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2874-D067",
+  "conjunto": "checagens",
+  "id": "l01",
+  "registro": {
+   "id": "l01",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Em 2010 o Brasil era a 7ª economia do mundo e crescia 7,5% ao ano",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dados do IBGE confirmam o crescimento de 2010 e a posição no ranking daquele ano.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DA04-84A0",
+  "conjunto": "checagens",
+  "id": "l02",
+  "registro": {
+   "id": "l02",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Criou 22 milhões de empregos em oito anos",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O Ministério do Trabalho registra cerca de 15,3 milhões entre 2003 e 2010; o número maior soma os governos Dilma.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DF30-5420",
+  "conjunto": "checagens",
+  "id": "l03",
+  "registro": {
+   "id": "l03",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Bolsonaro desmontou dez ministérios",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dez pastas foram extintas em 2019, a maioria fundida em outras.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EB4C-90E6",
+  "conjunto": "checagens",
+  "id": "l04",
+  "registro": {
+   "id": "l04",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "78% da população estava endividada quando tomou posse",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O índice da CNC conta famílias com qualquer dívida a vencer; a inadimplência era bem menor.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1BAE-426F",
+  "conjunto": "checagens",
+  "id": "l05",
+  "registro": {
+   "id": "l05",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Tinha acabado com a fome em 2014",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O país saiu do Mapa da Fome da FAO, mas a fome não foi eliminada.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8C71-6FE6",
+  "conjunto": "checagens",
+  "id": "l06",
+  "registro": {
+   "id": "l06",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Havia 33 milhões passando fome quando voltou",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Pesquisa da Rede Penssan de 2022 apontou 33,1 milhões em insegurança alimentar grave.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C393-6A18",
+  "conjunto": "checagens",
+  "id": "l07",
+  "registro": {
+   "id": "l07",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Encontrou 6 mil obras paralisadas",
+   "veredito": "Subestimado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O TCU contou 8.674 obras federais paradas em agosto de 2022.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A88B-3574",
+  "conjunto": "checagens",
+  "id": "l08",
+  "registro": {
+   "id": "l08",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Comércio com a Indonésia cresceu 15%",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo o MDIC, as exportações para a Indonésia subiram 2,2% no período.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0758-458A",
+  "conjunto": "checagens",
+  "id": "l09",
+  "registro": {
+   "id": "l09",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "TV Globo",
+   "afirmacao": "Recebeu o governo com déficit de 2,8%",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O governo central fechou 2022 com superávit primário, ajudado pelo adiamento de precatórios.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C88B-CFD8",
+  "conjunto": "checagens",
+  "id": "l10",
+  "registro": {
+   "id": "l10",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "Aprovou 99% do que queria no Congresso",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "No terceiro mandato, a taxa de aprovação de projetos do Executivo foi de cerca de 42%.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4977-013A",
+  "conjunto": "checagens",
+  "id": "l11",
+  "registro": {
+   "id": "l11",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "A Petrobras foi privatizada",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A estatal segue sob controle da União; foram privatizadas a Eletrobras e a BR Distribuidora.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7FE3-2145",
+  "conjunto": "checagens",
+  "id": "l12",
+  "registro": {
+   "id": "l12",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "O Banco Master fechou um mês depois do encontro com Vorcaro",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A reunião foi em dezembro de 2024 e a liquidação, em novembro de 2025.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "768A-9DFD",
+  "conjunto": "checagens",
+  "id": "l13",
+  "registro": {
+   "id": "l13",
+   "data": "2026-10-15",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Jornal Nacional",
+   "afirmacao": "O Mais Médicos tinha 12 mil médicos quando voltou",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Em dezembro de 2022 o programa tinha 12.843 profissionais.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2BF5-39C2",
+  "conjunto": "checagens_placar",
+  "id": "lupa-flavio",
+  "registro": {
+   "id": "lupa-flavio",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Entrevista à TV Globo",
+   "data": "2026-10-16",
+   "total": 18,
+   "verdadeiro": 3,
+   "impreciso": 8,
+   "falso": 7,
+   "nota": "Intermediárias: 5 sem contexto, 2 exageradas, 1 insustentável.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FB5B-5A95",
+  "conjunto": "checagens_placar",
+  "id": "lupa-live",
+  "registro": {
+   "id": "lupa-live",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Live de campanha",
+   "data": "2026-10-01",
+   "total": 10,
+   "verdadeiro": 1,
+   "impreciso": 4,
+   "falso": 5,
+   "nota": "Só as 10 falas do próprio Flávio; as 6 de aliados (Derrite, Daniella Marques, Douglas Ruas) ficaram de fora. Intermediárias: 3 sem contexto, 1 exagerada.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "786B-4C31",
+  "conjunto": "checagens_placar",
+  "id": "lupa-lula",
+  "registro": {
+   "id": "lupa-lula",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Entrevista à TV Globo",
+   "data": "2026-10-15",
+   "total": 13,
+   "verdadeiro": 5,
+   "impreciso": 6,
+   "falso": 2,
+   "nota": "Inclui 3 falas repetidas do JN de 27/08. Intermediárias: 4 exageradas, 1 sem contexto, 1 subestimada.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D6BD-30DD",
+  "conjunto": "checagens_placar",
+  "id": "rk-flavio",
+  "registro": {
+   "id": "rk-flavio",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Entrevista ao Jornal Nacional",
+   "data": "2026-10-16",
+   "total": 26,
+   "verdadeiro": 9,
+   "impreciso": 12,
+   "falso": 5,
+   "nota": "Classes: verdadeira, imprecisa, falsa.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "279C-2F94",
+  "conjunto": "checagens_placar",
+  "id": "rk-lula",
+  "registro": {
+   "id": "rk-lula",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Entrevista ao Jornal Nacional",
+   "data": "2026-10-15",
+   "total": 27,
+   "verdadeiro": 8,
+   "impreciso": 11,
+   "falso": 8,
+   "nota": "Classes: verdadeira, imprecisa, falsa.",
+   "url": "https://ranking.org.br/en/articles/checagem-entrevista-lula-jornal-nacional-2-turno-2026"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3521-314B",
+  "conjunto": "destaques",
+  "id": "debate-band",
+  "registro": {
+   "id": "debate-band",
+   "tipo": "Debate",
+   "titulo": "Debate na Band: Lula × Flávio",
+   "data": "2026-10-18",
+   "hora_inicio": "20:00",
+   "hora_fim": "22:00",
+   "local": "Estúdios da Band, em São Paulo",
+   "como_assistir": "TV aberta: Band (pré-debate às 19h30). TV por assinatura: BandNews TV. Internet: band.com.br, app Bandplay e YouTube (Band Jornalismo). Rádio: Rádio Bandeirantes e BandNews FM.",
+   "descricao": "Primeiro encontro cara a cara dos dois no 2º turno, com perguntas de jornalistas da Band e de veículos parceiros.",
+   "url": "https://www.band.com.br/politica/eleicoes/o-que-voce-precisa-saber-sobre-o-debate-entre-lula-e-flavio-na-band"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AB75-C5A9",
+  "conjunto": "destaques",
+  "id": "debate-globo",
+  "registro": {
+   "id": "debate-globo",
+   "tipo": "Debate",
+   "titulo": "Debate na TV Globo",
+   "data": "2026-10-23",
+   "hora_inicio": null,
+   "hora_fim": null,
+   "local": "Estúdios Globo, no Rio de Janeiro",
+   "como_assistir": "TV aberta: Globo, logo depois do Jornal Nacional. O horário exato e os canais na internet ainda não foram confirmados.",
+   "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli.",
+   "url": "https://www.correio24horas.com.br/em-alta/globo-cancela-capitulo-de-quem-ama-cuida-para-exibir-debate-entre-lula-e-flavio-bolsonaro-veja-data-1026"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1636-2F06",
+  "conjunto": "destaques",
+  "id": "votacao",
+  "registro": {
+   "id": "votacao",
+   "tipo": "Votação",
+   "titulo": "Dia da votação do 2º turno",
+   "data": "2026-10-25",
+   "hora_inicio": "08:00",
+   "hora_fim": "17:00",
+   "local": "Na sua seção eleitoral (o local aparece no título de eleitor e no app e-Título)",
+   "como_assistir": "Leve um documento oficial com foto. Quem não votou no 1º turno também pode votar no 2º.",
+   "descricao": "Horário de Brasília.",
+   "url": "https://metropoles.com/brasil/flavio-tenta-deixar-defensiva-e-mobilizar-aliados-na-reta-final-do-2o-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5C98-91F8",
+  "conjunto": "pesquisas",
+  "id": "atlas-1009",
+  "registro": {
+   "id": "atlas-1009",
+   "instituto": "AtlasIntel",
+   "divulgacao": "2026-10-09",
+   "campo": "3–8 out",
+   "amostra": 5026,
+   "margem": 1,
+   "flavio_validos": 52.8,
+   "lula_validos": 47.2,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Brasil de Fato / CNN Brasil",
+   "url": "https://www.brasildefato.com.br/2026/10/09/pesquisa-atlasintelbloomberg-mostra-flavio-bolsonaro-com-528-dos-votos-validos-no-2o-turno-e-lula-com-472/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4972-6B0D",
+  "conjunto": "pesquisas",
+  "id": "btg-1310",
+  "registro": {
+   "id": "btg-1310",
+   "instituto": "BTG/Nexus",
+   "divulgacao": "2026-10-13",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "TVT News / Poder360",
+   "url": "https://tvtnews.com.br/primeira-pesquisa-quaest-presidente-2-turn14-10/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "71E6-ADDC",
+  "conjunto": "pesquisas",
+  "id": "cntmda-1610",
+  "registro": {
+   "id": "cntmda-1610",
+   "instituto": "CNT/MDA",
+   "divulgacao": "2026-10-16",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 50.5,
+   "lula_validos": 49.5,
+   "flavio_totais": 46.8,
+   "lula_totais": 45.9,
+   "fonte": "RIC",
+   "url": "https://ric.com.br/politica/veja-como-estao-lula-e-flavio-nas-pesquisas-a-9-dias-do-2o-turno-presidencial/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "415C-724D",
+  "conjunto": "pesquisas",
+  "id": "datafolha-0810",
+  "registro": {
+   "id": "datafolha-0810",
+   "instituto": "Datafolha",
+   "divulgacao": "2026-10-08",
+   "campo": null,
+   "amostra": null,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": 49,
+   "lula_totais": 45,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/lula-x-flavio-datafolha-divulga-nova-pesquisa-de-2o-turno-hoje-15-10"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5B41-F4CF",
+  "conjunto": "pesquisas",
+  "id": "datafolha-1510",
+  "registro": {
+   "id": "datafolha-1510",
+   "instituto": "Datafolha",
+   "divulgacao": "2026-10-15",
+   "campo": "13–15 out",
+   "amostra": 2520,
+   "margem": 2,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 47,
+   "lula_totais": 45,
+   "fonte": "CNN Brasil / Portal AZ",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0BEE-45F3",
+  "conjunto": "pesquisas",
+  "id": "futura-1310",
+  "registro": {
+   "id": "futura-1310",
+   "instituto": "Futura",
+   "divulgacao": "2026-10-13",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 51.8,
+   "lula_validos": 48.2,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-pesquisas/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-9-dias-do-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2F43-9F83",
+  "conjunto": "pesquisas",
+  "id": "ipespe-1010",
+  "registro": {
+   "id": "ipespe-1010",
+   "instituto": "Ipespe/Abrapel",
+   "divulgacao": "2026-10-10",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 52.7,
+   "lula_validos": 47.3,
+   "flavio_totais": 49,
+   "lula_totais": 44,
+   "fonte": "Transmissão Política / Correio",
+   "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/17/pesquisa-ipespe-segundo-turno-flavio-lula/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6CCF-C79F",
+  "conjunto": "pesquisas",
+  "id": "ipespe-1710",
+  "registro": {
+   "id": "ipespe-1710",
+   "instituto": "Ipespe/Abrapel",
+   "divulgacao": "2026-10-17",
+   "campo": null,
+   "amostra": null,
+   "margem": 2.6,
+   "flavio_validos": 51.2,
+   "lula_validos": 48.8,
+   "flavio_totais": 48,
+   "lula_totais": 46,
+   "fonte": "Correio 24 Horas",
+   "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0A30-349E",
+  "conjunto": "pesquisas",
+  "id": "palver-1510",
+  "registro": {
+   "id": "palver-1510",
+   "instituto": "Palver",
+   "divulgacao": "2026-10-15",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 50.51,
+   "lula_validos": 49.49,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-pesquisas/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-9-dias-do-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0C60-97D3",
+  "conjunto": "pesquisas",
+  "id": "poderdata-0810",
+  "registro": {
+   "id": "poderdata-0810",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-08",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 53,
+   "lula_validos": 47,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-e-lula-empatam-com-50-dos-votos-validos-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2C53-7363",
+  "conjunto": "pesquisas",
+  "id": "poderdata-1310",
+  "registro": {
+   "id": "poderdata-1310",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-13",
+   "campo": "10–12 out",
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poderdata/pesquisa-poderdata-aya-leia-resultados-de-lula-e-flavio-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C3B4-D219",
+  "conjunto": "pesquisas",
+  "id": "poderdata-1610",
+  "registro": {
+   "id": "poderdata-1610",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-16",
+   "campo": "13–15 out",
+   "amostra": 3000,
+   "margem": 1.8,
+   "flavio_validos": 50,
+   "lula_validos": 50,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360 / CNN Brasil",
+   "url": "https://www.poder360.com.br/poderdata/pesquisa-poderdata-aya-leia-resultados-de-lula-e-flavio-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BF56-F089",
+  "conjunto": "pesquisas",
+  "id": "quaest-1410",
+  "registro": {
+   "id": "quaest-1410",
+   "instituto": "Quaest",
+   "divulgacao": "2026-10-14",
+   "campo": "10–13 out",
+   "amostra": 2154,
+   "margem": 2,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 46,
+   "lula_totais": 44,
+   "fonte": "Metrópoles / TVT News",
+   "url": "https://www.metropoles.com/brasil/quaest-flavio-bolsonaro-tem-46-e-lula-marca-44-no-2o-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3E92-319F",
+  "conjunto": "pesquisas",
+  "id": "verita-1710",
+  "registro": {
+   "id": "verita-1710",
+   "instituto": "Veritá",
+   "divulgacao": "2026-10-17",
+   "campo": "12–16 out",
+   "amostra": 15554,
+   "margem": 1,
+   "flavio_validos": 51.1,
+   "lula_validos": 48.9,
+   "flavio_totais": 49.7,
+   "lula_totais": 47.7,
+   "fonte": "CNN Brasil / Revista Oeste",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-511-dos-votos-validos-no-2o-turno-lula-489/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7A89-5E00",
+  "conjunto": "pesquisas",
+  "id": "vox-0910",
+  "registro": {
+   "id": "vox-0910",
+   "instituto": "Vox Brasil",
+   "divulgacao": "2026-10-09",
+   "campo": null,
+   "amostra": null,
+   "margem": null,
+   "flavio_validos": 49.13,
+   "lula_validos": 50.86,
+   "flavio_totais": 42.7,
+   "lula_totais": 44.2,
+   "fonte": "Poder360 / Portal É Notícias",
+   "url": "https://www.portalenoticias.com.br/agora-sai-aposta-pesquisa-deste-domingo-18-mostra-lula-na-frente-de-flavio-bolsonaro-veja-os-numeros/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6FD6-FCAA",
+  "conjunto": "pesquisas",
+  "id": "vox-1810",
+  "registro": {
+   "id": "vox-1810",
+   "instituto": "Vox Brasil",
+   "divulgacao": "2026-10-18",
+   "campo": "15–17 out",
+   "amostra": 2100,
+   "margem": null,
+   "flavio_validos": 49,
+   "lula_validos": 51,
+   "flavio_totais": 44.6,
+   "lula_totais": 46.4,
+   "fonte": "Gizmodo / Portal N10",
+   "url": "https://www.gizmodo.com.br/nova-pesquisa-mostra-lula-com-51-e-flavio-bolsonaro-com-49-dos-votos-validos-no-segundo-turno-71848"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A79A-62F4",
+  "conjunto": "primeiro_turno",
+  "id": "Augusto Cury",
+  "registro": {
+   "candidato": "Augusto Cury",
+   "partido": "Avante",
+   "pct": 2.89,
+   "votos": null
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DC24-FD04",
+  "conjunto": "primeiro_turno",
+  "id": "Flávio Bolsonaro",
+  "registro": {
+   "candidato": "Flávio Bolsonaro",
+   "partido": "PL",
+   "pct": 47.03,
+   "votos": 56104503
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A8AB-2F6E",
+  "conjunto": "primeiro_turno",
+  "id": "Lula",
+  "registro": {
+   "candidato": "Lula",
+   "partido": "PT",
+   "pct": 45.16,
+   "votos": 53879538
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4992-5C25",
+  "conjunto": "primeiro_turno",
+  "id": "Renan Santos",
+  "registro": {
+   "candidato": "Renan Santos",
+   "partido": "Missão",
+   "pct": 2.24,
+   "votos": 2670000
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EA70-B5DB",
+  "conjunto": "primeiro_turno",
+  "id": "Romeu Zema",
+  "registro": {
+   "candidato": "Romeu Zema",
+   "partido": "Novo",
+   "pct": 0.27,
+   "votos": null
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7C63-CB91",
+  "conjunto": "primeiro_turno",
+  "id": "Ronaldo Caiado",
+  "registro": {
+   "candidato": "Ronaldo Caiado",
+   "partido": "PSD",
+   "pct": 2.18,
+   "votos": 2600000
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0EA4-0746",
+  "conjunto": "redes",
+  "id": "int-1t",
+  "registro": {
+   "id": "int-1t",
+   "metrica": "Interações nos perfis oficiais",
+   "periodo": "16 ago–4 out (1º turno)",
+   "lula": 83800000,
+   "flavio": 73700000,
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4127-C6CF",
+  "conjunto": "redes",
+  "id": "int-2t",
+  "registro": {
+   "id": "int-2t",
+   "metrica": "Interações nos perfis oficiais",
+   "periodo": "5–17 out (2º turno)",
+   "lula": 110700000,
+   "flavio": 31300000,
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9A56-6723",
+  "conjunto": "redes",
+  "id": "int-post",
+  "registro": {
+   "id": "int-post",
+   "metrica": "Interações por post",
+   "periodo": "6–15 out",
+   "lula": 174500,
+   "flavio": 222400,
+   "fonte": "Bites, via R7/Enfoque MS",
+   "url": "https://www.enfoquems.com.br/lula-tem-quase-quatro-vezes-mais-interacoes-que-flavio-bolsonaro-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6CEB-33D4",
+  "conjunto": "redes",
+  "id": "ipd-quaest",
+  "registro": {
+   "id": "ipd-quaest",
+   "metrica": "Índice de Popularidade Digital (0 a 100)",
+   "periodo": "15 out (em 4 out: Lula 70,7; Flávio 80)",
+   "lula": 82.6,
+   "flavio": 76.4,
+   "fonte": "Quaest, via Folha / Vermelho",
+   "url": "https://vermelho.org.br/2026/10/18/lula-ultrapassa-flavio-bolsonaro-no-indice-de-popularidade-digital-da-quaest/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FABD-6C01",
+  "conjunto": "redes",
+  "id": "seguidores",
+  "registro": {
+   "id": "seguidores",
+   "metrica": "Novos seguidores",
+   "periodo": "4–8 out",
+   "lula": 958400,
+   "flavio": 1740000,
+   "fonte": "Bites, via CNN Brasil",
+   "url": "https://gazetadoparana.com.br/publico/lula-publica-mais-flavio-ganha-seguidores-mais-rapido-o-que-os-numeros-revelam-sobre-a-disputa-digital-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "662F-A541",
+  "conjunto": "sinais",
+  "id": "aviso",
+  "registro": {
+   "id": "aviso",
+   "data": "2026-10-17",
+   "sinal": "Métricas de redes medem atenção e mobilização; isoladamente não indicam mudança de intenção de voto.",
+   "fonte": "Bites",
+   "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B94D-90F1",
+  "conjunto": "sinais",
+  "id": "eficiencia",
+  "registro": {
+   "id": "eficiencia",
+   "data": "2026-10-16",
+   "sinal": "Flávio posta menos, mas cada post rende mais: média de interações por post acima da de Lula.",
+   "fonte": "Bites, via R7",
+   "url": "https://www.enfoquems.com.br/lula-tem-quase-quatro-vezes-mais-interacoes-que-flavio-bolsonaro-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5CC2-E2D4",
+  "conjunto": "sinais",
+  "id": "ipd",
+  "registro": {
+   "id": "ipd",
+   "data": "2026-10-18",
+   "sinal": "Lula ultrapassa Flávio no Índice de Popularidade Digital da Quaest (175 variáveis de redes, Google e Wikipédia). Flávio cai de 80 para 76,4 pontos.",
+   "fonte": "Quaest, via Folha / DCM",
+   "url": "https://www.diariodocentrodomundo.com.br/lula-supera-flavio-bolsonaro-popularidade-digital-quaest"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "626F-1F32",
+  "conjunto": "sinais",
+  "id": "mobilizacao",
+  "registro": {
+   "id": "mobilizacao",
+   "data": "2026-10-09",
+   "sinal": "Campanhas lançam canais de mobilização no WhatsApp: ‘Exército do Lula’ (André Janones, mais de 2,6 milhões de seguidores) e ‘Tropa do Flávio’.",
+   "fonte": "Brasil 247",
+   "url": "https://www.brasil247.com/midia/exercito-do-lula-e-tropa-do-flavio-bolsonaro-intensificam-mobilizacao-nas-redes-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0990-BDF5",
+  "conjunto": "sinais",
+  "id": "sentimento",
+  "registro": {
+   "id": "sentimento",
+   "data": "2026-10-11",
+   "sinal": "Das 13,3 milhões de menções a Lula em português desde o 1º turno, 46% eram negativas e 22,8% positivas.",
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/apos-conselho-sobre-redes-lula-intensifica-presenca-on-line/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5F7D-C796",
+  "conjunto": "sinais",
+  "id": "virada",
+  "registro": {
+   "id": "virada",
+   "data": "2026-10-17",
+   "sinal": "Diferença de interações a favor de Lula cresceu em relação ao 1º turno; Bites atribui à entrada de apoiadores e comunicadores na campanha.",
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "513E-6793",
+  "conjunto": "transferencia",
+  "id": "ipespe-cury",
+  "registro": {
+   "id": "ipespe-cury",
+   "grupo": "Eleitores de Cury",
+   "pesquisa": "Ipespe (17/10)",
+   "flavio": 50,
+   "lula": 31,
+   "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "41AF-119E",
+  "conjunto": "transferencia",
+  "id": "quaest-caiado",
+  "registro": {
+   "id": "quaest-caiado",
+   "grupo": "Eleitores de Caiado",
+   "pesquisa": "Quaest (14/10)",
+   "flavio": 42,
+   "lula": 23,
+   "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D4B4-4638",
+  "conjunto": "transferencia",
+  "id": "quaest-cury",
+  "registro": {
+   "id": "quaest-cury",
+   "grupo": "Eleitores de Cury",
+   "pesquisa": "Quaest (14/10)",
+   "flavio": 30,
+   "lula": 34,
+   "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F375-1CCF",
+  "conjunto": "transferencia",
+  "id": "quaest-renan",
+  "registro": {
+   "id": "quaest-renan",
+   "grupo": "Eleitores de Renan Santos",
+   "pesquisa": "Quaest (14/10)",
+   "flavio": 40,
+   "lula": 14,
+   "url": "https://exame.com/brasil/lula-ou-flavio-quaest-mostra-para-onde-vao-os-votos-de-cury-caiado-e-renan-santos/"
+  },
+  "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ }
+]

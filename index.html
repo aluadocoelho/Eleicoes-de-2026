@@ -104,6 +104,7 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-btn:focus-visible,.el-cta:focus-visible,.el-q-more:focus-visible,.el-chip:focus-visible,.el-theme:focus-visible{
   transform:translate(calc(-1 * var(--lift)),calc(-1 * var(--lift)));box-shadow:var(--lift) var(--lift) 0 var(--bs);outline:none
 }
+.el-btn::after,.el-cta::after,.el-q-more::after,.el-more::after,.el-chip::after,.el-theme::after{content:"";position:absolute;top:-2px;left:-2px;right:calc(-2px - var(--lift));bottom:calc(-2px - var(--lift))}
 .el-btn:active,.el-cta:active,.el-q-more:active,.el-chip:active,.el-theme:active{transform:translate(0,0);box-shadow:0 0 0 var(--bs)}
 .el-theme{appearance:none;flex:none;display:inline-flex;align-items:center;gap:8px;background:var(--color-panel);color:var(--color-fg);padding:8px 14px;min-height:44px;font:inherit;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);cursor:pointer}
 .el-theme svg{flex:none}
@@ -265,6 +266,28 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-sticky.el-stuck .el-tabs{border-bottom:0}
 .el-page{scroll-margin-top:var(--stick-h,130px)}
 
+/* Códigos de verificação */
+.el-cod{appearance:none;border:0;background:none;padding:2px 0;margin:0;font:inherit;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.7rem;letter-spacing:.02em;color:var(--color-fg-muted);cursor:pointer;display:inline-flex;align-items:center;gap:4px;min-height:24px;text-decoration:underline dotted;text-underline-offset:3px;white-space:nowrap}
+.el-cod:hover{color:var(--accent-text)}
+.el-cod-wrap{display:block;margin-top:4px}
+.el-cod-demo{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85em;background:rgba(255,255,255,.16);padding:1px 6px;border-radius:6px;white-space:nowrap}
+.el-vf-hero{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:12px}
+.el-vf-hero .el-ico{background:#FFFFFF;color:#3E2492}
+.el-vf-p{margin:0;color:var(--banner-muted);line-height:1.55;font-size:var(--cds-font-size-body)}
+.el-vf-form{display:flex;gap:10px;flex-wrap:wrap}
+.el-vf-in{flex:1 1 12rem;min-width:0;min-height:50px;border-radius:14px;border:2px solid #16181D;padding:10px 14px;font:inherit;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.15rem;letter-spacing:.08em;text-transform:uppercase;background:#FFFFFF;color:#16181D}
+.el-vf-in:focus{outline:3px solid #FFD43B;outline-offset:1px}
+.el-vf-go{appearance:none;background:#FFD43B;color:#1A1500;--bs:#16181D;border-color:#16181D;padding:10px 22px;min-height:50px;font:inherit;font-size:var(--cds-font-size-body);font-weight:800;cursor:pointer}
+.el-vf-res{border-radius:var(--cds-radius);border:2px solid var(--vf-c);background:var(--color-panel);padding:var(--cds-pad-lg);display:flex;flex-direction:column;gap:10px}
+.el-vf-st{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem;color:var(--vf-c)}
+.el-vf-st i{width:12px;height:12px;border-radius:50%;background:var(--vf-c);flex:none}
+.el-vf-res p{margin:0;line-height:1.55}
+.el-vf-dl{display:grid;grid-template-columns:minmax(6rem,auto) 1fr;gap:6px 14px;margin:0;font-size:var(--cds-font-size-body)}
+.el-vf-dl dt{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);padding-top:2px}
+.el-vf-dl dd{margin:0;line-height:1.5;overflow-wrap:anywhere}
+.el-vf-dl a{color:var(--color-fg);display:inline-flex;align-items:center;gap:4px}
+@media (max-width:40rem){.el-vf-dl{grid-template-columns:1fr;gap:2px}.el-vf-dl dd{margin-bottom:8px}}
+
 /* Selo de novidade */
 .el-q,.el-hero,.el-card{position:relative}
 .el-new{position:absolute;top:-12px;right:-8px;z-index:3;background:#FFD43B;color:#1A1500;font-weight:800;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;line-height:1;padding:6px 10px;border-radius:999px;border:2px solid #16181D;box-shadow:3px 3px 0 #16181D;transform:rotate(5deg);pointer-events:none;white-space:nowrap}
@@ -388,6 +411,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <button class="el-tab" role="tab" data-tab="redes" aria-selected="false">Redes sociais</button>
     <button class="el-tab" role="tab" data-tab="campanha" aria-selected="false">Campanhas</button>
     <button class="el-tab" role="tab" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
+    <button class="el-tab" role="tab" data-tab="verificar" aria-selected="false">Verificar</button>
   </nav>
   </div>
 
@@ -805,13 +829,34 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     </div>
   </section>
 
+  <!-- ================= VERIFICAR ================= -->
+  <section class="el-page" id="verificar" hidden>
+    <div class="el-vf-hero">
+      <span class="el-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <h2 class="el-bn-t">Recebeu um print desta página?</h2>
+      <p class="el-vf-p">Cada informação daqui tem um código, que aparece assim: <span class="el-cod-demo">cód. 3F9A-12C7</span>. Digite abaixo o código que está no print e veja como a informação está de verdade nos dados da página. Se o texto do print for diferente, ele foi alterado.</p>
+      <form class="el-vf-form" id="vf-form" autocomplete="off">
+        <label class="el-vh" for="vf-in">Código de verificação</label>
+        <input id="vf-in" class="el-vf-in" inputmode="text" autocapitalize="characters" spellcheck="false" maxlength="12" placeholder="Ex.: 3F9A-12C7">
+        <button class="el-btn el-vf-go" type="submit">Conferir</button>
+      </form>
+    </div>
+    <div id="vf-out" aria-live="polite"></div>
+    <div class="el-card el-howto">
+      <h2 class="el-h">Como funciona</h2>
+      <p>O código é calculado a partir do conteúdo exato da informação. Se alguém mudar uma letra ou um número, o código deixa de bater.</p>
+      <p>Os dados ficam num repositório público no GitHub, que guarda com data e hora tudo o que foi publicado e corrigido. Quando uma informação é corrigida, o código antigo continua aqui, marcado como versão antiga, para que um print antigo e verdadeiro também possa ser conferido.</p>
+      <p>Prints sem código, ou com um código que não aparece aqui, não saíram desta página.</p>
+    </div>
+  </section>
+
   <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada 2 horas, das 7h às 23h. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados).</p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo","selos"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -1530,7 +1575,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       nextTxt = "próxima por volta das " + hFmt(nx || slots[0]) + (nx ? "" : " de amanhã");
       document.getElementById("upd-all").textContent = "Horários: " + slots.map(hFmt).join(", ") + " (horário de Brasília).";
     }
-    document.getElementById("upd-last").textContent = lastTxt;
+    document.getElementById("upd-last").textContent = lastTxt + " · aluadocoelho.github.io/Eleicoes-de-2026";
     document.getElementById("upd-next").textContent = nextTxt;
     box.hidden = false;
   }
@@ -1635,6 +1680,9 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       const u = safeUrl(r.url);
       if (u) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = r.fonte || "Fonte"; a.appendChild(extIcon()); s.appendChild(a); }
       else if (r.fonte) s.textContent = r.fonte;
+      loadSelos();
+      const fc = codeOf("aovivo", r);
+      if (fc) { s.appendChild(document.createTextNode(" · ")); s.appendChild(codBtn(fc)); }
       b.appendChild(s);
       if (r.tipo !== "Programação" && when && now - when >= -5 * 60000 && now - when <= 60 * 60000) b.appendChild(mk("span", "el-new", "Novo"));
       li.appendChild(b);
@@ -1644,6 +1692,92 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   setInterval(renderLive, 30000);
 
   // ---------- Desenho ----------
+  // ---------- Códigos de verificação ----------
+  const SELO_KEY = {pesquisas: "id", ultimas: "id", primeiro_turno: "candidato", transferencia: "id", redes: "id", sinais: "id", agenda: "data", campanha: "id", destaques: "id", checagens_placar: "id", checagens: "id", boatos: "id", aovivo: "id"};
+  let seloMap = null, seloAll = null;
+  function loadSelos() {
+    const d = dash.data("selos");
+    if (d.status !== "ok" || !d.data) { seloMap = null; seloAll = null; return; }
+    if (seloAll === d.data) return;
+    seloAll = d.data; seloMap = {};
+    d.data.forEach(x => { if (x.ainda_publicado) seloMap[x.conjunto + "|" + x.id] = x.codigo; });
+  }
+  const codeOf = (conjunto, r) => seloMap && r ? seloMap[conjunto + "|" + String(r[SELO_KEY[conjunto]])] : null;
+  function codBtn(code) {
+    const b = document.createElement("button"); b.type = "button"; b.className = "el-cod";
+    b.textContent = "cód. " + code; b.title = "Conferir esta informação"; b.setAttribute("aria-label", "Código de verificação " + code + ". Toque para conferir.");
+    b.addEventListener("click", ev => { ev.stopPropagation(); openVerify(code); });
+    return b;
+  }
+  function addCodes(sel, conjunto) {
+    if (!seloMap) return;
+    d3.selectAll(sel + " tbody tr").each(function (r) {
+      const tds = this.querySelectorAll("td"); if (!tds.length) return;
+      const last = tds[tds.length - 1];
+      const old = last.querySelector(".el-cod-wrap"); if (old) old.remove();
+      const c = codeOf(conjunto, r); if (!c) return;
+      const w = document.createElement("span"); w.className = "el-cod-wrap"; w.appendChild(codBtn(c));
+      last.appendChild(w);
+    });
+  }
+  const VF_NOMES = {pesquisas: "Pesquisa de intenção de voto", primeiro_turno: "Resultado do 1º turno", transferencia: "Votos de eleitores de candidatos derrotados", redes: "Números das redes sociais", sinais: "Leitura das redes sociais", agenda: "Agenda dos candidatos", campanha: "Fato da campanha", destaques: "Evento (debate ou votação)", checagens_placar: "Placar de checagem", checagens: "Fala checada", boatos: "Boato desmentido", aovivo: "Registro do ao vivo"};
+  const VF_CAMPOS = {instituto: "Instituto", divulgacao: "Divulgada em", campo: "Entrevistas", amostra: "Pessoas ouvidas", margem: "Margem de erro (pontos)", flavio_validos: "Flávio (votos válidos, %)", lula_validos: "Lula (votos válidos, %)", flavio_totais: "Flávio (votos totais, %)", lula_totais: "Lula (votos totais, %)", candidato: "Candidato", partido: "Partido", pct: "Votos válidos (%)", votos: "Votos", grupo: "Grupo", pesquisa: "Pesquisa", flavio: "Flávio", lula: "Lula", metrica: "O que mede", periodo: "Período", sinal: "O que se viu", data: "Data", tipo: "Tipo", descricao: "O que aconteceu", titulo: "Título", hora_inicio: "Começa", hora_fim: "Termina", local: "Local", como_assistir: "Como assistir", agencia: "Checador", evento: "Evento", total: "Falas checadas", verdadeiro: "Verdadeiras", impreciso: "Imprecisas ou sem contexto", falso: "Falsas", nota: "Observação", afirmacao: "O que foi dito", veredito: "Selo do checador", categoria: "Faixa", explicacao: "Explicação", direcao: "Tipo de fala", alvo: "Contra", boato: "Boato", beneficiado: "Favorece", origem_campo: "Origem", origem_detalhe: "Sobre a origem", tema: "Tema", hora: "Hora", texto: "Texto", fonte: "Fonte", url: "Link da fonte"};
+  const normCode = v => { const h = String(v || "").toUpperCase().replace(/[^0-9A-F]/g, ""); return h.length === 8 ? h.slice(0, 4) + "-" + h.slice(4) : null; };
+  function renderVerify(raw) {
+    const out = document.getElementById("vf-out"); if (!out) return;
+    out.replaceChildren();
+    if (!raw) return;
+    const box = mk("div", "el-vf-res"), st = mk("div", "el-vf-st");
+    const set = (color, txt) => { box.style.setProperty("--vf-c", color); st.append(mk("i"), document.createTextNode(txt)); box.appendChild(st); };
+    const code = normCode(raw);
+    if (!code) { set("var(--color-bad)", "Código incompleto"); box.appendChild(mk("p", null, "O código tem 8 letras e números, como 3F9A-12C7. Confira se digitou tudo.")); out.appendChild(box); return; }
+    const d = dash.data("selos");
+    if (d.status !== "ok") {
+      set("var(--color-fg-muted)", d.status === "loading" ? "Carregando os códigos…" : "A verificação não está disponível aqui");
+      if (d.status !== "loading") { const p = mk("p", null, "Confira na página pública: "); const a = document.createElement("a"); a.href = "https://aluadocoelho.github.io/Eleicoes-de-2026/#verificar=" + code; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = "aluadocoelho.github.io/Eleicoes-de-2026"; p.appendChild(a); box.appendChild(p); }
+      out.appendChild(box); return;
+    }
+    const hits = d.data.filter(x => x.codigo === code);
+    if (!hits.length) {
+      set("var(--color-bad)", "Código " + code + " não encontrado");
+      box.appendChild(mk("p", null, "Nenhuma informação desta página tem esse código. Se ele estava num print, o print não saiu daqui ou foi alterado. Desconfie e não compartilhe."));
+      out.appendChild(box); return;
+    }
+    const x = hits[0];
+    if (x.ainda_publicado) set("var(--color-ok)", "Confere: código " + code + " é desta página");
+    else set("var(--color-warn)", "Código " + code + " é de uma versão antiga");
+    box.appendChild(mk("p", null, x.ainda_publicado
+      ? "Abaixo está a informação exatamente como está nos dados. Compare com o print: se o texto ou os números forem diferentes, o print foi alterado."
+      : "Esta informação saiu desta página, mas foi corrigida ou atualizada depois. Abaixo está como ela estava nesta versão. Veja a versão atual na aba correspondente."));
+    const when = x.primeira_vez ? new Date(x.primeira_vez) : null;
+    const dl = mk("dl", "el-vf-dl");
+    const row = (k, v) => { dl.append(mk("dt", null, k)); const dd = mk("dd"); if (v instanceof Node) dd.appendChild(v); else dd.textContent = v; dl.appendChild(dd); };
+    row("Tipo", VF_NOMES[x.conjunto] || x.conjunto);
+    if (when && !isNaN(when)) row("Código registrado em", when.toLocaleString("pt-BR", {day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo"}) + " (Brasília)");
+    Object.entries(x.registro || {}).forEach(([k, v]) => {
+      if (v == null || v === "" || k === "id") return;
+      if (k === "url") { const u = safeUrl(v); if (!u) return; const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = u.replace(/^https:\/\//, "").slice(0, 60) + (u.length > 68 ? "…" : ""); a.appendChild(extIcon()); row(VF_CAMPOS[k] || k, a); return; }
+      row(VF_CAMPOS[k] || k, /^\d{4}-\d{2}-\d{2}$/.test(String(v)) ? dFmt(dParse(v)) + "/" + String(v).slice(0, 4) : String(v));
+    });
+    box.appendChild(dl);
+    out.appendChild(box);
+  }
+  function openVerify(code) {
+    const inp = document.getElementById("vf-in");
+    if (inp) inp.value = code;
+    show("verificar", false);
+    try { history.replaceState(null, "", "#verificar=" + code.replace("-", "")); } catch (e) {}
+    goTop("verificar");
+    renderVerify(code);
+  }
+  document.getElementById("vf-form").addEventListener("submit", ev => {
+    ev.preventDefault();
+    const v = document.getElementById("vf-in").value;
+    const c = normCode(v);
+    if (c) { document.getElementById("vf-in").value = c; try { history.replaceState(null, "", "#verificar=" + c.replace("-", "")); } catch (e) {} }
+    renderVerify(v);
+  });
+
   // ---------- Listas longas no celular ----------
   const expanded = {};
   function setupMore() {
@@ -1829,6 +1963,11 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       {f: "origem_detalhe", cls: "el-src el-sm-hide"},
       {f: "explicacao", cls: "el-src"}, {f: "agencia", render: linkCell("agencia")}
     ], r => r.id);
+    loadSelos();
+    [["#t-ultimas", "pesquisas"], ["#t-transf", "transferencia"], ["#t-sinais", "sinais"], ["#t-agenda", "agenda"], ["#t-agenda-mini", "agenda"],
+     ["#t-eventos", "campanha"], ["#t-placar", "checagens_placar"], ["#t-checagens", "checagens"], ["#t-boatos", "boatos"]].forEach(([sel, c]) => addCodes(sel, c));
+    const vin = document.getElementById("vf-in");
+    if (!document.getElementById("verificar").hidden && vin && vin.value) renderVerify(vin.value);
     setupMore();
   }
 
@@ -1852,8 +1991,15 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const t = e && e.target;
     if (t && t !== document && t.nodeType === 1 && t.contains(stick)) scrollBox = t;
     const y = scrollY();
-    if (!stuck && y > 140) { stuck = true; stick.classList.add("el-stuck"); setStickH(); }
-    else if (stuck && y < 24) { stuck = false; stick.classList.remove("el-stuck"); setStickH(); }
+    if (!stuck && y > 140) {
+      const full = stick.offsetHeight;
+      stuck = true; stick.classList.add("el-stuck");
+      stick.style.marginBottom = Math.max(0, full - stick.offsetHeight) + "px";
+      setStickH();
+    } else if (stuck && y < 24) {
+      stuck = false; stick.classList.remove("el-stuck"); stick.style.marginBottom = "";
+      setStickH();
+    }
   }
   function setStickH() { ROOT.style.setProperty("--stick-h", (stick.offsetHeight + 8) + "px"); }
   document.addEventListener("scroll", onScroll, {capture: true, passive: true});
@@ -1874,7 +2020,13 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   dash.onData(redraw);
 
   const h = location.hash.slice(1);
-  if (pages.some(p => p.id === h)) show(h, false);
+  window.addEventListener("hashchange", () => {
+    const m = /^#verificar=([0-9A-Fa-f-]{8,9})$/.exec(location.hash);
+    if (m) { const c = normCode(m[1]); if (c) openVerify(c); }
+  });
+  const vm = /^verificar=([0-9A-Fa-f-]{8,9})$/.exec(h);
+  if (vm) { const c = normCode(vm[1]); show("verificar", false); if (c) { document.getElementById("vf-in").value = c; renderVerify(c); } }
+  else if (pages.some(p => p.id === h)) show(h, false);
   else {
     const el = h ? document.getElementById(h) : null;
     const pg = el && el.closest(".el-page");
