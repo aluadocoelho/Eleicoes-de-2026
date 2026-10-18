@@ -150,5 +150,21 @@
   "descricao": "Flávio faz ato na Paulista com Tarcísio, Nikolas Ferreira e senadores eleitos; no Rio e em SP, artistas fazem atos pró-democracia sem a presença de Lula.",
   "fonte": "O Tempo / TMC",
   "url": "https://www.otempo.com.br/eleicoes/2026/2026/10/18/flavio-bolsonaro-reune-tarcisio-de-freitas-nikolas-ferreira-e-outros-politicos-em-ato-na-paulista"
+ },
+ {
+  "id": "e20",
+  "data": "2026-10-18",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Ministra Estela Aranha manda Alfredo Gaspar, vice de Flávio, apagar em 24 horas post que ligava Lula ao crime organizado ao comentar o assassinato de um empresário em Pernambuco.",
+  "fonte": "Gazeta do Povo",
+  "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ministra-do-tse-determina-que-vice-de-flavio-apague-video-que-associa-lula-ao-crime-organizado/"
+ },
+ {
+  "id": "e21",
+  "data": "2026-10-18",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Corregedor-geral eleitoral, Ricardo Villas Bôas Cueva, nega pedido do Novo para barrar atos de artistas pró-democracia neste domingo; diz que vetar antes seria censura prévia, mas abusos podem ser julgados depois.",
+  "fonte": "Agenda do Poder",
+  "url": "https://agendadopoder.com.br/tse-rejeita-pedido-do-novo-para-barrar-atos-de-artistas-pro-lula-e-alerta-para-risco-de-censura-previa/"
  }
 ]
