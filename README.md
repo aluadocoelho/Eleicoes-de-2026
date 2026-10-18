@@ -53,6 +53,13 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 - **Demais conjuntos**: pesquisas, redes, agenda, campanha e checagens selecionadas exigem ler reportagens e são atualizados por uma tarefa agendada do Claude, com as mesmas regras acima.
 - **Validação**: toda mudança em `data/` passa por `scripts/validate.py` (`.github/workflows/validate.yml`), que confere chaves, tipos, datas, categorias, ids repetidos e links `https://`. Rode localmente com `python scripts/validate.py`.
 
-## Aviso
+## Licença
 
-Os números e selos pertencem aos institutos e checadores que os publicaram; este repositório só os reúne e aponta a fonte. Se encontrar um erro, abra uma issue com o link da fonte correta.
+- **Dados** (`data/`): [CC BY 4.0](LICENSE-DADOS.md). Pode usar para qualquer fim, inclusive comercial, citando este projeto e, para cada dado, a fonte original do campo `url`.
+- **Código** (`scripts/` e `.github/workflows/`): [MIT](LICENSE).
+
+A licença cobre a compilação, os resumos e as classificações feitos aqui. Os números das pesquisas e os selos das checagens pertencem aos institutos e checadores que os publicaram; este repositório só os reúne e aponta a fonte.
+
+## Erros e correções
+
+Se encontrar um erro, abra uma issue com o link da fonte correta.
