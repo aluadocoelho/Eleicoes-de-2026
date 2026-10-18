@@ -251,6 +251,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-upd-all{flex-basis:100%;padding-left:26px}
 @media (max-width:40rem){.el-upd{border-radius:var(--cds-radius)}.el-upd-sep{display:none}#upd-next{display:block}}
 
+/* Selo de novidade */
+.el-q,.el-hero,.el-card{position:relative}
+.el-new{position:absolute;top:-12px;right:-8px;z-index:3;background:#FFD43B;color:#1A1500;font-weight:800;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;line-height:1;padding:6px 10px;border-radius:999px;border:2px solid #16181D;box-shadow:3px 3px 0 #16181D;transform:rotate(5deg);pointer-events:none;white-space:nowrap}
+.el-new[hidden]{display:none}
+@media (prefers-reduced-motion:no-preference){.el-new{animation:el-pop .5s cubic-bezier(.2,1.6,.4,1) both}}
+@keyframes el-pop{from{transform:rotate(5deg) scale(.4);opacity:0}to{transform:rotate(5deg) scale(1);opacity:1}}
+.el-new-in{display:inline-block;margin-left:6px;vertical-align:1px;background:#FFD43B;color:#1A1500;font-weight:800;font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;line-height:1;padding:3px 6px;border-radius:999px;border:1.5px solid #16181D}
+.el-tab-new{width:8px;height:8px;border-radius:50%;background:#FFD43B;border:1.5px solid #16181D;flex:none;margin-left:2px}
+.el-tab-new[hidden]{display:none}
+
 /* Ao vivo */
 .el-lv-head{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:10px}
 .el-lv-head .el-bn-t{color:#FFFFFF}
@@ -1329,9 +1339,14 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
 
   let maxAbsDif = 1;
+  const isToday = v => v != null && String(v).slice(0, 10) === spDate(new Date());
+  const dateCell = field => (td, r) => {
+    td.text(r[field] == null ? "—" : dFmt(dParse(r[field])));
+    if (isToday(r[field])) td.append("span").attr("class", "el-new-in").text("Novo");
+  };
   const colsUltimas = [
     {f: "instituto", render: linkCell("instituto")},
-    {f: "divulgacao", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+    {f: "divulgacao", render: dateCell("divulgacao"), cls: "el-nowrap"},
     {f: "flavio_validos", fmt: pct, cls: "el-num"},
     {f: "lula_validos", fmt: pct, cls: "el-num"},
     {f: "dif", render: (td, r) => {
@@ -1572,6 +1587,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       if (u) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = r.fonte || "Fonte"; a.appendChild(extIcon()); s.appendChild(a); }
       else if (r.fonte) s.textContent = r.fonte;
       b.appendChild(s);
+      if (r.tipo !== "Programação" && when && now - when >= -5 * 60000 && now - when <= 60 * 60000) b.appendChild(mk("span", "el-new", "Novo"));
       li.appendChild(b);
       feed.appendChild(li);
     });
@@ -1579,8 +1595,41 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   setInterval(renderLive, 30000);
 
   // ---------- Desenho ----------
+  // ---------- Selo "Novo" ----------
+  function setNew(node, on) {
+    if (!node) return;
+    let b = node.querySelector(":scope > .el-new");
+    if (!b) { b = document.createElement("span"); b.className = "el-new"; b.textContent = "Novo"; node.appendChild(b); }
+    b.hidden = !on;
+  }
+  const anyToday = (id, field) => { const d = dash.data(id); return d.status === "ok" && (d.data || []).some(r => isToday(r[field])); };
+  function liveRecent() {
+    const d = dash.data("aovivo"); if (d.status !== "ok") return false;
+    const now = new Date();
+    return (d.data || []).some(r => r.tipo !== "Programação" && r.data && r.hora && (now - new Date(r.data + "T" + r.hora + ":00-03:00")) <= 60 * 60000 && (now - new Date(r.data + "T" + r.hora + ":00-03:00")) >= -5 * 60000);
+  }
+  function renderNew() {
+    const pes = anyToday("pesquisas", "divulgacao"), chk = anyToday("checagens", "data") || anyToday("checagens_placar", "data"),
+      bo = anyToday("boatos", "data"), si = anyToday("sinais", "data"), ca = anyToday("campanha", "data"), lv = liveRecent();
+    setNew(document.getElementById("hero"), pes);
+    setNew(document.getElementById("q-tendencia"), pes);
+    setNew(document.getElementById("q-falsas"), chk);
+    setNew(document.getElementById("q-redes"), si);
+    setNew(document.getElementById("q-boatos"), bo);
+    const tabNew = {aovivo: lv, pesquisas: pes, redes: si, campanha: ca, checagem: chk || bo};
+    document.querySelectorAll(".el-tab").forEach(t => {
+      const on = !!tabNew[t.dataset.tab];
+      let dot = t.querySelector(".el-tab-new");
+      if (!dot) { dot = document.createElement("i"); dot.className = "el-tab-new"; dot.setAttribute("aria-hidden", "true"); t.appendChild(dot); }
+      dot.hidden = !on;
+      t.setAttribute("aria-label", t.textContent.trim() + (on ? " (tem novidade)" : ""));
+    });
+  }
+  setInterval(() => { try { renderNew(); } catch (e) {} }, 60000);
+
   function redraw() {
     readColors();
+    renderNew();
     renderLive();
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
     fillMarks("tendencia", {inicio: f1, agora: f1});
@@ -1662,7 +1711,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     drawRedes(rd, blockState(rd, "redes"));
     const si = blockState(document.getElementById("t-sinais"), "sinais");
     table("#t-sinais", si ? si.slice().sort(byDateDesc) : null, [
-      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"}, {f: "sinal"}, {f: "fonte", render: linkCell("fonte")}
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "sinal"}, {f: "fonte", render: linkCell("fonte")}
     ], r => r.id);
 
     // Campanhas
@@ -1672,7 +1721,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     ], r => r.data);
     const ev = blockState(document.getElementById("t-eventos"), "campanha");
     table("#t-eventos", ev ? ev.slice().sort(byDateDesc) : null, [
-      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"},
       {f: "tipo", render: (td, r) => td.append("span").attr("class", "el-badge").text(r.tipo)},
       {f: "descricao"}, {f: "fonte", render: linkCell("fonte")}
     ], r => r.id);
@@ -1681,7 +1730,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const pl = blockState(document.getElementById("t-placar"), "checagens_placar");
     table("#t-placar", pl ? pl.slice().sort((a, b) => String(b.data).localeCompare(String(a.data)) || String(a.agencia).localeCompare(String(b.agencia))) : null, [
       {f: "candidato"}, {f: "agencia", render: linkCell("agencia")}, {f: "evento"},
-      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"},
       {f: "verdadeiro", fmt: fInt, cls: "el-num"}, {f: "impreciso", fmt: fInt, cls: "el-num"}, {f: "falso", fmt: fInt, cls: "el-num"},
       {f: "total", render: stackCell}, {f: "nota", cls: "el-src el-sm-hide"}
     ], r => r.id);
@@ -1696,7 +1745,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const ck = blockState(document.getElementById("t-checagens"), "checagens");
     const ckRows = ck ? ck.filter(r => (fCand === "Todos" || r.candidato === fCand) && (fCat === "Todas" || r.categoria === fCat) && (fDir === "Todas" || r.direcao === fDir)).sort(byDateDesc) : null;
     table("#t-checagens", ckRows, [
-      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"}, {f: "candidato"}, {f: "afirmacao"},
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "candidato"}, {f: "afirmacao"},
       {f: "direcao", render: dotCell("direcao", r => DIRC[r.direcao])},
       {f: "veredito", render: dotCell("veredito", r => CAT[r.categoria])},
       {f: "explicacao", cls: "el-src"},
@@ -1705,7 +1754,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     const bo = blockState(document.getElementById("t-boatos"), "boatos");
     table("#t-boatos", bo ? bo.slice().sort(byDateDesc) : null, [
-      {f: "data", fmt: v => dFmt(dParse(v)), cls: "el-nowrap"},
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"},
       {f: "alvo", render: (td, r) => td.append("span").style("color", r.alvo === "Lula" ? CL : r.alvo === "Flávio" ? CF : null).style("font-weight", "var(--cds-font-weight-medium)").text(r.alvo == null ? "—" : r.alvo)},
       {f: "beneficiado", cls: "el-sm-hide"},
       {f: "origem_campo", cls: "el-nowrap"}, {f: "boato"}, {f: "tema", cls: "el-src el-sm-hide"},
