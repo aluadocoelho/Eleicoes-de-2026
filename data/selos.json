@@ -124,6 +124,106 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "48AC-8560",
+  "conjunto": "aovivo",
+  "id": "band-07",
+  "registro": {
+   "id": "band-07",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "19:35",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Ao chegar à Band, Flávio disse que vai \"jogar verdades\" na cara de Lula e afirmou que o eleitor verá mais aliados ao seu lado e mais de Haddad e Dilma do lado de Lula.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Exame (ao vivo)",
+   "url": "https://exame.com/live-blog/brasil/debate-da-band-lula-e-flavio-bolsonaro-ao-vivo/"
+  },
+  "primeira_vez": "2026-10-18T23:39:13Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0C7E-AF5D",
+  "conjunto": "aovivo",
+  "id": "band-08",
+  "registro": {
+   "id": "band-08",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "19:46",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Na chegada, Lula disse esperar uma \"aula de civilidade\" e afirmou: \"Se for xingatório e provocação, a sociedade está cansada disso. Eu vim para discutir o Brasil\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Exame (ao vivo)",
+   "url": "https://exame.com/live-blog/brasil/debate-da-band-lula-e-flavio-bolsonaro-ao-vivo/"
+  },
+  "primeira_vez": "2026-10-18T23:39:13Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "98B2-A8B3",
+  "conjunto": "aovivo",
+  "id": "band-09",
+  "registro": {
+   "id": "band-09",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:15",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "O debate começou às 20h15, com mediação de Adriana Araújo e Eduardo Oinegue.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Congresso em Foco (ao vivo)",
+   "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+  },
+  "primeira_vez": "2026-10-18T23:39:13Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9E3C-D64E",
+  "conjunto": "aovivo",
+  "id": "band-10",
+  "registro": {
+   "id": "band-10",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:15",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "No 1º bloco, sobre segurança pública, Flávio prometeu enquadrar PCC, Comando Vermelho e milícias como organizações narcoterroristas e disse: \"Eu vou construir mais de meio milhão de vagas no sistema penitenciário\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Congresso em Foco (ao vivo)",
+   "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+  },
+  "primeira_vez": "2026-10-18T23:39:13Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8EDD-97D8",
+  "conjunto": "aovivo",
+  "id": "band-11",
+  "registro": {
+   "id": "band-11",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:15",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Sobre segurança pública, Lula cobrou de Flávio apoio à PEC da Segurança e disse que, se o Senado aprovar a proposta, criará \"imediatamente o Ministério da Segurança Pública\". Também disse: \"Nenhum Estado conseguiu resolver o problema da segurança pública\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Congresso em Foco (ao vivo)",
+   "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+  },
+  "primeira_vez": "2026-10-18T23:39:13Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
