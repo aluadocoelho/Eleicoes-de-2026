@@ -984,6 +984,106 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "81D8-74E8",
+  "conjunto": "aovivo",
+  "id": "band-50",
+  "registro": {
+   "id": "band-50",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:30",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Sobre saúde, Lula disse que Flávio \"não entende nada de saúde pública\" e afirmou: \"Aliás, acho que ele nunca foi ao SUS, ele nunca foi à UPA\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Brasil 247",
+   "url": "https://www.brasil247.com/brasil/flavio-bolsonaro-nao-entende-nada-de-saude-publica-diz-lula/"
+  },
+  "primeira_vez": "2026-10-19T01:38:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C837-260B",
+  "conjunto": "aovivo",
+  "id": "band-51",
+  "registro": {
+   "id": "band-51",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio perguntou por que o filho de Lula \"está fugindo lá na Espanha\" e disse que Lula não deveria \"botar a mão no fogo\" por ele, citando Roberta Luchsinger.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Times Brasil",
+   "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-lula-e-flavio-usam-lulinha-e-eduardo-bolsonaro-para-troca-de-ataques-em-debate/"
+  },
+  "primeira_vez": "2026-10-19T01:38:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2FC0-11AD",
+  "conjunto": "aovivo",
+  "id": "band-52",
+  "registro": {
+   "id": "band-52",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula disse que Eduardo Bolsonaro está \"fugindo nos Estados Unidos tramando contra o Brasil\" e afirmou, sobre Lulinha: \"Acho que ele é inocente\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Times Brasil",
+   "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-lula-e-flavio-usam-lulinha-e-eduardo-bolsonaro-para-troca-de-ataques-em-debate/"
+  },
+  "primeira_vez": "2026-10-19T01:38:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0C31-D01A",
+  "conjunto": "aovivo",
+  "id": "band-53",
+  "registro": {
+   "id": "band-53",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:20",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "Segundo dados prévios citados pelo blog Sala de TV, a Band passou a Globo na audiência por volta das 21h e marcava 15 pontos contra 11 às 21h20. No YouTube, o canal de jornalismo da Band teve pico de 5,4 milhões de usuários simultâneos.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/diversao/tv/debate-entre-lula-e-flavio-faz-band-ultrapassar-a-globo-e-atingir-o-1-lugar-de-audiencia,872350267c6de8b92a09addfbd954b6ags4ieysb.html"
+  },
+  "primeira_vez": "2026-10-19T01:38:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "58F3-D41B",
+  "conjunto": "aovivo",
+  "id": "band-54",
+  "registro": {
+   "id": "band-54",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:30",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Depois do debate, Flávio ironizou a proposta de Lula de abrir o sigilo telefônico: \"quando ele não tem celular\". Também disse que \"tudo o que é meu é declarado para a Receita\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/grande-angular/flavio-debocha-de-lula-sobre-quebra-de-sigilo-telefonico-nao-tem-celular"
+  },
+  "primeira_vez": "2026-10-19T01:38:28Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
