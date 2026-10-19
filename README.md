@@ -72,6 +72,10 @@ Para respeitar o direito autoral, aqui só entram resumos curtos escritos com pa
 
 O site e os dados são feitos com ajuda de inteligência artificial (Claude, da Anthropic): coleta, resumos, organização e código. Os dados passam por validação automática e por revisão de qualidade duas vezes por dia, e as correções ficam registradas em `data/erratas.json`. Mesmo assim pode haver erro: confira sempre na fonte.
 
+## Privacidade
+
+O site conta visitas com o GoatCounter, que não usa cookies. O Google Analytics (G-2NR8ZVJG0L) só é carregado se a pessoa aceitar no aviso de cookies, sem sinais de publicidade; quem recusa não é medido por ele. A escolha pode ser mudada a qualquer momento no botão "Preferências de cookies", no rodapé.
+
 ## Licença
 
 - **Dados** (`data/`): [CC BY 4.0](LICENSE-DADOS.md). Pode usar para qualquer fim, inclusive comercial, citando este projeto e, para cada dado, a fonte original do campo `url`.
