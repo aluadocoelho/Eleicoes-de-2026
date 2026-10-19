@@ -3642,6 +3642,27 @@
    "url": "https://www.portalenoticias.com.br/agora-sai-aposta-pesquisa-deste-domingo-18-mostra-lula-na-frente-de-flavio-bolsonaro-veja-os-numeros/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "4A48-D068",
+  "conjunto": "pesquisas",
+  "id": "vox-0910",
+  "registro": {
+   "id": "vox-0910",
+   "instituto": "Vox Brasil",
+   "divulgacao": "2026-10-09",
+   "campo": "5–7 out",
+   "amostra": 2100,
+   "margem": 2.15,
+   "flavio_validos": 49.14,
+   "lula_validos": 50.86,
+   "flavio_totais": 42.7,
+   "lula_totais": 44.2,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/vox-brasil-no-2o-turno-lula-tem-5086-e-flavio-4914-dos-votos-validos"
+  },
+  "primeira_vez": "2026-10-19T03:02:17Z",
   "ainda_publicado": true
  },
  {
@@ -3663,6 +3684,27 @@
    "url": "https://www.gizmodo.com.br/nova-pesquisa-mostra-lula-com-51-e-flavio-bolsonaro-com-49-dos-votos-validos-no-segundo-turno-71848"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "B240-AFD5",
+  "conjunto": "pesquisas",
+  "id": "vox-1810",
+  "registro": {
+   "id": "vox-1810",
+   "instituto": "Vox Brasil",
+   "divulgacao": "2026-10-18",
+   "campo": "15–17 out",
+   "amostra": 2100,
+   "margem": 2.15,
+   "flavio_validos": 49,
+   "lula_validos": 51,
+   "flavio_totais": 44.6,
+   "lula_totais": 46.4,
+   "fonte": "Gizmodo / Portal N10",
+   "url": "https://www.gizmodo.com.br/nova-pesquisa-mostra-lula-com-51-e-flavio-bolsonaro-com-49-dos-votos-validos-no-segundo-turno-71848"
+  },
+  "primeira_vez": "2026-10-19T03:02:17Z",
   "ainda_publicado": true
  },
  {
