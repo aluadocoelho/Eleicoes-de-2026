@@ -279,6 +279,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 @media (prefers-color-scheme:dark){.el:not([data-theme="light"]){--focus:#FFD43B}}
 .el :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
 .el .el-tab:focus-visible{outline-offset:-3px}
+.el [tabindex="-1"]:focus,.el [tabindex="-1"]:focus-visible{outline:none}
 .el-main{display:flex;flex-direction:column;gap:var(--cds-gap-lg);outline:none}
 .el-skip{position:absolute;left:12px;top:-60px;z-index:20;background:#16181D;color:#FFFFFF;padding:12px 18px;border-radius:12px;font-weight:700;text-decoration:none}
 .el-skip:focus{top:12px}
@@ -316,6 +317,19 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-new-in{display:inline-block;margin-left:6px;vertical-align:1px;background:#FFD43B;color:#1A1500;font-weight:800;font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;line-height:1;padding:3px 6px;border-radius:999px;border:1.5px solid #16181D}
 .el-tab-new{width:8px;height:8px;border-radius:50%;background:#FFD43B;border:1.5px solid #16181D;flex:none;margin-left:2px}
 .el-tab-new[hidden]{display:none}
+
+/* Checagens do debate (na aba Checagem) */
+.el-dbt{display:flex;flex-direction:column;gap:var(--cds-gap-md);border:2px solid var(--accent);border-radius:var(--cds-radius);padding:0 0 var(--cds-pad-lg);overflow:hidden;background:var(--color-panel)}
+.el-dbt[hidden]{display:none}
+.el-dbt-head{background:var(--banner-bg);color:#FFFFFF;padding:clamp(16px,4vw,24px);display:flex;flex-direction:column;gap:8px}
+.el-dbt .el-lv-sum,.el-dbt-list,.el-dbt .el-cta{margin-inline:var(--cds-pad-lg)}
+.el-dbt .el-cta{margin-top:0}
+.el-dbt-list{list-style:none;padding:0;margin-block:0;display:flex;flex-direction:column;gap:10px}
+.el-dbt-it{border:1px solid var(--color-border-line);border-left:5px solid var(--it-c);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px;position:relative}
+.el-dbt-it .el-dbt-top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:var(--cds-font-size-caption)}
+.el-dbt-it p{margin:0;line-height:1.5;font-size:var(--cds-font-size-body)}
+.el-dbt-it .el-fi-s{margin-top:2px}
+@media (max-width:40rem){.el-dbt .el-lv-sum,.el-dbt-list,.el-dbt .el-cta{margin-inline:12px}}
 
 /* Ao vivo */
 .el-lv-head{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:10px}
@@ -701,6 +715,20 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <!-- ================= CHECAGEM ================= -->
   <section class="el-page" id="checagem" role="tabpanel" aria-labelledby="tab-checagem" tabindex="-1" hidden>
+    <div class="el-dbt" id="card-debate" hidden>
+      <div class="el-dbt-head">
+        <span class="el-bn-tag" id="dbt-tag"><i class="el-bn-dot"></i><span id="dbt-tag-t">Debate</span></span>
+        <h2 class="el-bn-t" id="dbt-title">Checagens do debate</h2>
+        <p class="el-bn-d" id="dbt-sub"></p>
+      </div>
+      <div class="el-lv-sum">
+        <div class="el-lv-box"><b id="dbt-n">—</b><span>falas checadas</span></div>
+        <div class="el-lv-box"><b class="el-cf" id="dbt-f">—</b><span id="dbt-f-s">de Flávio</span></div>
+        <div class="el-lv-box"><b class="el-cl" id="dbt-l">—</b><span id="dbt-l-s">de Lula</span></div>
+      </div>
+      <ul class="el-dbt-list" id="dbt-list"></ul>
+      <button class="el-cta" data-go="aovivo" type="button">Ver o debate completo no Ao vivo →</button>
+    </div>
     <div class="el-card el-howto">
       <h2 class="el-h">Como ler esta aba</h2>
       <p>Reúne checagens da Lupa, do Aos Fatos e do Ranking dos Políticos sobre falas dos dois candidatos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
@@ -1759,6 +1787,51 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
   setInterval(() => { renderLive(); a11yStructure(); }, 30000);
 
+  // ---------- Checagens do debate, no topo da aba Checagem ----------
+  function renderDebateChecks() {
+    const box = document.getElementById("card-debate"); if (!box) return;
+    const pick = pickLiveEvent();
+    const lv = dash.data("aovivo");
+    const rows = pick && lv.status === "ok" ? (lv.data || []).filter(r => r.evento === pick.e.id && r.tipo === "Checagem") : [];
+    if (!pick || !rows.length) { box.hidden = true; return; }
+    box.hidden = false;
+    const ord = r => String(r.data || "") + "T" + String(r.hora || "00:00");
+    rows.sort((a, b) => ord(b).localeCompare(ord(a)) || String(b.id).localeCompare(String(a.id)));
+    const tag = document.getElementById("dbt-tag");
+    tag.className = "el-bn-tag" + (pick.state === "live" ? " el-live" : "");
+    document.getElementById("dbt-tag-t").textContent = pick.state === "live" ? "Ao vivo agora" : "Debate de " + dFmt(dParse(pick.e.data));
+    document.getElementById("dbt-title").textContent = "Checagens do " + pick.e.titulo.replace(/:.*$/, "").replace(/^Debate/, "debate");
+    const ags = Array.from(new Set(rows.map(r => r.fonte))).join(", ");
+    document.getElementById("dbt-sub").textContent = (pick.state === "live" ? "Falas checadas enquanto o debate acontece, por " : "Falas checadas durante o debate, por ") + ags + ". A lista cresce conforme os checadores publicam.";
+    document.getElementById("dbt-n").textContent = fInt(rows.length);
+    [["Flávio", "dbt-f"], ["Lula", "dbt-l"]].forEach(([c, id]) => {
+      const ck = rows.filter(r => r.candidato === c);
+      const k = cat => ck.filter(r => r.categoria === cat).length;
+      document.getElementById(id).textContent = fInt(ck.length);
+      document.getElementById(id + "-s").textContent = "de " + c + (ck.length ? ": " + k("Falso") + " falsa" + (k("Falso") === 1 ? "" : "s") + ", " + k("Impreciso ou sem contexto") + " imprecisa" + (k("Impreciso ou sem contexto") === 1 ? "" : "s") + ", " + k("Verdadeiro") + " verdadeira" + (k("Verdadeiro") === 1 ? "" : "s") : "");
+    });
+    const list = document.getElementById("dbt-list"); list.replaceChildren();
+    loadSelos();
+    rows.forEach(r => {
+      const li = mk("li", "el-dbt-it"); li.style.setProperty("--it-c", CAT[r.categoria] || "var(--color-fg-muted)");
+      const top = mk("div", "el-dbt-top");
+      const w = mk("span", "el-fi-who", r.candidato || ""); w.style.color = r.candidato === "Flávio" ? CF : CL; top.appendChild(w);
+      const v = mk("span", "el-fi-v"); const d = mk("i", "el-dot"); d.style.background = CAT[r.categoria] || "var(--color-fg-muted)";
+      v.append(d, document.createTextNode(r.veredito || r.categoria)); top.appendChild(v);
+      li.appendChild(top);
+      li.appendChild(mk("p", null, r.texto));
+      const s = mk("div", "el-fi-s");
+      const u = safeUrl(r.url);
+      if (u) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = r.fonte || "Fonte"; a.appendChild(extIcon()); s.appendChild(a); }
+      const fc = codeOf("aovivo", r); if (fc) { s.appendChild(document.createTextNode(" · ")); s.appendChild(codBtn(fc)); }
+      li.appendChild(s);
+      const when = r.data && r.hora ? new Date(r.data + "T" + r.hora + ":00-03:00") : null;
+      if (when && new Date() - when <= 60 * 60000 && new Date() - when >= -5 * 60000) li.appendChild(mk("span", "el-new", "Novo"));
+      list.appendChild(li);
+    });
+  }
+  setInterval(() => { try { renderDebateChecks(); a11yStructure(); } catch (e) {} }, 30000);
+
   // ---------- Desenho ----------
   // ---------- Códigos de verificação ----------
   const SELO_KEY = {pesquisas: "id", ultimas: "id", primeiro_turno: "candidato", transferencia: "id", redes: "id", sinais: "id", agenda: "data", campanha: "id", destaques: "id", checagens_placar: "id", checagens: "id", boatos: "id", aovivo: "id"};
@@ -1954,6 +2027,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   function redraw() {
     readColors();
     renderNew();
+    try { renderDebateChecks(); } catch (e) { console.warn(e); }
     renderLive();
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
     fillMarks("tendencia", {inicio: f1, agora: f1});
