@@ -904,6 +904,86 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BD54-3E2D",
+  "conjunto": "aovivo",
+  "id": "band-46",
+  "registro": {
+   "id": "band-46",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:40",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Sobre as saidinhas, Flávio citou casos de vítimas de presos beneficiados para dizer que Lula prioriza condenados e lembrou o veto de Lula a mudanças na lei, derrubado pelo Congresso.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Esmael Morais",
+   "url": "https://www.esmaelmorais.com.br/lula-flavio-bolsonaro-bate-boca-sus-seguranca-dividas-band"
+  },
+  "primeira_vez": "2026-10-19T01:24:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A630-015E",
+  "conjunto": "aovivo",
+  "id": "band-47",
+  "registro": {
+   "id": "band-47",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:40",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula defendeu a saída temporária para presos de bom comportamento, mas não para condenados por crimes violentos, estupro e violência contra mulheres, e acusou Flávio de defender indulto ao pai.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Esmael Morais",
+   "url": "https://www.esmaelmorais.com.br/lula-flavio-bolsonaro-bate-boca-sus-seguranca-dividas-band"
+  },
+  "primeira_vez": "2026-10-19T01:24:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "54DF-72E3",
+  "conjunto": "aovivo",
+  "id": "band-48",
+  "registro": {
+   "id": "band-48",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:45",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Sobre a pandemia, Lula citou 716 mil mortes por Covid-19, disse que o Mais Médicos passou de cerca de 12 mil para 28 mil profissionais e acusou a gestão anterior de deteriorar hospitais federais do Rio.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Esmael Morais",
+   "url": "https://www.esmaelmorais.com.br/lula-flavio-bolsonaro-bate-boca-sus-seguranca-dividas-band"
+  },
+  "primeira_vez": "2026-10-19T01:24:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EE25-E05C",
+  "conjunto": "aovivo",
+  "id": "band-49",
+  "registro": {
+   "id": "band-49",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio detalhou o Ministério da Prosperidade: compra de dívidas bancárias por valor menor, carência de seis meses para pessoas e um ano para empresas, e a Caixa como \"Banco da Prosperidade\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Esmael Morais",
+   "url": "https://www.esmaelmorais.com.br/lula-flavio-bolsonaro-bate-boca-sus-seguranca-dividas-band"
+  },
+  "primeira_vez": "2026-10-19T01:24:20Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
