@@ -264,5 +264,19 @@
   "lula_totais": 47.6,
   "fonte": "SBT News (AtlasIntel/Bloomberg)",
   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-bloomberg-flavio-tem-51-1-e-lula-48-9-dos-validos"
+ },
+ {
+  "id": "futura-1910",
+  "instituto": "Futura",
+  "divulgacao": "2026-10-19",
+  "campo": "16–17 out",
+  "amostra": 2000,
+  "margem": 2.2,
+  "flavio_validos": 50.4,
+  "lula_validos": 49.6,
+  "flavio_totais": 48.3,
+  "lula_totais": 47.5,
+  "fonte": "Futura Inteligência (registro BR-06715/2026), via TMC",
+  "url": "https://tmc.com.br/politica/pesquisa-futura-inteliencia-flavio-lidera-segundo-turno-lula/"
  }
 ]
