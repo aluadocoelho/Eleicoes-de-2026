@@ -64,5 +64,93 @@
   "depois": "Não identificada",
   "motivo": "A checagem da Lupa diz só que a gravação circula no Facebook e não aponta quem a publicou em 2026",
   "url": "https://www.agencialupa.org/verificacao/2026/10/15/e-falso-que-marcola-tenha-declarado-voto-em-lula/"
+ },
+ {
+  "id": "er07",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b01",
+  "o_que_mudou": "Link do boato: Lula jogou a bandeira do Brasil no chão depois de votar",
+  "antes": "Link para uma lista de um site agregador",
+  "depois": "Link da checagem original (Lupa)",
+  "motivo": "A regra do site é linkar a checagem original.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/04/lula-nao-jogou-bandeira-do-brasil-no-chao-apos-votar-simbolo-foi-entregue-a-fotografo/"
+ },
+ {
+  "id": "er08",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b02",
+  "o_que_mudou": "Link e selo do boato: Vídeo de Lula dizendo que perdeu o interesse pelos pobres",
+  "antes": "Link para uma lista de um site agregador; selo \"Enganoso\"",
+  "depois": "Link da checagem original (Lupa); selo \"Falso\"",
+  "motivo": "A regra do site é linkar a checagem original, e ela traz o selo \"Falso\".",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/08/video-antigo-de-lula-e-editado-para-sugerir-que-petista-criticou-pobres/"
+ },
+ {
+  "id": "er09",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b03",
+  "o_que_mudou": "Link e selo do boato: Xuxa critica Lula sobre a saúde das mulheres",
+  "antes": "Link para uma lista de um site agregador; selo \"Editado\"",
+  "depois": "Link da checagem original (Lupa); selo \"Falso\"",
+  "motivo": "A regra do site é linkar a checagem original, e ela traz o selo \"Falso\".",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/03/e-falso-que-xuxa-criticou-lula-por-declaracao-sobre-saude-das-mulheres/"
+ },
+ {
+  "id": "er10",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b04",
+  "o_que_mudou": "Link do boato: Torcida do Flamengo protesta contra Lula pela proibição das bets",
+  "antes": "Link para uma lista de um site agregador",
+  "depois": "Link da checagem original (Lupa)",
+  "motivo": "A regra do site é linkar a checagem original.",
+  "url": "https://www.agencialupa.org/jornalismo/2026/10/04/e-falso-que-flamenguistas-protestaram-contra-lula-por-proibicao-das-bets/"
+ },
+ {
+  "id": "er11",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b05",
+  "o_que_mudou": "Link e selo do boato: Zico segura faixa contra Lula",
+  "antes": "Link para uma lista de um site agregador; selo \"Falso (IA)\"",
+  "depois": "Link da checagem original (Lupa); selo \"Falso\"",
+  "motivo": "A regra do site é linkar a checagem original, e ela traz o selo \"Falso\".",
+  "url": "https://www.agencialupa.org/jornalismo/2026/10/15/e-falsa-imagem-de-zico-com-faixa-de-fora-lula/"
+ },
+ {
+  "id": "er12",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b07",
+  "o_que_mudou": "Link do boato: Flávio disse que acabaria com o Farmácia Popular",
+  "antes": "Link para uma lista de um site agregador",
+  "depois": "Link da checagem original (Aos Fatos)",
+  "motivo": "A regra do site é linkar a checagem original.",
+  "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-farmacia-popular/"
+ },
+ {
+  "id": "er13",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b08",
+  "o_que_mudou": "Link do boato: Vídeo de Flávio sobre escolher entre emprego e direitos trabalhistas",
+  "antes": "Link para uma lista de um site agregador",
+  "depois": "Link da checagem original (Aos Fatos)",
+  "motivo": "A regra do site é linkar a checagem original.",
+  "url": "https://www.aosfatos.org/noticias/video-ia-flavio-direitos-trabalhistas/"
+ },
+ {
+  "id": "er14",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b09",
+  "o_que_mudou": "Link e selo do boato: Foto de Flávio armado ao lado de um elefante abatido",
+  "antes": "Link para uma lista de um site agregador; selo \"Falso (IA)\"",
+  "depois": "Link da checagem original (Lupa); selo \"Falso\"",
+  "motivo": "A regra do site é linkar a checagem original, e ela traz o selo \"Falso\".",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/04/foto-de-flavio-bolsonaro-com-elefante-abatido-foi-gerada-por-ia/"
  }
 ]
