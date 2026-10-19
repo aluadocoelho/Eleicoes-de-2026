@@ -88,5 +88,14 @@
   "flavio": 9500000,
   "fonte": "Bites, via Jamildo",
   "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
+ },
+ {
+  "id": "apexata-pos-band",
+  "metrica": "Menções positivas nas redes (%)",
+  "periodo": "após o debate da Band, 18 out (antes: Lula 39,80; Flávio 40,09)",
+  "lula": 38.65,
+  "flavio": 37.93,
+  "fonte": "AP Exata, via Diário do Grande ABC",
+  "url": "https://www.dgabc.com.br/Noticia/4353552/debate-intensifica-polarizacao-nas-redes-mas-sem-impacto-significativo-aponta-ap-exata"
  }
 ]
