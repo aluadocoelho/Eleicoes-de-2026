@@ -460,5 +460,19 @@
   "origem_campo": "Campo de Lula",
   "origem_detalhe": "Vídeo publicado nos perfis da primeira-dama Janja Lula da Silva, segundo a reportagem.",
   "tema": "Programas sociais"
+ },
+ {
+  "id": "b34",
+  "data": "2026-10-14",
+  "alvo": "Lula",
+  "boato": "Vídeo com crianças falando de crise, crime e medo do futuro em caso de volta do PT",
+  "veredito": "Retirado pelo TSE (desinformação)",
+  "agencia": "TSE",
+  "explicacao": "O ministro Marco Aurélio Bellizze viu no vídeo de Dia das Crianças uma mensagem negativa cujas premissas não sustentam a conclusão e criticou o uso de crianças na propaganda; mandou apagar em 24 horas no Instagram, Facebook, X e WhatsApp.",
+  "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-manda-nikolas-e-flavio-excluirem-video-que-usa-criancas-para-criticar-lula/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo a reportagem, o vídeo foi publicado pelo deputado Nikolas Ferreira (PL-MG) e pelo senador Flávio Bolsonaro.",
+  "tema": "Propaganda com crianças"
  }
 ]
