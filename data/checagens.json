@@ -1649,5 +1649,83 @@
   "explicacao": "A imprensa especializada registrou queda acima disso e a atribuiu ao resultado do 1º turno.",
   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
   "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "f71",
+  "data": "2026-10-19",
+  "candidato": "Flávio",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que o atual governo está deixando uma dívida de R$ 11 trilhões.",
+  "veredito": "FATO",
+  "categoria": "Verdadeiro",
+  "explicacao": "O Banco Central registra dívida bruta perto de R$ 11,1 trilhões em agosto, valor que soma União, INSS, estados e municípios.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "f72",
+  "data": "2026-10-19",
+  "candidato": "Flávio",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que foi Jair Bolsonaro quem levou o Bolsa Família para no mínimo R$ 600.",
+  "veredito": "NÃO É BEM ASSIM",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "O valor de R$ 600 veio em 2022 por emenda constitucional aprovada pelo Congresso, não só por ação do governo.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "f73",
+  "data": "2026-10-19",
+  "candidato": "Flávio",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que Lula foi condenado em todas as instâncias e depois descondenado por amigos.",
+  "veredito": "FATO (instâncias e STJ) e FAKE (STF)",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "As condenações em 1ª e 2ª instância e no STJ ocorreram, mas o STF não julgou o mérito: anulou os processos por incompetência do juízo.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "l58",
+  "data": "2026-10-19",
+  "candidato": "Lula",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que foi o único presidente a ter superávit nos oito anos de governo.",
+  "veredito": "FATO",
+  "categoria": "Verdadeiro",
+  "explicacao": "Dados do Tesouro mostram resultado primário positivo em todos os anos entre 2003 e 2010.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "l59",
+  "data": "2026-10-19",
+  "candidato": "Lula",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que foi o primeiro presidente a conseguir dois graus de investimento, de 2007 a 2010.",
+  "veredito": "NÃO É BEM ASSIM",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "A nota do país subiu nesse período, mas o grau de investimento só foi alcançado em 2008.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "l60",
+  "data": "2026-10-19",
+  "candidato": "Lula",
+  "agencia": "g1 Fato ou Fake",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que o governo anterior deixou um déficit de 2,8%.",
+  "veredito": "FAKE",
+  "categoria": "Falso",
+  "explicacao": "Em 2022, último ano de Bolsonaro, houve superávit primário de 0,5% do PIB.",
+  "url": "https://sempauta.com.br/noticia/51365/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2-turno-das-elei.html",
+  "direcao": "Ataque ao adversário"
  }
 ]
