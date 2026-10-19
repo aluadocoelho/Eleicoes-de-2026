@@ -6497,6 +6497,54 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0664-975B",
+  "conjunto": "redes",
+  "id": "bites-int-24h-pos",
+  "registro": {
+   "id": "bites-int-24h-pos",
+   "metrica": "Interações nos perfis oficiais",
+   "periodo": "24 h após o debate da Band (18 out)",
+   "lula": 25500000,
+   "flavio": 5000000,
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F235-1126",
+  "conjunto": "redes",
+  "id": "bites-memes-debate",
+  "registro": {
+   "id": "bites-memes-debate",
+   "metrica": "Posts com memes e cortes do debate",
+   "periodo": "24 h após o debate da Band (18 out)",
+   "lula": 9500,
+   "flavio": 7000,
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "415D-6A68",
+  "conjunto": "redes",
+  "id": "bites-refs-debate",
+  "registro": {
+   "id": "bites-refs-debate",
+   "metrica": "Publicações monitoradas que citam o debate",
+   "periodo": "24 h após o debate da Band (18 out)",
+   "lula": 288000,
+   "flavio": 426000,
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "A6EA-EA2E",
   "conjunto": "redes",
   "id": "bites-seg-1t",
@@ -6510,6 +6558,22 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/eleicoes-de-2026-marcam-a-transformacao-digital-da-esquerda-diz-bites/"
   },
   "primeira_vez": "2026-10-19T02:29:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "65FA-5D81",
+  "conjunto": "redes",
+  "id": "brandwatch-debate",
+  "registro": {
+   "id": "brandwatch-debate",
+   "metrica": "Menções ao candidato nas redes",
+   "periodo": "18 out (dia do debate da Band) até a manhã de 19 out",
+   "lula": 1170000,
+   "flavio": 1200000,
+   "fonte": "Lilian Carvalho (FGV/EAESP, Brandwatch), via Tribuna do Planalto",
+   "url": "https://tribunadoplanalto.com.br/debate-gera-237-milhoes-de-mencoes-nas-redes-com-lula-e-flavio-empatados-em-volume/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
   "ainda_publicado": true
  },
  {
@@ -6625,6 +6689,54 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "7292-C822",
+  "conjunto": "redes",
+  "id": "palver-redes",
+  "registro": {
+   "id": "palver-redes",
+   "metrica": "Participação nas menções com posicionamento nas redes (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 59,
+   "flavio": 41,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "00C5-847D",
+  "conjunto": "redes",
+  "id": "palver-telegram",
+  "registro": {
+   "id": "palver-telegram",
+   "metrica": "Participação nas menções com posicionamento no Telegram (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 41,
+   "flavio": 59,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8492-FB17",
+  "conjunto": "redes",
+  "id": "palver-whatsapp",
+  "registro": {
+   "id": "palver-whatsapp",
+   "metrica": "Participação nas menções com posicionamento no WhatsApp (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 49,
+   "flavio": 51,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "FABD-6C01",
   "conjunto": "redes",
   "id": "seguidores",
@@ -6680,6 +6792,20 @@
    "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FED5-D52F",
+  "conjunto": "sinais",
+  "id": "bites-debate-assunto",
+  "registro": {
+   "id": "bites-debate-assunto",
+   "data": "2026-10-19",
+   "sinal": "Segundo a Bites, o debate da Band respondeu por cerca de 20% do conteúdo digital do país até o meio-dia de segunda (1,7 milhão de citações), e o pedido de abertura de sigilo bancário gerou 501 mil citações até as 15h.",
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
   "ainda_publicado": true
  },
  {
@@ -6764,6 +6890,20 @@
    "url": "https://www.brasil247.com/midia/exercito-do-lula-e-tropa-do-flavio-bolsonaro-intensificam-mobilizacao-nas-redes-no-2o-turno/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7E75-597F",
+  "conjunto": "sinais",
+  "id": "palver-debate",
+  "registro": {
+   "id": "palver-debate",
+   "data": "2026-10-19",
+   "sinal": "Segundo a Palver, a vantagem de Lula nas redes caiu de 60% para 53% das menções com posicionamento na manhã seguinte ao debate; nos aplicativos de mensagens, Flávio chegou a 57% entre 7h e 8h. A discussão ficou cerca de 1,8 vez mais intensa que a média de 5 a 17 de outubro.",
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-19T21:30:02Z",
   "ainda_publicado": true
  },
  {
