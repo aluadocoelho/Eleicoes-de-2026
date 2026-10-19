@@ -1204,6 +1204,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "16B2-29EE",
+  "conjunto": "aovivo",
+  "id": "band-61",
+  "registro": {
+   "id": "band-61",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:35",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Em entrevista após o debate, Lula repetiu o desafio para que os dois abram os sigilos bancário e telefônico até o próximo debate: \"Todo mundo acusa todo mundo e não apura nada. Então, é o seguinte: vamos apurar\". Disse que vai seguir viajando e que está convencido de que vence no domingo (25).",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "O Antagonista",
+   "url": "https://oantagonista.com.br/brasil/em-entrevista-lula-desafia-flavio-a-abrir-sigilos-bancario-e-telefonico-ate-proximo-debate/"
+  },
+  "primeira_vez": "2026-10-19T02:08:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9C27-4F72",
+  "conjunto": "aovivo",
+  "id": "band-62",
+  "registro": {
+   "id": "band-62",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:40",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Na saída do debate, Flávio disse: \"Fiquei muito feliz com o desempenho, pude falar de propostas\". Afirmou que suas contas sempre estiveram abertas e prometeu seguir com atos de rua, citando Salvador e a Avenida Paulista.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "O Antagonista",
+   "url": "https://oantagonista.com.br/brasil/flavio-diz-que-debate-foi-positivo-e-promete-seguir-mobilizando-apoiadores/"
+  },
+  "primeira_vez": "2026-10-19T02:08:05Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
