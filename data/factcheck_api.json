@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D3Q24CQ",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Imagem mostra Flávio Bolsonaro na capa da revista IstoÉ como o \"anti-Lula\"",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-14",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Revista IstoÉ não publicou capa com Flávio Bolsonaro como “anti ...",
+  "data_checagem": "2026-10-19",
+  "url": "https://checamos.afp.com/doc.afp.com.D3Q24CQ"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-trump-mandou-recado-com-ameaca-a-lula-video-e-manipulado.amp.htm",
   "termo": "Lula",
   "afirmacao": "Donald Trump ameaça Lula de prisão",
@@ -422,7 +434,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -638,7 +650,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -651,8 +663,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -842,7 +854,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1310,7 +1322,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -1959,8 +1971,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
