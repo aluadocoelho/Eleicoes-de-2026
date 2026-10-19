@@ -6412,6 +6412,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "324F-0BD3",
+  "conjunto": "redes",
+  "id": "apexata-pos-band",
+  "registro": {
+   "id": "apexata-pos-band",
+   "metrica": "Menções positivas nas redes (%)",
+   "periodo": "após o debate da Band, 18 out (antes: Lula 39,80; Flávio 40,09)",
+   "lula": 38.65,
+   "flavio": 37.93,
+   "fonte": "AP Exata, via Diário do Grande ABC",
+   "url": "https://www.dgabc.com.br/Noticia/4353552/debate-intensifica-polarizacao-nas-redes-mas-sem-impacto-significativo-aponta-ap-exata"
+  },
+  "primeira_vez": "2026-10-19T15:28:30Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "FAC4-DE45",
   "conjunto": "redes",
   "id": "bites-int-24h-band",
@@ -6569,6 +6585,20 @@
    "url": "https://gazetadoparana.com.br/publico/lula-publica-mais-flavio-ganha-seguidores-mais-rapido-o-que-os-numeros-revelam-sobre-a-disputa-digital-no-segundo-turno"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A6CB-9589",
+  "conjunto": "sinais",
+  "id": "apexata-band",
+  "registro": {
+   "id": "apexata-band",
+   "data": "2026-10-19",
+   "sinal": "Para a AP Exata, o debate da Band reforçou a divisão nas redes sem mudar o quadro: os dois perderam menções positivas e Lula passou à frente por diferença dentro da margem. Perfis de direita exploraram falas de Lula sobre saidinhas e o 'malandro carioca'; os de esquerda, a resposta sobre voto de presos e o silêncio de Flávio sobre o caso Vorcaro.",
+   "fonte": "AP Exata, via Diário do Grande ABC",
+   "url": "https://www.dgabc.com.br/Noticia/4353552/debate-intensifica-polarizacao-nas-redes-mas-sem-impacto-significativo-aponta-ap-exata"
+  },
+  "primeira_vez": "2026-10-19T15:28:30Z",
   "ainda_publicado": true
  },
  {
