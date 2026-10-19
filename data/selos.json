@@ -5052,6 +5052,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9088-E06B",
+  "conjunto": "redes",
+  "id": "brief-media-dia",
+  "registro": {
+   "id": "brief-media-dia",
+   "metrica": "Média diária de interações nos perfis oficiais",
+   "periodo": "14 set–7 out",
+   "lula": 240000,
+   "flavio": 370000,
+   "fonte": "Projeto Brief, via Folha / Terra",
+   "url": "https://www.terra.com.br/noticias/lula-dispara-e-ultrapassa-flavio-bolsonaro-na-web,8f2e4e92f01040dd709822841c8083c6q0fytu2h.html"
+  },
+  "primeira_vez": "2026-10-19T12:12:39Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F452-D66F",
   "conjunto": "redes",
   "id": "globo-ig-mediana",
