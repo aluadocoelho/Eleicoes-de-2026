@@ -2083,6 +2083,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "CB20-3EB6",
+  "conjunto": "boatos",
+  "id": "b33",
+  "registro": {
+   "id": "b33",
+   "data": "2026-10-09",
+   "alvo": "Flávio",
+   "boato": "Flávio imporia jornada de sete dias por semana e acabaria com a Farmácia Popular",
+   "veredito": "Removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O presidente do TSE, Nunes Marques, mandou apagar em 24 horas o vídeo que atribuía esses planos a Flávio.",
+   "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/tse-manda-lula-e-janja-apagarem-fake-news-contra-flavio",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo publicado nos perfis da primeira-dama Janja Lula da Silva, segundo a reportagem.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -3403,6 +3424,166 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "CA39-4148",
+  "conjunto": "checagens",
+  "id": "f48",
+  "registro": {
+   "id": "f48",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o Careca do INSS fez parte do governo Lula.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos diz que ele nunca integrou o governo.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "68F5-B9E8",
+  "conjunto": "checagens",
+  "id": "f49",
+  "registro": {
+   "id": "f49",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que a criminalidade explodiu no Brasil.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo o Aos Fatos, os dados não mostram essa explosão.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "02BE-6B71",
+  "conjunto": "checagens",
+  "id": "f50",
+  "registro": {
+   "id": "f50",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que 73% dos presidiários votaram em Lula.",
+   "veredito": "Distorcido",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O Aos Fatos aponta que o número foi usado de forma distorcida.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E76B-563C",
+  "conjunto": "checagens",
+  "id": "f51",
+  "registro": {
+   "id": "f51",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que houve recorde de empresas fechadas no atual governo.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos não encontrou esse recorde nos dados.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6994-5056",
+  "conjunto": "checagens",
+  "id": "f52",
+  "registro": {
+   "id": "f52",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula e Janja gastaram R$ 7 bilhões em viagens.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos diz que esse gasto não é verdadeiro.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FA77-4A13",
+  "conjunto": "checagens",
+  "id": "f53",
+  "registro": {
+   "id": "f53",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o governo Lula não fez nada sobre o tarifaço dos EUA.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo o Aos Fatos, o governo tomou medidas sobre o tarifaço.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6921-28FA",
+  "conjunto": "checagens",
+  "id": "f54",
+  "registro": {
+   "id": "f54",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula foi aos EUA defender organizações criminosas.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos diz que isso não aconteceu.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "568C-5054",
+  "conjunto": "checagens",
+  "id": "f55",
+  "registro": {
+   "id": "f55",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o governo Lula trata quem abusa de crianças como doente, e não como criminoso.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos diz que o governo não adota essa visão.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -4180,6 +4361,106 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-19T10:03:48Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2CE4-33CC",
+  "conjunto": "checagens",
+  "id": "l40",
+  "registro": {
+   "id": "l40",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o PIB do Brasil cresceu 7,5% em 2010.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Aos Fatos confirmou o crescimento de 7,5% naquele ano.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A8E0-8E23",
+  "conjunto": "checagens",
+  "id": "l41",
+  "registro": {
+   "id": "l41",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que, depois que ele saiu, o país só voltou a crescer acima de 3% com a sua volta.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Aos Fatos classificou a afirmação como falsa.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "29F6-2901",
+  "conjunto": "checagens",
+  "id": "l42",
+  "registro": {
+   "id": "l42",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que, em 2009, Flávio foi o único deputado estadual do Rio a votar contra ampliar a licença-maternidade.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Aos Fatos confirmou o voto de Flávio.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "11A2-3265",
+  "conjunto": "checagens",
+  "id": "l43",
+  "registro": {
+   "id": "l43",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que mais de um milhão de armas foram liberadas no governo Bolsonaro.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Aos Fatos confirmou o número.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CE46-3608",
+  "conjunto": "checagens",
+  "id": "l44",
+  "registro": {
+   "id": "l44",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que a inflação de alimentos foi de 56,17% no governo Bolsonaro e de 13% no dele.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Aos Fatos confirmou os dois percentuais.",
+   "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T12:14:22Z",
   "ainda_publicado": true
  },
  {
