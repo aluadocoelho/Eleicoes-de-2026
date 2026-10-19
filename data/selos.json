@@ -1670,6 +1670,27 @@
    "tema": "Corrupção e INSS"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "1FB0-1A2A",
+  "conjunto": "boatos",
+  "id": "b06",
+  "registro": {
+   "id": "b06",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Vídeos que ligam Lula às fraudes do INSS",
+   "veredito": "Removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O tribunal viu imputação de crime sem base factual e mandou retirar os vídeos.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-retira-do-ar-publicacoes-que-associam-lula-a-supostas-fraudes-no-inss",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Vídeos publicados pelo PL, por Flávio e por Nikolas Ferreira, segundo a ação julgada pelo TSE.",
+   "tema": "Corrupção e INSS"
+  },
+  "primeira_vez": "2026-10-19T21:44:09Z",
   "ainda_publicado": true
  },
  {
@@ -1901,6 +1922,27 @@
    "tema": "Atos de campanha"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "8E03-37FF",
+  "conjunto": "boatos",
+  "id": "b14",
+  "registro": {
+   "id": "b14",
+   "data": "2026-10-12",
+   "alvo": "Lula",
+   "boato": "Foto de trabalhadora limpando pichações no metrô após ato pró-Lula",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi feita com inteligência artificial; a foto original, da CPTM, mostra só as pichações.",
+   "url": "https://www.agencialupa.org/eleicoes/2026/10/12/imagem-de-trabalhadora-limpando-pichacoes-na-paulista-foi-gerada-por-ia/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Lupa, a imagem foi enviada no canal oficial de WhatsApp da campanha de Flávio; quem a criou não foi identificado.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-19T21:44:09Z",
   "ainda_publicado": true
  },
  {
@@ -5932,6 +5974,27 @@
    "url": "https://tvtnews.com.br/primeira-pesquisa-quaest-presidente-2-turn14-10/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "FF51-D38C",
+  "conjunto": "pesquisas",
+  "id": "btg-1310",
+  "registro": {
+   "id": "btg-1310",
+   "instituto": "BTG/Nexus",
+   "divulgacao": "2026-10-13",
+   "campo": "10–12 out",
+   "amostra": 2002,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": 48,
+   "lula_totais": 45,
+   "fonte": "Jornal Opção",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/empate-tecnico-flavio-bolsonaro-tem-52-e-lula-48-no-segundo-turno-aponta-pesquisa-btg-nexus-878284/"
+  },
+  "primeira_vez": "2026-10-19T21:44:09Z",
   "ainda_publicado": true
  },
  {
