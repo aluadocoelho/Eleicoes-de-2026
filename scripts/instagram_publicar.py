@@ -85,9 +85,11 @@ def postar(post, sha, pasta):
     return ids, links
 
 def main():
+    pendentes = [d for d in sorted(os.listdir(FILA)) if os.path.isfile(f'{FILA}/{d}/post.json')] if os.path.isdir(FILA) else []
+    if not pendentes:
+        print('Fila vazia: nada a publicar.'); return 0
     if not TOKEN:
-        print('IG_ACCESS_TOKEN não configurado: nada publicado.'); return 1
-    if not os.path.isdir(FILA): print('Fila vazia.'); return 0
+        print(f'IG_ACCESS_TOKEN não configurado: {len(pendentes)} peça(s) aprovada(s) esperando na fila.'); return 1
     sha = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
     falhas = 0
     for pid in sorted(os.listdir(FILA)):
