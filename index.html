@@ -926,18 +926,18 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <span class="el-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
       <h2 class="el-bn-t">Recebeu um print desta página?</h2>
       <p class="el-vf-p">Cada informação daqui tem um código, que aparece assim: <span class="el-cod-demo">cód. 3F9A-12C7</span>. Digite abaixo o código que está no print e veja como a informação está de verdade nos dados da página. Se o texto do print for diferente, ele foi alterado.</p>
-      <form class="el-vf-form" id="vf-form" autocomplete="off">
+      <div class="el-vf-form" id="vf-form" role="search">
         <label class="el-vh" for="vf-in">Código de verificação</label>
-        <input id="vf-in" class="el-vf-in" inputmode="text" autocapitalize="characters" spellcheck="false" maxlength="12" placeholder="Ex.: 3F9A-12C7">
-        <button class="el-btn el-vf-go" type="submit">Conferir</button>
-      </form>
+        <input id="vf-in" class="el-vf-in" type="text" autocomplete="off" enterkeyhint="go" inputmode="text" autocapitalize="characters" spellcheck="false" maxlength="12" placeholder="Ex.: 3F9A-12C7">
+        <button class="el-btn el-vf-go" id="vf-go" type="button">Conferir</button>
+      </div>
     </div>
     <div id="vf-out" aria-live="polite"></div>
     <div class="el-card" id="card-erratas">
       <h2 class="el-h">Correções (erratas)</h2>
       <p class="el-note">Duas vezes por dia conferimos as informações publicadas contra as fontes originais. Quando achamos um erro, corrigimos e registramos aqui o que mudou e por quê.</p>
       <p class="el-empty" id="errata-empty" hidden>Nenhuma correção até agora.</p>
-      <table class="el-t el-stk" id="t-erratas" data-source="erratas" data-row-key="id">
+      <table class="el-t el-stk" id="t-erratas" data-row-key="id">
         <thead><tr><th data-field="data">Data</th><th data-field="o_que_mudou">O que foi corrigido</th><th data-field="antes">Antes</th><th data-field="depois">Depois</th><th data-field="motivo">Motivo</th><th data-field="url">Fonte</th></tr></thead>
         <tbody></tbody>
       </table>
@@ -1887,7 +1887,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const SELO_KEY = {pesquisas: "id", ultimas: "id", primeiro_turno: "candidato", transferencia: "id", redes: "id", sinais: "id", agenda: "data", campanha: "id", destaques: "id", checagens_placar: "id", checagens: "id", boatos: "id", aovivo: "id"};
   let seloMap = null, seloAll = null;
   // Os códigos só existem na página pública; no painel, este conjunto não existe e é ignorado.
-  function erratasData() { try { const d = dash.data("erratas"); if (!d || !d.status) return {status: "missing", data: []}; if (d.status === "error" || d.status === "connect") return {status: "ok", data: []}; return d; } catch (e) { return {status: "missing", data: []}; } }
+  function erratasData() { try { const d = dash.data("erratas"); if (!d || !d.status || d.status === "missing" || d.status === "error") return {status: "ok", data: []}; return d; } catch (e) { return {status: "missing", data: []}; } }
   function selosData() { try { const d = dash.data("selos"); return d && d.status ? d : {status: "missing", data: []}; } catch (e) { return {status: "missing", data: []}; } }
   function loadSelos() {
     const d = selosData();
@@ -1969,13 +1969,15 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     goTop("verificar");
     renderVerify(code);
   }
-  document.getElementById("vf-form").addEventListener("submit", ev => {
-    ev.preventDefault();
+  function submitVerify() {
     const v = document.getElementById("vf-in").value;
     const c = normCode(v);
     if (c) { document.getElementById("vf-in").value = c; try { history.replaceState(null, "", "#verificar=" + c.replace("-", "")); } catch (e) {} }
     renderVerify(v);
-  });
+  }
+  { const go = document.getElementById("vf-go"), inp = document.getElementById("vf-in");
+    if (go) go.addEventListener("click", submitVerify);
+    if (inp) inp.addEventListener("keydown", ev => { if (ev.key === "Enter") { ev.preventDefault(); submitVerify(); } }); }
 
   // ---------- Listas longas no celular ----------
   const expanded = {};
@@ -2222,7 +2224,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (erCard) erCard.hidden = er.status === "missing";
     const erEmpty = document.getElementById("errata-empty");
     if (erEmpty) erEmpty.hidden = !(erRows && !erRows.length);
-    document.getElementById("t-erratas").hidden = !(erRows && erRows.length);
+    { const te = document.getElementById("t-erratas"); te.hidden = !(erRows && erRows.length); if (erRows && erRows.length) te.setAttribute("data-source", "erratas"); else te.removeAttribute("data-source"); }
     table("#t-erratas", erRows, [
       {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "o_que_mudou"},
       {f: "antes", cls: "el-src"}, {f: "depois"}, {f: "motivo", cls: "el-src"},
