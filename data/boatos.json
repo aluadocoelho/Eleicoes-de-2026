@@ -348,5 +348,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Nordeste"
+ },
+ {
+  "id": "b26",
+  "data": "2026-10-05",
+  "alvo": "Lula",
+  "boato": "Lula teria gastado mais de R$ 7 bilhões em viagens, mais que Biden e Trump juntos",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "Os R$ 7 bilhões são o gasto de todo o governo federal com viagens de 2023 a 2025; os gastos ligados à Presidência somaram cerca de R$ 150 milhões, e a comparação com Biden e Trump não tem base em dados.",
+  "url": "https://www.aosfatos.org/noticias/lula-7-bilhoes-viagens/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Gastos públicos"
  }
 ]

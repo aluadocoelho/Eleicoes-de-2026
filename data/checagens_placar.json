@@ -63,5 +63,57 @@
   "falso": 5,
   "nota": "Classes: verdadeira, imprecisa, falsa.",
   "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026"
+ },
+ {
+  "id": "lupa-band-lula",
+  "candidato": "Lula",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 17,
+  "verdadeiro": 9,
+  "impreciso": 6,
+  "falso": 2,
+  "nota": "Só falas de Lula. Impreciso = exagerado (2), falta contexto (2), insustentável (1) e subestimado (1).",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+ },
+ {
+  "id": "lupa-band-flavio",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 23,
+  "verdadeiro": 2,
+  "impreciso": 13,
+  "falso": 8,
+  "nota": "Só falas de Flávio. Impreciso = falta contexto (5), exagerado (4), insustentável (3) e subestimado (1).",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+ },
+ {
+  "id": "rk-band-lula",
+  "candidato": "Lula",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 47,
+  "verdadeiro": 15,
+  "impreciso": 23,
+  "falso": 9,
+  "nota": "Só falas factuais do próprio candidato, sem repetições. Classes: verdadeiro, impreciso, falso.",
+  "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-band-2-turno-2026"
+ },
+ {
+  "id": "rk-band-flavio",
+  "candidato": "Flávio",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 29,
+  "verdadeiro": 13,
+  "impreciso": 13,
+  "falso": 3,
+  "nota": "Só falas factuais do próprio candidato, sem repetições. Classes: verdadeiro, impreciso, falso.",
+  "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-band-2-turno-2026"
  }
 ]
