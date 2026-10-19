@@ -2123,6 +2123,36 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "06BE-C950",
+  "conjunto": "campanha",
+  "id": "e22",
+  "registro": {
+   "id": "e22",
+   "data": "2026-10-18",
+   "tipo": "Debate",
+   "descricao": "Depois do debate da Band, Flávio disse ter rebatido \"várias mentiras\" e prometeu manter apoiadores mobilizados; Lula pediu um debate mais qualificado, sem acusações, e repetiu o desafio de abrir sigilos bancário e telefônico. Nenhum dos dois havia confirmado presença no debate da Globo de 23/10.",
+   "fonte": "SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/flavio-celebra-desempenho-lula-pede-debate-mais-qualificado"
+  },
+  "primeira_vez": "2026-10-19T02:01:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6167-5AC8",
+  "conjunto": "campanha",
+  "id": "e23",
+  "registro": {
+   "id": "e23",
+   "data": "2026-10-18",
+   "tipo": "Debate",
+   "descricao": "Segundo bastidores relatados pelo Metrópoles, integrantes da campanha de Lula avaliam que ele caiu em provocações de Flávio em alguns momentos e que o desafio de abrir os sigilos foi o trecho mais bem recebido em pesquisas qualitativas internas do PT.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/milena-teixeira/o-ponto-alto-de-lula-no-debate-da-band-segundo-pesquisas-do-pt"
+  },
+  "primeira_vez": "2026-10-19T02:01:30Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
@@ -3198,6 +3228,25 @@
    "url": "https://www.correio24horas.com.br/em-alta/globo-cancela-capitulo-de-quem-ama-cuida-para-exibir-debate-entre-lula-e-flavio-bolsonaro-veja-data-1026"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9FFF-3F24",
+  "conjunto": "destaques",
+  "id": "debate-globo",
+  "registro": {
+   "id": "debate-globo",
+   "tipo": "Debate",
+   "titulo": "Debate na TV Globo",
+   "data": "2026-10-23",
+   "hora_inicio": null,
+   "hora_fim": null,
+   "local": "Estúdios Globo, no Rio de Janeiro",
+   "como_assistir": "TV aberta: Globo, logo depois do Jornal Nacional. O horário exato e os canais na internet ainda não foram confirmados.",
+   "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. Até a madrugada de 19/10, nenhuma das duas campanhas tinha confirmado presença, segundo o SBT News.",
+   "url": "https://www.correio24horas.com.br/em-alta/globo-cancela-capitulo-de-quem-ama-cuida-para-exibir-debate-entre-lula-e-flavio-bolsonaro-veja-data-1026"
+  },
+  "primeira_vez": "2026-10-19T02:01:30Z",
   "ainda_publicado": true
  },
  {
