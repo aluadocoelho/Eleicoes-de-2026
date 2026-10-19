@@ -6019,6 +6019,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0FBB-ABEF",
+  "conjunto": "pesquisas",
+  "id": "futura-1910",
+  "registro": {
+   "id": "futura-1910",
+   "instituto": "Futura",
+   "divulgacao": "2026-10-19",
+   "campo": "16–17 out",
+   "amostra": 2000,
+   "margem": 2.2,
+   "flavio_validos": 50.4,
+   "lula_validos": 49.6,
+   "flavio_totais": 48.3,
+   "lula_totais": 47.5,
+   "fonte": "Futura Inteligência (registro BR-06715/2026), via TMC",
+   "url": "https://tmc.com.br/politica/pesquisa-futura-inteliencia-flavio-lidera-segundo-turno-lula/"
+  },
+  "primeira_vez": "2026-10-19T15:02:13Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2F43-9F83",
   "conjunto": "pesquisas",
   "id": "ipespe-1010",
