@@ -1434,6 +1434,27 @@
    "tema": "Símbolos nacionais"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "8413-C281",
+  "conjunto": "boatos",
+  "id": "b01",
+  "registro": {
+   "id": "b01",
+   "data": "2026-10-04",
+   "alvo": "Lula",
+   "boato": "Lula jogou a bandeira do Brasil no chão depois de votar",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "Ele entregou a bandeira ao fotógrafo oficial.",
+   "url": "https://www.agencialupa.org/eleicoes/2026/10/04/lula-nao-jogou-bandeira-do-brasil-no-chao-apos-votar-simbolo-foi-entregue-a-fotografo/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Símbolos nacionais"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1455,6 +1476,27 @@
    "tema": "Programas sociais"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "77C7-AC1D",
+  "conjunto": "boatos",
+  "id": "b02",
+  "registro": {
+   "id": "b02",
+   "data": "2026-10-08",
+   "alvo": "Lula",
+   "boato": "Vídeo de Lula dizendo que perdeu o interesse pelos pobres",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O recorte inverteu o sentido de uma crítica a outros políticos.",
+   "url": "https://www.agencialupa.org/eleicoes/2026/10/08/video-antigo-de-lula-e-editado-para-sugerir-que-petista-criticou-pobres/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1476,6 +1518,27 @@
    "tema": "Saúde da mulher"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "5AD6-1721",
+  "conjunto": "boatos",
+  "id": "b03",
+  "registro": {
+   "id": "b03",
+   "data": "2026-10-03",
+   "alvo": "Lula",
+   "boato": "Xuxa critica Lula sobre a saúde das mulheres",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A gravação é de 2022 e tinha Jair Bolsonaro como alvo.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/03/e-falso-que-xuxa-criticou-lula-por-declaracao-sobre-saude-das-mulheres/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Saúde da mulher"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1497,6 +1560,27 @@
    "tema": "Futebol e apostas"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F88D-E31A",
+  "conjunto": "boatos",
+  "id": "b04",
+  "registro": {
+   "id": "b04",
+   "data": "2026-10-04",
+   "alvo": "Lula",
+   "boato": "Torcida do Flamengo protesta contra Lula pela proibição das bets",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "As imagens são de agosto e não mostram protesto.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/04/e-falso-que-flamenguistas-protestaram-contra-lula-por-proibicao-das-bets/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Futebol e apostas"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1518,6 +1602,27 @@
    "tema": "Futebol"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "3721-A8D8",
+  "conjunto": "boatos",
+  "id": "b05",
+  "registro": {
+   "id": "b05",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Zico segura faixa contra Lula",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi manipulada com inteligência artificial.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/15/e-falsa-imagem-de-zico-com-faixa-de-fora-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Futebol"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1560,6 +1665,27 @@
    "tema": "Programas sociais"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F317-44DD",
+  "conjunto": "boatos",
+  "id": "b07",
+  "registro": {
+   "id": "b07",
+   "data": "2026-10-08",
+   "alvo": "Flávio",
+   "boato": "Flávio disse que acabaria com o Farmácia Popular",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Não há registro da frase; a campanha negou.",
+   "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-farmacia-popular/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Frase atribuída a Flávio sem registro; a campanha negou a autoria. Quem espalhou não foi apontado.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1581,6 +1707,27 @@
    "tema": "Trabalho"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "E955-66FD",
+  "conjunto": "boatos",
+  "id": "b08",
+  "registro": {
+   "id": "b08",
+   "data": "2026-10-04",
+   "alvo": "Flávio",
+   "boato": "Vídeo de Flávio sobre escolher entre emprego e direitos trabalhistas",
+   "veredito": "Manipulado",
+   "agencia": "Aos Fatos",
+   "explicacao": "Um áudio falso foi inserido em gravação sobre outro tema.",
+   "url": "https://www.aosfatos.org/noticias/video-ia-flavio-direitos-trabalhistas/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Trabalho"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
@@ -1602,6 +1749,27 @@
    "tema": "Armas e meio ambiente"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "8C87-D34F",
+  "conjunto": "boatos",
+  "id": "b09",
+  "registro": {
+   "id": "b09",
+   "data": "2026-10-04",
+   "alvo": "Flávio",
+   "boato": "Foto de Flávio armado ao lado de um elefante abatido",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi gerada por inteligência artificial.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/04/foto-de-flavio-bolsonaro-com-elefante-abatido-foi-gerada-por-ia/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Armas e meio ambiente"
+  },
+  "primeira_vez": "2026-10-19T12:24:18Z",
   "ainda_publicado": true
  },
  {
