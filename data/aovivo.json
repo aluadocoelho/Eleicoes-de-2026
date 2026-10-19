@@ -778,5 +778,31 @@
   "categoria": null,
   "fonte": "CNN Brasil",
   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-fala-em-abrir-sigilos-flavio-diz-que-nao-tem-nada-a-esconder/"
+ },
+ {
+  "id": "band-61",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "22:35",
+  "tipo": "Momento",
+  "candidato": "Lula",
+  "texto": "Em entrevista após o debate, Lula repetiu o desafio para que os dois abram os sigilos bancário e telefônico até o próximo debate: \"Todo mundo acusa todo mundo e não apura nada. Então, é o seguinte: vamos apurar\". Disse que vai seguir viajando e que está convencido de que vence no domingo (25).",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "O Antagonista",
+  "url": "https://oantagonista.com.br/brasil/em-entrevista-lula-desafia-flavio-a-abrir-sigilos-bancario-e-telefonico-ate-proximo-debate/"
+ },
+ {
+  "id": "band-62",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "22:40",
+  "tipo": "Momento",
+  "candidato": "Flávio",
+  "texto": "Na saída do debate, Flávio disse: \"Fiquei muito feliz com o desempenho, pude falar de propostas\". Afirmou que suas contas sempre estiveram abertas e prometeu seguir com atos de rua, citando Salvador e a Avenida Paulista.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "O Antagonista",
+  "url": "https://oantagonista.com.br/brasil/flavio-diz-que-debate-foi-positivo-e-promete-seguir-mobilizando-apoiadores/"
  }
 ]
