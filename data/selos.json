@@ -3838,6 +3838,306 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "CDDE-F670",
+  "conjunto": "checagens",
+  "id": "f56",
+  "registro": {
+   "id": "f56",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que chefes de facção vão ficar 80 anos presos com a Lei Antifacção.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A pena pode chegar a 80 anos, mas o Código Penal limita o tempo de prisão a 40 anos.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "523E-4248",
+  "conjunto": "checagens",
+  "id": "f57",
+  "registro": {
+   "id": "f57",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que o PT governou 20 dos últimos 24 anos.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Foram cerca de 17 anos e 4 meses no poder nesse período.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "956B-F76F",
+  "conjunto": "checagens",
+  "id": "f58",
+  "registro": {
+   "id": "f58",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que R$ 30 milhões de Vorcaro foram por fora para o Instituto Lula bancar um filme.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Há relato publicado pela Veja, mas a PF negou que o banqueiro tenha dito isso em depoimento e a equipe do filme nega ter recebido dinheiro.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C96E-B0B4",
+  "conjunto": "checagens",
+  "id": "f59",
+  "registro": {
+   "id": "f59",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que Lula gastou R$ 7 bilhões com viagens de Janja.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor de R$ 7,35 bilhões se refere a viagens de cerca de 475 mil pessoas em mais de 34 órgãos federais.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C6E7-CFAB",
+  "conjunto": "checagens",
+  "id": "f60",
+  "registro": {
+   "id": "f60",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o irmão de Lula é vice-presidente de um sindicato que roubou aposentados.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Ele é vice de um sindicato investigado, mas não é alvo da investigação.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B356-6930",
+  "conjunto": "checagens",
+  "id": "f61",
+  "registro": {
+   "id": "f61",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que o primeiro ato de Bolsonaro foi uma medida contra a corrupção no INSS e que o PT foi contra.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A medida de 2019 existiu, mas depois foi afrouxada no Congresso com apoio de 11 partidos, incluindo o PL.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D52A-76D6",
+  "conjunto": "checagens",
+  "id": "f62",
+  "registro": {
+   "id": "f62",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula teve 73% dos votos nos presídios.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Lula teve 72,6% dos votos válidos nessas seções, mas elas incluem funcionários, não só presos.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7DBD-47B4",
+  "conjunto": "checagens",
+  "id": "f63",
+  "registro": {
+   "id": "f63",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que nunca quis acabar com a identificação de armas e munições.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Flávio apoiou um projeto de 2019 que revogava essa exigência.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "382A-BD07",
+  "conjunto": "checagens",
+  "id": "f64",
+  "registro": {
+   "id": "f64",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula dá emprego a condenados do Mensalão.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Não há registro de nomeações; os citados se candidataram, mas não foram eleitos.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1274-0DAE",
+  "conjunto": "checagens",
+  "id": "f65",
+  "registro": {
+   "id": "f65",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que o governo Lula tem recorde de empresas fechando.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Os fechamentos subiram, mas em 2025 foram abertos 5,1 milhões de CNPJs e fechados 2,8 milhões.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "291C-2609",
+  "conjunto": "checagens",
+  "id": "f66",
+  "registro": {
+   "id": "f66",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que a proposta do PT de reduzir a maioridade penal para crimes hediondos deixaria de fora traficantes e ladrões de celular.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Constituição já trata o tráfico como crime equiparado a hediondo.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3B9D-EC90",
+  "conjunto": "checagens",
+  "id": "f67",
+  "registro": {
+   "id": "f67",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que mais de 40 milhões de brasileiros vivem em áreas dominadas por facções.",
+   "veredito": "Subestimado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Estudos estimam entre 50 milhões e 68 milhões de pessoas.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3E8B-BB77",
+  "conjunto": "checagens",
+  "id": "f68",
+  "registro": {
+   "id": "f68",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula foi à Justiça para trazer de volta a saidinha de presos.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Não há registro dessa ação; Lula vetou parte de uma lei de 2024 e o Congresso derrubou parte do veto.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "867F-472C",
+  "conjunto": "checagens",
+  "id": "f69",
+  "registro": {
+   "id": "f69",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que Lula prometeu ajudar Vorcaro e disse a ele para não vender o banco.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Houve encontro em dezembro de 2024, mas não há registro de promessa de ajuda.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "79A8-E1C3",
+  "conjunto": "checagens",
+  "id": "f70",
+  "registro": {
+   "id": "f70",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que os juros futuros caíram 2% depois que ele liderou o 1º turno.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A imprensa especializada registrou queda acima disso e a atribuiu ao resultado do 1º turno.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -4715,6 +5015,306 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E036-9CC0",
+  "conjunto": "checagens",
+  "id": "l45",
+  "registro": {
+   "id": "l45",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que foi o primeiro presidente a conseguir dois graus de investimento para o Brasil.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "As agências deram a nota ao país em 2008 e 2009, no segundo mandato dele.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F0C3-7746",
+  "conjunto": "checagens",
+  "id": "l46",
+  "registro": {
+   "id": "l46",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que o PIB cresceu 7,5% no governo dele e que só voltou a crescer acima de 3,5% quando ele retornou.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O 7,5% é de 2010, mas a alta de 4,6% em 2021 ocorreu no governo Bolsonaro, o que contradiz a segunda parte.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C3CA-DEF6",
+  "conjunto": "checagens",
+  "id": "l47",
+  "registro": {
+   "id": "l47",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que criou o MEI e que hoje há 17,5 milhões de microempreendedores individuais.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O MEI surgiu em 2008 e o governo registra cerca de 17,56 milhões de MEIs ativos.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "695C-DCE9",
+  "conjunto": "checagens",
+  "id": "l48",
+  "registro": {
+   "id": "l48",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que o Brasil devia US$ 30 bilhões ao FMI em 2003, quitou a dívida e chegou a US$ 270 bilhões em reservas.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A dívida foi paga antecipadamente em 2005 e as reservas chegaram a esse valor em 2010.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7FFE-C59E",
+  "conjunto": "checagens",
+  "id": "l49",
+  "registro": {
+   "id": "l49",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que R$ 3,5 bilhões já foram devolvidos a aposentados lesados pelas fraudes no INSS.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dados oficiais apontam R$ 3,52 bilhões pagos a cerca de 5 milhões de beneficiários.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A114-7A41",
+  "conjunto": "checagens",
+  "id": "l50",
+  "registro": {
+   "id": "l50",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que Flávio contou 43 mentiras sobre a relação com o banqueiro Daniel Vorcaro.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O número vem de um levantamento do Aos Fatos sobre declarações de Flávio.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "496B-5402",
+  "conjunto": "checagens",
+  "id": "l51",
+  "registro": {
+   "id": "l51",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Flávio comprou uma casa de R$ 10 milhões.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A mansão declarada por Flávio vale R$ 6,2 milhões; o valor de R$ 10 milhões aparece em outra acusação.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "258E-C6DD",
+  "conjunto": "checagens",
+  "id": "l52",
+  "registro": {
+   "id": "l52",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que Bolsonaro mentia 11 vezes por dia.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Levantamentos apontam cerca de quatro declarações falsas ou enganosas por dia.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1843-76E5",
+  "conjunto": "checagens",
+  "id": "l53",
+  "registro": {
+   "id": "l53",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Flávio foi o único dos 49 deputados estaduais a votar contra a ampliação da licença-maternidade na Alerj.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Em 2009, ele foi o único voto contra a mudança de 120 para 180 dias.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5A9F-6015",
+  "conjunto": "checagens",
+  "id": "l54",
+  "registro": {
+   "id": "l54",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que um ato pró-Flávio em São Paulo exibiu um míssil com frase pedindo ataque nuclear dos EUA ao Brasil.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Manifestantes levaram um míssil inflável com essa mensagem à Avenida Paulista no dia do debate.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B06D-6A97",
+  "conjunto": "checagens",
+  "id": "l55",
+  "registro": {
+   "id": "l55",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Flávio quer privatizar 95% das estatais.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "Flávio defendeu essa privatização em evento do banco BTG, segundo o Estadão Verifica.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "19C6-0597",
+  "conjunto": "checagens",
+  "id": "l56",
+  "registro": {
+   "id": "l56",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Afirmou que Bolsonaro nunca deu aumento do salário mínimo acima da inflação.",
+   "veredito": "Enganoso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Houve ganho real de 1,14% em 2019; nos outros anos do governo, não.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "822A-B8A7",
+  "conjunto": "checagens",
+  "id": "l57",
+  "registro": {
+   "id": "l57",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o Mais Médicos teve 18 mil médicos no auge, 12 mil quando ele voltou e tem 27 mil hoje.",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Em 2023 eram 13,7 mil médicos, não 12 mil; os outros números batem.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CC4E-8C18",
+  "conjunto": "checagens_placar",
+  "id": "ev-band-flavio",
+  "registro": {
+   "id": "ev-band-flavio",
+   "candidato": "Flávio",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "data": "2026-10-18",
+   "total": 15,
+   "verdadeiro": 1,
+   "impreciso": 12,
+   "falso": 2,
+   "nota": "Checagem completa do Estadão Verifica (publicada em 19/10, reproduzida pelo Terra), só falas do próprio candidato. Verdadeiro = verdadeiro/é verdade; falso = falso; impreciso = enganoso, exagerado, falta contexto, impreciso e subestimado.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D1C9-A60A",
+  "conjunto": "checagens_placar",
+  "id": "ev-band-lula",
+  "registro": {
+   "id": "ev-band-lula",
+   "candidato": "Lula",
+   "agencia": "Estadão Verifica",
+   "evento": "Debate na Band",
+   "data": "2026-10-18",
+   "total": 13,
+   "verdadeiro": 8,
+   "impreciso": 5,
+   "falso": 0,
+   "nota": "Checagem completa do Estadão Verifica (publicada em 19/10, reproduzida pelo Terra), só falas do próprio candidato. Verdadeiro = verdadeiro/é verdade; falso = falso; impreciso = enganoso, exagerado, falta contexto, impreciso e subestimado.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
+  },
+  "primeira_vez": "2026-10-19T13:02:37Z",
   "ainda_publicado": true
  },
  {
