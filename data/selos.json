@@ -724,6 +724,186 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A826-AB49",
+  "conjunto": "aovivo",
+  "id": "band-37",
+  "registro": {
+   "id": "band-37",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:30",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "No bloco sobre saúde, Lula perguntou se Flávio pretende privatizar o SUS e cobrou a posição do PL sobre o fim da escala 6x1.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/157785-debate-presidencial-lula-pressiona-flavio-bolsonaro-sobre-escala-6x1-e-privatizacao-do-sus"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B467-A7A4",
+  "conjunto": "aovivo",
+  "id": "band-38",
+  "registro": {
+   "id": "band-38",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:30",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio disse que a saúde \"não foi uma área que a gente teve o melhor resultado\" no governo Bolsonaro, fez um \"mea culpa\" e prometeu atendimento no SUS em \"padrão Einstein\" com tecnologia.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "O Liberal",
+   "url": "https://www.oliberal.com/politica/lula-questiona-sobre-sus-flavio-faz-mea-culpa-sobre-saude-no-governo-jair-bolsonaro-1.1184132"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7AB9-EE6A",
+  "conjunto": "aovivo",
+  "id": "band-39",
+  "registro": {
+   "id": "band-39",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:10",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Nas considerações finais, Lula disse que deixou o país com quase US$ 270 bilhões de reservas e afirmou que o adversário quer privatizar a Petrobras e 95% das estatais.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/plateia-tumultua-debate-da-band-nas-consideracoes-finais-de-lula-e-flavio"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DD3D-1FBF",
+  "conjunto": "aovivo",
+  "id": "band-40",
+  "registro": {
+   "id": "band-40",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:10",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Nas considerações finais, Flávio prometeu criar um Ministério da Prosperidade e disse aos eleitores de favelas e periferias que podem votar \"com tranquilidade, porque o voto é secreto\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/plateia-tumultua-debate-da-band-nas-consideracoes-finais-de-lula-e-flavio"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8C19-2912",
+  "conjunto": "aovivo",
+  "id": "band-41",
+  "registro": {
+   "id": "band-41",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:10",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "A plateia interrompeu as considerações finais dos dois candidatos, e a mediação pediu várias vezes que Flávio parasse de andar atrás de Lula.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/plateia-tumultua-debate-da-band-nas-consideracoes-finais-de-lula-e-flavio"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6D3B-6C0C",
+  "conjunto": "aovivo",
+  "id": "band-42",
+  "registro": {
+   "id": "band-42",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:20",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que o valor médio do Bolsa Família era de R$ 190 e que Bolsonaro o triplicou. A média era de cerca de R$ 188 em 2019, mas o salto para R$ 600 veio do auxílio emergencial e do Auxílio Brasil de 2022, não da política regular do programa.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4EBA-CAFE",
+  "conjunto": "aovivo",
+  "id": "band-43",
+  "registro": {
+   "id": "band-43",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:20",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que, em 2009, Flávio foi o único dos 49 deputados estaduais a votar contra a ampliação da licença-maternidade. Levantamento mostrou que Flávio foi o único deputado da Alerj a votar contra a ampliação da licença-maternidade de servidoras estaduais em 2009.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C4C2-4655",
+  "conjunto": "aovivo",
+  "id": "band-44",
+  "registro": {
+   "id": "band-44",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:20",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que o salário mínimo comprava 1,8 cesta básica no governo Bolsonaro e hoje compra 2,2. O dado de 1,8 cesta é de agosto de 2026, com base em São Paulo; a alta em relação a 2022 é de 11,3% e o número de 2,2 não se confirma.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "12D7-8468",
+  "conjunto": "aovivo",
+  "id": "band-45",
+  "registro": {
+   "id": "band-45",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "22:20",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que Roberta Luchsinger fez acusações muito graves contra Lula. Luchsinger disse à CNN que Lula sabia de reuniões de Lulinha com ministros, mas Lula não é acusado em nenhum processo; Lulinha é investigado em três inquéritos.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
@@ -2183,6 +2363,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "D184-9F83",
+  "conjunto": "checagens",
+  "id": "f28",
+  "registro": {
+   "id": "f28",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o valor médio do Bolsa Família era de R$ 190 e que Bolsonaro o triplicou.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A média era de cerca de R$ 188 em 2019, mas o salto para R$ 600 veio do auxílio emergencial e do Auxílio Brasil de 2022, não da política regular do programa.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8514-B13D",
+  "conjunto": "checagens",
+  "id": "f29",
+  "registro": {
+   "id": "f29",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Roberta Luchsinger fez acusações muito graves contra Lula.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Luchsinger disse à CNN que Lula sabia de reuniões de Lulinha com ministros, mas Lula não é acusado em nenhum processo; Lulinha é investigado em três inquéritos.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -2500,6 +2720,46 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B41F-FE45",
+  "conjunto": "checagens",
+  "id": "l17",
+  "registro": {
+   "id": "l17",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que, em 2009, Flávio foi o único dos 49 deputados estaduais a votar contra a ampliação da licença-maternidade.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Levantamento mostrou que Flávio foi o único deputado da Alerj a votar contra a ampliação da licença-maternidade de servidoras estaduais em 2009.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FDB8-8731",
+  "conjunto": "checagens",
+  "id": "l18",
+  "registro": {
+   "id": "l18",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o salário mínimo comprava 1,8 cesta básica no governo Bolsonaro e hoje compra 2,2.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O dado de 1,8 cesta é de agosto de 2026, com base em São Paulo; a alta em relação a 2022 é de 11,3% e o número de 2,2 não se confirma.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T01:21:43Z",
   "ainda_publicado": true
  },
  {
