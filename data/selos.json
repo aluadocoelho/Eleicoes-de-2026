@@ -501,6 +501,26 @@
    "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
   },
   "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "1A5B-10CE",
+  "conjunto": "aovivo",
+  "id": "band-25",
+  "registro": {
+   "id": "band-25",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que, com a Lei Antifacção aprovada, líderes de facções vão ficar até 80 anos presos. A lei prevê de 20 a 40 anos de pena, que pode chegar ao dobro para líderes, mas o Código Penal limita o tempo de cumprimento a 40 anos.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T09:45:42Z",
   "ainda_publicado": true
  },
  {
@@ -1656,6 +1676,27 @@
    "tema": "Segurança"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9554-81BC",
+  "conjunto": "boatos",
+  "id": "b15",
+  "registro": {
+   "id": "b15",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Marcola, apontado como chefe do PCC, teria declarado voto em Lula",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O conteúdo é de 2022; o diálogo citado não tinha declaração de voto e o TSE mandou removê-lo na época.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/15/e-falso-que-marcola-tenha-declarado-voto-em-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa diz que a gravação circula no Facebook, sem apontar quem publicou; em 2022 a origem foi O Antagonista.",
+   "tema": "Segurança"
+  },
+  "primeira_vez": "2026-10-19T09:45:42Z",
   "ainda_publicado": true
  },
  {
@@ -2671,6 +2712,26 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "A8B0-8013",
+  "conjunto": "checagens",
+  "id": "f23",
+  "registro": {
+   "id": "f23",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que, com a Lei Antifacção aprovada, líderes de facções vão ficar até 80 anos presos.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A lei prevê de 20 a 40 anos de pena, que pode chegar ao dobro para líderes, mas o Código Penal limita o tempo de cumprimento a 40 anos.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T09:45:42Z",
   "ainda_publicado": true
  },
  {
@@ -3495,6 +3556,27 @@
    "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "77D4-FDDA",
+  "conjunto": "pesquisas",
+  "id": "ipespe-1710",
+  "registro": {
+   "id": "ipespe-1710",
+   "instituto": "Ipespe/Abrapel",
+   "divulgacao": "2026-10-17",
+   "campo": "13–15 out",
+   "amostra": 1500,
+   "margem": 2.6,
+   "flavio_validos": 51.2,
+   "lula_validos": 48.8,
+   "flavio_totais": 48,
+   "lula_totais": 46,
+   "fonte": "Correio 24 Horas",
+   "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
+  },
+  "primeira_vez": "2026-10-19T09:45:42Z",
   "ainda_publicado": true
  },
  {
