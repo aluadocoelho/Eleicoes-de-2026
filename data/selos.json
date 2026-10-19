@@ -1848,6 +1848,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "EAAD-7BC5",
+  "conjunto": "boatos",
+  "id": "b25",
+  "registro": {
+   "id": "b25",
+   "data": "2026-10-07",
+   "alvo": "Lula",
+   "boato": "Lula teria dito três frases ofendendo nordestinos",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Uma frase era Lula repetindo fala de Bolsonaro, outra foi cortada de uma entrevista de 2017 e a terceira não tem registro público.",
+   "url": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Nordeste"
+  },
+  "primeira_vez": "2026-10-19T02:29:23Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
