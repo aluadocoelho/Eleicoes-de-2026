@@ -115,5 +115,31 @@
   "falso": 3,
   "nota": "Só falas factuais do próprio candidato, sem repetições. Classes: verdadeiro, impreciso, falso.",
   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-band-2-turno-2026"
+ },
+ {
+  "id": "ev-band-lula",
+  "candidato": "Lula",
+  "agencia": "Estadão Verifica",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 13,
+  "verdadeiro": 8,
+  "impreciso": 5,
+  "falso": 0,
+  "nota": "Checagem completa do Estadão Verifica (publicada em 19/10, reproduzida pelo Terra), só falas do próprio candidato. Verdadeiro = verdadeiro/é verdade; falso = falso; impreciso = enganoso, exagerado, falta contexto, impreciso e subestimado.",
+  "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
+ },
+ {
+  "id": "ev-band-flavio",
+  "candidato": "Flávio",
+  "agencia": "Estadão Verifica",
+  "evento": "Debate na Band",
+  "data": "2026-10-18",
+  "total": 15,
+  "verdadeiro": 1,
+  "impreciso": 12,
+  "falso": 2,
+  "nota": "Checagem completa do Estadão Verifica (publicada em 19/10, reproduzida pelo Terra), só falas do próprio candidato. Verdadeiro = verdadeiro/é verdade; falso = falso; impreciso = enganoso, exagerado, falta contexto, impreciso e subestimado.",
+  "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
  }
 ]
