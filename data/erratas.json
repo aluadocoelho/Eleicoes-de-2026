@@ -152,5 +152,38 @@
   "depois": "Link da checagem original (Lupa); selo \"Falso\"",
   "motivo": "A regra do site é linkar a checagem original, e ela traz o selo \"Falso\".",
   "url": "https://www.agencialupa.org/verificacao/2026/10/04/foto-de-flavio-bolsonaro-com-elefante-abatido-foi-gerada-por-ia/"
+ },
+ {
+  "id": "er15",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b14",
+  "o_que_mudou": "Selo do boato sobre trabalhadora limpando pichações na Paulista",
+  "antes": "Falso (IA)",
+  "depois": "Falso",
+  "motivo": "A Lupa classifica o conteúdo como Falso; a explicação sobre IA já consta no texto.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/12/imagem-de-trabalhadora-limpando-pichacoes-na-paulista-foi-gerada-por-ia/"
+ },
+ {
+  "id": "er16",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b06",
+  "o_que_mudou": "Link do boato sobre vídeos que ligam Lula às fraudes do INSS",
+  "antes": "Reportagem da CNN Brasil",
+  "depois": "Notícia do próprio TSE",
+  "motivo": "O TSE publicou a decisão de 15/10 sobre os vídeos do PL, de Nikolas Ferreira e de Flávio; a fonte primária substitui a reportagem.",
+  "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-retira-do-ar-publicacoes-que-associam-lula-a-supostas-fraudes-no-inss"
+ },
+ {
+  "id": "er17",
+  "data": "2026-10-19",
+  "conjunto": "pesquisas",
+  "registro_id": "btg-1310",
+  "o_que_mudou": "Link e detalhes da pesquisa BTG/Nexus de 13/10",
+  "antes": "Link de matéria da Quaest; sem campo, amostra e margem",
+  "depois": "Matéria sobre a BTG/Nexus; campo 10–12 out, 2.002 entrevistas, margem de 2 p.p.",
+  "motivo": "O link anterior tratava de outra pesquisa (Quaest); a reportagem da BTG/Nexus traz 52% a 48% nos válidos e os dados técnicos.",
+  "url": "https://www.jornalopcao.com.br/ultimas-noticias/empate-tecnico-flavio-bolsonaro-tem-52-e-lula-48-no-segundo-turno-aponta-pesquisa-btg-nexus-878284/"
  }
 ]

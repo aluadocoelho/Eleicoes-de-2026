@@ -101,15 +101,15 @@
   "id": "btg-1310",
   "instituto": "BTG/Nexus",
   "divulgacao": "2026-10-13",
-  "campo": null,
-  "amostra": null,
-  "margem": null,
+  "campo": "10–12 out",
+  "amostra": 2002,
+  "margem": 2,
   "flavio_validos": 52,
   "lula_validos": 48,
-  "flavio_totais": null,
-  "lula_totais": null,
-  "fonte": "TVT News / Poder360",
-  "url": "https://tvtnews.com.br/primeira-pesquisa-quaest-presidente-2-turn14-10/"
+  "flavio_totais": 48,
+  "lula_totais": 45,
+  "fonte": "Jornal Opção",
+  "url": "https://www.jornalopcao.com.br/ultimas-noticias/empate-tecnico-flavio-bolsonaro-tem-52-e-lula-48-no-segundo-turno-aponta-pesquisa-btg-nexus-878284/"
  },
  {
   "id": "futura-1310",
