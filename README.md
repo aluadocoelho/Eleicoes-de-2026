@@ -64,6 +64,14 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 - **Revisão e erratas** (`erratas.json`): duas vezes por dia uma tarefa do Claude confere as checagens, boatos, pesquisas e registros do ao vivo mais recentes contra as fontes originais (selo, quem falou, números, link). Quando acha erro, corrige o dado e registra aqui o que mudou, como era antes, como ficou e por quê. As erratas aparecem na aba **Verificar** da página.
 - **Validação**: toda mudança em `data/` passa por `scripts/validate.py` (`.github/workflows/validate.yml`), que confere chaves, tipos, datas, categorias, ids repetidos e links `https://`. Rode localmente com `python scripts/validate.py`.
 
+## Aviso sobre as fontes e o uso de IA
+
+Este projeto é um **agregador de informações**. Ele não faz pesquisas nem checagens próprias: reúne o que institutos, veículos de imprensa e agências de checagem já publicaram, sempre com o nome e o link da fonte original, onde está o conteúdo completo.
+
+Para respeitar o direito autoral, aqui só entram resumos curtos escritos com palavras próprias e trechos breves de falas públicas dos candidatos, entre aspas. Não são copiados textos inteiros, fotos, vídeos, gráficos ou logotipos de terceiros. O projeto não tem ligação com os veículos, institutos, checadores ou campanhas citados. Se você é autor de algum conteúdo citado e quer correção ou retirada, abra uma issue.
+
+O site e os dados são feitos com ajuda de inteligência artificial (Claude, da Anthropic): coleta, resumos, organização e código. Os dados passam por validação automática e por revisão de qualidade duas vezes por dia, e as correções ficam registradas em `data/erratas.json`. Mesmo assim pode haver erro: confira sempre na fonte.
+
 ## Licença
 
 - **Dados** (`data/`): [CC BY 4.0](LICENSE-DADOS.md). Pode usar para qualquer fim, inclusive comercial, citando este projeto e, para cada dado, a fonte original do campo `url`.
