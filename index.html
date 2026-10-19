@@ -39,6 +39,7 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-notif-open[hidden]{display:none}
 #el-notif{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;width:min(440px,calc(100vw - 24px));box-sizing:border-box;background:#FFFFFF;color:#16181D;border:2px solid #16181D;border-radius:18px;box-shadow:5px 5px 0 #16181D;padding:18px 18px 16px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:10px}
 #el-notif[hidden]{display:none}
+#el-ck:focus{outline:3px solid #FFD43B;outline-offset:2px}
 #el-ck{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:51;width:min(440px,calc(100vw - 24px));box-sizing:border-box;background:#FFFFFF;color:#16181D;border:2px solid #16181D;border-radius:18px;box-shadow:5px 5px 0 #16181D;padding:16px 18px 14px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:8px}
 #el-ck[hidden]{display:none}
 #el-ck h2{margin:0;font-size:1rem;line-height:1.3}
@@ -69,7 +70,7 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 :root[data-theme="dark"] #el-notif .nt-yes{border-color:#B9A3FF}
 
 .el{
-  --cf:#1F4FA8; --cl:#D62B2B;
+  --cf:#1F4FA8; --cl:#C62828;
   --f-true:#1E7B47; --f-mid:#C98A0B; --f-false:#26282E;
   --color-fg:#16181D; --color-fg-muted:#5A6170; --color-bg:#F6F3FB; --color-panel:#FFFFFF; --color-border-line:#E4DFEE;
   --color-ok:#1E7B47; --color-warn:#C98A0B; --color-bad:#B42318;
@@ -426,7 +427,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   .el-t.el-compact a{gap:2px}
   /* Listas longas: mostra as primeiras e um botão para ver todas */
   .el-t.el-stk.el-short tbody tr:nth-child(n+7){display:none}
-  .el-more{display:inline-flex}
+  .el .el-more{display:inline-flex}
 }
 @media (max-width:340px){
   .el{padding:12px}
@@ -462,6 +463,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   .el-sticky>header{padding:16px 16px}
   .el-sticky>header .el-flag{margin:-16px -16px 14px}
 }
+.el-sticky.el-stuck .el-t-sn{display:none}
+@media (max-width:40rem){.el-sticky.el-stuck .el-title{white-space:normal;overflow:visible}}
+.el-lv-switch{appearance:none;background:var(--color-panel);color:var(--color-fg);padding:10px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer;margin-top:10px}
+@media (max-width:40rem){.el{padding-bottom:84px}}
 </style>
 </head>
 <body>
@@ -476,7 +481,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         <div class="el-seal" aria-hidden="true"><b>2º</b><span>turno</span></div>
         <div>
           <p class="el-eyebrow">Eleição presidencial 2026</p>
-          <h1 class="el-title" style="margin-top:2px">Flávio Bolsonaro × Lula</h1>
+          <h1 class="el-title" style="margin-top:2px">Flávio<span class="el-t-sn"> Bolsonaro</span> × Lula</h1>
         </div>
       </div>
       <div class="el-actions">
@@ -571,7 +576,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <article class="el-q" id="q-redes">
         <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h3 class="el-q-t">Quem movimenta mais as redes?</h3></div>
         <p class="el-q-a" id="q-redes-a">—</p>
-        <p class="el-q-s">Desde o 1º turno, Lula teve <b data-source="razao_redes" data-field="razao">—</b> vezes as curtidas, comentários e compartilhamentos de Flávio. Isso mostra mobilização, não quem vai ganhar.</p>
+        <p class="el-q-s">Das <b data-source="redes_placar" data-field="total">—</b> medidas reunidas, Lula está na frente em <b data-source="redes_placar" data-field="lula">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_lula">—</span>) e Flávio em <b data-source="redes_placar" data-field="flavio">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_flavio">—</span>). Cada medida conta uma parte da história, e nenhuma mostra quem vai ganhar.</p>
         <button class="el-q-more" data-go="redes">Ver as redes →</button>
       </article>
 
@@ -579,7 +584,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3 class="el-q-t">Tem muito boato circulando?</h3></div>
         <p class="el-q-a"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
         <p class="el-q-s"><b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Antes de compartilhar algo, confira a fonte.</p>
-        <button class="el-q-more" data-go="checagem">Ver os boatos →</button>
+        <button class="el-q-more" data-go="checagem" data-anchor="card-boatos">Ver os boatos →</button>
       </article>
 
       <article class="el-q" id="q-voto">
@@ -622,7 +627,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   <!-- ================= PESQUISAS ================= -->
   <section class="el-page" id="pesquisas" role="tabpanel" aria-labelledby="tab-pesquisas" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Pesquisas</span><p class="el-pgtitle">Quem está na frente, <em>pesquisa por pesquisa</em></p></div>
-    <p class="el-intro">Aqui estão todas as pesquisas do 2º turno. No gráfico, cada bolinha é uma pesquisa: quanto mais acima da linha do meio, mais Flávio está à frente; quanto mais abaixo, mais Lula.</p>
+    <p class="el-intro">Aqui estão as pesquisas nacionais do 2º turno. O gráfico mostra todas as rodadas; a tabela mostra a mais recente de cada instituto. No gráfico, cada bolinha é uma pesquisa: quanto mais acima da linha do meio, mais Flávio está à frente; quanto mais abaixo, mais Lula.</p>
     <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
     <div class="el-kpis">
       <div class="el-card">
@@ -720,7 +725,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <div class="el-grid">
       <div class="el-card" id="card-redes">
         <h2 class="el-h">Lula e Flávio nas redes</h2>
-        <p class="el-note">Perfis oficiais no Instagram, Facebook, TikTok e X, segundo a Bites. Cada métrica na sua própria escala.</p>
+        <p class="el-note">Perfis oficiais dos candidatos, segundo Bites, Quaest, TV Globo, Projeto Brief e AP Exata (a fonte de cada linha está ao lado). Cada métrica na sua própria escala.</p>
         <div class="dash-skeleton" id="ch-redes" data-source="redes" style="min-height:16rem"></div>
       </div>
       <div class="el-card" id="card-sinais">
@@ -794,7 +799,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     </div>
     <div class="el-card el-howto">
       <h2 class="el-h">Como ler esta aba</h2>
-      <p>Reúne checagens da Lupa, do Aos Fatos e do Ranking dos Políticos sobre falas dos dois candidatos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
+      <p>Reúne checagens de falas dos dois candidatos feitas por agências como Lupa, Aos Fatos, Estadão Verifica, g1 Fato ou Fake e Ranking dos Políticos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
       <div class="el-legend">
         <span><i class="el-dot" style="background:var(--f-true)"></i>Verdadeiro</span>
         <span><i class="el-dot" style="background:var(--f-mid)"></i>Impreciso ou sem contexto</span>
@@ -823,7 +828,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         </tr></thead>
         <tbody></tbody>
       </table>
-      <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas e lives, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
+      <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas, lives e debates, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
     </div>
 
     <div class="el-card" id="card-placar">
@@ -867,7 +872,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     <div class="el-card" id="card-checagens">
       <h2 class="el-h">Afirmações checadas</h2>
-      <p class="el-note">Falas dos candidatos em entrevistas e lives, com o selo original do checador e a explicação resumida.</p>
+      <p class="el-note">Falas dos candidatos em entrevistas, lives e debates, com o selo original do checador e a explicação resumida.</p>
       <div class="el-chips" id="chips-cand">
         <span class="el-chip-l">Candidato</span>
         <button class="el-chip" data-cand="Todos" aria-pressed="true">Todos</button>
@@ -986,7 +991,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
     <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
-    <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. Na página pública, o botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
+    <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
   </section>
 
   <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre">
@@ -1024,12 +1029,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
     loader: function () {}, refresh: function () {}
   };
+  var loadedOnce = {};
   function load() {
-    var ts = Date.now();
-    Promise.all(DATASETS.map(function (id) {
-      return fetch("data/" + id + ".json?v=" + ts, {cache: "no-store"})
+    var onVerify = /verificar/.test(location.hash);
+    Promise.all(DATASETS.filter(function (id) {
+      // os códigos de verificação são grandes: só recarrega quando a aba Verificar está aberta
+      return id !== "selos" || onVerify || !loadedOnce[id];
+    }).map(function (id) {
+      return fetch("data/" + id + ".json", {cache: "no-cache"})
         .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-        .then(function (rows) { store[id] = {status: "ok", data: rows}; })
+        .then(function (rows) { store[id] = {status: "ok", data: rows}; loadedOnce[id] = true; })
         .catch(function () { if (store[id].status !== "ok") store[id] = {status: "error", data: []}; });
     })).then(function () { computeCalcs(); run(); });
   }
@@ -1213,6 +1222,18 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     fn: (redes) => {
       const r = redes.find(x => x.id === "int-2t");
       return [{razao: Math.round(Number(r.lula) / Number(r.flavio) * 10) / 10, lula: Number(r.lula), flavio: Number(r.flavio)}];
+    }
+  });
+
+  dash.calc("redes_placar", {
+    title: "Quem lidera em cada medida das redes",
+    description: "Conta em quantas das medidas reunidas no conjunto de redes cada candidato tem o número maior.",
+    inputs: ["redes"],
+    fn: (redes) => {
+      const rows = redes.filter(r => r.lula != null && r.flavio != null && Number(r.lula) !== Number(r.flavio));
+      const L = rows.filter(r => Number(r.lula) > Number(r.flavio)), F = rows.filter(r => Number(r.flavio) > Number(r.lula));
+      const ex = r => r ? String(r.metrica).charAt(0).toLowerCase() + String(r.metrica).slice(1) : "—";
+      return [{total: rows.length, lula: L.length, flavio: F.length, ex_lula: ex(L[0]), ex_flavio: ex(F[0])}];
     }
   });
 
@@ -1773,6 +1794,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   // ---------- Ao vivo ----------
   let lvFilter = "Tudo";
+  let lvOverride = null;
   chipGroup("lv-chips", "data-lv", v => { lvFilter = v; });
   function pickLiveEvent() {
     const d = dash.data("destaques");
@@ -1788,9 +1810,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const hasRows = x => rows.some(r => r.evento === x.e.id);
     const upcoming = evs.filter(x => x.t.start > now).sort((a, b) => a.t.start - b.t.start)[0];
     const recent = evs.filter(x => x.t.end < now && hasRows(x)).sort((a, b) => b.t.end - a.t.end)[0];
-    if (upcoming && upcoming.t.start - now < 12 * H) return Object.assign(upcoming, {state: "soon"});
+    if (lvOverride && recent && recent.e.id === lvOverride) return Object.assign(recent, {state: "ended", back: !!upcoming});
+    if (upcoming && upcoming.t.start - now < 12 * H) return Object.assign(upcoming, {state: "soon", prev: recent || null});
     if (recent && now - recent.t.end < 48 * H) return Object.assign(recent, {state: "ended"});
-    if (upcoming) return Object.assign(upcoming, {state: "soon"});
+    if (upcoming) return Object.assign(upcoming, {state: "soon", prev: recent || null});
     if (recent) return Object.assign(recent, {state: "ended"});
     return null;
   }
@@ -1822,6 +1845,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (state !== "ended" && e.como_assistir) sub += "Como assistir: " + e.como_assistir;
     if (state === "ended") sub = "Abaixo, os principais momentos e as falas checadas, do fim para o começo.";
     if (sub) head.appendChild(mk("p", "el-bn-d", sub));
+    if (pick.back) { const bk = mk("button", "el-btn el-lv-switch", "← Voltar para o próximo evento"); bk.type = "button"; bk.addEventListener("click", () => { lvOverride = null; renderLive(); }); head.appendChild(bk); }
 
     const lv = dash.data("aovivo");
     const all = lv.status === "ok" ? (lv.data || []).filter(r => r.evento === e.id) : [];
@@ -1844,7 +1868,12 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const rows = all.filter(r => lvFilter === "Tudo" || (lvFilter === "Checagem" ? r.tipo === "Checagem" : r.candidato === lvFilter));
     if (lv.status !== "ok") { feed.appendChild(mk("li", "el-empty", lv.status === "error" ? "Não foi possível carregar a cobertura ao vivo." : "Carregando…")); return; }
     if (!rows.length) {
-      feed.appendChild(mk("li", "el-empty", all.length ? "Nada com esse filtro ainda." : (state === "soon" ? "Assim que o debate começar, os principais momentos e as checagens das falas aparecem aqui." : "Ainda não há registros deste evento.")));
+      feed.appendChild(mk("li", "el-empty", all.length ? "Nada com esse filtro ainda." : (state === "soon" ? "Assim que o evento começar, os principais momentos e as falas checadas aparecem aqui." : "Ainda não há registros deste evento.")));
+      if (!all.length && state === "soon" && pick.prev) {
+        const li = mk("li", "el-empty"); const bt = mk("button", "el-btn el-lv-switch", "Ver como foi: " + pick.prev.e.titulo + " →"); bt.type = "button";
+        bt.addEventListener("click", () => { lvOverride = pick.prev.e.id; renderLive(); const h = document.getElementById("lv-head"); if (h && h.scrollIntoView) h.scrollIntoView({block: "start"}); });
+        li.appendChild(bt); feed.appendChild(li);
+      }
       return;
     }
     rows.forEach(r => {
@@ -1961,6 +1990,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const VF_NOMES = {pesquisas: "Pesquisa de intenção de voto", primeiro_turno: "Resultado do 1º turno", transferencia: "Votos de eleitores de candidatos derrotados", redes: "Números das redes sociais", sinais: "Leitura das redes sociais", agenda: "Agenda dos candidatos", campanha: "Fato da campanha", destaques: "Evento (debate ou votação)", checagens_placar: "Placar de checagem", checagens: "Fala checada", boatos: "Boato desmentido", aovivo: "Registro do ao vivo"};
   const VF_CAMPOS = {instituto: "Instituto", divulgacao: "Divulgada em", campo: "Entrevistas", amostra: "Pessoas ouvidas", margem: "Margem de erro (pontos)", flavio_validos: "Flávio (votos válidos, %)", lula_validos: "Lula (votos válidos, %)", flavio_totais: "Flávio (votos totais, %)", lula_totais: "Lula (votos totais, %)", candidato: "Candidato", partido: "Partido", pct: "Votos válidos (%)", votos: "Votos", grupo: "Grupo", pesquisa: "Pesquisa", flavio: "Flávio", lula: "Lula", metrica: "O que mede", periodo: "Período", sinal: "O que se viu", data: "Data", tipo: "Tipo", descricao: "O que aconteceu", titulo: "Título", hora_inicio: "Começa", hora_fim: "Termina", local: "Local", como_assistir: "Como assistir", agencia: "Checador", evento: "Evento", total: "Falas checadas", verdadeiro: "Verdadeiras", impreciso: "Imprecisas ou sem contexto", falso: "Falsas", nota: "Observação", afirmacao: "O que foi dito", veredito: "Selo do checador", categoria: "Faixa", explicacao: "Explicação", direcao: "Tipo de fala", alvo: "Contra", boato: "Boato", beneficiado: "Favorece", origem_campo: "Origem", origem_detalhe: "Sobre a origem", tema: "Tema", hora: "Hora", texto: "Texto", fonte: "Fonte", url: "Link da fonte"};
   const normCode = v => { const h = String(v || "").toUpperCase().replace(/[^0-9A-F]/g, ""); return h.length === 8 ? h.slice(0, 4) + "-" + h.slice(4) : null; };
+  const looksFull = v => String(v || "").replace(/[^0-9A-Za-z]/g, "").length === 8;
   function renderVerify(raw) {
     const out = document.getElementById("vf-out"); if (!out) return;
     out.replaceChildren();
@@ -1968,6 +1998,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const box = mk("div", "el-vf-res"), st = mk("div", "el-vf-st");
     const set = (color, txt) => { box.style.setProperty("--vf-c", color); st.append(mk("i"), document.createTextNode(txt)); box.appendChild(st); };
     const code = normCode(raw);
+    if (!code && looksFull(raw)) { set("var(--color-bad)", "Código não encontrado"); box.appendChild(mk("p", null, "Os códigos usam só os números de 0 a 9 e as letras de A a F, como 3F9A-12C7. Confira se não trocou alguma letra; se o código estiver certo, o print pode ter sido alterado.")); out.appendChild(box); return; }
     if (!code) { set("var(--color-bad)", "Código incompleto"); box.appendChild(mk("p", null, "O código tem 8 letras e números, como 3F9A-12C7. Confira se digitou tudo.")); out.appendChild(box); return; }
     const d = selosData();
     if (d.status !== "ok") {
@@ -2136,6 +2167,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     fillMarks("primeiro_turno", {pct: v => fNum(v)});
     fillMarks("pt_dif", {dif: v => fNum(v), votos: v => fInt(v)});
     fillMarks("razao_redes", {razao: f1, lula: v => fComp.format(v), flavio: v => fComp.format(v)});
+    fillMarks("redes_placar", {});
     fillMarks("redes", {lula: v => fComp.format(v), flavio: v => fComp.format(v)});
     fillMarks("boatos_matriz", {n: v => fInt(v)});
     fillMarks("boatos_resumo", {total: v => fInt(v), contra_lula: v => fInt(v), contra_flavio: v => fInt(v)});
@@ -2160,7 +2192,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (pdr) setAns("q-pt-a", pdr.dif > 0 ? (pdr.dif < 3 ? "Flávio, por pouco" : "Flávio") : pdr.dif < 0 ? (pdr.dif > -3 ? "Lula, por pouco" : "Lula") : "Empate", pdr.dif > 0 ? CF : pdr.dif < 0 ? CL : null);
     else setAns("q-pt-a", "—");
     const rz0 = dash.data("razao_redes"), rzr = rz0.status === "ok" && rz0.data && rz0.data[0];
-    if (rzr) setAns("q-redes-a", rzr.razao > 1 ? "Lula" : rzr.razao < 1 ? "Flávio" : "Empatados", rzr.razao > 1 ? CL : rzr.razao < 1 ? CF : null);
+    if (rzr) setAns("q-redes-a", "Depende da medida", null);
     else setAns("q-redes-a", "—");
     const tx0 = dash.data("taxa_resumo");
     const txOf = c => { const r = tx0.status === "ok" ? (tx0.data || []).find(x => x.candidato === c) : null; return r && r.taxa != null ? r.taxa : null; };
@@ -2270,7 +2302,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (erEmpty) erEmpty.hidden = !(erRows && !erRows.length);
     { const te = document.getElementById("t-erratas"); te.hidden = !(erRows && erRows.length); if (erRows && erRows.length) te.setAttribute("data-source", "erratas"); else te.removeAttribute("data-source"); }
     table("#t-erratas", erRows, [
-      {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "o_que_mudou"},
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "o_que_mudou", render: (td, r) => { td.text(r.o_que_mudou + (VF_NOMES[r.conjunto] ? " (" + VF_NOMES[r.conjunto].toLowerCase() + ")" : "")); }},
       {f: "antes", cls: "el-src"}, {f: "depois"}, {f: "motivo", cls: "el-src"},
       {f: "url", render: (td, r) => { const u = safeUrl(r.url); if (!u) { td.text("—"); return; } const a = td.append("a").attr("href", u).attr("target", "_blank").attr("rel", "noopener noreferrer").text("Fonte"); a.node().appendChild(extIcon()); }}
     ], r => r.id);
@@ -2345,6 +2377,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const id = b.getAttribute("data-go");
     show(id, true); goTop(id);
     const pg = document.getElementById(id); if (pg) pg.focus({preventScroll: true});
+    const an = b.getAttribute("data-anchor"), ae = an && document.getElementById(an);
+    if (ae) setTimeout(() => { ae.scrollIntoView({block: "start"}); window.scrollBy(0, -140); }, 60);
   }));
 
   dash.onData(redraw);
@@ -2364,7 +2398,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
 })();
 </script>
-<div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" hidden>
+<div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
   <h2 id="ck-t">Podemos usar cookies de estatística?</h2>
   <p id="ck-d">Se você aceitar, o Google Analytics usa cookies para contar visitas e ver quais abas são mais lidas. Não usamos para anúncios. Se recusar, o site funciona igual.</p>
   <div class="nt-btns">
@@ -2389,7 +2423,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
   window.elGA = function (path, title) { if (!loaded) return; try { gtag("event", "page_view", {page_title: title, page_location: location.origin + location.pathname + "#" + path}); } catch (e) {} };
   function hide() { box.hidden = true; }
-  function show() { box.hidden = false; setTimeout(function () { var y = document.getElementById("ck-yes"); if (y) y.focus({preventScroll: true}); }, 50); }
+  function show() { box.hidden = false; setTimeout(function () { box.focus({preventScroll: true}); }, 50); }
   document.getElementById("ck-yes").addEventListener("click", function () { set("sim"); hide(); load(); });
   document.getElementById("ck-no").addEventListener("click", function () {
     var had = loaded; set("nao"); hide();
