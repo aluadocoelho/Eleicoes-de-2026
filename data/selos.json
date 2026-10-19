@@ -324,6 +324,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0E0A-FB64",
+  "conjunto": "aovivo",
+  "id": "band-17",
+  "registro": {
+   "id": "band-17",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:35",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Sobre a investigação envolvendo Lulinha, Lula disse que o filho abriu a conta bancária e o telefone para ser investigado e afirmou: \"No meu mundo, ninguém se esconde\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/lula-rebate-flavio-e-defende-lulinha-no-meu-mundo-ninguem-se-esconde"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E892-9725",
+  "conjunto": "aovivo",
+  "id": "band-18",
+  "registro": {
+   "id": "band-18",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:40",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio disse que Lula \"está gastando loucamente pra tentar se reeleger\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-lula-gasta-de-forma-desenfreada-e-precisa-deixar-a-presidencia/"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7493-D357",
+  "conjunto": "aovivo",
+  "id": "band-19",
+  "registro": {
+   "id": "band-19",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:45",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Sobre economia, Flávio disse ao eleitor que \"essa dívida não é sua, essa dívida é do atual governo\" e perguntou: \"A comida está mais cara ou está mais barata?\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "BPMoney",
+   "url": "https://bpmoney.com.br/economia/debate-band-lula-renda-flavio-divida-publica/"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5F45-9B67",
+  "conjunto": "aovivo",
+  "id": "band-20",
+  "registro": {
+   "id": "band-20",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:45",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Sobre economia, Lula disse que é preciso \"fazer primeiro o dinheiro circular na mão das pessoas\" e lembrou que o país pagou o FMI e formou US$ 270 bilhões em reservas.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "BPMoney",
+   "url": "https://bpmoney.com.br/economia/debate-band-lula-renda-flavio-divida-publica/"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AC66-2035",
+  "conjunto": "aovivo",
+  "id": "band-21",
+  "registro": {
+   "id": "band-21",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:45",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula disse que Flávio contou \"43 mentiras\" sobre o caso Vorcaro, cobrou explicações sobre R$ 134 milhões e afirmou: \"dia 25 você vai perder imunidade e você vai ter problema\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Band",
+   "url": "https://www.band.com.br/politica/eleicoes/lula-para-flavio-dia-25-voce-perdera-a-imunidade-e-vai-ter-problema"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A616-58CF",
+  "conjunto": "aovivo",
+  "id": "band-22",
+  "registro": {
+   "id": "band-22",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:50",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "No confronto direto do 1º bloco, Flávio chamou Lula para ficar ao seu lado e Lula respondeu: \"Quero distância de miliciano\". Flávio retrucou: \"Eu estou sem carteira aqui, senão amanhã me roubaram\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/quero-distancia-de-miliciano-diz-lula-a-flavio/"
+  },
+  "primeira_vez": "2026-10-19T00:29:27Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
