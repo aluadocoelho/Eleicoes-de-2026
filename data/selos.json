@@ -4972,6 +4972,38 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F452-D66F",
+  "conjunto": "redes",
+  "id": "globo-ig-mediana",
+  "registro": {
+   "id": "globo-ig-mediana",
+   "metrica": "Mediana de interações por post no Instagram (curtidas + comentários)",
+   "periodo": "5–14 out (2º turno)",
+   "lula": 680000,
+   "flavio": 658000,
+   "fonte": "TV Globo, via Piranot",
+   "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
+  },
+  "primeira_vez": "2026-10-19T11:28:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AD02-A082",
+  "conjunto": "redes",
+  "id": "globo-ig-postsdia",
+  "registro": {
+   "id": "globo-ig-postsdia",
+   "metrica": "Posts por dia no Instagram",
+   "periodo": "5–14 out (2º turno)",
+   "lula": 10.3,
+   "flavio": 2.4,
+   "fonte": "TV Globo, via Piranot",
+   "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
+  },
+  "primeira_vez": "2026-10-19T11:28:56Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0EA4-0746",
   "conjunto": "redes",
   "id": "int-1t",
@@ -5105,6 +5137,20 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/eleicoes-de-2026-marcam-a-transformacao-digital-da-esquerda-diz-bites/"
   },
   "primeira_vez": "2026-10-19T02:29:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6ECC-100A",
+  "conjunto": "sinais",
+  "id": "ig-discurso",
+  "registro": {
+   "id": "ig-discurso",
+   "data": "2026-10-18",
+   "sinal": "No Instagram, Lula passou a citar o adversário com mais frequência no 2º turno (Bolsonaro em 26% das legendas), enquanto Flávio reduziu as menções a Lula para 15% e manteve pedidos de voto em metade dos posts.",
+   "fonte": "TV Globo, via Piranot",
+   "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
+  },
+  "primeira_vez": "2026-10-19T11:28:56Z",
   "ainda_publicado": true
  },
  {
