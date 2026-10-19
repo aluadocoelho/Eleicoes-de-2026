@@ -75,6 +75,19 @@
    "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "B3FA-7407",
+  "conjunto": "agenda",
+  "id": "2026-10-21",
+  "registro": {
+   "data": "2026-10-21",
+   "lula": "Entrevista à TV Record; possível ato em Belo Horizonte (MG), não confirmado",
+   "flavio": "Fortaleza (CE): ato perto da Arena Castelão, anunciado por aliados",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-priorizam-sudeste-na-ultima-semana-de-campanha/"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
   "ainda_publicado": true
  },
  {
@@ -101,6 +114,19 @@
    "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9D43-9808",
+  "conjunto": "agenda",
+  "id": "2026-10-23",
+  "registro": {
+   "data": "2026-10-23",
+   "lula": "Debate na TV Globo, 21h20 (presença confirmada)",
+   "flavio": "Debate na TV Globo, 21h20 (participação indefinida)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-priorizam-sudeste-na-ultima-semana-de-campanha/"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
   "ainda_publicado": true
  },
  {
@@ -2461,6 +2487,66 @@
    "url": "https://viva.com.br/politica/mendonca-pede-destaque-e-adia-decisao-do-tse-sobre-propaganda-de-lula.html"
   },
   "primeira_vez": "2026-10-19T10:14:51Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F51C-0C2B",
+  "conjunto": "campanha",
+  "id": "e25",
+  "registro": {
+   "id": "e25",
+   "data": "2026-10-18",
+   "tipo": "Debate",
+   "descricao": "Segundo o Poder360, Lula tem presença confirmada no debate da TV Globo de 23/10, às 21h20; a participação de Flávio ainda estava indefinida.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-priorizam-sudeste-na-ultima-semana-de-campanha/"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1067-BE75",
+  "conjunto": "campanha",
+  "id": "e26",
+  "registro": {
+   "id": "e26",
+   "data": "2026-10-18",
+   "tipo": "Apoio",
+   "descricao": "O cantor Gusttavo Lima declarou voto em Flávio durante show em Assis Chateaubriand (PR).",
+   "fonte": "Gazeta Brasil",
+   "url": "https://gazetabrasil.com.br/entretenimento/2026/10/19/gusttavo-lima-declara-apoio-a-flavio-bolsonaro-durante-show-no-parana/"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E0CC-B117",
+  "conjunto": "campanha",
+  "id": "e27",
+  "registro": {
+   "id": "e27",
+   "data": "2026-10-19",
+   "tipo": "Apoio",
+   "descricao": "O ex-primeiro-ministro grego Alexis Tsipras declarou apoio a Lula em nota.",
+   "fonte": "ICL Notícias",
+   "url": "https://iclnoticias.com.br/ex-premie-grego-alexis-tsipras-declara-apoio-a-lula-e-destaca-defesa-da-democracia/"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1746-FCF0",
+  "conjunto": "campanha",
+  "id": "e28",
+  "registro": {
+   "id": "e28",
+   "data": "2026-10-12",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Em decisão provisória, o ministro Marco Aurélio Bellizze mandou Flávio, Carlos Bolsonaro, Pablo Marçal e Rony Gabriel apagarem em 24 horas posts com vídeo fora de contexto que ligava o público do ato pró-Lula na Paulista ao uso de drogas.",
+   "fonte": "Correio da Manhã",
+   "url": "https://www.correiodamanha.com.br/politica/2026/10/326358-tse-manda-flavio-bolsonaro-e-aliados-apagarem-video-falso-usado-para-atacar-ato-de-lula.html"
+  },
+  "primeira_vez": "2026-10-19T12:16:30Z",
   "ainda_publicado": true
  },
  {
