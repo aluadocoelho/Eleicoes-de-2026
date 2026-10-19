@@ -650,7 +650,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2434,6 +2434,18 @@
   "titulo": "Montagem altera título de notícia para atribuir a Janja a frase ‘nem Deus tira eleição de Lula’",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/janja-nem-deus-tira-essa-eleicao-de-lula-falso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/jair-bolsonaro-pilula-do-aborto-enganoso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Jair Bolsonaro defendeu uso da pílula do aborto no Brasil",
+  "quem_disse": "Boato nas redes sociais",
+  "data_afirmacao": "2026-09-29",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Jair Bolsonaro não defendeu uso de 'pílula do aborto'; peça de ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/jair-bolsonaro-pilula-do-aborto-enganoso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/imagens-aereas-mostram-bloco-de-sao-joao-e-nao-ato-politico-de-flavio-bolsonaro-em-recife/",
