@@ -1999,6 +1999,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "04F7-1F36",
+  "conjunto": "boatos",
+  "id": "b29",
+  "registro": {
+   "id": "b29",
+   "data": "2026-10-13",
+   "alvo": "Flávio",
+   "boato": "Flávio planejaria cortar Farmácia Popular, Minha Casa Minha Vida e outros programas (\"tesouraço\")",
+   "veredito": "Sem base; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O ministro André Mendonça viu que o vídeo dava os cortes como fato sem nenhuma fala ou proposta de Flávio que os sustentasse e mandou retirá-lo.",
+   "url": "https://revistaoeste.com/politica/tse-manda-campanha-de-lula-retirar-video-com-fake-news-contra-flavio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo publicado em 6/10 nas redes da campanha de Lula, segundo a decisão do TSE.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-19T11:27:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B2E2-C979",
+  "conjunto": "boatos",
+  "id": "b30",
+  "registro": {
+   "id": "b30",
+   "data": "2026-10-18",
+   "alvo": "Lula",
+   "boato": "Morte de organizador de carreata pró-Flávio seria ligada a facções que apoiam Lula",
+   "veredito": "Sem respaldo nos fatos; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "A ministra Estela Aranha viu conclusões sem base no que se sabe do crime, ainda sob investigação, e deu 24 horas para apagar a publicação.",
+   "url": "https://veronoticias.com/politica/tse-manda-vice-de-flavio-apagar-video-que-associa-lula-ao-crime-organizado/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Vídeo publicado por Alfredo Gaspar (PL-AL), candidato a vice na chapa de Flávio, segundo a decisão do TSE.",
+   "tema": "Segurança"
+  },
+  "primeira_vez": "2026-10-19T11:27:59Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
