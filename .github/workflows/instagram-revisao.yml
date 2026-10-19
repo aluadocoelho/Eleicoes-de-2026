@@ -27,7 +27,7 @@ jobs:
           partes, titulos = [], []
           for cfg in sorted(glob.glob('instagram/fila/*/post.json')):
               pasta = os.path.dirname(cfg); pid = os.path.basename(pasta)
-              if pid != ramo.split('/', 1)[1]: continue
+              if not pid.startswith(ramo.split('/', 1)[1]): continue
               p = json.load(open(cfg))
               titulos.append(f"{p['tipo']}: {p.get('titulo', pid)}")
               imgs = ''.join(

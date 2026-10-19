@@ -2,7 +2,7 @@
 
 Fluxo com aprovação:
 
-1. Uma tarefa agendada cria a peça (JPEG/MP4) e a legenda e envia para um ramo `instagram/<id>`, na pasta `instagram/fila/<id>/`.
+1. Uma tarefa agendada cria a peça (JPEG/MP4) e a legenda e envia para um ramo `instagram/<id>`, em pastas `instagram/fila/<id>-feed/`, `instagram/fila/<id>-story/` etc.
 2. A automação `instagram-revisao.yml` abre um pull request com as imagens, a legenda e as fontes.
 3. **Aprovar = fazer o merge.** Descartar = fechar o pull request.
 4. No merge, `instagram.yml` publica pela API oficial do Instagram e move a pasta para `instagram/publicados/<id>/`, com o link do post em `resultado.json`.
