@@ -52,5 +52,23 @@
   "flavio": 2400000,
   "fonte": "Bites, via Poder360",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/eleicoes-de-2026-marcam-a-transformacao-digital-da-esquerda-diz-bites/"
+ },
+ {
+  "id": "globo-ig-postsdia",
+  "metrica": "Posts por dia no Instagram",
+  "periodo": "5–14 out (2º turno)",
+  "lula": 10.3,
+  "flavio": 2.4,
+  "fonte": "TV Globo, via Piranot",
+  "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
+ },
+ {
+  "id": "globo-ig-mediana",
+  "metrica": "Mediana de interações por post no Instagram (curtidas + comentários)",
+  "periodo": "5–14 out (2º turno)",
+  "lula": 680000,
+  "flavio": 658000,
+  "fonte": "TV Globo, via Piranot",
+  "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
  }
 ]
