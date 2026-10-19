@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "id": "er01",
+  "data": "2026-10-19",
+  "conjunto": "pesquisas",
+  "registro_id": "vox-0910",
+  "o_que_mudou": "Link e detalhes da pesquisa Vox Brasil de 9/10",
+  "antes": "Link levava à reportagem da pesquisa Vox de 18/10; Flávio com 49,13% dos válidos",
+  "depois": "Link da reportagem da própria pesquisa de 9/10; Flávio com 49,14%; campo 5 a 7/10, 2.100 entrevistas, margem de 2,15 pontos",
+  "motivo": "A reportagem da pesquisa de 9/10 traz Lula com 50,86% e Flávio com 49,14% dos votos válidos, entrevistas de 5 a 7 de outubro",
+  "url": "https://www.metropoles.com/brasil/vox-brasil-no-2o-turno-lula-tem-5086-e-flavio-4914-dos-votos-validos"
+ },
+ {
+  "id": "er02",
+  "data": "2026-10-19",
+  "conjunto": "pesquisas",
+  "registro_id": "vox-1810",
+  "o_que_mudou": "Margem de erro da pesquisa Vox Brasil de 18/10",
+  "antes": "Sem margem de erro",
+  "depois": "Margem de 2,15 pontos",
+  "motivo": "A reportagem da pesquisa informa margem de erro de 2,15 pontos para mais ou para menos",
+  "url": "https://www.portalenoticias.com.br/agora-sai-aposta-pesquisa-deste-domingo-18-mostra-lula-na-frente-de-flavio-bolsonaro-veja-os-numeros/"
+ }
+]

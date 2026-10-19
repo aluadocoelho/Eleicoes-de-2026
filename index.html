@@ -649,7 +649,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     <div class="el-card" id="card-dif">
       <h2 class="el-h">Diferença Flávio − Lula em cada pesquisa</h2>
-      <p class="el-note">Pontos nos votos válidos, por data de divulgação. Linhas cinza ligam rodadas do mesmo instituto; toque ou passe o mouse para ver os números.</p>
+      <p class="el-note">Cada ponto é uma pesquisa, e a altura mostra <b>quantos pontos de vantagem</b> o líder tem nos votos válidos, não a porcentagem de cada um. Exemplo: a Vox de 18/10 deu Lula 51% e Flávio 49%, então o ponto fica em <b>L +2</b>. Acima da linha do empate, Flávio está à frente; abaixo, Lula. As linhas cinza ligam pesquisas do mesmo instituto, com o nome dele na ponta. Toque num ponto para ver os números.</p>
       <div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div>
     </div>
 
@@ -1457,6 +1457,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const dots = g.selectAll("circle.pt").data(data).join("circle")
       .attr("cx", d => x(d.d)).attr("cy", d => y(d.dif)).attr("r", 5.5)
       .attr("fill", color).style("stroke", "var(--color-panel)").attr("stroke-width", 1.5);
+    // Nome do instituto na ponta de cada linha (última rodada), sem sobrepor
+    const shortName = n => String(n).split("/")[0].replace(" Brasil", "");
+    const ends = groups.map(([k, v]) => { const e = v.slice().sort((a, b) => b.d - a.d)[0]; return {k: shortName(k), d: e.d, dif: e.dif, x: x(e.d), y: y(e.dif)}; })
+      .sort((a, b) => a.y - b.y);
+    ends.forEach((e, i) => { e.ly = e.y; for (let j = 0; j < i; j++) { const o = ends[j]; if (Math.abs(e.x - o.x) < 70 && Math.abs(e.ly - o.ly) < 13) e.ly = o.ly + 13; } });
+    g.selectAll("text.inst").data(ends).join("text")
+      .attr("x", d => d.x + (d.x > W - 90 ? -9 : 9)).attr("y", d => d.ly).attr("dy", "-0.55em")
+      .attr("text-anchor", d => d.x > W - 90 ? "end" : "start")
+      .style("font-size", "11px").style("font-weight", "600").attr("fill", "var(--color-fg-muted)")
+      .style("paint-order", "stroke").style("stroke", "var(--color-panel)").style("stroke-width", "3px").text(d => d.k);
     const hide = () => { tip.style.opacity = 0; dots.attr("r", 5.5); };
     svg.on("pointermove pointerdown", (ev) => {
       const [px, py] = d3.pointer(ev);
@@ -1470,6 +1480,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         const s = document.createElement("i"); s.className = "el-dot"; s.style.background = c; s.style.marginRight = "6px";
         r.appendChild(s); r.appendChild(document.createTextNode(nm + " " + pct(v))); tip.appendChild(r);
       }
+      { const r = document.createElement("div"); r.className = "el-tip-d"; const a = Math.abs(best.dif);
+        r.textContent = a < 0.05 ? "Empate nos votos válidos" : "Vantagem: " + (best.dif > 0 ? "Flávio" : "Lula") + " +" + Lc.format(".1f")(a) + " ponto" + (a >= 1.95 ? "s" : ""); tip.appendChild(r); }
       tip.style.opacity = 1;
       const tw = tip.offsetWidth, th = tip.offsetHeight;
       let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
