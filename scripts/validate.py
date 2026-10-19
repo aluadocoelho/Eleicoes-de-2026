@@ -110,6 +110,13 @@ SCHEMAS = {
         },
         "required": ["id", "evento", "data", "hora", "tipo", "texto", "fonte", "url"],
     },
+    "erratas": {
+        "key": "id",
+        "fields": ["id", "data", "conjunto", "registro_id", "o_que_mudou", "antes", "depois", "motivo", "url"],
+        "dates": ["data"],
+        "enums": {"conjunto": ["pesquisas", "transferencia", "redes", "sinais", "agenda", "campanha", "destaques", "checagens_placar", "checagens", "boatos", "aovivo"]},
+        "required": ["id", "data", "conjunto", "registro_id", "o_que_mudou", "motivo", "url"],
+    },
     "status": {
         "key": "id",
         "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],

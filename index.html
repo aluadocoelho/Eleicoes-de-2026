@@ -920,6 +920,15 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       </form>
     </div>
     <div id="vf-out" aria-live="polite"></div>
+    <div class="el-card" id="card-erratas">
+      <h2 class="el-h">Correções (erratas)</h2>
+      <p class="el-note">Duas vezes por dia conferimos as informações publicadas contra as fontes originais. Quando achamos um erro, corrigimos e registramos aqui o que mudou e por quê.</p>
+      <p class="el-empty" id="errata-empty" hidden>Nenhuma correção até agora.</p>
+      <table class="el-t el-stk" id="t-erratas" data-source="erratas" data-row-key="id">
+        <thead><tr><th data-field="data">Data</th><th data-field="o_que_mudou">O que foi corrigido</th><th data-field="antes">Antes</th><th data-field="depois">Depois</th><th data-field="motivo">Motivo</th><th data-field="url">Fonte</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
     <div class="el-card el-howto">
       <h2 class="el-h">Como funciona</h2>
       <p>O código é calculado a partir do conteúdo exato da informação. Se alguém mudar uma letra ou um número, o código deixa de bater.</p>
@@ -941,7 +950,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo","selos"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo","selos","erratas"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -1856,6 +1865,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const SELO_KEY = {pesquisas: "id", ultimas: "id", primeiro_turno: "candidato", transferencia: "id", redes: "id", sinais: "id", agenda: "data", campanha: "id", destaques: "id", checagens_placar: "id", checagens: "id", boatos: "id", aovivo: "id"};
   let seloMap = null, seloAll = null;
   // Os códigos só existem na página pública; no painel, este conjunto não existe e é ignorado.
+  function erratasData() { try { const d = dash.data("erratas"); return d && d.status ? d : {status: "missing", data: []}; } catch (e) { return {status: "missing", data: []}; } }
   function selosData() { try { const d = dash.data("selos"); return d && d.status ? d : {status: "missing", data: []}; } catch (e) { return {status: "missing", data: []}; } }
   function loadSelos() {
     const d = selosData();
@@ -1922,6 +1932,11 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       row(VF_CAMPOS[k] || k, /^\d{4}-\d{2}-\d{2}$/.test(String(v)) ? dFmt(dParse(v)) + "/" + String(v).slice(0, 4) : String(v));
     });
     box.appendChild(dl);
+    if (!x.ainda_publicado) {
+      const er = erratasData();
+      const fix = er.status === "ok" ? (er.data || []).filter(e => e.conjunto === x.conjunto && String(e.registro_id) === String(x.id)) : [];
+      fix.forEach(e => box.appendChild(mk("p", null, "Correção de " + dFmt(dParse(e.data)) + ": " + e.o_que_mudou + ". Motivo: " + e.motivo)));
+    }
     out.appendChild(box);
   }
   function openVerify(code) {
@@ -2178,6 +2193,18 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       {f: "veredito", render: dotCell("veredito", r => /^Removido|^Sem/.test(r.veredito) ? CAT["Impreciso ou sem contexto"] : CAT["Falso"])},
       {f: "origem_detalhe", cls: "el-src el-sm-hide"},
       {f: "explicacao", cls: "el-src"}, {f: "agencia", render: linkCell("agencia")}
+    ], r => r.id);
+    const er = erratasData();
+    const erRows = er.status === "ok" ? (er.data || []).slice().sort(byDateDesc) : null;
+    const erCard = document.getElementById("card-erratas");
+    if (erCard) erCard.hidden = er.status === "missing";
+    const erEmpty = document.getElementById("errata-empty");
+    if (erEmpty) erEmpty.hidden = !(erRows && !erRows.length);
+    document.getElementById("t-erratas").hidden = !(erRows && erRows.length);
+    table("#t-erratas", erRows, [
+      {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "o_que_mudou"},
+      {f: "antes", cls: "el-src"}, {f: "depois"}, {f: "motivo", cls: "el-src"},
+      {f: "url", render: (td, r) => { const u = safeUrl(r.url); if (!u) { td.text("—"); return; } const a = td.append("a").attr("href", u).attr("target", "_blank").attr("rel", "noopener noreferrer").text("Fonte"); a.node().appendChild(extIcon()); }}
     ], r => r.id);
     loadSelos();
     [["#t-ultimas", "pesquisas"], ["#t-transf", "transferencia"], ["#t-sinais", "sinais"], ["#t-agenda", "agenda"], ["#t-agenda-mini", "agenda"],
