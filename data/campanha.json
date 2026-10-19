@@ -190,5 +190,37 @@
   "descricao": "André Mendonça havia mandado tirar do ar comercial de Lula que diz que Flávio cortaria programas sociais; no plenário virtual, a maioria (4 a 3) derrubou a ordem, mas Mendonça pediu destaque e o caso vai ao plenário presencial, ainda sem data.",
   "fonte": "Viva",
   "url": "https://viva.com.br/politica/mendonca-pede-destaque-e-adia-decisao-do-tse-sobre-propaganda-de-lula.html"
+ },
+ {
+  "id": "e25",
+  "data": "2026-10-18",
+  "tipo": "Debate",
+  "descricao": "Segundo o Poder360, Lula tem presença confirmada no debate da TV Globo de 23/10, às 21h20; a participação de Flávio ainda estava indefinida.",
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-priorizam-sudeste-na-ultima-semana-de-campanha/"
+ },
+ {
+  "id": "e26",
+  "data": "2026-10-18",
+  "tipo": "Apoio",
+  "descricao": "O cantor Gusttavo Lima declarou voto em Flávio durante show em Assis Chateaubriand (PR).",
+  "fonte": "Gazeta Brasil",
+  "url": "https://gazetabrasil.com.br/entretenimento/2026/10/19/gusttavo-lima-declara-apoio-a-flavio-bolsonaro-durante-show-no-parana/"
+ },
+ {
+  "id": "e27",
+  "data": "2026-10-19",
+  "tipo": "Apoio",
+  "descricao": "O ex-primeiro-ministro grego Alexis Tsipras declarou apoio a Lula em nota.",
+  "fonte": "ICL Notícias",
+  "url": "https://iclnoticias.com.br/ex-premie-grego-alexis-tsipras-declara-apoio-a-lula-e-destaca-defesa-da-democracia/"
+ },
+ {
+  "id": "e28",
+  "data": "2026-10-12",
+  "tipo": "Justiça Eleitoral",
+  "descricao": "Em decisão provisória, o ministro Marco Aurélio Bellizze mandou Flávio, Carlos Bolsonaro, Pablo Marçal e Rony Gabriel apagarem em 24 horas posts com vídeo fora de contexto que ligava o público do ato pró-Lula na Paulista ao uso de drogas.",
+  "fonte": "Correio da Manhã",
+  "url": "https://www.correiodamanha.com.br/politica/2026/10/326358-tse-manda-flavio-bolsonaro-e-aliados-apagarem-video-falso-usado-para-atacar-ato-de-lula.html"
  }
 ]
