@@ -1084,6 +1084,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "37F4-3710",
+  "conjunto": "aovivo",
+  "id": "band-55",
+  "registro": {
+   "id": "band-55",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:40",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Sobre o fim da escala 6x1, Flávio disse que a mudança deve vir com mais segurança pública e poder de compra: \"Eu não quero que o seu dia de folga seja um dia de pesadelo, como está acontecendo com esse atual governo\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "ND+",
+   "url": "https://ndmais.com.br/politica/lula-diz-que-flavio-nunca-trabalhou-e-conhece-onibus-por-literatura-durante-debate-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D479-418F",
+  "conjunto": "aovivo",
+  "id": "band-56",
+  "registro": {
+   "id": "band-56",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:40",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Na discussão sobre a escala 6x1, Lula disse: \"Meu adversário conhece ônibus por literatura, porque nunca entrou no ônibus\", e afirmou que Flávio \"nunca trabalhou\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "ND+",
+   "url": "https://ndmais.com.br/politica/lula-diz-que-flavio-nunca-trabalhou-e-conhece-onibus-por-literatura-durante-debate-na-band/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "766B-0C96",
+  "conjunto": "aovivo",
+  "id": "band-57",
+  "registro": {
+   "id": "band-57",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "No 3º bloco, Lula questionou Flávio sobre a exploração de terras-raras por empresas dos EUA e disse que a família Bolsonaro atua a favor de interesses americanos.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-propoe-a-flavio-abrir-sigilos-bancario-e-telefonico-de-suas-familias/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F95C-A9EE",
+  "conjunto": "aovivo",
+  "id": "band-58",
+  "registro": {
+   "id": "band-58",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio negou ter trabalhado pela imposição de tarifas sobre produtos brasileiros e disse que viajou aos EUA para defender empresas nacionais.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-propoe-a-flavio-abrir-sigilos-bancario-e-telefonico-de-suas-familias/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1C90-D06D",
+  "conjunto": "aovivo",
+  "id": "band-59",
+  "registro": {
+   "id": "band-59",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula desafiou Flávio a abrir os sigilos bancário e telefônico das duas famílias e entregar os documentos aos presidentes do STF e do TSE antes de 25/10: \"Ao invés de ficar falando que é honesto, prove que é honesto\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-propoe-a-flavio-abrir-sigilos-bancario-e-telefonico-de-suas-familias/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1CA1-2DBF",
+  "conjunto": "aovivo",
+  "id": "band-60",
+  "registro": {
+   "id": "band-60",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio respondeu ao desafio dos sigilos: \"Eu não tenho absolutamente nada a esconder. Só que a questão, Lula, é que o seu dinheiro é por fora sempre\". Ele não disse se aceitaria abrir os sigilos.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-fala-em-abrir-sigilos-flavio-diz-que-nao-tem-nada-a-esconder/"
+  },
+  "primeira_vez": "2026-10-19T01:52:37Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
