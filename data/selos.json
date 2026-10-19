@@ -36,6 +36,19 @@
    "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-segunda-19-10"
   },
   "primeira_vez": "2026-10-19T10:14:51Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "D193-3359",
+  "conjunto": "agenda",
+  "id": "2026-10-19",
+  "registro": {
+   "data": "2026-10-19",
+   "lula": "Porto Alegre (RS): caminhada às 17h, com concentração no Largo dos Açorianos",
+   "flavio": "Marabá (PA): motocarreata, 11h; Manaus (AM): ato na Ponta Negra, 20h de Brasília",
+   "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/19/confira-a-agenda-de-lula-e-flavio-bolsonaro-desta-segunda-feira-19-10"
+  },
+  "primeira_vez": "2026-10-19T14:15:04Z",
   "ainda_publicado": true
  },
  {
@@ -153,6 +166,19 @@
    "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "AF66-608A",
+  "conjunto": "agenda",
+  "id": "2026-10-25",
+  "registro": {
+   "data": "2026-10-25",
+   "lula": "Vota em São Bernardo do Campo (SP); acompanha a apuração em São Paulo",
+   "flavio": "Vota no Rio; acompanha a apuração em Brasília",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-aliados-de-lula-fazem-atos-pelo-pais-na-reta-final-para-o-2o-turno/"
+  },
+  "primeira_vez": "2026-10-19T14:15:04Z",
   "ainda_publicado": true
  },
  {
@@ -2736,6 +2762,21 @@
    "url": "https://www.correiodamanha.com.br/politica/2026/10/326358-tse-manda-flavio-bolsonaro-e-aliados-apagarem-video-falso-usado-para-atacar-ato-de-lula.html"
   },
   "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CBBE-1CED",
+  "conjunto": "campanha",
+  "id": "e29",
+  "registro": {
+   "id": "e29",
+   "data": "2026-10-19",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Ministro Marco Aurélio Bellizze dá 24 horas para a Meta comprovar que trata igualmente os conteúdos de Lula e Flávio; se não comprovar, a multa diária sobe de R$ 500 mil para R$ 1 milhão. O pedido foi da coligação de Lula.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/tse-da-24-horas-para-meta-comprovar-paridade-nas-campanhas-de-lula-e-flavio"
+  },
+  "primeira_vez": "2026-10-19T14:15:04Z",
   "ainda_publicado": true
  },
  {
