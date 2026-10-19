@@ -115,5 +115,68 @@
   "flavio": 97000,
   "fonte": "Ativaweb Datalab, via UOL / Agora RN",
   "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+ },
+ {
+  "id": "bites-int-24h-pos",
+  "metrica": "Interações nos perfis oficiais",
+  "periodo": "24 h após o debate da Band (18 out)",
+  "lula": 25500000,
+  "flavio": 5000000,
+  "fonte": "Bites, via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+ },
+ {
+  "id": "bites-refs-debate",
+  "metrica": "Publicações monitoradas que citam o debate",
+  "periodo": "24 h após o debate da Band (18 out)",
+  "lula": 288000,
+  "flavio": 426000,
+  "fonte": "Bites, via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+ },
+ {
+  "id": "bites-memes-debate",
+  "metrica": "Posts com memes e cortes do debate",
+  "periodo": "24 h após o debate da Band (18 out)",
+  "lula": 9500,
+  "flavio": 7000,
+  "fonte": "Bites, via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+ },
+ {
+  "id": "palver-redes",
+  "metrica": "Participação nas menções com posicionamento nas redes (%)",
+  "periodo": "20h de 18 out às 9h de 19 out",
+  "lula": 59,
+  "flavio": 41,
+  "fonte": "Palver, via Exame",
+  "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+ },
+ {
+  "id": "palver-whatsapp",
+  "metrica": "Participação nas menções com posicionamento no WhatsApp (%)",
+  "periodo": "20h de 18 out às 9h de 19 out",
+  "lula": 49,
+  "flavio": 51,
+  "fonte": "Palver, via Exame",
+  "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+ },
+ {
+  "id": "palver-telegram",
+  "metrica": "Participação nas menções com posicionamento no Telegram (%)",
+  "periodo": "20h de 18 out às 9h de 19 out",
+  "lula": 41,
+  "flavio": 59,
+  "fonte": "Palver, via Exame",
+  "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+ },
+ {
+  "id": "brandwatch-debate",
+  "metrica": "Menções ao candidato nas redes",
+  "periodo": "18 out (dia do debate da Band) até a manhã de 19 out",
+  "lula": 1170000,
+  "flavio": 1200000,
+  "fonte": "Lilian Carvalho (FGV/EAESP, Brandwatch), via Tribuna do Planalto",
+  "url": "https://tribunadoplanalto.com.br/debate-gera-237-milhoes-de-mencoes-nas-redes-com-lula-e-flavio-empatados-em-volume/"
  }
 ]

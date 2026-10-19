@@ -82,5 +82,19 @@
   "sinal": "Segundo a Ativaweb Datalab, Lula publicou 12 vídeos após o debate da Band e Flávio 4; a consultoria calcula 60,5% de vantagem digital para Lula e 39,5% para Flávio. Flávio ficou com 51,6% do volume de comentários.",
   "fonte": "Ativaweb Datalab, via UOL / Agora RN",
   "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+ },
+ {
+  "id": "palver-debate",
+  "data": "2026-10-19",
+  "sinal": "Segundo a Palver, a vantagem de Lula nas redes caiu de 60% para 53% das menções com posicionamento na manhã seguinte ao debate; nos aplicativos de mensagens, Flávio chegou a 57% entre 7h e 8h. A discussão ficou cerca de 1,8 vez mais intensa que a média de 5 a 17 de outubro.",
+  "fonte": "Palver, via Exame",
+  "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+ },
+ {
+  "id": "bites-debate-assunto",
+  "data": "2026-10-19",
+  "sinal": "Segundo a Bites, o debate da Band respondeu por cerca de 20% do conteúdo digital do país até o meio-dia de segunda (1,7 milhão de citações), e o pedido de abertura de sigilo bancário gerou 501 mil citações até as 15h.",
+  "fonte": "Bites, via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
  }
 ]
