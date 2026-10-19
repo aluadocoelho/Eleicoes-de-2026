@@ -224,6 +224,106 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9C0A-3068",
+  "conjunto": "aovivo",
+  "id": "band-12",
+  "registro": {
+   "id": "band-12",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:35",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "No confronto livre do 1º bloco, Flávio perguntou se Lula conhece a lobista Roberta Luchsinger, investigada junto com Lulinha, e cobrou explicações sobre o filho do presidente, que mora na Espanha.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/flavio-pergunta-cade-lulinha-e-lula-diz-que-luchsinger-e-problema-da-pf"
+  },
+  "primeira_vez": "2026-10-19T00:05:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A8C8-42A2",
+  "conjunto": "aovivo",
+  "id": "band-13",
+  "registro": {
+   "id": "band-13",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:35",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula respondeu que o caso de Luchsinger é assunto da Polícia Federal e que não vai interferir na investigação. Em seguida, disse que Flávio teve escritório com o \"Careca do INSS\"; Flávio negou.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/flavio-pergunta-cade-lulinha-e-lula-diz-que-luchsinger-e-problema-da-pf"
+  },
+  "primeira_vez": "2026-10-19T00:05:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6396-4B93",
+  "conjunto": "aovivo",
+  "id": "band-14",
+  "registro": {
+   "id": "band-14",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:35",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Lula perguntou por que Flávio votou contra a ampliação da licença-maternidade quando era deputado estadual no Rio e questionou mudanças propostas por ele na PEC do fim da escala 6x1.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Mais Goiás",
+   "url": "https://maisgoias.com.br/blogs/poder-em-jogo/lula-e-flavio-focam-em-vorcaro-e-na-lobista-roberta-luchsinger-em-1o-bloco-do-debate"
+  },
+  "primeira_vez": "2026-10-19T00:05:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "60A6-3B97",
+  "conjunto": "aovivo",
+  "id": "band-15",
+  "registro": {
+   "id": "band-15",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:50",
+   "tipo": "Momento",
+   "candidato": "Lula",
+   "texto": "Ainda no 1º bloco, Lula cobrou de Flávio explicações sobre a relação com Daniel Vorcaro, do Banco Master, e disse: \"Vocês fizeram dele um banqueiro, e eu fiz dele um prisioneiro\".",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Mais Goiás",
+   "url": "https://maisgoias.com.br/blogs/poder-em-jogo/lula-e-flavio-focam-em-vorcaro-e-na-lobista-roberta-luchsinger-em-1o-bloco-do-debate"
+  },
+  "primeira_vez": "2026-10-19T00:05:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9751-0DE9",
+  "conjunto": "aovivo",
+  "id": "band-16",
+  "registro": {
+   "id": "band-16",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "20:50",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "Flávio disse que o dinheiro de Vorcaro foi para o filme \"Dark Horse\", afirmou que o escândalo do INSS começou em governo do PT, negou que queira mudar a PEC da escala 6x1 e prometeu novos critérios para indicar ministros do STF e autonomia para a Polícia Federal.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Mais Goiás",
+   "url": "https://maisgoias.com.br/blogs/poder-em-jogo/lula-e-flavio-focam-em-vorcaro-e-na-lobista-roberta-luchsinger-em-1o-bloco-do-debate"
+  },
+  "primeira_vez": "2026-10-19T00:05:55Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
