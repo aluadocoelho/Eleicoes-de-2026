@@ -1,0 +1,37 @@
+name: Instagram · publicar peças aprovadas
+
+# Roda quando uma peça aprovada (merge) chega em instagram/fila/ no ramo main.
+on:
+  push:
+    branches: [main]
+    paths: ["instagram/fila/**"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar
+        id: pub
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 scripts/instagram_publicar.py
+      - name: Mover para publicados
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain instagram/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A instagram/
+            git commit -m "Instagram: registra peças publicadas"
+            git pull --rebase origin main
+            git push
+          fi

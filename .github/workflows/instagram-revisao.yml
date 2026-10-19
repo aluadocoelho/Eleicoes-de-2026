@@ -1,0 +1,52 @@
+name: Instagram · abrir pedido de aprovação
+
+# Quando uma tarefa agendada envia uma peça para um ramo "instagram/<id>",
+# abre um pull request para você revisar. Aprovar = fazer o merge.
+on:
+  push:
+    branches: ["instagram/**"]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Montar descrição e abrir o pedido
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RAMO: ${{ github.ref_name }}
+          SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import json, os, glob, urllib.parse
+          ramo, sha, repo = os.environ['RAMO'], os.environ['SHA'], os.environ['GITHUB_REPOSITORY']
+          partes, titulos = [], []
+          for cfg in sorted(glob.glob('instagram/fila/*/post.json')):
+              pasta = os.path.dirname(cfg); pid = os.path.basename(pasta)
+              if pid != ramo.split('/', 1)[1]: continue
+              p = json.load(open(cfg))
+              titulos.append(f"{p['tipo']}: {p.get('titulo', pid)}")
+              imgs = ''.join(
+                  f'<img src="https://raw.githubusercontent.com/{repo}/{sha}/{pasta}/{urllib.parse.quote(a)}" width="260"> '
+                  for a in p['arquivos'] + ([p['capa']] if p.get('capa') else []) if a.lower().endswith(('.jpg', '.jpeg', '.png')))
+              vids = ''.join(f'\n\nVídeo: https://github.com/{repo}/blob/{sha}/{pasta}/{urllib.parse.quote(a)}' for a in p['arquivos'] if a.lower().endswith('.mp4'))
+              fontes = '\n'.join(f'- {u}' for u in p.get('fontes', []))
+              partes.append(f"### {p['tipo'].capitalize()} · {pid}\n\n{imgs}{vids}\n\n**Legenda:**\n\n```\n{p.get('legenda', '(story, sem legenda)')}\n```\n\n**Fontes conferidas:**\n{fontes or '- (nenhuma informada)'}")
+          corpo = ("**Para publicar no Instagram, faça o merge deste pedido.** Para descartar, feche sem merge.\n"
+                   "Para ajustar a legenda, edite o post.json neste ramo antes do merge.\n\n" + '\n\n---\n\n'.join(partes))
+          open('/tmp/corpo.md', 'w').write(corpo)
+          open('/tmp/titulo.txt', 'w').write('Instagram: ' + ('; '.join(titulos) or ramo))
+          PY
+          # A tarefa agendada abre o pedido; se ainda não abriu, tenta abrir aqui.
+          for i in $(seq 1 12); do
+            if gh pr list --head "$RAMO" --state open --json number --jq '.[0].number' | grep -q .; then
+              gh pr edit "$RAMO" --title "$(cat /tmp/titulo.txt)" --body-file /tmp/corpo.md && exit 0
+            fi
+            gh pr create --base main --head "$RAMO" --title "$(cat /tmp/titulo.txt)" --body-file /tmp/corpo.md 2>/dev/null && exit 0
+            sleep 10
+          done
+          echo "Nenhum pull request aberto para $RAMO. Abra pelo GitHub: Compare & pull request."

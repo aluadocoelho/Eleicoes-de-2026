@@ -1,0 +1,14 @@
+# Instagram da Verita Eleições
+
+Fluxo com aprovação:
+
+1. Uma tarefa agendada cria a peça (JPEG/MP4) e a legenda e envia para um ramo `instagram/<id>`, na pasta `instagram/fila/<id>/`.
+2. A automação `instagram-revisao.yml` abre um pull request com as imagens, a legenda e as fontes.
+3. **Aprovar = fazer o merge.** Descartar = fechar o pull request.
+4. No merge, `instagram.yml` publica pela API oficial do Instagram e move a pasta para `instagram/publicados/<id>/`, com o link do post em `resultado.json`.
+
+`post.json`: `{"tipo": "feed"|"carrossel"|"story"|"reels", "titulo": "...", "arquivos": ["feed.jpg"], "legenda": "...", "fontes": ["https://..."], "capa": "capa.jpg (só reels)"}`
+
+As peças são geradas com `python3 instagram/modelos/pecas.py especificacao.json pasta/` (modelos `pesquisa`, `lista`, `destaque`). Fontes Source Serif 4 e Public Sans sob a licença SIL Open Font License (arquivos em `modelos/fontes/`).
+
+Segredo necessário no GitHub: `IG_ACCESS_TOKEN` (token de longa duração da conta profissional do Instagram, gerado num app da Meta com a permissão `instagram_business_content_publish`; vale 60 dias).
