@@ -3744,6 +3744,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A6EA-EA2E",
+  "conjunto": "redes",
+  "id": "bites-seg-1t",
+  "registro": {
+   "id": "bites-seg-1t",
+   "metrica": "Novos seguidores",
+   "periodo": "16 ago–4 out (1º turno)",
+   "lula": 1400000,
+   "flavio": 2400000,
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/eleicoes-de-2026-marcam-a-transformacao-digital-da-esquerda-diz-bites/"
+  },
+  "primeira_vez": "2026-10-19T02:29:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0EA4-0746",
   "conjunto": "redes",
   "id": "int-1t",
@@ -3838,6 +3854,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "5A81-7138",
+  "conjunto": "sinais",
+  "id": "debate-band",
+  "registro": {
+   "id": "debate-band",
+   "data": "2026-10-18",
+   "sinal": "Na noite do debate da Band, hashtags favoráveis a Lula ocuparam quatro das cinco primeiras posições dos assuntos do momento no X, e buscas no Google por termos negativos ligados a Flávio subiram após pedido do canal de André Janones no WhatsApp.",
+   "fonte": "Poder360 (Google Trends e X)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/buscas-por-flavio-bolsonaro-disparam-apos-debate-com-lula-na-band/"
+  },
+  "primeira_vez": "2026-10-19T02:29:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "B94D-90F1",
   "conjunto": "sinais",
   "id": "eficiencia",
@@ -3849,6 +3879,20 @@
    "url": "https://www.enfoquems.com.br/lula-tem-quase-quatro-vezes-mais-interacoes-que-flavio-bolsonaro-nas-redes-sociais/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "773B-1AFF",
+  "conjunto": "sinais",
+  "id": "esquerda-digital",
+  "registro": {
+   "id": "esquerda-digital",
+   "data": "2026-10-17",
+   "sinal": "Desde 5 de outubro, perfis de apoiadores de esquerda tiveram mais engajamento que os de apoiadores de Flávio: 915 contas ligadas ao PT somam 22,9 milhões de seguidores, contra 16,6 milhões em 1.461 perfis do outro lado.",
+   "fonte": "Bites, via Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/eleicoes-de-2026-marcam-a-transformacao-digital-da-esquerda-diz-bites/"
+  },
+  "primeira_vez": "2026-10-19T02:29:33Z",
   "ainda_publicado": true
  },
  {
