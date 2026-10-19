@@ -444,6 +444,186 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6C16-2DEB",
+  "conjunto": "aovivo",
+  "id": "band-23",
+  "registro": {
+   "id": "band-23",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que o Brasil cresceu 7,5% em 2010. Os dados do IBGE mostram crescimento de 7,5% em 2010, último ano do segundo mandato de Lula.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F458-BEAE",
+  "conjunto": "aovivo",
+  "id": "band-24",
+  "registro": {
+   "id": "band-24",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que o atual governo está deixando uma dívida de R$ 11 trilhões, um recorde negativo. Segundo o Banco Central, a dívida bruta do governo chegou a R$ 11,1 trilhões em agosto de 2026, 82,9% do PIB.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4275-8BBA",
+  "conjunto": "aovivo",
+  "id": "band-25",
+  "registro": {
+   "id": "band-25",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que, com a Lei Antifacção aprovada, líderes de facções vão ficar até 80 anos presos. A lei prevê de 20 a 40 anos de pena para esse crime, e o Código Penal limita o tempo de prisão a 40 anos.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E021-19C6",
+  "conjunto": "aovivo",
+  "id": "band-26",
+  "registro": {
+   "id": "band-26",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que fez a Lei Antifacção, que ela foi aprovada e que aumentou o tempo de cadeia para membros de facções. O governo enviou o projeto em novembro de 2025; ele foi aprovado e virou lei em março de 2026, com penas mais duras.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "13A1-E83D",
+  "conjunto": "aovivo",
+  "id": "band-27",
+  "registro": {
+   "id": "band-27",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que um áudio de Daniel Vorcaro fala em R$ 30 milhões \"por fora\" para o Instituto Lula. A negociação foi noticiada pela Veja, mas não há comprovante de pagamento; PGR e PF negaram que esse depoimento exista.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "49DC-E44A",
+  "conjunto": "aovivo",
+  "id": "band-28",
+  "registro": {
+   "id": "band-28",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que o ex-presidente Bolsonaro aumentou o Bolsa Família para no mínimo R$ 600. O governo Bolsonaro propôs R$ 400 em 2021 e só fixou R$ 600 em 2022; o valor veio em boa parte do auxílio da pandemia.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0A35-B26A",
+  "conjunto": "aovivo",
+  "id": "band-29",
+  "registro": {
+   "id": "band-29",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que o atual governo solta criminosos perigosos alegando falta de vagas nas prisões. Não existe regra que mande soltar presos por falta de vaga; isso depende de decisão de um juiz, caso a caso.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "972F-428B",
+  "conjunto": "aovivo",
+  "id": "band-30",
+  "registro": {
+   "id": "band-30",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que perdoou R$ 12,6 bilhões em dívidas dos microempreendedores (MEI). O Congresso aprovou em 16/10 o projeto que perdoa cerca de R$ 12,6 bilhões de dívidas de 3,6 milhões de MEIs; ainda falta a sanção.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6D01-0AE7",
+  "conjunto": "aovivo",
+  "id": "band-31",
+  "registro": {
+   "id": "band-31",
+   "evento": "debate-band",
+   "data": "2026-10-18",
+   "hora": "21:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que Lula gastou R$ 7 bilhões em viagens com a Janja. Os R$ 7,14 bilhões de 2023 a 2025 são gastos com viagens de todo o governo federal, não só de Lula e Janja.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E94B-AFB3",
   "conjunto": "aovivo",
   "id": "band-p01",
@@ -1783,6 +1963,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "B429-0C31",
+  "conjunto": "checagens",
+  "id": "f22",
+  "registro": {
+   "id": "f22",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o atual governo está deixando uma dívida de R$ 11 trilhões, um recorde negativo.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Segundo o Banco Central, a dívida bruta do governo chegou a R$ 11,1 trilhões em agosto de 2026, 82,9% do PIB.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7EC5-E9F9",
+  "conjunto": "checagens",
+  "id": "f23",
+  "registro": {
+   "id": "f23",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que, com a Lei Antifacção aprovada, líderes de facções vão ficar até 80 anos presos.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A lei prevê de 20 a 40 anos de pena para esse crime, e o Código Penal limita o tempo de prisão a 40 anos.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D23D-E013",
+  "conjunto": "checagens",
+  "id": "f24",
+  "registro": {
+   "id": "f24",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que um áudio de Daniel Vorcaro fala em R$ 30 milhões \"por fora\" para o Instituto Lula.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A negociação foi noticiada pela Veja, mas não há comprovante de pagamento; PGR e PF negaram que esse depoimento exista.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8CEF-4548",
+  "conjunto": "checagens",
+  "id": "f25",
+  "registro": {
+   "id": "f25",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o ex-presidente Bolsonaro aumentou o Bolsa Família para no mínimo R$ 600.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O governo Bolsonaro propôs R$ 400 em 2021 e só fixou R$ 600 em 2022; o valor veio em boa parte do auxílio da pandemia.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "09F4-3D29",
+  "conjunto": "checagens",
+  "id": "f26",
+  "registro": {
+   "id": "f26",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o atual governo solta criminosos perigosos alegando falta de vagas nas prisões.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Não existe regra que mande soltar presos por falta de vaga; isso depende de decisão de um juiz, caso a caso.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5641-656D",
+  "conjunto": "checagens",
+  "id": "f27",
+  "registro": {
+   "id": "f27",
+   "data": "2026-10-18",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula gastou R$ 7 bilhões em viagens com a Janja.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Os R$ 7,14 bilhões de 2023 a 2025 são gastos com viagens de todo o governo federal, não só de Lula e Janja.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -2040,6 +2340,66 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "70C6-2695",
+  "conjunto": "checagens",
+  "id": "l14",
+  "registro": {
+   "id": "l14",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o Brasil cresceu 7,5% em 2010.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Os dados do IBGE mostram crescimento de 7,5% em 2010, último ano do segundo mandato de Lula.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E16E-A03B",
+  "conjunto": "checagens",
+  "id": "l15",
+  "registro": {
+   "id": "l15",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que fez a Lei Antifacção, que ela foi aprovada e que aumentou o tempo de cadeia para membros de facções.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O governo enviou o projeto em novembro de 2025; ele foi aprovado e virou lei em março de 2026, com penas mais duras.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F35B-D50A",
+  "conjunto": "checagens",
+  "id": "l16",
+  "registro": {
+   "id": "l16",
+   "data": "2026-10-18",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que perdoou R$ 12,6 bilhões em dívidas dos microempreendedores (MEI).",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Congresso aprovou em 16/10 o projeto que perdoa cerca de R$ 12,6 bilhões de dívidas de 3,6 milhões de MEIs; ainda falta a sanção.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-19T00:51:05Z",
   "ainda_publicado": true
  },
  {
