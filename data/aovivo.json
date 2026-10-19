@@ -401,5 +401,70 @@
   "categoria": "Falso",
   "fonte": "Lupa",
   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+ },
+ {
+  "id": "band-32",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "21:15",
+  "tipo": "Momento",
+  "candidato": "Flávio",
+  "texto": "Lula perguntou se Flávio faria cortes como os de Javier Milei. Flávio respondeu: \"O que eu vou fazer, Lula, é tesouraço na corrupção do seu governo\", citou gastos com viagens de Lula e Janja e perguntou se Ortega e Maduro são amigos de Lula.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Correio Braziliense",
+  "url": "https://www.correiobraziliense.com.br/politica/2026/10/7523010-flavio-responde-a-lula-sobre-milei-vou-dar-tesouraco-na-corrupcao.html"
+ },
+ {
+  "id": "band-33",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "21:20",
+  "tipo": "Momento",
+  "candidato": "Lula",
+  "texto": "Lula negou os gastos citados por Flávio, pediu que o público pesquisasse no Google e disse: \"É o malandro carioca, que finge que não finge e mente descaradamente\".",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/brasil/flavio-fala-de-gastos-de-janja-e-lula-diz-mentiroso-malandro-carioca"
+ },
+ {
+  "id": "band-34",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "21:30",
+  "tipo": "Momento",
+  "candidato": "Flávio",
+  "texto": "Na abertura do 2º bloco, Flávio reagiu à expressão \"malandro carioca\" e disse que queria \"me solidarizar com todos os meus irmãos e irmãs do Rio de Janeiro\".",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-flavio-mente-e-e-carioca-malandro-em-debate-na-band/"
+ },
+ {
+  "id": "band-35",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "21:25",
+  "tipo": "Momento",
+  "candidato": "Lula",
+  "texto": "Depois de Flávio citar votos de presidiários em Lula, Lula disse: \"Ô Bolsonaro, vote em mim, Bolsonaro. Você conhece teu filho, você sabe que eu sou melhor do que ele\". Flávio respondeu que o pai não pode votar por \"perseguição política\".",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-pede-voto-de-jair-bolsonaro-sou-melhor-que-seu-filho/"
+ },
+ {
+  "id": "band-36",
+  "evento": "debate-band",
+  "data": "2026-10-18",
+  "hora": "21:45",
+  "tipo": "Momento",
+  "candidato": "Flávio",
+  "texto": "Sobre segurança pública, Flávio disse: \"Lula se preocupa mais com direitos dos bandidos do que das vítimas\".",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Blog do BG",
+  "url": "https://www.blogdobg.com.br/video-debate-na-band-lula-se-preocupa-mais-com-direitos-dos-bandidos-do-que-das-vitimas-diz-flavio/"
  }
 ]
