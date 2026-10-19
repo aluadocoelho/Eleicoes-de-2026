@@ -474,5 +474,19 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "Segundo a reportagem, o vídeo foi publicado pelo deputado Nikolas Ferreira (PL-MG) e pelo senador Flávio Bolsonaro.",
   "tema": "Propaganda com crianças"
+ },
+ {
+  "id": "b35",
+  "data": "2026-10-08",
+  "alvo": "Lula",
+  "boato": "Posts ligavam Lula ao PCC e ao Comando Vermelho e o mostravam em cena criada por IA",
+  "veredito": "Removido pelo TSE",
+  "agencia": "TSE",
+  "explicacao": "O TSE mandou apagar três posts por associarem Lula a facções sem base mínima nos fatos e por usarem IA sem aviso.",
+  "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-manda-retirar-do-ar-videos-com-uso-de-inteligencia-artificial-publicados-por-flavio-bolsonaro",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo o TSE, os posts foram publicados por Flávio Bolsonaro no X, em maio, e a ação foi movida pela federação do PT.",
+  "tema": "Facções e IA"
  }
 ]
