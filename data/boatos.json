@@ -446,5 +446,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Fala distorcida"
+ },
+ {
+  "id": "b33",
+  "data": "2026-10-09",
+  "alvo": "Flávio",
+  "boato": "Flávio imporia jornada de sete dias por semana e acabaria com a Farmácia Popular",
+  "veredito": "Removido pelo TSE",
+  "agencia": "TSE",
+  "explicacao": "O presidente do TSE, Nunes Marques, mandou apagar em 24 horas o vídeo que atribuía esses planos a Flávio.",
+  "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/tse-manda-lula-e-janja-apagarem-fake-news-contra-flavio",
+  "beneficiado": "Lula",
+  "origem_campo": "Campo de Lula",
+  "origem_detalhe": "Vídeo publicado nos perfis da primeira-dama Janja Lula da Silva, segundo a reportagem.",
+  "tema": "Programas sociais"
  }
 ]
