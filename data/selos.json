@@ -23,6 +23,19 @@
    "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/flavio-e-lula-intensificam-campanha-na-ultima-semana-antes-do-segundo-turno"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "6534-4F73",
+  "conjunto": "agenda",
+  "id": "2026-10-19",
+  "registro": {
+   "data": "2026-10-19",
+   "lula": "Porto Alegre (RS): ato no Largo dos Açorianos, 16h",
+   "flavio": "Marabá (PA): motocarreata, 11h; Manaus (AM): ato na Ponta Negra, 20h de Brasília",
+   "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-segunda-19-10"
+  },
+  "primeira_vez": "2026-10-19T10:14:51Z",
   "ainda_publicado": true
  },
  {
@@ -36,6 +49,19 @@
    "url": "https://painelpolitico.com/flavio-e-lula-se-encontram-pela-1-vez-em-debate-neste-domingo"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "066B-E928",
+  "conjunto": "agenda",
+  "id": "2026-10-20",
+  "registro": {
+   "data": "2026-10-20",
+   "lula": "São Luís (MA) e Juazeiro (BA)/Petrolina (PE)",
+   "flavio": "Palmas (TO): carreata prevista, segundo os organizadores; horário a definir",
+   "url": "https://ocoletivo.com.br/flavio-bolsonaro-participara-de-carreata-em-palmas-no-dia-20-de-outubro-horario-e-trajeto-ainda-serao-definidos/"
+  },
+  "primeira_vez": "2026-10-19T10:14:51Z",
   "ainda_publicado": true
  },
  {
@@ -2273,6 +2299,21 @@
    "url": "https://www.metropoles.com/colunas/milena-teixeira/o-ponto-alto-de-lula-no-debate-da-band-segundo-pesquisas-do-pt"
   },
   "primeira_vez": "2026-10-19T02:01:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E466-B065",
+  "conjunto": "campanha",
+  "id": "e24",
+  "registro": {
+   "id": "e24",
+   "data": "2026-10-15",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "André Mendonça havia mandado tirar do ar comercial de Lula que diz que Flávio cortaria programas sociais; no plenário virtual, a maioria (4 a 3) derrubou a ordem, mas Mendonça pediu destaque e o caso vai ao plenário presencial, ainda sem data.",
+   "fonte": "Viva",
+   "url": "https://viva.com.br/politica/mendonca-pede-destaque-e-adia-decisao-do-tse-sobre-propaganda-de-lula.html"
+  },
+  "primeira_vez": "2026-10-19T10:14:51Z",
   "ainda_publicado": true
  },
  {
