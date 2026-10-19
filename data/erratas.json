@@ -20,5 +20,49 @@
   "depois": "Margem de 2,15 pontos",
   "motivo": "A reportagem da pesquisa informa margem de erro de 2,15 pontos para mais ou para menos",
   "url": "https://www.portalenoticias.com.br/agora-sai-aposta-pesquisa-deste-domingo-18-mostra-lula-na-frente-de-flavio-bolsonaro-veja-os-numeros/"
+ },
+ {
+  "id": "er03",
+  "data": "2026-10-19",
+  "conjunto": "checagens",
+  "registro_id": "f23",
+  "o_que_mudou": "Explicação da fala de Flávio sobre penas da Lei Antifacção",
+  "antes": "Lei prevê 20 a 40 anos; Código Penal limita a prisão a 40 anos",
+  "depois": "Pena de 20 a 40 anos pode dobrar para líderes; Código Penal limita o cumprimento a 40 anos",
+  "motivo": "A Lupa explica que a pena pode chegar ao dobro para líderes, mas o cumprimento fica limitado a 40 anos",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+ },
+ {
+  "id": "er04",
+  "data": "2026-10-19",
+  "conjunto": "aovivo",
+  "registro_id": "band-25",
+  "o_que_mudou": "Explicação da fala de Flávio sobre penas da Lei Antifacção",
+  "antes": "Lei prevê 20 a 40 anos; Código Penal limita a prisão a 40 anos",
+  "depois": "Pena de 20 a 40 anos pode dobrar para líderes; Código Penal limita o cumprimento a 40 anos",
+  "motivo": "A Lupa explica que a pena pode chegar ao dobro para líderes, mas o cumprimento fica limitado a 40 anos",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/"
+ },
+ {
+  "id": "er05",
+  "data": "2026-10-19",
+  "conjunto": "pesquisas",
+  "registro_id": "ipespe-1710",
+  "o_que_mudou": "Período de campo e amostra da pesquisa Ipespe/Abrapel de 17/10",
+  "antes": "Sem período de campo e sem amostra",
+  "depois": "Campo de 13 a 15/10; 1.500 entrevistas",
+  "motivo": "A reportagem da pesquisa informa entrevistas de 13 a 15 de outubro com 1.500 eleitores",
+  "url": "https://www.correio24horas.com.br/eleicoes/pesquisa-ipespe-flavio-tem-512-e-lula-488-dos-votos-validos-1026"
+ },
+ {
+  "id": "er06",
+  "data": "2026-10-19",
+  "conjunto": "boatos",
+  "registro_id": "b15",
+  "o_que_mudou": "Origem do boato sobre voto de Marcola em Lula",
+  "antes": "Campo de Flávio (canal \"Tropa do Flávio\", do PL)",
+  "depois": "Não identificada",
+  "motivo": "A checagem da Lupa diz só que a gravação circula no Facebook e não aponta quem a publicou em 2026",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/15/e-falso-que-marcola-tenha-declarado-voto-em-lula/"
  }
 ]
