@@ -97,5 +97,23 @@
   "flavio": 37.93,
   "fonte": "AP Exata, via Diário do Grande ABC",
   "url": "https://www.dgabc.com.br/Noticia/4353552/debate-intensifica-polarizacao-nas-redes-mas-sem-impacto-significativo-aponta-ap-exata"
+ },
+ {
+  "id": "ativa-views-band",
+  "metrica": "Visualizações de vídeos publicados após o debate da Band",
+  "periodo": "após o debate de 18 out",
+  "lula": 65700000,
+  "flavio": 22100000,
+  "fonte": "Ativaweb Datalab, via UOL / Agora RN",
+  "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+ },
+ {
+  "id": "ativa-seg-band",
+  "metrica": "Seguidores ganhos na madrugada após o debate da Band",
+  "periodo": "madrugada de 19 out",
+  "lula": 125000,
+  "flavio": 97000,
+  "fonte": "Ativaweb Datalab, via UOL / Agora RN",
+  "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
  }
 ]
