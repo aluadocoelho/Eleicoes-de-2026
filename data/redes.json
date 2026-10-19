@@ -79,5 +79,14 @@
   "flavio": 370000,
   "fonte": "Projeto Brief, via Folha / Terra",
   "url": "https://www.terra.com.br/noticias/lula-dispara-e-ultrapassa-flavio-bolsonaro-na-web,8f2e4e92f01040dd709822841c8083c6q0fytu2h.html"
+ },
+ {
+  "id": "bites-int-24h-band",
+  "metrica": "Interações nos perfis oficiais",
+  "periodo": "24 h antes do debate da Band (18 out)",
+  "lula": 10100000,
+  "flavio": 9500000,
+  "fonte": "Bites, via Jamildo",
+  "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
  }
 ]
