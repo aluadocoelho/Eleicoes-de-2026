@@ -1957,6 +1957,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "5FA5-CF7E",
+  "conjunto": "boatos",
+  "id": "b27",
+  "registro": {
+   "id": "b27",
+   "data": "2026-10-10",
+   "alvo": "Lula",
+   "boato": "Trump teria mandado recado ameaçando Lula e o STF no 2º turno",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há registro de que Trump tenha feito esse pronunciamento; um dos posts leva a página de propaganda e o vídeo em inglês é uma montagem.",
+   "url": "https://www.boatos.org/politica/trump-manda-recado-a-lula-e-o-stf-no-2o-turno-das-eleicoes-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Trump"
+  },
+  "primeira_vez": "2026-10-19T10:30:12Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8F96-C86A",
+  "conjunto": "boatos",
+  "id": "b28",
+  "registro": {
+   "id": "b28",
+   "data": "2026-10-17",
+   "alvo": "Lula",
+   "boato": "Áudio diz que Lula vai simular um atentado contra si mesmo antes da eleição",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O áudio não traz fonte, data nem prova, e não há indício de plano desse tipo.",
+   "url": "https://www.boatos.org/politica/lula-vai-forjar-atentado-contra-si-mesmo-na-vespera-das-eleicoes-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Atentado"
+  },
+  "primeira_vez": "2026-10-19T10:30:12Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
