@@ -467,6 +467,21 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 @media (max-width:40rem){.el-sticky.el-stuck .el-title{white-space:normal;overflow:visible}}
 .el-lv-switch{appearance:none;background:var(--color-panel);color:var(--color-fg);padding:10px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer;margin-top:10px}
 @media (max-width:40rem){.el{padding-bottom:84px}}
+.el-aviso{position:relative;background:#FFF4C2;color:#1A1500;border:2px solid #16181D;border-radius:20px;box-shadow:4px 4px 0 #16181D;padding:14px 18px 16px;display:flex;flex-direction:column;gap:8px}
+.el-aviso[hidden]{display:none}
+.el-aviso-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.el-aviso-tag{display:inline-block;background:#FFD43B;color:#1A1500!important;border:2px solid #16181D;border-radius:999px;padding:2px 12px;font-weight:900;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;transform:rotate(-2deg)}
+.el-aviso-x{appearance:none;background:none;border:0;font:inherit;font-size:1.6rem;line-height:1;color:#1A1500;min-width:44px;min-height:44px;cursor:pointer;border-radius:12px;margin:-8px -10px -8px 0}
+.el-aviso-x:focus-visible{outline:3px solid #5B2DBF;outline-offset:2px}
+.el-aviso-t{margin:0;font-family:var(--font-anthropic-serif);font-weight:700;font-size:clamp(1.25rem,4.6vw,1.6rem);line-height:1.15}
+.el-aviso-d{margin:0;font-size:var(--cds-font-size-body);line-height:1.5;color:#3A3418}
+.el-aviso-btns{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-top:4px}
+.el .el-aviso-go{--bs:#16181D;border-color:#16181D;background:#5B2DBF;color:#FFFFFF;text-decoration:none;padding:10px 16px;min-height:44px;display:inline-flex;align-items:center;gap:8px;font-weight:700}
+.el-aviso-more{color:#1A1500;font-weight:700;display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.el[data-theme="dark"] .el-aviso{background:#2A2410;color:#FFF4C2;border-color:#FFD43B;box-shadow:4px 4px 0 #FFD43B}
+.el[data-theme="dark"] .el-aviso-d{color:#EDE3B5}
+.el[data-theme="dark"] .el-aviso-x,.el[data-theme="dark"] .el-aviso-more{color:#FFF4C2}
+@media (prefers-color-scheme:dark){.el:not([data-theme="light"]) .el-aviso{background:#2A2410;color:#FFF4C2;border-color:#FFD43B;box-shadow:4px 4px 0 #FFD43B}.el:not([data-theme="light"]) .el-aviso-d{color:#EDE3B5}.el:not([data-theme="light"]) .el-aviso-x,.el:not([data-theme="light"]) .el-aviso-more{color:#FFF4C2}}
 </style>
 </head>
 <body>
@@ -520,6 +535,29 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <button class="el-tab" role="tab" id="tab-verificar" aria-controls="verificar" data-tab="verificar" aria-selected="false">Verificar</button>
   </nav>
   </div>
+
+  <aside class="el-aviso" id="el-aviso" aria-labelledby="aviso-t">
+    <div class="el-aviso-top">
+      <span class="el-aviso-tag">Atenção, eleitor</span>
+      <button type="button" class="el-aviso-x" id="aviso-x" aria-label="Fechar aviso sobre local de votação">×</button>
+    </div>
+    <h2 class="el-aviso-t" id="aviso-t">Seu local de votação pode ter mudado</h2>
+    <p class="el-aviso-d">Para o 2º turno, a Justiça Eleitoral mudou o endereço de 4.352 seções, menos de 1% do total, por causa de estragos de chuva, reformas e falta de segurança ou de acessibilidade em alguns prédios. Confira o seu antes de sair de casa no app e-Título ou no site do TSE.</p>
+    <div class="el-aviso-btns">
+      <a class="el-btn el-aviso-go" href="https://www.tse.jus.br/servicos-eleitorais/titulo-eleitoral/autoatendimento-eleitoral/autoatendimento-eleitoral-titulo-net" target="_blank" rel="noopener noreferrer">Consultar meu local de votação <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      <a class="el-aviso-more" href="https://www.justicaeleitoral.jus.br/fato-ou-boato/checagens/2026/mudancas-de-locais-de-votacao-no-2o-turno-seguem-regras-e-atendem-a-necessidades-de-seguranca" target="_blank" rel="noopener noreferrer">Por que mudou? <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+    </div>
+  </aside>
+<script data-aviso>
+(function () {
+    const box = document.getElementById("el-aviso"); if (!box) return;
+    const FIM = new Date("2026-10-25T17:00:00-03:00"), KEY = "el-aviso-locais";
+    let fechado = false; try { fechado = sessionStorage.getItem(KEY) === "1"; } catch (e) {}
+    box.hidden = fechado || new Date() > FIM;
+    const x = document.getElementById("aviso-x");
+    if (x) x.addEventListener("click", () => { box.hidden = true; try { sessionStorage.setItem(KEY, "1"); } catch (e) {} const m = document.getElementById("conteudo"); if (m) m.focus({preventScroll: true}); });
+  })();
+</script>
 
   <!-- ================= INÍCIO ================= -->
   <main id="conteudo" tabindex="-1" class="el-main">
@@ -2373,6 +2411,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     show(tabs[j].dataset.tab, true); tabs[j].focus(); goTop(tabs[j].dataset.tab);
   }));
   tabs.forEach(t => { t.tabIndex = t.getAttribute("aria-selected") === "true" ? 0 : -1; });
+
   document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => {
     const id = b.getAttribute("data-go");
     show(id, true); goTop(id);
