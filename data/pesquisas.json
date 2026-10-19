@@ -236,5 +236,33 @@
   "lula_totais": null,
   "fonte": "Poder360",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-503-contra-497-de-lula-dos-votos-validos-diz-btg-nexus/"
+ },
+ {
+  "id": "poderdata-1910",
+  "instituto": "PoderData/Aya",
+  "divulgacao": "2026-10-19",
+  "campo": "16–18 out",
+  "amostra": 3000,
+  "margem": 1.8,
+  "flavio_validos": 52,
+  "lula_validos": 48,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-reage-e-vai-a-52-contra-48-de-lula-diz-poderdata-aya/"
+ },
+ {
+  "id": "atlas-1910",
+  "instituto": "AtlasIntel",
+  "divulgacao": "2026-10-19",
+  "campo": "13–18 out",
+  "amostra": 4998,
+  "margem": 1,
+  "flavio_validos": 51.1,
+  "lula_validos": 48.9,
+  "flavio_totais": 49.8,
+  "lula_totais": 47.6,
+  "fonte": "SBT News (AtlasIntel/Bloomberg)",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-bloomberg-flavio-tem-51-1-e-lula-48-9-dos-validos"
  }
 ]
