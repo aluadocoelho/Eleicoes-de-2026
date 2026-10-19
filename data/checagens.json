@@ -557,5 +557,57 @@
   "explicacao": "Os R$ 7,14 bilhões de 2023 a 2025 são gastos com viagens de todo o governo federal, não só de Lula e Janja.",
   "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
   "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "f28",
+  "data": "2026-10-18",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que o valor médio do Bolsa Família era de R$ 190 e que Bolsonaro o triplicou.",
+  "veredito": "Exagerado",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "A média era de cerca de R$ 188 em 2019, mas o salto para R$ 600 veio do auxílio emergencial e do Auxílio Brasil de 2022, não da política regular do programa.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+  "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "l17",
+  "data": "2026-10-18",
+  "candidato": "Lula",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que, em 2009, Flávio foi o único dos 49 deputados estaduais a votar contra a ampliação da licença-maternidade.",
+  "veredito": "Verdadeiro",
+  "categoria": "Verdadeiro",
+  "explicacao": "Levantamento mostrou que Flávio foi o único deputado da Alerj a votar contra a ampliação da licença-maternidade de servidoras estaduais em 2009.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+  "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "l18",
+  "data": "2026-10-18",
+  "candidato": "Lula",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que o salário mínimo comprava 1,8 cesta básica no governo Bolsonaro e hoje compra 2,2.",
+  "veredito": "Exagerado",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "O dado de 1,8 cesta é de agosto de 2026, com base em São Paulo; a alta em relação a 2022 é de 11,3% e o número de 2,2 não se confirma.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+  "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "f29",
+  "data": "2026-10-18",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Debate na Band",
+  "afirmacao": "Disse que Roberta Luchsinger fez acusações muito graves contra Lula.",
+  "veredito": "Falta contexto",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "Luchsinger disse à CNN que Lula sabia de reuniões de Lulinha com ministros, mas Lula não é acusado em nenhum processo; Lulinha é investigado em três inquéritos.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
+  "direcao": "Ataque ao adversário"
  }
 ]
