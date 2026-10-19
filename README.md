@@ -1,10 +1,14 @@
 # Eleições 2026 · 2º turno — dados abertos
 
+![Eleições 2026, 2º turno: dados abertos sobre Flávio Bolsonaro (PL) e Lula (PT). Pesquisas, checagens, boatos, redes sociais e ao vivo, tudo com link para a fonte original.](assets/readme/capa.png)
+
 **Página pública:** https://aluadocoelho.github.io/Eleicoes-de-2026/ — versão em linguagem simples, feita para celular, que lê os dados deste repositório.
 
 Dados reunidos sobre o 2º turno da eleição presidencial de 2026 (Flávio Bolsonaro, PL × Lula, PT; votação em 25 de outubro): pesquisas de intenção de voto, redes sociais, agenda e eventos das campanhas, checagens de fatos e boatos desmentidos.
 
 Cada linha traz o link (`url`) da reportagem ou checagem de onde a informação saiu. Os textos são resumos com palavras próprias; para o conteúdo completo, siga o link.
+
+![Como usar: leia os arquivos direto, sem chave nem cadastro](assets/readme/01-usar.png)
 
 ## Como usar
 
@@ -21,6 +25,8 @@ import json, urllib.request
 url = "https://raw.githubusercontent.com/aluadocoelho/Eleicoes-de-2026/main/data/pesquisas.json"
 pesquisas = json.load(urllib.request.urlopen(url))
 ```
+
+![Conjuntos: o que tem em cada arquivo da pasta data](assets/readme/02-conjuntos.png)
 
 ## Conjuntos
 
@@ -45,6 +51,8 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 | `status.json` | Hora da última atualização e horários das próximas (Brasília) | `id, ultima_atualizacao, horarios, fuso, url` |
 | `factcheck_api.json` | Checagens brutas da Google Fact Check Tools API (aparece após a primeira busca) | `id, termo, afirmacao, quem_disse, data_afirmacao, checador, selo, titulo, data_checagem, url` |
 
+![Critérios: como contamos votos, selos, placares e boatos](assets/readme/03-criterios.png)
+
 ### Critérios
 
 - **Votos válidos** excluem brancos e nulos. Quando a reportagem só traz votos totais, os válidos são calculados e o campo `fonte` diz "válidos calculados".
@@ -54,15 +62,19 @@ Todos são listas JSON de objetos. Campos sem informação vêm como `null`. Dat
 - **Origem dos boatos** (`origem_campo`) só é preenchida com um dos lados quando a checagem, a reportagem ou a decisão do TSE aponta quem publicou. Caso contrário, fica "Não identificada". A origem nunca é deduzida pelo conteúdo.
 - **Comparações entre checadores** devem ser feitas com cuidado: cada um escolhe quais falas verificar, então as taxas descrevem as falas checadas, não a campanha inteira.
 
+![Como os dados são atualizados: tarefas automáticas, validação e códigos de verificação](assets/readme/04-atualizacao.png)
+
 ## Como os dados são atualizados
 
 - **Checagens da Google Fact Check API**: a automação `.github/workflows/factcheck.yml` roda de hora em hora no GitHub Actions e acrescenta checagens novas em `data/factcheck_api.json`. Para ativá-la, crie uma chave gratuita no Google Cloud com a *Fact Check Tools API* habilitada e salve-a como segredo do repositório com o nome `GOOGLE_FACTCHECK_API_KEY` (Settings → Secrets and variables → Actions). Sem a chave, a automação roda e termina sem fazer nada.
-- **Demais conjuntos**: pesquisas, redes, agenda, campanha e checagens selecionadas exigem ler reportagens e são atualizados por uma tarefa agendada do Claude a cada hora, das 7h às 23h (horário de Brasília), com execuções extras a cada 15 minutos durante debates, com as mesmas regras acima.
+- **Demais conjuntos**: pesquisas, redes, agenda, campanha e checagens selecionadas exigem ler reportagens e são atualizados por uma tarefa agendada do Claude a cada hora (nos minutos :57), das 7h às 23h (horário de Brasília), com as mesmas regras acima. Checagens, boatos e redes sociais têm também tarefas próprias nos minutos :27, então são verificados a cada meia hora.
 - **Ao vivo** (`aovivo.json`): durante debates e entrevistas, tarefas extras do Claude acrescentam momentos e falas checadas mais ou menos a cada meia hora. `evento` é o `id` do evento em `destaques.json`, e `tipo` é um de Programação, Momento, Fala ou Checagem. Uma linha só é Checagem quando o checador publicou o selo, que fica em `veredito`.
 - **Página pública** (`index.html`): publicada pelo GitHub Pages a partir da raiz do repositório. Ela lê os arquivos de `data/` a cada visita e de novo a cada 3 minutos com a página aberta. Tem modo claro e escuro (segue o celular e tem um botão para trocar).
 - **Códigos de verificação** (`selos.json`): a automação `.github/workflows/selos.yml` roda a cada mudança em `data/` e dá a cada informação um código curto (ex.: `3F9A-12C7`), tirado da impressão digital SHA-256 do conteúdo exato da linha (`scripts/selos.py`). A página mostra o código ao lado de cada informação, e na aba **Verificar** qualquer pessoa digita o código de um print e vê a informação como ela está nos dados. Se uma letra ou número mudar, o código muda. Códigos de versões corrigidas continuam no arquivo com `ainda_publicado: false`. O histórico de commits deste repositório registra, com data e hora, tudo o que foi publicado. Link direto para conferir um código: `https://aluadocoelho.github.io/Eleicoes-de-2026/#verificar=3F9A12C7`.
 - **Revisão e erratas** (`erratas.json`): duas vezes por dia uma tarefa do Claude confere as checagens, boatos, pesquisas e registros do ao vivo mais recentes contra as fontes originais (selo, quem falou, números, link). Quando acha erro, corrige o dado e registra aqui o que mudou, como era antes, como ficou e por quê. As erratas aparecem na aba **Verificar** da página.
 - **Validação**: toda mudança em `data/` passa por `scripts/validate.py` (`.github/workflows/validate.yml`), que confere chaves, tipos, datas, categorias, ids repetidos e links `https://`. Rode localmente com `python scripts/validate.py`.
+
+![Fontes e uso de IA: somos um agregador, o conteúdo original é das fontes citadas](assets/readme/05-aviso.png)
 
 ## Aviso sobre as fontes e o uso de IA
 
@@ -72,9 +84,13 @@ Para respeitar o direito autoral, aqui só entram resumos curtos escritos com pa
 
 O site e os dados são feitos com ajuda de inteligência artificial (Claude, da Anthropic): coleta, resumos, organização e código. Os dados passam por validação automática e por revisão de qualidade duas vezes por dia, e as correções ficam registradas em `data/erratas.json`. Mesmo assim pode haver erro: confira sempre na fonte.
 
+![Privacidade: contagem de visitas sem cookies, Analytics só com aceite](assets/readme/06-privacidade.png)
+
 ## Privacidade
 
 O site conta visitas com o GoatCounter, que não usa cookies. O Google Analytics (G-2NR8ZVJG0L) só é carregado se a pessoa aceitar no aviso de cookies, sem sinais de publicidade; quem recusa não é medido por ele. A escolha pode ser mudada a qualquer momento no botão "Preferências de cookies", no rodapé.
+
+![Licença: dados em CC BY 4.0 e código em MIT](assets/readme/07-licenca.png)
 
 ## Licença
 
@@ -82,6 +98,8 @@ O site conta visitas com o GoatCounter, que não usa cookies. O Google Analytics
 - **Código** (`scripts/` e `.github/workflows/`): [MIT](LICENSE).
 
 A licença cobre a compilação, os resumos e as classificações feitos aqui. Os números das pesquisas e os selos das checagens pertencem aos institutos e checadores que os publicaram; este repositório só os reúne e aponta a fonte.
+
+![Erros e correções: mande a fonte certa e a gente corrige](assets/readme/08-erros.png)
 
 ## Erros e correções
 
