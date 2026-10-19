@@ -6449,6 +6449,38 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E923-B2DF",
+  "conjunto": "redes",
+  "id": "ativa-seg-band",
+  "registro": {
+   "id": "ativa-seg-band",
+   "metrica": "Seguidores ganhos na madrugada após o debate da Band",
+   "periodo": "madrugada de 19 out",
+   "lula": 125000,
+   "flavio": 97000,
+   "fonte": "Ativaweb Datalab, via UOL / Agora RN",
+   "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+  },
+  "primeira_vez": "2026-10-19T17:29:45Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "77A2-DFD8",
+  "conjunto": "redes",
+  "id": "ativa-views-band",
+  "registro": {
+   "id": "ativa-views-band",
+   "metrica": "Visualizações de vídeos publicados após o debate da Band",
+   "periodo": "após o debate de 18 out",
+   "lula": 65700000,
+   "flavio": 22100000,
+   "fonte": "Ativaweb Datalab, via UOL / Agora RN",
+   "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+  },
+  "primeira_vez": "2026-10-19T17:29:45Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "FAC4-DE45",
   "conjunto": "redes",
   "id": "bites-int-24h-band",
@@ -6620,6 +6652,20 @@
    "url": "https://www.dgabc.com.br/Noticia/4353552/debate-intensifica-polarizacao-nas-redes-mas-sem-impacto-significativo-aponta-ap-exata"
   },
   "primeira_vez": "2026-10-19T15:28:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C208-13BB",
+  "conjunto": "sinais",
+  "id": "ativa-band",
+  "registro": {
+   "id": "ativa-band",
+   "data": "2026-10-19",
+   "sinal": "Segundo a Ativaweb Datalab, Lula publicou 12 vídeos após o debate da Band e Flávio 4; a consultoria calcula 60,5% de vantagem digital para Lula e 39,5% para Flávio. Flávio ficou com 51,6% do volume de comentários.",
+   "fonte": "Ativaweb Datalab, via UOL / Agora RN",
+   "url": "https://agorarn.com.br/politica/quem-venceu-o-debate-lula-flavio/"
+  },
+  "primeira_vez": "2026-10-19T17:29:45Z",
   "ainda_publicado": true
  },
  {
