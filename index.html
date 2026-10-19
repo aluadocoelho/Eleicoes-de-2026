@@ -10,6 +10,12 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aluadocoelho.github.io/Eleicoes-de-2026/">
 <meta name="theme-color" content="#F6F3FB">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="2º turno">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='8' width='14' height='16' rx='3' fill='%231F4FA8'/%3E%3Crect x='16' y='8' width='14' height='16' rx='3' fill='%23D62B2B'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2490,43 +2496,76 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 <script>
 (function () {
   var KEY = "el-avisos", box = document.getElementById("el-notif"), openBtn = document.getElementById("el-notif-open");
-  var supported = ("Notification" in window);
+  var UA = navigator.userAgent || "";
+  var inApp = /Instagram|FBAN|FBAV|FB_IAB|FBIOS|Line\/|TikTok|musical_ly|BytedanceWebview|Twitter|LinkedInApp|Snapchat|; wv\)/i.test(UA);
+  var iOS = /iPhone|iPad|iPod/.test(UA) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  var standalone = window.navigator.standalone === true || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+  var hasAPI = ("Notification" in window);
+  var supported = hasAPI && !inApp;
+  var reason = supported ? null : (inApp ? "inapp" : (iOS && !standalone ? "ios" : "none"));
+  var swReg = null;
+  if (supported && "serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").then(function (r) { swReg = r; }).catch(function () {});
+    navigator.serviceWorker.addEventListener("message", function (e) { if (e.data && e.data.tab) location.hash = e.data.tab; });
+  }
   function get() { try { return JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { return null; } }
   function set(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} }
-  function on() { var s = get(); return supported && Notification.permission === "granted" && s && s.ok; }
+  function perm() { try { return Notification.permission; } catch (e) { return "default"; } }
+  function on() { var s = get(); return supported && perm() === "granted" && s && s.ok; }
+  function notify(title, body, tab) {
+    var o = {body: body, tag: tab ? "el-novidade" : "el-ok", icon: "icon-192.png", badge: "icon-192.png", lang: "pt-BR", data: {tab: tab || ""}};
+    function direct() { try { var n = new Notification(title, o); n.onclick = function () { window.focus(); if (tab) location.hash = tab; n.close(); }; } catch (e) {} }
+    var ready = ("serviceWorker" in navigator) ? navigator.serviceWorker.getRegistration() : Promise.resolve(null);
+    ready.then(function (r) { r = r || swReg; if (r && r.showNotification) return r.showNotification(title, o); direct(); }).catch(direct);
+  }
+  function askPerm(cb) {
+    var done = false; function once(p) { if (!done) { done = true; cb(p); } }
+    try { var r = Notification.requestPermission(once); if (r && r.then) r.then(once, function () { once(perm()); }); } catch (e) { once(perm()); }
+  }
+  var T = document.getElementById("nt-t"), D = document.getElementById("nt-d"), Y = document.getElementById("nt-yes"), N = document.getElementById("nt-no");
+  var TXT = {
+    t: T.textContent, d: D.textContent,
+    inapp: ["Abra no navegador para receber avisos", "Você está vendo o site dentro de um app, como o Instagram, e esses apps não deixam sites mandarem avisos. Toque nos três pontinhos (⋯) no canto da tela, escolha “Abrir no navegador” e toque em “Receber avisos” de novo."],
+    ios: ["No iPhone, falta um passo", "A Apple só libera avisos de sites que estão na Tela de Início. Toque no botão Compartilhar (o quadrado com uma seta para cima), escolha “Adicionar à Tela de Início”, abra o site pelo ícone novo e toque em “Receber avisos” de novo. Precisa do iOS 16.4 ou mais novo."],
+    none: ["Este navegador não manda avisos", "Para receber avisos, abra o site no Chrome, Edge, Firefox ou Safari atualizados."],
+    denied: ["Os avisos estão bloqueados", "Você ou o navegador bloquearam os avisos deste site. Para liberar, toque no cadeado ao lado do endereço da página, procure “Notificações” e escolha “Permitir”."]
+  };
   function hide() { box.hidden = true; }
-  function show() { box.hidden = false; setTimeout(function () { var y = document.getElementById("nt-yes"); if (y) y.focus({preventScroll: true}); }, 50); }
+  function show(kind) {
+    if (kind) { T.textContent = TXT[kind][0]; D.textContent = TXT[kind][1]; Y.hidden = true; N.textContent = "Entendi"; }
+    else { T.textContent = TXT.t; D.textContent = TXT.d; Y.hidden = false; N.textContent = "Agora não"; }
+    box.hidden = false; setTimeout(function () { (kind ? N : Y).focus({preventScroll: true}); }, 50);
+  }
   function refreshBtn() {
     if (!openBtn) return;
-    openBtn.hidden = !supported;
+    openBtn.hidden = false;
     openBtn.textContent = on() ? "Avisos ligados (toque para desligar)" : "Receber avisos de novidades";
   }
-  if (!supported) { refreshBtn(); return; }
-  document.getElementById("nt-no").addEventListener("click", function () { set({ok: false, at: Date.now()}); hide(); refreshBtn(); });
-  document.getElementById("nt-yes").addEventListener("click", function () {
-    Notification.requestPermission().then(function (p) {
+  N.addEventListener("click", function () { if (!Y.hidden) set({ok: false, at: Date.now()}); hide(); refreshBtn(); });
+  Y.addEventListener("click", function () {
+    if (!supported) { show(reason); return; }
+    askPerm(function (p) {
       if (p === "granted") {
         set({ok: true, at: Date.now()});
-        try { new Notification("Avisos ligados", {body: "Vamos avisar aqui quando sair novidade no Painel 2º Turno.", tag: "el-ok"}); } catch (e) {}
+        notify("Avisos ligados", "Vamos avisar aqui quando sair novidade no Painel 2º Turno.");
         hide();
       } else {
         set({ok: false, at: Date.now()});
-        document.getElementById("nt-d").textContent = "O navegador bloqueou os avisos. Para ligar, toque no cadeado ao lado do endereço da página e permita as notificações.";
-        document.getElementById("nt-yes").hidden = true;
-        document.getElementById("nt-no").textContent = "Entendi";
+        show("denied");
       }
       refreshBtn();
     });
   });
   document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !box.hidden) hide(); });
   if (openBtn) openBtn.addEventListener("click", function () {
+    if (!supported) { show(reason); return; }
     if (on()) { set({ok: false, at: Date.now()}); refreshBtn(); return; }
-    document.getElementById("nt-yes").hidden = false; document.getElementById("nt-no").textContent = "Agora não";
-    show();
+    show(null);
   });
   refreshBtn();
   var s0 = get(), SEMANA = 7 * 86400000;
-  if (Notification.permission === "default" && !(s0 && (s0.ok || Date.now() - s0.at < SEMANA))) setTimeout(function wait() { var ck = document.getElementById("el-ck"); if (ck && !ck.hidden) { setTimeout(wait, 4000); return; } show(); }, 12000);
+  if (supported && perm() === "default" && !(s0 && (s0.ok || Date.now() - s0.at < SEMANA))) setTimeout(function wait() { var ck = document.getElementById("el-ck"); if (ck && !ck.hidden) { setTimeout(wait, 4000); return; } show(null); }, 12000);
+  if (!supported) return;
 
   // Novidades: compara o que chegou em cada nova leitura dos dados (a página relê a cada 3 minutos)
   var seen = null;
@@ -2551,10 +2590,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (!msgs.length || !on() || !document.hidden) return;
     var first = msgs[0];
     var body = msgs.length === 1 ? first.m : first.m + " (e mais " + (msgs.length - 1) + " novidade" + (msgs.length > 2 ? "s" : "") + ")";
-    try {
-      var n = new Notification("Novidade no Painel 2º Turno", {body: body.slice(0, 220), tag: "el-novidade"});
-      n.onclick = function () { window.focus(); location.hash = first.tab; n.close(); };
-    } catch (e) {}
+    notify("Novidade no Painel 2º Turno", body.slice(0, 220), first.tab);
   });
 })();
 </script>
