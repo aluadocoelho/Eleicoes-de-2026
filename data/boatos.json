@@ -418,5 +418,33 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "Vídeo publicado por Alfredo Gaspar (PL-AL), candidato a vice na chapa de Flávio, segundo a decisão do TSE.",
   "tema": "Segurança"
+ },
+ {
+  "id": "b31",
+  "data": "2026-10-13",
+  "alvo": "Flávio",
+  "boato": "Flávio planejaria forjar um atentado em Salvador e simular piora na saúde de Jair Bolsonaro antes do 2º turno",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Não há prova, documento nem fonte que sustente a história, que atribui o plano a pessoas não identificadas da campanha.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-vai-forjar-atentado-em-salvador-e-simular-piora-na-saude-de-jair-na-vespera-das-eleicoes.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Atentado"
+ },
+ {
+  "id": "b32",
+  "data": "2026-10-12",
+  "alvo": "Flávio",
+  "boato": "Flávio teria dito que pretende ficar décadas no poder como presidente",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A frase real dizia que o grupo dele ficaria décadas sem falar do PT; os posts mudaram o sentido.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-pretende-ficar-decadas-no-poder-como-presidente.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Fala distorcida"
  }
 ]
