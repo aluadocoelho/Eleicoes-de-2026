@@ -6171,6 +6171,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "FAC4-DE45",
+  "conjunto": "redes",
+  "id": "bites-int-24h-band",
+  "registro": {
+   "id": "bites-int-24h-band",
+   "metrica": "Interações nos perfis oficiais",
+   "periodo": "24 h antes do debate da Band (18 out)",
+   "lula": 10100000,
+   "flavio": 9500000,
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
+  },
+  "primeira_vez": "2026-10-19T13:30:38Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "A6EA-EA2E",
   "conjunto": "redes",
   "id": "bites-seg-1t",
@@ -6410,6 +6426,20 @@
    "url": "https://www.brasil247.com/midia/exercito-do-lula-e-tropa-do-flavio-bolsonaro-intensificam-mobilizacao-nas-redes-no-2o-turno/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1948-A59C",
+  "conjunto": "sinais",
+  "id": "pre-debate",
+  "registro": {
+   "id": "pre-debate",
+   "data": "2026-10-19",
+   "sinal": "Segundo a Bites, a distância de Lula em interações ficou bem menor nas 24 horas antes do debate da Band, e Flávio ganhou mais seguidores (161 mil, contra 91 mil). Das 5,8 milhões de menções a Lula, 12% falavam de Roberta Luchsinger, da CNN ou de Lulinha.",
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
+  },
+  "primeira_vez": "2026-10-19T13:30:38Z",
   "ainda_publicado": true
  },
  {
