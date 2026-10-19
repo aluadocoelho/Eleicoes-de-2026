@@ -35,6 +35,25 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 @media (prefers-reduced-motion:no-preference){.dash-skeleton{animation:el-sk 1.2s linear infinite}}
 @keyframes el-sk{from{background-position:200% 0}to{background-position:-200% 0}}
 .el-foot a{color:inherit}
+.el-notif-open{appearance:none;background:var(--accent-soft);color:var(--accent-text);padding:8px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer}
+.el-notif-open[hidden]{display:none}
+#el-notif{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;width:min(440px,calc(100vw - 24px));box-sizing:border-box;background:#FFFFFF;color:#16181D;border:2px solid #16181D;border-radius:18px;box-shadow:5px 5px 0 #16181D;padding:18px 18px 16px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:10px}
+#el-notif[hidden]{display:none}
+#el-notif .nt-top{display:flex;gap:12px;align-items:flex-start}
+#el-notif .nt-ico{flex:none;width:42px;height:42px;border-radius:12px;background:#5B2DBF;color:#FFFFFF;display:flex;align-items:center;justify-content:center}
+#el-notif h2{margin:0;font-size:1.05rem;line-height:1.3}
+#el-notif p{margin:4px 0 0;font-size:.9rem;line-height:1.5;color:#3A3F49}
+#el-notif .nt-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:4px}
+#el-notif button{appearance:none;font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:12px;border:2px solid #16181D;cursor:pointer}
+#el-notif .nt-yes{background:#5B2DBF;color:#FFFFFF}
+#el-notif .nt-no{background:#FFFFFF;color:#16181D}
+#el-notif button:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){#el-notif{animation:nt-in .35s ease-out both}}
+@keyframes nt-in{from{transform:translate(-50%,24px);opacity:0}to{transform:translate(-50%,0);opacity:1}}
+:root[data-theme="dark"] #el-notif{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
+:root[data-theme="dark"] #el-notif p{color:#A6ADBB}
+:root[data-theme="dark"] #el-notif .nt-no{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
+:root[data-theme="dark"] #el-notif .nt-yes{border-color:#B9A3FF}
 
 .el{
   --cf:#1F4FA8; --cl:#D62B2B;
@@ -916,7 +935,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. Na página pública, o botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
   </section>
 
-  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, sem cookies e sem guardar dados pessoais.</p><p class="el-foot el-visits" id="gc-total" hidden></p>
+  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, sem cookies e sem guardar dados pessoais.</p><p class="el-foot el-visits" id="gc-total" hidden></p><p class="el-foot"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button></p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
@@ -953,7 +972,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   }
   window.addEventListener("load", function () {
     load();
-    setInterval(function () { if (!document.hidden) load(); }, 180000);
+    setInterval(load, 180000);
     document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
   });
   var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(run, 150); });
@@ -2247,6 +2266,90 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const pg = el && el.closest(".el-page");
     if (pg) { show(pg.id, false); el.scrollIntoView(); }
   }
+})();
+</script>
+<div id="el-notif" role="dialog" aria-modal="false" aria-labelledby="nt-t" aria-describedby="nt-d" hidden>
+  <div class="nt-top">
+    <span class="nt-ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+    <div>
+      <h2 id="nt-t">Quer receber um aviso quando sair novidade?</h2>
+      <p id="nt-d">A gente avisa quando sair pesquisa nova, fala checada ou boato desmentido. Funciona enquanto esta página estiver aberta, mesmo em outra aba.</p>
+    </div>
+  </div>
+  <div class="nt-btns">
+    <button type="button" class="nt-no" id="nt-no">Agora não</button>
+    <button type="button" class="nt-yes" id="nt-yes">Quero receber</button>
+  </div>
+</div>
+<script>
+(function () {
+  var KEY = "el-avisos", box = document.getElementById("el-notif"), openBtn = document.getElementById("el-notif-open");
+  var supported = ("Notification" in window);
+  function get() { try { return JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} }
+  function on() { var s = get(); return supported && Notification.permission === "granted" && s && s.ok; }
+  function hide() { box.hidden = true; }
+  function show() { box.hidden = false; setTimeout(function () { var y = document.getElementById("nt-yes"); if (y) y.focus({preventScroll: true}); }, 50); }
+  function refreshBtn() {
+    if (!openBtn) return;
+    openBtn.hidden = !supported;
+    openBtn.textContent = on() ? "Avisos ligados (toque para desligar)" : "Receber avisos de novidades";
+  }
+  if (!supported) { refreshBtn(); return; }
+  document.getElementById("nt-no").addEventListener("click", function () { set({ok: false, at: Date.now()}); hide(); refreshBtn(); });
+  document.getElementById("nt-yes").addEventListener("click", function () {
+    Notification.requestPermission().then(function (p) {
+      if (p === "granted") {
+        set({ok: true, at: Date.now()});
+        try { new Notification("Avisos ligados", {body: "Vamos avisar aqui quando sair novidade no Painel 2º Turno.", tag: "el-ok"}); } catch (e) {}
+        hide();
+      } else {
+        set({ok: false, at: Date.now()});
+        document.getElementById("nt-d").textContent = "O navegador bloqueou os avisos. Para ligar, toque no cadeado ao lado do endereço da página e permita as notificações.";
+        document.getElementById("nt-yes").hidden = true;
+        document.getElementById("nt-no").textContent = "Entendi";
+      }
+      refreshBtn();
+    });
+  });
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !box.hidden) hide(); });
+  if (openBtn) openBtn.addEventListener("click", function () {
+    if (on()) { set({ok: false, at: Date.now()}); refreshBtn(); return; }
+    document.getElementById("nt-yes").hidden = false; document.getElementById("nt-no").textContent = "Agora não";
+    show();
+  });
+  refreshBtn();
+  var s0 = get(), SEMANA = 7 * 86400000;
+  if (Notification.permission === "default" && !(s0 && (s0.ok || Date.now() - s0.at < SEMANA))) setTimeout(show, 12000);
+
+  // Novidades: compara o que chegou em cada nova leitura dos dados (a página relê a cada 3 minutos)
+  var seen = null;
+  var WATCH = {
+    pesquisas: function (r) { return "Nova pesquisa " + r.instituto + ": Flávio " + r.flavio_validos + "% e Lula " + r.lula_validos + "% dos votos válidos."; },
+    checagens: function (r) { return "Fala de " + r.candidato + " checada (" + r.veredito + "): " + r.afirmacao; },
+    boatos: function (r) { return "Boato desmentido: " + r.boato; },
+    aovivo: function (r) { return r.tipo === "Programação" ? null : (r.tipo === "Checagem" ? null : "Ao vivo: " + r.texto); }
+  };
+  var TAB = {pesquisas: "pesquisas", checagens: "checagem", boatos: "checagem", aovivo: "aovivo"};
+  dash.onData(function () {
+    var snap = {}, ready = true;
+    Object.keys(WATCH).forEach(function (id) { var d = dash.data(id); if (d.status !== "ok") ready = false; else snap[id] = d.data || []; });
+    if (!ready) return;
+    if (!seen) { seen = {}; Object.keys(snap).forEach(function (id) { seen[id] = new Set(snap[id].map(function (r) { return r.id; })); }); return; }
+    var msgs = [];
+    Object.keys(snap).forEach(function (id) {
+      snap[id].forEach(function (r) {
+        if (!seen[id].has(r.id)) { seen[id].add(r.id); var m = WATCH[id](r); if (m) msgs.push({m: m, tab: TAB[id]}); }
+      });
+    });
+    if (!msgs.length || !on() || !document.hidden) return;
+    var first = msgs[0];
+    var body = msgs.length === 1 ? first.m : first.m + " (e mais " + (msgs.length - 1) + " novidade" + (msgs.length > 2 ? "s" : "") + ")";
+    try {
+      var n = new Notification("Novidade no Painel 2º Turno", {body: body.slice(0, 220), tag: "el-novidade"});
+      n.onclick = function () { window.focus(); location.hash = first.tab; n.close(); };
+    } catch (e) {}
+  });
 })();
 </script>
 <div vw class="enabled">
