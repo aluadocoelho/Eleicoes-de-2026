@@ -6178,6 +6178,226 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "D14B-97B8",
+  "conjunto": "checagens",
+  "id": "l61",
+  "registro": {
+   "id": "l61",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que Flávio mentiu 43 vezes sobre o caso Vorcaro.",
+   "veredito": "SEM COMPROVAÇÃO",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"sem comprovação\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CAED-D823",
+  "conjunto": "checagens",
+  "id": "l62",
+  "registro": {
+   "id": "l62",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que Flávio negou conhecer Vorcaro, apesar de churrasco e viagem de avião.",
+   "veredito": "SEM COMPROVAÇÃO",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"sem comprovação\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D68D-689C",
+  "conjunto": "checagens",
+  "id": "l63",
+  "registro": {
+   "id": "l63",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Chamou Flávio de miliciano.",
+   "veredito": "SEM COMPROVAÇÃO",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"sem comprovação\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "91E4-7994",
+  "conjunto": "checagens",
+  "id": "l64",
+  "registro": {
+   "id": "l64",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse ter dado procuração para abrir seus sigilos, condicionada a Flávio fazer o mesmo.",
+   "veredito": "VERDADEIRA COM RESSALVAS",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"verdadeira com ressalvas\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3FDC-4013",
+  "conjunto": "checagens",
+  "id": "l65",
+  "registro": {
+   "id": "l65",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que o Bolsa Família ficou sem correção desde março de 2023.",
+   "veredito": "VERDADEIRA COM RESSALVAS",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"verdadeira com ressalvas\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F434-D6CF",
+  "conjunto": "checagens",
+  "id": "l66",
+  "registro": {
+   "id": "l66",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que projetos aprovados já tramitavam antes da campanha.",
+   "veredito": "VERDADEIRA COM RESSALVAS",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"verdadeira com ressalvas\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2094-E35A",
+  "conjunto": "checagens",
+  "id": "l67",
+  "registro": {
+   "id": "l67",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Falou em transporte gratuito aos fins de semana, bancado com emendas.",
+   "veredito": "IMPRECISA",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"imprecisa\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9F15-A91D",
+  "conjunto": "checagens",
+  "id": "l68",
+  "registro": {
+   "id": "l68",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que a maioridade penal aos 16 anos já estava em debate em 2018.",
+   "veredito": "SEM COMPROVAÇÃO",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"sem comprovação\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "23F7-959B",
+  "conjunto": "checagens",
+  "id": "l69",
+  "registro": {
+   "id": "l69",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Disse que restringir as saidinhas afetaria centenas de presos por causa de poucos casos.",
+   "veredito": "IMPRECISA",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"imprecisa\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D37D-7C9B",
+  "conjunto": "checagens",
+  "id": "l70",
+  "registro": {
+   "id": "l70",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Falou em transformar 138 presídios em unidades de segurança máxima.",
+   "veredito": "VERDADEIRA COM RESSALVAS",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"verdadeira com ressalvas\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2976-365D",
+  "conjunto": "checagens",
+  "id": "l71",
+  "registro": {
+   "id": "l71",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "afirmacao": "Falou em dobrar o efetivo das polícias Federal, Rodoviária Federal e civis.",
+   "veredito": "IMPRECISA",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A checagem da Gazeta do Paraná (20/10) deu o selo \"imprecisa\" a esta fala.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "CC4E-8C18",
   "conjunto": "checagens_placar",
   "id": "ev-band-flavio",
@@ -6215,6 +6435,26 @@
    "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
   },
   "primeira_vez": "2026-10-19T13:02:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6A93-4481",
+  "conjunto": "checagens_placar",
+  "id": "gp-sbt-lula",
+  "registro": {
+   "id": "gp-sbt-lula",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "data": "2026-10-19",
+   "total": 11,
+   "verdadeiro": 0,
+   "impreciso": 11,
+   "falso": 0,
+   "nota": "Checagem da Gazeta do Paraná (20/10), só falas do próprio Lula. O veículo usa cinco selos: 'verdadeira com ressalvas' (3), 'sem comprovação' (4) e 'imprecisa' (4) entraram como impreciso; nenhuma fala recebeu selo verdadeiro puro ou falso.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
+  },
+  "primeira_vez": "2026-10-20T21:59:54Z",
   "ainda_publicado": true
  },
  {
