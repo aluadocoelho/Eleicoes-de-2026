@@ -84,7 +84,25 @@ def postar(post, sha, pasta):
         except Exception: links.append(None)
     return ids, links
 
+def verificar():
+    """Só confere a chave e a conta, sem publicar nada."""
+    if not TOKEN:
+        print('IG_ACCESS_TOKEN não configurado.'); return 1
+    try:
+        eu = chamar('GET', 'me', fields='username,account_type,user_id')
+        print(f"Chave OK. Conta: @{eu.get('username')} · tipo: {eu.get('account_type')}")
+        try:
+            lim = chamar('GET', f"{eu.get('user_id') or 'me'}/content_publishing_limit", fields='quota_usage,config')
+            print('Limite de publicação:', json.dumps(lim.get('data', lim), ensure_ascii=False))
+        except Exception as e:
+            print('Não consegui ler o limite de publicação:', e)
+        return 0
+    except Exception as e:
+        print('A chave não funcionou:', e); return 1
+
 def main():
+    if os.environ.get('IG_SO_VERIFICAR') == '1':
+        return verificar()
     pendentes = [d for d in sorted(os.listdir(FILA)) if os.path.isfile(f'{FILA}/{d}/post.json')] if os.path.isdir(FILA) else []
     if not pendentes:
         print('Fila vazia: nada a publicar.'); return 0

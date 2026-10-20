@@ -5,7 +5,12 @@ on:
   push:
     branches: [main]
     paths: ["instagram/fila/**"]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      so_verificar:
+        description: "Só conferir a chave, sem publicar"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,6 +28,7 @@ jobs:
         id: pub
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_SO_VERIFICAR: ${{ inputs.so_verificar && '1' || '0' }}
         run: python3 scripts/instagram_publicar.py
       - name: Mover para publicados
         if: always()
