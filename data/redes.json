@@ -37,7 +37,7 @@
  },
  {
   "id": "ipd-quaest",
-  "metrica": "Índice de Popularidade Digital da Quaest (nota de 0 a 100)",
+  "metrica": "Índice de Popularidade Digital (0 a 100)",
   "periodo": "15 out (em 4 out: Lula 70,7; Flávio 80)",
   "lula": 82.6,
   "flavio": 76.4,
@@ -64,7 +64,7 @@
  },
  {
   "id": "globo-ig-mediana",
-  "metrica": "Interações típicas por post no Instagram (curtidas + comentários)",
+  "metrica": "Mediana de interações por post no Instagram (curtidas + comentários)",
   "periodo": "5–14 out (2º turno)",
   "lula": 680000,
   "flavio": 658000,
@@ -145,7 +145,7 @@
  },
  {
   "id": "palver-redes",
-  "metrica": "Parte das menções que tomam posição, por candidato, nas redes (%)",
+  "metrica": "Participação nas menções com posicionamento nas redes (%)",
   "periodo": "20h de 18 out às 9h de 19 out",
   "lula": 59,
   "flavio": 41,
@@ -154,7 +154,7 @@
  },
  {
   "id": "palver-whatsapp",
-  "metrica": "Parte das menções que tomam posição, por candidato, no WhatsApp (%)",
+  "metrica": "Participação nas menções com posicionamento no WhatsApp (%)",
   "periodo": "20h de 18 out às 9h de 19 out",
   "lula": 49,
   "flavio": 51,
@@ -163,7 +163,7 @@
  },
  {
   "id": "palver-telegram",
-  "metrica": "Parte das menções que tomam posição, por candidato, no Telegram (%)",
+  "metrica": "Participação nas menções com posicionamento no Telegram (%)",
   "periodo": "20h de 18 out às 9h de 19 out",
   "lula": 41,
   "flavio": 59,
@@ -181,7 +181,7 @@
  },
  {
   "id": "dsc-ig-dia",
-  "metrica": "Interações por dia no Instagram",
+  "metrica": "Engajamento por dia no Instagram",
   "periodo": "5–16 out (2º turno)",
   "lula": 7900000,
   "flavio": 2000000,
@@ -190,7 +190,7 @@
  },
  {
   "id": "dsc-ig-total",
-  "metrica": "Interações no Instagram, no total",
+  "metrica": "Engajamento total no Instagram",
   "periodo": "5–16 out (2º turno)",
   "lula": 90200000,
   "flavio": 23200000,

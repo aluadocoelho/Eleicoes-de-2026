@@ -320,5 +320,19 @@
   "lula_totais": 39.65,
   "fonte": "Poder360 (Pesquisa França, registro BR-07896/2026)",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-em-votos-validos-diz-pesquisa/"
+ },
+ {
+  "id": "dataranking-2010",
+  "instituto": "Data Ranking",
+  "divulgacao": "2026-10-20",
+  "campo": "14–16 out",
+  "amostra": 2100,
+  "margem": 2.15,
+  "flavio_validos": 49.6,
+  "lula_validos": 50.4,
+  "flavio_totais": 44.6,
+  "lula_totais": 45.4,
+  "fonte": "NC News (Data Ranking/Fonte83, registro BR-00152/2026)",
+  "url": "https://ncnews.com.br/2026/10/20/pesquisa-lula-flavio-bolsonaro/"
  }
 ]
