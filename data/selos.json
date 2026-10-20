@@ -2804,6 +2804,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "5F52-080D",
+  "conjunto": "boatos",
+  "id": "b39",
+  "registro": {
+   "id": "b39",
+   "data": "2026-10-07",
+   "alvo": "Flávio",
+   "boato": "Augusto Cury declarou apoio a Lula e disse que ele vai \"trucidar\" Flávio no 2º turno",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "Cury disse que ficaria em silêncio e que ninguém podia declarar apoio em nome dele; não há registro da frase. No dia seguinte, ele fechou apoio a Flávio.",
+   "url": "https://www.boatos.org/politica/augusto-cury-declara-apoio-a-lula-e-diz-que-ele-vai-trucidar-flavio-bolsonaro-no-2o-turno.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O checador não aponta quem criou ou espalhou.",
+   "tema": "Falso apoio de Cury"
+  },
+  "primeira_vez": "2026-10-20T18:05:55Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -2861,6 +2882,21 @@
    "url": "https://grupoahora.net.br/conteudos/2026/10/05/flavio-ou-lula-veja-quem-cury-renan-caiado-e-zema-apoiarao-no-2o-turno/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9DC6-C130",
+  "conjunto": "campanha",
+  "id": "e04",
+  "registro": {
+   "id": "e04",
+   "data": "2026-10-08",
+   "tipo": "Apoio",
+   "descricao": "Augusto Cury (Avante), 3º colocado no 1º turno, fecha apoio a Flávio e assina com ele um termo de compromisso. Antes, tinha dito que não apoiaria nenhum dos dois.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/"
+  },
+  "primeira_vez": "2026-10-20T18:05:55Z",
   "ainda_publicado": true
  },
  {
@@ -3296,6 +3332,21 @@
    "url": "https://www.dgabc.com.br/Noticia/4353761/meta-afirma-ao-tse-que-adotou-medidas-para-garantir-igualdade-entre-campanhas-de-lula-e-flavio"
   },
   "primeira_vez": "2026-10-20T16:15:51Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "55F1-34B0",
+  "conjunto": "campanha",
+  "id": "e34",
+  "registro": {
+   "id": "e34",
+   "data": "2026-10-09",
+   "tipo": "Apoio",
+   "descricao": "Os diretórios do Avante no Piauí e na Bahia declaram apoio a Lula, ao contrário de Augusto Cury, que apoia Flávio.",
+   "fonte": "Brasil 247",
+   "url": "https://www.brasil247.com/poder/augusto-cury-antecipou-apoio-a-flavio-bolsonaro-apos-diretorios-do-avante-declararem-apoio-a-lula/"
+  },
+  "primeira_vez": "2026-10-20T18:05:55Z",
   "ainda_publicado": true
  },
  {
