@@ -7242,6 +7242,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C2AA-1A1F",
+  "conjunto": "redes",
+  "id": "brief-pico",
+  "registro": {
+   "id": "brief-pico",
+   "metrica": "Maior número de interações em um único dia nos perfis oficiais",
+   "periodo": "14 set–7 out (Lula em 7 out; Flávio em 2 out)",
+   "lula": 9900000,
+   "flavio": 5500000,
+   "fonte": "Projeto Brief, via Folha / DCM",
+   "url": "https://www.diariodocentrodomundo.com.br/lula-vira-o-jogo-nas-redes-e-quase-dobra-pico-de-flavio-com-99-milhoes-de-interacoes"
+  },
+  "primeira_vez": "2026-10-20T14:03:09Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "9225-44B4",
   "conjunto": "redes",
   "id": "dsc-ig-dia",
@@ -7505,6 +7521,20 @@
    "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "721D-E591",
+  "conjunto": "sinais",
+  "id": "bites-buscas",
+  "registro": {
+   "id": "bites-buscas",
+   "data": "2026-10-19",
+   "sinal": "Segundo a Bites, nas 24 horas após o debate da Band as buscas no Google ligadas a Lula giraram em torno de Lulinha (20 de 25 buscas), e as ligadas a Flávio, em torno de Ana Clara (9 buscas). Nas redes, Lulinha teve cerca de 400 mil publicações, Ana Clara cerca de 303 mil e o pedido de Lula para abrir o sigilo bancário de Flávio cerca de 501 mil.",
+   "fonte": "Bites, via Jamildo",
+   "url": "https://jamildo.com/politica/debate-da-band-ana-clara-e-lulinha-concentram-buscas-sobre-flavio-e-lula-aponta-bites.html"
+  },
+  "primeira_vez": "2026-10-20T14:03:09Z",
   "ainda_publicado": true
  },
  {
