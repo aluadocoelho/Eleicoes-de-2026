@@ -98,14 +98,11 @@ def pagina(s, formato):
     story = formato == 'story'
     w, h = 1080, (1920 if story else 1350)
     chip, tit, sub, card, rodape = MODELOS[s['modelo']](s, story)
-    topo = (f'<div style="margin:120px auto 0;position:relative;display:flex;align-items:center;gap:14px;background:{AMARELO};color:#1A1500;'
-            f'border:3px solid {TINTA};box-shadow:7px 7px 0 {TINTA};border-radius:999px;padding:14px 32px 14px 20px;font-size:32px;font-weight:900">'
-            f'<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="{TINTA}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5"/><path d="M5 12l7-7 7 7"/></svg>'
-            f'Toque no link e veja no site</div>') if story else ''
+    topo = '<div style="height:120px"></div>' if story else ''
     pe = (f'<div style="padding:0 72px {150 if story else 54}px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px">'
           f'<div style="display:flex;flex-direction:column;gap:14px">{assinatura(38)}'
-          f'<div style="font-size:20px;opacity:.8;max-width:{560 if not story else 900}px;line-height:1.35">{E(rodape)}</div></div>'
-          + ('' if story else f'<div style="background:{AMARELO};color:#1A1500;border:3px solid {TINTA};box-shadow:7px 7px 0 {TINTA};border-radius:22px;padding:20px 30px;font-size:38px;font-weight:900;white-space:nowrap">Link na bio</div>')
+          f'<div style="font-size:20px;opacity:.8;max-width:{560 if not story else 620}px;line-height:1.35">{E(rodape)}</div></div>'
+          + (f'<div style="background:{AMARELO};color:#1A1500;border:3px solid {TINTA};box-shadow:7px 7px 0 {TINTA};border-radius:22px;padding:20px 30px;font-size:38px;font-weight:900;white-space:nowrap">Link na bio</div>')
           + '</div>')
     fonts = (f"@font-face{{font-family:'Public Sans';src:url('file://{FONTES}/PublicSans.ttf');font-weight:100 900}}"
              f"@font-face{{font-family:'Source Serif 4';src:url('file://{FONTES}/SourceSerif4.ttf');font-weight:200 900}}")
