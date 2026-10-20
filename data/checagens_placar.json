@@ -141,5 +141,18 @@
   "falso": 2,
   "nota": "Checagem completa do Estadão Verifica (publicada em 19/10, reproduzida pelo Terra), só falas do próprio candidato. Verdadeiro = verdadeiro/é verdade; falso = falso; impreciso = enganoso, exagerado, falta contexto, impreciso e subestimado.",
   "url": "https://www.terra.com.br/noticias/eleicoes/checamos-o-debate-entre-lula-e-flavio-na-band-veja-o-resultado,d86be66f67083e785565c6df22ba9a1a4pyzk8ac.html"
+ },
+ {
+  "id": "gp-sbt-lula",
+  "candidato": "Lula",
+  "agencia": "Gazeta do Paraná",
+  "evento": "Sabatina no SBT Brasil",
+  "data": "2026-10-19",
+  "total": 11,
+  "verdadeiro": 0,
+  "impreciso": 11,
+  "falso": 0,
+  "nota": "Checagem da Gazeta do Paraná (20/10), só falas do próprio Lula. O veículo usa cinco selos: 'verdadeira com ressalvas' (3), 'sem comprovação' (4) e 'imprecisa' (4) entraram como impreciso; nenhuma fala recebeu selo verdadeiro puro ou falso.",
+  "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
  }
 ]
