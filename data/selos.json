@@ -3248,6 +3248,36 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E416-1DFE",
+  "conjunto": "campanha",
+  "id": "e32",
+  "registro": {
+   "id": "e32",
+   "data": "2026-10-20",
+   "tipo": "Estratégia",
+   "descricao": "Lula entregou ao TSE um documento que autoriza a abertura dos sigilos bancário, fiscal e telefônico dele e da família dos últimos oito anos. A autorização vale só se Flávio Bolsonaro fizer o mesmo, e Flávio não se comprometeu a isso.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-autoriza-tse-a-quebrar-sigilo-sob-condicao-de-que-flavio-faca-o-mesmo/"
+  },
+  "primeira_vez": "2026-10-20T16:15:51Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0FAA-15D1",
+  "conjunto": "campanha",
+  "id": "e33",
+  "registro": {
+   "id": "e33",
+   "data": "2026-10-20",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "A Meta respondeu ao ministro Marco Aurélio Bellizze, do TSE, que adotou medidas para tratar igual as campanhas de Lula e Flávio e que revisa por pessoas, em até duas horas, restrições automáticas em contas de anúncios. A empresa disse que pode pedir revisões pontuais da ordem.",
+   "fonte": "Diário do Grande ABC",
+   "url": "https://www.dgabc.com.br/Noticia/4353761/meta-afirma-ao-tse-que-adotou-medidas-para-garantir-igualdade-entre-campanhas-de-lula-e-flavio"
+  },
+  "primeira_vez": "2026-10-20T16:15:51Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
