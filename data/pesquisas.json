@@ -306,5 +306,19 @@
   "lula_totais": 45.9,
   "fonte": "Alfa Inteligência (registro BR-00820/2026), via TMC",
   "url": "https://tmc.com.br/politica/alfa-flavio-abre-vantagem-no-2o-turno-e-chega-a-515-dos-votos-validos-contra-lula/"
+ },
+ {
+  "id": "franca-2010",
+  "instituto": "França",
+  "divulgacao": "2026-10-20",
+  "campo": "16–20 out",
+  "amostra": 3000,
+  "margem": 1.8,
+  "flavio_validos": 50.8,
+  "lula_validos": 49.2,
+  "flavio_totais": 40.95,
+  "lula_totais": 39.65,
+  "fonte": "Poder360 (Pesquisa França, registro BR-07896/2026)",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-em-votos-validos-diz-pesquisa/"
  }
 ]
