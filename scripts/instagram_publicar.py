@@ -87,18 +87,18 @@ def postar(post, sha, pasta):
 def verificar():
     """Só confere a chave e a conta, sem publicar nada."""
     if not TOKEN:
-        print('IG_ACCESS_TOKEN não configurado.'); return 1
+        print('::error::IG_ACCESS_TOKEN não configurado (segredo vazio ou com outro nome).'); return 1
     try:
         eu = chamar('GET', 'me', fields='username,account_type,user_id')
-        print(f"Chave OK. Conta: @{eu.get('username')} · tipo: {eu.get('account_type')}")
+        print(f"::notice::Chave OK. Conta: @{eu.get('username')} · tipo: {eu.get('account_type')}")
         try:
             lim = chamar('GET', f"{eu.get('user_id') or 'me'}/content_publishing_limit", fields='quota_usage,config')
-            print('Limite de publicação:', json.dumps(lim.get('data', lim), ensure_ascii=False))
+            print('::notice::Limite de publicação:', json.dumps(lim.get('data', lim), ensure_ascii=False))
         except Exception as e:
             print('Não consegui ler o limite de publicação:', e)
         return 0
     except Exception as e:
-        print('A chave não funcionou:', e); return 1
+        print('::error::A chave não funcionou: ' + str(e)[:900]); return 1
 
 def main():
     if os.environ.get('IG_SO_VERIFICAR') == '1':
@@ -107,7 +107,7 @@ def main():
     if not pendentes:
         print('Fila vazia: nada a publicar.'); return 0
     if not TOKEN:
-        print(f'IG_ACCESS_TOKEN não configurado: {len(pendentes)} peça(s) aprovada(s) esperando na fila.'); return 1
+        print(f'::error::IG_ACCESS_TOKEN não configurado: {len(pendentes)} peça(s) aprovada(s) esperando na fila.'); return 1
     sha = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
     falhas = 0
     for pid in sorted(os.listdir(FILA)):
@@ -119,7 +119,7 @@ def main():
             ids, links = postar(post, sha, pasta)
         except Exception as e:
             falhas += 1
-            print(f'[{pid}] FALHOU: {e}')
+            print(f'::error::[{pid}] FALHOU: ' + str(e)[:900])
             continue
         os.makedirs(FEITOS, exist_ok=True)
         destino = f'{FEITOS}/{pid}'
