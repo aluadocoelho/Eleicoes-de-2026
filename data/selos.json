@@ -6172,6 +6172,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "AF16-0AC5",
+  "conjunto": "pesquisas",
+  "id": "alfa-2010",
+  "registro": {
+   "id": "alfa-2010",
+   "instituto": "Alfa Inteligência",
+   "divulgacao": "2026-10-20",
+   "campo": "15–19 out",
+   "amostra": 2700,
+   "margem": 1.9,
+   "flavio_validos": 51.5,
+   "lula_validos": 48.5,
+   "flavio_totais": 48.8,
+   "lula_totais": 45.9,
+   "fonte": "Alfa Inteligência (registro BR-00820/2026), via TMC",
+   "url": "https://tmc.com.br/politica/alfa-flavio-abre-vantagem-no-2o-turno-e-chega-a-515-dos-votos-validos-contra-lula/"
+  },
+  "primeira_vez": "2026-10-20T12:00:35Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5C98-91F8",
   "conjunto": "pesquisas",
   "id": "atlas-1009",
