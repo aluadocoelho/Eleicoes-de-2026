@@ -676,6 +676,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-chip[hidden]{display:none}
 
 /* ---------- Revisão de usuário: prioridade média (20/10) ---------- */
+/* a sombra do botão de menu não pode ser cortada pelo topo fixo */
+.el-mnav{margin-bottom:6px}
+.el-sticky.el-stuck{padding-bottom:6px}
+@media (min-width:48.01rem){.el-sticky>.el-tabs{margin-right:4px}}
 .el-cod{text-decoration:none;font-family:inherit;font-size:.72rem;opacity:.8}
 .el-cod:hover{opacity:1;text-decoration:underline}
 details.el-siglas{padding:16px 20px}
