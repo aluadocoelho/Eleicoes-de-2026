@@ -7422,6 +7422,22 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "23AE-6914",
+  "conjunto": "redes",
+  "id": "dsc-ig-dia",
+  "registro": {
+   "id": "dsc-ig-dia",
+   "metrica": "Interações por dia no Instagram",
+   "periodo": "5–16 out (2º turno)",
+   "lula": 7900000,
+   "flavio": 2000000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7454,6 +7470,22 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "20FA-1903",
+  "conjunto": "redes",
+  "id": "dsc-ig-total",
+  "registro": {
+   "id": "dsc-ig-total",
+   "metrica": "Interações no Instagram, no total",
+   "periodo": "5–16 out (2º turno)",
+   "lula": 90200000,
+   "flavio": 23200000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7486,6 +7518,22 @@
    "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
   },
   "primeira_vez": "2026-10-19T11:28:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "826F-E317",
+  "conjunto": "redes",
+  "id": "globo-ig-mediana",
+  "registro": {
+   "id": "globo-ig-mediana",
+   "metrica": "Interações típicas por post no Instagram (curtidas + comentários)",
+   "periodo": "5–14 out (2º turno)",
+   "lula": 680000,
+   "flavio": 658000,
+   "fonte": "TV Globo, via Piranot",
+   "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7566,6 +7614,22 @@
    "url": "https://vermelho.org.br/2026/10/18/lula-ultrapassa-flavio-bolsonaro-no-indice-de-popularidade-digital-da-quaest/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "C470-56E4",
+  "conjunto": "redes",
+  "id": "ipd-quaest",
+  "registro": {
+   "id": "ipd-quaest",
+   "metrica": "Índice de Popularidade Digital da Quaest (nota de 0 a 100)",
+   "periodo": "15 out (em 4 out: Lula 70,7; Flávio 80)",
+   "lula": 82.6,
+   "flavio": 76.4,
+   "fonte": "Quaest, via Folha / Vermelho",
+   "url": "https://vermelho.org.br/2026/10/18/lula-ultrapassa-flavio-bolsonaro-no-indice-de-popularidade-digital-da-quaest/"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7582,6 +7646,22 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9308-BC25",
+  "conjunto": "redes",
+  "id": "palver-redes",
+  "registro": {
+   "id": "palver-redes",
+   "metrica": "Parte das menções que tomam posição, por candidato, nas redes (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 59,
+   "flavio": 41,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7598,6 +7678,22 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "217B-8AC9",
+  "conjunto": "redes",
+  "id": "palver-telegram",
+  "registro": {
+   "id": "palver-telegram",
+   "metrica": "Parte das menções que tomam posição, por candidato, no Telegram (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 41,
+   "flavio": 59,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
@@ -7614,6 +7710,22 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "0267-BF6E",
+  "conjunto": "redes",
+  "id": "palver-whatsapp",
+  "registro": {
+   "id": "palver-whatsapp",
+   "metrica": "Parte das menções que tomam posição, por candidato, no WhatsApp (%)",
+   "periodo": "20h de 18 out às 9h de 19 out",
+   "lula": 49,
+   "flavio": 51,
+   "fonte": "Palver, via Exame",
+   "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
+  },
+  "primeira_vez": "2026-10-20T18:19:59Z",
   "ainda_publicado": true
  },
  {
