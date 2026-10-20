@@ -3,7 +3,7 @@
 
 Uso:  python3 instagram/modelos/video.py especificacao.json pasta_de_saida/
 
-Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto e lado):
+Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto e lado; cena2 aceita até 4 itens, cena3 até 2):
 {
  "tema": "plantao" | "verita",          # plantao = preto/amarelo/vermelho; verita = roxo
  "selo": "URGENTE" | "PLANTÃO" | "NOVA PESQUISA" | "CHECAGEM" ...,
@@ -39,7 +39,8 @@ def pagina(s):
     TAPE = f'repeating-linear-gradient(-45deg,{AMARELO} 0 46px,{BG} 46px 92px)'
     a, c2, c3 = s['abertura'], s['cena2'], s['cena3']
     tit = lambda t, d, fs: f'{E(t)}<br><span style="color:{AMARELO}">{E(d)}</span>' if d else E(t)
-    itens2 = ''.join(item(it, 7.2 + 1.4 * i, FI, '#F2F2F4') for i, it in enumerate(c2.get('itens', [])[:2]))
+    L2 = c2.get('itens', [])[:4]; passo = 1.4 if len(L2) <= 2 else 0.9
+    itens2 = ''.join(item(it, 7.2 + passo * i, FI, '#F2F2F4') for i, it in enumerate(L2))
     itens3 = ''.join(item(it, 12.9 + 1.2 * i, FI, '#F2F2F4') for i, it in enumerate(c3.get('itens', [])[:2]))
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:'Public Sans';src:url('file://{P.FONTES}/PublicSans.ttf');font-weight:100 900}}
