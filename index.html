@@ -697,6 +697,11 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-como-l{margin:10px 0 14px;padding-left:22px;display:flex;flex-direction:column;gap:8px;line-height:1.5}
 .el-como-l li::marker{font-weight:800;color:var(--accent-text)}
 .el-link{appearance:none;border:0;background:none;padding:0;font:inherit;color:var(--accent-text);text-decoration:underline;cursor:pointer}
+
+.el-como-mini{appearance:none;display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;color:var(--color-fg);background:var(--color-panel);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);border-radius:18px;padding:14px 18px;cursor:pointer}
+.el-como-mini-i{flex:none;width:36px;height:36px;border-radius:10px;background:#FFD43B;border:2px solid #16181D;color:#16181D;font-family:var(--font-serif,Georgia,serif);font-weight:900;display:grid;place-items:center}
+.el-como-mini-m{flex:none;margin-left:auto;font-weight:800;color:var(--accent-text);white-space:nowrap}
+@media (max-width:40rem){.el-como-mini{align-items:flex-start}.el-como-mini-m{display:none}.el-como-mini>span:nth-child(2)::after{content:" Saiba mais →";font-weight:800;color:var(--accent-text);white-space:nowrap}}
 </style>
 </head>
 <body>
@@ -757,6 +762,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <button class="el-tab" role="tab" id="tab-campanha" aria-controls="campanha" data-tab="campanha" aria-selected="false">Campanhas</button>
     <button class="el-tab" role="tab" id="tab-checagem" aria-controls="checagem" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
     <button class="el-tab" role="tab" id="tab-verificar" aria-controls="verificar" data-tab="verificar" aria-selected="false">Verificar</button>
+    <button class="el-tab" role="tab" id="tab-sobre" aria-controls="sobre" data-tab="sobre" aria-selected="false">Sobre</button>
   </nav>
   </div>
 
@@ -811,16 +817,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       <button class="el-cta" data-go="pesquisas">Ver todas as pesquisas →</button>
     </div>
 
-    <section class="el-card el-como" id="como" aria-labelledby="como-h">
-      <h2 class="el-h" id="como-h">Como a Verita trabalha</h2>
-      <ol class="el-como-l">
-        <li><b>Reunimos o que já foi publicado.</b> Pesquisas, notícias e checagens de institutos, imprensa e checadores. Não fazemos pesquisa nem checagem própria.</li>
-        <li><b>Sempre com a fonte.</b> Cada informação tem o link do original, para você conferir.</li>
-        <li><b>Os dois lados, com o mesmo critério.</b> Não dizemos em quem votar. Veja o <button type="button" class="el-link" data-go="verificar" data-anchor="card-equilibrio">equilíbrio do conteúdo</button>.</li>
-        <li><b>Erros corrigidos em público.</b> Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</li>
-      </ol>
-      <p class="el-note" style="margin:0">A busca, os resumos e a organização são feitos com <b>inteligência artificial</b>, com conferência automática duas vezes por dia; os posts do Instagram são aprovados por uma pessoa antes de sair. Achou um erro? Fale com a gente no Instagram <a href="https://www.instagram.com/veritaeleicoes/" target="_blank" rel="noopener noreferrer">@veritaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
-    </section>
+    <button type="button" class="el-como-mini" data-go="sobre"><span class="el-como-mini-i" aria-hidden="true">V</span><span><b>Como a Verita trabalha:</b> agregador, sempre com a fonte, os dois lados com o mesmo critério e feita com IA.</span><span class="el-como-mini-m" aria-hidden="true">Saiba mais →</span></button>
     <h2 class="el-sec">O que mais você precisa saber</h2>
     <div class="el-qgrid">
       <article class="el-q" id="q-tendencia">
@@ -1248,15 +1245,6 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       </div>
     </div>
     <div id="vf-out" aria-live="polite"></div>
-    <div class="el-card" id="card-equilibrio">
-      <h2 class="el-h">Equilíbrio do conteúdo</h2>
-      <p class="el-note">Quanto do que está no site fala de cada candidato, contado automaticamente a partir dos dados. Serve para qualquer pessoa conferir se a Verita dá o mesmo espaço aos dois.</p>
-      <div class="el-scroll"><table class="el-t el-compact" id="t-equilibrio">
-        <thead><tr><th>O que contamos</th><th class="el-num">Flávio</th><th class="el-num">Lula</th></tr></thead>
-        <tbody></tbody>
-      </table></div>
-      <p class="el-note" style="margin-top:8px">Os números não precisam ser iguais: dependem do que institutos, checadores e imprensa publicaram. Diferenças grandes aparecem aqui para todo mundo ver.</p>
-    </div>
     <div class="el-card" id="card-erratas">
       <h2 class="el-h">Correções (erratas)</h2>
       <p class="el-note">Duas vezes por dia conferimos as informações publicadas contra as fontes originais. Quando achamos um erro, corrigimos e registramos aqui o que mudou e por quê.</p>
@@ -1274,34 +1262,67 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     </div>
   </section>
 
+  <!-- ================= SOBRE ================= -->
+  <section class="el-page" id="sobre" role="tabpanel" aria-labelledby="tab-sobre" tabindex="-1" hidden>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Sobre a Verita</span><p class="el-pgtitle">Que ninguém vote <em>no escuro</em></p></div>
+    <p class="el-intro">A Verita reúne num lugar só o que já foi publicado sobre as eleições no Brasil, com a fonte de cada informação e os dois lados com o mesmo critério, para você entender e decidir por conta própria.</p>
+    <section class="el-card el-como" id="como" aria-labelledby="como-h">
+      <h2 class="el-h" id="como-h">Como a Verita trabalha</h2>
+      <ol class="el-como-l">
+        <li><b>Reunimos o que já foi publicado.</b> Pesquisas, notícias e checagens de institutos, imprensa e checadores. Não fazemos pesquisa nem checagem própria.</li>
+        <li><b>Sempre com a fonte.</b> Cada informação tem o link do original, para você conferir.</li>
+        <li><b>Os dois lados, com o mesmo critério.</b> Não dizemos em quem votar. Veja o <button type="button" class="el-link" data-go="sobre" data-anchor="card-equilibrio">equilíbrio do conteúdo</button>.</li>
+        <li><b>Erros corrigidos em público.</b> Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</li>
+      </ol>
+      <p class="el-note" style="margin:0">A busca, os resumos e a organização são feitos com <b>inteligência artificial</b>, com conferência automática duas vezes por dia; os posts do Instagram são aprovados por uma pessoa antes de sair. Achou um erro? Fale com a gente no Instagram <a href="https://www.instagram.com/veritaeleicoes/" target="_blank" rel="noopener noreferrer">@veritaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
+    </section>
+    <div class="el-card" id="card-equilibrio">
+      <h2 class="el-h">Equilíbrio do conteúdo</h2>
+      <p class="el-note">Quanto do que está no site fala de cada candidato, contado automaticamente a partir dos dados. Serve para qualquer pessoa conferir se a Verita dá o mesmo espaço aos dois.</p>
+      <div class="el-scroll"><table class="el-t el-compact" id="t-equilibrio">
+        <thead><tr><th>O que contamos</th><th class="el-num">Flávio</th><th class="el-num">Lula</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <p class="el-note" style="margin-top:8px">Os números não precisam ser iguais: dependem do que institutos, checadores e imprensa publicaram. Diferenças grandes aparecem aqui para todo mundo ver.</p>
+    </div>
+    <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre-fontes">
+      <h2 class="el-h" id="sobre-h">Sobre este site e as fontes</h2>
+      <p class="el-note">Este site é um <b>agregador de informações</b>. Ele não faz pesquisas nem checagens próprias: reúne o que institutos de pesquisa, veículos de imprensa e agências de checagem já publicaram, e sempre mostra o nome e o link da fonte original, onde está o conteúdo completo.</p>
+      <p class="el-note">Para respeitar o direito autoral de quem produziu cada conteúdo, aqui só aparecem resumos curtos, escritos com palavras nossas, e trechos breves de falas públicas dos candidatos, entre aspas. Não copiamos reportagens ou checagens inteiras, nem fotos, vídeos, gráficos ou logotipos de outros sites. Os números das pesquisas e os selos das checagens pertencem a quem os publicou. Este site não tem ligação com nenhum desses veículos, institutos ou checadores, nem com as campanhas.</p>
+      <p class="el-note">Se você é autor de algum conteúdo citado e quer uma correção ou a retirada, <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
+      <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A coleta das notícias, os resumos, a organização dos dados e o código desta página são feitos com ajuda de IA (Claude, da Anthropic), com conferência automática dos dados e revisão de qualidade duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Verificar.</p>
+    </section>
+
+    <section class="el-card" id="contato" aria-labelledby="contato-h">
+      <h2 class="el-h" id="contato-h">Fale com a Verita</h2>
+      <p class="el-note">Achou um erro, quer sugerir uma checagem ou é autor de um conteúdo citado? Mande mensagem no Instagram <a href="https://www.instagram.com/veritaeleicoes/" target="_blank" rel="noopener noreferrer">@veritaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>. Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</p>
+      <p class="el-note" style="margin-bottom:0">Os dados do site são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
+    </section>
+    <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
+      <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
+      <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
+    </section>
+
+    <details class="el-card el-details el-siglas" id="siglas">
+      <summary>O que querem dizer as siglas que aparecem no site?</summary>
+      <ul class="el-note" style="margin:10px 0 0;padding-left:18px;line-height:1.7">
+        <li><b>TSE</b>: Tribunal Superior Eleitoral, que organiza a eleição e julga as regras da campanha.</li>
+        <li><b>STF</b>: Supremo Tribunal Federal, o tribunal mais alto do país.</li>
+        <li><b>STJ</b>: Superior Tribunal de Justiça.</li>
+        <li><b>PGR</b>: Procuradoria-Geral da República, que acusa autoridades na Justiça.</li>
+        <li><b>PF</b> e <b>PRF</b>: Polícia Federal e Polícia Rodoviária Federal.</li>
+        <li><b>PEC</b>: proposta para mudar a Constituição.</li>
+        <li><b>PL</b> e <b>PT</b>: os partidos de Flávio Bolsonaro e de Lula.</li>
+        <li><b>Pontos</b> (ou p.p.): a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</li>
+      </ul>
+    </details>
+
+  </section>
+
   </main>
 
-  <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
-    <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
-    <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
-  </section>
 
-  <details class="el-card el-details el-siglas" id="siglas">
-    <summary>O que querem dizer as siglas que aparecem no site?</summary>
-    <ul class="el-note" style="margin:10px 0 0;padding-left:18px;line-height:1.7">
-      <li><b>TSE</b>: Tribunal Superior Eleitoral, que organiza a eleição e julga as regras da campanha.</li>
-      <li><b>STF</b>: Supremo Tribunal Federal, o tribunal mais alto do país.</li>
-      <li><b>STJ</b>: Superior Tribunal de Justiça.</li>
-      <li><b>PGR</b>: Procuradoria-Geral da República, que acusa autoridades na Justiça.</li>
-      <li><b>PF</b> e <b>PRF</b>: Polícia Federal e Polícia Rodoviária Federal.</li>
-      <li><b>PEC</b>: proposta para mudar a Constituição.</li>
-      <li><b>PL</b> e <b>PT</b>: os partidos de Flávio Bolsonaro e de Lula.</li>
-      <li><b>Pontos</b> (ou p.p.): a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</li>
-    </ul>
-  </details>
 
-  <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre">
-    <h2 class="el-h" id="sobre-h">Sobre este site e as fontes</h2>
-    <p class="el-note">Este site é um <b>agregador de informações</b>. Ele não faz pesquisas nem checagens próprias: reúne o que institutos de pesquisa, veículos de imprensa e agências de checagem já publicaram, e sempre mostra o nome e o link da fonte original, onde está o conteúdo completo.</p>
-    <p class="el-note">Para respeitar o direito autoral de quem produziu cada conteúdo, aqui só aparecem resumos curtos, escritos com palavras nossas, e trechos breves de falas públicas dos candidatos, entre aspas. Não copiamos reportagens ou checagens inteiras, nem fotos, vídeos, gráficos ou logotipos de outros sites. Os números das pesquisas e os selos das checagens pertencem a quem os publicou. Este site não tem ligação com nenhum desses veículos, institutos ou checadores, nem com as campanhas.</p>
-    <p class="el-note">Se você é autor de algum conteúdo citado e quer uma correção ou a retirada, <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
-    <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A coleta das notícias, os resumos, a organização dos dados e o código desta página são feitos com ajuda de IA (Claude, da Anthropic), com conferência automática dos dados e revisão de qualidade duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Verificar.</p>
-  </section>
 
   <div class="el-drw-bg" id="el-drw-bg" hidden></div>
   <div class="el-drw" id="el-drw" role="dialog" aria-modal="true" aria-labelledby="el-drw-h" hidden>
@@ -2784,12 +2805,14 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       redes: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/>',
       campanha: '<path d="M3 10v4a1 1 0 0 0 1 1h3l7 4V5L7 9H4a1 1 0 0 0-1 1z"/><path d="M18 9a4 4 0 0 1 0 6"/>',
       checagem: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>',
-      verificar: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>'
+      verificar: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
+      sobre: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.5v.5"/>'
     };
     const DESC = {
       inicio: "Resumo do 2º turno em um minuto", aovivo: "Debates e eventos em tempo real", pesquisas: "Todas as pesquisas e a média",
       redes: "Desempenho dos candidatos nas redes", campanha: "Agenda, propostas e Justiça Eleitoral", checagem: "Checagens das falas e boatos",
-      verificar: "Fontes, correções e selos dos dados"
+      verificar: "Confira prints e veja as correções",
+      sobre: "Como a Verita trabalha, equilíbrio e contato"
     };
     const svg = (id, sz) => '<svg class="el-tab-ico" width="' + sz + '" height="' + sz + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + (IC[id] || "") + '</svg>';
     const tabsEl = Array.from(document.querySelectorAll(".el-tab"));
