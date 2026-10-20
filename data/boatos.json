@@ -516,5 +516,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Bolsa Família e privatizações"
+ },
+ {
+  "id": "b38",
+  "data": "2026-10-12",
+  "alvo": "Lula",
+  "boato": "Mais de 90% dos presos votaram em Lula",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "Nas seções de presídios, Lula teve 72,6% dos votos e Flávio 23,3%; o vídeo exagerou os números.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/12/e-falso-que-mais-de-90-dos-presos-votaram-em-lula/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Voto de presos"
  }
 ]
