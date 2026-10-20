@@ -27,9 +27,9 @@ COR = {'lula': VERM, 'flavio': AZUL, 'neutro': AMARELO}
 def item(it, d, fundo_item, txt_cor):
     cor = COR.get(it.get('lado', 'neutro'), AMARELO)
     rot = cor if cor != AZUL else '#7EA6FF'
-    return (f'<div class="up" style="animation-delay:{d}s;background:{fundo_item};border:3px solid #3A3E48;border-top:10px solid {cor};border-radius:26px;padding:26px 30px;display:flex;flex-direction:column;gap:10px">'
-            f'<div style="font-size:30px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
-            f'<div style="font-size:40px;line-height:1.36;color:{txt_cor}">{E(it["texto"])}</div></div>')
+    return (f'<div class="up" style="animation-delay:{d}s;background:{fundo_item};border:3px solid #3A3E48;border-top:10px solid {cor};border-radius:28px;padding:30px 34px;display:flex;flex-direction:column;gap:12px">'
+            f'<div style="font-size:32px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
+            f'<div style="font-size:46px;line-height:1.34;color:{txt_cor}">{E(it["texto"])}</div></div>')
 
 def pagina(s):
     plantao = s.get('tema', 'plantao') == 'plantao'
@@ -47,7 +47,8 @@ def pagina(s):
 @font-face{{font-family:'Source Serif 4';src:url('file://{P.FONTES}/SourceSerif4.ttf');font-weight:200 900}}
 body{{margin:0}}
 .f{{width:1080px;height:1920px;background:{BG};color:#fff;font-family:{SANS};position:relative;overflow:hidden}}
-.sc{{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 72px 120px;box-sizing:border-box}}
+.sc{{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:250px 80px 300px;box-sizing:border-box}}
+@keyframes logo{{0%{{transform:scale(.4);opacity:0}}70%{{transform:scale(1.08);opacity:1}}100%{{transform:scale(1)}}}}
 @keyframes up{{from{{transform:translateY(70px);opacity:0}}to{{transform:none;opacity:1}}}}
 @keyframes pop{{0%{{transform:scale(.3) rotate(-10deg);opacity:0}}60%{{transform:scale(1.12) rotate(-3deg);opacity:1}}100%{{transform:scale(1) rotate(-3deg)}}}}
 @keyframes blink{{0%,100%{{opacity:1}}50%{{opacity:.15}}}}
@@ -61,6 +62,11 @@ body{{margin:0}}
 .up{{animation:up .55s cubic-bezier(.2,.8,.3,1) both}}
 </style></head><body><div class="f">
 <div style="position:absolute;left:0;right:0;top:0;display:flex;height:22px;z-index:5"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>
+<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 100 100"><polygon points="12,16 36,16 50,42.5 50,88" fill="{AZUL}"/><polygon points="50,42.5 64,16 88,16 50,88" fill="{VERM}"/><polygon points="12,16 36,16 50,42.5 64,16 88,16 50,88" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>
+<div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">
+  <div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>
+  <span class="up" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">@veritaeleicoes</span>
+</div>
 <div class="sc" style="animation:hide 0s linear 5.6s forwards;align-items:flex-start">
   <div style="position:absolute;left:-80px;right:-80px;top:300px;height:130px;background:{TAPE};animation:tapeL .6s cubic-bezier(.2,.8,.3,1) .1s both"></div>
   <div style="position:absolute;left:-80px;right:-80px;bottom:330px;height:130px;background:{TAPE};animation:tapeR .6s cubic-bezier(.2,.8,.3,1) .35s both"></div>
@@ -68,22 +74,22 @@ body{{margin:0}}
     <div style="animation:pop .6s cubic-bezier(.2,.9,.3,1.3) .7s both;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{VERM};color:#fff;border:4px solid #000;box-shadow:12px 12px 0 {AMARELO};border-radius:999px;padding:22px 46px;font-size:{96 if len(s.get('selo','')) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">
       <i style="width:40px;height:40px;border-radius:50%;background:#fff;display:block;animation:blink 1s steps(2) 1.3s infinite"></i>{E(s.get('selo', 'PLANTÃO'))}</div>
     <div class="up" style="animation-delay:1.5s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get('chip', 'Plantão Verita · Eleições 2026'))}</div>
-    <h1 class="up" style="animation-delay:1.9s;margin:0;font-family:{SERIF};font-weight:800;font-size:120px;line-height:.98;letter-spacing:-.03em">{tit(a['titulo'], a.get('destaque'), 120)}</h1>
-    <div class="up" style="animation-delay:2.6s;font-size:44px;line-height:1.35;color:{SUB}">{E(a.get('sub', ''))}</div>
+    <h1 class="up" style="animation-delay:1.9s;margin:0;font-family:{SERIF};font-weight:800;font-size:136px;line-height:.98;letter-spacing:-.03em">{tit(a['titulo'], a.get('destaque'), 136)}</h1>
+    <div class="up" style="animation-delay:2.6s;font-size:50px;line-height:1.35;color:{SUB}">{E(a.get('sub', ''))}</div>
   </div>
   <div style="position:absolute;inset:0;background:#fff;opacity:0;animation:flash .35s ease-out .7s forwards;pointer-events:none"></div>
 </div>
 <div class="sc" style="visibility:hidden;animation:show 0s linear 5.6s forwards,hide 0s linear 12.6s forwards">
-  <div class="up" style="animation-delay:5.7s;font-size:34px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:24px">{E(c2.get('chip', ''))}</div>
-  <h2 class="up" style="animation-delay:5.9s;margin:0 0 40px;font-family:{SERIF};font-weight:800;font-size:92px;line-height:1;letter-spacing:-.025em">{tit(c2['titulo'], c2.get('destaque'), 92)}</h2>
-  <div style="display:flex;flex-direction:column;gap:22px">{itens2}</div>
+  <div class="up" style="animation-delay:5.7s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(c2.get('chip', ''))}</div>
+  <h2 class="up" style="animation-delay:5.9s;margin:0 0 50px;font-family:{SERIF};font-weight:800;font-size:{104 if len(L2) <= 2 else 92}px;line-height:1;letter-spacing:-.025em">{tit(c2['titulo'], c2.get('destaque'), 104)}</h2>
+  <div style="display:flex;flex-direction:column;gap:{30 if len(L2) <= 2 else 22}px">{itens2}</div>
 </div>
 <div class="sc" style="visibility:hidden;animation:show 0s linear 12.6s forwards">
-  <div class="up" style="animation-delay:12.7s;font-size:34px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:24px">{E(c3.get('chip', ''))}</div>
-  <div style="display:flex;flex-direction:column;gap:22px;margin-bottom:56px">{itens3}</div>
-  <div class="up" style="animation-delay:14.6s;font-family:{SERIF};font-weight:800;font-size:80px;line-height:1.02;letter-spacing:-.025em;margin-bottom:40px">{tit(c3.get('chamada', 'Acompanhe no site'), c3.get('chamada_destaque'), 80)}</div>
+  <div class="up" style="animation-delay:12.7s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(c3.get('chip', ''))}</div>
+  <div style="display:flex;flex-direction:column;gap:30px;margin-bottom:64px">{itens3}</div>
+  <div class="up" style="animation-delay:14.6s;font-family:{SERIF};font-weight:800;font-size:96px;line-height:1.02;letter-spacing:-.025em;margin-bottom:48px">{tit(c3.get('chamada', 'Acompanhe no site'), c3.get('chamada_destaque'), 96)}</div>
   <div class="up" style="animation-delay:15.6s;display:flex;align-items:center;justify-content:space-between;gap:24px">
-    <div style="display:flex;flex-direction:column;gap:12px">{P.assinatura(44)}<div style="font-size:24px;color:#9DA1AB;max-width:560px;line-height:1.35">{E(s.get('rodape', ''))}</div></div>
+    <div style="display:flex;flex-direction:column;gap:12px"><div style="font-size:28px;color:{SUB};max-width:580px;line-height:1.4">{E(s.get('rodape', ''))}</div></div>
     <div style="background:{AMARELO};color:#1A1500;border:3px solid #000;box-shadow:8px 8px 0 {VERM};border-radius:24px;padding:22px 32px;font-size:44px;font-weight:900;white-space:nowrap">Link na bio</div>
   </div>
 </div>
