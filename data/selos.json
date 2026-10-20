@@ -6647,6 +6647,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DAF4-DFF2",
+  "conjunto": "pesquisas",
+  "id": "franca-2010",
+  "registro": {
+   "id": "franca-2010",
+   "instituto": "França",
+   "divulgacao": "2026-10-20",
+   "campo": "16–20 out",
+   "amostra": 3000,
+   "margem": 1.8,
+   "flavio_validos": 50.8,
+   "lula_validos": 49.2,
+   "flavio_totais": 40.95,
+   "lula_totais": 39.65,
+   "fonte": "Poder360 (Pesquisa França, registro BR-07896/2026)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-em-votos-validos-diz-pesquisa/"
+  },
+  "primeira_vez": "2026-10-20T16:00:03Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0BEE-45F3",
   "conjunto": "pesquisas",
   "id": "futura-1310",
