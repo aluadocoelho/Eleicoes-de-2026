@@ -2835,7 +2835,7 @@
    "tema": "Falso apoio de Cury"
   },
   "primeira_vez": "2026-10-20T18:05:55Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "0C7C-F514",
@@ -6777,6 +6777,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3D90-784D",
+  "conjunto": "pesquisas",
+  "id": "dataranking-2010",
+  "registro": {
+   "id": "dataranking-2010",
+   "instituto": "Data Ranking",
+   "divulgacao": "2026-10-20",
+   "campo": "14–16 out",
+   "amostra": 2100,
+   "margem": 2.15,
+   "flavio_validos": 49.6,
+   "lula_validos": 50.4,
+   "flavio_totais": 44.6,
+   "lula_totais": 45.4,
+   "fonte": "NC News (Data Ranking/Fonte83, registro BR-00152/2026)",
+   "url": "https://ncnews.com.br/2026/10/20/pesquisa-lula-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-20T18:59:30Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "DAF4-DFF2",
   "conjunto": "pesquisas",
   "id": "franca-2010",
@@ -7422,7 +7443,7 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T11:28:59Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "23AE-6914",
@@ -7438,7 +7459,7 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "CDFD-E0B1",
@@ -7470,7 +7491,7 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T11:28:59Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "20FA-1903",
@@ -7486,7 +7507,7 @@
    "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "5C6F-A95E",
@@ -7518,7 +7539,7 @@
    "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
   },
   "primeira_vez": "2026-10-19T11:28:56Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "826F-E317",
@@ -7534,7 +7555,7 @@
    "url": "https://www.piranot.com.br/2026/10/18/noticias/politica/eleicoes/lula-mencoes-flavio-bolsonaro-instagram/"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "AD02-A082",
@@ -7614,7 +7635,7 @@
    "url": "https://vermelho.org.br/2026/10/18/lula-ultrapassa-flavio-bolsonaro-no-indice-de-popularidade-digital-da-quaest/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "C470-56E4",
@@ -7630,7 +7651,7 @@
    "url": "https://vermelho.org.br/2026/10/18/lula-ultrapassa-flavio-bolsonaro-no-indice-de-popularidade-digital-da-quaest/"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "7292-C822",
@@ -7646,7 +7667,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "9308-BC25",
@@ -7662,7 +7683,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "00C5-847D",
@@ -7678,7 +7699,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "217B-8AC9",
@@ -7694,7 +7715,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "8492-FB17",
@@ -7710,7 +7731,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
-  "ainda_publicado": false
+  "ainda_publicado": true
  },
  {
   "codigo": "0267-BF6E",
@@ -7726,7 +7747,7 @@
    "url": "https://exame.com/brasil/lula-domina-repercussao-do-debate-da-band-nas-redes-e-flavio-no-telegram-aponta-palver/"
   },
   "primeira_vez": "2026-10-20T18:19:59Z",
-  "ainda_publicado": true
+  "ainda_publicado": false
  },
  {
   "codigo": "FABD-6C01",
