@@ -2024,6 +2024,27 @@
    "tema": "Religião"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F5EE-1FF2",
+  "conjunto": "boatos",
+  "id": "b10",
+  "registro": {
+   "id": "b10",
+   "data": "2026-10-17",
+   "alvo": "Flávio",
+   "boato": "Flávio retiraria de Nossa Senhora Aparecida o título de padroeira",
+   "veredito": "Sem fundamento; TSE manteve o vídeo",
+   "agencia": "Imprensa / TSE",
+   "explicacao": "No vídeo, Flávio nega que pretenda retirar o título de padroeira; a ministra Estela Aranha manteve a peça do TSE por entender que ela não afirma isso como fato, apenas critica a credibilidade dele.",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-mantem-video-de-lula-que-chama-flavio-de-mentiroso-master/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo do perfil de campanha \"Brasil com Lula\" levantou a dúvida; o TSE manteve o vídeo por considerá-lo crítica política.",
+   "tema": "Religião"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2045,6 +2066,27 @@
    "tema": "Atos de campanha"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F078-0C31",
+  "conjunto": "boatos",
+  "id": "b11",
+  "registro": {
+   "id": "b11",
+   "data": "2026-10-13",
+   "alvo": "Lula",
+   "boato": "Imagem de outro país apresentada como sendo de um ato pró-Lula",
+   "veredito": "Descontextualizado; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O vídeo foi gravado no Chile e usado para ligar o ato pró-Lula na Avenida Paulista (11/10) a uso de drogas; o ministro Marco Aurélio Bellizze viu \"grave manipulação por descontextualização\" e mandou remover.",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/tse-manda-flavio-carlos-bolsonaro-e-marcal-removerem-video-falso-sobre-drogas-em-ato-do-pt-em-sp,046e7ef5416ea6cdc12af48b504790d4tfc22a3w.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Posts de Flávio Bolsonaro, Carlos Bolsonaro, Pablo Marçal e Rony Gabriel, que o TSE mandou apagar.",
+   "tema": "Atos de campanha"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2234,6 +2276,27 @@
    "tema": "Corrupção"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "60BA-5D48",
+  "conjunto": "boatos",
+  "id": "b18",
+  "registro": {
+   "id": "b18",
+   "data": "2026-10-10",
+   "alvo": "Flávio",
+   "boato": "Propaganda de Lula liga Flávio e seu vice a crimes (\"dupla dos escândalos\")",
+   "veredito": "Suspensa pelo TSE (podia induzir o eleitor a erro)",
+   "agencia": "TSE",
+   "explicacao": "O presidente do TSE, Nunes Marques, suspendeu a peça em decisão liminar: a manchete sobre o filme Dark Horse aparecia com áudio de corrupção e lavagem de dinheiro, e não se informava que o STF arquivou a apuração sobre Alfredo Gaspar em 6/10.",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/nunes-marques-suspende-propaganda-de-lula-contra-flavio-e-gaspar/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Peça do horário eleitoral da coligação de Lula, segundo a decisão do TSE.",
+   "tema": "Corrupção"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2465,6 +2528,27 @@
    "tema": "Programas sociais"
   },
   "primeira_vez": "2026-10-19T11:27:59Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "6E64-B2C5",
+  "conjunto": "boatos",
+  "id": "b29",
+  "registro": {
+   "id": "b29",
+   "data": "2026-10-13",
+   "alvo": "Flávio",
+   "boato": "Flávio planejaria cortar Farmácia Popular, Minha Casa Minha Vida e outros programas (\"tesouraço\")",
+   "veredito": "Removido pelo TSE (sabidamente inverídico, segundo o ministro)",
+   "agencia": "TSE",
+   "explicacao": "O ministro André Mendonça considerou o vídeo sabidamente inverídico: atribuía a Flávio a intenção de acabar com programas sociais, mas o plano de governo registrado no TSE usa \"tesouraço\" para a redução da estrutura administrativa e prevê manutenção e aperfeiçoamento das políticas.",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/mendonca-determina-retirada-de-video-de-lula-sobre-tesouraco-de-flavio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo publicado em 6/10 nas redes da campanha de Lula, segundo a decisão do TSE.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2486,6 +2570,27 @@
    "tema": "Segurança"
   },
   "primeira_vez": "2026-10-19T11:27:59Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "E03F-8B71",
+  "conjunto": "boatos",
+  "id": "b30",
+  "registro": {
+   "id": "b30",
+   "data": "2026-10-18",
+   "alvo": "Lula",
+   "boato": "Morte de organizador de carreata pró-Flávio seria ligada a facções que apoiam Lula",
+   "veredito": "Sem respaldo nos fatos; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "A ministra Estela Aranha viu conclusões sem base no que se sabe do crime, ainda sob investigação, e deu 24 horas para apagar a publicação.",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-vice-de-flavio-apagar-video-que-liga-lula-ao-crime/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Vídeo publicado por Alfredo Gaspar (PL-AL), candidato a vice na chapa de Flávio, segundo a decisão do TSE.",
+   "tema": "Segurança"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2549,6 +2654,27 @@
    "tema": "Programas sociais"
   },
   "primeira_vez": "2026-10-19T12:14:22Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "574C-2CD6",
+  "conjunto": "boatos",
+  "id": "b33",
+  "registro": {
+   "id": "b33",
+   "data": "2026-10-09",
+   "alvo": "Flávio",
+   "boato": "Flávio imporia jornada de sete dias por semana e acabaria com a Farmácia Popular",
+   "veredito": "Removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O presidente do TSE, Nunes Marques, mandou apagar em 24 horas o vídeo que atribuía esses planos a Flávio.",
+   "url": "https://www.metropoles.com/colunas/manoela-alcantara/kassio-e-mendonca-mandam-retirar-videos-de-lula-e-janja-contra-flavio",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Vídeo publicado nos perfis da primeira-dama Janja Lula da Silva, segundo a reportagem.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -2570,6 +2696,27 @@
    "tema": "Propaganda com crianças"
   },
   "primeira_vez": "2026-10-19T14:01:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9695-87AA",
+  "conjunto": "boatos",
+  "id": "b34",
+  "registro": {
+   "id": "b34",
+   "data": "2026-10-14",
+   "alvo": "Lula",
+   "boato": "Vídeo com crianças falando de crise, crime e medo do futuro em caso de volta do PT",
+   "veredito": "Retirado pelo TSE (uso de crianças e afirmações sem contexto)",
+   "agencia": "TSE",
+   "explicacao": "O ministro Marco Aurélio Bellizze viu na edição e na encenação do vídeo de Dia das Crianças aparência factual para afirmações contestadas, sem contexto, e criticou o uso da inocência infantil; mandou apagar em 24 horas no Instagram, Facebook e X (Nikolas) e no WhatsApp (Flávio).",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-remover-video-de-nikolas-que-usa-criancas-contra-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a reportagem, publicações de Nikolas Ferreira (PL-MG) no Instagram, Facebook e X e de Flávio Bolsonaro no canal \"Tropa do Flávio\", no WhatsApp.",
+   "tema": "Propaganda com crianças"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -4538,6 +4685,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "18D4-5E8B",
+  "conjunto": "checagens",
+  "id": "f71",
+  "registro": {
+   "id": "f71",
+   "data": "2026-10-19",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o atual governo está deixando uma dívida de R$ 11 trilhões.",
+   "veredito": "FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Banco Central registra dívida bruta perto de R$ 11,1 trilhões em agosto, valor que soma União, INSS, estados e municípios.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -4558,6 +4725,26 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9BB6-BBBA",
+  "conjunto": "checagens",
+  "id": "f72",
+  "registro": {
+   "id": "f72",
+   "data": "2026-10-19",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que foi Jair Bolsonaro quem levou o Bolsa Família para no mínimo R$ 600.",
+   "veredito": "NÃO É BEM ASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor de R$ 600 veio em 2022 por emenda constitucional aprovada pelo Congresso, não só por ação do governo.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -4578,6 +4765,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "938D-E83B",
+  "conjunto": "checagens",
+  "id": "f73",
+  "registro": {
+   "id": "f73",
+   "data": "2026-10-19",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que Lula foi condenado em todas as instâncias e depois descondenado por amigos.",
+   "veredito": "FATO (instâncias e STJ) e FAKE (STF)",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "As condenações em 1ª e 2ª instância e no STJ ocorreram, mas o STF não julgou o mérito: anulou os processos por incompetência do juízo.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -5738,6 +5945,26 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F2F4-5A4D",
+  "conjunto": "checagens",
+  "id": "l58",
+  "registro": {
+   "id": "l58",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que foi o único presidente a ter superávit nos oito anos de governo.",
+   "veredito": "FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dados do Tesouro mostram resultado primário positivo em todos os anos entre 2003 e 2010.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -5758,6 +5985,26 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "B3E9-1B31",
+  "conjunto": "checagens",
+  "id": "l59",
+  "registro": {
+   "id": "l59",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que foi o primeiro presidente a conseguir dois graus de investimento, de 2007 a 2010.",
+   "veredito": "NÃO É BEM ASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A nota do país subiu nesse período, mas o grau de investimento só foi alcançado em 2008.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {
@@ -5778,6 +6025,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-19T14:29:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "7AC4-23B7",
+  "conjunto": "checagens",
+  "id": "l60",
+  "registro": {
+   "id": "l60",
+   "data": "2026-10-19",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Band",
+   "afirmacao": "Disse que o governo anterior deixou um déficit de 2,8%.",
+   "veredito": "FAKE",
+   "categoria": "Falso",
+   "explicacao": "Em 2022, último ano de Bolsonaro, houve superávit primário de 0,5% do PIB.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-20T12:10:11Z",
   "ainda_publicado": true
  },
  {

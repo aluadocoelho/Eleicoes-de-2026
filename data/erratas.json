@@ -185,5 +185,93 @@
   "depois": "Matéria sobre a BTG/Nexus; campo 10–12 out, 2.002 entrevistas, margem de 2 p.p.",
   "motivo": "O link anterior tratava de outra pesquisa (Quaest); a reportagem da BTG/Nexus traz 52% a 48% nos válidos e os dados técnicos.",
   "url": "https://www.jornalopcao.com.br/ultimas-noticias/empate-tecnico-flavio-bolsonaro-tem-52-e-lula-48-no-segundo-turno-aponta-pesquisa-btg-nexus-878284/"
+ },
+ {
+  "id": "er18",
+  "data": "2026-10-20",
+  "conjunto": "checagens",
+  "registro_id": "f71,f72,f73,l58,l59,l60",
+  "o_que_mudou": "Link da checagem do g1",
+  "antes": "Link do site Sem Pauta, que republicou a checagem",
+  "depois": "Página do Fato ou Fake no g1",
+  "motivo": "O link apontava para uma republicação; a checagem original é do g1 e os selos e resumos batem com ela.",
+  "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml"
+ },
+ {
+  "id": "er19",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b10",
+  "o_que_mudou": "Link e explicação do boato sobre a padroeira",
+  "antes": "Link da viva.com.br; explicação dizia que a acusação não tinha base segundo a cobertura",
+  "depois": "Reportagem da CNN Brasil; explicação segue a decisão da ministra",
+  "motivo": "A CNN Brasil descreve a decisão do TSE e o trecho em que Flávio nega a intenção, sem afirmar que a peça acusa o candidato.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/tse-mantem-video-de-lula-que-chama-flavio-de-mentiroso-master/"
+ },
+ {
+  "id": "er20",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b11",
+  "o_que_mudou": "Link e explicação do boato do vídeo do Chile",
+  "antes": "Link do Jornal Grande Bahia; explicação falava em foto de evento no Chile",
+  "depois": "Reportagem do Estadão Conteúdo (Terra); vídeo gravado no Chile ligado ao ato da Paulista",
+  "motivo": "A reportagem descreve vídeo de outro contexto e lista os quatro perfis alvo da decisão de Bellizze.",
+  "url": "https://www.terra.com.br/noticias/brasil/politica/tse-manda-flavio-carlos-bolsonaro-e-marcal-removerem-video-falso-sobre-drogas-em-ato-do-pt-em-sp,046e7ef5416ea6cdc12af48b504790d4tfc22a3w.html"
+ },
+ {
+  "id": "er21",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b18",
+  "o_que_mudou": "Link e selo da propaganda \"dupla dos escândalos\"",
+  "antes": "Link da Revista Oeste; \"Sem base factual; TSE suspendeu\"",
+  "depois": "Reportagem do Poder360; \"Suspensa pelo TSE (podia induzir o eleitor a erro)\"",
+  "motivo": "A decisão de Nunes Marques apontou manchete e omissão que podiam induzir a erro, sem a expressão \"sem base factual\".",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/nunes-marques-suspende-propaganda-de-lula-contra-flavio-e-gaspar/"
+ },
+ {
+  "id": "er22",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b29",
+  "o_que_mudou": "Link e selo do vídeo do \"tesouraço\"",
+  "antes": "Link da Revista Oeste; \"Sem base; removido pelo TSE\"",
+  "depois": "Reportagem da CNN Brasil; \"sabidamente inverídico, segundo o ministro\"",
+  "motivo": "A CNN Brasil traz o fundamento de Mendonça, baseado no plano de governo registrado no TSE.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/mendonca-determina-retirada-de-video-de-lula-sobre-tesouraco-de-flavio/"
+ },
+ {
+  "id": "er23",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b30",
+  "o_que_mudou": "Link do boato sobre a carreata",
+  "antes": "Link do Verão Notícias",
+  "depois": "Reportagem do Poder360",
+  "motivo": "O Poder360 descreve a decisão da ministra Estela Aranha, o prazo de 24 horas e o autor da publicação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-vice-de-flavio-apagar-video-que-liga-lula-ao-crime/"
+ },
+ {
+  "id": "er24",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b33",
+  "o_que_mudou": "Link do boato sobre jornada e Farmácia Popular",
+  "antes": "Link do Diário do Poder",
+  "depois": "Reportagem do Metrópoles",
+  "motivo": "O Metrópoles descreve a decisão de Nunes Marques e o prazo de 24 horas para Janja.",
+  "url": "https://www.metropoles.com/colunas/manoela-alcantara/kassio-e-mendonca-mandam-retirar-videos-de-lula-e-janja-contra-flavio"
+ },
+ {
+  "id": "er25",
+  "data": "2026-10-20",
+  "conjunto": "boatos",
+  "registro_id": "b34",
+  "o_que_mudou": "Link e selo do vídeo com crianças",
+  "antes": "Link da Gazeta do Povo; \"Retirado pelo TSE (desinformação)\"",
+  "depois": "Reportagem do Poder360; \"Retirado pelo TSE (uso de crianças e afirmações sem contexto)\"",
+  "motivo": "O Poder360 detalha o fundamento de Bellizze, as plataformas e quem publicou; a decisão não fala em desinformação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-remover-video-de-nikolas-que-usa-criancas-contra-lula/"
  }
 ]
