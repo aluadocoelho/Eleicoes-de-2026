@@ -446,7 +446,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -662,11 +662,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -866,7 +866,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1594,6 +1594,18 @@
   "titulo": "É falso que filha de Lula foi presa pela PF",
   "data_checagem": "2026-09-08",
   "url": "https://www.aosfatos.org/noticias/filha-lula-presa-pf/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/video-bolsonaro-festa-vorcaro/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo de Jair Bolsonaro dançando em barco foi vazado e mostra primeira festa do Daniel Vorcaro",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-09-04",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Vídeo não mostra Bolsonaro em festa de Vorcaro; imagens são de ...",
+  "data_checagem": "2026-09-04",
+  "url": "https://www.aosfatos.org/noticias/video-bolsonaro-festa-vorcaro/"
  },
  {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/lula-nao-menosprezou-garis-durante-evento-em-bh-discurso-foi-tirado-de-contexto/",
@@ -2527,7 +2539,7 @@
   "data_afirmacao": "2026-08-21",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Flávio Bolsonaro não disse que Nordeste ‘pode se tornar’ desenvolvido daqui a 30 ou 40 anos",
+  "titulo": "Flávio Bolsonaro não disse que Nordeste 'pode se tornar ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-nao-disse-que-nordeste-pode-se-tornar-desenvolvido-daqui-a-30-ou-40-anos/"
  },
