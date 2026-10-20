@@ -584,6 +584,55 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el[data-theme="dark"] .el-aviso-d{color:#EDE3B5}
 .el[data-theme="dark"] .el-aviso-x,.el[data-theme="dark"] .el-aviso-more{color:#FFF4C2}
 @media (prefers-color-scheme:dark){.el:not([data-theme="light"]) .el-aviso{background:#2A2410;color:#FFF4C2;border-color:#FFD43B;box-shadow:4px 4px 0 #FFD43B}.el:not([data-theme="light"]) .el-aviso-d{color:#EDE3B5}.el:not([data-theme="light"]) .el-aviso-x,.el:not([data-theme="light"]) .el-aviso-more{color:#FFF4C2}}
+
+/* ---------- Menu: barra no topo (computador) e menu lateral (celular) ---------- */
+.el-tab-ico{width:18px;height:18px;flex:none}
+.el-mnav,.el-drw,.el-drw-bg{display:none}
+@media (min-width:48.01rem){
+  .el-sticky>.el-tabs{order:-1;border:2px solid var(--ink);border-radius:999px;background:var(--color-panel);padding:5px;gap:4px;box-shadow:4px 4px 0 var(--ink)}
+  .el-sticky>.el-tabs .el-tab{border:0;margin:0;border-radius:999px;padding:9px 16px;min-height:42px;font-weight:600;color:var(--color-fg);transition:background-color .15s}
+  .el-sticky>.el-tabs .el-tab:hover{background:rgba(91,45,191,.12)}
+  .el-sticky>.el-tabs .el-tab[aria-selected="true"]{background:#5B2DBF;color:#FFFFFF;font-weight:700}
+  .el-sticky.el-stuck>.el-tabs{box-shadow:2px 2px 0 var(--ink);padding:3px}
+  .el-sticky.el-stuck>.el-tabs .el-tab{min-height:38px;padding:6px 14px}
+}
+@media (max-width:48rem){
+  .el-sticky>.el-tabs{display:none}
+  .el-mnav{display:flex;align-items:center;gap:12px;width:100%;box-sizing:border-box;appearance:none;border:2px solid var(--ink);background:var(--color-panel);color:var(--color-fg);border-radius:16px;padding:8px 12px;min-height:54px;font:inherit;box-shadow:3px 3px 0 var(--ink);cursor:pointer;text-align:left}
+  .el-mnav-ico{width:36px;height:36px;border-radius:10px;background:#FFD43B;border:2px solid #16181D;display:grid;place-items:center;color:#16181D;flex:none;position:relative}
+  .el-mnav-l{flex:1;display:flex;flex-direction:column;line-height:1.15;min-width:0}
+  .el-mnav-l small{font-size:.68rem;font-weight:800;color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.07em}
+  .el-mnav-cur{font-size:1.05rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .el-mnav-mais{font-size:.82rem;font-weight:700;color:var(--accent-text);white-space:nowrap}
+  .el-mnav-new{position:absolute;top:-5px;right:-5px;width:12px;height:12px;border-radius:50%;background:#E5484D;border:2px solid var(--color-panel)}
+  .el-mnav-new[hidden]{display:none}
+  .el-sticky.el-stuck .el-mnav{min-height:44px;padding:4px 10px;box-shadow:2px 2px 0 var(--ink)}
+  .el-sticky.el-stuck .el-mnav-ico{width:30px;height:30px}
+  .el-sticky.el-stuck .el-mnav-l small{display:none}
+  .el-drw-bg{display:block;position:fixed;inset:0;background:rgba(22,24,29,.55);z-index:44;opacity:0;transition:opacity .2s}
+  .el-drw-bg.on{opacity:1}
+  .el-drw{display:flex;position:fixed;z-index:45;top:0;left:0;bottom:0;width:min(86vw,340px);box-sizing:border-box;background:var(--color-panel);color:var(--color-fg);border-right:3px solid var(--ink);flex-direction:column;gap:6px;padding:14px 12px calc(16px + env(safe-area-inset-bottom));overflow-y:auto;transform:translateX(-105%);transition:transform .22s ease}
+  .el-drw.on{transform:none}
+  .el-drw-bg[hidden],.el-drw[hidden]{display:none}
+}
+@media (prefers-reduced-motion:reduce){.el-drw,.el-drw-bg{transition:none}}
+.el-drw-top{display:flex;align-items:center;gap:10px;padding:2px 4px 10px;border-bottom:1px solid var(--color-border-line);margin-bottom:6px}
+.el-drw-top .el-logo{width:40px;height:40px}
+.el-drw-h{flex:1;margin:0;font-family:var(--font-serif, Georgia, serif);font-size:1.25rem;font-weight:800}
+.el-drw-x{appearance:none;width:44px;height:44px;border-radius:12px;border:2px solid var(--ink);background:var(--color-bg);color:var(--color-fg);font-size:1.5rem;line-height:1;cursor:pointer}
+.el-drw-i{display:flex;align-items:center;gap:12px;width:100%;appearance:none;border:0;background:none;color:inherit;font:inherit;text-align:left;padding:10px;border-radius:14px;min-height:58px;cursor:pointer}
+.el-drw-i:hover{background:rgba(91,45,191,.10)}
+.el-drw-i[aria-current="page"]{background:#5B2DBF;color:#FFFFFF}
+.el-drw-i[aria-current="page"] small{color:#E2D9FA}
+.el-drw-ib{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(91,45,191,.12);color:var(--accent-text);flex:none;position:relative}
+.el-drw-i[aria-current="page"] .el-drw-ib{background:#FFD43B;color:#16181D}
+.el-drw-t{display:flex;flex-direction:column;gap:2px;min-width:0}
+.el-drw-t b{font-size:1rem}
+.el-drw-t small{font-size:.8rem;color:var(--color-fg-muted);line-height:1.3}
+.el-drw-nv{position:absolute;top:-4px;right:-4px;width:11px;height:11px;border-radius:50%;background:#E5484D;border:2px solid var(--color-panel)}
+.el-drw-pe{margin-top:auto;padding:14px 6px 0;border-top:1px solid var(--color-border-line);font-size:.85rem;color:var(--color-fg-muted);line-height:1.4}
+.el-drw-pe b{display:block;color:var(--color-fg);font-family:var(--font-serif, Georgia, serif);font-size:1.05rem;margin-bottom:4px}
+.el-drw-pe a{color:var(--accent-text);font-weight:700}
 </style>
 </head>
 <body>
@@ -631,6 +680,11 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <button type="button" class="el-plt-x" id="el-plt-x" aria-label="Fechar o plantão">×</button>
   </div>
 
+  <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
+    <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
+    <span class="el-mnav-l"><small>Menu · você está em</small><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
+    <span class="el-mnav-mais" aria-hidden="true">Ver seções</span>
+  </button>
   <nav class="el-tabs" role="tablist" aria-label="Seções da página">
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
     <button class="el-tab" role="tab" id="tab-aovivo" aria-controls="aovivo" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
@@ -1148,6 +1202,12 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A coleta das notícias, os resumos, a organização dos dados e o código desta página são feitos com ajuda de IA (Claude, da Anthropic), com conferência automática dos dados e revisão de qualidade duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Verificar.</p>
   </section>
 
+  <div class="el-drw-bg" id="el-drw-bg" hidden></div>
+  <div class="el-drw" id="el-drw" role="dialog" aria-modal="true" aria-labelledby="el-drw-h" hidden>
+    <div class="el-drw-top"><svg xmlns="http://www.w3.org/2000/svg" class="el-logo" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><rect x="16" y="16" width="116" height="116" rx="30" fill="#16181D"/><rect x="8" y="8" width="116" height="116" rx="30" fill="#FFD43B" stroke="#16181D" stroke-width="6"/><g transform="translate(23 25) scale(0.84)"><polygon points="12,16 36,16 50,42.5 64,16 88,16 50,88" transform="translate(5 5)" fill="#16181D"/><polygon points="12,16 36,16 50,42.5 50,88" fill="#1F4FA8"/><polygon points="50,42.5 64,16 88,16 50,88" fill="#D62B2B"/><line x1="50" y1="42.5" x2="50" y2="88" stroke="#16181D" stroke-width="3"/><polygon points="12,16 36,16 50,42.5 64,16 88,16 50,88" fill="none" stroke="#16181D" stroke-width="5" stroke-linejoin="round"/></g></svg><h2 class="el-drw-h" id="el-drw-h">Seções</h2><button type="button" class="el-drw-x" id="el-drw-x" aria-label="Fechar o menu">×</button></div>
+    <nav aria-label="Seções do site"><div id="el-drw-lista"></div></nav>
+    <div class="el-drw-pe"><b>Que ninguém vote no escuro.</b>Informação verificada, os dois lados e linguagem simples. Siga e compartilhe: <a href="https://www.instagram.com/veritaeleicoes/" target="_blank" rel="noopener noreferrer">@veritaeleicoes</a></div>
+  </div>
     <div class="el-dlg-bg" id="el-plt-bg" hidden></div>
   <div class="el-dlg" id="el-plt-dlg" role="dialog" aria-modal="true" aria-labelledby="el-plt-h" hidden tabindex="-1">
     <div class="el-dlg-top"><span class="el-plt-tag el-plt-tag-lg"><i aria-hidden="true"></i>Plantão</span><span class="el-dlg-quando" id="el-plt-quando"></span><button type="button" class="el-dlg-x" id="el-plt-fechar" aria-label="Fechar">×</button></div>
@@ -2559,6 +2619,78 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     a11yStructure();
     announceLive();
   }
+
+
+  // ---------- Menu: ícones nas abas e menu lateral no celular ----------
+  (function () {
+    const IC = {
+      inicio: '<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',
+      aovivo: '<circle cx="12" cy="12" r="3"/><path d="M6.3 6.3a8 8 0 0 0 0 11.4M17.7 6.3a8 8 0 0 1 0 11.4"/>',
+      pesquisas: '<path d="M3 21h18M6 17v-6M11 17V5M16 17v-9M20 17v-3"/>',
+      redes: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/>',
+      campanha: '<path d="M3 10v4a1 1 0 0 0 1 1h3l7 4V5L7 9H4a1 1 0 0 0-1 1z"/><path d="M18 9a4 4 0 0 1 0 6"/>',
+      checagem: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>',
+      verificar: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>'
+    };
+    const DESC = {
+      inicio: "Resumo do 2º turno em um minuto", aovivo: "Debates e eventos em tempo real", pesquisas: "Todas as pesquisas e a média",
+      redes: "Desempenho dos candidatos nas redes", campanha: "Agenda, propostas e Justiça Eleitoral", checagem: "Checagens das falas e boatos",
+      verificar: "Fontes, correções e selos dos dados"
+    };
+    const svg = (id, sz) => '<svg class="el-tab-ico" width="' + sz + '" height="' + sz + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + (IC[id] || "") + '</svg>';
+    const tabsEl = Array.from(document.querySelectorAll(".el-tab"));
+    const nome = t => Array.from(t.childNodes).filter(n => n.nodeType === 3).map(n => n.textContent).join("").trim();
+    tabsEl.forEach(t => { if (IC[t.dataset.tab] && !t.querySelector(".el-tab-ico")) t.insertAdjacentHTML("afterbegin", svg(t.dataset.tab, 18)); });
+    const btn = document.getElementById("el-mnav"), cur = document.getElementById("el-mnav-cur"), nv = document.getElementById("el-mnav-new");
+    const drw = document.getElementById("el-drw"), bg = document.getElementById("el-drw-bg"), lista = document.getElementById("el-drw-lista"), fx = document.getElementById("el-drw-x");
+    if (!btn || !drw) return;
+    const novo = t => { const a = t.querySelector(".el-tab-new"), b = t.querySelector(".el-tab-dot"); return !!((a && !a.hidden) || (b && !b.hidden)); };
+    function sync() {
+      const at = tabsEl.find(t => t.getAttribute("aria-selected") === "true") || tabsEl[0];
+      if (at) cur.textContent = nome(at);
+      nv.hidden = !tabsEl.some(t => t.getAttribute("aria-selected") !== "true" && novo(t));
+      btn.setAttribute("aria-label", "Abrir o menu de seções. Você está em " + (at ? nome(at) : "") + (nv.hidden ? "" : ". Há novidades em outras seções"));
+    }
+    function montar() {
+      lista.innerHTML = "";
+      tabsEl.forEach(t => {
+        const b = document.createElement("button"); b.type = "button"; b.className = "el-drw-i"; b.dataset.tab = t.dataset.tab;
+        if (t.getAttribute("aria-selected") === "true") b.setAttribute("aria-current", "page");
+        const n = novo(t);
+        b.innerHTML = '<span class="el-drw-ib">' + svg(t.dataset.tab, 22) + (n ? '<i class="el-drw-nv"></i>' : "") + '</span><span class="el-drw-t"><b></b><small></small></span>';
+        b.querySelector("b").textContent = nome(t) + (n ? " · novidade" : ""); b.querySelector("small").textContent = DESC[t.dataset.tab] || "";
+        b.addEventListener("click", () => { t.click(); fechar(); const c = document.getElementById("conteudo"); if (c && c.getBoundingClientRect().top < 0) window.scrollTo({top: Math.max(0, window.scrollY + c.getBoundingClientRect().top - 90)}); });
+        lista.appendChild(b);
+      });
+    }
+    let aberto = false, tm = 0;
+    function abrir() {
+      montar(); clearTimeout(tm); aberto = true;
+      drw.hidden = false; bg.hidden = false; btn.setAttribute("aria-expanded", "true");
+      requestAnimationFrame(() => { drw.classList.add("on"); bg.classList.add("on"); });
+      document.documentElement.style.overflow = "hidden";
+      const c = lista.querySelector('[aria-current="page"]') || fx; c.focus();
+    }
+    function fechar() {
+      if (!aberto) return; aberto = false;
+      drw.classList.remove("on"); bg.classList.remove("on"); btn.setAttribute("aria-expanded", "false");
+      document.documentElement.style.overflow = "";
+      tm = setTimeout(() => { drw.hidden = true; bg.hidden = true; }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 230);
+      btn.focus({preventScroll: true});
+    }
+    btn.addEventListener("click", abrir); fx.addEventListener("click", fechar); bg.addEventListener("click", fechar);
+    drw.addEventListener("keydown", e => {
+      if (e.key === "Escape") { e.preventDefault(); fechar(); return; }
+      if (e.key !== "Tab") return;
+      const f = Array.from(drw.querySelectorAll("button, a[href]")); if (!f.length) return;
+      const a = f[0], z = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); }
+      else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); }
+    });
+    matchMedia("(min-width: 48.01rem)").addEventListener("change", m => { if (m.matches) fechar(); });
+    new MutationObserver(sync).observe(document.querySelector(".el-tabs"), {subtree: true, attributes: true, attributeFilter: ["aria-selected", "hidden"], childList: true});
+    sync();
+  })();
 
   // ---------- Abas ----------
   const tabs = Array.from(document.querySelectorAll(".el-tab"));
