@@ -6,7 +6,7 @@ Uso:  python3 instagram/modelos/video.py especificacao.json pasta_de_saida/
 Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto e lado; cena2 aceita até 4 itens, cena3 até 2):
 {
  "tema": "plantao" | "verita",          # plantao = preto/amarelo/vermelho; verita = roxo
- "selo": "URGENTE" | "PLANTÃO" | "NOVA PESQUISA" | "CHECAGEM" ...,
+ "selo": "PLANTÃO" | "ATUALIZAÇÃO" | "NOVA PESQUISA" | "CHECAGEM" ... (evite "URGENTE": tom sóbrio passa mais confiança),
  "abertura": {"chip": "Plantão Verita · Eleições 2026", "titulo": "Quebra de", "destaque": "sigilo.", "sub": "O que pode acontecer nesta terça, 20/10."},
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
  "cena3": {"chip": "E o outro lado?", "itens": [{"rotulo": "Flávio Bolsonaro", "texto": "...", "lado": "flavio"}], "chamada": "Acompanhe", "chamada_destaque": "ao longo do dia."},

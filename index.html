@@ -691,6 +691,12 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   .el-sticky.el-stuck .el-plt{display:none}
   .el-theme{min-height:44px;min-width:44px}
 }
+
+/* ---------- Credibilidade (20/10) ---------- */
+.el-como{border:2px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}
+.el-como-l{margin:10px 0 14px;padding-left:22px;display:flex;flex-direction:column;gap:8px;line-height:1.5}
+.el-como-l li::marker{font-weight:800;color:var(--accent-text)}
+.el-link{appearance:none;border:0;background:none;padding:0;font:inherit;color:var(--accent-text);text-decoration:underline;cursor:pointer}
 </style>
 </head>
 <body>
@@ -783,6 +789,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Início</span><p class="el-pgtitle">O 2º turno, <em>sem complicação</em></p></div>
     <div class="el-banner" id="banner" data-source="destaques" hidden></div>
 
+
     <div class="el-hero" id="hero">
       <p class="el-eyebrow">Pergunta principal</p>
       <h2 class="el-hero-q">Quem está na frente nas pesquisas?</h2>
@@ -804,6 +811,16 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       <button class="el-cta" data-go="pesquisas">Ver todas as pesquisas →</button>
     </div>
 
+    <section class="el-card el-como" id="como" aria-labelledby="como-h">
+      <h2 class="el-h" id="como-h">Como a Verita trabalha</h2>
+      <ol class="el-como-l">
+        <li><b>Reunimos o que já foi publicado.</b> Pesquisas, notícias e checagens de institutos, imprensa e checadores. Não fazemos pesquisa nem checagem própria.</li>
+        <li><b>Sempre com a fonte.</b> Cada informação tem o link do original, para você conferir.</li>
+        <li><b>Os dois lados, com o mesmo critério.</b> Não dizemos em quem votar. Veja o <button type="button" class="el-link" data-go="verificar" data-anchor="card-equilibrio">equilíbrio do conteúdo</button>.</li>
+        <li><b>Erros corrigidos em público.</b> Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</li>
+      </ol>
+      <p class="el-note" style="margin:0">A busca, os resumos e a organização são feitos com <b>inteligência artificial</b>, com conferência automática duas vezes por dia; os posts do Instagram são aprovados por uma pessoa antes de sair. Achou um erro? Fale com a gente no Instagram <a href="https://www.instagram.com/veritaeleicoes/" target="_blank" rel="noopener noreferrer">@veritaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
+    </section>
     <h2 class="el-sec">O que mais você precisa saber</h2>
     <div class="el-qgrid">
       <article class="el-q" id="q-tendencia">
@@ -1223,7 +1240,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <div class="el-vf-hero">
       <span class="el-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
       <h2 class="el-bn-t">Recebeu um print desta página?</h2>
-      <p class="el-vf-p">Cada informação daqui tem um código, que aparece assim: <span class="el-cod-demo">cód. 3F9A-12C7</span>. Digite abaixo o código que está no print e veja como a informação está de verdade nos dados da página. Se o texto do print for diferente, ele foi alterado.</p>
+      <p class="el-vf-p">Cada informação daqui tem um código, que aparece assim: <span class="el-cod-demo">conferir 3F9A-12C7</span>. Digite abaixo o código que está no print e veja como a informação está de verdade nos dados da página. Se o texto do print for diferente, ele foi alterado.</p>
       <div class="el-vf-form" id="vf-form" role="search">
         <label class="el-vh" for="vf-in">Código de verificação</label>
         <input id="vf-in" class="el-vf-in" type="text" autocomplete="off" enterkeyhint="go" inputmode="text" autocapitalize="characters" spellcheck="false" maxlength="12" placeholder="Ex.: 3F9A-12C7">
@@ -1231,6 +1248,15 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       </div>
     </div>
     <div id="vf-out" aria-live="polite"></div>
+    <div class="el-card" id="card-equilibrio">
+      <h2 class="el-h">Equilíbrio do conteúdo</h2>
+      <p class="el-note">Quanto do que está no site fala de cada candidato, contado automaticamente a partir dos dados. Serve para qualquer pessoa conferir se a Verita dá o mesmo espaço aos dois.</p>
+      <div class="el-scroll"><table class="el-t el-compact" id="t-equilibrio">
+        <thead><tr><th>O que contamos</th><th class="el-num">Flávio</th><th class="el-num">Lula</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <p class="el-note" style="margin-top:8px">Os números não precisam ser iguais: dependem do que institutos, checadores e imprensa publicaram. Diferenças grandes aparecem aqui para todo mundo ver.</p>
+    </div>
     <div class="el-card" id="card-erratas">
       <h2 class="el-h">Correções (erratas)</h2>
       <p class="el-note">Duas vezes por dia conferimos as informações publicadas contra as fontes originais. Quando achamos um erro, corrigimos e registramos aqui o que mudou e por quê.</p>
@@ -2620,6 +2646,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       } }
     fillMarks("destaques", {data: longDate, hora_inicio: hFmt, hora_fim: hFmt});
     renderBanner();
+    renderEquilibrio();
     renderStatus();
     const tug = document.getElementById("tug");
     const tr = blockState(tug, "resumo");
@@ -2819,6 +2846,31 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     sync();
   })();
 
+  // ---------- Equilíbrio do conteúdo (aba Verificar) ----------
+  function renderEquilibrio() {
+    const tb = document.querySelector("#t-equilibrio tbody"); if (!tb) return;
+    const D = id => { const d = dash.data(id); return d.status === "ok" ? (d.data || []) : null; };
+    const ck = D("checagens"), bo = D("boatos"), lv = D("aovivo"), cp = D("campanha"), ag = D("agenda"), pl = D("checagens_placar");
+    if (!ck || !bo) return;
+    const cnt = (rows, f) => rows ? [rows.filter(r => f(r, "Flávio")).length, rows.filter(r => f(r, "Lula")).length] : null;
+    const cita = (txt, c) => c === "Flávio" ? /Fl[áa]vio/.test(txt) : /\bLula\b/.test(txt);
+    const linhas = [
+      ["Falas checadas listadas", cnt(ck, (r, c) => r.candidato === c)],
+      ["Falas checadas no placar dos checadores", pl ? [pl.filter(r => r.candidato === "Flávio").reduce((s, r) => s + Number(r.total), 0), pl.filter(r => r.candidato === "Lula").reduce((s, r) => s + Number(r.total), 0)] : null],
+      ["Boatos desmentidos contra o candidato", cnt(bo, (r, c) => r.alvo === c)],
+      ["Momentos e falas na cobertura ao vivo", cnt(lv, (r, c) => r.candidato === c)],
+      ["Fatos da campanha que citam o candidato", cnt(cp, (r, c) => cita(String(r.descricao || ""), c))],
+      ["Dias da agenda com compromisso informado", cnt(ag, (r, c) => { const v = String((c === "Flávio" ? r.flavio : r.lula) || ""); return v && !/^a definir$|sem agenda/i.test(v); })]
+    ].filter(x => x[1]);
+    tb.replaceChildren();
+    for (const [nome, [f, l]] of linhas) {
+      const tr = document.createElement("tr");
+      const a1 = document.createElement("td"); a1.textContent = nome;
+      const b = document.createElement("td"); b.className = "el-num el-cf"; b.textContent = fInt(f);
+      const c = document.createElement("td"); c.className = "el-num el-cl"; c.textContent = fInt(l);
+      tr.append(a1, b, c); tb.appendChild(tr);
+    }
+  }
   // ---------- Abas ----------
   const tabs = Array.from(document.querySelectorAll(".el-tab"));
   const pages = Array.from(document.querySelectorAll(".el-page"));
