@@ -6571,6 +6571,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "05AF-5FDC",
+  "conjunto": "pesquisas",
+  "id": "realtime-2010",
+  "registro": {
+   "id": "realtime-2010",
+   "instituto": "RealTime Big Data",
+   "divulgacao": "2026-10-20",
+   "campo": "15–19 out",
+   "amostra": 2000,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": 48,
+   "lula_totais": 45,
+   "fonte": "RealTime Big Data (registro BR-02952/2026), via ND Mais",
+   "url": "https://ndmais.com.br/politica/realtime-bigdata-flavio-bolsonaro-lula-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-20T10:59:20Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "3E92-319F",
   "conjunto": "pesquisas",
   "id": "verita-1710",
