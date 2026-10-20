@@ -7095,6 +7095,34 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BDE9-F15C",
+  "conjunto": "sinais",
+  "id": "globo-x",
+  "registro": {
+   "id": "globo-x",
+   "data": "2026-10-15",
+   "sinal": "Na sabatina de Lula na TV Globo, a hashtag 'Lula na Globo' liderou os assuntos do momento no X, que teve picos de instabilidade por volta das 21h segundo o DownDetector; circularam muitas montagens feitas com inteligência artificial.",
+   "fonte": "Terra (DownDetector)",
+   "url": "https://www.terra.com.br/noticias/eleicoes/sabatina-de-lula-gera-dezenas-de-memes-nas-redes-sociais-x-tem-instabilidade,89e83ac6ca4d604e23dca1cf5a59ee30tjxhn19t.html"
+  },
+  "primeira_vez": "2026-10-20T02:13:46Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2ECE-28B6",
+  "conjunto": "sinais",
+  "id": "hashtag-sigilo",
+  "registro": {
+   "id": "hashtag-sigilo",
+   "data": "2026-10-19",
+   "sinal": "Após o debate da Band, a hashtag #AbreOSigiloFlavio foi impulsionada por apoiadores de Lula e artistas, em torno do desafio de Lula para que Flávio abra sigilos bancário e telefônico; Lula deu sete dias de prazo.",
+   "fonte": "Brasil 247",
+   "url": "https://www.brasil247.com/midia/desafio-de-lula-a-flavio-bolsonaro-ganha-as-redes-sociais-abra-o-sigilo/"
+  },
+  "primeira_vez": "2026-10-20T02:13:46Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "6ECC-100A",
   "conjunto": "sinais",
   "id": "ig-discurso",
