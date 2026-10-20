@@ -707,6 +707,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 /* "Sobre" separado das seções de conteúdo no menu */
 @media (min-width:48.01rem){.el-sticky>.el-tabs .el-tab[data-tab="sobre"]{margin-left:auto;border:2px solid var(--ink)}}
 .el-drw-sep{margin:10px 10px 4px;padding-top:10px;border-top:1px solid var(--color-border-line);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted)}
+.el-aviso-nome{margin:0;background:#FFF3BF;color:#1A1500;border:2px solid #16181D;border-radius:16px;padding:14px 18px;line-height:1.5}
 </style>
 </head>
 <body>
@@ -937,7 +938,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <div class="el-card" id="card-ultimas">
       <h2 class="el-h">Última rodada de cada instituto</h2>
       <p class="el-note">Votos válidos; a barra mostra para quem pende a diferença. O nome do instituto leva à reportagem de origem.</p>
-      <p class="el-nota-verita" id="nota-verita">O instituto de pesquisa <b>Veritá</b>, que aparece nesta lista, não tem nenhuma ligação com a Verita Eleições.</p>
+      <p class="el-nota-verita" id="nota-verita">O instituto de pesquisa <b>Veritá</b>, que aparece nesta lista, não tem nenhuma relação com a Verita Eleições. Os nomes são parecidos, mas são iniciativas diferentes.</p>
       <div class="el-scroll">
         <table class="el-t el-compact" id="t-ultimas" data-source="ultimas" data-row-key="instituto">
           <thead><tr>
@@ -1270,6 +1271,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   <!-- ================= SOBRE ================= -->
   <section class="el-page" id="sobre" role="tabpanel" aria-labelledby="tab-sobre" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Sobre a Verita</span><p class="el-pgtitle">Que ninguém vote <em>no escuro</em></p></div>
+    <p class="el-aviso-nome" role="note"><b>Atenção:</b> a Verita Eleições <b>não tem nenhuma relação com o Instituto Veritá</b>, que faz pesquisas eleitorais. Os nomes são parecidos, mas são iniciativas diferentes. A Verita não faz pesquisas: só reúne as que outros institutos publicaram, inclusive as do Veritá, com o link da fonte.</p>
     <p class="el-intro">A Verita reúne num lugar só o que já foi publicado sobre as eleições no Brasil, com a fonte de cada informação e os dois lados com o mesmo critério, para você entender e decidir por conta própria.</p>
     <section class="el-card el-como" id="como" aria-labelledby="como-h">
       <h2 class="el-h" id="como-h">Como a Verita trabalha</h2>
@@ -1344,7 +1346,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <div class="el-dlg-fontes" id="el-plt-fontes"></div>
     <div class="el-dlg-acoes"><button type="button" class="el-btn el-dlg-aba" id="el-plt-aba" hidden></button></div>
   </div>
-<p class="el-foot el-legal"><b>Verita Eleições</b> é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
+<p class="el-foot el-legal"><b>Verita Eleições</b> é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. <b>Não temos nenhuma relação com o Instituto Veritá</b>, de pesquisas eleitorais. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
   <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar.</p><p class="el-foot el-visits" id="gc-total" hidden></p><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
