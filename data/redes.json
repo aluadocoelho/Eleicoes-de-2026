@@ -178,5 +178,41 @@
   "flavio": 1200000,
   "fonte": "Lilian Carvalho (FGV/EAESP, Brandwatch), via Tribuna do Planalto",
   "url": "https://tribunadoplanalto.com.br/debate-gera-237-milhoes-de-mencoes-nas-redes-com-lula-e-flavio-empatados-em-volume/"
+ },
+ {
+  "id": "dsc-ig-dia",
+  "metrica": "Engajamento por dia no Instagram",
+  "periodo": "5–16 out (2º turno)",
+  "lula": 7900000,
+  "flavio": 2000000,
+  "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+  "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+ },
+ {
+  "id": "dsc-ig-total",
+  "metrica": "Engajamento total no Instagram",
+  "periodo": "5–16 out (2º turno)",
+  "lula": 90200000,
+  "flavio": 23200000,
+  "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+  "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+ },
+ {
+  "id": "dsc-ig-views",
+  "metrica": "Visualizações por dia no Instagram",
+  "periodo": "5–16 out (2º turno)",
+  "lula": 56000000,
+  "flavio": 21300000,
+  "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+  "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+ },
+ {
+  "id": "dsc-ig-seg",
+  "metrica": "Seguidores ganhos no Instagram",
+  "periodo": "28 set–13 out",
+  "lula": 1700000,
+  "flavio": 2100000,
+  "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+  "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
  }
 ]
