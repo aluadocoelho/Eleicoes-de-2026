@@ -2589,6 +2589,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6F4E-347F",
+  "conjunto": "boatos",
+  "id": "b37",
+  "registro": {
+   "id": "b37",
+   "data": "2026-10-19",
+   "alvo": "Flávio",
+   "boato": "Áudio atribuído a coordenador da campanha de Flávio diz que ele cortaria o Bolsa Família e privatizaria estatais",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O Boatos.org diz que o áudio é montagem feita com inteligência artificial e trechos de outros vídeos, que a voz não é de quem se atribui e que a campanha negou as privatizações em 8/10.",
+   "url": "https://www.boatos.org/politica/coordenador-de-campanha-de-flavio-bolsonaro-envia-audio-para-cleitinho-falando-que-ele-vai-cortar-bolsa-familia-aposentadorias-e-privatizar-tudo.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Bolsa Família e privatizações"
+  },
+  "primeira_vez": "2026-10-20T02:14:02Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
