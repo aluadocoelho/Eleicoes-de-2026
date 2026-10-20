@@ -25,11 +25,11 @@
  },
  {
   "id": "e04",
-  "data": "2026-10-06",
+  "data": "2026-10-08",
   "tipo": "Apoio",
-  "descricao": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio — informação conflitante).",
-  "fonte": "Grupo A Hora / Exame",
-  "url": "https://grupoahora.net.br/conteudos/2026/10/05/flavio-ou-lula-veja-quem-cury-renan-caiado-e-zema-apoiarao-no-2o-turno/"
+  "descricao": "Augusto Cury (Avante), 3º colocado no 1º turno, fecha apoio a Flávio e assina com ele um termo de compromisso. Antes, tinha dito que não apoiaria nenhum dos dois.",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/"
  },
  {
   "id": "e05",
@@ -262,5 +262,13 @@
   "descricao": "A Meta respondeu ao ministro Marco Aurélio Bellizze, do TSE, que adotou medidas para tratar igual as campanhas de Lula e Flávio e que revisa por pessoas, em até duas horas, restrições automáticas em contas de anúncios. A empresa disse que pode pedir revisões pontuais da ordem.",
   "fonte": "Diário do Grande ABC",
   "url": "https://www.dgabc.com.br/Noticia/4353761/meta-afirma-ao-tse-que-adotou-medidas-para-garantir-igualdade-entre-campanhas-de-lula-e-flavio"
+ },
+ {
+  "id": "e34",
+  "data": "2026-10-09",
+  "tipo": "Apoio",
+  "descricao": "Os diretórios do Avante no Piauí e na Bahia declaram apoio a Lula, ao contrário de Augusto Cury, que apoia Flávio.",
+  "fonte": "Brasil 247",
+  "url": "https://www.brasil247.com/poder/augusto-cury-antecipou-apoio-a-flavio-bolsonaro-apos-diretorios-do-avante-declararem-apoio-a-lula/"
  }
 ]

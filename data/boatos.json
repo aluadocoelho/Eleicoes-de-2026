@@ -530,5 +530,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Voto de presos"
+ },
+ {
+  "id": "b39",
+  "data": "2026-10-07",
+  "alvo": "Flávio",
+  "boato": "Augusto Cury declarou apoio a Lula e disse que ele vai \"trucidar\" Flávio no 2º turno",
+  "veredito": "Falso",
+  "agencia": "Boatos.org",
+  "explicacao": "Cury disse que ficaria em silêncio e que ninguém podia declarar apoio em nome dele; não há registro da frase. No dia seguinte, ele fechou apoio a Flávio.",
+  "url": "https://www.boatos.org/politica/augusto-cury-declara-apoio-a-lula-e-diz-que-ele-vai-trucidar-flavio-bolsonaro-no-2o-turno.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O checador não aponta quem criou ou espalhou.",
+  "tema": "Falso apoio de Cury"
  }
 ]

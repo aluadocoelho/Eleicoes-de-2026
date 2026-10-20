@@ -653,6 +653,27 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   .el-card{padding:20px 18px}
   .el-new{right:12px}
 }
+
+/* ---------- Revisão de usuário (20/10) ---------- */
+.el-xscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.el-qf{display:flex;flex-direction:column;gap:8px;margin:4px 0 10px}
+.el-qf-r{display:grid;grid-template-columns:minmax(0,1.3fr) auto auto;gap:4px 14px;align-items:baseline;font-size:.92rem;padding-bottom:6px;border-bottom:1px solid var(--color-border-line)}
+.el-qf-r:last-child{border-bottom:0}
+.el-qf-a{font-weight:600;color:var(--color-fg)}
+.el-qf-v{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+@media (max-width:40rem){
+  .el-top{flex-wrap:wrap;row-gap:10px}
+  .el-brand{flex:1 1 150px}
+  .el-sticky.el-stuck .el-top{flex-wrap:nowrap}
+  .el-actions{margin-left:auto}
+  .el-eyebrow{white-space:normal}
+}
+.el-veritá-nota,.el-nota-verita{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:8px 0 0}
+.el-mbars[hidden]{display:none}
+.el-lv-outros .el-chip-l{color:#E2D9FA;font-weight:700}
+.el-lv-outros{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+.el-lv-box[hidden]{display:none}
+.el-chip[hidden]{display:none}
 </style>
 </head>
 <body>
@@ -771,7 +792,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <article class="el-q" id="q-tendencia">
         <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><h3 class="el-q-t">Quem está subindo?</h3></div>
         <p class="el-q-a" id="q-tend-a">—</p>
-        <p class="el-q-s">No começo do 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b>. Agora é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b>.</p>
+        <p class="el-q-s">Nos <b data-source="tendencia" data-field="n">—</b> institutos que já fizeram mais de uma pesquisa no 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b> na primeira rodada e é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b> na mais recente. A média de todos os institutos está na aba Pesquisas.</p>
         <button class="el-q-more" data-go="pesquisas">Ver as pesquisas →</button>
       </article>
 
@@ -782,12 +803,13 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       </article>
 
       <article class="el-q" id="q-falsas">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></svg></span><h3 class="el-q-t">Quem disse mais coisas falsas?</h3></div>
-        <div class="el-mbars" data-source="taxa_resumo">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></svg></span><h3 class="el-q-t">O que dizem os checadores?</h3></div>
+        <div class="el-qf" id="q-falsas-lista" data-source="taxa_checador"></div>
+        <div class="el-mbars" data-source="taxa_resumo" hidden>
           <div class="el-mbar"><span class="el-cf">Flávio</span><div class="el-track"><div class="el-fill" id="mb-f"></div></div><b class="el-cf" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</b></div>
           <div class="el-mbar"><span class="el-cl">Lula</span><div class="el-track"><div class="el-fill" id="mb-l"></div></div><b class="el-cl" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</b></div>
         </div>
-        <p class="el-q-s">das falas checadas de cada um foram classificadas como falsas. O resultado muda conforme o checador.</p>
+        <p class="el-q-s">Parte das falas checadas de cada um que foi classificada como falsa, em cada checador. Cada um escolhe o que verificar e usa critérios próprios, por isso os números mudam tanto.</p>
         <button class="el-q-more" data-go="checagem">Ver as checagens →</button>
       </article>
 
@@ -801,7 +823,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <article class="el-q" id="q-boatos">
         <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3 class="el-q-t">Tem muito boato circulando?</h3></div>
         <p class="el-q-a"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
-        <p class="el-q-s"><b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Antes de compartilhar algo, confira a fonte.</p>
+        <p class="el-q-s">Há boatos contra os dois candidatos (<b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio). A conta inclui só o que checadores e o TSE já desmentiram, não tudo o que circula. Antes de compartilhar algo, confira a fonte.</p>
         <button class="el-q-more" data-go="checagem" data-anchor="card-boatos">Ver os boatos →</button>
       </article>
 
@@ -879,6 +901,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <div class="el-card" id="card-ultimas">
       <h2 class="el-h">Última rodada de cada instituto</h2>
       <p class="el-note">Votos válidos; a barra mostra para quem pende a diferença. O nome do instituto leva à reportagem de origem.</p>
+      <p class="el-nota-verita" id="nota-verita">O instituto de pesquisa <b>Veritá</b>, que aparece nesta lista, não tem nenhuma ligação com a Verita Eleições.</p>
       <div class="el-scroll">
         <table class="el-t el-compact" id="t-ultimas" data-source="ultimas" data-row-key="instituto">
           <thead><tr>
@@ -968,7 +991,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Campanhas</span><p class="el-pgtitle">Apoios, agenda e <em>Justiça Eleitoral</em></p></div>
     <p class="el-intro">O que cada candidato vai fazer nos próximos dias e o que já aconteceu na campanha, do mais recente ao mais antigo.</p>
     <div class="el-card" id="card-agenda">
-      <h2 class="el-h">Agenda da última semana</h2>
+      <h2 class="el-h">Agenda dos candidatos, de hoje até a votação</h2>
       <p class="el-note">Compromissos divulgados pelas campanhas; podem mudar.</p>
       <div class="el-scroll">
         <table class="el-t el-stk" id="t-agenda" data-source="agenda" data-row-key="data">
@@ -1026,8 +1049,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     </div>
 
     <div class="el-card el-simple" id="card-falsas">
-      <h2 class="el-h">Quem disse mais coisas falsas até agora</h2>
-      <p class="el-note" style="margin-bottom:0">Só falas dos próprios candidatos, em entrevistas, lives e debates.</p>
+      <h2 class="el-h">Falas classificadas como falsas</h2>
+      <p class="el-note" style="margin-bottom:0">Só falas dos próprios candidatos, em entrevistas, lives e debates, somando todos os checadores. O resultado muda bastante de um checador para outro: veja a tabela logo abaixo.</p>
       <div class="el-names" style="margin-top:var(--cds-gap-sm)">
         <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</span></span></div>
         <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</span></span></div>
@@ -1036,7 +1059,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
       <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>
       <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
-      <table class="el-t el-compact" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
+      <div class="el-xscroll"><table class="el-t el-compact el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
         <thead><tr>
           <th data-field="agencia">Checador</th>
           <th data-field="candidato">Candidato</th>
@@ -1045,7 +1068,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
           <th class="el-num" data-field="taxa">Taxa de falsas</th>
         </tr></thead>
         <tbody></tbody>
-      </table>
+      </table></div>
       <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas, lives e debates, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
     </div>
 
@@ -1072,7 +1095,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     <div class="el-card" id="card-direcao">
       <h2 class="el-h">Tipo de fala × resultado da checagem</h2>
-      <p class="el-note">Cada afirmação checada foi classificada pelo painel conforme a quem se dirige: ataque ao adversário, defesa de si ou do próprio governo, ou proposta e outros temas.</p>
+      <p class="el-note">Cada afirmação checada foi classificada pelo painel conforme a quem se dirige: ataque ao adversário, defesa de si ou do próprio governo, ou proposta e outros temas. Conta as falas listadas uma a uma logo abaixo; por isso o total é menor que o do placar dos checadores, que soma tudo o que cada checador contou.</p>
       <div class="el-scroll">
         <table class="el-t el-stk" id="t-direcao" data-source="checagens_direcao" data-row-key="id">
           <thead><tr>
@@ -1090,7 +1113,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     <div class="el-card" id="card-checagens">
       <h2 class="el-h">Afirmações checadas</h2>
-      <p class="el-note">Falas dos candidatos em entrevistas, lives e debates, com o selo original do checador e a explicação resumida.</p>
+      <p class="el-note">Falas dos candidatos em entrevistas, lives e debates, com o selo original do checador e a explicação resumida. Aqui estão as falas que conseguimos listar uma a uma; o placar acima é maior porque soma as contagens publicadas por cada checador.</p>
       <div class="el-filtros">
         <div class="el-chips" id="chips-cand">
           <span class="el-chip-l">Candidato</span>
@@ -1143,7 +1166,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
             <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-flavio" data-field="n">—</span></td></tr>
         </tbody>
       </table>
-      <p class="el-note" style="margin:var(--cds-gap-sm) 0 0">Um boato contra um candidato favorece o outro.</p>
+      <p class="el-note" style="margin:var(--cds-gap-sm) 0 0">A tabela conta só os boatos já desmentidos por checadores ou pelo TSE, não tudo o que circula nas redes.</p>
     </div>
 
     <div class="el-card" id="card-boatos">
@@ -2065,7 +2088,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const hasRows = x => rows.some(r => r.evento === x.e.id);
     const upcoming = evs.filter(x => x.t.start > now).sort((a, b) => a.t.start - b.t.start)[0];
     const recent = evs.filter(x => x.t.end < now && hasRows(x)).sort((a, b) => b.t.end - a.t.end)[0];
-    if (lvOverride && recent && recent.e.id === lvOverride) return Object.assign(recent, {state: "ended", back: !!upcoming});
+    const ov = lvOverride && evs.find(x => x.e.id === lvOverride && (hasRows(x) || x.t.start > now));
+    if (ov) return Object.assign(ov, {state: ov.t.start > now ? "soon" : "ended", back: true});
     if (upcoming && upcoming.t.start - now < 12 * H) return Object.assign(upcoming, {state: "soon", prev: recent || null});
     if (recent && now - recent.t.end < 48 * H) return Object.assign(recent, {state: "ended"});
     if (upcoming) return Object.assign(upcoming, {state: "soon", prev: recent || null});
@@ -2089,7 +2113,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const {e, t, state} = pick, now = new Date();
     const today = spDate(now);
     const tag = mk("span", "el-bn-tag" + (state === "live" ? " el-live" : ""));
-    tag.append(mk("i", "el-bn-dot"), document.createTextNode(state === "live" ? "Ao vivo agora" : state === "ended" ? "Já terminou · veja como foi" : (e.data === today ? "Hoje" : longDate(e.data)) + (e.hora_inicio ? " · " + hFmt(e.hora_inicio) : "")));
+    tag.append(mk("i", "el-bn-dot"), document.createTextNode(state === "live" ? "Ao vivo agora" : state === "ended" ? "Já terminou · " + longDate(e.data) : (e.data === today ? "Hoje" : longDate(e.data)) + (e.hora_inicio ? " · " + hFmt(e.hora_inicio) : "")));
     head.append(tag, mk("h2", "el-bn-t", e.titulo));
     let sub = "";
     if (state === "soon" && e.hora_inicio) {
@@ -2100,7 +2124,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     if (state !== "ended" && e.como_assistir) sub += "Como assistir: " + e.como_assistir;
     if (state === "ended") sub = "Abaixo, os principais momentos e as falas checadas, do fim para o começo.";
     if (sub) head.appendChild(mk("p", "el-bn-d", sub));
-    if (pick.back) { const bk = mk("button", "el-btn el-lv-switch", "← Voltar para o próximo evento"); bk.type = "button"; bk.addEventListener("click", () => { lvOverride = null; renderLive(); }); head.appendChild(bk); }
+    if (pick.back) { const bk = mk("button", "el-btn el-lv-switch", "← Voltar ao evento principal"); bk.type = "button"; bk.addEventListener("click", () => { lvOverride = null; renderLive(); }); head.appendChild(bk); }
+    // atalhos para os outros debates e entrevistas (os dois candidatos sempre à vista)
+    { const d = dash.data("destaques"), lvd = dash.data("aovivo"), rws = lvd.status === "ok" ? (lvd.data || []) : [];
+      const outros = d.status === "ok" ? (d.data || []).filter(x => (x.tipo === "Debate" || x.tipo === "Entrevista") && x.id !== e.id && (rws.some(r => r.evento === x.id) || evTimes(x).start > now)).sort((a, b) => String(a.data).localeCompare(String(b.data))) : [];
+      if (outros.length) {
+        const box = mk("div", "el-lv-outros"); box.appendChild(mk("span", "el-chip-l", "Outros eventos:"));
+        outros.forEach(x => { const bt = mk("button", "el-chip", x.titulo.replace(/\s*\(.*\)$/, "") + " · " + dFmt(dParse(x.data))); bt.type = "button";
+          bt.addEventListener("click", () => { lvOverride = x.id; renderLive(); const h = document.getElementById("lv-head"); if (h && h.scrollIntoView) h.scrollIntoView({block: "start"}); }); box.appendChild(bt); });
+        head.appendChild(box);
+      } }
 
     const lv = dash.data("aovivo");
     const all = lv.status === "ok" ? (lv.data || []).filter(r => r.evento === e.id) : [];
@@ -2120,6 +2153,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         : "falas de " + c + " checadas";
     });
 
+    // sem checagens ainda: esconde os contadores zerados e o filtro vazio
+    { const temCk = all.some(r => r.tipo === "Checagem");
+      ["lv-f", "lv-l"].forEach(id => { const bx = document.getElementById(id).closest(".el-lv-box"); if (bx) bx.hidden = !temCk; });
+      const chk = document.querySelector('#lv-chips [data-lv="Checagem"]'); if (chk) chk.hidden = !temCk;
+      if (!temCk && lvFilter === "Checagem") lvFilter = "Tudo";
+      let nt = document.getElementById("lv-semck");
+      if (!nt) { nt = mk("p", "el-note"); nt.id = "lv-semck"; document.getElementById("lv-sum").after(nt); }
+      nt.textContent = temCk ? "" : (state === "soon" ? "" : "Os checadores ainda não publicaram checagens das falas deste evento. Quando publicarem, elas aparecem aqui.");
+      nt.hidden = !nt.textContent; }
+    const umaHora = new Set(all.map(r => r.hora || "")).size <= 1 && all.length > 1;
     const rows = all.filter(r => lvFilter === "Tudo" || (lvFilter === "Checagem" ? r.tipo === "Checagem" : r.candidato === lvFilter));
     if (lv.status !== "ok") { feed.appendChild(mk("li", "el-empty", lv.status === "error" ? "Não foi possível carregar a cobertura ao vivo." : "Carregando…")); return; }
     if (!rows.length) {
@@ -2135,7 +2178,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       const when = r.data && r.hora ? new Date(r.data + "T" + r.hora + ":00-03:00") : null;
       const planned = r.tipo === "Programação" && when && when > now;
       const li = mk("li", "el-fi" + (planned ? " el-plan" : ""));
-      li.appendChild(mk("div", "el-fi-h", hFmt(r.hora)));
+      li.appendChild(mk("div", "el-fi-h", umaHora ? "" : hFmt(r.hora)));
       const b = mk("div", "el-fi-b");
       const col = r.tipo === "Checagem" && r.categoria ? CAT[r.categoria] : r.candidato === "Flávio" ? CF : r.candidato === "Lula" ? CL : "var(--accent)";
       b.style.setProperty("--fi-c", col);
@@ -2529,6 +2572,20 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const mbf = document.getElementById("mb-f"), mbl = document.getElementById("mb-l");
     if (mbf) { const v = txOf("Flávio"); mbf.style.width = v == null ? "0" : Math.max(2, v * 100) + "%"; mbf.style.background = CF; }
     if (mbl) { const v = txOf("Lula"); mbl.style.width = v == null ? "0" : Math.max(2, v * 100) + "%"; mbl.style.background = CL; }
+    { const box = document.getElementById("q-falsas-lista"), tq = dash.data("taxa_checador");
+      if (box && tq.status === "ok" && tq.data) {
+        const g = new Map(); for (const r of tq.data) { if (!g.has(r.agencia)) g.set(r.agencia, {}); g.get(r.agencia)[r.candidato] = r; }
+        box.replaceChildren();
+        const pc = r => r && r.taxa != null ? Math.round(r.taxa * 100) + "%" : "—";
+        for (const [ag, v] of g) {
+          const row = document.createElement("div"); row.className = "el-qf-r";
+          const a1 = document.createElement("span"); a1.className = "el-qf-a"; a1.textContent = ag;
+          const f = document.createElement("span"); f.className = "el-qf-v el-cf"; f.textContent = "Flávio " + pc(v["Flávio"]);
+          const l = document.createElement("span"); l.className = "el-qf-v el-cl"; l.textContent = "Lula " + pc(v["Lula"]);
+          row.append(a1, f, l); box.appendChild(row);
+          row.setAttribute("aria-label", ag + ": Flávio " + pc(v["Flávio"]) + " e Lula " + pc(v["Lula"]) + " das falas checadas classificadas como falsas");
+        }
+      } }
     fillMarks("destaques", {data: longDate, hora_inicio: hFmt, hora_fim: hFmt});
     renderBanner();
     renderStatus();
@@ -2554,6 +2611,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
     ], r => r.data);
 
+    { const nv = document.getElementById("nota-verita"), ul = dash.data("ultimas"); if (nv) nv.hidden = !(ul.status === "ok" && (ul.data || []).some(r => /verit/i.test(String(r.instituto)))); }
     // Pesquisas
     const dif = document.getElementById("ch-dif");
     drawDif(dif, blockState(dif, "pesquisas"));
@@ -2578,7 +2636,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
     // Campanhas
     const ag = blockState(document.getElementById("t-agenda"), "agenda");
-    table("#t-agenda", ag ? ag.slice().sort((a, b) => String(a.data).localeCompare(String(b.data))) : null, [
+    const hojeAg = todayISO();
+    let agFut = ag ? ag.filter(r => String(r.data) >= hojeAg) : null;
+    if (agFut && !agFut.length) agFut = ag.slice();
+    table("#t-agenda", agFut ? agFut.sort((a, b) => String(a.data).localeCompare(String(b.data))) : null, [
       {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
     ], r => r.data);
     const ev = blockState(document.getElementById("t-eventos"), "campanha");

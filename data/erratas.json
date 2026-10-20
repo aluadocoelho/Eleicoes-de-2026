@@ -273,5 +273,16 @@
   "depois": "Reportagem do Poder360; \"Retirado pelo TSE (uso de crianças e afirmações sem contexto)\"",
   "motivo": "O Poder360 detalha o fundamento de Bellizze, as plataformas e quem publicou; a decisão não fala em desinformação.",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-remover-video-de-nikolas-que-usa-criancas-contra-lula/"
+ },
+ {
+  "id": "er26",
+  "data": "2026-10-20",
+  "conjunto": "campanha",
+  "registro_id": "e04",
+  "o_que_mudou": "Apoio de Augusto Cury no 2º turno",
+  "antes": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio — informação conflitante).",
+  "depois": "Cury fecha apoio a Flávio em 8/10 (CNN Brasil)",
+  "motivo": "O registro estava desatualizado: em 8/10, Cury fechou apoio a Flávio, segundo a CNN Brasil.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/"
  }
 ]
