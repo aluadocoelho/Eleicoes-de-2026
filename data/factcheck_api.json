@@ -662,7 +662,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -866,7 +866,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1954,6 +1954,18 @@
   "titulo": "É falso que tropas dos EUA estão no Brasil para capturar Lula e Moraes",
   "data_checagem": "2026-08-24",
   "url": "https://www.aosfatos.org/noticias/tropas-eua-brasil-lula-moraes/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/8000-empresas-faliram-brasil-junho/",
+  "termo": "Lula",
+  "afirmacao": "8.000 empresas faliram no Brasil em junho de 2026",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-08-24",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que 8.000 empresas faliram no Brasil em junho",
+  "data_checagem": "2026-08-24",
+  "url": "https://www.aosfatos.org/noticias/8000-empresas-faliram-brasil-junho/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/lula-xingou-pt/",
