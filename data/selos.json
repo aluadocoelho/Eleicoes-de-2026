@@ -8130,6 +8130,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "7F00-9E8E",
+  "conjunto": "sinais",
+  "id": "brandwatch-temas",
+  "registro": {
+   "id": "brandwatch-temas",
+   "data": "2026-10-19",
+   "sinal": "Na contagem de Lilian Carvalho (FGV/EAESP, Brandwatch), os assuntos ligados a Flávio no debate da Band foram escala 6x1 e salário mínimo (58 mil menções cada); os ligados a Lula foram a emissora, a jornalista Roberta Luchsinger, segurança pública e a quebra de sigilos. A hashtag #LulaVaiVencer teve 98 mil usos.",
+   "fonte": "Lilian Carvalho (FGV/EAESP, Brandwatch), via Diário do Grande ABC",
+   "url": "https://www.abcdoabc.com.br/debate-entre-lula-flavio-2-3-milhoes-mencoes/"
+  },
+  "primeira_vez": "2026-10-20T23:28:37Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "1CD7-DD35",
   "conjunto": "sinais",
   "id": "datrix-band",
