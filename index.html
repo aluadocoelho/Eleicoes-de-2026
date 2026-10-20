@@ -702,6 +702,10 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-como-mini-i{flex:none;width:36px;height:36px;border-radius:10px;background:#FFD43B;border:2px solid #16181D;color:#16181D;font-family:var(--font-serif,Georgia,serif);font-weight:900;display:grid;place-items:center}
 .el-como-mini-m{flex:none;margin-left:auto;font-weight:800;color:var(--accent-text);white-space:nowrap}
 @media (max-width:40rem){.el-como-mini{align-items:flex-start}.el-como-mini-m{display:none}.el-como-mini>span:nth-child(2)::after{content:" Saiba mais →";font-weight:800;color:var(--accent-text);white-space:nowrap}}
+
+/* "Sobre" separado das seções de conteúdo no menu */
+@media (min-width:48.01rem){.el-sticky>.el-tabs .el-tab[data-tab="sobre"]{margin-left:auto;border:2px solid var(--ink)}}
+.el-drw-sep{margin:10px 10px 4px;padding-top:10px;border-top:1px solid var(--color-border-line);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted)}
 </style>
 </head>
 <body>
@@ -2837,6 +2841,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
         b.innerHTML = '<span class="el-drw-ib">' + svg(t.dataset.tab, 22) + (n ? '<i class="el-drw-nv"></i>' : "") + '</span><span class="el-drw-t"><b></b><small></small></span>';
         b.querySelector("b").textContent = nome(t) + (n ? " · novidade" : ""); b.querySelector("small").textContent = DESC[t.dataset.tab] || "";
         b.addEventListener("click", () => { t.click(); fechar(); const c = document.getElementById("conteudo"); if (c && c.getBoundingClientRect().top < 0) window.scrollTo({top: Math.max(0, window.scrollY + c.getBoundingClientRect().top - 90)}); });
+        if (t.dataset.tab === "sobre") { const sep = document.createElement("div"); sep.className = "el-drw-sep"; sep.textContent = "A Verita"; lista.appendChild(sep); }
         lista.appendChild(b);
       });
     }

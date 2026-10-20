@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aluadocoelho.github.io/Eleicoes-de-2026/sitemap.xml
