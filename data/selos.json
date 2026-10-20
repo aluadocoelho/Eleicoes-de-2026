@@ -166,6 +166,19 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-priorizam-sudeste-na-ultima-semana-de-campanha/"
   },
   "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "B613-ECE1",
+  "conjunto": "agenda",
+  "id": "2026-10-23",
+  "registro": {
+   "data": "2026-10-23",
+   "lula": "Debate na TV Globo, 21h20 (presença confirmada)",
+   "flavio": "Debate na TV Globo, 21h20, no Rio (presença confirmada)",
+   "url": "https://ncnews.com.br/2026/10/20/lula-flavio-confirmam-ida-debate-na-globo/"
+  },
+  "primeira_vez": "2026-10-20T18:14:14Z",
   "ainda_publicado": true
  },
  {
@@ -3347,6 +3360,21 @@
    "url": "https://www.brasil247.com/poder/augusto-cury-antecipou-apoio-a-flavio-bolsonaro-apos-diretorios-do-avante-declararem-apoio-a-lula/"
   },
   "primeira_vez": "2026-10-20T18:05:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C0CD-0CFB",
+  "conjunto": "campanha",
+  "id": "e35",
+  "registro": {
+   "id": "e35",
+   "data": "2026-10-20",
+   "tipo": "Debate",
+   "descricao": "Lula e Flávio confirmaram presença no debate da TV Globo, marcado para sexta-feira (23/10), às 21h20, nos estúdios da emissora no Rio, com mediação de César Tralli.",
+   "fonte": "NC News",
+   "url": "https://ncnews.com.br/2026/10/20/lula-flavio-confirmam-ida-debate-na-globo/"
+  },
+  "primeira_vez": "2026-10-20T18:14:14Z",
   "ainda_publicado": true
  },
  {
