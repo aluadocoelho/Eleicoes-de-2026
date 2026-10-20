@@ -7976,6 +7976,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C460-9FB0",
+  "conjunto": "sinais",
+  "id": "ofensiva-flavio",
+  "registro": {
+   "id": "ofensiva-flavio",
+   "data": "2026-10-20",
+   "sinal": "Flávio gravou vídeos curtos com influenciadores de direita em evento organizado por Pablo Marçal, em Barueri (SP), e deve gravar com cantores sertanejos em Goiás. A CNN Brasil compara com a mobilização da campanha de Lula pelo canal 'Exército do Lula' no WhatsApp.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-faz-ofensiva-final-nas-redes-em-evento-liderado-por-marcal/"
+  },
+  "primeira_vez": "2026-10-20T19:29:01Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7E75-597F",
   "conjunto": "sinais",
   "id": "palver-debate",
