@@ -6341,6 +6341,25 @@
    "url": "https://agendadopoder.com.br/debate-entre-lula-e-flavio-bolsonaro-na-globo-sera-nesta-sexta-feira-23-veja-onde-assistir/"
   },
   "primeira_vez": "2026-10-19T10:03:48Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "33F0-30EF",
+  "conjunto": "destaques",
+  "id": "debate-globo",
+  "registro": {
+   "id": "debate-globo",
+   "tipo": "Debate",
+   "titulo": "Debate na TV Globo",
+   "data": "2026-10-23",
+   "hora_inicio": "21:20",
+   "hora_fim": null,
+   "local": "Estúdios Globo, no Rio de Janeiro",
+   "como_assistir": "TV aberta: TV Globo, logo depois do Jornal Nacional (previsto para 21h20). TV por assinatura: GloboNews, ao mesmo tempo. Internet: ao vivo no site g1. Depois, o debate completo fica no g1 e no app Globoplay.",
+   "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. Em 19/10, a Revista Oeste informou, citando a GloboNews, que as campanhas de Lula e de Flávio confirmaram presença e enviaram à emissora as regras assinadas.",
+   "url": "https://agendadopoder.com.br/debate-entre-lula-e-flavio-bolsonaro-na-globo-sera-nesta-sexta-feira-23-veja-onde-assistir/"
+  },
+  "primeira_vez": "2026-10-20T12:59:56Z",
   "ainda_publicado": true
  },
  {
