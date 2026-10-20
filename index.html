@@ -186,6 +186,41 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 #t-boatos td,#t-boatos td *{white-space:normal;overflow-wrap:anywhere;min-width:0}
 @media (max-width:40rem){#t-boatos tbody{grid-template-columns:1fr}#t-boatos tr{padding:14px}#t-boatos td{font-size:.92rem}#t-boatos td:nth-child(3){display:none}
   #t-boatos.el-short tbody tr:nth-child(n+5),#t-checagens.el-short tbody tr:nth-child(n+5){display:none}}
+
+/* Plantão: faixa curta no topo; o clique abre a explicação */
+.el-plt{display:flex;align-items:stretch;gap:0;background:#16181D;color:#FFFFFF;border:2px solid #16181D;border-radius:16px;overflow:hidden;box-shadow:4px 4px 0 #FFD43B}
+.el-plt[hidden]{display:none}
+.el-plt-go{appearance:none;flex:1;min-width:0;display:flex;align-items:center;gap:12px;background:none;border:0;color:inherit;font:inherit;text-align:left;padding:10px 14px;cursor:pointer;min-height:48px}
+.el-plt-go:focus-visible,.el-plt-x:focus-visible{outline:3px solid #FFD43B;outline-offset:-3px}
+.el-plt-tag{flex:none;display:inline-flex;align-items:center;gap:7px;background:#FFD43B;color:#1A1500;border-radius:999px;padding:3px 11px;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.el-plt-tag i{width:8px;height:8px;border-radius:50%;background:#D62B2B;display:block}
+@media (prefers-reduced-motion:no-preference){.el-plt-tag i{animation:elPisca 1.6s ease-in-out infinite}}
+@keyframes elPisca{50%{opacity:.25}}
+.el-plt-txt{flex:1;min-width:0;font-weight:700;font-size:.95rem;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.el-plt-mais{flex:none;color:#FFD43B;font-weight:800;font-size:.85rem;white-space:nowrap}
+.el-plt-x{appearance:none;flex:none;background:none;border:0;border-left:1px solid rgba(255,255,255,.18);color:#FFFFFF;font:inherit;font-size:1.4rem;line-height:1;width:48px;cursor:pointer}
+.el-sticky.el-stuck .el-plt-go{min-height:40px;padding:6px 12px}
+.el-sticky.el-stuck .el-plt-mais{display:none}
+@media (max-width:40rem){.el-plt-mais{display:none}.el-plt-txt{font-size:.88rem;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.el-plt-go{gap:9px;padding:8px 10px}}
+.el-dlg-bg{position:fixed;inset:0;background:rgba(22,24,29,.55);z-index:40}
+.el-dlg-bg[hidden],.el-dlg[hidden]{display:none}
+.el-dlg{position:fixed;z-index:41;left:50%;top:50%;transform:translate(-50%,-50%);width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 32px);overflow:auto;box-sizing:border-box;background:var(--color-panel);color:var(--color-fg);border:3px solid var(--ink);border-radius:24px;box-shadow:8px 8px 0 var(--ink);padding:22px 24px 24px;display:flex;flex-direction:column;gap:14px}
+.el-dlg-top{display:flex;align-items:center;gap:10px}
+.el-plt-tag-lg{font-size:.78rem;padding:4px 12px}
+.el-dlg-quando{flex:1;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.el-dlg-x{appearance:none;background:none;border:0;font:inherit;font-size:1.7rem;line-height:1;color:var(--color-fg);width:44px;height:44px;margin:-8px -10px -8px 0;cursor:pointer;border-radius:12px}
+.el-dlg-x:focus-visible{outline:3px solid var(--accent)}
+.el-dlg-h{margin:0;font-family:var(--font-anthropic-serif);font-weight:800;font-size:clamp(1.35rem,4.5vw,1.75rem);line-height:1.15;letter-spacing:-.01em}
+.el-dlg-p{margin:0;line-height:1.55}
+.el-dlg-lados{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.el-dlg-lados:empty{display:none}
+.el-dlg-lado{border:2px solid var(--ink);border-radius:16px;padding:12px 14px;background:var(--surface-soft);display:flex;flex-direction:column;gap:6px;line-height:1.45}
+.el-dlg-lado b{font-size:.8rem;letter-spacing:.05em;text-transform:uppercase}
+.el-dlg-fontes{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.el-dlg-fontes a{font-weight:700}
+.el-dlg-acoes{display:flex;flex-wrap:wrap;gap:10px}
+.el-dlg-aba{background:var(--accent);color:var(--on-accent);padding:10px 18px;min-height:46px;font:inherit;font-weight:700;cursor:pointer}
+@media (max-width:40rem){.el-dlg{top:auto;bottom:0;left:0;transform:none;width:100%;max-height:88vh;border-radius:24px 24px 0 0;border-bottom:0;box-shadow:none;padding:18px 16px 22px}.el-dlg-lados{grid-template-columns:1fr}}
 /* Botões com sombra sólida que sobem na diagonal */
 .el-btn,.el-cta,.el-q-more,.el-more,.el-chip,.el-theme{
   --bs:var(--ink);
@@ -351,9 +386,13 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-upd svg{flex:none}
 @media (max-width:40rem){.el-upd{flex-basis:100%}}
 /* Topo fixo */
-.el-sticky{position:sticky;top:0;z-index:6;background:var(--color-bg);box-shadow:0 0 0 100vmax var(--color-bg);clip-path:inset(0 -100vmax);padding-top:10px;display:flex;flex-direction:column;gap:var(--cds-gap-md);margin-top:-10px;min-width:0;max-width:100%}
+.el-sticky{position:relative;top:0;z-index:6;background:var(--color-bg);box-shadow:0 0 0 100vmax var(--color-bg);clip-path:inset(0 -100vmax);padding-top:10px;display:flex;flex-direction:column;gap:var(--cds-gap-md);margin-top:-10px;min-width:0;max-width:100%}
 .el-sticky.el-stuck{box-shadow:0 0 0 100vmax var(--color-bg),0 1px 0 100vmax var(--color-border-line);clip-path:inset(0 -100vmax -1px)}
-.el-sticky.el-stuck{gap:6px}
+.el-sticky.el-stuck{gap:6px;position:fixed;top:0;margin-top:0;padding-top:8px;box-sizing:border-box}
+.el-stick-sp{display:none}
+.el-stick-sp.on{display:block}
+@media (prefers-reduced-motion:no-preference){.el-sticky.el-stuck{animation:elDesce .18s ease-out}}
+@keyframes elDesce{from{transform:translateY(-100%)}to{transform:none}}
 .el-sticky.el-stuck .el-eyebrow,.el-sticky.el-stuck .el-legend{display:none}
 .el-sticky.el-stuck .el-flag{height:5px;margin-bottom:8px}
 .el-sticky.el-stuck .el-seal{width:38px;height:38px}
@@ -587,6 +626,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       </span>
     </div>
   </header>
+  <div class="el-plt" id="el-plt" hidden>
+    <button type="button" class="el-plt-go" id="el-plt-go" aria-haspopup="dialog" aria-controls="el-plt-dlg"><span class="el-plt-tag"><i aria-hidden="true"></i>Plantão</span><span class="el-plt-txt" id="el-plt-txt"></span><span class="el-plt-mais" aria-hidden="true">Entenda →</span></button>
+    <button type="button" class="el-plt-x" id="el-plt-x" aria-label="Fechar o plantão">×</button>
+  </div>
 
   <nav class="el-tabs" role="tablist" aria-label="Seções da página">
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
@@ -1105,14 +1148,23 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A coleta das notícias, os resumos, a organização dos dados e o código desta página são feitos com ajuda de IA (Claude, da Anthropic), com conferência automática dos dados e revisão de qualidade duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Verificar.</p>
   </section>
 
-  <p class="el-foot el-legal"><b>Verita Eleições</b> é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
+    <div class="el-dlg-bg" id="el-plt-bg" hidden></div>
+  <div class="el-dlg" id="el-plt-dlg" role="dialog" aria-modal="true" aria-labelledby="el-plt-h" hidden tabindex="-1">
+    <div class="el-dlg-top"><span class="el-plt-tag el-plt-tag-lg"><i aria-hidden="true"></i>Plantão</span><span class="el-dlg-quando" id="el-plt-quando"></span><button type="button" class="el-dlg-x" id="el-plt-fechar" aria-label="Fechar">×</button></div>
+    <h2 class="el-dlg-h" id="el-plt-h"></h2>
+    <p class="el-dlg-p" id="el-plt-resumo"></p>
+    <div class="el-dlg-lados" id="el-plt-lados"></div>
+    <div class="el-dlg-fontes" id="el-plt-fontes"></div>
+    <div class="el-dlg-acoes"><button type="button" class="el-btn el-dlg-aba" id="el-plt-aba" hidden></button></div>
+  </div>
+<p class="el-foot el-legal"><b>Verita Eleições</b> é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
   <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar.</p><p class="el-foot el-visits" id="gc-total" hidden></p><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
 <script>
 (function () {
-  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo","selos","erratas"];
+  var DATASETS = ["pesquisas","primeiro_turno","transferencia","redes","sinais","agenda","campanha","checagens_placar","checagens","boatos","destaques","status","aovivo","selos","erratas","plantao"];
   var store = {}, calcs = [], listeners = [];
   DATASETS.forEach(function (id) { store[id] = {status: "loading", data: []}; });
   function run() { listeners.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
@@ -2194,6 +2246,80 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const now = new Date();
     return (d.data || []).some(r => r.tipo !== "Programação" && r.data && r.hora && (now - new Date(r.data + "T" + r.hora + ":00-03:00")) <= 60 * 60000 && (now - new Date(r.data + "T" + r.hora + ":00-03:00")) >= -5 * 60000);
   }
+
+  // ---------- Plantão ----------
+  const PLT_ABAS = {inicio: "Início", aovivo: "Ao vivo", pesquisas: "Pesquisas", redes: "Redes sociais", campanha: "Campanhas", checagem: "Checagem de fatos", verificar: "Verificar"};
+  let pltAtual = null, pltVolta = null;
+  const pltFechados = () => { try { return JSON.parse(sessionStorage.getItem("el-plt-x") || "[]"); } catch (e) { return []; } };
+  function renderPlantao() {
+    const bar = document.getElementById("el-plt"); if (!bar) return;
+    const d = dash.data("plantao");
+    const agora = Date.now();
+    const ativos = d.status === "ok" && Array.isArray(d.data) ? d.data.filter(r => {
+      const a = Date.parse(r.inicio), b = Date.parse(r.expira);
+      return r.chamada && !isNaN(a) && !isNaN(b) && a <= agora && agora < b;
+    }).sort((x, y) => Date.parse(y.inicio) - Date.parse(x.inicio)) : [];
+    const r = ativos[0];
+    if (!r || pltFechados().includes(r.id)) { bar.hidden = true; pltAtual = null; return; }
+    pltAtual = r;
+    document.getElementById("el-plt-txt").textContent = r.chamada;
+    bar.hidden = false;
+  }
+  function abrePlantao() {
+    const r = pltAtual; if (!r) return;
+    const dlg = document.getElementById("el-plt-dlg"), bg = document.getElementById("el-plt-bg");
+    const q = new Date(r.inicio);
+    document.getElementById("el-plt-quando").textContent = isNaN(q) ? "" : "Publicado em " + q.toLocaleDateString("pt-BR", {day: "2-digit", month: "2-digit"}) + " às " + q.toLocaleTimeString("pt-BR", {hour: "2-digit", minute: "2-digit"});
+    document.getElementById("el-plt-h").textContent = r.titulo || r.chamada;
+    document.getElementById("el-plt-resumo").textContent = r.resumo || "";
+    const lados = document.getElementById("el-plt-lados"); lados.textContent = "";
+    [["Lula", r.lula, CL], ["Flávio Bolsonaro", r.flavio, CF]].forEach(([nome, txt, cor]) => {
+      if (!txt) return;
+      const box = document.createElement("div"); box.className = "el-dlg-lado"; box.style.borderTopColor = cor; box.style.borderTopWidth = "6px";
+      const b = document.createElement("b"); b.textContent = nome; b.style.color = cor;
+      const p = document.createElement("span"); p.textContent = txt;
+      box.append(b, p); lados.appendChild(box);
+    });
+    const fo = document.getElementById("el-plt-fontes"); fo.textContent = "";
+    const lst = [[r.fonte, r.url], [r.fonte2, r.url2]].filter(([n, u]) => n && safeUrl(u));
+    if (lst.length) {
+      const l = document.createElement("span"); l.textContent = lst.length > 1 ? "Fontes:" : "Fonte:"; fo.appendChild(l);
+      lst.forEach(([n, u]) => { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = n; a.appendChild(extIcon()); const sp = document.createElement("span"); sp.className = "el-vh el-newtab"; sp.textContent = " (abre em nova aba)"; a.appendChild(sp); fo.appendChild(a); });
+    }
+    const ab = document.getElementById("el-plt-aba");
+    if (r.aba && PLT_ABAS[r.aba]) { ab.hidden = false; ab.textContent = "Ver na aba " + PLT_ABAS[r.aba] + " →"; ab.dataset.aba = r.aba; } else ab.hidden = true;
+    pltVolta = document.activeElement;
+    bg.hidden = false; dlg.hidden = false; document.documentElement.style.overflow = "hidden";
+    document.getElementById("el-plt-fechar").focus();
+    try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({path: "plantao-" + r.id, title: "Plantão: " + r.chamada, event: true}); } catch (e) {}
+  }
+  function fechaPlantao() {
+    const dlg = document.getElementById("el-plt-dlg"); if (!dlg || dlg.hidden) return;
+    dlg.hidden = true; document.getElementById("el-plt-bg").hidden = true; document.documentElement.style.overflow = "";
+    if (pltVolta && pltVolta.focus) pltVolta.focus();
+  }
+  (function () {
+    const go = document.getElementById("el-plt-go"); if (!go) return;
+    go.addEventListener("click", abrePlantao);
+    document.getElementById("el-plt-x").addEventListener("click", () => {
+      if (pltAtual) { const f = pltFechados(); f.push(pltAtual.id); try { sessionStorage.setItem("el-plt-x", JSON.stringify(f)); } catch (e) {} }
+      document.getElementById("el-plt").hidden = true;
+    });
+    document.getElementById("el-plt-fechar").addEventListener("click", fechaPlantao);
+    document.getElementById("el-plt-bg").addEventListener("click", fechaPlantao);
+    document.getElementById("el-plt-aba").addEventListener("click", e => { const a = e.currentTarget.dataset.aba; fechaPlantao(); if (a) { show(a, true); const pg = document.getElementById(a); if (pg) pg.scrollIntoView({block: "start"}); } });
+    document.addEventListener("keydown", e => {
+      const dlg = document.getElementById("el-plt-dlg"); if (dlg.hidden) return;
+      if (e.key === "Escape") { e.preventDefault(); fechaPlantao(); return; }
+      if (e.key === "Tab") {
+        const f = Array.from(dlg.querySelectorAll("button:not([hidden]),a[href]")).filter(x => x.offsetParent !== null);
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    });
+  })();
   function renderNew() {
     const pes = anyToday("pesquisas", "divulgacao"), chk = anyToday("checagens", "data") || anyToday("checagens_placar", "data"),
       bo = anyToday("boatos", "data"), si = anyToday("sinais", "data"), ca = anyToday("campanha", "data"), lv = liveRecent();
@@ -2269,6 +2395,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   function redraw() {
     readColors();
     renderNew();
+    try { renderPlantao(); } catch (e) { console.warn(e); }
     try { renderDebateChecks(); } catch (e) { console.warn(e); }
     renderLive();
     fillMarks("resumo", {media_flavio: f1, media_lula: f1, dif: f1});
@@ -2448,25 +2575,39 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     }
     redraw();
   }
-  // Topo fixo: encolhe ao rolar (com folga para não ficar piscando)
+  // Topo fixo: o topo completo rola junto com a página; quando ele sai inteiro da tela,
+  // aparece a versão compacta fixa. Um espaçador com a altura do topo completo mantém a
+  // página no lugar, então a troca nunca mexe na rolagem (sem tremer ao subir devagar).
   const stick = document.getElementById("el-sticky");
-  let stuck = false;
-  const scrollY = () => Math.max(window.scrollY || 0, (document.scrollingElement && document.scrollingElement.scrollTop) || 0, scrollBox ? scrollBox.scrollTop : 0);
+  const sp = document.createElement("div"); sp.className = "el-stick-sp"; sp.setAttribute("aria-hidden", "true");
+  stick.parentNode.insertBefore(sp, stick);
+  let stuck = false, fullH = 0;
   let scrollBox = null;
+  const scrollY = () => Math.max(window.scrollY || 0, (document.scrollingElement && document.scrollingElement.scrollTop) || 0, scrollBox ? scrollBox.scrollTop : 0);
+  function placeStuck() {
+    const r = sp.getBoundingClientRect();
+    stick.style.left = r.left + "px"; stick.style.width = r.width + "px";
+  }
   function onScroll(e) {
     const t = e && e.target;
     if (t && t !== document && t.nodeType === 1 && t.contains(stick)) scrollBox = t;
     const y = scrollY();
-    if (!stuck && y > 140) {
-      const full = stick.offsetHeight;
-      stuck = true; stick.classList.add("el-stuck");
-      stick.style.marginBottom = Math.max(0, full - stick.offsetHeight) + "px";
-      setStickH();
-    } else if (stuck && y < 24) {
-      stuck = false; stick.classList.remove("el-stuck"); stick.style.marginBottom = "";
-      setStickH();
+    if (!stuck) {
+      fullH = stick.offsetHeight;
+      const limite = stick.getBoundingClientRect().top + y + fullH;
+      if (y > limite) {
+        sp.style.height = Math.max(0, fullH + (parseFloat(getComputedStyle(stick).marginTop) || 0) + (parseFloat(getComputedStyle(stick).marginBottom) || 0)) + "px"; sp.classList.add("on");
+        stuck = true; stick.classList.add("el-stuck"); placeStuck(); setStickH();
+      }
+    } else {
+      const limite = sp.getBoundingClientRect().top + y + fullH - 4;
+      if (y < limite) {
+        stuck = false; stick.classList.remove("el-stuck"); stick.style.left = ""; stick.style.width = "";
+        sp.classList.remove("on"); sp.style.height = ""; setStickH();
+      }
     }
   }
+  window.addEventListener("resize", () => { if (stuck) placeStuck(); });
   function setStickH() { ROOT.style.setProperty("--stick-h", (stick.offsetHeight + 8) + "px"); }
   document.addEventListener("scroll", onScroll, {capture: true, passive: true});
   window.addEventListener("resize", setStickH);

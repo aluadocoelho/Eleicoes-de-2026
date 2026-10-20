@@ -117,6 +117,12 @@ SCHEMAS = {
         "enums": {"conjunto": ["pesquisas", "transferencia", "redes", "sinais", "agenda", "campanha", "destaques", "checagens_placar", "checagens", "boatos", "aovivo"]},
         "required": ["id", "data", "conjunto", "registro_id", "o_que_mudou", "motivo", "url"],
     },
+    "plantao": {
+        "key": "id",
+        "fields": ["id", "inicio", "expira", "chamada", "titulo", "resumo", "lula", "flavio", "aba", "fonte", "url", "fonte2", "url2"],
+        "enums": {"aba": [None, "inicio", "aovivo", "pesquisas", "redes", "campanha", "checagem", "verificar"]},
+        "required": ["id", "inicio", "expira", "chamada", "titulo", "resumo", "fonte", "url"],
+    },
     "status": {
         "key": "id",
         "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],
@@ -162,9 +168,19 @@ def check(name, spec, rows):
             v = r.get(f)
             if v is not None and v not in allowed:
                 errs.append(f"{where}: {f}={v!r} fora de {allowed}")
-        u = r.get("url")
-        if "url" in expected and u is not None and not str(u).startswith("https://"):
-            errs.append(f"{where}: url precisa começar com https://")
+        for uf in [f for f in expected if f.startswith("url")]:
+            u = r.get(uf)
+            if u is not None and not str(u).startswith("https://"):
+                errs.append(f"{where}: {uf} precisa começar com https://")
+        if name == "plantao":
+            import datetime
+            for tf in ("inicio", "expira"):
+                try:
+                    datetime.datetime.fromisoformat(str(r.get(tf)))
+                except ValueError:
+                    errs.append(f"{where}: {tf} deveria ser data e hora ISO, ex.: 2026-10-20T07:00:00-03:00")
+            if len(str(r.get("chamada") or "")) > 110:
+                errs.append(f"{where}: chamada passa de 110 caracteres")
     if name == "checagens_placar":
         for i, r in enumerate(rows):
             try:
