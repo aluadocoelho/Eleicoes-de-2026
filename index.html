@@ -674,6 +674,19 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-lv-outros{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
 .el-lv-box[hidden]{display:none}
 .el-chip[hidden]{display:none}
+
+/* ---------- Revisão de usuário: prioridade média (20/10) ---------- */
+.el-cod{text-decoration:none;font-family:inherit;font-size:.72rem;opacity:.8}
+.el-cod:hover{opacity:1;text-decoration:underline}
+details.el-siglas{padding:16px 20px}
+details.el-details>summary{list-style:none;gap:10px;border:2px solid var(--color-border-line);border-radius:14px;padding:8px 14px;width:max-content;max-width:100%}
+details.el-details>summary::-webkit-details-marker{display:none}
+details.el-details>summary::after{content:"";width:9px;height:9px;border-right:2.5px solid currentColor;border-bottom:2.5px solid currentColor;transform:rotate(45deg) translateY(-2px);flex:none;margin-left:4px;transition:transform .15s}
+details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1px)}
+@media (max-width:48rem){
+  .el-sticky.el-stuck .el-plt{display:none}
+  .el-theme{min-height:44px;min-width:44px}
+}
 </style>
 </head>
 <body>
@@ -945,14 +958,15 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   <section class="el-page" id="redes" role="tabpanel" aria-labelledby="tab-redes" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Redes sociais</span><p class="el-pgtitle">Como cada um <em>aparece nas redes</em></p></div>
     <p class="el-intro">Como os dois candidatos se saem nas redes sociais. Lembre: curtidas e seguidores mostram quem está mobilizando apoiadores, não quem vai ganhar.</p>
+    <p class="el-note"><b>Palavras desta aba:</b> <b>interação</b> (ou engajamento) é cada curtida, comentário ou compartilhamento; <b>menção</b> é cada vez que o nome do candidato aparece numa publicação; <b>visualização</b> é cada vez que um vídeo é visto.</p>
     <div class="el-kpis">
       <div class="el-card">
-        <div class="el-kpi-label">Interações de Lula ÷ Flávio · 2º turno</div>
+        <div class="el-kpi-label">Curtidas, comentários e compartilhamentos: quantas vezes Lula tem as de Flávio · 2º turno</div>
         <div class="el-kpi-val"><span class="dash-skeleton" data-source="razao_redes" data-field="razao">—</span>×</div>
         <div class="el-kpi-note"><span data-source="razao_redes" data-field="lula">—</span> contra <span data-source="razao_redes" data-field="flavio">—</span> · 5 a 17 out</div>
       </div>
       <div class="el-card">
-        <div class="el-kpi-label">Interações por post · Flávio</div>
+        <div class="el-kpi-label">Curtidas e comentários por post · Flávio</div>
         <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="redes" data-where="id=int-post" data-field="flavio">—</span></div>
         <div class="el-kpi-note">Lula: <span data-source="redes" data-where="id=int-post" data-field="lula">—</span> · 6 a 15 out</div>
       </div>
@@ -1236,6 +1250,20 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
     <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
   </section>
+
+  <details class="el-card el-details el-siglas" id="siglas">
+    <summary>O que querem dizer as siglas que aparecem no site?</summary>
+    <ul class="el-note" style="margin:10px 0 0;padding-left:18px;line-height:1.7">
+      <li><b>TSE</b>: Tribunal Superior Eleitoral, que organiza a eleição e julga as regras da campanha.</li>
+      <li><b>STF</b>: Supremo Tribunal Federal, o tribunal mais alto do país.</li>
+      <li><b>STJ</b>: Superior Tribunal de Justiça.</li>
+      <li><b>PGR</b>: Procuradoria-Geral da República, que acusa autoridades na Justiça.</li>
+      <li><b>PF</b> e <b>PRF</b>: Polícia Federal e Polícia Rodoviária Federal.</li>
+      <li><b>PEC</b>: proposta para mudar a Constituição.</li>
+      <li><b>PL</b> e <b>PT</b>: os partidos de Flávio Bolsonaro e de Lula.</li>
+      <li><b>Pontos</b> (ou p.p.): a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</li>
+    </ul>
+  </details>
 
   <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre">
     <h2 class="el-h" id="sobre-h">Sobre este site e as fontes</h2>
@@ -1701,7 +1729,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
     const m = Math.max(2, Math.ceil(d3.max(data, d => Math.abs(d.dif)) + 0.5));
     const y = d3.scaleLinear([-m, m], [H - 30, 14]);
     const ticks = y.ticks(6).filter(Number.isInteger);
-    const yLab = v => v === 0 ? "empate" : (v > 0 ? "F +" : "L +") + Lc.format("d")(Math.abs(v));
+    const yLab = v => v === 0 ? "empate" : (W < 560 ? "+" : (v > 0 ? "Flávio +" : "Lula +")) + Lc.format("d")(Math.abs(v));   // no celular, só o número, na cor de quem está à frente
     svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
     const left = Math.ceil(measure(svg, ticks.map(yLab))) + 12;
     const shortName = n => String(n).split("/")[0].replace(" Brasil", "");
@@ -1719,7 +1747,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
       .attr("stroke", "var(--cds-chart-reference)").attr("stroke-width", 1).attr("stroke-dasharray", "4 3");
     g.selectAll("text.yl").data(ticks).join("text")
       .attr("x", left - 8).attr("y", t => y(t)).attr("dy", "0.32em").attr("text-anchor", "end")
-      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(yLab);
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", v => v > 0 ? CF : v < 0 ? CL : "var(--color-fg-muted)").style("font-weight", v => v ? 700 : 400).text(yLab);
     const xt = x.ticks(d3.utcDay.every(W < 520 ? 3 : 2));
     g.selectAll("text.xl").data(xt).join("text")
       .attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
@@ -1899,8 +1927,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
         a.textContent = r.fonte; a.appendChild(extIcon()); s.appendChild(a);
       } else { const f = document.createElement("span"); f.textContent = r.fonte; s.appendChild(f); }
       wrap.append(t, s);
-      pairBar(wrap, "Lula", lula, mx, CL, fComp.format(lula));
       pairBar(wrap, "Flávio", fla, mx, CF, fComp.format(fla));
+      pairBar(wrap, "Lula", lula, mx, CL, fComp.format(lula));
       box.appendChild(wrap);
     }
   }
@@ -2270,7 +2298,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   const codeOf = (conjunto, r) => seloMap && r ? seloMap[conjunto + "|" + String(r[SELO_KEY[conjunto]])] : null;
   function codBtn(code) {
     const b = document.createElement("button"); b.type = "button"; b.className = "el-cod";
-    b.textContent = "cód. " + code; b.title = "Conferir esta informação"; b.setAttribute("aria-label", "Código de verificação " + code + ". Toque para conferir.");
+    b.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>'; b.appendChild(document.createTextNode("conferir " + code)); b.title = "Conferir se esta informação é mesmo da Verita"; b.setAttribute("aria-label", "Código de verificação " + code + ". Toque para conferir.");
     b.addEventListener("click", ev => { ev.stopPropagation(); openVerify(code); });
     return b;
   }
