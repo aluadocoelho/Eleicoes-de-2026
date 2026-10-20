@@ -600,15 +600,15 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   .el-sticky>.el-tabs{display:none}
   .el-mnav{display:flex;align-items:center;gap:12px;width:100%;box-sizing:border-box;appearance:none;border:2px solid var(--ink);background:var(--color-panel);color:var(--color-fg);border-radius:16px;padding:8px 12px;min-height:54px;font:inherit;box-shadow:3px 3px 0 var(--ink);cursor:pointer;text-align:left}
   .el-mnav-ico{width:36px;height:36px;border-radius:10px;background:#FFD43B;border:2px solid #16181D;display:grid;place-items:center;color:#16181D;flex:none;position:relative}
-  .el-mnav-l{flex:1;display:flex;flex-direction:column;line-height:1.15;min-width:0}
+  .el-mnav-l{flex:1;display:flex;align-items:center;line-height:1.3;min-width:0}
   .el-mnav-l small{font-size:.68rem;font-weight:800;color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.07em}
   .el-mnav-cur{font-size:1.05rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .el-mnav-mais{font-size:.82rem;font-weight:700;color:var(--accent-text);white-space:nowrap}
+  .el-mnav-mais{display:inline-flex;align-items:center;gap:4px;font-size:.9rem;font-weight:800;color:var(--accent-text);white-space:nowrap;line-height:1.3}
   .el-mnav-new{position:absolute;top:-5px;right:-5px;width:12px;height:12px;border-radius:50%;background:#E5484D;border:2px solid var(--color-panel)}
   .el-mnav-new[hidden]{display:none}
   .el-sticky.el-stuck .el-mnav{min-height:44px;padding:4px 10px;box-shadow:2px 2px 0 var(--ink)}
   .el-sticky.el-stuck .el-mnav-ico{width:30px;height:30px}
-  .el-sticky.el-stuck .el-mnav-l small{display:none}
+  
   .el-drw-bg{display:block;position:fixed;inset:0;background:rgba(22,24,29,.55);z-index:44;opacity:0;transition:opacity .2s}
   .el-drw-bg.on{opacity:1}
   .el-drw{display:flex;position:fixed;z-index:45;top:0;left:0;bottom:0;width:min(86vw,340px);box-sizing:border-box;background:var(--color-panel);color:var(--color-fg);border-right:3px solid var(--ink);flex-direction:column;gap:6px;padding:14px 12px calc(16px + env(safe-area-inset-bottom));overflow-y:auto;transform:translateX(-105%);transition:transform .22s ease}
@@ -702,8 +702,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 
   <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
     <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
-    <span class="el-mnav-l"><small>Menu · você está em</small><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
-    <span class="el-mnav-mais" aria-hidden="true">Ver seções</span>
+    <span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
+    <span class="el-mnav-mais" aria-hidden="true">Menu <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
   </button>
   <nav class="el-tabs" role="tablist" aria-label="Seções da página">
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
