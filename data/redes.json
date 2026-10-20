@@ -214,5 +214,14 @@
   "flavio": 2100000,
   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+ },
+ {
+  "id": "brief-pico",
+  "metrica": "Maior número de interações em um único dia nos perfis oficiais",
+  "periodo": "14 set–7 out (Lula em 7 out; Flávio em 2 out)",
+  "lula": 9900000,
+  "flavio": 5500000,
+  "fonte": "Projeto Brief, via Folha / DCM",
+  "url": "https://www.diariodocentrodomundo.com.br/lula-vira-o-jogo-nas-redes-e-quase-dobra-pico-de-flavio-com-99-milhoes-de-interacoes"
  }
 ]
