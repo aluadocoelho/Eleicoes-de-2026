@@ -44,6 +44,11 @@ jobs:
           # A tarefa agendada abre o pedido; se ainda não abriu, tenta abrir aqui.
           for i in $(seq 1 12); do
             if gh pr list --head "$RAMO" --state open --json number --jq '.[0].number' | grep -q .; then
+              ATUAL=$(gh pr view "$RAMO" --json title --jq .title)
+              # pedidos marcados como "programado" ou "fixo" mantêm o título (a tarefa agendada usa a marca)
+              if echo "$ATUAL" | grep -qiE "programado|fixo"; then
+                gh pr edit "$RAMO" --body-file /tmp/corpo.md && exit 0
+              fi
               gh pr edit "$RAMO" --title "$(cat /tmp/titulo.txt)" --body-file /tmp/corpo.md && exit 0
             fi
             gh pr create --base main --head "$RAMO" --title "$(cat /tmp/titulo.txt)" --body-file /tmp/corpo.md 2>/dev/null && exit 0
