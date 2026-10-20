@@ -2408,6 +2408,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "32A8-EA48",
+  "conjunto": "boatos",
+  "id": "b36",
+  "registro": {
+   "id": "b36",
+   "data": "2026-10-12",
+   "alvo": "Lula",
+   "boato": "Vídeo com cena do Chile mostrava suposto uso de cocaína na Marcha da Maconha, na Paulista",
+   "veredito": "Removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O ministro Marco Aurélio Bellizze mandou tirar do ar a peça, que usava imagens gravadas no Chile para sugerir consumo de drogas no ato, e viu manipulação por descontextualização.",
+   "url": "https://www.band.com.br/politica/eleicoes/tse-manda-remover-video-falso-de-flavio-sobre-uso-de-drogas-durante-manifestacao-pro-lula",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Band, as publicações foram de Pablo Marçal, Flávio Bolsonaro e Carlos Bolsonaro; o pedido de remoção veio da coligação de Lula.",
+   "tema": "Drogas em ato"
+  },
+  "primeira_vez": "2026-10-20T00:28:32Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
