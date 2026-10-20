@@ -46,9 +46,22 @@ def esperar(cid):
 def url_raw(sha, pasta, nome):
     return f'https://raw.githubusercontent.com/{REPO}/{sha}/{pasta}/{urllib.parse.quote(nome)}'
 
+PAGES = 'https://aluadocoelho.github.io/Eleicoes-de-2026'
+def url_video(pasta, nome):
+    """Vídeos vão pelo GitHub Pages (tipo video/mp4). Espera o site publicar o arquivo, até 15 min."""
+    u = f'{PAGES}/{pasta}/{urllib.parse.quote(nome)}'
+    for _ in range(90):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(u, method='HEAD'), timeout=20) as r:
+                if r.status == 200: return u
+        except Exception:
+            pass
+        time.sleep(10)
+    raise RuntimeError(f'{u}: o GitHub Pages não publicou o vídeo a tempo')
+
 def midia(sha, pasta, nome, **extra):
     if nome.lower().endswith('.mp4'):
-        return dict(video_url=url_raw(sha, pasta, nome), **extra)
+        return dict(video_url=url_video(pasta, nome), **extra)
     if not nome.lower().endswith(('.jpg', '.jpeg')):
         raise RuntimeError(f'{nome}: a API só aceita JPEG (imagem) ou MP4 (vídeo)')
     return dict(image_url=url_raw(sha, pasta, nome), **extra)
