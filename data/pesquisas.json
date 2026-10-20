@@ -278,5 +278,19 @@
   "lula_totais": 47.5,
   "fonte": "Futura Inteligência (registro BR-06715/2026), via TMC",
   "url": "https://tmc.com.br/politica/pesquisa-futura-inteliencia-flavio-lidera-segundo-turno-lula/"
+ },
+ {
+  "id": "realtime-2010",
+  "instituto": "RealTime Big Data",
+  "divulgacao": "2026-10-20",
+  "campo": "15–19 out",
+  "amostra": 2000,
+  "margem": 2,
+  "flavio_validos": 52,
+  "lula_validos": 48,
+  "flavio_totais": 48,
+  "lula_totais": 45,
+  "fonte": "RealTime Big Data (registro BR-02952/2026), via ND Mais",
+  "url": "https://ndmais.com.br/politica/realtime-bigdata-flavio-bolsonaro-lula-segundo-turno/"
  }
 ]
