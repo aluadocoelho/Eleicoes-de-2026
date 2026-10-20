@@ -6935,6 +6935,70 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9225-44B4",
+  "conjunto": "redes",
+  "id": "dsc-ig-dia",
+  "registro": {
+   "id": "dsc-ig-dia",
+   "metrica": "Engajamento por dia no Instagram",
+   "periodo": "5–16 out (2º turno)",
+   "lula": 7900000,
+   "flavio": 2000000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CDFD-E0B1",
+  "conjunto": "redes",
+  "id": "dsc-ig-seg",
+  "registro": {
+   "id": "dsc-ig-seg",
+   "metrica": "Seguidores ganhos no Instagram",
+   "periodo": "28 set–13 out",
+   "lula": 1700000,
+   "flavio": 2100000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DBC0-3FAB",
+  "conjunto": "redes",
+  "id": "dsc-ig-total",
+  "registro": {
+   "id": "dsc-ig-total",
+   "metrica": "Engajamento total no Instagram",
+   "periodo": "5–16 out (2º turno)",
+   "lula": 90200000,
+   "flavio": 23200000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5C6F-A95E",
+  "conjunto": "redes",
+  "id": "dsc-ig-views",
+  "registro": {
+   "id": "dsc-ig-views",
+   "metrica": "Visualizações por dia no Instagram",
+   "periodo": "5–16 out (2º turno)",
+   "lula": 56000000,
+   "flavio": 21300000,
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T11:28:59Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F452-D66F",
   "conjunto": "redes",
   "id": "globo-ig-mediana",
@@ -7162,6 +7226,20 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/buscas-por-flavio-bolsonaro-disparam-apos-debate-com-lula-na-band/"
   },
   "primeira_vez": "2026-10-19T02:29:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "43C9-8BA2",
+  "conjunto": "sinais",
+  "id": "dsc-ig",
+  "registro": {
+   "id": "dsc-ig",
+   "data": "2026-10-19",
+   "sinal": "Segundo a DSC Lab, o engajamento diário de Lula no Instagram passou de 1,7 milhão no 1º turno para 7,9 milhões no 2º, e o de Flávio foi de 1,4 milhão para 2 milhões. Lula fez 103 posts no período e Flávio 27.",
+   "fonte": "DSC Lab, via Metro 1 (Lauro Jardim/O Globo)",
+   "url": "https://www.metro1.com.br/noticias/eleicoes-2026/190023,engajamento-de-lula-no-instagram-chega-a-79-milhoes-por-dia-no-segundo-turno"
+  },
+  "primeira_vez": "2026-10-20T11:28:59Z",
   "ainda_publicado": true
  },
  {
