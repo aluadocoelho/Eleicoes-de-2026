@@ -586,5 +586,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa não identifica quem publicou o print, que circulava no Facebook.",
   "tema": "Compra de votos"
+ },
+ {
+  "id": "b43",
+  "data": "2026-10-09",
+  "alvo": "Lula",
+  "boato": "Posts dizem que PCC e CV declararam apoio a Lula no 2º turno",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "Não há registro público de que as facções tenham feito essa declaração. O MP-RJ disse não ter informação sobre isso e a checagem não achou nada na imprensa nem em canais oficiais.",
+  "url": "https://aosfatos.org/noticias/pcc-comando-vermelho-apoio-lula-falso/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica os autores dos posts e diz que a alegação foi impulsionada nas redes por bolsonaristas.",
+  "tema": "Facções criminosas"
  }
 ]
