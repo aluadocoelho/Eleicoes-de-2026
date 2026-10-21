@@ -4,7 +4,7 @@ M_DIR = '/home/claude/eleicoes-2026-dados/instagram/modelos'
 sys.path.insert(0, M_DIR)
 import marca as M
 F = M_DIR + '/fontes'
-TRILHA = M_DIR + '/trilhas/verita-lofi-media-20s.wav'
+TRILHA = M_DIR + '/trilhas/clareia-lofi-jornal-20s.wav'
 ROXO, AM, AZ, VM, T = M.ROXO, M.AMARELO, M.AZUL, M.VERM, '#16181D'
 FI = '#2E1B70'
 simb = (f'<defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{AZ}"/><stop offset="1" stop-color="{VM}"/></linearGradient></defs>'
