@@ -29,10 +29,10 @@ def pilula(txt, fs=30, rot=-2):
             f'border-radius:999px;padding:{fs*0.42:.0f}px {fs:.0f}px;font-family:{SANS};font-size:{fs}px;font-weight:900;letter-spacing:0.06em;'
             f'text-transform:uppercase;line-height:1;transform:rotate({rot}deg)">{E(txt)}</span>')
 
+LOGO_SVG = os.path.join(os.path.dirname(AQUI), '..', 'marca', 'clareia-eleicoes-roxo.svg')
 def assinatura(fs=40):
-    return (f'<div style="display:flex;align-items:center;gap:14px">{icone(int(fs*1.6))}'
-            f'<div style="display:flex;flex-direction:column;line-height:1"><span style="font-family:{SERIF};font-weight:900;font-size:{fs}px;letter-spacing:-0.03em">{M.NOME}</span>'
-            f'<span style="font-family:{SANS};font-weight:900;font-size:{fs*0.4:.0f}px;letter-spacing:0.14em;text-transform:uppercase;color:{AMARELO};margin-top:4px">Eleições</span></div></div>')
+    """Logotipo final (SVG da pasta marca/), versão para fundo roxo ou escuro."""
+    return f'<img src="file://{os.path.abspath(LOGO_SVG)}" alt="Clareia Eleições" style="height:{fs * 2.3:.0f}px;width:auto;display:block">'
 
 FAIXA = f'<div style="display:flex;height:22px"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>'
 ARCO = '<div style="position:absolute;right:-170px;top:80px;width:520px;height:520px;border-radius:50%;border:70px solid rgba(255,255,255,0.06)"></div>'
