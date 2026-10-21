@@ -7595,6 +7595,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9F18-E3D6",
+  "conjunto": "pesquisas",
+  "id": "verita-2110",
+  "registro": {
+   "id": "verita-2110",
+   "instituto": "Veritá",
+   "divulgacao": "2026-10-21",
+   "campo": "15–19 out",
+   "amostra": 15554,
+   "margem": 1,
+   "flavio_validos": 50.7,
+   "lula_validos": 49.3,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Jornal Razão (pesquisa própria do Veritá, registro TSE BR-06396/2026; só votos válidos divulgados)",
+   "url": "https://jornalrazao.com/politica/verita-flavio-bolsonaro-50-lula-49-segundo-turno"
+  },
+  "primeira_vez": "2026-10-21T17:59:57Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7A89-5E00",
   "conjunto": "pesquisas",
   "id": "vox-0910",
