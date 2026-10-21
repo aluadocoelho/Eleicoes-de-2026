@@ -309,7 +309,8 @@ body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
 .el-vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* Gráficos e tabelas */
-.el-chart{position:relative;min-height:300px}
+.el-chart{position:relative;min-height:300px;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+.el-chart svg{touch-action:pan-y}
 .el-chart-sm{position:relative;min-height:184px}
 .el-tip{position:absolute;top:0;left:0;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);pointer-events:none;opacity:0;white-space:nowrap;font-variant-numeric:tabular-nums;z-index:3}
 .el-tip .el-tip-d{color:var(--cds-text-secondary)}
@@ -2052,7 +2053,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     svg.on("pointermove pointerdown", (ev) => {
       const [px, py] = d3.pointer(ev);
       const best = d3.least(data, d => Math.hypot(x(d.d) - px, y(d.dif) - py));
-      if (!best || Math.hypot(x(best.d) - px, y(best.dif) - py) > 32) { hide(); return; }
+      if (!best || Math.hypot(x(best.d) - px, y(best.dif) - py) > (ev.pointerType === "mouse" ? 32 : 44)) { hide(); return; }
       dots.attr("r", d => d === best ? 7.5 : 5.5);
       tip.replaceChildren();
       const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = best.instituto + " · " + dFmt(best.d); tip.appendChild(a);
@@ -2068,7 +2069,10 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
       let ty = y(best.dif) - th / 2; ty = Math.max(0, Math.min(H - th, ty));
       tip.style.left = tx + "px"; tip.style.top = ty + "px";
-    }).on("pointerleave", hide);
+    }).on("pointerleave", (ev) => { if (ev.pointerType === "mouse") hide(); })
+      .on("contextmenu", (ev) => ev.preventDefault());
+    box._tipHide = hide;
+    if (!box._tipOut) { box._tipOut = true; document.addEventListener("pointerdown", (ev) => { if (!box.contains(ev.target) && box._tipHide) box._tipHide(); }); }
   }
 
   // ---------- Gráfico: taxa de falas falsas ----------
@@ -2121,7 +2125,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     svg.on("pointermove pointerdown", (ev) => {
       const [px, py] = d3.pointer(ev);
       const best = d3.least(data, d => Math.hypot(x(d.d) - px, y(d.taxa) - py));
-      if (!best || Math.hypot(x(best.d) - px, y(best.taxa) - py) > 32) { hide(); return; }
+      if (!best || Math.hypot(x(best.d) - px, y(best.taxa) - py) > (ev.pointerType === "mouse" ? 32 : 44)) { hide(); return; }
       tip.replaceChildren();
       const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = "Até " + dFmt(best.d); tip.appendChild(a);
       const r = document.createElement("div");
@@ -2133,7 +2137,10 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
       let ty = y(best.taxa) - th - 8; if (ty < 0) ty = y(best.taxa) + 10;
       tip.style.left = tx + "px"; tip.style.top = ty + "px";
-    }).on("pointerleave", hide);
+    }).on("pointerleave", (ev) => { if (ev.pointerType === "mouse") hide(); })
+      .on("contextmenu", (ev) => ev.preventDefault());
+    box._tipHide = hide;
+    if (!box._tipOut) { box._tipOut = true; document.addEventListener("pointerdown", (ev) => { if (!box.contains(ev.target) && box._tipHide) box._tipHide(); }); }
   }
 
   // ---------- Gráfico: 1º turno ----------
