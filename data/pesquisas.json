@@ -362,5 +362,19 @@
   "lula_totais": 46.8,
   "fonte": "Futura/Apex (registro BR-06614/2026, contratada pela 100% Cidades), via Blog do BG",
   "url": "https://www.blogdobg.com.br/futura-apex-lula-cai-para-489-e-flavio-sobe-para-511-dos-votos-validos/"
+ },
+ {
+  "id": "quaest-2110",
+  "instituto": "Quaest",
+  "divulgacao": "2026-10-21",
+  "campo": "17–20 out",
+  "amostra": 2154,
+  "margem": 2,
+  "flavio_validos": 50.6,
+  "lula_validos": 49.4,
+  "flavio_totais": 45,
+  "lula_totais": 44,
+  "fonte": "Metrópoles (encomenda do Grupo Globo, registro BR-08535/2026); válidos calculados",
+  "url": "https://www.metropoles.com/brasil/quaest-flavio-bolsonaro-tem-45-e-lula-44-no-2o-turno"
  }
 ]
