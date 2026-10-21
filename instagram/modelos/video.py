@@ -11,6 +11,7 @@ Uso:  python3 instagram/modelos/video.py especificacao.json pasta_de_saida/
 Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto e lado; cena2 aceita até 4 itens, cena3 até 2):
 {
  "tema": "plantao" | "verita",          # plantao = preto/amarelo/vermelho; verita (ou clareia) = roxo
+ "familia": "pesquisa" | "checagem" | "boato" | "agenda" | "plantao" | "servico" | "engajamento",   # opcional (preferível): cores da família visual (familias.py) e trilha que combina com o assunto
  "selo": "PLANTÃO" | "ATUALIZAÇÃO" | "NOVA PESQUISA" | "CHECAGEM" ... (evite "URGENTE": tom sóbrio passa mais confiança),
  "abertura": {"chip": "Plantão Clareia · Eleições 2026", "titulo": "Quebra de", "destaque": "sigilo.", "sub": "O que pode acontecer nesta terça, 20/10."},
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
@@ -38,6 +39,14 @@ def escolher_trilha(spec):
     if pedida:
         for n in sorted(glob.glob(os.path.join(TRILHAS_DIR, '*.wav'))):
             if os.path.basename(n) in (pedida, f'clareia-lofi-{pedida}-30s.wav', f'{pedida}.wav'): return n
+    fam = spec.get('familia')
+    if fam:
+        import familias
+        cands = []
+        for n in familias.TRILHAS.get(fam, []):
+            for f in (f'clareia-lofi-{n}-30s.wav', f'clareia-{n}-30s.wav'):
+                if os.path.exists(os.path.join(TRILHAS_DIR, f)): cands.append(os.path.join(TRILHAS_DIR, f)); break
+        if cands: nomes = cands
     semente = hashlib.md5(json.dumps(spec, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     return random.Random(semente).choice(nomes) if nomes else None
 COR = {'lula': VERM, 'flavio': AZUL, 'neutro': AMARELO}
@@ -49,10 +58,12 @@ COR = {'lula': VERM, 'flavio': AZUL, 'neutro': AMARELO}
 # selos e botões entram com elástico, cartões sobem em sequência.
 ABERTURA = FINAL = 3.0
 CURTA, LONGA, LIMITE = 4.0, 5.0, 150
-def item(it, d, fundo_item, txt_cor):
+def item(it, d, fundo_item, txt_cor, C=None):
+    C = C or {}
     cor = COR.get(it.get('lado', 'neutro'), AMARELO)
-    rot = cor if cor != AZUL else '#7EA6FF'
-    return (f'<div class="card" style="animation-delay:{d:.2f}s;background:{fundo_item};border:3px solid #3A3E48;border-top:10px solid {cor};border-radius:28px;padding:32px 36px;display:flex;flex-direction:column;gap:14px">'
+    if cor == AMARELO and C.get('acc'): cor = C['acc']
+    rot = cor if (cor != AZUL or C.get('claro')) else '#7EA6FF'
+    return (f'<div class="card" style="animation-delay:{d:.2f}s;background:{fundo_item};border:3px solid {C.get("bd", "#3A3E48")};border-top:10px solid {cor};border-radius:28px;padding:32px 36px;display:flex;flex-direction:column;gap:14px">'
             f'<div style="font-size:34px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
             f'<div style="font-size:50px;line-height:1.32;color:{txt_cor}">{E(it["texto"])}</div></div>')
 
@@ -93,15 +104,36 @@ CSS = """
 .elastico{animation:elastico .75s cubic-bezier(.3,1.4,.5,1) both}
 """
 
+# paletas das famílias visuais (ver familias.py): fundo, cartão, texto, texto suave, destaque, borda, selo e logo
+LAV = '#EEE8FA'
+FAM = {
+ 'pesquisa': dict(bg=LAV, fi='#FFFFFF', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd=TINTA, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
+ 'checagem': dict(bg=TINTA, fi='#22252C', fg='#FFFFFF', sub='#B5AFC4', acc=AMARELO, bd='#3A3E48', selo=(AMARELO, TINTA, '#FFFFFF'), logo='escuro'),
+ 'boato':    dict(bg='#FFFFFF', fi='#F4F2F8', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd='#CFC8DD', selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
+ 'agenda':   dict(bg=AMARELO, fi='#FFFFFF', fg=TINTA, sub='#3A3000', acc=P.ROXO, bd=TINTA, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
+ 'plantao':  dict(bg=P.ROXO, fi='#2E1B70', fg='#FFFFFF', sub='#D9CFF5', acc=AMARELO, bd='#5B45A8', selo=(AMARELO, TINTA, TINTA), logo='roxo'),
+ 'servico':  dict(bg='#FFFFFF', fi=LAV, fg=TINTA, sub='#3A3F49', acc=P.ROXO, bd=P.ROXO, selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
+ 'engajamento': dict(bg=P.ROXO, fi='#2E1B70', fg='#FFFFFF', sub='#E2D9FA', acc=AMARELO, bd='#5B45A8', selo=(AMARELO, TINTA, TINTA), logo='roxo'),
+}
+def logo_img(variante, alt=115):
+    caminho = os.path.abspath(os.path.join(AQUI, '..', '..', 'marca', f'clareia-eleicoes-{variante}.svg'))
+    return f'<img src="file://{caminho}" alt="Clareia Eleições" style="height:{alt}px;width:auto;display:block">'
+
 def pagina(s):
-    plantao = s.get('tema', 'plantao') == 'plantao'
+    C = FAM.get(s.get('familia'))
+    plantao = s.get('tema', 'plantao') == 'plantao' and not C
     BG = TINTA if plantao else P.ROXO
     FI = '#22252C' if plantao else '#2E1B70'
     SUB = '#C9CBD2' if plantao else '#E2D9FA'
+    FG, ACC = '#FFFFFF', AMARELO
+    SELO_BG, SELO_FG, SELO_SH = VERM, '#FFFFFF', AMARELO
+    if C:
+        BG, FI, SUB, FG, ACC = C['bg'], C['fi'], C['sub'], C['fg'], C['acc']
+        SELO_BG, SELO_FG, SELO_SH = C['selo']
     TAPE = f'repeating-linear-gradient(-45deg,{AMARELO} 0 46px,{BG} 46px 92px)'
     def tit(t, dd):
         if not dd: return E(t)
-        return (E(t) + '<br>' if t else '') + f'<span style="color:{AMARELO}">{E(dd)}</span>'
+        return (E(t) + '<br>' if t else '') + f'<span style="color:{ACC}">{E(dd)}</span>'
     blocos, t0 = [], 0.0
     for tipo, dados, dur in telas(s):
         anim = [f'show 0s linear {t0:.2f}s both']
@@ -116,20 +148,20 @@ def pagina(s):
             blocos.append(
                 f'<div class="sc" style="{vis};align-items:flex-start">{fita}'
                 f'<div style="position:relative;display:flex;flex-direction:column;gap:36px;width:100%">'
-                f'<div class="elastico" style="animation-delay:{d(.15)}s;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{VERM};color:#fff;border:4px solid #000;box-shadow:12px 12px 0 {AMARELO};border-radius:999px;padding:22px 46px;font-size:{96 if len(selo) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">'
-                f'<i style="width:40px;height:40px;border-radius:50%;background:#fff;display:block;animation:blink 1s steps(2) {d(.8)}s infinite"></i>{E(selo)}</div>'
-                f'<div class="foco" style="animation-delay:{d(.55)}s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get("chip", "Clareia · Eleições 2026"))}</div>'
+                f'<div class="elastico" style="animation-delay:{d(.15)}s;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{SELO_BG};color:{SELO_FG};border:4px solid #000;box-shadow:12px 12px 0 {SELO_SH};border-radius:999px;padding:22px 46px;font-size:{96 if len(selo) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">'
+                f'<i style="width:40px;height:40px;border-radius:50%;background:{SELO_FG};display:block;animation:blink 1s steps(2) {d(.8)}s infinite"></i>{E(selo)}</div>'
+                f'<div class="foco" style="animation-delay:{d(.55)}s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{ACC};text-transform:uppercase">{E(a.get("chip", "Clareia · Eleições 2026"))}</div>'
                 f'<h1 class="foco" style="animation-delay:{d(.75)}s;margin:0;font-family:{SERIF};font-weight:800;font-size:136px;line-height:.98;letter-spacing:-.03em">{tit(a["titulo"], a.get("destaque"))}</h1>'
                 f'<div class="surge" style="animation-delay:{d(1.25)}s;font-size:50px;line-height:1.35;color:{SUB}">{E(a.get("sub", ""))}</div>'
                 f'</div></div>')
         elif tipo == 'conteudo':
             (chip, tt, dest), g = dados
             tem_tit = bool(tt or dest)
-            cards = ''.join(item(it, t0 + (.75 if tem_tit else .4) + .35 * i, FI, '#F2F2F4') for i, it in enumerate(g))
+            cards = ''.join(item(it, t0 + (.75 if tem_tit else .4) + .35 * i, FI, '#F2F2F4' if FG == '#FFFFFF' else FG, C) for i, it in enumerate(g))
             titulo = (f'<h2 class="foco" style="animation-delay:{d(.3)}s;margin:0 0 50px;font-family:{SERIF};font-weight:800;font-size:{104 if len(tt + dest) < 45 else 90}px;line-height:1.02;letter-spacing:-.025em">{tit(tt, dest)}</h2>') if tem_tit else ''
             blocos.append(
                 f'<div class="sc" style="{vis}">'
-                f'<div class="foco" style="animation-delay:{d(.1)}s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(chip)}</div>'
+                f'<div class="foco" style="animation-delay:{d(.1)}s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{ACC};text-transform:uppercase;margin-bottom:30px">{E(chip)}</div>'
                 f'{titulo}<div style="display:flex;flex-direction:column;gap:30px">{cards}</div></div>')
         else:
             c3 = dados
@@ -138,18 +170,18 @@ def pagina(s):
                 f'<div class="foco" style="animation-delay:{d(.1)}s;font-family:{SERIF};font-weight:800;font-size:110px;line-height:1.02;letter-spacing:-.025em;margin-bottom:56px">{tit(c3.get("chamada", "Acompanhe no site"), c3.get("chamada_destaque"))}</div>'
                 f'<div style="display:flex;align-items:center;justify-content:space-between;gap:24px">'
                 f'<div class="surge" style="animation-delay:{d(.6)}s;font-size:30px;color:{SUB};max-width:560px;line-height:1.4">{E(s.get("rodape", ""))}</div>'
-                f'<div class="elastico" style="animation-delay:{d(.45)}s;background:{AMARELO};color:#1A1500;border:3px solid #000;box-shadow:8px 8px 0 {VERM};border-radius:24px;padding:24px 34px;font-size:46px;font-weight:900;white-space:nowrap">Link na bio</div>'
+                f'<div class="elastico" style="animation-delay:{d(.45)}s;background:{AMARELO if not (C and C.get("claro")) else P.ROXO};color:{"#1A1500" if not (C and C.get("claro")) else "#FFFFFF"};border:3px solid #000;box-shadow:8px 8px 0 {VERM if not C else TINTA};border-radius:24px;padding:24px 34px;font-size:46px;font-weight:900;white-space:nowrap">Link na bio</div>'
                 f'</div></div>')
         t0 += dur
     fontes = (f"@font-face{{font-family:'Public Sans';src:url('file://{P.FONTES}/PublicSans.ttf');font-weight:100 900}}"
               f"@font-face{{font-family:'Source Serif 4';src:url('file://{P.FONTES}/SourceSerif4.ttf');font-weight:200 900}}")
     topo = (f'<div style="position:absolute;left:0;right:0;top:0;display:flex;height:22px;z-index:5"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>'
-            f'<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 140 140">{P.M.simbolo()}</svg>'
+            f'<svg style="position:absolute;right:-200px;bottom:120px;opacity:{.08 if C and C.get("claro") else .10};z-index:0" width="700" height="700" viewBox="0 0 140 140">{P.M.simbolo(P.ROXO if C and C.get("claro") else "#fff")}</svg>'
             f'<div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">'
-            f'<div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>'
+            f'<div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{logo_img(C["logo"]) if C else P.assinatura(50)}</div>'
             f'<span class="surge" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">{P.M.ARROBA}</span></div>')
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>{fontes}body{{margin:0}}{CSS}'
-            f'.f{{background:{BG};font-family:{SANS}}}</style></head><body><div class="f">{topo}{"".join(blocos)}</div></body></html>')
+            f'.f{{background:{BG};color:{FG};font-family:{SANS}}}</style></head><body><div class="f">{topo}{"".join(blocos)}</div></body></html>')
 
 async def gerar(spec, saida, fps=30, dur=None):
     dur = dur or duracao(spec)
