@@ -7532,6 +7532,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9741-52AD",
+  "conjunto": "pesquisas",
+  "id": "quaest-2110",
+  "registro": {
+   "id": "quaest-2110",
+   "instituto": "Quaest",
+   "divulgacao": "2026-10-21",
+   "campo": "17–20 out",
+   "amostra": 2154,
+   "margem": 2,
+   "flavio_validos": 50.6,
+   "lula_validos": 49.4,
+   "flavio_totais": 45,
+   "lula_totais": 44,
+   "fonte": "Metrópoles (encomenda do Grupo Globo, registro BR-08535/2026); válidos calculados",
+   "url": "https://www.metropoles.com/brasil/quaest-flavio-bolsonaro-tem-45-e-lula-44-no-2o-turno"
+  },
+  "primeira_vez": "2026-10-21T14:01:08Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "05AF-5FDC",
   "conjunto": "pesquisas",
   "id": "realtime-2010",
