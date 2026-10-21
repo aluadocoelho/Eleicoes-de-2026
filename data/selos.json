@@ -7820,6 +7820,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "563A-05E1",
+  "conjunto": "redes",
+  "id": "dx-seg-publica",
+  "registro": {
+   "id": "dx-seg-publica",
+   "metrica": "Interações em posts sobre segurança pública",
+   "periodo": "12–18 out (2º turno)",
+   "lula": 5990000,
+   "flavio": 3610000,
+   "fonte": "Instituto Democracia em Xeque (Data Lake DX), via Agenda do Poder",
+   "url": "https://agendadopoder.com.br/lula-supera-flavio-bolsonaro-e-lidera-debate-sobre-seguranca-publica-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-21T01:28:49Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F452-D66F",
   "conjunto": "redes",
   "id": "globo-ig-mediana",
