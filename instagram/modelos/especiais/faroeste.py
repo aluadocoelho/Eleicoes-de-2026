@@ -19,8 +19,8 @@ SERIF, SANS = "'Source Serif 4',Georgia,serif", "'Public Sans',system-ui,sans-se
 COR = {'lula': VM, 'flavio': AZ, 'neutro': ROXO}
 ABRE, FINAL, CURTA, LONGA = 3.0, 3.0, 4.0, 5.0
 
-def chapeu(cor, x, flip=False, atraso=0):
-    return (f'<svg class="hat" style="position:absolute;left:{x}px;bottom:300px;width:300px;height:170px;animation-delay:{atraso}s;{"transform:scaleX(-1)" if flip else ""}" viewBox="0 0 300 170">'
+def chapeu(cor, x, flip=False, atraso=0, base=300, larg=300, cls='hat'):
+    return (f'<svg class="{cls}" style="position:absolute;left:{x}px;bottom:{base}px;width:{larg}px;height:{larg * 170 // 300}px;animation-delay:{atraso}s;{"transform:scaleX(-1)" if flip else ""}" viewBox="0 0 300 170">'
             f'<ellipse cx="150" cy="150" rx="146" ry="16" fill="#000" opacity=".25"/>'
             f'<path d="M8 118 Q40 140 150 140 Q260 140 292 118 Q270 104 240 112 Q150 132 60 112 Q30 104 8 118Z" fill="{cor}" stroke="{TERRA}" stroke-width="5"/>'
             f'<path d="M84 116 C80 80 86 44 104 36 C118 30 128 44 150 44 C172 44 182 30 196 36 C214 44 220 80 216 116 Q150 128 84 116Z" fill="{cor}" stroke="{TERRA}" stroke-width="5"/>'
@@ -58,6 +58,10 @@ CSS = """
 @keyframes sol{from{transform:translateY(80px)}to{transform:none}}
 @keyframes barra{from{width:0}}
 @keyframes poeira{from{opacity:.0;transform:translateX(0)}30%%{opacity:.5}to{opacity:0;transform:translateX(220px)}}
+@keyframes some{to{opacity:0}}
+@keyframes pop{0%%{opacity:0;transform:scale(.3) rotate(-8deg)}60%%{opacity:1;transform:scale(1.12) rotate(3deg)}80%%{transform:scale(.95) rotate(-1deg)}100%%{transform:scale(1) rotate(-2deg)}}
+@keyframes chega{0%%{opacity:0;transform:translateY(-260px) rotate(-14deg)}55%%{opacity:1;transform:translateY(20px) rotate(4deg)}75%%{transform:translateY(-12px) rotate(-2deg)}100%%{transform:none}}
+@keyframes balanca{0%%,100%%{rotate:-3deg}50%%{rotate:3deg}}
 @keyframes logo{0%%{transform:scale(.4);opacity:0}70%%{transform:scale(1.08);opacity:1}100%%{transform:scale(1)}}
 .foco{animation:foco .7s cubic-bezier(.2,.8,.3,1) both}
 .card{animation:card .65s cubic-bezier(.2,.8,.3,1) both}
@@ -91,6 +95,14 @@ def pagina(r):
                 f'<div class="foco" style="animation-delay:{at(.9)}s;font:900 96px/1.02 {SERIF};text-align:center;color:#fff;text-shadow:5px 5px 0 {TERRA}">{E(r["titulo"])}<br>'
                 f'<span style="color:{AM}">{E(r.get("destaque", ""))}</span></div></div>')
         elif tipo == 'cena':
+            lados = {c.get('lado') for c in d.get('cartoes', [])} - {None, 'neutro'}
+            if len(lados) == 1:
+                k = lados.pop(); hats = chapeu(COR[k], 300, k == 'flavio', 0, 110, 480, '')
+            else:
+                hats = chapeu(VM, 110, False, 0, 120, 360, '') + chapeu(AZ, 610, True, 0, 120, 360, '')
+            blocos.append(f'<div style="position:absolute;left:0;right:0;bottom:0;height:520px;z-index:4;visibility:hidden;{vis}">'
+                          f'<div style="position:absolute;inset:0;animation:chega .8s cubic-bezier(.3,1.2,.5,1) {at(.2)}s both">'
+                          f'<div style="position:absolute;inset:0;animation:balanca 2s ease-in-out {at(1)}s infinite;transform-origin:50% 80%">{hats}</div></div></div>')
             corpo = ''
             for k, c in enumerate(d.get('cartoes', [])):
                 cor = COR.get(c.get('lado', 'neutro'), ROXO)
@@ -109,22 +121,28 @@ def pagina(r):
             blocos.append(
                 f'<div class="sc" style="{vis}">'
                 f'<div class="foco" style="animation-delay:{at(.1)}s;align-self:flex-start">{placa(E(d["chip"]), 40, "padding:18px 58px")}</div>'
-                f'<div class="foco" style="animation-delay:{at(.35)}s;font:900 {92 if len(d["titulo"]) < 26 else 78}px/1.02 {SERIF};color:#fff;text-shadow:5px 5px 0 {TERRA};margin-top:34px">{E(d["titulo"])}</div>'
+                f'<div class="foco" style="animation-delay:{at(.35)}s;font:900 {92 if len(d["titulo"]) < 26 else 78}px/1.02 {SERIF};color:#fff;text-shadow:5px 5px 0 #1C0F3F;margin-top:34px">{E(d["titulo"])}</div>'
                 f'{corpo}</div>')
         else:
+            blocos.append(f'<div style="position:absolute;left:0;right:0;bottom:0;height:520px;z-index:4;visibility:hidden;{vis}"><div style="position:absolute;inset:0;animation:chega .8s cubic-bezier(.3,1.2,.5,1) {at(.15)}s both">'
+                          + chapeu(VM, 110, False, 0, 120, 360, '') + chapeu(AZ, 610, True, 0, 120, 360, '') + '</div></div>')
             blocos.append(
                 f'<div class="sc" style="{vis};gap:40px">'
-                f'<div class="foco" style="animation-delay:{at(.1)}s;font:900 104px/1.02 {SERIF};color:#fff;text-shadow:5px 5px 0 {TERRA}">{E(d["titulo"])}<br><span style="color:{AM}">{E(d.get("destaque", ""))}</span></div>'
+                f'<div class="foco" style="animation-delay:{at(.1)}s;font:900 104px/1.02 {SERIF};color:#fff;text-shadow:5px 5px 0 #1C0F3F">{E(d["titulo"])}<br><span style="color:{AM}">{E(d.get("destaque", ""))}</span></div>'
                 f'<div style="display:flex;justify-content:space-between;align-items:center;gap:26px">'
                 f'<div class="foco" style="animation-delay:{at(.5)}s;font:600 30px/1.4 {SANS};color:#FFF3DA;max-width:560px;text-shadow:2px 2px 0 {TERRA}">{E(r.get("rodape", ""))}</div>'
-                f'<div style="animation:cai .8s cubic-bezier(.3,1.2,.5,1) {at(.35)}s both;flex:none;background:{AM};color:{T};border:5px solid {TERRA};box-shadow:8px 8px 0 {TERRA};border-radius:22px;padding:24px 34px;font:900 46px {SANS};white-space:nowrap">Link na bio</div></div></div>')
+                f'<div style="animation:pop .7s cubic-bezier(.3,1.3,.5,1) {at(.45)}s both;flex:none;background:{AM};color:{T};border:5px solid {TERRA};box-shadow:8px 8px 0 {TERRA};border-radius:22px;padding:24px 34px;font:900 46px {SANS};white-space:nowrap">Link na bio</div></div></div>')
         t0 += dur
     total = t0
     # feno rolando nas trocas de tela
     fenos = ''.join(f'<div style="position:absolute;left:0;bottom:318px;z-index:3;animation:rola 2.6s linear {t:.2f}s both"><div style="animation:pula .45s ease-in-out infinite">{FENO}</div></div>'
-                    for t in (1.2, 8.2, 16.4))
+                    for t in (0.6,))
     poeira = ''.join(f'<i style="position:absolute;left:{x}px;bottom:{y}px;width:{w}px;height:{w // 3}px;border-radius:50%;background:#F1C88E;filter:blur(8px);animation:poeira 3s ease-out {d:.1f}s infinite;z-index:3"></i>'
                      for x, y, w, d in ((120, 330, 160, 0), (520, 320, 220, 1.1), (820, 340, 140, 2.0), (300, 350, 120, 2.6)))
+    fundo = (f'<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,#55349F 0%,{ROXO} 60%,#2C1870 100%)"></div>'
+             f'<svg style="position:absolute;right:-220px;top:640px;opacity:.08" width="760" height="760" viewBox="0 0 140 140">{M.simbolo("#fff")}</svg>'
+             f'<div style="position:absolute;left:0;right:0;bottom:0;height:150px;background:#2C1870"></div>'
+             f'<div style="position:absolute;left:0;right:0;bottom:150px;height:6px;background:{AM};opacity:.6"></div>')
     cenario = (f'<div style="position:absolute;inset:0;background:linear-gradient(180deg,{ROXO} 0%,#7A2E6E 30%,#D9542F 55%,#F2A541 70%,#F6C26B 76%)"></div>'
                f'<div style="position:absolute;left:290px;bottom:330px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,#FFE680 0%,{AM} 55%,#F7B733 100%);animation:sol 3s ease-out 0s both;box-shadow:0 0 160px 60px rgba(255,212,59,.45)"></div>'
                f'<svg style="position:absolute;left:0;bottom:330px" width="1080" height="260" viewBox="0 0 1080 260" preserveAspectRatio="none"><path d="M0 260V150L90 120L170 140L230 70L320 60L360 110L470 130L560 90L640 100L700 40L820 30L860 90L960 110L1080 80V260Z" fill="#7A3B2A" opacity=".85"/></svg>'
@@ -139,7 +157,8 @@ def pagina(r):
             f'<span style="font:800 30px {SANS};color:#F1E8FF">{M.ARROBA}</span></div>')
     css = (f"@font-face{{font-family:'Public Sans';src:url('file://{FONTES}/PublicSans.ttf');font-weight:100 900}}"
            f"@font-face{{font-family:'Source Serif 4';src:url('file://{FONTES}/SourceSerif4.ttf');font-weight:200 900}}body{{margin:0}}" + CSS)
-    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="f">{cenario}{poeira}{fenos}{topo}{"".join(blocos)}</div></body></html>'), total
+    deserto = f'<div style="position:absolute;inset:0;z-index:2;animation:some .5s ease-in {ABRE - .35:.2f}s forwards">{cenario}{poeira}{fenos}</div>'
+    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="f">{fundo}{deserto}{topo}{"".join(blocos)}</div></body></html>'), total
 
 async def gerar(r, saida, fps=30):
     from playwright.async_api import async_playwright
