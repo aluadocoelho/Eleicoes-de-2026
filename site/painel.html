@@ -880,10 +880,13 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 (function () {
     const box = document.getElementById("el-aviso"); if (!box) return;
     const FIM = new Date("2026-10-25T17:00:00-03:00"), KEY = "el-aviso-locais";
-    let fechado = false; try { fechado = sessionStorage.getItem(KEY) === "1"; } catch (e) {}
+    // fechado fica fechado nas próximas visitas; volta para quem passar 3 dias ou mais sem entrar
+    const VOLTA = 3 * 864e5, agora = Date.now(); let fechado = false;
+    try { const f = +localStorage.getItem(KEY) || 0, u = +localStorage.getItem("el-ultima-visita") || 0;
+      fechado = f > 0 && u > 0 && agora - u < VOLTA; if (!fechado) localStorage.removeItem(KEY); localStorage.setItem("el-ultima-visita", String(agora)); } catch (e) {}
     box.hidden = fechado || new Date() > FIM;
     const x = document.getElementById("aviso-x");
-    if (x) x.addEventListener("click", () => { box.hidden = true; try { sessionStorage.setItem(KEY, "1"); } catch (e) {} const m = document.getElementById("conteudo"); if (m) m.focus({preventScroll: true}); });
+    if (x) x.addEventListener("click", () => { box.hidden = true; try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {} const m = document.getElementById("conteudo"); if (m) m.focus({preventScroll: true}); });
   })();
 </script>
 

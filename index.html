@@ -864,6 +864,23 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-vd-ig[hidden]{visibility:hidden;display:block}
 .el-vd-x:focus-visible,.el-vd-nav:focus-visible,.el-vd-ig:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
 body.el-vd-lock{overflow:hidden}
+</style><style>
+@media (min-width:900px){
+ .el{padding-top:22px}
+ .el-wrap{max-width:1280px}
+ .el-marca-svg{height:72px}
+ .el-sticky{padding-top:6px}
+ .el-marca{margin-bottom:0}
+ .el-tabs{justify-content:space-between;gap:2px}
+ .el-tab{padding:9px 13px}
+}
+@media (min-width:700px) and (max-width:1339px){
+ .el-tab svg{display:none}
+ .el-tab{padding:9px 12px}
+}
+@media (min-width:700px) and (max-width:1099px){.el-tab{padding:8px 10px;font-size:.875rem}}
+@media (min-width:700px) and (max-width:1139px){.el-tab{padding:8px 8px;font-size:.8125rem;gap:5px}}
+@media (min-width:700px) and (max-width:1019px){.el .el-tabs{flex-wrap:wrap;justify-content:center;gap:4px 6px;border-radius:26px;overflow:visible}.el-sticky>.el-tabs .el-tab[data-tab="sobre"]{margin-left:0}}
 </style></head>
 <body>
 <noscript><div style="max-width:720px;margin:24px auto;padding:0 16px;font-family:system-ui,sans-serif;line-height:1.5"><h1>Clareia Eleições: acompanhe o 2º turno de 2026</h1><p>Acompanhe o 2º turno da eleição presidencial de 2026 entre Flávio Bolsonaro (PL) e Lula (PT): pesquisas de intenção de voto, checagens de falas, boatos desmentidos, agenda dos candidatos, debates ao vivo e redes sociais, sempre com o link da fonte original. Que ninguém vote no escuro.</p><p>Esta página precisa de JavaScript para mostrar os dados ao vivo. Os mesmos dados estão abertos, em JSON:</p><ul><li><a href="data/pesquisas.json">Pesquisas de intenção de voto do 2º turno (votos válidos e totais, instituto, amostra e margem)</a></li><li><a href="data/checagens.json">Falas dos candidatos checadas por agências de checagem, com o selo original</a></li><li><a href="data/boatos.json">Boatos e conteúdos falsos sobre os candidatos desmentidos por checadores ou pelo TSE</a></li><li><a href="data/agenda.json">Agenda pública diária de Lula e Flávio Bolsonaro</a></li><li><a href="data/campanha.json">Apoios, decisões da Justiça Eleitoral, debates e estratégia das campanhas</a></li><li><a href="data/redes.json">Métricas comparáveis dos dois candidatos nas redes sociais</a></li><li><a href="data/aovivo.json">Momentos e checagens de debates e sabatinas</a></li><li><a href="data/destaques.json">Grandes eventos do 2º turno: debates, sabatinas e o dia da votação</a></li><li><a href="data/erratas.json">Correções públicas feitas pela revisão de qualidade</a></li></ul><p>A Clareia Eleições (antes Verita Eleições) é independente, sem ligação com partidos, campanhas ou institutos de pesquisa. Instagram: <a href="https://www.instagram.com/clareiaeleicoes/">@clareiaeleicoes</a>. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p></div></noscript>
@@ -1048,10 +1065,13 @@ body.el-vd-lock{overflow:hidden}
 (function () {
     const box = document.getElementById("el-aviso"); if (!box) return;
     const FIM = new Date("2026-10-25T17:00:00-03:00"), KEY = "el-aviso-locais";
-    let fechado = false; try { fechado = sessionStorage.getItem(KEY) === "1"; } catch (e) {}
+    // fechado fica fechado nas próximas visitas; volta para quem passar 3 dias ou mais sem entrar
+    const VOLTA = 3 * 864e5, agora = Date.now(); let fechado = false;
+    try { const f = +localStorage.getItem(KEY) || 0, u = +localStorage.getItem("el-ultima-visita") || 0;
+      fechado = f > 0 && u > 0 && agora - u < VOLTA; if (!fechado) localStorage.removeItem(KEY); localStorage.setItem("el-ultima-visita", String(agora)); } catch (e) {}
     box.hidden = fechado || new Date() > FIM;
     const x = document.getElementById("aviso-x");
-    if (x) x.addEventListener("click", () => { box.hidden = true; try { sessionStorage.setItem(KEY, "1"); } catch (e) {} const m = document.getElementById("conteudo"); if (m) m.focus({preventScroll: true}); });
+    if (x) x.addEventListener("click", () => { box.hidden = true; try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {} const m = document.getElementById("conteudo"); if (m) m.focus({preventScroll: true}); });
   })();
 </script>
 

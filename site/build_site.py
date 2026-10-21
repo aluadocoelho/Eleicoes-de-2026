@@ -681,5 +681,26 @@ _VJS = """<script>(function(){
   }).catch(function(){sec.hidden=true});
 })();</script>"""
 html = html.replace('</body>', _VJS + '</body>', 1)
+
+# --- computador: página mais larga, menu inteiro à vista e topo mais justo (pedido do dono em 21/10) ---
+_DCSS = """<style>
+@media (min-width:900px){
+ .el{padding-top:22px}
+ .el-wrap{max-width:1280px}
+ .el-marca-svg{height:72px}
+ .el-sticky{padding-top:6px}
+ .el-marca{margin-bottom:0}
+ .el-tabs{justify-content:space-between;gap:2px}
+ .el-tab{padding:9px 13px}
+}
+@media (min-width:700px) and (max-width:1339px){
+ .el-tab svg{display:none}
+ .el-tab{padding:9px 12px}
+}
+@media (min-width:700px) and (max-width:1099px){.el-tab{padding:8px 10px;font-size:.875rem}}
+@media (min-width:700px) and (max-width:1139px){.el-tab{padding:8px 8px;font-size:.8125rem;gap:5px}}
+@media (min-width:700px) and (max-width:1019px){.el .el-tabs{flex-wrap:wrap;justify-content:center;gap:4px 6px;border-radius:26px;overflow:visible}.el-sticky>.el-tabs .el-tab[data-tab="sobre"]{margin-left:0}}
+</style>"""
+html = html.replace('</head>', _DCSS + '</head>', 1)
 open(out_path, "w").write(html)
 print("ok", len(html))
