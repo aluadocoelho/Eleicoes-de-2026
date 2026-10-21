@@ -3432,6 +3432,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E0C6-616D",
+  "conjunto": "campanha",
+  "id": "e37",
+  "registro": {
+   "id": "e37",
+   "data": "2026-10-20",
+   "tipo": "Debate",
+   "descricao": "Na noite de terça (20/10), Lula disse que Flávio não pode ir ao debate da Globo sem autorizar a abertura dos sigilos dele, e que um presidente não pode debater com ladrão. A campanha de Flávio não respondeu a essa condição até a matéria da CNN, publicada às 19h42.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-flavio-nao-pode-ir-a-debate-sem-quebrar-sigilo/"
+  },
+  "primeira_vez": "2026-10-21T02:14:22Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
