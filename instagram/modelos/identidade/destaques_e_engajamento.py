@@ -46,15 +46,18 @@ ACOES = [
  ('Reposte', 'Toque em repostar e leve para o seu perfil.', '<path d="M17 2.5l3.5 3.5L17 9.5"/><path d="M3.5 11V9a3 3 0 0 1 3-3h14"/><path d="M7 21.5L3.5 18 7 14.5"/><path d="M20.5 13v2a3 3 0 0 1-3 3h-14"/>', AZ),
  ('Comente', 'Conte sua dúvida sobre o 2º turno. A gente responde com fonte.', '<path d="M4 5.5h16a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.5 3.5V17.5H4A1.5 1.5 0 0 1 2.5 16V7A1.5 1.5 0 0 1 4 5.5z"/>', AM),
 ]
+def cartao(t, d, ic, fs, extra=''):
+    """Cartão de ação (o mesmo no feed, no story e no reels)."""
+    return (f'<div style="display:flex;align-items:center;gap:34px;background:#fff;color:{T};border:5px solid {T};border-radius:34px;'
+            f'box-shadow:10px 10px 0 {AM};padding:{34*fs:.0f}px {38*fs:.0f}px;{extra}">'
+            f'<div style="flex:none;width:{132*fs:.0f}px;height:{132*fs:.0f}px;border-radius:30px;background:{ROXO};display:grid;place-items:center">'
+            f'<svg width="{80*fs:.0f}" height="{80*fs:.0f}" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{ic}</svg></div>'
+            f'<div><div style="font-family:\'Source Serif 4\';font-weight:900;font-size:{64*fs:.0f}px;line-height:1;color:{ROXO}">{t}</div>'
+            f'<div style="font-size:{34*fs:.0f}px;line-height:1.35;margin-top:10px;color:#2A2D35">{d}</div></div></div>')
+
 def engaj(h, story):
     fs = .86 if story else .74
-    cards = ''.join(
-        f'<div style="display:flex;align-items:center;gap:34px;background:#fff;color:{T};border:5px solid {T};border-radius:34px;'
-        f'box-shadow:10px 10px 0 {AM};padding:{34*fs:.0f}px {38*fs:.0f}px">'
-        f'<div style="flex:none;width:{132*fs:.0f}px;height:{132*fs:.0f}px;border-radius:30px;background:{ROXO};display:grid;place-items:center">'
-        f'<svg width="{80*fs:.0f}" height="{80*fs:.0f}" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{ic}</svg></div>'
-        f'<div><div style="font-family:\'Source Serif 4\';font-weight:900;font-size:{64*fs:.0f}px;line-height:1;color:{ROXO}">{t}</div>'
-        f'<div style="font-size:{34*fs:.0f}px;line-height:1.35;margin-top:10px;color:#2A2D35">{d}</div></div></div>' for t, d, ic, c in ACOES)
+    cards = ''.join(cartao(t, d, ic, fs) for t, d, ic, c in ACOES)
     return (f'<!doctype html><meta charset="utf-8"><style>{CSS}</style>'
             f'<div id="r" style="width:1080px;height:{h}px;background:{ROXO};color:#fff;font-family:\'Public Sans\';position:relative;overflow:hidden;'
             f'box-sizing:border-box;padding:{200 if story else 70}px {80 if story else 70}px {230 if story else 64}px;display:flex;flex-direction:column;justify-content:space-between">'
