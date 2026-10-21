@@ -10,7 +10,8 @@ Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto 
  "abertura": {"chip": "Plantão Clareia · Eleições 2026", "titulo": "Quebra de", "destaque": "sigilo.", "sub": "O que pode acontecer nesta terça, 20/10."},
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
  "cena3": {"chip": "E o outro lado?", "itens": [{"rotulo": "Flávio Bolsonaro", "texto": "...", "lado": "flavio"}], "chamada": "Acompanhe", "chamada_destaque": "ao longo do dia."},
- "rodape": "Fontes: Poder360 e CNN Brasil (19/10)"
+ "rodape": "Fontes: Poder360 e CNN Brasil (19/10)",
+ "trilha": "noite"   # opcional: amanhecer, praca, noite, jornal, domingo, verita-lofi-20s.wav ou verita-lofi-media-20s.wav; sem o campo, sorteia
 }
 "lado": "lula" (vermelho), "flavio" (azul) ou "neutro" (amarelo). Gera reels.mp4 e capa.jpg.
 Precisa de Playwright + Chromium, Pillow e ffmpeg. Cortes em 0,7 s, 5,6 s e 12,6 s, no ritmo da trilha.
@@ -21,7 +22,17 @@ sys.path.insert(0, AQUI)
 import pecas as P
 from pecas import AMARELO, AZUL, VERM, TINTA, SERIF, SANS
 E = html.escape
-TRILHA = os.path.join(AQUI, 'trilhas', 'verita-lofi-20s.wav')
+TRILHAS_DIR = os.path.join(AQUI, 'trilhas')
+def escolher_trilha(spec):
+    """Usa spec["trilha"] (nome curto, ex. "noite", ou arquivo); senão sorteia uma das trilhas da pasta (a escolha depende do conteúdo, então cada reels tende a sair com uma diferente)."""
+    import glob, hashlib, random
+    nomes = sorted(glob.glob(os.path.join(TRILHAS_DIR, '*-20s.wav')))
+    pedida = spec.get('trilha')
+    if pedida:
+        for n in nomes:
+            if os.path.basename(n) in (pedida, f'clareia-lofi-{pedida}-20s.wav', f'{pedida}.wav'): return n
+    semente = hashlib.md5(json.dumps(spec, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+    return random.Random(semente).choice(nomes) if nomes else None
 COR = {'lula': VERM, 'flavio': AZUL, 'neutro': AMARELO}
 
 def item(it, d, fundo_item, txt_cor):
@@ -113,7 +124,8 @@ async def gerar(spec, saida, fps=30, dur=20):
         await b.close()
     Image.open(os.path.join(tmp, 'f0090.jpg')).convert('RGB').save(os.path.join(saida, 'capa.jpg'), quality=92)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(fps), '-i', os.path.join(tmp, 'f%04d.jpg')]
-    if os.path.exists(TRILHA): cmd += ['-i', TRILHA, '-c:a', 'aac', '-b:a', '192k', '-shortest']
+    TRILHA = escolher_trilha(spec); print('trilha:', os.path.basename(TRILHA) if TRILHA else None)
+    if TRILHA and os.path.exists(TRILHA): cmd += ['-i', TRILHA, '-c:a', 'aac', '-b:a', '192k', '-shortest']
     cmd += ['-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', os.path.join(saida, 'reels.mp4')]
     subprocess.run(cmd, check=True)
     shutil.rmtree(tmp, ignore_errors=True)
