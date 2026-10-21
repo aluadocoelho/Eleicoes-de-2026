@@ -7,6 +7,7 @@ Compostas por código, sem música de terceiros: livres para Instagram, TikTok e
   tamborzao  batida de funk carioca suavizada (o "tamborzão" em palmas e tambores), baixo grave e sintetizador curto (Ré menor).
   estrada    pop rock indie: baixo em colcheias, bateria firme e guitarra dedilhada brilhante (Ré maior).
   batuque    pop com batucada: surdo, caixa e agogô à brasileira, marimba na melodia (Sol maior).
+  faroeste   trote em bloco de madeira, guitarra com tremolo, assobio e sino (Lá menor); feita para o vídeo "faroeste" de 21/10.
 
 Uso: python3 gerar_dinamicas.py [nome ...]   -> clareia-<nome>-30s.wav e .mp3
 """
@@ -157,6 +158,40 @@ def funkpop(M, kp):   # pop com batida de funk carioca bem leve e palmas, baixo 
             for k, m in enumerate([77, 75, 72, 75]): M.put(marimba(m, E8 * 1.5, .7), t0 + k * BEAT + E8, .3, .14)
     return ch[0][1]
 ESTILOS = {'pulsarbr': pulsarbr, 'pagode': pagode, 'funkpop': funkpop, 'pulsar': pulsar, 'tamborzao': tamborzao, 'estrada': estrada, 'batuque': batuque}
+
+def assobio(m, dur, vel=1.0):   # assobio: seno com vibrato que entra devagar e um pouco de sopro
+    n = int(dur * SR); tt = np.arange(n) / SR; vib = 1 + .012 * np.sin(2 * np.pi * 5.5 * tt) * np.clip(tt / .25, 0, 1)
+    f = mtof(m) * vib; rng = np.random.default_rng(int(m))
+    y = np.sin(2 * np.pi * np.cumsum(f) / SR) + hp(lp(rng.standard_normal(n), 4000), 1800) * .05
+    return y * env(n, .04, .12) * vel * .5
+def bloco(alto=True):   # bloco de madeira, para o trote do cavalo
+    n = int(.09 * SR); tt = np.arange(n) / SR; f = 900 if alto else 640
+    return (np.sin(2 * np.pi * f * tt) + .3 * np.sin(2 * np.pi * f * 2.3 * tt)) * np.exp(-tt / .018) * .6
+def twang(m, dur, vel=1.0):   # guitarra com tremolo e reverb de mola (bem anos 60)
+    y = guitarra(m, dur, vel); tt = np.arange(len(y)) / SR
+    return y * (1 - .35 * (.5 + .5 * np.sin(2 * np.pi * 6 * tt)))
+def faroeste(M, kp):   # faroeste: trote, guitarra com tremolo, assobio e sino (Lá menor)
+    ch = [(45, [57, 60, 64]), (43, [55, 59, 62]), (41, [53, 57, 60]), (40, [52, 56, 59])]   # Am G F E
+    mel = [(0, 76, 1.0), (1.0, 81, .5), (1.5, 79, .5), (2.0, 76, 1.5), (3.5, 74, .5), (4.0, 72, .75), (4.75, 74, .25), (5.0, 76, 1.0), (6.0, 69, 2.0)]
+    for bar in range(BARS):
+        root, notas = ch[bar % 4]; t0 = bar * BAR
+        for b in range(4):
+            t = t0 + b * BEAT
+            if b in (0, 2): M.put(kick(), t, 0, .55); kp.append(t)
+            M.put(bloco(True), t, -.3, .4); M.put(bloco(False), t + S16 * 2.6, -.3, .3); M.put(bloco(False), t + S16 * 3.3, -.3, .32)
+            M.put(bass(root if b % 2 == 0 else root + 7, BEAT * .8, 700), t, 0, .5)
+            if b in (1, 3): M.put(snare('snare'), t, .1, .18)
+        for k, m in enumerate([root + 12, root + 19, root + 24, root + 19]):
+            M.put(twang(m, BEAT * .9, .9), t0 + k * BEAT, .35, .3)
+        M.put(pad(notas[0], BAR, .6), t0, -.25, .06)
+        if bar % 4 in (1, 3):   # sino no fim da frase
+            n = int(1.2 * SR); tt = np.arange(n) / SR; sino = (np.sin(2 * np.pi * 1320 * tt) + .4 * np.sin(2 * np.pi * 3420 * tt)) * np.exp(-tt / .4) * .25
+            M.put(sino, t0 + 3 * BEAT + E8, .5, .3)
+    for rep in range(int(BARS // 4) + 1):   # melodia de assobio a cada 4 compassos (8 s)
+        for dt, m, d in mel:
+            M.put(assobio(m, d * .95, .9), rep * 4 * BAR + dt, -.15, .34)
+    return 33
+ESTILOS["faroeste"] = faroeste
 def finalizar(nome, M, kp, tom):
     # trilha "cheia", que começa no drop
     d = np.ones(len(M.L))
