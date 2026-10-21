@@ -8076,6 +8076,22 @@
   "ainda_publicado": false
  },
  {
+  "codigo": "7699-B74B",
+  "conjunto": "redes",
+  "id": "ipd-quaest-1910",
+  "registro": {
+   "id": "ipd-quaest-1910",
+   "metrica": "Índice de Popularidade Digital (0 a 100)",
+   "periodo": "19 out, após o debate da Band (em 5 out: Lula 70,7; Flávio 80,1)",
+   "lula": 83.3,
+   "flavio": 76.6,
+   "fonte": "Quaest, via Jornal de Brasília",
+   "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-mantem-lideranca-sobre-flavio-bolsonaro-em-indice-de-popularidade-digital-apos-debate/"
+  },
+  "primeira_vez": "2026-10-21T11:30:34Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7292-C822",
   "conjunto": "redes",
   "id": "palver-redes",
@@ -8395,6 +8411,20 @@
    "url": "https://www.diariodocentrodomundo.com.br/lula-supera-flavio-bolsonaro-popularidade-digital-quaest"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C84B-DBAC",
+  "conjunto": "sinais",
+  "id": "ipd-1910",
+  "registro": {
+   "id": "ipd-1910",
+   "data": "2026-10-21",
+   "sinal": "A Quaest divulgou a atualização do Índice de Popularidade Digital com dados até 19 de outubro: a diferença a favor de Lula passou de 6,2 pontos (16 out) para 6,7 pontos.",
+   "fonte": "Quaest, via Jornal de Brasília",
+   "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-mantem-lideranca-sobre-flavio-bolsonaro-em-indice-de-popularidade-digital-apos-debate/"
+  },
+  "primeira_vez": "2026-10-21T11:30:34Z",
   "ainda_publicado": true
  },
  {
