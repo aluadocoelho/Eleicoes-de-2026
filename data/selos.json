@@ -3544,6 +3544,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "665B-150B",
+  "conjunto": "campanha",
+  "id": "e38",
+  "registro": {
+   "id": "e38",
+   "data": "2026-10-21",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O ministro André Mendonça, do TSE, negou em liminar o pedido da campanha de Lula para tirar do ar a propaganda de Flávio que cita um ato pró-Lula, mas proibiu a versão original por erro na identificação do candidato a vice. A decisão ainda deve ir ao plenário do TSE.",
+   "fonte": "Agenda do Poder",
+   "url": "https://agendadopoder.com.br/mendonca-mantem-propaganda-de-flavio-bolsonaro-que-liga-ato-pro-lula-ao-pcc-e-hamas/"
+  },
+  "primeira_vez": "2026-10-21T12:22:31Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
