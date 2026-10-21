@@ -723,11 +723,11 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-mais{appearance:none;border:0;background:none;padding:4px 0 0;font:inherit;font-size:.8125rem;font-weight:800;color:var(--color-accent,#3E2492);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 
 /* Topo mais fino: marca acima do card roxo, sem etiqueta nem logo dentro dele; atualização no rodapé */
-.el-marca{display:flex;align-items:center;gap:12px;margin:4px 2px 14px}
+.el-marca{display:flex;align-items:center;justify-content:center;gap:12px;margin:6px 2px 16px}
 .el-marca-ico{width:52px;height:52px;flex:none;display:block}
 .el-marca-t{display:flex;flex-direction:column;line-height:1}
-.el-marca-n{font-family:"Source Serif 4",Georgia,serif;font-weight:800;font-size:1.65rem;letter-spacing:-.02em;color:var(--color-fg,#16181D)}
-.el-marca-s{font-weight:800;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:#3E2492;margin-top:4px}
+.el-marca-n{font-family:"Source Serif 4",Georgia,serif;font-weight:900;font-size:1.75rem;line-height:.95;letter-spacing:-.03em;color:var(--color-fg,#16181D)}
+.el-marca-s{font-weight:900;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:#3E2492;margin-top:3px}
 :root[data-theme="dark"] .el-marca-s{color:#FFD43B}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .el-marca-s{color:#FFD43B}}
 .el-sticky:not(.el-stuck)>header .el-logo{display:none}
@@ -738,13 +738,29 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 @media (max-width:480px){.el-sticky:not(.el-stuck)>header .el-title{font-size:1.32rem;line-height:1.12}.el-sticky:not(.el-stuck)>header{padding-top:16px;padding-bottom:14px}}
 /* Menu do celular acima do card roxo, como no computador */
 .el-sticky>.el-mnav{order:-1;margin-bottom:0}
+
+/* Celular: botões de leitura saem do card e vão para o menu; seções em quadradinhos */
+@media (max-width:48rem){
+  .el-sticky>header .el-actions{display:none}
+  #el-drw-lista{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  #el-drw-lista .el-drw-sep{grid-column:1/-1;margin:6px 4px 0}
+  .el-drw-i{flex-direction:column;align-items:flex-start;justify-content:space-between;gap:8px;min-height:86px;padding:12px;border:2px solid var(--color-border-line);border-radius:16px}
+  .el-drw-i[aria-current="page"]{border-color:#5B2DBF}
+  .el-drw-i .el-drw-t small{display:none}
+  .el-drw-i .el-drw-t b{font-size:.95rem;line-height:1.2}
+  .el-drw-op{margin-top:8px}
+  .el-drw-op .el-drw-sep{margin:6px 4px 8px}
+  .el-drw-opg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .el-drw-o{appearance:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:76px;padding:10px 6px;border:2px solid var(--ink);border-radius:16px;background:var(--color-bg);color:var(--color-fg);font:inherit;font-size:.8125rem;font-weight:800;text-align:center;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+  .el-drw-o:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+}
 </style>
 </head>
 <body>
 <div class="el"><div class="el-wrap">
   <a class="el-skip" href="#conteudo" id="skip-link">Pular para o conteúdo</a>
   <div class="el-vh" id="a11y-live" role="status" aria-live="polite" aria-atomic="true"></div>
-  <div class="el-marca"><svg xmlns="http://www.w3.org/2000/svg" class="el-marca-ico" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrmarca" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2D6BE0"/><stop offset="1" stop-color="#E23A3A"/></linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrmarca)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg><div class="el-marca-t"><span class="el-marca-n">Clareia</span><span class="el-marca-s">Eleições · 2º turno 2026</span></div></div>
+  <div class="el-marca"><svg xmlns="http://www.w3.org/2000/svg" class="el-marca-ico" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrmarca" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2D6BE0"/><stop offset="1" stop-color="#E23A3A"/></linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrmarca)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg><div class="el-marca-t"><span class="el-marca-n">Clareia</span><span class="el-marca-s">Eleições</span></div></div>
   <div class="el-sticky" id="el-sticky">
   <header>
     <div class="el-flag" aria-hidden="true"><i style="background:var(--cf)"></i><i style="background:var(--cl)"></i></div>
@@ -1360,6 +1376,11 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   <div class="el-drw" id="el-drw" role="dialog" aria-modal="true" aria-labelledby="el-drw-h" hidden>
     <div class="el-drw-top"><svg xmlns="http://www.w3.org/2000/svg" class="el-logo" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrlogo2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2D6BE0"/><stop offset="1" stop-color="#E23A3A"/></linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrlogo2)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg><h2 class="el-drw-h" id="el-drw-h">Seções</h2><button type="button" class="el-drw-x" id="el-drw-x" aria-label="Fechar o menu">×</button></div>
     <nav aria-label="Seções do site"><div id="el-drw-lista"></div></nav>
+    <div class="el-drw-op" role="group" aria-labelledby="el-drw-op-h"><div class="el-drw-sep" id="el-drw-op-h">Leitura e exibição</div><div class="el-drw-opg">
+      <button type="button" class="el-drw-o" data-proxy="reload-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg><span>Atualizar</span></button>
+      <button type="button" class="el-drw-o" data-proxy="font-btn"><span aria-hidden="true" style="font-weight:900;font-size:1.15rem;line-height:22px">A<span style="font-size:.75em">+</span></span><span>Letra maior</span></button>
+      <button type="button" class="el-drw-o" data-proxy="theme-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><span id="el-drw-tema">Modo escuro</span></button>
+    </div></div>
     <div class="el-drw-pe"><b>Que ninguém vote no escuro.</b>Informação verificada, os dois lados e linguagem simples. Siga e compartilhe: <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a></div>
   </div>
     <div class="el-dlg-bg" id="el-plt-bg" hidden></div>
@@ -3053,6 +3074,14 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     if (pg) { show(pg.id, false); el.scrollIntoView(); }
   }
 })();
+
+  // Botões de leitura e exibição dentro do menu do celular: repassam o clique aos botões do topo
+  document.querySelectorAll(".el-drw-o[data-proxy]").forEach(b => b.addEventListener("click", () => {
+    const o = document.getElementById(b.dataset.proxy); if (o) o.click();
+    const lbl = document.getElementById("theme-lbl"), t = document.getElementById("el-drw-tema");
+    if (lbl && t) t.textContent = lbl.textContent;
+  }));
+  { const lbl = document.getElementById("theme-lbl"), t = document.getElementById("el-drw-tema"); if (lbl && t) t.textContent = lbl.textContent; }
 </script>
 <div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
   <h2 id="ck-t">Podemos usar cookies de estatística?</h2>
