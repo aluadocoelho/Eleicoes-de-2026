@@ -23,7 +23,11 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     steps:
+      # Sempre a versão mais recente de main: se dois merges chegam juntos, o segundo
+      # não pode ver peças que o primeiro já publicou (isso causou posts repetidos em 20/10).
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Publicar
         id: pub
         env:
