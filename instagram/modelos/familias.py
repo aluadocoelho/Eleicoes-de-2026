@@ -36,8 +36,8 @@ PALETA = {
  'servico':  dict(bg='#FFFFFF', fg=T, sub='#3A3F49', logo='claro', arroba=ROXO, dest=ROXO),
 }
 TRILHAS = {   # trilhas sugeridas para o reels de cada família (video.py sorteia entre elas)
- 'pesquisa': ['estrada', 'pulsar'], 'agenda': ['batuque', 'pulsar'], 'servico': ['batuque', 'praca'],
- 'engajamento': ['batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'],
+ 'pesquisa': ['estrada', 'pulsar'], 'agenda': ['batuque', 'pulsar', 'funkpop'], 'servico': ['batuque', 'praca'],
+ 'engajamento': ['funkpop', 'batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'],
 }
 IC = {
  'pesquisa': '<path d="M4 20h16"/><rect x="5" y="11" width="3.2" height="6.5" rx="1"/><rect x="10.4" y="6.5" width="3.2" height="11" rx="1"/><rect x="15.8" y="9" width="3.2" height="8.5" rx="1"/>',

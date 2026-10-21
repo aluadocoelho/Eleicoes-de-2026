@@ -22,9 +22,11 @@ Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para
 | `pesquisa` | lavanda, placar com os dois números e a margem | estrada, pulsar |
 | `checagem` | escuro, a fala e o carimbo com o selo | noite, jornal |
 | `boato` | branco, o print riscado e o que é verdade | noite |
-| `agenda` | amarelo, a data grande | batuque, pulsar |
+| `agenda` | amarelo, a data grande | batuque, pulsar, funk-pop |
 | `plantao` | roxo com letreiro | jornal, pulso |
 | `servico` | branco, passos numerados | batuque, praça |
-| `engajamento` (só reels) | roxo | batuque, tamborzão, praça |
+| `engajamento` (só reels) | roxo | funk-pop, batuque, tamborzão, praça |
 
 Os campos de cada família estão no começo de `modelos/familias.py`. As trilhas ficam em `modelos/trilhas/` (`gerar_variacoes.py`, `gerar_estilos.py`, `gerar_dinamicas.py`, todas compostas por código, sem direitos de terceiros).
+
+Trilha aprovada pelo dono em 21/10: funk-pop (`clareia-funkpop-30s.wav`, de `gerar_dinamicas.py`), para agenda e engajamento. As versões com batucada (pulsar com batucada, pagode-pop) ficam guardadas, fora do rodízio.
