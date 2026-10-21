@@ -12,3 +12,19 @@ Fluxo com aprovação:
 As peças são geradas com `python3 instagram/modelos/pecas.py especificacao.json pasta/` (feed e story; modelos `pesquisa`, `lista`, `destaque`) e o reels de 20 s com `python3 instagram/modelos/video.py especificacao.json pasta/` (gera `reels.mp4` com a trilha lo-fi e `capa.jpg`; veja o formato no começo do arquivo). Fontes Source Serif 4 e Public Sans sob a licença SIL Open Font License (arquivos em `modelos/fontes/`).
 
 Segredo necessário no GitHub: `IG_ACCESS_TOKEN` (token de longa duração da conta profissional do Instagram, gerado num app da Meta com a permissão `instagram_business_content_publish`; vale 60 dias).
+
+## Famílias visuais (desde 21/10/2026)
+
+Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para dar para saber do que a peça fala só de bater o olho. Use `"familia"` na especificação do feed/story (`pecas.py`) e do reels (`video.py`):
+
+| Família | Visual | Trilha do reels |
+|---|---|---|
+| `pesquisa` | lavanda, placar com os dois números e a margem | estrada, pulsar |
+| `checagem` | escuro, a fala e o carimbo com o selo | noite, jornal |
+| `boato` | branco, o print riscado e o que é verdade | noite |
+| `agenda` | amarelo, a data grande | batuque, pulsar |
+| `plantao` | roxo com letreiro | jornal, pulso |
+| `servico` | branco, passos numerados | batuque, praça |
+| `engajamento` (só reels) | roxo | batuque, tamborzão, praça |
+
+Os campos de cada família estão no começo de `modelos/familias.py`. As trilhas ficam em `modelos/trilhas/` (`gerar_variacoes.py`, `gerar_estilos.py`, `gerar_dinamicas.py`, todas compostas por código, sem direitos de terceiros).
