@@ -46,7 +46,7 @@ def esperar(cid):
 def url_raw(sha, pasta, nome):
     return f'https://raw.githubusercontent.com/{REPO}/{sha}/{pasta}/{urllib.parse.quote(nome)}'
 
-PAGES = 'https://aluadocoelho.github.io/Eleicoes-de-2026'
+PAGES = 'https://clareiaeleicoes.com.br'
 def url_video(pasta, nome):
     """Vídeos vão pelo GitHub Pages (tipo video/mp4). Espera o site publicar o arquivo, até 15 min."""
     u = f'{PAGES}/{pasta}/{urllib.parse.quote(nome)}'

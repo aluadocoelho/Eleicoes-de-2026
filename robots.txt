@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Leitura para assistentes de IA (resumo e lista dos dados): /llms.txt
-Sitemap: https://aluadocoelho.github.io/Eleicoes-de-2026/sitemap.xml
+Sitemap: https://clareiaeleicoes.com.br/sitemap.xml
