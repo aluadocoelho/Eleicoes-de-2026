@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera peças da Verita Eleições para o Instagram (JPEG) a partir de um JSON.
+"""Gera peças da Clareia Eleições para o Instagram (JPEG) a partir de um JSON.
 
 Uso:  python3 instagram/modelos/pecas.py especificacao.json pasta_de_saida/
 
@@ -19,15 +19,10 @@ SERIF = "'Source Serif 4', Georgia, serif"; SANS = "'Public Sans', system-ui, sa
 E = html.escape
 
 # ---------- marca ----------
-FULL = '12,16 36,16 50,42.5 64,16 88,16 50,88'
+sys.path.insert(0, AQUI)
+import marca as M
 def icone(px):
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{px}" height="{px}" viewBox="0 0 140 140">'
-            f'<rect x="16" y="16" width="116" height="116" rx="30" fill="{TINTA}"/>'
-            f'<rect x="8" y="8" width="116" height="116" rx="30" fill="{AMARELO}" stroke="{TINTA}" stroke-width="6"/>'
-            f'<g transform="translate(23 25) scale(0.84)"><polygon points="{FULL}" transform="translate(5 5)" fill="{TINTA}"/>'
-            f'<polygon points="12,16 36,16 50,42.5 50,88" fill="{AZUL}"/><polygon points="50,42.5 64,16 88,16 50,88" fill="{VERM}"/>'
-            f'<line x1="50" y1="42.5" x2="50" y2="88" stroke="{TINTA}" stroke-width="3"/>'
-            f'<polygon points="{FULL}" fill="none" stroke="{TINTA}" stroke-width="5" stroke-linejoin="round"/></g></svg>')
+    return M.icone(px)
 
 def pilula(txt, fs=30, rot=-2):
     return (f'<span style="display:inline-block;background:{AMARELO};color:#1A1500;border:3px solid {TINTA};box-shadow:5px 5px 0 {TINTA};'
@@ -36,15 +31,14 @@ def pilula(txt, fs=30, rot=-2):
 
 def assinatura(fs=40):
     return (f'<div style="display:flex;align-items:center;gap:14px">{icone(int(fs*1.6))}'
-            f'<div style="display:flex;flex-direction:column;line-height:1"><span style="font-family:{SERIF};font-weight:900;font-size:{fs}px;letter-spacing:-0.03em">Verita</span>'
+            f'<div style="display:flex;flex-direction:column;line-height:1"><span style="font-family:{SERIF};font-weight:900;font-size:{fs}px;letter-spacing:-0.03em">{M.NOME}</span>'
             f'<span style="font-family:{SANS};font-weight:900;font-size:{fs*0.4:.0f}px;letter-spacing:0.14em;text-transform:uppercase;color:{AMARELO};margin-top:4px">Eleições</span></div></div>')
 
 FAIXA = f'<div style="display:flex;height:22px"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>'
 ARCO = '<div style="position:absolute;right:-170px;top:80px;width:520px;height:520px;border-radius:50%;border:70px solid rgba(255,255,255,0.06)"></div>'
-# marca d'água: o "V" da Verita, metade azul e metade vermelha, bem suave
-MARCA = (f'<svg style="position:absolute;right:-190px;bottom:-40px;opacity:.11" width="640" height="640" viewBox="0 0 100 100">'
-         f'<polygon points="12,16 36,16 50,42.5 50,88" fill="{AZUL}"/><polygon points="50,42.5 64,16 88,16 50,88" fill="{VERM}"/>'
-         f'<polygon points="{FULL}" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>')
+# marca d'água: a lâmpada da Clareia, bem suave
+MARCA = (f'<svg style="position:absolute;right:-170px;bottom:-60px;opacity:.10" width="640" height="640" viewBox="0 0 140 140">'
+         f'{M.simbolo()}</svg>')
 
 def titulo(t, dest, fs):
     d = f'<br><span style="color:{AMARELO}">{E(dest)}</span>' if dest else ''
@@ -104,7 +98,7 @@ def pagina(s, formato):
     chip, tit, sub, card, rodape = MODELOS[s['modelo']](s, story)
     # logo no começo (topo); no story, abaixo da barra do Instagram
     topo = (f'<div style="position:relative;padding:{190 if story else 60}px 80px 0;display:flex;align-items:center;justify-content:space-between;gap:20px">'
-            f'{assinatura(46)}<span style="font-size:28px;font-weight:800;color:#E2D9FA">@veritaeleicoes</span></div>')
+            f'{assinatura(46)}<span style="font-size:28px;font-weight:800;color:#E2D9FA">{M.ARROBA}</span></div>')
     pe = (f'<div style="position:relative;padding:0 80px {230 if story else 60}px;display:flex;align-items:flex-end;justify-content:space-between;gap:28px">'
           f'<div style="font-size:24px;color:#E2D9FA;max-width:{600 if not story else 640}px;line-height:1.4">{E(rodape)}</div>'
           + (f'<div style="flex:none;background:{AMARELO};color:#1A1500;border:3px solid {TINTA};box-shadow:7px 7px 0 {TINTA};border-radius:22px;padding:22px 32px;font-size:40px;font-weight:900;white-space:nowrap">Link na bio</div>')

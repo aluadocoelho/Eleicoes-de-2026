@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Gera o reels da Verita (20 s, 1080x1920, com a trilha lo-fi) a partir de um JSON.
+"""Gera o reels da Clareia (20 s, 1080x1920, com a trilha lo-fi) a partir de um JSON.
 
 Uso:  python3 instagram/modelos/video.py especificacao.json pasta_de_saida/
 
 Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto e lado; cena2 aceita até 4 itens, cena3 até 2):
 {
- "tema": "plantao" | "verita",          # plantao = preto/amarelo/vermelho; verita = roxo
+ "tema": "plantao" | "verita",          # plantao = preto/amarelo/vermelho; verita (ou clareia) = roxo
  "selo": "PLANTÃO" | "ATUALIZAÇÃO" | "NOVA PESQUISA" | "CHECAGEM" ... (evite "URGENTE": tom sóbrio passa mais confiança),
- "abertura": {"chip": "Plantão Verita · Eleições 2026", "titulo": "Quebra de", "destaque": "sigilo.", "sub": "O que pode acontecer nesta terça, 20/10."},
+ "abertura": {"chip": "Plantão Clareia · Eleições 2026", "titulo": "Quebra de", "destaque": "sigilo.", "sub": "O que pode acontecer nesta terça, 20/10."},
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
  "cena3": {"chip": "E o outro lado?", "itens": [{"rotulo": "Flávio Bolsonaro", "texto": "...", "lado": "flavio"}], "chamada": "Acompanhe", "chamada_destaque": "ao longo do dia."},
  "rodape": "Fontes: Poder360 e CNN Brasil (19/10)"
@@ -65,7 +65,7 @@ body{{margin:0}}
 <svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 100 100"><polygon points="12,16 36,16 50,42.5 50,88" fill="{AZUL}"/><polygon points="50,42.5 64,16 88,16 50,88" fill="{VERM}"/><polygon points="12,16 36,16 50,42.5 64,16 88,16 50,88" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>
 <div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">
   <div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>
-  <span class="up" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">@veritaeleicoes</span>
+  <span class="up" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">{P.M.ARROBA}</span>
 </div>
 <div class="sc" style="animation:hide 0s linear 5.6s forwards;align-items:flex-start">
   <div style="position:absolute;left:-80px;right:-80px;top:300px;height:130px;background:{TAPE};animation:tapeL .6s cubic-bezier(.2,.8,.3,1) .1s both"></div>
@@ -73,7 +73,7 @@ body{{margin:0}}
   <div style="position:relative;animation:zoom 5s linear both;display:flex;flex-direction:column;gap:36px;width:100%">
     <div style="animation:pop .6s cubic-bezier(.2,.9,.3,1.3) .7s both;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{VERM};color:#fff;border:4px solid #000;box-shadow:12px 12px 0 {AMARELO};border-radius:999px;padding:22px 46px;font-size:{96 if len(s.get('selo','')) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">
       <i style="width:40px;height:40px;border-radius:50%;background:#fff;display:block;animation:blink 1s steps(2) 1.3s infinite"></i>{E(s.get('selo', 'PLANTÃO'))}</div>
-    <div class="up" style="animation-delay:1.5s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get('chip', 'Plantão Verita · Eleições 2026'))}</div>
+    <div class="up" style="animation-delay:1.5s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get('chip', 'Plantão Clareia · Eleições 2026'))}</div>
     <h1 class="up" style="animation-delay:1.9s;margin:0;font-family:{SERIF};font-weight:800;font-size:136px;line-height:.98;letter-spacing:-.03em">{tit(a['titulo'], a.get('destaque'), 136)}</h1>
     <div class="up" style="animation-delay:2.6s;font-size:50px;line-height:1.35;color:{SUB}">{E(a.get('sub', ''))}</div>
   </div>
