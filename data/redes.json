@@ -259,5 +259,14 @@
   "flavio": 54000000,
   "fonte": "Projeto Brief, via Coluna do Estadão / Brasil em Folhas",
   "url": "https://brasilemfolhas.com.br/2026/10/lula-supera-flavio-bolsonaro-em-engajamento-nas-redes-no-2-turno/"
+ },
+ {
+  "id": "vox-ig-fav",
+  "metrica": "Comentários favoráveis no Instagram (%)",
+  "periodo": "0h de 18 out às 8h de 19 out (debate da Band)",
+  "lula": 51,
+  "flavio": 36,
+  "fonte": "Vox Radar, via Itatiaia",
+  "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-51-dos-comentarios-nas-redes-foram-favoraveis-a-lula-apos-debate-na-band/"
  }
 ]
