@@ -43,10 +43,11 @@ def capa(nome):
 ACOES = [
  ('Curta', 'Assim mais gente vê informação com fonte.', '<path d="M12 20.3s-7.8-4.6-7.8-10.3A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.8 2.4c0 5.7-7.8 10.3-7.8 10.3z"/>', VM),
  ('Compartilhe', 'Mande para quem vai votar no domingo (25/10).', '<path d="M21 3.5 10.4 14.1"/><path d="M21 3.5 14.4 21l-4-6.9-6.9-4z"/>', '#7EA6FF'),
- ('Comente', 'Conte que dúvida você tem sobre o 2º turno. A gente responde com fonte.', '<path d="M4 5.5h16a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.5 3.5V17.5H4A1.5 1.5 0 0 1 2.5 16V7A1.5 1.5 0 0 1 4 5.5z"/>', AM),
+ ('Reposte', 'Toque em repostar e leve para o seu perfil.', '<path d="M17 2.5l3.5 3.5L17 9.5"/><path d="M3.5 11V9a3 3 0 0 1 3-3h14"/><path d="M7 21.5L3.5 18 7 14.5"/><path d="M20.5 13v2a3 3 0 0 1-3 3h-14"/>', AZ),
+ ('Comente', 'Conte sua dúvida sobre o 2º turno. A gente responde com fonte.', '<path d="M4 5.5h16a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.5 3.5V17.5H4A1.5 1.5 0 0 1 2.5 16V7A1.5 1.5 0 0 1 4 5.5z"/>', AM),
 ]
 def engaj(h, story):
-    fs = 1.12 if story else .86
+    fs = .86 if story else .74
     cards = ''.join(
         f'<div style="display:flex;align-items:center;gap:34px;background:#fff;color:{T};border:5px solid {T};border-radius:34px;'
         f'box-shadow:10px 10px 0 {AM};padding:{34*fs:.0f}px {38*fs:.0f}px">'
@@ -64,7 +65,7 @@ def engaj(h, story):
             f'<span style="font-size:30px;font-weight:800;color:#E2D9FA">{M.ARROBA}</span></div>'
             f'<div><div style="font-size:34px;font-weight:900;letter-spacing:.12em;color:{AM}">GOSTOU DO CONTEÚDO?</div>'
             f'<div style="font-family:\'Source Serif 4\';font-weight:800;font-size:{96 if story else 80}px;line-height:1.04;margin-top:16px">Ajude a clarear<br><span style="color:{AM}">o 2º turno.</span></div></div>'
-            f'<div style="display:flex;flex-direction:column;gap:{34 if story else 26}px">{cards}</div>'
+            f'<div style="display:flex;flex-direction:column;gap:{24 if story else 26}px">{cards}</div>'
             f'<div style="display:flex;justify-content:space-between;align-items:center">'
             f'<span style="font-size:{34 if story else 30}px;line-height:1.35;color:#E2D9FA;max-width:620px">Tudo com fonte e os dois lados no mesmo critério.</span>'
             f'<span style="background:{AM};color:{T};border:4px solid {T};box-shadow:6px 6px 0 {T};border-radius:999px;padding:18px 34px;font-weight:900;font-size:40px">Siga</span></div></div>')
