@@ -3559,6 +3559,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6E21-F888",
+  "conjunto": "campanha",
+  "id": "e39",
+  "registro": {
+   "id": "e39",
+   "data": "2026-10-21",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O ministro Marco Aurélio Bellizze, do TSE, mandou a coligação de Lula suspender uma propaganda que mostra cena encenada numa padaria seguida de um vídeo de Flávio. Na ação, Flávio disse que o vídeo foi gravado entre amigos, imitando o irmão, e que o contexto foi omitido. O ministro entendeu que a edição pode sugerir como real algo que não ocorreu. A campanha de Lula não se manifestou na matéria.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-suspender-propaganda-que-associa-flavio-a-assedio/"
+  },
+  "primeira_vez": "2026-10-21T18:14:27Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
