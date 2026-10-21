@@ -8597,6 +8597,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "D100-25F3",
+  "conjunto": "sinais",
+  "id": "canais-whats-debate",
+  "registro": {
+   "id": "canais-whats-debate",
+   "data": "2026-10-21",
+   "sinal": "A Fast Company Brasil analisou 247 mensagens dos canais de WhatsApp no dia do debate da Band (68 da Tropa do Flávio, 179 do Exército do Lula). O canal de Flávio divulgou muitos cortes curtos do mesmo trecho; o de Lula deu orientações sobre hashtags e vídeos prioritários, e lançou #LulaDandoShowNaBand.",
+   "fonte": "Fast Company Brasil",
+   "url": "https://fastcompanybrasil.com/creators-tech/debate-lula-flavio-canais-whatsapp"
+  },
+  "primeira_vez": "2026-10-21T21:29:35Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "1CD7-DD35",
   "conjunto": "sinais",
   "id": "datrix-band",
