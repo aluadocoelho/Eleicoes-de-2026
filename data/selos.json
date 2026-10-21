@@ -1533,6 +1533,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "18CE-8EA3",
+  "conjunto": "aovivo",
+  "id": "sbtflavio-01",
+  "registro": {
+   "id": "sbtflavio-01",
+   "evento": "sabatina-sbt-flavio",
+   "data": "2026-10-21",
+   "hora": "16:13",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "A campanha de Flávio confirmou que ele não vai à sabatina do SBT Brasil desta noite. O motivo informado foi compromissos de agenda. Lula foi entrevistado pelo SBT em 19/10.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
+  },
+  "primeira_vez": "2026-10-21T19:32:53Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "BD90-8B30",
   "conjunto": "aovivo",
   "id": "sbtlula-01",
@@ -7040,6 +7060,25 @@
    "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/sbt-realiza-sabatina-com-candidatos-a-presidencia"
   },
   "primeira_vez": "2026-10-19T14:01:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "DE32-64A0",
+  "conjunto": "destaques",
+  "id": "sabatina-sbt-flavio",
+  "registro": {
+   "id": "sabatina-sbt-flavio",
+   "tipo": "Entrevista",
+   "titulo": "Sabatina de Flávio no SBT Brasil (Flávio recusou o convite)",
+   "data": "2026-10-21",
+   "hora_inicio": "19:45",
+   "hora_fim": "20:55",
+   "local": "Telejornal SBT Brasil, do SBT",
+   "como_assistir": "TV aberta: SBT, dentro do telejornal SBT Brasil (a grade da emissora prevê o jornal das 19h45 às 20h55, com pausa para o horário eleitoral às 20h30). Depois, a entrevista é reprisada no canal SBT News.",
+   "descricao": "A campanha de Flávio confirmou que ele não participa da sabatina do SBT desta quarta-feira (21/10), por \"compromissos de agenda\". Segundo o SBT News, ele é o único presidenciável da eleição a recusar o convite. Lula foi entrevistado em 19/10.",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
+  },
+  "primeira_vez": "2026-10-21T19:32:53Z",
   "ainda_publicado": true
  },
  {
