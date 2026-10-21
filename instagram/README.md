@@ -7,7 +7,7 @@ Fluxo com aprovação:
 3. **Aprovar = fazer o merge.** Descartar = fechar o pull request.
 4. No merge, `instagram.yml` publica pela API oficial do Instagram e move a pasta para `instagram/publicados/<id>/`, com o link do post em `resultado.json`.
 
-`post.json`: `{"tipo": "feed"|"carrossel"|"story"|"reels", "titulo": "...", "arquivos": ["feed.jpg"], "legenda": "...", "fontes": ["https://..."], "capa": "capa.jpg (só reels)"}`
+`post.json`: `{"tipo": "feed"|"carrossel"|"story"|"reels", "titulo": "...", "arquivos": ["feed.jpg"], "legenda": "...", "fontes": ["https://..."], "capa": "capa.jpg (só reels)", "alt": "texto alternativo (feed: texto; carrossel: lista, um por imagem)"}`. O `alt` descreve a imagem para leitores de tela, em uma ou duas frases com os números e o que está escrito na arte; a API do Instagram só aceita em imagens de feed e de carrossel.
 
 As peças são geradas com `python3 instagram/modelos/pecas.py especificacao.json pasta/` (feed e story; modelos `pesquisa`, `lista`, `destaque`) e o reels de 20 s com `python3 instagram/modelos/video.py especificacao.json pasta/` (gera `reels.mp4` com a trilha lo-fi e `capa.jpg`; veja o formato no começo do arquivo). Fontes Source Serif 4 e Public Sans sob a licença SIL Open Font License (arquivos em `modelos/fontes/`).
 

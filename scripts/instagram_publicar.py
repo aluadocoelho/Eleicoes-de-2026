@@ -72,13 +72,18 @@ def publicar(cid):
 
 def postar(post, sha, pasta):
     tipo, arqs, leg = post['tipo'], post['arquivos'], post.get('legenda', '')
+    # texto alternativo (para leitores de tela): "alt" no post.json; texto único ou lista (um por imagem do carrossel).
+    # A API só aceita em imagem de feed e de carrossel (não em reels nem stories).
+    alt = post.get('alt')
+    alt_de = lambda i: ((alt[i] if i < len(alt) else '') if isinstance(alt, list) else (alt or ''))[:1000]
+    com_alt = lambda i, a: ({'alt_text': alt_de(i)} if alt_de(i) and not a.lower().endswith('.mp4') else {})
     ids = []
     if tipo == 'feed':
-        ids.append(publicar(chamar('POST', 'me/media', caption=leg, **midia(sha, pasta, arqs[0]))['id']))
+        ids.append(publicar(chamar('POST', 'me/media', caption=leg, **midia(sha, pasta, arqs[0], **com_alt(0, arqs[0])))['id']))
     elif tipo == 'carrossel':
         filhos = []
-        for a in arqs[:10]:
-            extra = {'media_type': 'VIDEO'} if a.lower().endswith('.mp4') else {}
+        for i, a in enumerate(arqs[:10]):
+            extra = {'media_type': 'VIDEO'} if a.lower().endswith('.mp4') else com_alt(i, a)
             c = chamar('POST', 'me/media', is_carousel_item='true', **midia(sha, pasta, a, **extra))['id']
             esperar(c); filhos.append(c)
         ids.append(publicar(chamar('POST', 'me/media', media_type='CAROUSEL', children=','.join(filhos), caption=leg)['id']))
