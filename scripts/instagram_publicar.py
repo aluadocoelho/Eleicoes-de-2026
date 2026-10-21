@@ -145,6 +145,11 @@ def main():
         json.dump({'publicado_em': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'ids': ids, 'links': links},
                   open(f'{destino}/resultado.json', 'w'), ensure_ascii=False, indent=1)
         print(f'[{pid}] publicado: {links}')
+        try:   # o reels também entra nas bolinhas de vídeo do site
+            sys.path.insert(0, 'site'); import videos
+            videos.adicionar(destino, post, (links or [None])[0])
+        except Exception as e:
+            print(f'::warning::[{pid}] vídeo não entrou no site: {e}')
     return 1 if falhas else 0
 
 if __name__ == '__main__':
