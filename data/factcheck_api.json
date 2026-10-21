@@ -734,7 +734,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1406,8 +1406,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -2266,6 +2266,18 @@
   "titulo": "Vídeo antigo de padre contra o PT é usado fora de contexto como ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-antigo-de-padre-contra-o-pt-e-usado-fora-de-contexto-como-convocacao-para-eleicao-de-2026/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/video-2024-circula-7-de-setembro-enganoso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo mostra que a Avenida Paulista, em São Paulo, ficou totalmente lotada no ato de 7 de setembro",
+  "quem_disse": "Boatos de redes sociais",
+  "data_afirmacao": "2026-09-08",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Vídeo de manifestação na Paulista em 2024 circula como se fosse ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/video-2024-circula-7-de-setembro-enganoso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/sem-contexto-video-de-casal-supostamente-espancado-por-apoiar-bolsonaro-circula-desde-2022/",
