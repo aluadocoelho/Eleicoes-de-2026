@@ -8259,6 +8259,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0F29-67AE",
+  "conjunto": "redes",
+  "id": "whats-canais-2110",
+  "registro": {
+   "id": "whats-canais-2110",
+   "metrica": "Seguidores dos canais de campanha no WhatsApp (Exército do Lula e Tropa do Flávio)",
+   "periodo": "21 out",
+   "lula": 7000000,
+   "flavio": 2000000,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/minas-gerais/canal-exercito-do-lula-bate-7-milhoes-tropa-do-flavio-tem-2-milhoes"
+  },
+  "primeira_vez": "2026-10-21T13:30:08Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "A6CB-9589",
   "conjunto": "sinais",
   "id": "apexata-band",
@@ -8298,6 +8314,20 @@
    "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4889-D6A1",
+  "conjunto": "sinais",
+  "id": "bites-ato-paulista",
+  "registro": {
+   "id": "bites-ato-paulista",
+   "data": "2026-10-21",
+   "sinal": "Segundo a Bites, entre a noite do debate da Band e a manhã seguinte, o debate somou 9,66 milhões de menções e 140 milhões de interações. O ato bolsonarista na Avenida Paulista teve 447 mil menções e 23,7 milhões de interações, e o míssil inflável no ato de Flávio, 161 mil menções e 4,9 milhões de interações.",
+   "fonte": "Bites, via Diário do Centro do Mundo",
+   "url": "https://www.diariodocentrodomundo.com.br/missil-inflavel-atoflavio-bolsonaro-supera-tiro-redes"
+  },
+  "primeira_vez": "2026-10-21T13:30:08Z",
   "ainda_publicado": true
  },
  {
