@@ -17,6 +17,7 @@ Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto 
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
  "cena3": {"chip": "E o outro lado?", "itens": [{"rotulo": "Flávio Bolsonaro", "texto": "...", "lado": "flavio"}], "chamada": "Acompanhe", "chamada_destaque": "ao longo do dia."},
  "rodape": "Fontes: Poder360 e CNN Brasil (19/10)",
+ "grafico": {"grafico": "rodada"},   # opcional, só na família pesquisa: tela de 5 s com um gráfico de graficos.py (mesmos campos: grafico, instituto?, ate?, dias?), depois da cena2
  "trilha": "noite"   # opcional: praca, noite ou jornal (ou verita-lofi-20s.wav / verita-lofi-media-20s.wav); sem o campo, sorteia entre praca, noite e jornal
 }
 "lado": "lula" (vermelho), "flavio" (azul) ou "neutro" (amarelo). Gera reels.mp4 e capa.jpg.
@@ -78,6 +79,8 @@ def telas(s):
             cab = (c.get('chip', ''), c.get('titulo', '') if k == 0 else '', c.get('destaque', '') if k == 0 else '')
             chars = sum(len(x) for x in cab) + sum(len(it.get('rotulo', '')) + len(it.get('texto', '')) for it in g)
             out.append(('conteudo', (cab, g), LONGA if chars > LIMITE else CURTA))
+        if nome == 'cena2' and s.get('grafico'):
+            out.append(('grafico', s['grafico'], LONGA))
     out.append(('final', s.get('cena3') or {}, FINAL))
     return out
 
@@ -163,6 +166,16 @@ def pagina(s):
                 f'<div class="sc" style="{vis}">'
                 f'<div class="foco" style="animation-delay:{d(.1)}s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{ACC};text-transform:uppercase;margin-bottom:30px">{E(chip)}</div>'
                 f'{titulo}<div style="display:flex;flex-direction:column;gap:30px">{cards}</div></div>')
+        elif tipo == 'grafico':
+            import graficos
+            titulo_g, meta, graf, nota, _ = graficos.GRAFICOS[dados['grafico']](dados, graficos.carregar())
+            blocos.append(
+                f'<div class="sc" style="{vis};padding-left:56px;padding-right:56px">'
+                f'<div class="foco" style="animation-delay:{d(.1)}s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{ACC};text-transform:uppercase;margin-bottom:24px">{E(dados.get("chip", "Pesquisas"))}</div>'
+                f'<h2 class="foco" style="animation-delay:{d(.3)}s;margin:0 0 14px;font-family:{SERIF};font-weight:800;font-size:{92 if len(titulo_g) < 26 else 78}px;line-height:1.02;letter-spacing:-.025em">{E(dados.get("titulo") or titulo_g)}</h2>'
+                f'<div class="surge" style="animation-delay:{d(.5)}s;font-size:30px;line-height:1.35;color:{SUB};margin-bottom:40px">{E(meta)}</div>'
+                f'<div class="card" style="animation-delay:{d(.7)}s;background:#fff;border:5px solid {TINTA};border-radius:36px;box-shadow:12px 12px 0 {P.ROXO};padding:36px 44px 30px;color:{TINTA}">{graf}</div>'
+                f'<div class="elastico" style="animation-delay:{d(1.6)}s;margin-top:44px;background:{AMARELO};color:{TINTA};border:4px solid {TINTA};border-radius:24px;padding:24px 30px;font-size:38px;font-weight:800;line-height:1.3;transform:rotate(0)">{E(dados.get("nota") or nota)}</div></div>')
         else:
             c3 = dados
             blocos.append(
