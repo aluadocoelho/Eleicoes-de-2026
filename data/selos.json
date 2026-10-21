@@ -3651,6 +3651,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "FBB8-251A",
+  "conjunto": "campanha",
+  "id": "e41",
+  "registro": {
+   "id": "e41",
+   "data": "2026-10-21",
+   "tipo": "Estratégia",
+   "descricao": "O porta-voz da campanha de Lula, Camilo Santana, disse em Brasília que Lula não se opõe às condições de Flávio para abrir os sigilos, entre elas os registros de Marcola, e cobrou que Flávio inclua também a offshore Alcazar Holdings. A campanha de Lula disse que vai protocolar uma resposta ao TSE na quinta (22/10), às 11h. Flávio não se manifestou sobre isso até o horário da atualização.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes/lula-aceita-exigencias-de-flavio-e-marcola-aceita-abrir-sigilo/"
+  },
+  "primeira_vez": "2026-10-21T22:14:38Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
