@@ -3616,6 +3616,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0395-84EE",
+  "conjunto": "campanha",
+  "id": "e40",
+  "registro": {
+   "id": "e40",
+   "data": "2026-10-21",
+   "tipo": "Estratégia",
+   "descricao": "Em ato em Guarulhos (SP), Flávio disse que aceita o desafio de Lula de abrir os sigilos, mas condicionou a abertura dos dele a Lula abrir também os registros telefônicos de Marco Aurélio Santana Ribeiro, o Marcola, os dados do cartão corporativo da Presidência e informações sobre o patrimônio da família, o Instituto Lula e as visitas ao Palácio da Alvorada. A campanha de Lula não se manifestou sobre as condições até o horário da atualização.",
+   "fonte": "Jornal de Brasília",
+   "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-nao-so-vou-aceitar-o-desafio-de-abrir-sigilo-como-vou-levar-as-ultimas-consequencias/"
+  },
+  "primeira_vez": "2026-10-21T19:32:30Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
