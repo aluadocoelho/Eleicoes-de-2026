@@ -621,7 +621,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
   .el-mnav-l small{font-size:0.75rem;font-weight:800;color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.07em}
   .el-mnav-cur{font-size:1.05rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .el-mnav-mais{display:inline-flex;align-items:center;gap:4px;font-size:.9rem;font-weight:800;color:var(--accent-text);white-space:nowrap;line-height:1.3}
-  .el-mnav-new{position:absolute;top:-5px;right:-5px;width:12px;height:12px;border-radius:50%;background:#E5484D;border:2px solid var(--color-panel)}
+  .el-mnav-new{position:absolute;top:-11px;right:-24px;background:#FFD43B;color:#1A1500;font-style:normal;font-weight:800;font-size:.75rem;line-height:1;letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:999px;border:1.5px solid #16181D;transform:rotate(5deg)}
   .el-mnav-new[hidden]{display:none}
   .el-sticky.el-stuck .el-mnav{min-height:44px;padding:4px 10px;box-shadow:2px 2px 0 var(--ink)}
   .el-sticky.el-stuck .el-mnav-ico{width:30px;height:30px}
@@ -646,7 +646,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-drw-t{display:flex;flex-direction:column;gap:2px;min-width:0}
 .el-drw-t b{font-size:1rem}
 .el-drw-t small{font-size:0.8125rem;color:var(--color-fg-muted);line-height:1.3}
-.el-drw-nv{position:absolute;top:-4px;right:-4px;width:11px;height:11px;border-radius:50%;background:#E5484D;border:2px solid var(--color-panel)}
+.el-drw-i{position:relative}.el-drw-i .el-new{top:-10px;right:10px}
 .el-drw-pe{margin-top:auto;padding:14px 6px 0;border-top:1px solid var(--color-border-line);font-size:.85rem;color:var(--color-fg-muted);line-height:1.4}
 .el-drw-pe b{display:block;color:var(--color-fg);font-family:var(--font-serif, Georgia, serif);font-size:1.05rem;margin-bottom:4px}
 .el-drw-pe a{color:var(--accent-text);font-weight:700}
@@ -911,7 +911,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   <div class="el-sticky" id="el-sticky">
   <div class="el-mtopo"><svg class="el-mtopo-svg" viewBox="0 0 273.12 106.07" role="img" aria-label="Clareia Eleições"><use href="#marca-clareia"></use></svg>
   <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
-    <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
+    <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden>Novo</i></span>
     <span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
     <span class="el-mnav-mais" aria-hidden="true">Menu <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
   </button>
@@ -3106,8 +3106,8 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
         const b = document.createElement("button"); b.type = "button"; b.className = "el-drw-i"; b.dataset.tab = t.dataset.tab;
         if (t.getAttribute("aria-selected") === "true") b.setAttribute("aria-current", "page");
         const n = novo(t);
-        b.innerHTML = '<span class="el-drw-ib">' + svg(t.dataset.tab, 22) + (n ? '<i class="el-drw-nv"></i>' : "") + '</span><span class="el-drw-t"><b></b><small></small></span>';
-        b.querySelector("b").textContent = nome(t) + (n ? " · novidade" : ""); b.querySelector("small").textContent = DESC[t.dataset.tab] || "";
+        b.innerHTML = '<span class="el-drw-ib">' + svg(t.dataset.tab, 22) + '</span><span class="el-drw-t"><b></b><small></small></span>' + (n ? '<span class="el-new">Novo</span>' : "");
+        b.querySelector("b").textContent = nome(t); b.querySelector("small").textContent = DESC[t.dataset.tab] || "";
         b.addEventListener("click", () => { t.click(); fechar(); const c = document.getElementById("conteudo"); if (c && c.getBoundingClientRect().top < 0) window.scrollTo({top: Math.max(0, window.scrollY + c.getBoundingClientRect().top - 90)}); });
         if (t.dataset.tab === "sobre") { const sep = document.createElement("div"); sep.className = "el-drw-sep"; sep.textContent = "A Clareia"; lista.appendChild(sep); }
         lista.appendChild(b);
