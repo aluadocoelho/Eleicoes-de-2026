@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flavio Bolsonaro planeja aumentar idade mínima de aposentadoria para 70 anos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "O Globo não noticiou que Flávio planeja aumentar idade para ...",
+  "data_checagem": "2026-10-21",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.amp.htm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/e-falso-que-pcc-e-cv-declararam-apoio-a-lula.amp.htm",
   "termo": "Lula",
   "afirmacao": "PCC e CV declaram apoio a Lula no 2° turno",
@@ -734,7 +746,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1406,7 +1418,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
+  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
   "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -1549,13 +1561,13 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/helicoptero-globo-santinhos-lula-ato-flavio/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Helicóptero da Globo lança milhares de santinhos de Lula durante manifestação em São Paulo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-11",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso que helicóptero da Globo jogou santinhos de Lula sobre ato de Flávio",
+  "titulo": "É falso que helicóptero da Globo jogou santinhos de Lula sobre ato ...",
   "data_checagem": "2026-09-11",
   "url": "https://www.aosfatos.org/noticias/helicoptero-globo-santinhos-lula-ato-flavio/"
  },
@@ -2566,6 +2578,18 @@
   "titulo": "Postagens tiram fala de Lula de contexto para parecer que petista disse não acreditar em Deus",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-a-gente-que-nao-acredita-em-deus-enganoso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/locais-votacao-alterados-impactam-secoes-em-que-lula-e-flavio-venceram/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Seções foram alteradas pelo TSE para interferir no resultado eleitoral",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-21",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Locais de votação alterados pelos TREs impactam seções em que ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/locais-votacao-alterados-impactam-secoes-em-que-lula-e-flavio-venceram/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/janja-nem-deus-tira-essa-eleicao-de-lula-falso/",
