@@ -2890,6 +2890,69 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3AE5-142B",
+  "conjunto": "boatos",
+  "id": "b40",
+  "registro": {
+   "id": "b40",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "Imagem no X atribui a Lula frases dizendo que o povo nordestino é analfabeto e que compraria um baiano por R$ 10",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "Uma fala de 2022 foi cortada para parecer confissão, e as outras duas frases não existem ou foram tiradas de contexto.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/15/post-distorce-falas-de-lula-sobre-analfabetismo-e-compra-de-votos-no-nordeste/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa não identifica quem publicou a imagem, que circulava no X.",
+   "tema": "Frases falsas sobre nordestinos"
+  },
+  "primeira_vez": "2026-10-21T11:30:00Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0997-FFDC",
+  "conjunto": "boatos",
+  "id": "b41",
+  "registro": {
+   "id": "b41",
+   "data": "2026-10-20",
+   "alvo": "Flávio",
+   "boato": "Print do O Globo diria que Flávio elevaria a idade mínima de aposentadoria para 70 anos",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O jornal não publicou a notícia, o plano de governo de Flávio no TSE não trata disso e a imagem foi feita com IA; Boatos.org e Reuters chegaram à mesma conclusão.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/20/e-falso-que-flavio-bolsonaro-propos-elevar-idade-minima-da-aposentadoria-para-70-anos/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa não identifica quem publicou o post, que circulava no Instagram.",
+   "tema": "Aposentadoria"
+  },
+  "primeira_vez": "2026-10-21T11:30:00Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "92C9-47F3",
+  "conjunto": "boatos",
+  "id": "b42",
+  "registro": {
+   "id": "b42",
+   "data": "2026-10-19",
+   "alvo": "Flávio",
+   "boato": "Post atribui à CNN Brasil reportagem sobre compra de votos para Flávio, com R$ 27 milhões apreendidos",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A reportagem real da CNN sobre a apreensão da PF não cita Flávio, e a própria CNN já havia dito que a ligação era falsa.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/19/reportagem-da-cnn-brasil-sobre-compra-de-votos-nao-cita-flavio-bolsonaro/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa não identifica quem publicou o print, que circulava no Facebook.",
+   "tema": "Compra de votos"
+  },
+  "primeira_vez": "2026-10-21T11:30:00Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
