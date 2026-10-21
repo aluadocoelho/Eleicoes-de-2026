@@ -21,3 +21,7 @@ Os dados ficam em JSON e são atualizados automaticamente ao longo do dia (das 7
 - [Página principal](https://clareiaeleicoes.com.br/)
 - [Código, dados e documentação](https://github.com/aluadocoelho/Eleicoes-de-2026)
 - [Instagram @clareiaeleicoes](https://www.instagram.com/clareiaeleicoes/)
+
+## Other languages
+- English: https://clareiaeleicoes.com.br/en/
+- Español: https://clareiaeleicoes.com.br/es/
