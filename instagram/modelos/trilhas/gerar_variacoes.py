@@ -1,4 +1,5 @@
-"""Variações da trilha lo-fi da Clareia (20 s, 85,7 bpm, mesmo grid de cortes 0,7 / 5,6 / 12,6 s).
+"""Variações da trilha lo-fi da Clareia (30 s, 90 bpm: telas de 3, 4 e 5 s sempre trocam numa colcheia).
+O video.py corta a trilha no tamanho do reels, com fade no final.
 
 Cada variação muda harmonia, instrumento principal, batida e textura, para os vídeos não soarem sempre iguais.
 Uso: python3 gerar_variacoes.py            -> gera todas em clareia-lofi-<nome>-20s.wav e .mp3
@@ -7,8 +8,8 @@ Composta por código (sem música de terceiros): livre para Instagram, TikTok e 
 """
 import os, sys, wave, subprocess, numpy as np
 from scipy.signal import butter, sosfilt, fftconvolve
-SR = 44100; DUR = 20.0; N = int(DUR * SR); HERE = os.path.dirname(os.path.abspath(__file__))
-E8 = 0.35; T0 = 0.7; LAST = 52; CUT2, CUT3 = 14, 34
+SR = 44100; DUR = 30.0; N = int(DUR * SR); HERE = os.path.dirname(os.path.abspath(__file__))
+E8 = 1 / 3; T0 = 0.0; LAST = 87; CUT2, CUT3 = -99, -99   # 90 bpm: 3, 4 e 5 s caem sempre numa colcheia (9, 12 e 15)
 def g(n): return T0 + n * E8
 def lp(x, fc, o=4): return sosfilt(butter(o, fc, 'low', fs=SR, output='sos'), x)
 def hp(x, fc, o=2): return sosfilt(butter(o, fc, 'high', fs=SR, output='sos'), x)
@@ -115,7 +116,7 @@ def gerar(nome):
             for k, m in enumerate(notes[:3]): put(pad(m - 12 if m > 60 else m, E8 * 8, .9), tt, -.4 + .4 * k, .12)
         if v['melodia'] and bar % 2 == 1 and n < CUT3 + 8 or (v['melodia'] and n >= 40 and bar % 2 == 1):
             if pos % 2 == 0: put((kalimba if v['inst'] != 'kalimba' else vibra)(v['melodia'][(bar * 4 + pos // 2) % 8], E8 * 2, .7), tt, .2, .16)
-    for n in (0, CUT2, CUT3): put(kick(ks), g(n), 0, .5)
+    put(kick(ks), g(0), 0, .5)
     for k, m in enumerate(ch[0][0]): put(ins(m, 1.6, .9), g(LAST), -.25 + .12 * k, .32)
     put(bass(ch[0][1], 1.1), g(LAST), 0, .6); put(kick(ks), g(LAST), 0, .8)
     duck = np.ones(N)
@@ -130,9 +131,9 @@ def gerar(nome):
     mix = hp(lp(mix, v['brilho']), 55)
     rng = np.random.default_rng(9); irn = int(.7 * SR); ir = lp(rng.standard_normal(irn), 4000) * np.exp(-np.arange(irn) / (.2 * SR)); ir /= np.sqrt((ir ** 2).sum())
     mix = mix + .2 * np.stack([fftconvolve(mix[0], ir)[:N], fftconvolve(mix[1], ir[::-1].copy())[:N]])
-    t = np.arange(N) / SR; fade = np.ones(N); fade[t > 19.3] = np.clip((20 - t[t > 19.3]) / .7, 0, 1); fade[t < .4] = t[t < .4] / .4
+    t = np.arange(N) / SR; fade = np.ones(N); fade[t > DUR - .7] = np.clip((DUR - t[t > DUR - .7]) / .7, 0, 1); fade[t < .05] = t[t < .05] / .05
     mix = np.tanh(mix * fade * 1.4); mix = mix / np.max(np.abs(mix)) * .88
-    base = os.path.join(HERE, f'clareia-lofi-{nome}-20s')
+    base = os.path.join(HERE, f'clareia-lofi-{nome}-30s')
     with wave.open(base + '.wav', 'w') as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((mix.T * 32767).astype('<i2').tobytes())
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', base + '.wav', '-b:a', '192k', base + '.mp3'], check=True)

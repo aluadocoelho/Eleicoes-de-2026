@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Gera o reels da Clareia (20 s, 1080x1920, com a trilha lo-fi) a partir de um JSON.
+"""Gera o reels da Clareia (1080x1920, com a trilha lo-fi) a partir de um JSON.
+
+Ritmo (pedido do dono, 20/10): abertura e tela final de 3 s, sem animação de saída; telas de conteúdo de 4 s
+(pouco texto) ou 5 s (mais de 150 caracteres), com no máximo 2 itens por tela. O texto entra "em foco"
+(desfoque para nítido), selos e botões com elástico, cartões em sequência; telas de conteúdo saem com desfoque.
+A duração total sai disso (em geral 14 a 22 s).
 
 Uso:  python3 instagram/modelos/video.py especificacao.json pasta_de_saida/
 
@@ -14,7 +19,7 @@ Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto 
  "trilha": "noite"   # opcional: praca, noite ou jornal (ou verita-lofi-20s.wav / verita-lofi-media-20s.wav); sem o campo, sorteia entre praca, noite e jornal
 }
 "lado": "lula" (vermelho), "flavio" (azul) ou "neutro" (amarelo). Gera reels.mp4 e capa.jpg.
-Precisa de Playwright + Chromium, Pillow e ffmpeg. Cortes em 0,7 s, 5,6 s e 12,6 s, no ritmo da trilha.
+Precisa de Playwright + Chromium, Pillow e ffmpeg. As trilhas estão a 90 bpm: telas de 3, 4 e 5 s trocam sempre numa colcheia.
 """
 import sys, os, json, asyncio, tempfile, shutil, subprocess, html
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -27,22 +32,66 @@ ROTACAO = ['praca', 'noite', 'jornal']   # trilhas aprovadas pelo dono (20/10/20
 def escolher_trilha(spec):
     """Usa spec["trilha"] (nome curto, ex. "noite", ou arquivo); senão sorteia uma das trilhas de ROTACAO (a escolha depende do conteúdo, então cada reels tende a sair com uma diferente)."""
     import glob, hashlib, random
-    nomes = [os.path.join(TRILHAS_DIR, f'clareia-lofi-{n}-20s.wav') for n in ROTACAO]
+    nomes = [os.path.join(TRILHAS_DIR, f'clareia-lofi-{n}-30s.wav') for n in ROTACAO]
     nomes = [n for n in nomes if os.path.exists(n)]
     pedida = spec.get('trilha')
     if pedida:
-        for n in sorted(glob.glob(os.path.join(TRILHAS_DIR, '*-20s.wav'))):
-            if os.path.basename(n) in (pedida, f'clareia-lofi-{pedida}-20s.wav', f'{pedida}.wav'): return n
+        for n in sorted(glob.glob(os.path.join(TRILHAS_DIR, '*.wav'))):
+            if os.path.basename(n) in (pedida, f'clareia-lofi-{pedida}-30s.wav', f'{pedida}.wav'): return n
     semente = hashlib.md5(json.dumps(spec, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     return random.Random(semente).choice(nomes) if nomes else None
 COR = {'lula': VERM, 'flavio': AZUL, 'neutro': AMARELO}
 
+# ---------- ritmo e animações ----------
+# Telas de abertura e final: 3 s, sem animação de saída. Telas de conteúdo: 4 s com pouco texto,
+# 5 s com bastante (mais de LIMITE caracteres), no máximo 2 itens por tela, e saem com desfoque.
+# Linguagem visual da Clareia: o texto "entra em foco" (desfoque -> nítido, como luz clareando),
+# selos e botões entram com elástico, cartões sobem em sequência.
+ABERTURA = FINAL = 3.0
+CURTA, LONGA, LIMITE = 4.0, 5.0, 150
 def item(it, d, fundo_item, txt_cor):
     cor = COR.get(it.get('lado', 'neutro'), AMARELO)
     rot = cor if cor != AZUL else '#7EA6FF'
-    return (f'<div class="up" style="animation-delay:{d}s;background:{fundo_item};border:3px solid #3A3E48;border-top:10px solid {cor};border-radius:28px;padding:30px 34px;display:flex;flex-direction:column;gap:12px">'
-            f'<div style="font-size:32px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
-            f'<div style="font-size:46px;line-height:1.34;color:{txt_cor}">{E(it["texto"])}</div></div>')
+    return (f'<div class="card" style="animation-delay:{d:.2f}s;background:{fundo_item};border:3px solid #3A3E48;border-top:10px solid {cor};border-radius:28px;padding:32px 36px;display:flex;flex-direction:column;gap:14px">'
+            f'<div style="font-size:34px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
+            f'<div style="font-size:50px;line-height:1.32;color:{txt_cor}">{E(it["texto"])}</div></div>')
+
+def telas(s):
+    """Divide o roteiro em telas: [(tipo, dados, duração)]."""
+    out = [('abertura', s['abertura'], ABERTURA)]
+    for nome in ('cena2', 'cena3'):
+        c = s.get(nome) or {}
+        its = (c.get('itens') or [])[:4]
+        grupos = [its[i:i + 2] for i in range(0, len(its), 2)] or ([[]] if nome == 'cena2' else [])
+        for k, g in enumerate(grupos):
+            cab = (c.get('chip', ''), c.get('titulo', '') if k == 0 else '', c.get('destaque', '') if k == 0 else '')
+            chars = sum(len(x) for x in cab) + sum(len(it.get('rotulo', '')) + len(it.get('texto', '')) for it in g)
+            out.append(('conteudo', (cab, g), LONGA if chars > LIMITE else CURTA))
+    out.append(('final', s.get('cena3') or {}, FINAL))
+    return out
+
+def duracao(s):
+    return sum(d for _, _, d in telas(s))
+
+CSS = """
+.f{width:1080px;height:1920px;color:#fff;position:relative;overflow:hidden}
+.sc{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:250px 80px 300px;box-sizing:border-box;visibility:hidden}
+@keyframes show{from{visibility:hidden}to{visibility:visible}}
+@keyframes hide{to{visibility:hidden}}
+@keyframes foco{from{opacity:0;filter:blur(18px);transform:translateY(26px) scale(.985)}to{opacity:1;filter:blur(0);transform:none}}
+@keyframes surge{from{opacity:0}to{opacity:1}}
+@keyframes card{from{opacity:0;filter:blur(10px);transform:translateY(70px)}to{opacity:1;filter:blur(0);transform:none}}
+@keyframes elastico{0%{opacity:0;transform:scale(.4) rotate(-6deg)}55%{opacity:1;transform:scale(1.1) rotate(-3deg)}75%{transform:scale(.96) rotate(-3deg)}100%{transform:scale(1) rotate(-3deg)}}
+@keyframes sair{to{opacity:0;filter:blur(14px);transform:scale(1.015)}}
+@keyframes logo{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.08);opacity:1}100%{transform:scale(1)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}
+@keyframes tapeL{from{transform:translateX(-120%) rotate(-4deg)}to{transform:translateX(0) rotate(-4deg)}}
+@keyframes tapeR{from{transform:translateX(120%) rotate(5deg)}to{transform:translateX(0) rotate(5deg)}}
+.foco{animation:foco .7s cubic-bezier(.2,.8,.3,1) both}
+.surge{animation:surge .6s ease-out both}
+.card{animation:card .65s cubic-bezier(.2,.8,.3,1) both}
+.elastico{animation:elastico .75s cubic-bezier(.3,1.4,.5,1) both}
+"""
 
 def pagina(s):
     plantao = s.get('tema', 'plantao') == 'plantao'
@@ -50,68 +99,60 @@ def pagina(s):
     FI = '#22252C' if plantao else '#2E1B70'
     SUB = '#C9CBD2' if plantao else '#E2D9FA'
     TAPE = f'repeating-linear-gradient(-45deg,{AMARELO} 0 46px,{BG} 46px 92px)'
-    a, c2, c3 = s['abertura'], s['cena2'], s['cena3']
-    tit = lambda t, d, fs: f'{E(t)}<br><span style="color:{AMARELO}">{E(d)}</span>' if d else E(t)
-    L2 = c2.get('itens', [])[:4]; passo = 1.4 if len(L2) <= 2 else 0.9
-    itens2 = ''.join(item(it, 7.2 + passo * i, FI, '#F2F2F4') for i, it in enumerate(L2))
-    itens3 = ''.join(item(it, 12.9 + 1.2 * i, FI, '#F2F2F4') for i, it in enumerate(c3.get('itens', [])[:2]))
-    return f'''<!doctype html><html><head><meta charset="utf-8"><style>
-@font-face{{font-family:'Public Sans';src:url('file://{P.FONTES}/PublicSans.ttf');font-weight:100 900}}
-@font-face{{font-family:'Source Serif 4';src:url('file://{P.FONTES}/SourceSerif4.ttf');font-weight:200 900}}
-body{{margin:0}}
-.f{{width:1080px;height:1920px;background:{BG};color:#fff;font-family:{SANS};position:relative;overflow:hidden}}
-.sc{{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:250px 80px 300px;box-sizing:border-box}}
-@keyframes logo{{0%{{transform:scale(.4);opacity:0}}70%{{transform:scale(1.08);opacity:1}}100%{{transform:scale(1)}}}}
-@keyframes up{{from{{transform:translateY(70px);opacity:0}}to{{transform:none;opacity:1}}}}
-@keyframes pop{{0%{{transform:scale(.3) rotate(-10deg);opacity:0}}60%{{transform:scale(1.12) rotate(-3deg);opacity:1}}100%{{transform:scale(1) rotate(-3deg)}}}}
-@keyframes blink{{0%,100%{{opacity:1}}50%{{opacity:.15}}}}
-@keyframes flash{{0%{{opacity:.9}}100%{{opacity:0}}}}
-@keyframes tapeL{{from{{transform:translateX(-120%) rotate(-4deg)}}to{{transform:translateX(0) rotate(-4deg)}}}}
-@keyframes tapeR{{from{{transform:translateX(120%) rotate(5deg)}}to{{transform:translateX(0) rotate(5deg)}}}}
-@keyframes wipe{{0%{{transform:translateX(-110%)}}45%,55%{{transform:translateX(0)}}100%{{transform:translateX(110%)}}}}
-@keyframes hide{{to{{visibility:hidden}}}}
-@keyframes show{{from{{visibility:hidden}}to{{visibility:visible}}}}
-@keyframes zoom{{from{{transform:scale(1)}}to{{transform:scale(1.06)}}}}
-.up{{animation:up .55s cubic-bezier(.2,.8,.3,1) both}}
-</style></head><body><div class="f">
-<div style="position:absolute;left:0;right:0;top:0;display:flex;height:22px;z-index:5"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>
-<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 140 140">{P.M.simbolo()}</svg>
-<div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">
-  <div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>
-  <span class="up" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">{P.M.ARROBA}</span>
-</div>
-<div class="sc" style="animation:hide 0s linear 5.6s forwards;align-items:flex-start">
-  <div style="position:absolute;left:-80px;right:-80px;top:300px;height:130px;background:{TAPE};animation:tapeL .6s cubic-bezier(.2,.8,.3,1) .1s both"></div>
-  <div style="position:absolute;left:-80px;right:-80px;bottom:330px;height:130px;background:{TAPE};animation:tapeR .6s cubic-bezier(.2,.8,.3,1) .35s both"></div>
-  <div style="position:relative;animation:zoom 5s linear both;display:flex;flex-direction:column;gap:36px;width:100%">
-    <div style="animation:pop .6s cubic-bezier(.2,.9,.3,1.3) .7s both;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{VERM};color:#fff;border:4px solid #000;box-shadow:12px 12px 0 {AMARELO};border-radius:999px;padding:22px 46px;font-size:{96 if len(s.get('selo','')) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">
-      <i style="width:40px;height:40px;border-radius:50%;background:#fff;display:block;animation:blink 1s steps(2) 1.3s infinite"></i>{E(s.get('selo', 'PLANTÃO'))}</div>
-    <div class="up" style="animation-delay:1.5s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get('chip', 'Plantão Clareia · Eleições 2026'))}</div>
-    <h1 class="up" style="animation-delay:1.9s;margin:0;font-family:{SERIF};font-weight:800;font-size:136px;line-height:.98;letter-spacing:-.03em">{tit(a['titulo'], a.get('destaque'), 136)}</h1>
-    <div class="up" style="animation-delay:2.6s;font-size:50px;line-height:1.35;color:{SUB}">{E(a.get('sub', ''))}</div>
-  </div>
-  <div style="position:absolute;inset:0;background:#fff;opacity:0;animation:flash .35s ease-out .7s forwards;pointer-events:none"></div>
-</div>
-<div class="sc" style="visibility:hidden;animation:show 0s linear 5.6s forwards,hide 0s linear 12.6s forwards">
-  <div class="up" style="animation-delay:5.7s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(c2.get('chip', ''))}</div>
-  <h2 class="up" style="animation-delay:5.9s;margin:0 0 50px;font-family:{SERIF};font-weight:800;font-size:{104 if len(L2) <= 2 else 92}px;line-height:1;letter-spacing:-.025em">{tit(c2['titulo'], c2.get('destaque'), 104)}</h2>
-  <div style="display:flex;flex-direction:column;gap:{30 if len(L2) <= 2 else 22}px">{itens2}</div>
-</div>
-<div class="sc" style="visibility:hidden;animation:show 0s linear 12.6s forwards">
-  <div class="up" style="animation-delay:12.7s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(c3.get('chip', ''))}</div>
-  <div style="display:flex;flex-direction:column;gap:30px;margin-bottom:64px">{itens3}</div>
-  <div class="up" style="animation-delay:14.6s;font-family:{SERIF};font-weight:800;font-size:96px;line-height:1.02;letter-spacing:-.025em;margin-bottom:48px">{tit(c3.get('chamada', 'Acompanhe no site'), c3.get('chamada_destaque'), 96)}</div>
-  <div class="up" style="animation-delay:15.6s;display:flex;align-items:center;justify-content:space-between;gap:24px">
-    <div style="display:flex;flex-direction:column;gap:12px"><div style="font-size:28px;color:{SUB};max-width:580px;line-height:1.4">{E(s.get('rodape', ''))}</div></div>
-    <div style="background:{AMARELO};color:#1A1500;border:3px solid #000;box-shadow:8px 8px 0 {VERM};border-radius:24px;padding:22px 32px;font-size:44px;font-weight:900;white-space:nowrap">Link na bio</div>
-  </div>
-</div>
-<div style="position:absolute;inset:-200px;background:{TAPE};transform:translateX(-110%);animation:wipe 1s cubic-bezier(.7,0,.3,1) 5.1s both;z-index:9"></div>
-<div style="position:absolute;inset:-200px;background:{VERM};transform:translateX(-110%);animation:wipe 1s cubic-bezier(.7,0,.3,1) 12.1s both;z-index:9;display:flex;align-items:center;justify-content:center">
-  <span style="font-size:110px;font-weight:900;letter-spacing:.08em;color:#fff">{E(s.get('selo', 'PLANTÃO'))}</span></div>
-</div></body></html>'''
+    def tit(t, dd):
+        if not dd: return E(t)
+        return (E(t) + '<br>' if t else '') + f'<span style="color:{AMARELO}">{E(dd)}</span>'
+    blocos, t0 = [], 0.0
+    for tipo, dados, dur in telas(s):
+        anim = [f'show 0s linear {t0:.2f}s both']
+        if tipo == 'conteudo': anim.append(f'sair .45s ease-in {t0 + dur - .45:.2f}s forwards')
+        if tipo != 'final': anim.append(f'hide 0s linear {t0 + dur:.2f}s forwards')
+        vis = 'animation:' + ','.join(anim)
+        d = lambda x, t0=t0: f'{t0 + x:.2f}'
+        if tipo == 'abertura':
+            a = dados; selo = s.get('selo', 'PLANTÃO')
+            fita = (f'<div style="position:absolute;left:-80px;right:-80px;top:300px;height:130px;background:{TAPE};animation:tapeL .6s cubic-bezier(.2,.8,.3,1) {d(.05)}s both"></div>'
+                    f'<div style="position:absolute;left:-80px;right:-80px;bottom:330px;height:130px;background:{TAPE};animation:tapeR .6s cubic-bezier(.2,.8,.3,1) {d(.2)}s both"></div>') if plantao else ''
+            blocos.append(
+                f'<div class="sc" style="{vis};align-items:flex-start">{fita}'
+                f'<div style="position:relative;display:flex;flex-direction:column;gap:36px;width:100%">'
+                f'<div class="elastico" style="animation-delay:{d(.15)}s;align-self:flex-start;display:inline-flex;align-items:center;gap:22px;background:{VERM};color:#fff;border:4px solid #000;box-shadow:12px 12px 0 {AMARELO};border-radius:999px;padding:22px 46px;font-size:{96 if len(selo) <= 9 else 70}px;font-weight:900;letter-spacing:.06em">'
+                f'<i style="width:40px;height:40px;border-radius:50%;background:#fff;display:block;animation:blink 1s steps(2) {d(.8)}s infinite"></i>{E(selo)}</div>'
+                f'<div class="foco" style="animation-delay:{d(.55)}s;font-size:40px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase">{E(a.get("chip", "Clareia · Eleições 2026"))}</div>'
+                f'<h1 class="foco" style="animation-delay:{d(.75)}s;margin:0;font-family:{SERIF};font-weight:800;font-size:136px;line-height:.98;letter-spacing:-.03em">{tit(a["titulo"], a.get("destaque"))}</h1>'
+                f'<div class="surge" style="animation-delay:{d(1.25)}s;font-size:50px;line-height:1.35;color:{SUB}">{E(a.get("sub", ""))}</div>'
+                f'</div></div>')
+        elif tipo == 'conteudo':
+            (chip, tt, dest), g = dados
+            tem_tit = bool(tt or dest)
+            cards = ''.join(item(it, t0 + (.75 if tem_tit else .4) + .35 * i, FI, '#F2F2F4') for i, it in enumerate(g))
+            titulo = (f'<h2 class="foco" style="animation-delay:{d(.3)}s;margin:0 0 50px;font-family:{SERIF};font-weight:800;font-size:{104 if len(tt + dest) < 45 else 90}px;line-height:1.02;letter-spacing:-.025em">{tit(tt, dest)}</h2>') if tem_tit else ''
+            blocos.append(
+                f'<div class="sc" style="{vis}">'
+                f'<div class="foco" style="animation-delay:{d(.1)}s;font-size:38px;font-weight:900;letter-spacing:.08em;color:{AMARELO};text-transform:uppercase;margin-bottom:30px">{E(chip)}</div>'
+                f'{titulo}<div style="display:flex;flex-direction:column;gap:30px">{cards}</div></div>')
+        else:
+            c3 = dados
+            blocos.append(
+                f'<div class="sc" style="{vis}">'
+                f'<div class="foco" style="animation-delay:{d(.1)}s;font-family:{SERIF};font-weight:800;font-size:110px;line-height:1.02;letter-spacing:-.025em;margin-bottom:56px">{tit(c3.get("chamada", "Acompanhe no site"), c3.get("chamada_destaque"))}</div>'
+                f'<div style="display:flex;align-items:center;justify-content:space-between;gap:24px">'
+                f'<div class="surge" style="animation-delay:{d(.6)}s;font-size:30px;color:{SUB};max-width:560px;line-height:1.4">{E(s.get("rodape", ""))}</div>'
+                f'<div class="elastico" style="animation-delay:{d(.45)}s;background:{AMARELO};color:#1A1500;border:3px solid #000;box-shadow:8px 8px 0 {VERM};border-radius:24px;padding:24px 34px;font-size:46px;font-weight:900;white-space:nowrap">Link na bio</div>'
+                f'</div></div>')
+        t0 += dur
+    fontes = (f"@font-face{{font-family:'Public Sans';src:url('file://{P.FONTES}/PublicSans.ttf');font-weight:100 900}}"
+              f"@font-face{{font-family:'Source Serif 4';src:url('file://{P.FONTES}/SourceSerif4.ttf');font-weight:200 900}}")
+    topo = (f'<div style="position:absolute;left:0;right:0;top:0;display:flex;height:22px;z-index:5"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>'
+            f'<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 140 140">{P.M.simbolo()}</svg>'
+            f'<div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">'
+            f'<div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>'
+            f'<span class="surge" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">{P.M.ARROBA}</span></div>')
+    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{fontes}body{{margin:0}}{CSS}'
+            f'.f{{background:{BG};font-family:{SANS}}}</style></head><body><div class="f">{topo}{"".join(blocos)}</div></body></html>')
 
-async def gerar(spec, saida, fps=30, dur=20):
+async def gerar(spec, saida, fps=30, dur=None):
+    dur = dur or duracao(spec)
     from playwright.async_api import async_playwright
     from PIL import Image
     os.makedirs(saida, exist_ok=True)
@@ -120,14 +161,14 @@ async def gerar(spec, saida, fps=30, dur=20):
     async with async_playwright() as p:
         b = await p.chromium.launch(); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         await pg.goto('file://' + os.path.join(tmp, 'v.html')); await pg.wait_for_timeout(500)
-        for i in range(fps * dur):
+        for i in range(int(round(fps * dur))):
             await pg.evaluate(f"document.getAnimations().forEach(a=>{{a.pause();a.currentTime={i * 1000 / fps}}})")
             await pg.screenshot(path=os.path.join(tmp, f'f{i:04d}.jpg'), type='jpeg', quality=90)
         await b.close()
-    Image.open(os.path.join(tmp, 'f0090.jpg')).convert('RGB').save(os.path.join(saida, 'capa.jpg'), quality=92)
+    Image.open(os.path.join(tmp, f'f{int(fps * 2.6):04d}.jpg')).convert('RGB').save(os.path.join(saida, 'capa.jpg'), quality=92)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(fps), '-i', os.path.join(tmp, 'f%04d.jpg')]
     TRILHA = escolher_trilha(spec); print('trilha:', os.path.basename(TRILHA) if TRILHA else None)
-    if TRILHA and os.path.exists(TRILHA): cmd += ['-i', TRILHA, '-c:a', 'aac', '-b:a', '192k', '-shortest']
+    if TRILHA and os.path.exists(TRILHA): cmd += ['-i', TRILHA, '-af', f'afade=t=out:st={max(0, dur - 1.2):.2f}:d=1.2', '-c:a', 'aac', '-b:a', '192k', '-t', f'{dur:.2f}']
     cmd += ['-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', os.path.join(saida, 'reels.mp4')]
     subprocess.run(cmd, check=True)
     shutil.rmtree(tmp, ignore_errors=True)

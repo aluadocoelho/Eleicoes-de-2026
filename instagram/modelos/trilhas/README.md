@@ -10,7 +10,7 @@ Para gerar de novo ou mudar a duração: edite `DUR` (duração), `T0` (primeiro
 
 ## Variações (desde 20/10/2026)
 
-Para os vídeos não soarem sempre iguais, `gerar_variacoes.py` gera trilhas no mesmo ritmo e com os mesmos pontos de corte (0,7 / 5,6 / 12,6 s), normalizadas em cerca de -9 LUFS. As três aprovadas, que entram no sorteio do `video.py`:
+Para os vídeos não soarem sempre iguais, `gerar_variacoes.py` gera trilhas de 30 s a 90 bpm (telas de 3, 4 e 5 s trocam sempre numa colcheia), normalizadas em cerca de -9 LUFS. O `video.py` corta a trilha no tamanho de cada reels, com fade no final. As três aprovadas, que entram no sorteio do `video.py`:
 
 | Nome | Clima | Boa para |
 |---|---|---|
