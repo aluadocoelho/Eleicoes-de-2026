@@ -656,5 +656,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou. O TSE cita só como alvos da ação do PL políticos do PT e perfis, sem dizer quem fez este post.",
   "tema": "Operação da PF"
+ },
+ {
+  "id": "b48",
+  "data": "2026-10-21",
+  "alvo": "Lula",
+  "boato": "Posts dizem que o Brasil só caiu no ranking do Pisa entre 2000 e 2025, ligando o resultado ao governo Lula",
+  "veredito": "Enganoso",
+  "agencia": "Aos Fatos",
+  "explicacao": "A comparação ignora que o número de países avaliados subiu de 32 para 91; pelas notas, o Brasil melhorou pouco em leitura, matemática e ciências, e especialistas dizem que o resultado não é só do governo federal.",
+  "url": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Educação, Pisa"
  }
 ]
