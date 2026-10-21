@@ -3036,6 +3036,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3D10-617F",
+  "conjunto": "boatos",
+  "id": "b46",
+  "registro": {
+   "id": "b46",
+   "data": "2026-10-15",
+   "alvo": "Flávio",
+   "boato": "Publicação no Instagram liga Flávio a facções criminosas e a desvio de R$ 2,7 milhões em rachadinha",
+   "veredito": "Sem respaldo fático; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O TSE confirmou por unanimidade a ordem de apagar o post, por ligar o candidato a facções sem base mínima nos fatos; o PL disse que o caso de rachadinha foi arquivado em 2022.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-mantem-remocao-de-publicacao-que-associa-flavio-bolsonaro-a-organizacoes-criminosas-1",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo o TSE, o post foi publicado no Instagram por Fabrício Santos Vargas; a fonte não o liga a nenhuma campanha.",
+   "tema": "Facções e rachadinha"
+  },
+  "primeira_vez": "2026-10-21T22:30:18Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D9A3-4F20",
+  "conjunto": "boatos",
+  "id": "b47",
+  "registro": {
+   "id": "b47",
+   "data": "2026-10-20",
+   "alvo": "Flávio",
+   "boato": "Publicação liga Flávio à Operação Unha e Carne da PF, a milícias e a lavagem de dinheiro",
+   "veredito": "Sem respaldo fático; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O Plenário do TSE confirmou a ordem de apagar o post: a defesa diz que Flávio não é investigado nem citado na operação, e a relatora viu acusação sem base mínima.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/plenario-mantem-remocao-de-publicacao-que-associa-flavio-bolsonaro-a-operacao-da-pf",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou. O TSE cita só como alvos da ação do PL políticos do PT e perfis, sem dizer quem fez este post.",
+   "tema": "Operação da PF"
+  },
+  "primeira_vez": "2026-10-21T22:30:18Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
