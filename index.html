@@ -94,6 +94,9 @@ body:has(.el[data-theme="dark"]) #el-notif{background:#171A22;color:#ECEEF3;bord
 body:has(.el[data-theme="dark"]) #el-notif p{color:#A6ADBB}
 body:has(.el[data-theme="dark"]) #el-notif .nt-no{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
 body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
+.el-plt.el-plt-res[hidden]{display:flex;visibility:hidden}
+.el .el-vf-st{color:var(--color-fg)}
+.el .el-mais{color:var(--accent-text,#5B2DBF)}
 
 .el{
   --cf:#1F4FA8; --cl:#C62828;
@@ -949,6 +952,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <button type="button" class="el-plt-go" id="el-plt-go" aria-haspopup="dialog" aria-controls="el-plt-dlg"><span class="el-plt-tag"><i aria-hidden="true"></i>Plantão</span><span class="el-plt-txt" id="el-plt-txt"></span><span class="el-plt-mais" aria-hidden="true">Entenda →</span></button>
     <button type="button" class="el-plt-x" id="el-plt-x" aria-label="Fechar o plantão">×</button>
   </div>
+  <script>(function(){try{var b=document.getElementById("el-plt"),v=localStorage.getItem("el-plt-h"),h=v===null?(innerWidth<=640?57:52):+v;if(h>0){b.classList.add("el-plt-res");b.style.minHeight=h+"px";}}catch(e){}})()</script>
 
   <nav class="el-tabs" role="tablist" aria-label="Seções da página">
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
@@ -1576,23 +1580,48 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
     loader: function () {}, refresh: function () {}
   };
-  var loadedOnce = {};
+  var loadedOnce = {}, domPronto = document.readyState !== "loading", espera = [];
+  document.addEventListener("DOMContentLoaded", function () { domPronto = true; espera.splice(0).forEach(function (f) { f(); }); });
+  function quandoPronto(f) { if (domPronto) f(); else espera.push(f); }
+  function fetchOne(id) {
+    return fetch("data/" + id + ".json", {cache: "no-cache"})
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (rows) { store[id] = {status: "ok", data: rows}; loadedOnce[id] = true; })
+      .catch(function () { if (store[id].status !== "ok") store[id] = {status: "error", data: []}; });
+  }
+  // Plantão: o espaço dele fica reservado desde o carregamento (com a altura da última visita),
+  // para a página não "pular" quando ele aparece. Depois da primeira leitura, a reserva sai.
+  function liberaPlt() {
+    var b = document.getElementById("el-plt"); if (!b) return;
+    var h = b.hidden ? 0 : Math.round(b.getBoundingClientRect().height);
+    try { localStorage.setItem("el-plt-h", String(h)); } catch (e) {}
+    b.classList.remove("el-plt-res"); b.style.minHeight = "";
+  }
+  var carregandoSelos = false;
+  function loadSelos() {
+    if (carregandoSelos) return; carregandoSelos = true;
+    fetchOne("selos").then(function () { carregandoSelos = false; computeCalcs(); run(); });
+  }
+  var primeira = true;
   function load() {
     var onVerify = /verificar/.test(location.hash);
-    Promise.all(DATASETS.filter(function (id) {
-      // os códigos de verificação são grandes: só recarrega quando a aba Verificar está aberta
-      return id !== "selos" || onVerify || !loadedOnce[id];
-    }).map(function (id) {
-      return fetch("data/" + id + ".json", {cache: "no-cache"})
-        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-        .then(function (rows) { store[id] = {status: "ok", data: rows}; loadedOnce[id] = true; })
-        .catch(function () { if (store[id].status !== "ok") store[id] = {status: "error", data: []}; });
-    })).then(function () { computeCalcs(); run(); });
+    // os códigos de verificação são o maior arquivo: carregam depois do resto, quando o navegador está livre,
+    // e só voltam a ser relidos com a aba Verificar aberta
+    Promise.all(DATASETS.filter(function (id) { return id !== "selos"; }).map(fetchOne)).then(function () {
+      quandoPronto(function () {
+        computeCalcs(); run();
+        if (primeira) { primeira = false; liberaPlt(); }
+        if (onVerify) loadSelos();
+        else if (!loadedOnce.selos) { if (window.requestIdleCallback) requestIdleCallback(loadSelos, {timeout: 4000}); else setTimeout(loadSelos, 1500); }
+      });
+    });
   }
-  window.addEventListener("load", function () {
-    load();
+  load();   // começa a buscar os dados já, sem esperar imagens, fontes e scripts de terceiros
+  quandoPronto(function () {
     setInterval(load, 180000);
     document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
+    var vf = document.getElementById("verificar");
+    if (vf && window.MutationObserver) new MutationObserver(function () { if (!vf.hidden && !loadedOnce.selos) loadSelos(); }).observe(vf, {attributes: true, attributeFilter: ["hidden"]});
   });
   var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(run, 150); });
 })();
@@ -1910,7 +1939,8 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     return null;
   }
 
-  function table(sel, rows, cols, keyFn) {
+  const __fechada = n => { if (typeof n === "string") n = document.querySelector(n); return !!(n && n.closest && n.closest(".el-page[hidden]")); };
+  function table(sel, rows, cols, keyFn) { if (__fechada(sel)) return;
     const labels = Array.from(document.querySelectorAll(sel + " thead th")).map(th => th.textContent.trim());
     const tb = d3.select(sel).select("tbody");
     if (!rows) { tb.selectAll("tr").remove(); return; }
@@ -1974,7 +2004,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   }
 
   // ---------- Gráfico: diferença por pesquisa ----------
-  function drawDif(box, rows) {
+  function drawDif(box, rows) { if (__fechada(box)) return;
     const svg = d3.select(box).select("svg");
     const tip = box.querySelector(".el-tip");
     svg.selectAll("*").remove();
@@ -2077,7 +2107,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 
   // ---------- Gráfico: taxa de falas falsas ----------
   const fPct0 = v => (v == null ? "—" : Lc.format(".0%")(v));
-  function drawFalsas(box, rows) {
+  function drawFalsas(box, rows) { if (__fechada(box)) return;
     const svg = d3.select(box).select("svg");
     const tip = box.querySelector(".el-tip");
     svg.selectAll("*").remove();
@@ -2144,7 +2174,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   }
 
   // ---------- Gráfico: 1º turno ----------
-  function drawPT(box, rows) {
+  function drawPT(box, rows) { if (__fechada(box)) return;
     const svg = d3.select(box).select("svg");
     svg.selectAll("*").remove();
     const W = box.clientWidth;
@@ -2179,7 +2209,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     grid.append(a, tr, b); parent.appendChild(grid);
   }
 
-  function drawRedes(box, rows) {
+  function drawRedes(box, rows) { if (__fechada(box)) return;
     box.querySelectorAll(".el-rm").forEach(n => n.remove());
     if (!rows) return;
     box.querySelectorAll(".el-rgrp").forEach(n => n.remove());
@@ -2201,7 +2231,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       drawRedesItens(body, g.itens);
     });
   }
-  function drawRedesItens(box, rows) {
+  function drawRedesItens(box, rows) { if (__fechada(box)) return;
     for (const r of rows) {
       const lula = Number(r.lula), fla = Number(r.flavio), mx = Math.max(lula, fla);
       const wrap = document.createElement("div"); wrap.className = "el-rm";
