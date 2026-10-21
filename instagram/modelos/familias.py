@@ -8,6 +8,7 @@ para que dê para saber do que a peça fala só de bater o olho (aprovado pelo d
   agenda    fundo amarelo, a data grande num bloco de calendário
   plantao   fundo roxo com letreiro preto no topo, para atualizações do dia
   servico   fundo branco, passos numerados (como votar, prazos, onde ver)
+  contexto  fundo de papel, ENTENDA: carrossel explicativo (capa com contagem, linha do tempo, lado a lado, números, próximos passos; veja contexto.py)
 
 Usado por pecas.py quando a especificação traz "familia" (em vez de "modelo"). Formatos: feed (1080x1350) e story (1080x1920).
 Campos de cada família:
@@ -35,10 +36,11 @@ PALETA = {
  'agenda':   dict(bg=AM, fg=T, sub='#3A3000', logo='claro', arroba=T, dest=ROXO),
  'plantao':  dict(bg=ROXO, fg='#fff', sub='#D9CFF5', logo='roxo', arroba='#E2D9FA', dest=AM),
  'servico':  dict(bg='#FFFFFF', fg=T, sub='#3A3F49', logo='claro', arroba=ROXO, dest=ROXO),
+ 'contexto': dict(bg='#FBF6EA', fg=T, sub='#5A5248', logo='claro', arroba=ROXO, dest=ROXO),
 }
 TRILHAS = {   # trilhas sugeridas para o reels de cada família (video.py sorteia entre elas)
  'pesquisa': ['estrada', 'pulsar'], 'agenda': ['batuque', 'pulsar', 'funkpop'], 'servico': ['batuque', 'praca'],
- 'engajamento': ['funkpop', 'batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'],
+ 'engajamento': ['funkpop', 'batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'], 'contexto': ['estrada', 'pulsar'],
 }
 IC = {
  'pesquisa': '<path d="M4 20h16"/><rect x="5" y="11" width="3.2" height="6.5" rx="1"/><rect x="10.4" y="6.5" width="3.2" height="11" rx="1"/><rect x="15.8" y="9" width="3.2" height="8.5" rx="1"/>',
@@ -46,11 +48,12 @@ IC = {
  'boato': '<path d="M12 3.6 21 19.5H3z"/><path d="M12 9.6v4.4"/><circle cx="12" cy="16.9" r=".5"/>',
  'agenda': '<rect x="3.6" y="5" width="16.8" height="15" rx="2.4"/><path d="M3.6 10h16.8M8 3v4M16 3v4"/>',
  'plantao': '<path d="M6 9.5a6 6 0 0 1 12 0c0 6 2.6 7.8 2.6 7.8H3.4S6 15.5 6 9.5"/><path d="M10.2 20.2a2 2 0 0 0 3.6 0"/>',
+ 'contexto': '<path d="M4 5.5A2 2 0 0 1 6 4h5v15H6a2 2 0 0 0-2 1.5z"/><path d="M20 5.5A2 2 0 0 0 18 4h-5v15h5a2 2 0 0 1 2 1.5z"/>',
  'servico': '<path d="M4 13.5h16v6.5H4z"/><path d="M8.2 13.5V5.2a1 1 0 0 1 1-1h5.6a1 1 0 0 1 1 1v8.3"/><path d="m10 8.8 1.6 1.6 2.6-2.8"/>',
 }
-NOME = {'pesquisa': 'PESQUISA', 'checagem': 'CHECAGEM', 'boato': 'BOATO DESMENTIDO', 'agenda': 'AGENDA', 'plantao': 'PLANTÃO', 'servico': 'SERVIÇO'}
-CHIP = {'pesquisa': (T, AM, T), 'checagem': (AM, T, T), 'boato': (ROXO, '#fff', T), 'agenda': (T, AM, T), 'plantao': (AM, T, T), 'servico': ('#fff', ROXO, ROXO)}
-PILL = {'pesquisa': (ROXO, '#fff', T), 'checagem': (AM, T, AM), 'boato': (ROXO, '#fff', T), 'agenda': (ROXO, '#fff', T), 'plantao': (AM, T, T), 'servico': (ROXO, '#fff', T)}
+NOME = {'pesquisa': 'PESQUISA', 'checagem': 'CHECAGEM', 'boato': 'BOATO DESMENTIDO', 'agenda': 'AGENDA', 'plantao': 'PLANTÃO', 'servico': 'SERVIÇO', 'contexto': 'ENTENDA'}
+CHIP = {'pesquisa': (T, AM, T), 'checagem': (AM, T, T), 'boato': (ROXO, '#fff', T), 'agenda': (T, AM, T), 'plantao': (AM, T, T), 'servico': ('#fff', ROXO, ROXO), 'contexto': (ROXO, '#fff', ROXO)}
+PILL = {'pesquisa': (ROXO, '#fff', T), 'checagem': (AM, T, AM), 'boato': (ROXO, '#fff', T), 'agenda': (ROXO, '#fff', T), 'plantao': (AM, T, T), 'servico': (ROXO, '#fff', T), 'contexto': (ROXO, '#fff', T)}
 num = lambda v: (f'{float(v):.1f}'.rstrip('0').rstrip('.') if float(v) != int(float(v)) else str(int(float(v)))).replace('.', ',')
 
 def ico(k, px, cor):
@@ -145,7 +148,11 @@ def c_servico(s, P, story):
              f'<div style="display:flex;flex-direction:column;gap:40px">{"".join(passo(k + 1, p) for k, p in enumerate(s.get("passos", [])[:4]))}</div>')
     return corpo, s.get('fonte', '')
 
-CORPOS = {'pesquisa': c_pesquisa, 'checagem': c_checagem, 'boato': c_boato, 'agenda': c_agenda, 'plantao': c_plantao, 'servico': c_servico}
+def c_contexto(s, P, story):
+    import contexto
+    return contexto.corpo(s, P, story, chip)
+
+CORPOS = {'contexto': c_contexto, 'pesquisa': c_pesquisa, 'checagem': c_checagem, 'boato': c_boato, 'agenda': c_agenda, 'plantao': c_plantao, 'servico': c_servico}
 
 def pagina(s, formato):
     fam = s['familia']; P = PALETA[fam]; story = formato == 'story'

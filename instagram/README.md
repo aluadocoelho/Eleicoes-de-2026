@@ -25,6 +25,7 @@ Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para
 | `agenda` | amarelo, a data grande | batuque, pulsar, funk-pop |
 | `plantao` | roxo com letreiro | jornal, pulso |
 | `servico` | branco, passos numerados | batuque, praça |
+| `contexto` | papel claro, ENTENDA: carrossel explicativo (capa com contagem, linha do tempo, lado a lado, números, próximos) | estrada, pulsar |
 | `engajamento` (só reels) | roxo | funk-pop, batuque, tamborzão, praça |
 
 **Pesquisa com gráfico** (aprovado em 21/10): na família `pesquisa`, o campo `"grafico"` troca o placar por um gráfico feito com os números de `data/pesquisas.json` (detalhes em `modelos/graficos.py`):
