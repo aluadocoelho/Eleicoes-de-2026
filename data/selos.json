@@ -7233,6 +7233,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BEF9-6A7C",
+  "conjunto": "pesquisas",
+  "id": "meioideia-2110",
+  "registro": {
+   "id": "meioideia-2110",
+   "instituto": "Meio/Ideia",
+   "divulgacao": "2026-10-21",
+   "campo": "15–19 out",
+   "amostra": 1500,
+   "margem": 2.5,
+   "flavio_validos": 51.1,
+   "lula_validos": 48.9,
+   "flavio_totais": 48.0,
+   "lula_totais": 46.0,
+   "fonte": "Transmissão Política (Meio/Ideia, entrevistas por telefone, registro BR-08251/2026)",
+   "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisa-meio-ideia-flavio-lula-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-21T10:00:18Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0A30-349E",
   "conjunto": "pesquisas",
   "id": "palver-1510",
