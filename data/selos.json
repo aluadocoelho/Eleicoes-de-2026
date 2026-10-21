@@ -7301,6 +7301,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "63EF-314D",
+  "conjunto": "pesquisas",
+  "id": "futura-2110",
+  "registro": {
+   "id": "futura-2110",
+   "instituto": "Futura",
+   "divulgacao": "2026-10-21",
+   "campo": "19–20 out",
+   "amostra": 2000,
+   "margem": 2.2,
+   "flavio_validos": 51.1,
+   "lula_validos": 48.9,
+   "flavio_totais": 48.9,
+   "lula_totais": 46.8,
+   "fonte": "Futura/Apex (registro BR-06614/2026, contratada pela 100% Cidades), via Blog do BG",
+   "url": "https://www.blogdobg.com.br/futura-apex-lula-cai-para-489-e-flavio-sobe-para-511-dos-votos-validos/"
+  },
+  "primeira_vez": "2026-10-21T13:38:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2F43-9F83",
   "conjunto": "pesquisas",
   "id": "ipespe-1010",
