@@ -376,5 +376,19 @@
   "lula_totais": 44,
   "fonte": "Metrópoles (encomenda do Grupo Globo, registro BR-08535/2026); válidos calculados",
   "url": "https://www.metropoles.com/brasil/quaest-flavio-bolsonaro-tem-45-e-lula-44-no-2o-turno"
+ },
+ {
+  "id": "verita-2110",
+  "instituto": "Veritá",
+  "divulgacao": "2026-10-21",
+  "campo": "15–19 out",
+  "amostra": 15554,
+  "margem": 1,
+  "flavio_validos": 50.7,
+  "lula_validos": 49.3,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Jornal Razão (pesquisa própria do Veritá, registro TSE BR-06396/2026; só votos válidos divulgados)",
+  "url": "https://jornalrazao.com/politica/verita-flavio-bolsonaro-50-lula-49-segundo-turno"
  }
 ]
