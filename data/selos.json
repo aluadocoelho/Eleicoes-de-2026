@@ -2953,6 +2953,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DD34-4951",
+  "conjunto": "boatos",
+  "id": "b43",
+  "registro": {
+   "id": "b43",
+   "data": "2026-10-09",
+   "alvo": "Lula",
+   "boato": "Posts dizem que PCC e CV declararam apoio a Lula no 2º turno",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Não há registro público de que as facções tenham feito essa declaração. O MP-RJ disse não ter informação sobre isso e a checagem não achou nada na imprensa nem em canais oficiais.",
+   "url": "https://aosfatos.org/noticias/pcc-comando-vermelho-apoio-lula-falso/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O Aos Fatos não identifica os autores dos posts e diz que a alegação foi impulsionada nas redes por bolsonaristas.",
+   "tema": "Facções criminosas"
+  },
+  "primeira_vez": "2026-10-21T12:03:13Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -6875,6 +6896,25 @@
    "url": "https://agendadopoder.com.br/debate-entre-lula-e-flavio-bolsonaro-na-globo-sera-nesta-sexta-feira-23-veja-onde-assistir/"
   },
   "primeira_vez": "2026-10-20T12:59:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "45A1-66FF",
+  "conjunto": "destaques",
+  "id": "debate-globo",
+  "registro": {
+   "id": "debate-globo",
+   "tipo": "Debate",
+   "titulo": "Debate na TV Globo",
+   "data": "2026-10-23",
+   "hora_inicio": "21:20",
+   "hora_fim": null,
+   "local": "Estúdios Globo, no Rio de Janeiro",
+   "como_assistir": "TV aberta: TV Globo, logo depois do Jornal Nacional (previsto para 21h20). TV por assinatura: GloboNews, ao mesmo tempo. Internet: ao vivo no site g1. Depois, o debate completo fica no g1 e no app Globoplay.",
+   "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. O 1º bloco tem perguntas sobre as cinco regiões do país, o 2º tem seis temas escolhidos por cada candidato entre dez propostos pela Globo, e o 3º tem tema livre e considerações finais. As campanhas assinaram as regras, que podem mudar por acordo até o dia.",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+  },
+  "primeira_vez": "2026-10-21T12:03:13Z",
   "ainda_publicado": true
  },
  {
