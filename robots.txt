@@ -1,3 +1,6 @@
+# Clareia Eleições: conteúdo público, buscadores e assistentes de IA são bem-vindos.
 User-agent: *
 Allow: /
+
+# Leitura para assistentes de IA (resumo e lista dos dados): /llms.txt
 Sitemap: https://aluadocoelho.github.io/Eleicoes-de-2026/sitemap.xml

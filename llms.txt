@@ -1,0 +1,23 @@
+# Clareia Eleições
+
+> Agregador independente e apartidário sobre o 2º turno da eleição presidencial de 2026 no Brasil (Flávio Bolsonaro, PL × Lula, PT; votação em 25/10/2026, das 8h às 17h, horário de Brasília). Reúne pesquisas de intenção de voto, checagens de falas, boatos desmentidos, agenda dos candidatos, debates e redes sociais, sempre com o link da fonte original. Antes se chamava Verita Eleições e não tem relação com o Instituto Veritá, de pesquisas. Feito com inteligência artificial e revisado por uma pessoa; as correções ficam públicas em data/erratas.json.
+
+Os dados ficam em JSON e são atualizados automaticamente ao longo do dia (das 7h às 23h, horário de Brasília). Cada linha traz o campo `url` com a página de origem. Licença dos dados: CC BY 4.0 (os números e selos pertencem aos institutos e checadores citados).
+
+## Dados
+
+- [Pesquisas do 2º turno](https://aluadocoelho.github.io/Eleicoes-de-2026/data/pesquisas.json): instituto, data de divulgação, votos válidos e totais, amostra, margem e link
+- [Checagens de falas](https://aluadocoelho.github.io/Eleicoes-de-2026/data/checagens.json): fala do próprio candidato, agência, selo original e categoria
+- [Boatos desmentidos](https://aluadocoelho.github.io/Eleicoes-de-2026/data/boatos.json): alvo, selo do checador ou decisão do TSE e origem quando a fonte informa
+- [Agenda](https://aluadocoelho.github.io/Eleicoes-de-2026/data/agenda.json): compromissos públicos de cada candidato por dia
+- [Campanha](https://aluadocoelho.github.io/Eleicoes-de-2026/data/campanha.json): apoios, Justiça Eleitoral, debates e estratégia
+- [Destaques](https://aluadocoelho.github.io/Eleicoes-de-2026/data/destaques.json): debates, sabatinas e o dia da votação, com horário e onde assistir
+- [Ao vivo](https://aluadocoelho.github.io/Eleicoes-de-2026/data/aovivo.json): momentos e checagens de debates e sabatinas
+- [Redes sociais](https://aluadocoelho.github.io/Eleicoes-de-2026/data/redes.json): métricas comparáveis dos dois candidatos
+- [Erratas](https://aluadocoelho.github.io/Eleicoes-de-2026/data/erratas.json): o que foi corrigido, quando e por quê
+
+## Sobre
+
+- [Página principal](https://aluadocoelho.github.io/Eleicoes-de-2026/)
+- [Código, dados e documentação](https://github.com/aluadocoelho/Eleicoes-de-2026)
+- [Instagram @clareiaeleicoes](https://www.instagram.com/clareiaeleicoes/)
