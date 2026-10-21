@@ -58,7 +58,9 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 .el-foot a{color:inherit}
 .el-notif-open{appearance:none;background:var(--accent-soft);color:var(--accent-text);padding:8px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer}
 .el-notif-open[hidden]{display:none}
-#el-notif{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;width:min(440px,calc(100vw - 24px));box-sizing:border-box;background:#FFFFFF;color:#16181D;border:2px solid #16181D;border-radius:18px;box-shadow:5px 5px 0 #16181D;padding:18px 18px 16px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:10px}
+#el-notif-bg{position:fixed;inset:0;z-index:60;background:rgba(22,24,29,.6)}
+#el-notif-bg[hidden]{display:none}
+#el-notif{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:61;width:min(460px,calc(100vw - 32px));max-height:calc(100vh - 32px);overflow:auto;box-sizing:border-box;background:#FFFFFF;color:#16181D;border:3px solid #16181D;border-radius:24px;box-shadow:8px 8px 0 #16181D;padding:24px 22px 20px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:10px}
 #el-notif[hidden]{display:none}
 #el-ck:focus{outline:3px solid #FFD43B;outline-offset:2px}
 #el-ck{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:51;width:min(440px,calc(100vw - 24px));box-sizing:border-box;background:#FFFFFF;color:#16181D;border:2px solid #16181D;border-radius:18px;box-shadow:5px 5px 0 #16181D;padding:16px 18px 14px;font-family:"Inter",system-ui,sans-serif;display:flex;flex-direction:column;gap:8px}
@@ -69,26 +71,29 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 #el-ck button{appearance:none;font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:12px;border:2px solid #16181D;cursor:pointer;background:#FFFFFF;color:#16181D}
 #el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
 #el-ck button:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
-:root[data-theme="dark"] #el-ck{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
-:root[data-theme="dark"] #el-ck p{color:#A6ADBB}
-:root[data-theme="dark"] #el-ck button{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
-:root[data-theme="dark"] #el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
+body:has(.el[data-theme="dark"]) #el-ck{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
+body:has(.el[data-theme="dark"]) #el-ck p{color:#A6ADBB}
+body:has(.el[data-theme="dark"]) #el-ck button{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
+body:has(.el[data-theme="dark"]) #el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
 .el-foot-btns{display:flex;gap:10px;flex-wrap:wrap}
-#el-notif .nt-top{display:flex;gap:12px;align-items:flex-start}
-#el-notif .nt-ico{flex:none;width:42px;height:42px;border-radius:12px;background:#5B2DBF;color:#FFFFFF;display:flex;align-items:center;justify-content:center}
-#el-notif h2{margin:0;font-size:1.05rem;line-height:1.3}
-#el-notif p{margin:4px 0 0;font-size:.9rem;line-height:1.5;color:#3A3F49}
-#el-notif .nt-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:4px}
+#el-notif .nt-top{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+#el-notif .nt-ico{flex:none;width:56px;height:56px;border-radius:16px;background:#5B2DBF;color:#FFFFFF;display:flex;align-items:center;justify-content:center}
+#el-notif h2{margin:0;font-size:1.3rem;line-height:1.25}
+#el-notif p{margin:6px 0 0;font-size:1rem;line-height:1.55;color:#3A3F49}
+#el-notif .nt-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:8px}
+#el-notif .nt-btns button{flex:1 1 140px}
 #el-notif button{appearance:none;font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:12px;border:2px solid #16181D;cursor:pointer}
 #el-notif .nt-yes{background:#5B2DBF;color:#FFFFFF}
 #el-notif .nt-no{background:#FFFFFF;color:#16181D}
 #el-notif button:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
-@media (prefers-reduced-motion:no-preference){#el-notif{animation:nt-in .35s ease-out both}}
-@keyframes nt-in{from{transform:translate(-50%,24px);opacity:0}to{transform:translate(-50%,0);opacity:1}}
-:root[data-theme="dark"] #el-notif{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
-:root[data-theme="dark"] #el-notif p{color:#A6ADBB}
-:root[data-theme="dark"] #el-notif .nt-no{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
-:root[data-theme="dark"] #el-notif .nt-yes{border-color:#B9A3FF}
+@media (prefers-reduced-motion:no-preference){#el-notif{animation:nt-in .3s cubic-bezier(.2,.9,.3,1.2) both}#el-notif-bg{animation:nt-bg .25s ease-out both}}
+@keyframes nt-in{from{transform:translate(-50%,-50%) scale(.92);opacity:0}to{transform:translate(-50%,-50%) scale(1);opacity:1}}
+@keyframes nt-bg{from{opacity:0}to{opacity:1}}
+body.el-nt-lock{overflow:hidden}
+body:has(.el[data-theme="dark"]) #el-notif{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
+body:has(.el[data-theme="dark"]) #el-notif p{color:#A6ADBB}
+body:has(.el[data-theme="dark"]) #el-notif .nt-no{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
+body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
 
 .el{
   --cf:#1F4FA8; --cl:#C62828;
@@ -3266,7 +3271,8 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   if (v === "sim") load(); else if (v !== "nao") setTimeout(show, 2500);
 })();
 </script>
-<div id="el-notif" role="dialog" aria-modal="false" aria-labelledby="nt-t" aria-describedby="nt-d" hidden>
+<div id="el-notif-bg" hidden></div>
+<div id="el-notif" role="dialog" aria-modal="true" aria-labelledby="nt-t" aria-describedby="nt-d" hidden>
   <div class="nt-top">
     <span class="nt-ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
     <div>
@@ -3316,11 +3322,14 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     none: ["Este navegador não manda avisos", "Para receber avisos, abra o site no Chrome, Edge, Firefox ou Safari atualizados."],
     denied: ["Os avisos estão bloqueados", "Você ou o navegador bloquearam os avisos deste site. Para liberar, toque no cadeado ao lado do endereço da página, procure “Notificações” e escolha “Permitir”."]
   };
-  function hide() { box.hidden = true; }
+  var bg = document.getElementById("el-notif-bg"), lastFocus = null;
+  function hide() { box.hidden = true; bg.hidden = true; document.body.classList.remove("el-nt-lock"); if (lastFocus && lastFocus.focus) { try { lastFocus.focus({preventScroll: true}); } catch (e) {} } }
+  bg.addEventListener("click", function () { if (!Y.hidden) set({ok: false, at: Date.now()}); hide(); refreshBtn(); });
   function show(kind) {
     if (kind) { T.textContent = TXT[kind][0]; D.textContent = TXT[kind][1]; Y.hidden = true; N.textContent = "Entendi"; }
     else { T.textContent = TXT.t; D.textContent = TXT.d; Y.hidden = false; N.textContent = "Agora não"; }
-    box.hidden = false; setTimeout(function () { (kind ? N : Y).focus({preventScroll: true}); }, 50);
+    if (box.hidden) lastFocus = document.activeElement;
+    box.hidden = false; bg.hidden = false; document.body.classList.add("el-nt-lock"); setTimeout(function () { (kind ? N : Y).focus({preventScroll: true}); }, 50);
   }
   function refreshBtn() {
     if (!openBtn) return;
@@ -3330,19 +3339,28 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   N.addEventListener("click", function () { if (!Y.hidden) set({ok: false, at: Date.now()}); hide(); refreshBtn(); });
   Y.addEventListener("click", function () {
     if (!supported) { show(reason); return; }
+    hide();
     askPerm(function (p) {
       if (p === "granted") {
         set({ok: true, at: Date.now()});
-        notify("Avisos ligados", "Vamos avisar aqui quando sair novidade no Painel 2º Turno.");
+        notify("Avisos ligados", "Vamos avisar aqui quando sair novidade na Clareia Eleições.");
         hide();
-      } else {
+      } else if (p === "denied") {
         set({ok: false, at: Date.now()});
         show("denied");
+      } else {
+        set({ok: false, at: Date.now()});
       }
       refreshBtn();
     });
   });
-  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !box.hidden) hide(); });
+  document.addEventListener("keydown", function (ev) {
+    if (box.hidden) return;
+    if (ev.key === "Escape") { hide(); return; }
+    if (ev.key === "Tab") { var f = [].slice.call(box.querySelectorAll("button")).filter(function (b) { return !b.hidden; }); if (!f.length) return;
+      var a = f[0], z = f[f.length - 1];
+      if (ev.shiftKey && document.activeElement === a) { ev.preventDefault(); z.focus(); } else if (!ev.shiftKey && document.activeElement === z) { ev.preventDefault(); a.focus(); } }
+  });
   if (openBtn) openBtn.addEventListener("click", function () {
     if (!supported) { show(reason); return; }
     if (on()) { set({ok: false, at: Date.now()}); refreshBtn(); return; }
@@ -3376,7 +3394,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     if (!msgs.length || !on() || !document.hidden) return;
     var first = msgs[0];
     var body = msgs.length === 1 ? first.m : first.m + " (e mais " + (msgs.length - 1) + " novidade" + (msgs.length > 2 ? "s" : "") + ")";
-    notify("Novidade no Painel 2º Turno", body.slice(0, 220), first.tab);
+    notify("Novidade na Clareia Eleições", body.slice(0, 220), first.tab);
   });
 })();
 </script>
