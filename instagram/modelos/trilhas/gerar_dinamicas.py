@@ -15,8 +15,8 @@ from scipy.signal import fftconvolve
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 from gerar_variacoes import SR, lp, hp, mtof, env, kick, snare, hat, shaker, bass, epiano, violao, kalimba, pad
 from gerar_estilos import serra, sub808, pizz, tambor, piano
-DUR = 30.0; N = int(DUR * SR); BEAT = .5; E8 = .25; S16 = .125; BAR = 2.0; DROP = 3.0
-BARS = 14   # depois do drop: 3 s + 14 compassos = 31 s (cortado em 30)
+DUR = float(os.environ.get('DUR', '30')); N = int(DUR * SR); BEAT = .5; E8 = .25; S16 = .125; BAR = 2.0; DROP = 3.0
+BARS = int((DUR - 3) // 2) + 1   # depois do drop: 3 s + compassos de 2 s até o fim
 def marimba(m, dur, vel=1.0):
     n = int(dur * SR); tt = np.arange(n) / SR; f = mtof(m)
     y = np.sin(2 * np.pi * f * tt) * np.exp(-tt / .35) + .5 * np.sin(2 * np.pi * f * 4 * tt) * np.exp(-tt / .05) + .2 * np.sin(2 * np.pi * f * 10 * tt) * np.exp(-tt / .015)
@@ -31,6 +31,29 @@ def guitarra(m, dur, vel=1.0):
     y = violao(m, dur, vel); return lp(np.tanh(y * 2.2) * .6, 4200)
 def acorde_curto(notas, dur, cut=3200, vel=1.0):
     return sum(serra(m, dur, cut, vel) for m in notas) * .45
+def tamborim(vel=1.0):   # tamborim: batida seca e aguda
+    n = int(.12 * SR); tt = np.arange(n) / SR; rng = np.random.default_rng(7)
+    y = np.sin(2 * np.pi * 520 * tt) * np.exp(-tt / .018) + hp(lp(rng.standard_normal(n), 6000), 1500) * np.exp(-tt / .01) * .6
+    return y * vel * .8
+def pandeiro(forte=False):   # platinelas (chiado metálico) + couro
+    n = int(.16 * SR); tt = np.arange(n) / SR; rng = np.random.default_rng(17)
+    pl = hp(lp(rng.standard_normal(n), 11000), 5000) * np.exp(-tt / .05) * (.7 if forte else .4)
+    co = np.sin(2 * np.pi * 180 * tt) * np.exp(-tt / .04) * (.6 if forte else 0)
+    return pl + co
+def cuica(alto=True):   # cuíca: glissando curto
+    n = int(.22 * SR); tt = np.arange(n) / SR; f = (520 if alto else 380) * (1 + .35 * np.sin(np.pi * tt / .22))
+    return np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / .22) ** 2 * .35
+def cavaco(notas, dur, vel=1.0):   # cavaquinho: acorde agudo bem curto, como no pagode
+    out = np.zeros(int((dur + .05) * SR))
+    for k, m in enumerate(sorted(notas)):
+        y = violao(m + 12, dur, vel) * np.exp(-np.arange(int(dur * SR)) / SR / .12); i = int(k * .006 * SR); out[i:i + len(y)] += y[:len(out) - i]
+    return lp(out * .5, 6500)
+TELECOTECO = (0, 2, 3, 5, 7, 8, 10, 12, 13, 15)   # levada do tamborim em semicolcheias
+def camada_br(M, t0, bar, leve=False):
+    for p in range(16):
+        M.put(pandeiro(p % 4 == 0), t0 + p * S16, .35, .13 if leve else .16)
+        if p in TELECOTECO: M.put(tamborim(.9 if p % 4 == 0 else .7), t0 + p * S16, -.35, .12 if leve else .17)
+    if bar % 2 == 1: M.put(cuica(True), t0 + 3 * BEAT + S16, .2, .2); M.put(cuica(False), t0 + 3 * BEAT + 3 * S16, .2, .16)
 class Mix:
     def __init__(s): s.L = np.zeros(N + 4 * SR); s.R = np.zeros(N + 4 * SR)
     def put(s, y, tt, pan=0., g=1.):
@@ -100,7 +123,40 @@ def batuque(M, kp):
         if bar >= 1:
             for k in range(8): M.put(marimba(mel[(bar * 8 + k) % 16], E8 * 1.6, .8), t0 + k * E8 + (S16 if k % 4 == 3 else 0), .25, .2)
     return ch[0][1]
-ESTILOS = {'pulsar': pulsar, 'tamborzao': tamborzao, 'estrada': estrada, 'batuque': batuque}
+def pulsarbr(M, kp):   # o pulsar com batucada por cima: tamborim no telecoteco, pandeiro e cuíca
+    tom = pulsar(M, kp)
+    for bar in range(BARS): camada_br(M, bar * BAR, bar)
+    return tom
+def pagode(M, kp):   # pop com pagode: surdo de marcação, tantã, pandeiro, cavaquinho e piano elétrico (Dó maior)
+    ch = [([48, 52, 55, 59], 36), ([45, 48, 52, 55], 33), ([50, 53, 57, 60], 38), ([43, 47, 50, 53], 31)]   # Cmaj7 Am7 Dm7 G7
+    for bar in range(BARS):
+        notas, root = ch[bar % 4]; t0 = bar * BAR
+        M.put(surdo(.8, True), t0, 0, .45); M.put(surdo(1.0), t0 + BEAT, 0, .7); M.put(surdo(.8, True), t0 + 2 * BEAT, 0, .45); M.put(surdo(1.0), t0 + 3 * BEAT, 0, .7)
+        kp += [t0 + BEAT, t0 + 3 * BEAT]
+        for p in (0, 3, 6, 8, 11, 14): M.put(tambor(110, .5), t0 + p * S16, -.15, .25)   # tantã
+        for p in (1, 3, 6, 9, 11, 14): M.put(cavaco(notas, S16 * 1.3, .8), t0 + p * S16, .25, .3)
+        for k, m in enumerate(notas): M.put(epiano(m, BAR * .95, .6), t0, -.3 + .15 * k, .12)
+        M.put(bass(root, BEAT * 1.5, 800), t0, 0, .5); M.put(bass(root + 7, BEAT * .9, 800), t0 + 3 * E8, 0, .4); M.put(bass(root, BEAT * .9, 800), t0 + 2 * BEAT, 0, .45); M.put(bass(root + 5, BEAT * .9, 800), t0 + 3 * BEAT + E8, 0, .4)
+        M.put(snare('rim'), t0 + BEAT, .1, .3); M.put(snare('rim'), t0 + 3 * BEAT, .1, .3)
+        camada_br(M, t0, bar, leve=True)
+    return ch[0][1]
+def funkpop(M, kp):   # pop com batida de funk carioca bem leve e palmas, baixo grave e sintetizador (Fá menor)
+    ch = [([53, 56, 60], 41), ([49, 53, 56], 37), ([51, 55, 58], 39), ([48, 52, 55], 36)]   # Fm Db Eb C
+    K = (0, 3, 6, 10, 11); C = (4, 12)
+    for bar in range(BARS):
+        notas, root = ch[bar % 4]; t0 = bar * BAR
+        for p in range(16):
+            t = t0 + p * S16
+            if p in K: M.put(kick(.85), t, 0, .7); kp.append(t)
+            if p in C: M.put(snare('clap'), t, 0, .5)
+            if p % 2 == 0: M.put(hat(), t, .3, .08)
+            if p in (2, 7, 9, 14): M.put(tamborim(.7), t, -.3, .12)
+        M.put(sub808(root - 12 if root > 40 else root, BEAT * 1.2), t0, 0, .5); M.put(sub808(root - 12 if root > 40 else root, BEAT * .8, .8), t0 + 6 * S16, 0, .4)
+        for p in (2, 8, 13): M.put(acorde_curto([n + 12 for n in notas], S16 * 1.2, 3000), t0 + p * S16, .2, .2)
+        if bar % 2 == 1:
+            for k, m in enumerate([77, 75, 72, 75]): M.put(marimba(m, E8 * 1.5, .7), t0 + k * BEAT + E8, .3, .14)
+    return ch[0][1]
+ESTILOS = {'pulsarbr': pulsarbr, 'pagode': pagode, 'funkpop': funkpop, 'pulsar': pulsar, 'tamborzao': tamborzao, 'estrada': estrada, 'batuque': batuque}
 def finalizar(nome, M, kp, tom):
     # trilha "cheia", que começa no drop
     d = np.ones(len(M.L))
@@ -132,7 +188,7 @@ def finalizar(nome, M, kp, tom):
     out[0, nd:nd + len(imp)] += imp; out[1, nd:nd + len(imp)] += np.roll(imp, 40)
     t2 = np.arange(N) / SR; fade = np.ones(N); fade[t2 > DUR - .8] = np.clip((DUR - t2[t2 > DUR - .8]) / .8, 0, 1)
     out = np.tanh(out * fade * 1.25); out = out / np.max(np.abs(out)) * .89
-    base = os.path.join(HERE, f'clareia-{nome}-30s')
+    base = os.environ.get('SAIDA') or os.path.join(HERE, f'clareia-{nome}-30s')
     with wave.open(base + '.wav', 'w') as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out.T * 32767).astype('<i2').tobytes())
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', base + '.wav', '-b:a', '192k', base + '.mp3'], check=True)
