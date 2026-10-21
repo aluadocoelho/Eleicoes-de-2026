@@ -2810,7 +2810,15 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     setNew(document.getElementById("q-falsas"), chk);
     setNew(document.getElementById("q-redes"), si);
     setNew(document.getElementById("q-boatos"), bo);
-    const tabNew = {aovivo: lv, pesquisas: pes, redes: si, campanha: ca, checagem: chk || bo};
+    // "Novo" na aba só até a pessoa abrir a aba: guarda o que já foi visto e só volta a marcar com conteúdo novo de verdade
+    const ids = (id, f) => { const d = dash.data(id); return d.status === "ok" ? (d.data || []).filter(r => isToday(r[f])).map(r => id + r.id) : []; };
+    const lvIds = () => { const d = dash.data("aovivo"), now = new Date(); return d.status !== "ok" ? [] : (d.data || []).filter(r => { const w = r.data && r.hora ? now - new Date(r.data + "T" + r.hora + ":00-03:00") : NaN; return r.tipo !== "Programação" && w <= 3600000 && w >= -300000; }).map(r => "aovivo" + r.id); };
+    const sig = {aovivo: lvIds(), pesquisas: ids("pesquisas", "divulgacao"), redes: ids("sinais", "data"), campanha: ids("campanha", "data"), checagem: ids("checagens", "data").concat(ids("checagens_placar", "data"), ids("boatos", "data"))};
+    let visto = {}; try { visto = JSON.parse(localStorage.getItem("el-visto") || "{}") || {}; } catch (e) {}
+    const atual = document.querySelector('.el-tab[aria-selected="true"]'), aberta = atual && atual.dataset.tab;
+    if (aberta && sig[aberta]) { visto[aberta] = (visto[aberta] || []).concat(sig[aberta]).filter((v, i, a) => a.indexOf(v) === i).slice(-200); try { localStorage.setItem("el-visto", JSON.stringify(visto)); } catch (e) {} }
+    const tabNew = {};
+    Object.keys(sig).forEach(k => { const v = visto[k] || []; tabNew[k] = sig[k].some(x => !v.includes(x)); });
     document.querySelectorAll(".el-tab").forEach(t => {
       const on = !!tabNew[t.dataset.tab];
       let dot = t.querySelector(".el-tab-new");
