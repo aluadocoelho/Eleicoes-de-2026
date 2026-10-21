@@ -544,5 +544,47 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "O checador não aponta quem criou ou espalhou.",
   "tema": "Falso apoio de Cury"
+ },
+ {
+  "id": "b40",
+  "data": "2026-10-15",
+  "alvo": "Lula",
+  "boato": "Imagem no X atribui a Lula frases dizendo que o povo nordestino é analfabeto e que compraria um baiano por R$ 10",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "Uma fala de 2022 foi cortada para parecer confissão, e as outras duas frases não existem ou foram tiradas de contexto.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/15/post-distorce-falas-de-lula-sobre-analfabetismo-e-compra-de-votos-no-nordeste/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa não identifica quem publicou a imagem, que circulava no X.",
+  "tema": "Frases falsas sobre nordestinos"
+ },
+ {
+  "id": "b41",
+  "data": "2026-10-20",
+  "alvo": "Flávio",
+  "boato": "Print do O Globo diria que Flávio elevaria a idade mínima de aposentadoria para 70 anos",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "O jornal não publicou a notícia, o plano de governo de Flávio no TSE não trata disso e a imagem foi feita com IA; Boatos.org e Reuters chegaram à mesma conclusão.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/20/e-falso-que-flavio-bolsonaro-propos-elevar-idade-minima-da-aposentadoria-para-70-anos/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa não identifica quem publicou o post, que circulava no Instagram.",
+  "tema": "Aposentadoria"
+ },
+ {
+  "id": "b42",
+  "data": "2026-10-19",
+  "alvo": "Flávio",
+  "boato": "Post atribui à CNN Brasil reportagem sobre compra de votos para Flávio, com R$ 27 milhões apreendidos",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "A reportagem real da CNN sobre a apreensão da PF não cita Flávio, e a própria CNN já havia dito que a ligação era falsa.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/19/reportagem-da-cnn-brasil-sobre-compra-de-votos-nao-cita-flavio-bolsonaro/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa não identifica quem publicou o print, que circulava no Facebook.",
+  "tema": "Compra de votos"
  }
 ]
