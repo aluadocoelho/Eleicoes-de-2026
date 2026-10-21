@@ -797,6 +797,29 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-sticky,.el-sticky.el-stuck{padding-bottom:8px}
 .el-scroll.el-bo-wrap{overflow:visible!important;padding:0 6px 6px 0}
 @media (max-width:400px){.el-seg .el-chip{padding:6px 3px;white-space:normal;line-height:1.15;min-width:0;overflow-wrap:anywhere}}
+
+.el-actions{position:relative}
+.el-a11y{position:fixed;z-index:70;width:min(320px,calc(100vw - 32px));background:var(--color-panel);color:var(--color-fg);border:3px solid var(--ink);border-radius:20px;box-shadow:6px 6px 0 var(--ink);padding:14px;display:flex;flex-direction:column;gap:8px}
+.el-a11y[hidden]{display:none}
+.el-a11y-h{font-weight:800;font-size:.95rem;padding:2px 4px 4px}
+.el-a11y-o{appearance:none;display:flex;align-items:center;gap:12px;min-height:48px;padding:8px 12px;border:2px solid var(--color-border-line);border-radius:14px;background:var(--color-bg);color:inherit;font:inherit;font-weight:700;text-align:left;cursor:pointer}
+.el-a11y-o[aria-pressed="true"],.el-drw-o[data-a11y][aria-pressed="true"]{background:#5B2DBF;color:#fff;border-color:#16181D}
+.el-a11y-o:focus-visible,.el-drw-o:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
+.el-a11y-n{margin:4px 4px 0;font-size:.8125rem;line-height:1.45;color:var(--color-fg-muted)}
+.el-tbl-alt{margin-top:10px}
+.el-tbl-alt summary{cursor:pointer;font-weight:700;font-size:.875rem;color:var(--accent-text);min-height:44px;display:flex;align-items:center}
+.el-tbl-alt table{width:100%;border-collapse:collapse;font-size:.875rem;font-variant-numeric:tabular-nums}
+.el-tbl-alt th,.el-tbl-alt td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--color-border-line)}
+.el-tbl-alt th{font-weight:700}
+/* alto contraste */
+.el.el-hc{--color-fg:#000;--color-fg-muted:#1A1A1A;--color-bg:#FFF;--color-panel:#FFF;--color-border-line:#000;--accent-text:#2A0F8F}
+.el.el-hc[data-theme="dark"]{--color-fg:#FFF;--color-fg-muted:#F0F0F0;--color-bg:#000;--color-panel:#000;--color-border-line:#FFF;--accent-text:#FFE36E}
+.el.el-hc a{text-decoration:underline!important;text-underline-offset:3px}
+.el.el-hc .el-card,.el.el-hc .el-kpi,.el.el-hc table{border-color:currentColor!important}
+/* mais espaço no texto (ajuda na leitura, inclusive com dislexia) */
+.el.el-sp p,.el.el-sp li,.el.el-sp td,.el.el-sp .el-q-s{line-height:1.85!important;letter-spacing:.03em;word-spacing:.12em}
+/* sem animações */
+.el.el-na *,.el.el-na *::before,.el.el-na *::after,body.el-na-b #el-notif,body.el-na-b #el-notif-bg{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://clareiaeleicoes.com.br/#org","name":"Clareia Eleições","alternateName":"Verita Eleições","url":"https://clareiaeleicoes.com.br/","logo":{"@type":"ImageObject","url":"https://clareiaeleicoes.com.br/icon-512.png","width":512,"height":512},"sameAs":["https://www.instagram.com/clareiaeleicoes/","https://github.com/aluadocoelho/Eleicoes-de-2026"],"description":"Agregador independente e apartidário de informações sobre as eleições no Brasil, feito com inteligência artificial e revisado por uma pessoa. Não tem relação com partidos, campanhas ou institutos de pesquisa."},{"@type":"WebSite","@id":"https://clareiaeleicoes.com.br/#site","url":"https://clareiaeleicoes.com.br/","name":"Clareia Eleições","alternateName":["Verita Eleições","Clareia"],"inLanguage":"pt-BR","description":"Acompanhe o 2º turno da eleição presidencial de 2026 entre Flávio Bolsonaro (PL) e Lula (PT): pesquisas de intenção de voto, checagens de falas, boatos desmentidos, agenda dos candidatos, debates ao vivo e redes sociais, sempre com o link da fonte original.","publisher":{"@id":"https://clareiaeleicoes.com.br/#org"}},{"@type":"WebPage","@id":"https://clareiaeleicoes.com.br/#pagina","url":"https://clareiaeleicoes.com.br/","name":"Clareia Eleições: acompanhe o 2º turno de 2026, Flávio Bolsonaro × Lula","inLanguage":"pt-BR","isPartOf":{"@id":"https://clareiaeleicoes.com.br/#site"},"about":[{"@type":"Event","name":"Eleição presidencial de 2026 no Brasil, 2º turno","startDate":"2026-10-25T08:00:00-03:00","endDate":"2026-10-25T17:00:00-03:00","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Country","name":"Brasil"},"organizer":{"@type":"GovernmentOrganization","name":"Tribunal Superior Eleitoral","url":"https://www.tse.jus.br/"}},{"@type":"Person","name":"Flávio Bolsonaro","affiliation":{"@type":"PoliticalParty","name":"Partido Liberal (PL)"}},{"@type":"Person","name":"Luiz Inácio Lula da Silva","alternateName":"Lula","affiliation":{"@type":"PoliticalParty","name":"Partido dos Trabalhadores (PT)"}}],"description":"Acompanhe o 2º turno da eleição presidencial de 2026 entre Flávio Bolsonaro (PL) e Lula (PT): pesquisas de intenção de voto, checagens de falas, boatos desmentidos, agenda dos candidatos, debates ao vivo e redes sociais, sempre com o link da fonte original.","primaryImageOfPage":"https://clareiaeleicoes.com.br/og-image.png","publisher":{"@id":"https://clareiaeleicoes.com.br/#org"}},{"@type":"Dataset","@id":"https://clareiaeleicoes.com.br/#dados","name":"Dados abertos do 2º turno das eleições presidenciais de 2026","description":"Conjuntos em JSON, atualizados automaticamente ao longo do dia, com link para a fonte de cada linha: Pesquisas de intenção de voto do 2º turno (votos válidos e totais, instituto, amostra e margem); Falas dos candidatos checadas por agências de checagem, com o selo original; Boatos e conteúdos falsos sobre os candidatos desmentidos por checadores ou pelo TSE; Agenda pública diária de Lula e Flávio Bolsonaro; Apoios, decisões da Justiça Eleitoral, debates e estratégia das campanhas; Métricas comparáveis dos dois candidatos nas redes sociais; Momentos e checagens de debates e sabatinas; Grandes eventos do 2º turno: debates, sabatinas e o dia da votação; Correções públicas feitas pela revisão de qualidade.","url":"https://github.com/aluadocoelho/Eleicoes-de-2026","license":"https://creativecommons.org/licenses/by/4.0/","inLanguage":"pt-BR","isAccessibleForFree":true,"creator":{"@id":"https://clareiaeleicoes.com.br/#org"},"keywords":["eleições 2026","segundo turno","pesquisa eleitoral","checagem de fatos","fake news","Lula","Flávio Bolsonaro","dados abertos"],"spatialCoverage":{"@type":"Country","name":"Brasil"},"temporalCoverage":"2026-10-05/2026-10-27","distribution":[{"@type":"DataDownload","name":"pesquisas.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/pesquisas.json"},{"@type":"DataDownload","name":"checagens.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/checagens.json"},{"@type":"DataDownload","name":"boatos.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/boatos.json"},{"@type":"DataDownload","name":"agenda.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/agenda.json"},{"@type":"DataDownload","name":"campanha.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/campanha.json"},{"@type":"DataDownload","name":"redes.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/redes.json"},{"@type":"DataDownload","name":"aovivo.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/aovivo.json"},{"@type":"DataDownload","name":"destaques.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/destaques.json"},{"@type":"DataDownload","name":"erratas.json","encodingFormat":"application/json","contentUrl":"https://clareiaeleicoes.com.br/data/erratas.json"}]}]}</script>
 </head>
@@ -928,7 +951,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
           <h1 class="el-title" style="margin-top:0">Flávio<span class="el-t-sn"> Bolsonaro</span> × Lula</h1>
         </div>
       </div>
-      <div class="el-actions">
+      <div class="el-actions"><div class="el-a11y" id="el-a11y" role="dialog" aria-label="Acessibilidade" hidden><div class="el-a11y-h">Acessibilidade</div><button type="button" class="el-a11y-o" data-a11y="ouvir" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Ouvir a seção</span></button><button type="button" class="el-a11y-o" data-a11y="contraste" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><span>Alto contraste</span></button><button type="button" class="el-a11y-o" data-a11y="espaco" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M2 9v6M22 9v6"/></svg><span>Mais espaço no texto</span></button><button type="button" class="el-a11y-o" data-a11y="parado" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg><span>Sem animações</span></button><p class="el-a11y-n">O botão azul no canto da tela abre a tradução em Libras (VLibras).</p></div>
       <button class="el-theme" id="reload-btn" type="button" aria-label="Atualizar a página e buscar os dados de novo" title="Atualizar">
         <svg class="el-reload-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
         <span class="el-theme-l">Atualizar</span>
@@ -941,6 +964,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
         <svg id="theme-ico-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
         <span class="el-theme-l" id="theme-lbl">Modo escuro</span>
       </button>
+      <button class="el-theme" id="a11y-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="el-a11y"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="2"/><path d="M4 8.5l8 1.5 8-1.5M12 10v5l-3.5 6M12 15l3.5 6"/></svg><span class="el-theme-l">Acessibilidade</span></button>
       </div>
     </div>
     <div class="el-legend">
@@ -1126,7 +1150,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     <div class="el-card" id="card-dif">
       <h2 class="el-h">Diferença Flávio − Lula em cada pesquisa</h2>
       <p class="el-note">Cada ponto é uma pesquisa, e a altura mostra <b>quantos pontos de vantagem</b> o líder tem nos votos válidos, não a porcentagem de cada um. Exemplo: a Vox de 18/10 deu Lula 51% e Flávio 49%, então o ponto fica em <b>L +2</b>. Acima da linha do empate, Flávio está à frente; abaixo, Lula. As linhas cinza ligam pesquisas do mesmo instituto, com o nome dele na coluna à direita. Toque num ponto para ver os números.</p>
-      <div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div>
+      <div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-dif"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
     </div>
 
     <div class="el-card" id="card-ultimas">
@@ -1154,7 +1178,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       <div class="el-card" id="card-pt">
         <h2 class="el-h">Resultado do 1º turno</h2>
         <p class="el-note">% dos votos válidos, 4 de outubro (TSE).</p>
-        <div class="el-chart-sm dash-skeleton" id="ch-pt" data-source="primeiro_turno"><svg></svg></div>
+        <div class="el-chart-sm dash-skeleton" id="ch-pt" data-source="primeiro_turno"><svg></svg></div><details class="el-tbl-alt" data-for="ch-pt"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
       </div>
       <div class="el-card" id="card-transf">
         <h2 class="el-h">Para onde vão os votos da terceira via</h2>
@@ -1289,7 +1313,7 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       </div>
       <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula.</p>
       <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
-      <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>
+      <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-falsas"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
       <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
       <div class="el-xscroll"><table class="el-t el-compact el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
         <thead><tr>
@@ -1536,6 +1560,10 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
       <button type="button" class="el-drw-o" data-proxy="reload-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg><span>Atualizar</span></button>
       <button type="button" class="el-drw-o" data-proxy="font-btn"><span aria-hidden="true" style="font-weight:900;font-size:1.15rem;line-height:22px">A<span style="font-size:.75em">+</span></span><span>Letra maior</span></button>
       <button type="button" class="el-drw-o" data-proxy="theme-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><span id="el-drw-tema">Modo escuro</span></button>
+      <button type="button" class="el-drw-o" data-a11y="ouvir" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Ouvir a seção</span></button>
+      <button type="button" class="el-drw-o" data-a11y="contraste" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><span>Alto contraste</span></button>
+      <button type="button" class="el-drw-o" data-a11y="espaco" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M2 9v6M22 9v6"/></svg><span>Mais espaço no texto</span></button>
+      <button type="button" class="el-drw-o" data-a11y="parado" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg><span>Sem animações</span></button>
     </div></div>
     <div class="el-drw-pe"><b>Que ninguém vote no escuro.</b>Informação verificada, os dois lados e linguagem simples. Siga e compartilhe: <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a></div>
   </div>
@@ -3278,6 +3306,80 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
     if (lbl && t) t.textContent = lbl.textContent;
   }));
   { const lbl = document.getElementById("theme-lbl"), t = document.getElementById("el-drw-tema"); if (lbl && t) t.textContent = lbl.textContent; }
+
+;(function () {
+  const ROOT = document.querySelector(".el"), KEY = "el-a11y";
+  let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) {}
+  const salvar = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+  const temVoz = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  const btns = () => document.querySelectorAll("[data-a11y]");
+  function aplicar() {
+    ROOT.classList.toggle("el-hc", !!st.contraste); ROOT.classList.toggle("el-sp", !!st.espaco);
+    ROOT.classList.toggle("el-na", !!st.parado); document.body.classList.toggle("el-na-b", !!st.parado);
+    btns().forEach(b => { const k = b.dataset.a11y; if (k === "ouvir") { b.hidden = !temVoz; b.setAttribute("aria-pressed", String(falando)); b.querySelector("span").textContent = falando ? "Parar de ouvir" : "Ouvir a seção"; } else b.setAttribute("aria-pressed", String(!!st[k])); });
+  }
+  // Ouvir: lê em voz alta o texto da seção aberta, com a voz do próprio aparelho, em pedaços curtos
+  let falando = false, fila = [];
+  function voz() { const vs = speechSynthesis.getVoices(); return vs.find(v => /^pt[-_]BR/i.test(v.lang)) || vs.find(v => /^pt/i.test(v.lang)) || null; }
+  function proximo() {
+    if (!falando || !fila.length) { falando = false; aplicar(); return; }
+    const u = new SpeechSynthesisUtterance(fila.shift()); u.lang = "pt-BR"; const v = voz(); if (v) u.voice = v; u.rate = 1;
+    u.onend = proximo; u.onerror = () => { falando = false; aplicar(); };
+    speechSynthesis.speak(u);
+  }
+  function ouvir() {
+    if (falando) { falando = false; fila = []; speechSynthesis.cancel(); aplicar(); return; }
+    const pg = Array.from(document.querySelectorAll(".el-page")).find(p => !p.hidden); if (!pg) return;
+    const partes = [];
+    pg.querySelectorAll("h2,h3,p,li,.el-q-a,.el-q-s,caption,tr").forEach(n => {
+      if (n.closest("[hidden],details:not([open]),svg,.el-tip,[aria-hidden=true]")) return;
+      if (n.matches("p,li") && n.closest("tr")) return;
+      const t = (n.innerText || "").replace(/\s+/g, " ").trim(); if (t.length > 1) { let x = n.matches("tr") ? t.replace(/\t/g, ", ") : t; if (!/[.!?:;]$/.test(x)) x += "."; partes.push(x); }
+    });
+    fila = [];
+    partes.forEach(t => { (t.match(/[^.!?]+[.!?]*/g) || [t]).forEach(s => { s = s.trim(); if (!s) return; if (fila.length && (fila[fila.length - 1] + " " + s).length < 220) fila[fila.length - 1] += " " + s; else fila.push(s); }); });
+    if (!fila.length) return;
+    falando = true; speechSynthesis.cancel(); aplicar(); proximo();
+  }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-a11y]"); if (!b) return;
+    const k = b.dataset.a11y;
+    if (k === "ouvir") ouvir(); else { st[k] = !st[k]; salvar(); aplicar(); }
+  });
+  // para a leitura ao trocar de aba
+  document.querySelectorAll(".el-tab").forEach(t => t.addEventListener("click", () => { if (falando) { falando = false; fila = []; speechSynthesis.cancel(); aplicar(); } }));
+  // painel do botão Acessibilidade (computador)
+  const ab = document.getElementById("a11y-btn"), pn = document.getElementById("el-a11y");
+  if (ab && pn) {
+    const fecha = () => { pn.hidden = true; ab.setAttribute("aria-expanded", "false"); };
+    ROOT.appendChild(pn);
+    const posiciona = () => { const r = ab.getBoundingClientRect(); pn.style.top = Math.round(r.bottom + 10) + "px"; pn.style.right = Math.max(16, Math.round(innerWidth - r.right)) + "px"; };
+    addEventListener("resize", () => { if (!pn.hidden) posiciona(); }); addEventListener("scroll", () => { if (!pn.hidden) posiciona(); }, {passive: true});
+    ab.addEventListener("click", () => { const abre = pn.hidden; if (abre) posiciona(); pn.hidden = !abre; ab.setAttribute("aria-expanded", String(abre)); if (abre) { const f = pn.querySelector("button:not([hidden])"); if (f) f.focus(); } });
+    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !pn.hidden) { fecha(); ab.focus(); } });
+    document.addEventListener("pointerdown", ev => { if (!pn.hidden && !pn.contains(ev.target) && !ab.contains(ev.target)) fecha(); });
+  }
+  if (temVoz && speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = () => {};
+  aplicar();
+  // gráficos também em tabela, para leitor de tela e para quem prefere números
+  const n1 = v => v == null || v === "" ? "—" : (typeof v === "number" ? v.toLocaleString("pt-BR", {maximumFractionDigits: 1}) : String(v));
+  const dt = s => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(s || "")); return m ? m[3] + "/" + m[2] : n1(s); };
+  const TAB = {
+    "ch-dif": () => { const d = dash.data("pesquisas"); return d.status !== "ok" ? null : {cab: ["Instituto", "Divulgação", "Flávio (válidos)", "Lula (válidos)", "Diferença"], linhas: (d.data || []).slice().sort((a, b) => String(b.divulgacao).localeCompare(String(a.divulgacao))).map(r => [r.instituto, dt(r.divulgacao), n1(r.flavio_validos) + "%", n1(r.lula_validos) + "%", (r.flavio_validos - r.lula_validos > 0 ? "Flávio +" : r.flavio_validos - r.lula_validos < 0 ? "Lula +" : "") + n1(Math.abs(r.flavio_validos - r.lula_validos))])}; },
+    "ch-pt": () => { const d = dash.data("primeiro_turno"); return d.status !== "ok" ? null : {cab: ["Candidato", "Partido", "Votos válidos"], linhas: (d.data || []).map(r => [r.candidato, r.partido || "", n1(r.pct) + "%"])}; },
+    "ch-falsas": () => { const d = dash.data("taxa_falsas"); return d.status !== "ok" ? null : {cab: ["Candidato", "Até", "Falas falsas", "Falas checadas", "Taxa"], linhas: (d.data || []).map(r => [r.candidato, dt(r.data), n1(r.falsas), n1(r.total), r.taxa == null ? "—" : Math.round(r.taxa * 100) + "%"])}; }
+  };
+  dash.onData(() => {
+    document.querySelectorAll(".el-tbl-alt").forEach(dl => {
+      const f = TAB[dl.dataset.for], t = f && f(); if (!t) return;
+      const box = dl.querySelector(".el-tbl-alt-b"); box.textContent = "";
+      const tb = document.createElement("table"), th = tb.createTHead().insertRow();
+      t.cab.forEach(c => { const e = document.createElement("th"); e.scope = "col"; e.textContent = c; th.appendChild(e); });
+      const bd = tb.createTBody(); t.linhas.forEach(l => { const tr = bd.insertRow(); l.forEach(c => { tr.insertCell().textContent = c; }); });
+      box.appendChild(tb);
+    });
+  });
+})();
 </script>
 <div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
   <h2 id="ck-t">Podemos usar cookies de estatística?</h2>
