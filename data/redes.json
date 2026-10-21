@@ -232,5 +232,14 @@
   "flavio": 3610000,
   "fonte": "Instituto Democracia em Xeque (Data Lake DX), via Agenda do Poder",
   "url": "https://agendadopoder.com.br/lula-supera-flavio-bolsonaro-e-lidera-debate-sobre-seguranca-publica-nas-redes-sociais/"
+ },
+ {
+  "id": "ipd-quaest-1910",
+  "metrica": "Índice de Popularidade Digital (0 a 100)",
+  "periodo": "19 out, após o debate da Band (em 5 out: Lula 70,7; Flávio 80,1)",
+  "lula": 83.3,
+  "flavio": 76.6,
+  "fonte": "Quaest, via Jornal de Brasília",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-mantem-lideranca-sobre-flavio-bolsonaro-em-indice-de-popularidade-digital-apos-debate/"
  }
 ]
