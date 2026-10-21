@@ -10,14 +10,14 @@ Para gerar de novo ou mudar a duração: edite `DUR` (duração), `T0` (primeiro
 
 ## Variações (desde 20/10/2026)
 
-Para os vídeos não soarem sempre iguais, `gerar_variacoes.py` gera mais cinco trilhas no mesmo ritmo e com os mesmos pontos de corte (0,7 / 5,6 / 12,6 s), todas normalizadas em cerca de -9 LUFS:
+Para os vídeos não soarem sempre iguais, `gerar_variacoes.py` gera trilhas no mesmo ritmo e com os mesmos pontos de corte (0,7 / 5,6 / 12,6 s), normalizadas em cerca de -9 LUFS. As três aprovadas, que entram no sorteio do `video.py`:
 
 | Nome | Clima | Boa para |
 |---|---|---|
-| `amanhecer` | violão dedilhado em Ré maior, aro e shaker | anúncios, novidades leves |
 | `praca` | kalimba e baixo saltitante em Sol maior, palmas | agenda, convites, chamadas |
 | `noite` | vibrafone e pad em Lá menor, chiado de vinil | checagens, boatos, plantão à noite |
 | `jornal` | piano elétrico em Mi bemol com melodia curta | pesquisas e números |
-| `domingo` | violão e vibrafone em Fá maior, batida bem leve | dia da votação |
 
-No JSON do reels, `"trilha": "noite"` escolhe uma delas (também aceita `verita-lofi-20s.wav` e `verita-lofi-media-20s.wav`). Sem o campo, o `video.py` sorteia uma das sete conforme o conteúdo.
+`amanhecer` e `domingo` ficaram alegres demais para o assunto e foram descartadas (continuam no gerador, mas não são geradas nem sorteadas: `python3 gerar_variacoes.py praca noite jornal`).
+
+No JSON do reels, `"trilha": "noite"` fixa uma delas. Sem o campo, o `video.py` sorteia entre `praca`, `noite` e `jornal` conforme o conteúdo.

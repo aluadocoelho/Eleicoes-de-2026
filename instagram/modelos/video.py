@@ -11,7 +11,7 @@ Especificação (todos os textos curtos; cada item de "itens" tem rotulo, texto 
  "cena2": {"chip": "Terça, 20/10 · TSE", "titulo": "Lula diz que entrega...", "destaque": "quebrar seus sigilos.", "itens": [{"rotulo": "O que entra", "texto": "...", "lado": "lula"}]},
  "cena3": {"chip": "E o outro lado?", "itens": [{"rotulo": "Flávio Bolsonaro", "texto": "...", "lado": "flavio"}], "chamada": "Acompanhe", "chamada_destaque": "ao longo do dia."},
  "rodape": "Fontes: Poder360 e CNN Brasil (19/10)",
- "trilha": "noite"   # opcional: amanhecer, praca, noite, jornal, domingo, verita-lofi-20s.wav ou verita-lofi-media-20s.wav; sem o campo, sorteia
+ "trilha": "noite"   # opcional: praca, noite ou jornal (ou verita-lofi-20s.wav / verita-lofi-media-20s.wav); sem o campo, sorteia entre praca, noite e jornal
 }
 "lado": "lula" (vermelho), "flavio" (azul) ou "neutro" (amarelo). Gera reels.mp4 e capa.jpg.
 Precisa de Playwright + Chromium, Pillow e ffmpeg. Cortes em 0,7 s, 5,6 s e 12,6 s, no ritmo da trilha.
@@ -23,13 +23,15 @@ import pecas as P
 from pecas import AMARELO, AZUL, VERM, TINTA, SERIF, SANS
 E = html.escape
 TRILHAS_DIR = os.path.join(AQUI, 'trilhas')
+ROTACAO = ['praca', 'noite', 'jornal']   # trilhas aprovadas pelo dono (20/10/2026)
 def escolher_trilha(spec):
-    """Usa spec["trilha"] (nome curto, ex. "noite", ou arquivo); senão sorteia uma das trilhas da pasta (a escolha depende do conteúdo, então cada reels tende a sair com uma diferente)."""
+    """Usa spec["trilha"] (nome curto, ex. "noite", ou arquivo); senão sorteia uma das trilhas de ROTACAO (a escolha depende do conteúdo, então cada reels tende a sair com uma diferente)."""
     import glob, hashlib, random
-    nomes = sorted(glob.glob(os.path.join(TRILHAS_DIR, '*-20s.wav')))
+    nomes = [os.path.join(TRILHAS_DIR, f'clareia-lofi-{n}-20s.wav') for n in ROTACAO]
+    nomes = [n for n in nomes if os.path.exists(n)]
     pedida = spec.get('trilha')
     if pedida:
-        for n in nomes:
+        for n in sorted(glob.glob(os.path.join(TRILHAS_DIR, '*-20s.wav'))):
             if os.path.basename(n) in (pedida, f'clareia-lofi-{pedida}-20s.wav', f'{pedida}.wav'): return n
     semente = hashlib.md5(json.dumps(spec, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     return random.Random(semente).choice(nomes) if nomes else None

@@ -138,4 +138,4 @@ def gerar(nome):
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', base + '.wav', '-b:a', '192k', base + '.mp3'], check=True)
     print(nome, 'ok')
 if __name__ == '__main__':
-    for nome in (sys.argv[1:] or V): gerar(nome)
+    for nome in (sys.argv[1:] or ['praca', 'noite', 'jornal']): gerar(nome)
