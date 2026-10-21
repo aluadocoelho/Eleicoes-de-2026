@@ -1,13 +1,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/logo-escuro.png">
-  <img alt="Verita Eleições" src="assets/readme/logo-claro.png" width="420">
+  <img alt="Clareia Eleições" src="assets/readme/logo-claro.png" width="420">
 </picture>
 
-# Verita Eleições · 2º turno 2026, dados abertos
+# Clareia Eleições · 2º turno 2026, dados abertos
+
+> Antes chamada Verita Eleições. Mudamos de nome em 20/10/2026 para não haver confusão com o Instituto Veritá, de pesquisas eleitorais, com quem nunca tivemos relação.
 
 ![Eleições 2026, 2º turno: dados abertos sobre Flávio Bolsonaro (PL) e Lula (PT). Pesquisas, checagens, boatos, redes sociais e ao vivo, tudo com link para a fonte original.](assets/readme/capa.png)
 
-**Página pública:** https://aluadocoelho.github.io/Eleicoes-de-2026/ (Verita Eleições), versão em linguagem simples, feita para celular, que lê os dados deste repositório.
+**Página pública:** https://aluadocoelho.github.io/Eleicoes-de-2026/ (Clareia Eleições), versão em linguagem simples, feita para celular, que lê os dados deste repositório.
 
 Dados reunidos sobre o 2º turno da eleição presidencial de 2026 (Flávio Bolsonaro, PL × Lula, PT; votação em 25 de outubro): pesquisas de intenção de voto, redes sociais, agenda e eventos das campanhas, checagens de fatos e boatos desmentidos.
 

@@ -1,4 +1,4 @@
-# Instagram da Verita Eleições
+# Instagram da Clareia Eleições (antes Verita Eleições)
 
 Fluxo com aprovação:
 

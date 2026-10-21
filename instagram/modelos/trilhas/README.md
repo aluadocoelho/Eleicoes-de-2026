@@ -1,6 +1,6 @@
-# Trilhas da Verita
+# Trilhas da Clareia
 
-`verita-lofi-20s.mp3` (e `.wav`) é a trilha padrão dos vídeos da Verita: lo-fi a 85,7 bpm, piano elétrico quente, baixo redondo e batida abafada, sem agudos e com todas as notas presas no ritmo. Usada pela primeira vez no reels do plantão da quebra de sigilo (19/10/2026).
+`verita-lofi-20s.mp3` (e `.wav`) é a trilha padrão dos vídeos da Clareia: lo-fi a 85,7 bpm, piano elétrico quente, baixo redondo e batida abafada, sem agudos e com todas as notas presas no ritmo. Usada pela primeira vez no reels do plantão da quebra de sigilo (19/10/2026).
 
 Original, composta por código: não usa música de terceiros, então pode ir para Instagram, TikTok e YouTube sem problema de direitos.
 
