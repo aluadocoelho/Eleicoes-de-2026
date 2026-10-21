@@ -26,23 +26,19 @@ c1 = (f'<div class="up" style="animation-delay:.2s;font-size:44px;font-weight:90
       f'<div style="display:grid;place-items:center;margin:30px 0 10px">{logo}</div>'
       f'<div class="up" style="animation-delay:2.6s;text-align:center;font-family:\'Source Serif 4\';font-weight:900;font-size:170px;letter-spacing:-.03em;line-height:1;color:#fff">Clareia</div>'
       f'<div class="up" style="animation-delay:2.9s;text-align:center;font-weight:900;font-size:62px;letter-spacing:.2em;color:{AM};margin-top:10px">ELEIÇÕES</div>')
-c2 = (f'<div class="up" style="animation-delay:5.1s;font-size:40px;font-weight:900;letter-spacing:.1em;color:{AM}">POR QUE MUDAMOS</div>'
-      f'<div class="up" style="animation-delay:5.25s;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.04;color:#fff">Para ninguém<br><span style="color:{AM}">confundir.</span></div>'
-      + card('Quem é o Veritá', 'Um instituto que faz pesquisas eleitorais.', 6.1)
-      + card('E a Clareia?', 'Nunca teve relação com ele. A gente só reúne o que já foi publicado, com a fonte.', 7.0))
-c3 = (f'<div class="up" style="animation-delay:9.6s;font-size:40px;font-weight:900;letter-spacing:.1em;color:{AM}">O QUE CONTINUA IGUAL</div>'
-      f'<div class="up" style="animation-delay:9.75s;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.04;color:#fff">O mesmo<br><span style="color:{AM}">propósito.</span></div>'
+c2 = (f'<div class="up" style="animation-delay:5.1s;font-size:40px;font-weight:900;letter-spacing:.1em;color:{AM}">O QUE MUDOU</div>'
+      f'<div class="up" style="animation-delay:5.25s;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.04;color:#fff">Novo nome,<br><span style="color:{AM}">nova cara.</span></div>'
+      + card('O nome', 'Clareia Eleições: a gente quer ajudar a clarear o 2º turno.', 6.1)
+      + card('O visual', 'Uma lâmpada que acende, com as duas cores da disputa.', 6.9)
+      + card('O perfil', 'Agora é @clareiaeleicoes. Quem já segue não precisa fazer nada.', 7.7))
+c3 = (f'<div class="up" style="animation-delay:9.6s;font-size:40px;font-weight:900;letter-spacing:.1em;color:{AM}">O QUE NÃO MUDA</div>'
+      f'<div class="up" style="animation-delay:9.75s;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.04;color:#fff">O jeito<br><span style="color:{AM}">de sempre.</span></div>'
       + card('Sempre com fonte', 'Cada informação com o link de onde veio.', 10.5, '#7EA6FF')
       + card('Mesmo critério', 'Os dois lados tratados do mesmo jeito.', 11.3, VM))
-url = (f'<div class="pop" style="animation-delay:15.1s;background:#fff;border:5px solid {AM};box-shadow:14px 14px 0 {AM};border-radius:40px;padding:38px 40px;display:flex;align-items:center;gap:26px">'
-       f'{M.icone(120, sombra=False)}<div style="font-weight:900;font-size:62px;letter-spacing:-.01em;color:{T}">clareiaeleicoes<span style="color:{ROXO}">.com.br</span></div></div>')
-c4 = (f'<div class="up" style="animation-delay:14.1s;font-size:40px;font-weight:900;letter-spacing:.1em;color:{AM}">E AGORA TEMOS CASA PRÓPRIA</div>'
-      f'<div class="up" style="animation-delay:14.25s;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.04;color:#fff">Um endereço<br><span style="color:{AM}">só nosso:</span></div>'
-      f'<div style="margin:20px 0">{url}</div>'
-      f'<div class="up" style="animation-delay:16.4s;font-size:46px;line-height:1.35;color:#E2D9FA">Pesquisas, checagens, boatos desmentidos e a agenda do 2º turno, tudo num lugar só.</div>'
-      f'<div class="up" style="animation-delay:17.3s;display:flex;justify-content:space-between;align-items:center;margin-top:10px">'
-      f'<div style="font-family:\'Source Serif 4\';font-weight:800;font-size:64px;line-height:1.05;color:#fff">Que ninguém vote<br><span style="color:{AM}">no escuro.</span></div>'
-      f'<span style="background:{AM};color:{T};border:4px solid {T};box-shadow:7px 7px 0 {T};border-radius:999px;padding:20px 34px;font-weight:900;font-size:42px">Link na bio</span></div>')
+c4 = (f'<div style="display:grid;place-items:center" class="pop" style="animation-delay:14s"><div>{M.icone(380)}</div></div>'
+      f'<div class="up" style="animation-delay:14.5s;text-align:center;font-family:\'Source Serif 4\';font-weight:800;font-size:104px;line-height:1.05;color:#fff;margin-top:20px">Que ninguém vote<br><span style="color:{AM}">no escuro.</span></div>'
+      f'<div class="up" style="animation-delay:15.6s;text-align:center;font-size:46px;line-height:1.35;color:#E2D9FA">Pesquisas, checagens e boatos desmentidos do 2º turno, com a fonte de cada um.</div>'
+      f'<div class="up" style="animation-delay:16.6s;display:flex;justify-content:center;margin-top:10px"><span style="background:{AM};color:{T};border:4px solid {T};box-shadow:7px 7px 0 {T};border-radius:999px;padding:22px 40px;font-weight:900;font-size:46px">Tudo no link da bio</span></div>')
 html = f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:'Public Sans';src:url('file://{F}/PublicSans.ttf');font-weight:100 900}}
 @font-face{{font-family:'Source Serif 4';src:url('file://{F}/SourceSerif4.ttf');font-weight:200 900}}

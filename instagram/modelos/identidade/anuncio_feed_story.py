@@ -10,14 +10,14 @@ def pag(h, story):
 <div id="r" style="width:1080px;height:{h}px;background:{ROXO};color:#fff;font-family:'Public Sans';position:relative;overflow:hidden;box-sizing:border-box;padding:{170 if story else 90}px 80px {200 if story else 80}px;display:flex;flex-direction:column;justify-content:space-between">
 <div style="position:absolute;left:0;right:0;top:0;height:22px;display:flex"><i style="flex:1;background:#1F4FA8"></i><i style="flex:1;background:#D62B2B"></i></div>
 <svg style="position:absolute;right:-220px;bottom:-80px;opacity:.08" width="700" height="700" viewBox="0 0 140 140">{M.simbolo()}</svg>
-<div style="font-size:36px;font-weight:900;letter-spacing:.12em;color:{AM}">NOVO NOME E NOVO ENDEREÇO</div>
+<div style="font-size:36px;font-weight:900;letter-spacing:.12em;color:{AM}">NOVO NOME, NOVA CARA</div>
 <div style="display:flex;align-items:center;gap:40px;{'flex-direction:column;align-items:flex-start' if story else ''}">
  <div style="font-family:'Source Serif 4';font-weight:800;font-size:{70 if story else 60}px;line-height:1.05;{'' if story else 'display:none'}">A Verita agora é</div>
  <div style="display:flex;align-items:center;gap:36px">{M.icone(lg if not story else 300)}<div style="display:flex;flex-direction:column;line-height:1">
  <span style="font-family:'Source Serif 4';font-weight:900;font-size:{fs}px;letter-spacing:-.03em">Clareia</span>
  <span style="font-weight:900;font-size:{fs*.38:.0f}px;letter-spacing:.18em;color:{AM};margin-top:12px">ELEIÇÕES</span></div></div></div>
-<div style="font-size:{40 if story else 36}px;line-height:1.4;color:#E2D9FA">{'Mudamos de nome para não haver confusão com o Instituto Veritá, de pesquisas eleitorais, com quem nunca tivemos relação. O propósito é o mesmo: tudo com fonte, os dois lados com o mesmo critério.' if story else 'A Verita agora é Clareia: novo nome para não haver confusão com o Instituto Veritá, de pesquisas, com quem nunca tivemos relação. O propósito é o mesmo.'}</div>
-<div style="display:flex;flex-direction:column;gap:22px"><div style="font-size:34px;font-weight:900;letter-spacing:.1em;color:{AM}">E AGORA TEMOS CASA PRÓPRIA</div>{url}</div>
+<div style="font-size:{40 if story else 36}px;line-height:1.4;color:#E2D9FA">{'Mudamos o nome e o visual. O jeito de trabalhar continua o mesmo: tudo com fonte e os dois lados com o mesmo critério.' if story else 'A Verita agora é Clareia. Mudamos o nome e o visual; o jeito de trabalhar continua o mesmo: tudo com fonte e os dois lados com o mesmo critério.'}</div>
+<div style="font-family:'Source Serif 4';font-weight:800;font-size:{84 if story else 70}px;line-height:1.05">Que ninguém vote<br><span style="color:{AM}">no escuro.</span></div>
 <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:30px;font-weight:800;color:#E2D9FA">{M.ARROBA}</span>
 <span style="background:{AM};color:{T};border:4px solid {T};box-shadow:6px 6px 0 {T};border-radius:999px;padding:18px 32px;font-weight:900;font-size:40px">Link na bio</span></div></div>'''
 from playwright.async_api import async_playwright
