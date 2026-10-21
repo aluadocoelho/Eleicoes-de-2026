@@ -2974,6 +2974,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F943-1285",
+  "conjunto": "boatos",
+  "id": "b44",
+  "registro": {
+   "id": "b44",
+   "data": "2026-10-21",
+   "alvo": "Flávio",
+   "boato": "Propaganda de Lula mostra cenas encenadas de assédio a mulheres ao lado de vídeo de Flávio",
+   "veredito": "TSE mandou suspender",
+   "agencia": "TSE",
+   "explicacao": "O ministro Marco Aurélio Bellizze entendeu que as cenas encenadas podem mudar o sentido do vídeo original e levar o eleitor a crer que aquilo aconteceu de fato. A ação foi movida por Flávio.",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-suspender-propaganda-que-associa-flavio-a-assedio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Segundo a reportagem da CNN Brasil, a propaganda foi veiculada pela coligação de Lula.",
+   "tema": "Assédio"
+  },
+  "primeira_vez": "2026-10-21T18:29:28Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
