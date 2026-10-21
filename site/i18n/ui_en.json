@@ -214,7 +214,7 @@
 "Nenhuma correção até agora.": "No corrections so far.",
 "Nenhuma informação desta página tem esse código. Se ele estava num print, o print não saiu daqui ou foi alterado. Desconfie e não compartilhe.": "No information on this page has that code. If it was in a screenshot, the screenshot did not come from here or was altered. Be suspicious and do not share it.",
 "Nos": "Among the",
-"Novidade de hoje": "Today's news",
+"Novidade de hoje": "New today",
 "Novo nome:": "New name:",
 "Não dizemos em quem votar. Veja o": "We do not tell you who to vote for. See the",
 "Não temos nenhuma relação com o Instituto Veritá": "We have no relationship with Instituto Veritá",
@@ -459,5 +459,7 @@
 "{t}: Flávio — e Lula {n}% das falas checadas classificadas como falsas": "{t}: Flávio — and Lula {n}% of checked statements rated false",
 "{t}: Flávio {n}% e Lula — das falas checadas classificadas como falsas": "{t}: Flávio {n}% and Lula — of checked statements rated false",
 "{t} (encomenda do Grupo Globo, registro {t}); válidos calculados": "{t} (commissioned by Grupo Globo, registration {t}); valid votes calculated",
-"{t} (registro {t}, contratada pela {t}), via {t}": "{t} (registration {t}, commissioned by {t}), via {t}"
+"{t} (registro {t}, contratada pela {t}), via {t}": "{t} (registration {t}, commissioned by {t}), via {t}",
+"Novo": "New",
+"A Clareia": "Clareia"
 }
