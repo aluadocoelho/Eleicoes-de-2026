@@ -62,7 +62,7 @@ body{{margin:0}}
 .up{{animation:up .55s cubic-bezier(.2,.8,.3,1) both}}
 </style></head><body><div class="f">
 <div style="position:absolute;left:0;right:0;top:0;display:flex;height:22px;z-index:5"><div style="flex:1;background:{AZUL}"></div><div style="flex:1;background:{VERM}"></div></div>
-<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 100 100"><polygon points="12,16 36,16 50,42.5 50,88" fill="{AZUL}"/><polygon points="50,42.5 64,16 88,16 50,88" fill="{VERM}"/><polygon points="12,16 36,16 50,42.5 64,16 88,16 50,88" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>
+<svg style="position:absolute;right:-200px;bottom:120px;opacity:.10;z-index:0" width="700" height="700" viewBox="0 0 140 140">{P.M.simbolo()}</svg>
 <div style="position:absolute;left:80px;right:80px;top:120px;display:flex;align-items:center;justify-content:space-between;z-index:6">
   <div style="animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center">{P.assinatura(50)}</div>
   <span class="up" style="animation-delay:.3s;font-size:30px;font-weight:800;color:{SUB}">{P.M.ARROBA}</span>
