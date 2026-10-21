@@ -614,5 +614,19 @@
   "origem_campo": "Campo de Lula",
   "origem_detalhe": "Segundo a reportagem da CNN Brasil, a propaganda foi veiculada pela coligação de Lula.",
   "tema": "Assédio"
+ },
+ {
+  "id": "b45",
+  "data": "2026-10-16",
+  "alvo": "Lula",
+  "boato": "Vídeos de distribuição de ossos em Fortaleza são apresentados como cena do governo Lula",
+  "veredito": "Falta contexto",
+  "agencia": "Lupa",
+  "explicacao": "Os vídeos mostram uma ação social de um projeto em Fortaleza, sem relação com o governo, e um deles é de dezembro de 2024; a afirmação do áudio sobre moradores de rua também foi considerada exagerada.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/16/videos-de-doacao-de-ossos-em-fortaleza-circulam-fora-de-contexto-e-nao-tem-relacao-com-o-governo-lula/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo a Lupa, o conteúdo foi compartilhado nos perfis de Flávio e do PL e no canal de WhatsApp Tropa do Flávio, ligado à campanha.",
+  "tema": "Fila do osso"
  }
 ]
