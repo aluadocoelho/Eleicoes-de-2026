@@ -6728,6 +6728,26 @@
    "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
   },
   "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "691F-DCA0",
+  "conjunto": "checagens_placar",
+  "id": "gp-sbt-lula",
+  "registro": {
+   "id": "gp-sbt-lula",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "data": "2026-10-19",
+   "total": 11,
+   "verdadeiro": 0,
+   "impreciso": 11,
+   "falso": 0,
+   "nota": "Checagem da Gazeta do Paraná (20/10), só falas do próprio Lula. O veículo usa cinco selos: 'verdadeira com ressalvas' (4), 'sem comprovação' (4) e 'imprecisa' (3) entraram como impreciso; nenhuma fala recebeu selo verdadeiro puro ou falso.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
+  },
+  "primeira_vez": "2026-10-21T19:34:48Z",
   "ainda_publicado": true
  },
  {
