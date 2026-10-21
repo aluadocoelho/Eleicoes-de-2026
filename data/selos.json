@@ -8526,6 +8526,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "915D-52E7",
+  "conjunto": "redes",
+  "id": "vox-ig-fav",
+  "registro": {
+   "id": "vox-ig-fav",
+   "metrica": "Comentários favoráveis no Instagram (%)",
+   "periodo": "0h de 18 out às 8h de 19 out (debate da Band)",
+   "lula": 51,
+   "flavio": 36,
+   "fonte": "Vox Radar, via Itatiaia",
+   "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-51-dos-comentarios-nas-redes-foram-favoraveis-a-lula-apos-debate-na-band/"
+  },
+  "primeira_vez": "2026-10-21T23:29:10Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0F29-67AE",
   "conjunto": "redes",
   "id": "whats-canais-2110",
@@ -8889,6 +8905,20 @@
    "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D3A8-426D",
+  "conjunto": "sinais",
+  "id": "vox-temas",
+  "registro": {
+   "id": "vox-temas",
+   "data": "2026-10-21",
+   "sinal": "Segundo a Vox Radar, em 7,6 milhões de comentários no Instagram de 14 a 20 de outubro, o sigilo bancário foi o assunto mais citado (44%), seguido do Bolsa Família (20,2%). Nos dois temas os comentários favoráveis a Lula foram maioria (79% e 67%); no caso Luchsinger, 87% foram favoráveis a Flávio.",
+   "fonte": "Vox Radar, via Itatiaia",
+   "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-sigilo-bancario-e-bolsa-familia-sao-os-assuntos-mais-comentados-nas-redes-na-reta-final-da-eleicao/"
+  },
+  "primeira_vez": "2026-10-21T23:29:10Z",
   "ainda_publicado": true
  },
  {
