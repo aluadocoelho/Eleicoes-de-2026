@@ -348,5 +348,19 @@
   "lula_totais": 46.0,
   "fonte": "Transmissão Política (Meio/Ideia, entrevistas por telefone, registro BR-08251/2026)",
   "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisa-meio-ideia-flavio-lula-segundo-turno/"
+ },
+ {
+  "id": "futura-2110",
+  "instituto": "Futura",
+  "divulgacao": "2026-10-21",
+  "campo": "19–20 out",
+  "amostra": 2000,
+  "margem": 2.2,
+  "flavio_validos": 51.1,
+  "lula_validos": 48.9,
+  "flavio_totais": 48.9,
+  "lula_totais": 46.8,
+  "fonte": "Futura/Apex (registro BR-06614/2026, contratada pela 100% Cidades), via Blog do BG",
+  "url": "https://www.blogdobg.com.br/futura-apex-lula-cai-para-489-e-flavio-sobe-para-511-dos-votos-validos/"
  }
 ]
