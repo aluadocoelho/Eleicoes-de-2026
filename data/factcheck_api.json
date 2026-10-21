@@ -938,7 +938,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1406,18 +1406,18 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
   "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "falso",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
+  "selo": "não_é_bem_assim",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/diretor-quaest-flavio-bolsonaro/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Você crê na Quaest? BURRO! Este abaixo, ao lado de Tariflávio Bolsomaster, é Felipe Nunes, sócio da Quaest, que frequenta a Globo e GloboNews, sempre aproveitando pra desancar Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-17",
@@ -2647,7 +2647,7 @@
   "data_afirmacao": "2026-10-20",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que o governador eleito do Maranhão tenha declarado ...",
+  "titulo": "É falso que o governador eleito do Maranhão tenha declarado apoio a Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flso-governador-eleito-mranhao-apoio-flavio-bolsonaro/"
  },
@@ -2796,6 +2796,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/aviao-capturou-maduro-brasil-exercicio-militar-deixou-o-pais/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/atos-direita-esquerda-paulista/",
+  "termo": "Lula",
+  "afirmacao": "Foto de manifestação da direita vs manifestação da esquerda no dia 12 de outubro de 2026",
+  "quem_disse": "Boatos de redes sociais",
+  "data_afirmacao": "2026-10-21",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Montagem que compara atos de esquerda e direita na Paulista foi ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/atos-direita-esquerda-paulista/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/adesivo-flavio-digitalmente-imagem-empregada-domestica-fez-l/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Trabalhadora doméstica 'faz o L' de apoio a Lula em apartamento com adesivo de Flávio Bolsonaro",
@@ -2818,6 +2830,18 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo de Jair Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "IstoÉ não publicou capa com Flávio Bolsonaro; imagem foi alterada por IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm",
@@ -2962,6 +2986,18 @@
   "titulo": "Flávio Bolsonaro não criticou direitos trabalhistas; áudio foi adulterado",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/06/falso-video-flavio-bolsonaro-critica-direitos-trabalhistas.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/06/falso-erro-apuracao-porcentagem-flavio-bolsonaro-lula.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Queda de porcentagem de Flávio comprova erro na apuração de votos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Queda de porcentagem de Flávio Bolsonaro não é prova de erro em apuração",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/06/falso-erro-apuracao-porcentagem-flavio-bolsonaro-lula.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-jogou-bandeira-brasil-chao-apos-votar.ghtm",
@@ -3262,6 +3298,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "IstoÉ não publicou capa com Flávio Bolsonaro; imagem foi alterada por IA",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Multidão lota 12 quarteirões da Paulista para ato de Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vídeo de avenida Paulista cheia é de 2024, não de ato de Flávio no domingo",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm",
