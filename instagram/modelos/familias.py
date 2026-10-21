@@ -12,6 +12,7 @@ para que dê para saber do que a peça fala só de bater o olho (aprovado pelo d
 Usado por pecas.py quando a especificação traz "familia" (em vez de "modelo"). Formatos: feed (1080x1350) e story (1080x1920).
 Campos de cada família:
   pesquisa: instituto, divulgacao ("21/10"), flavio, lula (votos válidos), margem, amostra?, campo?, fonte, registro?, nota? (texto do quadro amarelo)
+            ou grafico: tendencia | rodada | media | totais | margem (veja graficos.py; os números vêm de data/pesquisas.json)
   checagem: candidato, evento ("debate na Band (18/10)"), fala, selo ("NÃO É BEM ASSIM"), checador ("g1 Fato ou Fake"), fonte
   boato:    onde ("Circulou no X"), checado ("16/10"), boato, verdade, selo? ("FALSO"), fonte
   agenda:   dia_semana ("SEXTA"), dia ("23"), mes ("OUT"), titulo, hora?, itens:[{rotulo, texto}] (até 3), fonte
@@ -60,6 +61,9 @@ def chip(fam, txt=None):
             f'padding:12px 26px 12px 18px;font:900 30px/1 {SANS};letter-spacing:.12em">{ico(fam, 38, fg)}{E(txt or NOME[fam])}</span>')
 
 def c_pesquisa(s, P, story):
+    if s.get('grafico'):   # modelos com gráfico (graficos.py)
+        import graficos
+        return graficos.corpo(s, P, story, chip)
     f, l, mg = float(s['flavio']), float(s['lula']), float(s.get('margem') or 0)
     dif = abs(f - l)
     lado = lambda v, c, nome, al: (f'<div style="text-align:{al}"><div style="font:800 34px {SANS};color:{c}">{E(nome)}</div>'

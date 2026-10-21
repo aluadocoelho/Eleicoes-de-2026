@@ -27,6 +27,16 @@ Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para
 | `servico` | branco, passos numerados | batuque, praça |
 | `engajamento` (só reels) | roxo | funk-pop, batuque, tamborzão, praça |
 
+**Pesquisa com gráfico** (aprovado em 21/10): na família `pesquisa`, o campo `"grafico"` troca o placar por um gráfico feito com os números de `data/pesquisas.json` (detalhes em `modelos/graficos.py`):
+
+| `grafico` | Mostra | Quando usar |
+|---|---|---|
+| `rodada` | a mais recente de cada instituto: diferença e margem | peça fixa do fim do dia |
+| `tendencia` | as rodadas de um instituto (`"instituto"`) em linhas | pesquisa nova de quem já tem rodada anterior |
+| `media` | média simples, cada pesquisa como ponto | de vez em quando |
+| `margem` | as duas faixas de uma pesquisa, explicando empate técnico | de vez em quando |
+| `totais` | votos totais x válidos de uma pesquisa | quando a pesquisa traz votos totais |
+
 Os campos de cada família estão no começo de `modelos/familias.py`. As trilhas ficam em `modelos/trilhas/` (`gerar_variacoes.py`, `gerar_estilos.py`, `gerar_dinamicas.py`, todas compostas por código, sem direitos de terceiros).
 
 Trilha aprovada pelo dono em 21/10: funk-pop (`clareia-funkpop-30s.wav`, de `gerar_dinamicas.py`), para agenda e engajamento. As versões com batucada (pulsar com batucada, pagode-pop) ficam guardadas, fora do rodízio.
