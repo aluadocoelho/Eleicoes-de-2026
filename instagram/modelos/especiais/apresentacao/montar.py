@@ -341,7 +341,21 @@ def audio(durs, eventos, total, saida):
     si, so = bolha(), madeira()
     for t, k in eventos:
         y = si if k == 'in' else so; i = int(t * SR); j = min(len(mix), i + len(y)); mix[i:j] += y[:j - i]
-    mix = mix[:int(total * SR)]; mix = np.clip(mix, -.98, .98)
+    mix = mix[:int(total * SR)]
+    # lo-fi bem baixinho ao fundo, em loop com emenda suave (pedido do dono em 21/10)
+    trilha = os.path.join(MOD, 'trilhas', os.environ.get('MUSICA', 'clareia-lofi-praca-30s.wav'))
+    if os.path.exists(trilha) and os.environ.get('MUSICA') != 'nenhuma':
+        mp = os.path.join(tempfile.gettempdir(), 'mus.wav')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', trilha, '-ac', '1', '-ar', str(SR), mp], check=True)
+        w = wave.open(mp); m = np.frombuffer(w.readframes(w.getnframes()), '<i2') / 32768
+        m = m / (np.sqrt((m ** 2).mean()) + 1e-9) * .022   # nível bem abaixo da voz
+        xf = int(1.5 * SR); rampa = np.linspace(0, 1, xf); fundo = m.copy()
+        while len(fundo) < len(mix):
+            fundo = np.concatenate([fundo[:-xf], fundo[-xf:] * (1 - rampa) + m[:xf] * rampa, m[xf:]])
+        fundo = fundo[:len(mix)]; n2 = int(2.5 * SR)
+        fundo[:int(SR)] *= np.linspace(0, 1, int(SR)); fundo[-n2:] *= np.linspace(1, 0, n2)
+        mix = mix + fundo
+    mix = np.clip(mix, -.98, .98)
     with wave.open(saida, 'w') as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((mix * 32767).astype('<i2').tobytes())
 
