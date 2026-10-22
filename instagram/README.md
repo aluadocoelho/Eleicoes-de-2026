@@ -45,3 +45,9 @@ Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para
 Os campos de cada família estão no começo de `modelos/familias.py`. As trilhas ficam em `modelos/trilhas/` (`gerar_variacoes.py`, `gerar_estilos.py`, `gerar_dinamicas.py`, todas compostas por código, sem direitos de terceiros).
 
 Trilha aprovada pelo dono em 21/10: funk-pop (`clareia-funkpop-30s.wav`, de `gerar_dinamicas.py`), para agenda e engajamento. As versões com batucada (pulsar com batucada, pagode-pop) ficam guardadas, fora do rodízio.
+
+## Fontes nas legendas (regra do dono, 22/10/2026)
+
+Quanto mais lugares, melhor. Antes de escrever, leia `FONTES.md` na raiz do repositório. Confirme o assunto em vários veículos grandes, de grupos diferentes: jornais e portais nacionais, TV e rádio, agências, imprensa internacional em português, regionais grandes, checadores e fontes oficiais. Na legenda, cite dois ou mais quando houver, por exemplo "(via Folha, g1 e CNN Brasil)", e use no rodapé da arte "Fontes: ...". Isso mostra que a informação está sendo publicada pela grande imprensa, e não por um lugar só.
+
+Sites com linha partidária declarada (seção H do FONTES.md, de qualquer lado) nunca são fonte de uma peça. Só use a informação se um veículo das seções A a G confirmar, e cite quem confirmou.
