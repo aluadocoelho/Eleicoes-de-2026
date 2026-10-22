@@ -8605,6 +8605,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "B341-6E9E",
+  "conjunto": "redes",
+  "id": "bites-int-0615",
+  "registro": {
+   "id": "bites-int-0615",
+   "metrica": "Interações nos perfis oficiais (Instagram, Facebook, TikTok e X)",
+   "periodo": "6–15 out (2º turno)",
+   "lula": 97500000,
+   "flavio": 26900000,
+   "fonte": "Bites, via Diário do Centro do Mundo / Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/157690-lula-domina-engajamento-digital-e-supera-marca-de-flavio-bolsonaro-nas-redes"
+  },
+  "primeira_vez": "2026-10-22T17:29:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "FAC4-DE45",
   "conjunto": "redes",
   "id": "bites-int-24h-band",
