@@ -712,5 +712,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Aposentadorias"
+ },
+ {
+  "id": "b52",
+  "data": "2026-10-21",
+  "alvo": "Lula",
+  "boato": "Posts dizem que André Janones, da articulação digital de Lula, mandou instalar uma bomba no carro de Flávio após o debate da Band",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Não há provas da acusação; houve só um alerta de objeto suspeito no estacionamento da Band, e a hipótese de bomba foi descartada.",
+  "url": "https://www.boatos.org/politica/andre-janones-mandou-colocar-uma-bomba-no-carro-de-flavio-bolsonaro-depois-do-debate-da-band.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Segurança"
  }
 ]
