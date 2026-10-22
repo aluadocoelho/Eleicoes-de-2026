@@ -1,0 +1,198 @@
+{
+ "voz_ia": true,
+ "cenas": [
+  {
+   "id": "01",
+   "tipo": "abertura",
+   "titulo": "Oi! Eu sou a",
+   "destaque": "Clareia.",
+   "fala": "Oi! Eu sou a Clareia. Eu existo para que ninguém vote no escuro."
+  },
+  {
+   "id": "02",
+   "chip": "O que eu faço",
+   "titulo": "Tudo num lugar só,",
+   "destaque": "com fonte.",
+   "itens": [
+    {
+     "icone": "pesquisa",
+     "titulo": "Pesquisas"
+    },
+    {
+     "icone": "checagem",
+     "titulo": "Checagens"
+    },
+    {
+     "icone": "boato",
+     "titulo": "Boatos desmentidos"
+    },
+    {
+     "icone": "agenda",
+     "titulo": "Agenda e debates"
+    }
+   ],
+   "grade": true,
+   "fala": "Eu reúno, num lugar só, o que institutos, imprensa e checadores publicam sobre o segundo turno entre Flávio Bolsonaro e Lula."
+  },
+  {
+   "id": "03",
+   "chip": "Passo 1",
+   "titulo": "Eu busco.",
+   "itens": [
+    {
+     "icone": "relogio",
+     "titulo": "De hora em hora",
+     "texto": "Das 7h às 23h, todos os dias."
+    },
+    {
+     "icone": "busca",
+     "titulo": "O que é novo",
+     "texto": "Pesquisas, checagens, boatos e agenda."
+    }
+   ],
+   "fala": "Funciona assim. Primeiro, eu busco. De hora em hora, das sete da manhã às onze da noite, procuro pesquisas novas, checagens, boatos desmentidos e a agenda dos candidatos."
+  },
+  {
+   "id": "04",
+   "chip": "Passo 2",
+   "titulo": "Eu confiro.",
+   "itens": [
+    {
+     "icone": "escudo",
+     "titulo": "Só entra com fonte",
+     "texto": "Sem fonte, não publico."
+    },
+    {
+     "icone": "link",
+     "titulo": "Link de quem publicou",
+     "texto": "Para você conferir também."
+    }
+   ],
+   "fala": "Depois, eu confiro. Só entra o que tem fonte, e cada informação leva o link de quem publicou, para você conferir também."
+  },
+  {
+   "id": "05",
+   "chip": "Passo 3",
+   "titulo": "Eu organizo,",
+   "destaque": "com o mesmo critério.",
+   "itens": [
+    {
+     "icone": "pesquisa",
+     "titulo": "Pesquisas lado a lado"
+    },
+    {
+     "icone": "checagem",
+     "titulo": "Falas checadas dos dois"
+    },
+    {
+     "icone": "aovivo",
+     "titulo": "Ao vivo nos debates"
+    }
+   ],
+   "fala": "Aí eu organizo, com o mesmo critério para os dois lados: pesquisas lado a lado, falas checadas dos dois candidatos e o que acontece ao vivo nos debates."
+  },
+  {
+   "id": "06",
+   "chip": "Passo 4",
+   "titulo": "Eu me reviso.",
+   "itens": [
+    {
+     "icone": "revisao",
+     "titulo": "4 vezes por dia",
+     "texto": "Uma revisão confere tudo de novo."
+    },
+    {
+     "icone": "errata",
+     "titulo": "Errei? Corrijo.",
+     "texto": "A errata fica à vista, com o antes e o depois."
+    }
+   ],
+   "fala": "E eu me reviso. Quatro vezes por dia, uma revisão confere tudo de novo. Se eu errar, eu corrijo e deixo a errata à vista, com o antes e o depois."
+  },
+  {
+   "id": "07",
+   "tipo": "frase",
+   "titulo": "Em quem votar?",
+   "destaque": "Isso é com você.",
+   "fala": "Eu não digo em quem votar. Essa decisão é sua."
+  },
+  {
+   "id": "08",
+   "chip": "Acessibilidade",
+   "titulo": "Feita para todo mundo.",
+   "itens": [
+    {
+     "icone": "libras",
+     "titulo": "Libras"
+    },
+    {
+     "icone": "ouvir",
+     "titulo": "Ouvir a página"
+    },
+    {
+     "icone": "contraste",
+     "titulo": "Alto contraste"
+    },
+    {
+     "icone": "letra",
+     "titulo": "Letra maior"
+    }
+   ],
+   "fala": "Acessibilidade também é prioridade. No site tem tradução em Libras com o VLibras, um botão para ouvir a página em voz alta, alto contraste e letra maior."
+  },
+  {
+   "id": "09",
+   "chip": "Acessibilidade",
+   "titulo": "E tem mais.",
+   "itens": [
+    {
+     "icone": "espaco",
+     "titulo": "Mais espaçamento"
+    },
+    {
+     "icone": "pausa",
+     "titulo": "Sem animações"
+    },
+    {
+     "icone": "tabela",
+     "titulo": "Gráficos em tabela"
+    },
+    {
+     "icone": "idiomas",
+     "titulo": "Inglês e espanhol"
+    }
+   ],
+   "fala": "Tem também mais espaçamento entre as linhas, uma opção sem animações, gráficos em tabela para leitores de tela, e o site inteiro em inglês e em espanhol."
+  },
+  {
+   "id": "10",
+   "chip": "Transparência",
+   "titulo": "Quem faz a Clareia?",
+   "itens": [
+    {
+     "icone": "ia",
+     "titulo": "Inteligência artificial",
+     "texto": "Busca, resume e organiza."
+    },
+    {
+     "icone": "pessoa",
+     "titulo": "Uma pessoa aprova",
+     "texto": "Cada post, antes de ir ao ar."
+    },
+    {
+     "icone": "ouvir",
+     "titulo": "Esta voz é gerada por IA",
+     "texto": "Também por transparência."
+    }
+   ],
+   "fala": "Eu sou feita com inteligência artificial, e uma pessoa aprova cada post antes de ir ao ar. Esta voz que você está ouvindo também é gerada por inteligência artificial."
+  },
+  {
+   "id": "11",
+   "tipo": "final",
+   "titulo": "clareiaeleicoes.com.br",
+   "fala": "Quer ver tudo com fonte? Acesse clareiaeleicoes ponto com ponto b r. O link está na bio. Me segue, e até domingo!",
+   "legenda": "Quer ver tudo com fonte? Acesse clareiaeleicoes.com.br. O link está na bio. Me segue, e até domingo!"
+  }
+ ]
+}
