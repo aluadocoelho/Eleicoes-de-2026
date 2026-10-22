@@ -689,7 +689,15 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   .el-mtopo{display:flex;order:-2;align-items:center;justify-content:space-between;gap:12px;padding:2px 2px 4px}
   .el-mtopo-svg{height:58px;width:auto;display:block;transition:height .2s}
   .el-sticky.el-stuck .el-mtopo-svg{height:40px}
-  .el-mtopo .el-mnav{width:auto;min-height:48px;padding:6px 12px 6px 8px;gap:8px}
+  .el-mtopo .el-mnav{width:52px;height:52px;min-height:0;padding:0;gap:0;justify-content:center;background:#FFD43B;color:#16181D;border:2.5px solid #16181D;border-radius:14px;box-shadow:4px 4px 0 #16181D;transition:transform .08s,box-shadow .08s}
+  .el-mtopo .el-mnav:active{transform:translate(4px,4px);box-shadow:0 0 0 #16181D}
+  .el-mtopo .el-mnav:focus-visible{outline:3px solid var(--accent-text);outline-offset:3px}
+  .el-mtopo .el-mnav-ico{width:auto;height:auto;background:none;border:0}
+  .el-mtopo .el-mnav-ico svg{width:24px;height:24px}
+  .el-mtopo .el-mnav-new{top:-9px;right:-9px}
+  .el-sticky.el-stuck .el-mtopo .el-mnav{width:44px;height:44px;min-height:0;padding:0;box-shadow:3px 3px 0 #16181D}
+  .el-sticky.el-stuck .el-mtopo .el-mnav:active{transform:translate(3px,3px);box-shadow:0 0 0 #16181D}
+  .el-sticky.el-stuck .el-mtopo .el-mnav-ico{width:auto;height:auto}
   .el-mtopo .el-mnav-l{display:none}
   .el-sticky>header .el-logo{display:none!important}
   .el-drw{left:auto;right:0;border-right:0;border-left:3px solid var(--ink);transform:translateX(105%)}
@@ -812,7 +820,6 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
     <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
     <span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
-    <span class="el-mnav-mais" aria-hidden="true">Menu <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
   </button>
   </div>
   <header>
