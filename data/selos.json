@@ -7783,6 +7783,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A144-F7B9",
+  "conjunto": "pesquisas",
+  "id": "indexa-2210",
+  "registro": {
+   "id": "indexa-2210",
+   "instituto": "Indexa/Broadcast",
+   "divulgacao": "2026-10-22",
+   "campo": "20–21 out",
+   "amostra": 2000,
+   "margem": 2.2,
+   "flavio_validos": 50.6,
+   "lula_validos": 49.4,
+   "flavio_totais": 45.2,
+   "lula_totais": 44.1,
+   "fonte": "Broadcast, via Viva (entrevistas por telefone, registro BR-02348/2026)",
+   "url": "https://viva.com.br/politica/indexabroadcast-flavio-tem-452-e-lula-441-em-empate-tecnico.html"
+  },
+  "primeira_vez": "2026-10-22T13:01:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2F43-9F83",
   "conjunto": "pesquisas",
   "id": "ipespe-1010",
