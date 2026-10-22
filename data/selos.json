@@ -283,6 +283,19 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-fazem-ultimo-giro-de-campanha-e-travam-disputa-de-atos-de-rua/"
   },
   "primeira_vez": "2026-10-20T22:14:45Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "0573-FFBF",
+  "conjunto": "agenda",
+  "id": "2026-10-24",
+  "registro": {
+   "data": "2026-10-24",
+   "lula": "São Paulo (SP): ato na Avenida Paulista, 14h; Rio de Janeiro (RJ): ato pela manhã, ainda em avaliação",
+   "flavio": "Belo Horizonte (MG): motociata, 10h, da Praça do Papa à Praça da Liberdade; à tarde, carreata no Rio, da Praça do Ó até a casa de Jair Bolsonaro, na Barra da Tijuca",
+   "url": "https://www.metropoles.com/colunas/ramiro-brites/lula-rio-sao-paulo"
+  },
+  "primeira_vez": "2026-10-22T22:17:11Z",
   "ainda_publicado": true
  },
  {
@@ -4435,6 +4448,21 @@
    "url": "https://www.terra.com.br/noticias/eleicoes/lula-e-flavio-bolsonaro-chegam-a-acordo-para-abertura-de-sigilos-diz-jornal,6f431668adf036e9f9bd786f2d572452yna7hhjw.html"
   },
   "primeira_vez": "2026-10-22T18:15:16Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "6D76-64A4",
+  "conjunto": "campanha",
+  "id": "e44",
+  "registro": {
+   "id": "e44",
+   "data": "2026-10-22",
+   "tipo": "Estratégia",
+   "descricao": "As campanhas de Lula e Flávio apresentaram ao TSE um acordo para abrir ao mesmo tempo os sigilos bancário, fiscal e telefônico dos dois candidatos e de familiares, segundo documento obtido pela GloboNews e publicado também pelo Times Brasil. A campanha de Lula já entregou a autorização, a de Flávio prometeu entregar até 23h59 de quinta (22/10), e o ministro André Mendonça ainda precisa decidir para a abertura acontecer. O acordo também foi publicado pela Band e pelo Diário do Grande ABC.",
+   "fonte": "Terra (com GloboNews) e Times Brasil",
+   "url": "https://www.terra.com.br/noticias/eleicoes/lula-e-flavio-bolsonaro-chegam-a-acordo-para-abertura-de-sigilos-diz-jornal,6f431668adf036e9f9bd786f2d572452yna7hhjw.html"
+  },
+  "primeira_vez": "2026-10-22T22:17:11Z",
   "ainda_publicado": true
  },
  {
