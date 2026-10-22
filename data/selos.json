@@ -9099,6 +9099,38 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F3FA-2689",
+  "conjunto": "redes",
+  "id": "mt-ig-seg-2110",
+  "registro": {
+   "id": "mt-ig-seg-2110",
+   "metrica": "Seguidores no Instagram (perfil oficial)",
+   "periodo": "21 out (tarde)",
+   "lula": 18200000,
+   "flavio": 15100000,
+   "fonte": "Mobile Time",
+   "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
+  },
+  "primeira_vez": "2026-10-22T19:30:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E034-3E10",
+  "conjunto": "redes",
+  "id": "mt-wa-seg-2110",
+  "registro": {
+   "id": "mt-wa-seg-2110",
+   "metrica": "Seguidores do canal oficial no WhatsApp",
+   "periodo": "21 out (tarde)",
+   "lula": 2200000,
+   "flavio": 255000,
+   "fonte": "Mobile Time",
+   "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
+  },
+  "primeira_vez": "2026-10-22T19:30:59Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7292-C822",
   "conjunto": "redes",
   "id": "palver-redes",
@@ -9578,6 +9610,20 @@
    "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
   },
   "primeira_vez": "2026-10-19T13:30:38Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9C87-9CDA",
+  "conjunto": "sinais",
+  "id": "s-mobiletime",
+  "registro": {
+   "id": "s-mobiletime",
+   "data": "2026-10-21",
+   "sinal": "A Mobile Time observou que, no canal oficial do WhatsApp, os posts de Lula recebem de 20 mil a 30 mil reações e os de Flávio cerca de mil. No Instagram, a maioria dos Reels de Lula tem de 3 milhões a 10 milhões de visualizações e a dos de Flávio, de 5 milhões a 15 milhões. A reportagem lembra que impulsionamento pago pode afetar os números.",
+   "fonte": "Mobile Time",
+   "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
+  },
+  "primeira_vez": "2026-10-22T19:30:59Z",
   "ainda_publicado": true
  },
  {
