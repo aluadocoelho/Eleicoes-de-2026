@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Vídeo longo narrado "Eu sou a Clareia" (pedido do dono em 21/10).
-Sem música: só a narração e sons suaves de entrada e saída (sopros), nada estridente.
+Sem música: só a narração e sons suaves de entrada (bolhinha) e saída (madeira abafada), nada estridente.
 Cada cena dura o tempo da sua fala: com os áudios em narracao/<id>.wav (ou .mp3/.m4a) usa a duração real;
 sem áudio, estima pela quantidade de palavras (prévia). Legendas queimadas, sincronizadas por trecho (acessibilidade).
 Caixas sempre com borda escura e sombra dura (identidade da Clareia).
@@ -316,23 +316,16 @@ def pagina(r, durs):
     return f'<!doctype html><meta charset="utf-8"><style>{css}</style><div class="f">{fundo}{topo}{"".join(blocos)}</div>', total, eventos
 
 # ---------- som: narração + sopros ----------
-def sopro(entrada=True, dur=.55):
-    """sopro suave: ruído filtrado com a faixa de frequência subindo (entrada) ou descendo (saída); sem ataque seco"""
-    n = int(dur * SR); t = np.arange(n) / SR; rng = np.random.default_rng(3 if entrada else 5)
-    x = rng.standard_normal(n)
-    f0, f1 = (500, 2600) if entrada else (2200, 450)
-    fc = f0 * (f1 / f0) ** (t / dur)
-    # filtro passa-faixa variável simples (biquad recalculado em blocos)
-    y = np.zeros(n); blk = 256; z1 = z2 = 0.0
-    for i in range(0, n, blk):
-        w0 = 2 * np.pi * fc[i] / SR; q = 1.1; al = np.sin(w0) / (2 * q)
-        b0, b2, a0, a1, a2 = al, -al, 1 + al, -2 * np.cos(w0), 1 - al
-        for j in range(i, min(n, i + blk)):
-            v = x[j] - (a1 / a0) * z1 - (a2 / a0) * z2
-            y[j] = (b0 / a0) * v + (b2 / a0) * z2
-            z2, z1 = z1, v
-    env = np.sin(np.pi * np.clip(t / dur, 0, 1)) ** 2
-    return y * env / (np.abs(y).max() + 1e-9) * .16
+def bolha():
+    """entrada: bolhinha macia, com a nota subindo (escolhida pelo dono em 21/10)"""
+    d = .16; n = int(d * SR); t = np.arange(n) / SR; f = 500 * np.exp(t / d * np.log(1.9))
+    e = np.ones(n); e[:int(.004 * SR)] = np.linspace(0, 1, int(.004 * SR)); e[-int(.03 * SR):] *= np.linspace(1, 0, int(.03 * SR))
+    return np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t / .05) * e * .22
+
+def madeira():
+    """saída: toque de madeira abafado, bem discreto (escolhido pelo dono em 21/10)"""
+    d = .12; n = int(d * SR); t = np.arange(n) / SR; y = np.sin(2 * np.pi * 560 * t) * np.exp(-t / .025)
+    k = np.exp(-np.arange(40) / 8.0); k /= k.sum(); return np.convolve(y, k, 'same') * .26
 
 def audio(durs, eventos, total, saida):
     mix = np.zeros(int((total + 1) * SR))
@@ -345,7 +338,7 @@ def audio(durs, eventos, total, saida):
             v = v / (np.abs(v).max() + 1e-9) * .8
             i = int((t0 + .15) * SR); mix[i:i + len(v)] += v[:len(mix) - i]
         t0 += dur
-    si, so = sopro(True), sopro(False)
+    si, so = bolha(), madeira()
     for t, k in eventos:
         y = si if k == 'in' else so; i = int(t * SR); j = min(len(mix), i + len(y)); mix[i:j] += y[:j - i]
     mix = mix[:int(total * SR)]; mix = np.clip(mix, -.98, .98)
@@ -375,6 +368,15 @@ async def gerar(pasta, saida, fps=30):
     shutil.rmtree(tmp, ignore_errors=True)
     print('duração', round(total, 1), 's;', sum(1 for d in durs if d[1]), 'cenas com áudio')
 
+def so_audio(pasta, video, saida):
+    """refaz só o som de um vídeo já montado (mesmo roteiro e mesmos áudios)"""
+    r = json.load(open(os.path.join(AQUI, 'roteiro.json'))); durs = duracoes(r, pasta); _, total, eventos = pagina(r, durs)
+    tmp = tempfile.mkdtemp(); audio(durs, eventos, total, os.path.join(tmp, 'a.wav'))
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', video, '-i', os.path.join(tmp, 'a.wav'), '-map', '0:v', '-map', '1:a', '-c:v', 'copy',
+                    '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', saida], check=True)
+
 if __name__ == '__main__':
+    if len(sys.argv) > 1 and sys.argv[1] == '--so-audio':
+        so_audio(sys.argv[2], sys.argv[3], sys.argv[4]); sys.exit()
     a = sys.argv[1:]
     asyncio.run(gerar(a[0] if len(a) > 1 else None, a[-1]))
