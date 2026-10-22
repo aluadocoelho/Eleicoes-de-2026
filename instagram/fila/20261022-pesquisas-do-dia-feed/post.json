@@ -1,0 +1,23 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Pesquisas do dia (22/10)",
+ "arquivos": [
+  "1-poderdata.jpg",
+  "2-indexa.jpg",
+  "3-datafolha.jpg",
+  "4-rodada.jpg"
+ ],
+ "legenda": "Saíram nesta quinta (22/10) três pesquisas para o 2º turno. Nos votos válidos, a PoderData/Aya (via @poder360) mostra @flaviobolsonaro com 51% e @lulaoficial com 49%. A Indexa/Broadcast, 50,6% a 49,4%. O Datafolha (via @cnnbrasil e @exame), 50,5% a 49,5%.\n\nEm todas, a diferença entre os dois cabe na margem de erro, que vai de 1,6 a 2,2 pontos: é empate técnico. Fontes: Poder360, Terra, CNN Brasil e Exame.\n\nMais detalhes e o link de cada fonte no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#Eleicoes2026 #SegundoTurno #PesquisaEleitoral #Lula #FlavioBolsonaro",
+ "alt": [
+  "Arte da Clareia Eleições sobre a pesquisa PoderData/Aya de 22/10: nos votos válidos, Flávio Bolsonaro tem 51% e Lula, 49%. Margem de erro de 1,6 ponto, 4.000 entrevistas. Empate técnico.",
+  "Arte da Clareia Eleições sobre a pesquisa Indexa/Broadcast de 22/10: nos votos válidos, Flávio Bolsonaro tem 50,6% e Lula, 49,4%. Margem de erro de 2,2 pontos, 2.000 entrevistas. Empate técnico.",
+  "Arte da Clareia Eleições sobre a pesquisa Datafolha de 22/10: nos votos válidos, Flávio Bolsonaro tem 50,5% e Lula, 49,5%. Margem de erro de 2 pontos. Empate técnico.",
+  "Gráfico com as três pesquisas divulgadas em 22/10, nos votos válidos: Flávio à frente por 2 pontos na PoderData/Aya, 1,2 na Indexa/Broadcast e 1 no Datafolha. Nas três, a diferença cabe na margem de erro."
+ ],
+ "fontes": [
+  "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/",
+  "https://www.terra.com.br/noticias/eleicoes/pesquisas/flavio-tem-452-ante-441-de-lula-em-empate-tecnico-mostra-pesquisa-indexabroadcast,50389519238da1ef217383eab4485085d87yhufc.html",
+  "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-e-lula-empatam-em-50-de-votos-validos-no-2o-turno/",
+  "https://exame.com/brasil/pesquisa-datafolha-flavio-bolsonaro-lula-empatam-numericamente/"
+ ]
+}
