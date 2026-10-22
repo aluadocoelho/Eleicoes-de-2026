@@ -1,5 +1,41 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+  "termo": "Lula",
+  "afirmacao": "Vazou áudio em que Lula reclama de entrevista de Roberta Luchsinger à CNN",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-22",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso áudio em que Lula reclama de entrevista de Roberta ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D44C6KE",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Assessora de Bolsonaro diz que vai acabar com Bolsa Familia em 2 anos",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-19",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Regra de transição no Bolsa Família? Entenda proposta defendida ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://checamos.afp.com/doc.afp.com.D44C6KE"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4426G3",
+  "termo": "Lula",
+  "afirmacao": "Lula abre vantagem de 54% para 49% sobre Flávio, segundo revista Quaest",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-20",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "É falso que pesquisa Quaest de 14 de outubro mostre Lula com 5 ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://checamos.afp.com/doc.afp.com.D4426G3"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
   "termo": "Lula",
   "afirmacao": "Brasil só caiu no ranking do Pisa entre 2000 e 2025 e estudantes continuam apoiando o Lula",
@@ -7,7 +43,7 @@
   "data_afirmacao": "2026-10-21",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Comparação entre posições do Brasil no Pisa em 2000 e 2025 é ...",
+  "titulo": "Comparação entre posições do Brasil no Pisa em 2000 e 2025 é enganosa",
   "data_checagem": "2026-10-21",
   "url": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/"
  },
@@ -103,7 +139,7 @@
   "data_afirmacao": "2026-10-20",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Entenda como funciona o direito ao voto para presos no Brasil, que ...",
+  "titulo": "Entenda como funciona o direito ao voto para presos no Brasil, que pode ser extinto em 2027",
   "data_checagem": "2026-10-20",
   "url": "https://checamos.afp.com/doc.afp.com.D3WE3T3"
  },
@@ -566,7 +602,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -794,11 +830,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -807,8 +843,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2139,8 +2175,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2467,7 +2503,7 @@
   "data_afirmacao": "2026-10-21",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Postagens com falsa pesquisa Quaest têm resultado em que Lula e ...",
+  "titulo": "Postagens com falsa pesquisa Quaest têm resultado em que Lula e Flávio somam mais de 100%",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/pesquisa-quaest-lula-54-flavio-49-falso/"
  },
@@ -2731,7 +2767,7 @@
   "data_afirmacao": "2026-10-20",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que o governador eleito do Maranhão tenha declarado ...",
+  "titulo": "É falso que o governador eleito do Maranhão tenha declarado apoio a Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flso-governador-eleito-mranhao-apoio-flavio-bolsonaro/"
  },
@@ -2808,6 +2844,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/falso-lula-sancionou-lei-autorizando-banheiro-sem-genero-definido/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/",
+  "termo": "Lula",
+  "afirmacao": "Em áudio, Lula xinga Roberta após entrevista à CNN.",
+  "quem_disse": "Boatos em redes sociais",
+  "data_afirmacao": "2026-10-22",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Áudio que imita Lula xingando Roberta Luchsinger foi fabricado ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-arcebispo-aparecida-pediu-voto-lula-homilia/",
   "termo": "Lula",
   "afirmacao": "Arcebispo Orlando Brandes pede aos fiéis que votem em Lula para a Presidência",
@@ -2842,6 +2890,18 @@
   "titulo": "Bets foram autorizadas por Temer e regulamentadas por Lula; entenda a linha de tempo",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/enganoso-bets-criadas-governo-lula-presidente-sancionou-lei-regulamentando-apostas/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-tenha-passado-mal-e-ficado-preocupado-com-resultados-de-exames/",
+  "termo": "Lula",
+  "afirmacao": "Lula passou mal e seus médicos ficaram assustados com os resultados dos exames",
+  "quem_disse": "Redes sociais",
+  "data_afirmacao": "2026-10-22",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É antigo o vídeo em que Lula relata ter passado mal e ficado ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-tenha-passado-mal-e-ficado-preocupado-com-resultados-de-exames/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-lidere-as-pesquisas-nos-dez-estados-mais-pobres-do-pais/",
@@ -2926,6 +2986,30 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo de Jair Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo é do Círio de Nazaré, não de ato em apoio a Flávio Bolsonaro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula tem relógio de luxo furtado durante contato com próprios apoiadores",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula teve relógio e aliança roubados por apoiadores",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
@@ -3396,6 +3480,42 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vídeo é do Círio de Nazaré, não de ato em apoio a Flávio Bolsonaro",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flavio Bolsonaro planeja aumentar idade mínima de aposentadoria para 70 anos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "O Globo não noticiou que Flávio planeja aumentar idade para aposentadoria",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula tem relógio de luxo furtado durante contato com próprios apoiadores",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Lula teve relógio e aliança roubados por apoiadores",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
@@ -3418,6 +3538,18 @@
   "titulo": "Vídeo de avenida Paulista cheia é de 2024, não de ato de Flávio no domingo",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/e-falso-que-pcc-e-cv-declararam-apoio-a-lula.ghtm",
+  "termo": "Lula",
+  "afirmacao": "PCC e CV declaram apoio a Lula no 2° turno",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que PCC e CV declararam apoio a Lula",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/e-falso-que-pcc-e-cv-declararam-apoio-a-lula.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm",
