@@ -1,6 +1,10 @@
 import re
 """Gera o index.html público (GitHub Pages) a partir da página do painel."""
 import sys
+# Microsoft Clarity (mapas de calor e gravações anônimas). Vazio = desligado; só carrega para quem aceitar.
+CLARITY_ID = ""
+_CK_DESC = " e de mapa de calor, para entender como as pessoas usam a página" if CLARITY_ID else ""
+_CK_OPT = ('<label class="ck-opt"><input type="checkbox" id="ck-cl"> <span><b>Mapa de calor</b> Microsoft Clarity: mostra onde as pessoas tocam e grava a navegação de forma anônima, sem o que você digita.</span></label>' if CLARITY_ID else '')
 src_path, out_path = sys.argv[1], sys.argv[2]
 src = open(src_path).read()
 style = src.split("<style>")[1].split("</style>")[0].replace("#dash-root{--dash-gutter:0}\n", "")
@@ -40,6 +44,13 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 #el-ck .nt-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:4px}
 #el-ck button{appearance:none;font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:12px;border:2px solid #16181D;cursor:pointer;background:#FFFFFF;color:#16181D}
 #el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
+#el-ck .ck-opts{display:flex;flex-direction:column;gap:8px;margin-top:2px}
+#el-ck .ck-opts[hidden]{display:none}
+#el-ck .ck-opt{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;line-height:1.45;color:#3A3F49;cursor:pointer}
+#el-ck .ck-opt b{display:block;color:#16181D}
+#el-ck .ck-opt input{width:20px;height:20px;margin:2px 0 0;flex:none;accent-color:#5B2DBF}
+body:has(.el[data-theme="dark"]) #el-ck .ck-opt{color:#A6ADBB}
+body:has(.el[data-theme="dark"]) #el-ck .ck-opt b{color:#ECEEF3}
 #el-ck button:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
 body:has(.el[data-theme="dark"]) #el-ck{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
 body:has(.el[data-theme="dark"]) #el-ck p{color:#A6ADBB}
@@ -67,7 +78,7 @@ body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
 """
 _fi = body.rindex('<p class="el-foot">')
 old_foot = body[_fi:body.index('</p>', _fi) + 4]
-body = body.replace(old_foot, '<p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar.</p><p class="el-foot el-visits" id="gc-total" hidden></p><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>')
+body = body.replace(old_foot, '<p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar.' + (' Também com a sua permissão, o Microsoft Clarity mostra onde as pessoas tocam na página e grava a navegação de forma anônima, sem guardar o que é digitado.' if CLARITY_ID else '') + '</p><p class="el-foot el-visits" id="gc-total" hidden></p><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>')
 script = script.replace('d.textContent = "Failed to load"', 'd.textContent = "Não foi possível carregar"')
 # --- desempenho e contraste (só no site público) ---
 _PLT_END = '<button type="button" class="el-plt-x" id="el-plt-x" aria-label="Fechar o plantão">×</button>\n  </div>\n'
@@ -375,40 +386,64 @@ html = f"""<!doctype html>
 <script>{shim}</script>
 <script>{script}</script>
 <div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
-  <h2 id="ck-t">Podemos usar cookies de estatística?</h2>
-  <p id="ck-d">Se você aceitar, o Google Analytics usa cookies para contar visitas e ver quais abas são mais lidas. Não usamos para anúncios. Se recusar, o site funciona igual.</p>
+  <h2 id="ck-t">Cookies na Clareia</h2>
+  <p id="ck-d">Os cookies essenciais fazem o site funcionar. Com a sua permissão, também usamos cookies de estatística{_CK_DESC}. Nada é usado para anúncios.</p>
+  <div class="ck-opts" id="ck-opts" hidden>
+    <label class="ck-opt"><input type="checkbox" checked disabled> <span><b>Essenciais</b> Sempre ligados: lembram suas escolhas, como tema e avisos.</span></label>
+    <label class="ck-opt"><input type="checkbox" id="ck-ga"> <span><b>Estatística</b> Google Analytics: conta visitas e quais abas são mais lidas.</span></label>
+    {_CK_OPT}
+  </div>
   <div class="nt-btns">
-    <button type="button" id="ck-no">Recusar</button>
-    <button type="button" class="ck-yes" id="ck-yes">Aceitar</button>
+    <button type="button" id="ck-no">Apenas essenciais</button>
+    <button type="button" id="ck-mais" aria-expanded="false" aria-controls="ck-opts">Personalizar</button>
+    <button type="button" id="ck-salvar" hidden>Salvar escolhas</button>
+    <button type="button" class="ck-yes" id="ck-yes">Aceitar todos</button>
   </div>
 </div>
 <script>
 (function () {{
-  var GA = "G-2NR8ZVJG0L", KEY = "el-cookies", box = document.getElementById("el-ck"), loaded = false;
-  function get() {{ try {{ return localStorage.getItem(KEY); }} catch (e) {{ return null; }} }}
-  function set(v) {{ try {{ localStorage.setItem(KEY, v); }} catch (e) {{}} }}
+  var GA = "G-2NR8ZVJG0L", CL = "{CLARITY_ID}", KEY = "el-cookies", box = document.getElementById("el-ck"), gaOn = false, clOn = false;
+  function get() {{ try {{ var v = localStorage.getItem(KEY); if (!v) return null; if (v === "sim") return {{ga: true, cl: false, v: 1}}; if (v === "nao") return {{ga: false, cl: false, v: 1}}; return JSON.parse(v); }} catch (e) {{ return null; }} }}
+  function set(o) {{ o.v = 2; try {{ localStorage.setItem(KEY, JSON.stringify(o)); }} catch (e) {{}} }}
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () {{ window.dataLayer.push(arguments); }};
   gtag("consent", "default", {{analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied"}});
-  function load() {{
-    if (loaded) return; loaded = true;
+  function loadGA() {{
+    if (gaOn) return; gaOn = true;
     gtag("consent", "update", {{analytics_storage: "granted"}});
     gtag("js", new Date());
     gtag("config", GA, {{allow_google_signals: false, allow_ad_personalization_signals: false}});
     var sc = document.createElement("script"); sc.async = true; sc.src = "https://www.googletagmanager.com/gtag/js?id=" + GA; document.head.appendChild(sc);
   }}
-  window.elGA = function (path, title) {{ if (!loaded) return; try {{ gtag("event", "page_view", {{page_title: title, page_location: location.origin + location.pathname + "#" + path}}); }} catch (e) {{}} }};
+  function loadCL() {{
+    if (clOn || !CL) return; clOn = true;
+    (function (c, l, a, r, i, t, y) {{ c[a] = c[a] || function () {{ (c[a].q = c[a].q || []).push(arguments); }}; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); }})(window, document, "clarity", "script", CL);
+    try {{ window.clarity("consent"); }} catch (e) {{}}
+  }}
+  function apply(o) {{ if (o.ga) loadGA(); if (o.cl) loadCL(); }}
+  window.elGA = function (path, title) {{ if (!gaOn) return; try {{ gtag("event", "page_view", {{page_title: title, page_location: location.origin + location.pathname + "#" + path}}); }} catch (e) {{}} }};
+  var opts = document.getElementById("ck-opts"), mais = document.getElementById("ck-mais"), salvar = document.getElementById("ck-salvar"), cga = document.getElementById("ck-ga"), ccl = document.getElementById("ck-cl");
   function hide() {{ box.hidden = true; }}
-  function show() {{ box.hidden = false; setTimeout(function () {{ box.focus({{preventScroll: true}}); }}, 50); }}
-  document.getElementById("ck-yes").addEventListener("click", function () {{ set("sim"); hide(); load(); }});
-  document.getElementById("ck-no").addEventListener("click", function () {{
-    var had = loaded; set("nao"); hide();
-    if (had) {{ gtag("consent", "update", {{analytics_storage: "denied"}}); document.cookie.split(";").forEach(function (c) {{ var n = c.split("=")[0].trim(); if (/^_ga/.test(n)) document.cookie = n + "=; Max-Age=0; path=/; domain=.github.io"; document.cookie = n + "=; Max-Age=0; path=/"; }}); location.reload(); }}
-  }});
+  function show() {{ var o = get() || {{ga: false, cl: false}}; cga.checked = !!o.ga; if (ccl) ccl.checked = !!o.cl; box.hidden = false; setTimeout(function () {{ box.focus({{preventScroll: true}}); }}, 50); }}
+  function escolher(o) {{
+    var tirou = (gaOn && !o.ga) || (clOn && !o.cl);
+    set(o); hide();
+    if (tirou) {{
+      if (gaOn && !o.ga) gtag("consent", "update", {{analytics_storage: "denied"}});
+      document.cookie.split(";").forEach(function (c) {{ var n = c.split("=")[0].trim(); if ((!o.ga && /^_ga/.test(n)) || (!o.cl && /^(_clck|_clsk|CLID|MUID|ANONCHK|SM|MR)$/.test(n))) {{ ["", "; domain=." + location.hostname.replace(/^www\./, "")].forEach(function (d) {{ document.cookie = n + "=; Max-Age=0; path=/" + d; }}); }} }});
+      location.reload(); return;
+    }}
+    apply(o);
+  }}
+  document.getElementById("ck-yes").addEventListener("click", function () {{ escolher({{ga: true, cl: !!CL}}); }});
+  document.getElementById("ck-no").addEventListener("click", function () {{ escolher({{ga: false, cl: false}}); }});
+  mais.addEventListener("click", function () {{ var abrir = opts.hidden; opts.hidden = !abrir; salvar.hidden = !abrir; mais.setAttribute("aria-expanded", String(abrir)); if (abrir) cga.focus(); }});
+  salvar.addEventListener("click", function () {{ escolher({{ga: cga.checked, cl: !!(ccl && ccl.checked)}}); }});
   document.addEventListener("keydown", function (ev) {{ if (ev.key === "Escape" && !box.hidden) hide(); }});
   var op = document.getElementById("el-ck-open"); if (op) op.addEventListener("click", show);
   var v = get();
-  if (v === "sim") load(); else if (v !== "nao") setTimeout(show, 2500);
+  if (v) apply(v);
+  if (!v || (CL && v.v < 2 && v.ga)) setTimeout(show, 2500);
 }})();
 </script>
 <div id="el-notif-bg" hidden></div>
