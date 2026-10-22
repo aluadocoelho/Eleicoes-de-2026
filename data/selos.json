@@ -8558,6 +8558,22 @@
   "ainda_publicado": false
  },
  {
+  "codigo": "8483-1E12",
+  "conjunto": "redes",
+  "id": "palver-sigilo",
+  "registro": {
+   "id": "palver-sigilo",
+   "metrica": "Participação nas menções de apoio sobre o desafio de quebra de sigilos (%), sem mensagens neutras",
+   "periodo": "até 21 out",
+   "lula": 75,
+   "flavio": 25,
+   "fonte": "Palver, via SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/quebra-de-sigilo-ajuda-lula-nas-redes-flavio-reage-em-apps"
+  },
+  "primeira_vez": "2026-10-22T01:29:44Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "00C5-847D",
   "conjunto": "redes",
   "id": "palver-telegram",
@@ -8989,6 +9005,20 @@
    "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
   },
   "primeira_vez": "2026-10-19T13:30:38Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5485-09FC",
+  "conjunto": "sinais",
+  "id": "s-palver-sigilo",
+  "registro": {
+   "id": "s-palver-sigilo",
+   "data": "2026-10-22",
+   "sinal": "Segundo a Palver, nas conversas sobre o desafio de quebra de sigilos fiscal, bancário e eletrônico dos candidatos, o lado favorável a Lula reuniu a maior parte das menções de apoio nas redes e em grupos de mensagens. O SBT News relata que Flávio reagiu nos aplicativos de mensagens.",
+   "fonte": "Palver, via SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/quebra-de-sigilo-ajuda-lula-nas-redes-flavio-reage-em-apps"
+  },
+  "primeira_vez": "2026-10-22T01:29:44Z",
   "ainda_publicado": true
  },
  {
