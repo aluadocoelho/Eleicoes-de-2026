@@ -304,5 +304,14 @@
   "flavio": 255000,
   "fonte": "Mobile Time",
   "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
+ },
+ {
+  "id": "whats-canais-2210",
+  "metrica": "Seguidores dos canais de campanha no WhatsApp (Exército do Lula e Tropa do Flávio)",
+  "periodo": "22 out",
+  "lula": 8000000,
+  "flavio": 2100000,
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/brasil/exercito-do-lula-supera-8-milhoes-e-janones-pede-mais-soldados"
  }
 ]
