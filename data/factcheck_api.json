@@ -566,7 +566,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -794,11 +794,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -807,8 +807,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -998,7 +998,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1466,7 +1466,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
+  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
   "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -2139,8 +2139,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2731,7 +2731,7 @@
   "data_afirmacao": "2026-10-20",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que o governador eleito do Maranhão tenha declarado apoio a Flávio Bolsonaro",
+  "titulo": "É falso que o governador eleito do Maranhão tenha declarado ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flso-governador-eleito-mranhao-apoio-flavio-bolsonaro/"
  },
@@ -2758,6 +2758,18 @@
   "titulo": "Postagem usa vídeo antigo para afirmar que Flávio Bolsonaro fugiu para os Estados Unidos",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-fugiu-para-os-estados-unidos-enganoso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-ferias-trinta-dias-exagero-fake-news/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro diz que 30 dias de férias é um exagero e que 15 dias é mais do que o suficiente",
+  "quem_disse": "Postagens em redes sociais",
+  "data_afirmacao": "2026-10-22",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que Flávio Bolsonaro tenha dito que 30 dias de férias é 'um ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-ferias-trinta-dias-exagero-fake-news/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-corte-aposentadorias-13-salario-pe-de-meia-fake-news/",
