@@ -3112,6 +3112,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "45DE-4D5E",
+  "conjunto": "boatos",
+  "id": "b49",
+  "registro": {
+   "id": "b49",
+   "data": "2026-10-21",
+   "alvo": "Lula",
+   "boato": "Posts dizem que apoiadores furtaram o relógio e a aliança de Lula durante um ato",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo usado é de um ato em São Luís (MA), em 19/10, e não mostra a retirada dos itens; não há registro confiável de furto.",
+   "url": "https://www.boatos.org/politica/lula-teve-o-relogio-e-a-alianca-roubados-por-apoiadores-em-juazeiro-e-petrolina.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Relógio e aliança"
+  },
+  "primeira_vez": "2026-10-22T00:30:25Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
