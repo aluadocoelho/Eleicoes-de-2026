@@ -107,7 +107,7 @@ CLARO = '#F7F4FF'
 FUNDO = {'01': (ROXO, '#fff'), '02': (LAV, T), '03': (T, '#fff'), '04': (AM, T), '05': (ROXO, '#fff'), '06': (LAV, T),
          '07': (T, '#fff'), '08': (CLARO, T), '09': (CLARO, T), '10': (ROXO, '#fff'), '11': (ROXO, '#fff')}
 # lâmpada da marca: x, y (centro), escala, giro, opacidade — no começo e no fim ela é a estrela, no meio passeia ao fundo
-LAMP = {'01': (540, 700, 2.3, 0, 1), '02': (900, 1480, 1.3, 8, .12), '03': (170, 1560, 1.6, -10, .10), '04': (880, 1560, 1.1, 6, .14),
+LAMP = {'01': (540, 780, 2.3, 0, 1), '02': (900, 1480, 1.3, 8, .12), '03': (170, 1560, 1.6, -10, .10), '04': (880, 1560, 1.1, 6, .14),
         '05': (190, 1480, 1.7, -6, .10), '06': (890, 1470, 1.2, 12, .12), '07': (540, 980, 3.6, 0, .06), '08': (900, 1620, 1.0, -8, .10),
         '09': (180, 1620, 1.0, 8, .10), '10': (170, 1530, 1.5, -12, .10), '11': (540, 640, 2.3, 0, 1)}
 SOMBRA = lambda fundo: T if fundo in (AM, LAV, CLARO) else AM
@@ -189,13 +189,13 @@ def pagina(r, durs):
         h = ''; eventos.append((t0 + .2, 'in'))
         if cid in ('01', '11'):
             # ondas de luz saindo da lâmpada (só as ondas, sem os raios: pedido do dono em 21/10)
-            cy = 700 if cid == '01' else 640
+            cy = 780 if cid == '01' else 640
             raios = ''.join(f'<rect x="-9" y="-390" width="18" height="110" rx="9" fill="{AM}" transform="rotate({i * 30})"/>' for i in range(12))
             h += (f'<div class="ab" style="left:540px;top:{cy}px;width:0;height:0">'
                                     + ''.join(f'<div class="ab" style="left:-200px;top:-200px;width:400px;height:400px;border-radius:50%;border:6px solid {AM};animation:onda 2.6s ease-out {at(.4 + i * .85)}s infinite"></div>' for i in range(3))
                   + '</div>')
             if cid == '01':
-                h += (f'<div class="ab" style="left:0;right:0;top:1130px;text-align:center"><div style="{A("foco", .7, .5)};{serif(110)}">Oi! Eu sou a</div>'
+                h += (f'<div class="ab" style="left:0;right:0;top:1200px;text-align:center"><div style="{A("foco", .7, .5)};{serif(110)}">Oi! Eu sou a</div>'
                       f'<div style="{A("pop", .8, 1.3)};{serif(190, AM)};margin-top:6px">Clareia.</div></div>')
                 eventos.append((t0 + 1.3, 'in'))
             else:
@@ -204,7 +204,7 @@ def pagina(r, durs):
                       f'<div style="{A("pop", .7, .9)};background:#fff;color:{ROXO};border:5px solid {T};box-shadow:12px 12px 0 {AM};border-radius:999px;padding:24px 40px;font:900 58px \'Public Sans\'">{E(c["titulo"])}</div>'
                       f'<div style="display:flex;gap:26px"><span style="{A("pop", .7, 1.8)};background:{AM};color:{T};border:5px solid {T};box-shadow:8px 8px 0 {T};border-radius:999px;padding:18px 38px;font:900 46px \'Public Sans\'">Link na bio</span>'
                       f'<span style="{A("pop", .7, 2.6)};background:#fff;color:{ROXO};border:5px solid {T};box-shadow:8px 8px 0 {AM};border-radius:999px;padding:18px 38px;font:900 46px \'Public Sans\'">Siga</span></div></div>')
-                eventos += [(t0 + .9, 'in'), (t0 + 1.8, 'in'), (t0 + 2.6, 'in')]
+                eventos += [(t0 + .9, 'in'), (t0 + 1.8, 'in'), (t0 + 2.6, 'in'), (t0 + 1.85, 'det')]
         elif cid == '02':
             # bolha central e quatro bolhas em volta, ligadas por linhas que se desenham
             cx, cy = 540, 1020; pos = [(260, 760), (820, 760), (260, 1290), (820, 1290)]
@@ -238,7 +238,7 @@ def pagina(r, durs):
             h += (f'<div class="ab" style="left:76px;right:76px;top:1150px;text-align:center;{A("foco", .7, ti[0])};{serif(70)}">Só entra o que tem fonte.</div>'
                   f'<div class="ab" style="left:0;right:0;top:1290px;display:flex;justify-content:center;align-items:center;gap:22px;{A("pop", .7, ti[1])}">'
                   f'<span style="{circ(120, ROXO, sombra=T)}">{ico("link", 70)}</span><span style="font:900 50px/1.2 \'Public Sans\';color:{T}">e o link de<br>quem publicou</span></div>')
-            eventos += [(t0 + 1.3, 'in'), (t0 + ti[0], 'in'), (t0 + ti[1], 'in')]
+            eventos += [(t0 + 1.3, 'in'), (t0 + ti[0], 'in'), (t0 + ti[1], 'in'), (t0 + 1.75, 'det')]
         elif cid == '05':
             # balança que se equilibra: mesmo critério para os dois lados
             h += chip() + titulo(420, 92)
@@ -265,13 +265,13 @@ def pagina(r, durs):
                   f'<span style="background:#fff;border:5px solid {T};box-shadow:8px 8px 0 {T};border-radius:999px;padding:12px 30px;font:800 40px \'Public Sans\';color:{T};text-decoration:line-through">antes</span>'
                   f'<span style="font:900 54px \'Public Sans\';color:{T}">→</span>'
                   f'<span style="background:{AM};border:5px solid {T};box-shadow:8px 8px 0 {T};border-radius:999px;padding:12px 30px;font:800 40px \'Public Sans\';color:{T}">depois</span></div>')
-            eventos += [(t0 + ti[1], 'in'), (t0 + ti[1] + 1, 'in')]
+            eventos += [(t0 + ti[1], 'in'), (t0 + ti[1] + 1, 'in'), (t0 + ti[1] + 1, 'det')]
         elif cid == '07':
             # o momento mais importante: holofote que se abre
             h += (f'<div class="ab" style="left:-260px;top:300px;width:1600px;height:1600px;border-radius:50%;background:radial-gradient(circle,rgba(255,212,59,.35),rgba(255,212,59,0) 62%);{A("luz", 1.2, .1)}"></div>'
                   f'<div class="ab" style="left:76px;right:76px;top:720px;text-align:center"><div style="{A("foco", .7, .3)};{serif(110)}">{E(c["titulo"])}</div>'
                   f'<div style="{A("pop", .9, 1.6)};{serif(150, AM)};margin-top:30px">{E(c["destaque"])}</div></div>')
-            eventos.append((t0 + 1.6, 'in'))
+            eventos += [(t0 + 1.6, 'in'), (t0 + 1.7, 'det')]
         elif cid in ('08', '09'):
             # anel de ícones girando devagar; cada um cresce quando é citado e o nome aparece no centro
             cx, cy, R = 540, 1010, 330
@@ -299,7 +299,7 @@ def pagina(r, durs):
                 eventos.append((t0 + ti[i], 'in'))
             h += (f'<div class="ab" style="left:0;right:0;top:1200px;display:flex;justify-content:center;{A("pop", .7, ti[2])}"><span style="display:inline-flex;align-items:center;gap:18px;background:{AM};color:{T};'
                   f'border:5px solid {T};box-shadow:10px 10px 0 {T};border-radius:999px;padding:18px 38px;font:900 46px \'Public Sans\'">{ico("ouvir", 56, T)}Voz gerada por IA</span></div>')
-            eventos.append((t0 + ti[2], 'in'))
+            eventos += [(t0 + ti[2], 'in'), (t0 + ti[2] + .1, 'det')]
         blocos.append(f'<div class="sc" style="animation:{anim}">{h}</div>')
         ts = trechos(c.get('legenda', c['fala'])); tot = sum(len(x.split()) for x in ts); tt = t0 + .15
         for j, x in enumerate(ts):
@@ -309,7 +309,7 @@ def pagina(r, durs):
         if not ult: eventos.append((t0 + dur - .45, 'out'))
     selo = (f'<span class="ab" style="right:76px;top:150px;background:rgba(22,24,29,.55);border-radius:999px;padding:8px 18px;font:700 26px \'Public Sans\';color:#fff;z-index:8">Voz gerada por IA</span>') if r.get('voz_ia') else ''
     topo = (f'<div class="ab" style="left:0;right:0;top:0;height:22px;display:flex;z-index:8"><i style="flex:1;background:#1F4FA8"></i><i style="flex:1;background:#D62B2B"></i></div>'
-            f'<div class="ab" style="left:66px;top:110px;padding:10px 16px;border-radius:24px;background:{ROXO};z-index:8"><img src="file://{LOGO}" style="height:96px;display:block;animation:logo .6s cubic-bezier(.2,.9,.3,1.3) 0s both;transform-origin:left center"></div>{selo}')
+            f'<div class="ab" style="left:66px;top:110px;padding:10px 16px;border-radius:24px;background:{ROXO};z-index:8;animation:foco .6s ease {inicio[1]:.2f}s both"><img src="file://{LOGO}" style="height:96px;display:block;transform-origin:left center"></div>{selo}')
     css = (f"@font-face{{font-family:'Public Sans';src:url('file://{FONTES}/PublicSans.ttf');font-weight:100 900}}"
            f"@font-face{{font-family:'Source Serif 4';src:url('file://{FONTES}/SourceSerif4.ttf');font-weight:200 900}}body{{margin:0}}" + CSS + estilo)
     return f'<!doctype html><meta charset="utf-8"><style>{css}</style><div class="f">{fundo}{topo}{"".join(blocos)}</div>', total, eventos
@@ -337,9 +337,10 @@ def audio(durs, eventos, total, saida):
             v = v / (np.abs(v).max() + 1e-9) * .8
             i = int((t0 + .15) * SR); mix[i:i + len(v)] += v[:len(mix) - i]
         t0 += dur
-    si, so = bolha(), madeira()
+    so = madeira()   # só o toque de madeira, pontual, nos detalhes (pedido do dono em 21/10)
     for t, k in eventos:
-        y = si if k == 'in' else so; i = int(t * SR); j = min(len(mix), i + len(y)); mix[i:j] += y[:j - i]
+        if k != 'det': continue
+        i = int(t * SR); j = min(len(mix), i + len(so)); mix[i:j] += so[:j - i]
     mix = mix[:int(total * SR)]
     # lo-fi bem baixinho ao fundo, em loop com emenda suave (pedido do dono em 21/10)
     trilha = os.path.join(MOD, 'trilhas', os.environ.get('MUSICA', 'clareia-lofi-praca-30s.wav'))
