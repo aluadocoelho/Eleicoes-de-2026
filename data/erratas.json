@@ -471,5 +471,192 @@
   "depois": "CNN Brasil",
   "motivo": "O link anterior era de veículo de opinião; a fonte nova traz a mesma informação.",
   "url": "https://www.cnnbrasil.com.br/blogs/edilene-lopes/eleicoes/o-que-fez-augusto-cury-antecipar-apoio-a-flavio-bolsonaro/"
+ },
+ {
+  "id": "er44",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-15",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Mais Goiás",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/eu-fiz-dele-um-prisioneiro-diz-lula-a-flavio-sobre-vorcaro/"
+ },
+ {
+  "id": "er45",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-46",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Esmael Morais",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-cobra-lula-sobre-saidinhas-petista-defende-beneficio/"
+ },
+ {
+  "id": "er46",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-36",
+  "o_que_mudou": "Citação corrigida e troca de fonte",
+  "antes": "Flávio teria dito: \"Lula se preocupa mais com direitos dos bandidos do que das vítimas\" (Blog do BG)",
+  "depois": "Pergunta de Flávio: \"por que você está sempre pensando nos direitos dos bandidos e não está pensando nos direitos das vítimas?\" (Poder360)",
+  "motivo": "A frase entre aspas não aparece assim na reportagem; o texto foi ajustado à fala publicada.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-cobra-lula-sobre-saidinhas-petista-defende-beneficio/"
+ },
+ {
+  "id": "er47",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-47",
+  "o_que_mudou": "Fala de Lula corrigida e troca de fonte",
+  "antes": "Lula acusou Flávio de defender indulto ao pai; saída temporária negada a condenados por crimes violentos",
+  "depois": "Lula citou a possibilidade de Flávio dar indulto ao pai, se eleito, e disse que estupro e violência contra a mulher não têm saída temporária (Poder360)",
+  "motivo": "A reportagem não diz que Lula acusou Flávio de defender o indulto; ele citou a possibilidade e o alcance a outras pessoas.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-cobra-lula-sobre-saidinhas-petista-defende-beneficio/"
+ },
+ {
+  "id": "er48",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-37,band-50",
+  "o_que_mudou": "Texto ajustado ao que a fonte registra e troca de fonte",
+  "antes": "Cobrança sobre a escala 6x1 no bloco de saúde e frases \"não entende nada de saúde pública\" e \"nunca foi à UPA\" (Plantão Brasil, Brasil 247)",
+  "depois": "Pergunta sobre privatização do SUS e fala de que só quem não entende de saúde e nunca usou a rede pública faz esse tipo de declaração (Band)",
+  "motivo": "A página da Band não traz a cobrança sobre a 6x1 nem as frases entre aspas; o texto ficou só com o que a reportagem confirma.",
+  "url": "https://www.band.com.br/politica/eleicoes/lula-rebate-flavio-bolsonaro-sobre-saude-e-questiona-quer-privatizar-o-sus"
+ },
+ {
+  "id": "er49",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-48",
+  "o_que_mudou": "Detalhes removidos e troca de fonte",
+  "antes": "716 mil mortes por Covid-19 e Mais Médicos de 12 mil para 28 mil profissionais (Esmael Morais)",
+  "depois": "Críticas à condução da pandemia, ampliação do Mais Médicos e recuperação de seis hospitais federais no Rio (Diário do Grande ABC)",
+  "motivo": "Os números não aparecem na reportagem de veículo das seções A a E; ficou o que ela registra.",
+  "url": "https://www.dgabc.com.br/Noticia/4353465/lula-questiona-sobre-sus-flavio-faz-mea-culpa-sobre-saude-no-governo-jair-bolsonaro"
+ },
+ {
+  "id": "er50",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-19,band-20,band-49",
+  "o_que_mudou": "Detalhes removidos e troca de fonte",
+  "antes": "Pergunta \"A comida está mais cara...\", frase \"fazer primeiro o dinheiro circular\", US$ 270 bilhões em reservas, compra de dívidas por valor menor e Caixa como Banco da Prosperidade (BPMoney, Esmael Morais)",
+  "depois": "Dívida \"não é sua, é do atual governo\"; Lula sobre renda, reservas e FMI; congelamento de dívidas por seis meses e um ano e Ministério da Prosperidade (Times Brasil)",
+  "motivo": "Esses detalhes não aparecem na reportagem de veículo das seções A a E; o texto ficou só com o que ela confirma.",
+  "url": "https://timesbrasil.com.br/eleicoes-2026/economia-debate-band-flavio-lula-congelamento-dividas/"
+ },
+ {
+  "id": "er51",
+  "data": "2026-10-22",
+  "conjunto": "aovivo",
+  "registro_id": "band-61,band-62",
+  "o_que_mudou": "Falas ajustadas e troca de fonte",
+  "antes": "Aspas \"vamos apurar\" e \"Fiquei muito feliz com o desempenho, pude falar de propostas\"; prazo \"até o próximo debate\"; atos em Salvador e na Paulista (O Antagonista)",
+  "depois": "Lula: nível baixo, desafio dos sigilos reforçado e confiança na vitória em 25/10; Flávio: satisfeito, pôde \"rebater várias mentiras\" e vai manter atos de rua (SBT News)",
+  "motivo": "As aspas, o prazo e os locais não constam na reportagem do SBT News; o texto ficou com o que ela registra.",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/flavio-celebra-desempenho-lula-pede-debate-mais-qualificado"
+ },
+ {
+  "id": "er52",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e38",
+  "o_que_mudou": "Data e texto corrigidos e troca de fonte",
+  "antes": "21/10; \"A decisão ainda deve ir ao plenário do TSE\" (Agenda do Poder)",
+  "depois": "20/10; decisão provisória de Mendonça, com a identificação do vice omitida na versão original (Congresso em Foco)",
+  "motivo": "A decisão saiu na terça (20/10) e a reportagem não menciona envio ao plenário.",
+  "url": "https://www.congressoemfoco.com.br/noticia/123426/mendonca-mantem-peca-de-flavio-que-liga-ato-pro-lula-ao-pcc-e-ao-hamas"
+ },
+ {
+  "id": "er53",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e42",
+  "o_que_mudou": "Justificativa acrescentada e troca de fonte",
+  "antes": "Cancelamento sem justificativa divulgada (A Crítica de Campo Grande)",
+  "depois": "Segundo a campanha, por recomendação da fonoaudióloga, para poupar a voz (Metrópoles)",
+  "motivo": "A reportagem informa a justificativa dada pela campanha.",
+  "url": "https://www.metropoles.com/brasil/lula-cancela-gravacao-de-entrevista-com-a-tv-record-nesta-quarta-21-10"
+ },
+ {
+  "id": "er54",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e43",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Mais Goiás",
+  "depois": "Gazeta do Povo",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://www.gazetadopovo.com.br/republica/flavio-amplia-exigencias-para-abrir-sigilos-e-cobra-dados-de-aliados-de-lula/"
+ },
+ {
+  "id": "er55",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e35",
+  "o_que_mudou": "Troca de fonte e texto ajustado",
+  "antes": "NC News; \"presença confirmada\" dos dois candidatos",
+  "depois": "Diário do Grande ABC; debate marcado para 23/10, às 21h20, no Rio, com mediação de César Tralli",
+  "motivo": "A reportagem de veículo das seções A a E confirma data, horário, local e mediação, mas não a confirmação formal dos dois.",
+  "url": "https://www.dgabc.com.br/Noticia/4353569/ultimo-debate-do-2-turno-reunira-lula-e-flavio-bolsonaro-na-tv-globo-veja-quando-sera"
+ },
+ {
+  "id": "er56",
+  "data": "2026-10-22",
+  "conjunto": "agenda",
+  "registro_id": "2026-10-23",
+  "o_que_mudou": "Troca de fonte e texto ajustado",
+  "antes": "NC News; \"presença confirmada\" dos dois candidatos",
+  "depois": "Diário do Grande ABC; debate na TV Globo, às 21h20, no Rio",
+  "motivo": "A reportagem de veículo das seções A a E confirma data, horário, local e mediação, mas não a confirmação formal dos dois.",
+  "url": "https://www.dgabc.com.br/Noticia/4353569/ultimo-debate-do-2-turno-reunira-lula-e-flavio-bolsonaro-na-tv-globo-veja-quando-sera"
+ },
+ {
+  "id": "er57",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "btg-1310",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Jornal Opção",
+  "depois": "Times Brasil",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://timesbrasil.com.br/eleicoes-2026/pesquisa-btg-nexus-flavio-bolsonaro-52-lula-48-segundo-turno/"
+ },
+ {
+  "id": "er58",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "vox-1810",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gizmodo / Portal N10",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-51-contra-49-de-flavio-em-votos-validos-diz-vox/"
+ },
+ {
+  "id": "er59",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "indexa-2210",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Viva",
+  "depois": "Terra",
+  "motivo": "O link anterior era de veículo de linha partidária declarada ou de site pequeno; a fonte nova traz a mesma informação.",
+  "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/flavio-tem-452-ante-441-de-lula-em-empate-tecnico-mostra-pesquisa-indexabroadcast,50389519238da1ef217383eab4485085d87yhufc.html"
+ },
+ {
+  "id": "er60",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "cntmda-1610",
+  "o_que_mudou": "Troca de fonte e dados completados",
+  "antes": "RIC; campo, amostra e margem em branco",
+  "depois": "O Povo; campo 13 a 15/10, 2.002 entrevistados, margem de 2,2 pontos",
+  "motivo": "A reportagem de veículo da seção E traz os dados da rodada.",
+  "url": "https://mais.opovo.com.br/jornal/politica/2026/10/17/pesquisa-cnt-mda-mostra-empate-tecnico-entre-flavio-bolsonaro-e-lula-veja-numeros.html"
  }
 ]
