@@ -7,6 +7,7 @@ para que dê para saber do que a peça fala só de bater o olho (aprovado pelo d
   boato     fundo branco, o "print" do boato com o carimbo FALSO e o que é verdade
   agenda    fundo amarelo, a data grande num bloco de calendário
   plantao   fundo roxo com letreiro preto no topo, para atualizações do dia
+  urgente   fundo preto com fita zebrada amarela e selo vermelho PLANTÃO, só para notícia urgente (mesmos campos de plantao; no reels, mesmo visual preto do tema plantao)
   servico   fundo branco, passos numerados (como votar, prazos, onde ver)
   contexto  fundo de papel, ENTENDA: carrossel explicativo (capa com contagem, linha do tempo, lado a lado, números, próximos passos; veja contexto.py)
 
@@ -17,7 +18,7 @@ Campos de cada família:
   checagem: candidato, evento ("debate na Band (18/10)"), fala, selo ("NÃO É BEM ASSIM"), checador ("g1 Fato ou Fake"), fonte
   boato:    onde ("Circulou no X"), checado ("16/10"), boato, verdade, selo? ("FALSO"), fonte
   agenda:   dia_semana ("SEXTA"), dia ("23"), mes ("OUT"), titulo, hora?, itens:[{rotulo, texto}] (até 3), fonte
-  plantao:  quando ("Quarta, 21/10 · atualizado às 11h"), titulo, destaque?, itens:[{rotulo, texto}] (até 3), fonte
+  plantao e urgente:  quando ("Quarta, 21/10 · atualizado às 11h"), titulo, destaque?, itens:[{rotulo, texto}] (até 3), fonte
   servico:  titulo, destaque?, passos:[{titulo, texto}] (até 4), fonte
 """
 import os, sys, html
@@ -35,12 +36,13 @@ PALETA = {
  'boato':    dict(bg='#FFFFFF', fg=T, sub='#4A4458', logo='claro', arroba=ROXO, dest=ROXO),
  'agenda':   dict(bg=AM, fg=T, sub='#3A3000', logo='claro', arroba=T, dest=ROXO),
  'plantao':  dict(bg=ROXO, fg='#fff', sub='#D9CFF5', logo='roxo', arroba='#E2D9FA', dest=AM),
+ 'urgente':  dict(bg=T, fg='#fff', sub='#C9CBD2', logo='escuro', arroba='#C9CBD2', dest=AM),
  'servico':  dict(bg='#FFFFFF', fg=T, sub='#3A3F49', logo='claro', arroba=ROXO, dest=ROXO),
  'contexto': dict(bg='#FBF6EA', fg=T, sub='#5A5248', logo='claro', arroba=ROXO, dest=ROXO),
 }
 TRILHAS = {   # trilhas sugeridas para o reels de cada família (video.py sorteia entre elas)
  'pesquisa': ['estrada', 'pulsar'], 'agenda': ['batuque', 'pulsar', 'funkpop'], 'servico': ['batuque', 'praca'],
- 'engajamento': ['funkpop', 'batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'], 'contexto': ['estrada', 'pulsar'],
+ 'engajamento': ['funkpop', 'batuque', 'tamborzao', 'praca'], 'plantao': ['jornal', 'pulso'], 'urgente': ['jornal', 'pulso'], 'checagem': ['noite', 'jornal'], 'boato': ['noite'], 'contexto': ['estrada', 'pulsar'],
 }
 IC = {
  'pesquisa': '<path d="M4 20h16"/><rect x="5" y="11" width="3.2" height="6.5" rx="1"/><rect x="10.4" y="6.5" width="3.2" height="11" rx="1"/><rect x="15.8" y="9" width="3.2" height="8.5" rx="1"/>',
@@ -48,12 +50,13 @@ IC = {
  'boato': '<path d="M12 3.6 21 19.5H3z"/><path d="M12 9.6v4.4"/><circle cx="12" cy="16.9" r=".5"/>',
  'agenda': '<rect x="3.6" y="5" width="16.8" height="15" rx="2.4"/><path d="M3.6 10h16.8M8 3v4M16 3v4"/>',
  'plantao': '<path d="M6 9.5a6 6 0 0 1 12 0c0 6 2.6 7.8 2.6 7.8H3.4S6 15.5 6 9.5"/><path d="M10.2 20.2a2 2 0 0 0 3.6 0"/>',
+ 'urgente': '<path d="M6 9.5a6 6 0 0 1 12 0c0 6 2.6 7.8 2.6 7.8H3.4S6 15.5 6 9.5"/><path d="M10.2 20.2a2 2 0 0 0 3.6 0"/>',
  'contexto': '<path d="M4 5.5A2 2 0 0 1 6 4h5v15H6a2 2 0 0 0-2 1.5z"/><path d="M20 5.5A2 2 0 0 0 18 4h-5v15h5a2 2 0 0 1 2 1.5z"/>',
  'servico': '<path d="M4 13.5h16v6.5H4z"/><path d="M8.2 13.5V5.2a1 1 0 0 1 1-1h5.6a1 1 0 0 1 1 1v8.3"/><path d="m10 8.8 1.6 1.6 2.6-2.8"/>',
 }
-NOME = {'pesquisa': 'PESQUISA', 'checagem': 'CHECAGEM', 'boato': 'BOATO DESMENTIDO', 'agenda': 'AGENDA', 'plantao': 'PLANTÃO', 'servico': 'SERVIÇO', 'contexto': 'ENTENDA'}
-CHIP = {'pesquisa': (T, AM, T), 'checagem': (AM, T, T), 'boato': (ROXO, '#fff', T), 'agenda': (T, AM, T), 'plantao': (AM, T, T), 'servico': ('#fff', ROXO, ROXO), 'contexto': (ROXO, '#fff', ROXO)}
-PILL = {'pesquisa': (ROXO, '#fff', T), 'checagem': (AM, T, AM), 'boato': (ROXO, '#fff', T), 'agenda': (ROXO, '#fff', T), 'plantao': (AM, T, T), 'servico': (ROXO, '#fff', T), 'contexto': (ROXO, '#fff', T)}
+NOME = {'pesquisa': 'PESQUISA', 'checagem': 'CHECAGEM', 'boato': 'BOATO DESMENTIDO', 'agenda': 'AGENDA', 'plantao': 'PLANTÃO', 'urgente': 'PLANTÃO', 'servico': 'SERVIÇO', 'contexto': 'ENTENDA'}
+CHIP = {'pesquisa': (T, AM, T), 'checagem': (AM, T, T), 'boato': (ROXO, '#fff', T), 'agenda': (T, AM, T), 'plantao': (AM, T, T), 'urgente': (VM, '#fff', T), 'servico': ('#fff', ROXO, ROXO), 'contexto': (ROXO, '#fff', ROXO)}
+PILL = {'pesquisa': (ROXO, '#fff', T), 'checagem': (AM, T, AM), 'boato': (ROXO, '#fff', T), 'agenda': (ROXO, '#fff', T), 'plantao': (AM, T, T), 'urgente': (AM, T, AM), 'servico': (ROXO, '#fff', T), 'contexto': (ROXO, '#fff', T)}
 def caixa(sombra=AM, fundo='#fff', borda=T, raio=26, pad='26px 30px'):
     """Estilo único de caixa da Clareia (regra do dono, 21/10): borda escura e sombra dura deslocada. Nunca faixa/fitinha colorida na lateral ou no topo."""
     return f'background:{fundo};color:{T};border:4px solid {borda};border-radius:{raio}px;box-shadow:10px 10px 0 {sombra};padding:{pad}'
@@ -155,7 +158,7 @@ def c_contexto(s, P, story):
     import contexto
     return contexto.corpo(s, P, story, chip)
 
-CORPOS = {'contexto': c_contexto, 'pesquisa': c_pesquisa, 'checagem': c_checagem, 'boato': c_boato, 'agenda': c_agenda, 'plantao': c_plantao, 'servico': c_servico}
+CORPOS = {'contexto': c_contexto, 'pesquisa': c_pesquisa, 'checagem': c_checagem, 'boato': c_boato, 'agenda': c_agenda, 'plantao': c_plantao, 'urgente': c_plantao, 'servico': c_servico}
 
 def pagina(s, formato):
     fam = s['familia']; P = PALETA[fam]; story = formato == 'story'
@@ -169,6 +172,16 @@ def pagina(s, formato):
                     f'<i style="width:16px;height:16px;border-radius:50%;background:{ROXO}"></i>PLANTÃO</span>'
                     f'<span style="font:700 28px {SANS};color:#fff;white-space:nowrap">{E(s.get("quando", ""))}</span></div>')
         pt += 100 if story else 120
+    elif fam == 'urgente':   # fita zebrada amarela no topo e no pé, selo vermelho (o visual preto do plantão urgente)
+        fita = f'repeating-linear-gradient(-45deg,{AM} 0 40px,{T} 40px 80px)'
+        hl = 170 if story else 104
+        letreiro = (f'<div style="position:absolute;left:0;right:0;top:0;height:{hl}px;background:{fita}"></div>'
+                    f'<div style="position:absolute;left:40px;top:{hl - 34}px;display:flex;align-items:center;gap:22px">'
+                    f'<span style="display:inline-flex;align-items:center;gap:12px;background:{VM};color:#fff;border:4px solid {T};box-shadow:6px 6px 0 {AM};border-radius:999px;padding:12px 26px;font:900 32px/1 {SANS};letter-spacing:.12em">'
+                    f'<i style="width:16px;height:16px;border-radius:50%;background:#fff"></i>PLANTÃO</span>'
+                    f'<span style="background:{T};color:#fff;border-radius:12px;padding:8px 16px;font:700 28px {SANS};white-space:nowrap">{E(s.get("quando", ""))}</span></div>'
+                    f'<div style="position:absolute;left:0;right:0;bottom:0;height:22px;background:{fita}"></div>')
+        pt += 110 if story else 130
     pbg, pfg, pbd = PILL[fam]
     topo = (f'<div style="display:flex;justify-content:space-between;align-items:center"><img src="{LOGO[P["logo"]]}" style="height:86px">'
             f'<span style="font:800 28px {SANS};color:{P["arroba"]}">{M.ARROBA}</span></div>')
