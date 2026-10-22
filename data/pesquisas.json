@@ -10,8 +10,8 @@
   "lula_validos": 47.2,
   "flavio_totais": null,
   "lula_totais": null,
-  "fonte": "Brasil de Fato / CNN Brasil",
-  "url": "https://www.brasildefato.com.br/2026/10/09/pesquisa-atlasintelbloomberg-mostra-flavio-bolsonaro-com-528-dos-votos-validos-no-2o-turno-e-lula-com-472/"
+  "fonte": "SBT News (AtlasIntel/Bloomberg, registro BR-03663/2026)",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-intel-flavio-tem-52-8-e-lula-47-2-no-segundo-turno"
  },
  {
   "id": "datafolha-0810",
@@ -157,15 +157,15 @@
   "id": "ipespe-1010",
   "instituto": "Ipespe/Abrapel",
   "divulgacao": "2026-10-10",
-  "campo": null,
-  "amostra": null,
-  "margem": null,
+  "campo": "6–8 out",
+  "amostra": 1500,
+  "margem": 2.6,
   "flavio_validos": 52.7,
   "lula_validos": 47.3,
   "flavio_totais": 49,
   "lula_totais": 44,
-  "fonte": "Transmissão Política / Correio",
-  "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/17/pesquisa-ipespe-segundo-turno-flavio-lula/"
+  "fonte": "CNN Brasil (Ipespe/Abrapel, registro BR-00933/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/"
  },
  {
   "id": "ipespe-1710",
@@ -276,8 +276,8 @@
   "lula_validos": 49.6,
   "flavio_totais": 48.3,
   "lula_totais": 47.5,
-  "fonte": "Futura Inteligência (registro BR-06715/2026), via TMC",
-  "url": "https://tmc.com.br/politica/pesquisa-futura-inteliencia-flavio-lidera-segundo-turno-lula/"
+  "fonte": "Futura Inteligência (registro BR-06715/2026), via Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-504-dos-votos-validos-contra-496-de-lula-diz-pesquisa/"
  },
  {
   "id": "realtime-2010",
@@ -290,8 +290,8 @@
   "lula_validos": 48,
   "flavio_totais": 48,
   "lula_totais": 45,
-  "fonte": "RealTime Big Data (registro BR-02952/2026), via ND Mais",
-  "url": "https://ndmais.com.br/politica/realtime-bigdata-flavio-bolsonaro-lula-segundo-turno/"
+  "fonte": "RealTime Big Data (registro BR-02952/2026), via Gazeta do Povo",
+  "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno/"
  },
  {
   "id": "alfa-2010",
@@ -304,8 +304,8 @@
   "lula_validos": 48.5,
   "flavio_totais": 48.8,
   "lula_totais": 45.9,
-  "fonte": "Alfa Inteligência (registro BR-00820/2026), via TMC",
-  "url": "https://tmc.com.br/politica/alfa-flavio-abre-vantagem-no-2o-turno-e-chega-a-515-dos-votos-validos-contra-lula/"
+  "fonte": "Alfa Inteligência (registro BR-00820/2026), via Exame",
+  "url": "https://exame.com/brasil/pesquisa-para-presidente-alfa-flavio-bolsonaro-tem-515-e-lula-485-no-2o-turno/"
  },
  {
   "id": "franca-2010",
@@ -332,8 +332,8 @@
   "lula_validos": 50.4,
   "flavio_totais": 44.6,
   "lula_totais": 45.4,
-  "fonte": "NC News (Data Ranking/Fonte83, registro BR-00152/2026)",
-  "url": "https://ncnews.com.br/2026/10/20/pesquisa-lula-flavio-bolsonaro/"
+  "fonte": "Fonte83 (Data Ranking, registro BR-00152/2026)",
+  "url": "https://fonte83.com.br/politica/pesquisa-nacional-data-ranking-lula-tem-504-e-flavio-496-no-2o-turno/"
  },
  {
   "id": "meioideia-2110",
@@ -346,8 +346,8 @@
   "lula_validos": 48.9,
   "flavio_totais": 48.0,
   "lula_totais": 46.0,
-  "fonte": "Transmissão Política (Meio/Ideia, entrevistas por telefone, registro BR-08251/2026)",
-  "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisa-meio-ideia-flavio-lula-segundo-turno/"
+  "fonte": "CNN Brasil (Meio/Ideia, entrevistas por telefone, registro BR-08251/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-511-dos-votos-validos-no-2o-turno-lula-489/"
  },
  {
   "id": "futura-2110",
@@ -360,8 +360,8 @@
   "lula_validos": 48.9,
   "flavio_totais": 48.9,
   "lula_totais": 46.8,
-  "fonte": "Futura/Apex (registro BR-06614/2026, contratada pela 100% Cidades), via Blog do BG",
-  "url": "https://www.blogdobg.com.br/futura-apex-lula-cai-para-489-e-flavio-sobe-para-511-dos-votos-validos/"
+  "fonte": "Futura/Apex (registro BR-06614/2026, contratada pela 100% Cidades), via Poder360",
+  "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-futura/"
  },
  {
   "id": "quaest-2110",
@@ -388,8 +388,8 @@
   "lula_validos": 49.3,
   "flavio_totais": null,
   "lula_totais": null,
-  "fonte": "Jornal Razão (pesquisa própria do Veritá, registro TSE BR-06396/2026; só votos válidos divulgados)",
-  "url": "https://jornalrazao.com/politica/verita-flavio-bolsonaro-50-lula-49-segundo-turno"
+  "fonte": "CNN Brasil (pesquisa própria do Veritá, registro TSE BR-06396/2026; só votos válidos divulgados)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-507-dos-votos-validos-no-2o-turno-lula-493/"
  },
  {
   "id": "gerp-2110",
@@ -430,8 +430,8 @@
   "lula_validos": 49,
   "flavio_totais": 49,
   "lula_totais": 48,
-  "fonte": "TMC (PoderData/Aya, registro BR-07926/2026)",
-  "url": "https://tmc.com.br/politica/poderdata-flavio-bolsonaro-a-frente-lula-segundo-turno/"
+  "fonte": "CartaCapital (PoderData/Aya, registro BR-07926/2026)",
+  "url": "https://www.cartacapital.com.br/politica/pesquisa-poderdata-mostra-empate-tecnico-entre-flavio-e-lula-a-3-dias-do-2o-turno/"
  },
  {
   "id": "indexa-2210",

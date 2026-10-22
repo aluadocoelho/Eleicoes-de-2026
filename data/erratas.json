@@ -328,5 +328,148 @@
   "depois": "Terra; texto registra que Flávio afirma nunca ter tido conta conjunta com Tomaz nem participação societária em empresas ligadas à Best Bet",
   "motivo": "A reportagem do Terra de 21/10 traz a resposta de Flávio e de Tomaz, e a campanha não deixou de responder.",
   "url": "https://www.terra.com.br/noticias/o-que-se-sabe-sobre-suposto-elo-de-flavio-bolsonaro-com-esquema-de-bets,565fe97eae2082589f7650575db2a9eda3q1wpce.html"
+ },
+ {
+  "id": "er31",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "futura-1910",
+  "o_que_mudou": "Troca de fonte da pesquisa Futura",
+  "antes": "TMC",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-504-dos-votos-validos-contra-496-de-lula-diz-pesquisa/"
+ },
+ {
+  "id": "er32",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "alfa-2010",
+  "o_que_mudou": "Troca de fonte da pesquisa Alfa Inteligência",
+  "antes": "TMC",
+  "depois": "Exame",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://exame.com/brasil/pesquisa-para-presidente-alfa-flavio-bolsonaro-tem-515-e-lula-485-no-2o-turno/"
+ },
+ {
+  "id": "er33",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "poderdata-2210",
+  "o_que_mudou": "Troca de fonte da pesquisa PoderData/Aya",
+  "antes": "TMC",
+  "depois": "CartaCapital",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.cartacapital.com.br/politica/pesquisa-poderdata-mostra-empate-tecnico-entre-flavio-e-lula-a-3-dias-do-2o-turno/"
+ },
+ {
+  "id": "er34",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "futura-2110",
+  "o_que_mudou": "Troca de fonte da pesquisa Futura",
+  "antes": "Blog do BG",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-futura/"
+ },
+ {
+  "id": "er35",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "verita-2110",
+  "o_que_mudou": "Troca de fonte da pesquisa Veritá",
+  "antes": "Jornal Razão",
+  "depois": "CNN Brasil",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-507-dos-votos-validos-no-2o-turno-lula-493/"
+ },
+ {
+  "id": "er36",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "meioideia-2110",
+  "o_que_mudou": "Troca de fonte da pesquisa Meio/Ideia",
+  "antes": "Transmissão Política",
+  "depois": "CNN Brasil",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-511-dos-votos-validos-no-2o-turno-lula-489/"
+ },
+ {
+  "id": "er37",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "realtime-2010",
+  "o_que_mudou": "Troca de fonte da pesquisa RealTime Big Data",
+  "antes": "ND Mais",
+  "depois": "Gazeta do Povo",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno/"
+ },
+ {
+  "id": "er38",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "dataranking-2010",
+  "o_que_mudou": "Troca de fonte da pesquisa Data Ranking",
+  "antes": "NC News",
+  "depois": "Fonte83, parceira do instituto na pesquisa",
+  "motivo": "O link anterior era de um site que repete notícias; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://fonte83.com.br/politica/pesquisa-nacional-data-ranking-lula-tem-504-e-flavio-496-no-2o-turno/"
+ },
+ {
+  "id": "er39",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "atlas-1009",
+  "o_que_mudou": "Troca de fonte da pesquisa AtlasIntel",
+  "antes": "Brasil de Fato / CNN Brasil",
+  "depois": "SBT News",
+  "motivo": "O link anterior era de um veículo de opinião; a fonte nova traz os mesmos números (campo, amostra, margem e votos válidos).",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-intel-flavio-tem-52-8-e-lula-47-2-no-segundo-turno"
+ },
+ {
+  "id": "er40",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "ipespe-1010",
+  "o_que_mudou": "Link da rodada do Ipespe de 10/10 e dados de campo, amostra e margem",
+  "antes": "Link de matéria de 17/10 (outra rodada, 51,2% a 48,8%); campo, amostra e margem em branco",
+  "depois": "CNN Brasil de 10/10 (52,7% a 47,3%); campo 6–8 out, 1.500 entrevistas, margem de 2,6 pontos",
+  "motivo": "O link apontava para a rodada seguinte do Ipespe; a matéria da CNN Brasil trata da rodada de 10/10 e traz os dados da pesquisa.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/"
+ },
+ {
+  "id": "er41",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e15",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Revista Oeste",
+  "depois": "Band",
+  "motivo": "O link anterior era de veículo de opinião; a fonte nova traz a mesma informação.",
+  "url": "https://www.band.com.br/politica/eleicoes/tse-suspende-propaganda-de-lula-que-associa-flavio-e-gaspar-a-escandalos"
+ },
+ {
+  "id": "er42",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e30",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "O Antagonista",
+  "depois": "CartaCapital",
+  "motivo": "O link anterior era de veículo de opinião; a fonte nova traz a mesma informação.",
+  "url": "https://www.cartacapital.com.br/politica/tse-mantem-propaganda-em-que-lula-diz-que-flavio-bolsonaro-era-contra-o-fim-da-escala-6x1/"
+ },
+ {
+  "id": "er43",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e34",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Brasil 247",
+  "depois": "CNN Brasil",
+  "motivo": "O link anterior era de veículo de opinião; a fonte nova traz a mesma informação.",
+  "url": "https://www.cnnbrasil.com.br/blogs/edilene-lopes/eleicoes/o-que-fez-augusto-cury-antecipar-apoio-a-flavio-bolsonaro/"
  }
 ]
