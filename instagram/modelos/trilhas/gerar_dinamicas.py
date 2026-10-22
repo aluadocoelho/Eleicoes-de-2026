@@ -219,7 +219,7 @@ def finalizar(nome, M, kp, tom):
         if j > i: out[:, i:j] += y[:j - i]
         tt += E8 if tt < 2.0 else (S16 if tt < 2.5 else S16 / 2)
     imp = np.zeros(int(2 * SR)); k = kick(); imp[:len(k)] += k; s = sub808(tom, 1.2); imp[:len(s)] += s * .5
-    n = int(1.5 * SR); imp[:n] += hp(lp(rng.standard_normal(n), 10000), 3500) * np.exp(-np.arange(n) / SR / .5) * .2
+    # (sem o chiado de impacto no drop: pedido do dono em 21/10)
     out[0, nd:nd + len(imp)] += imp; out[1, nd:nd + len(imp)] += np.roll(imp, 40)
     t2 = np.arange(N) / SR; fade = np.ones(N); fade[t2 > DUR - .8] = np.clip((DUR - t2[t2 > DUR - .8]) / .8, 0, 1)
     out = np.tanh(out * fade * 1.25); out = out / np.max(np.abs(out)) * .89

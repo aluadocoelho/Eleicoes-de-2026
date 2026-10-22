@@ -63,10 +63,12 @@ def item(it, d, fundo_item, txt_cor, C=None):
     C = C or {}
     cor = COR.get(it.get('lado', 'neutro'), AMARELO)
     if cor == AMARELO and C.get('acc'): cor = C['acc']
-    rot = cor if (cor != AZUL or C.get('claro')) else '#7EA6FF'
-    return (f'<div class="card" style="animation-delay:{d:.2f}s;background:{fundo_item};border:3px solid {C.get("bd", "#3A3E48")};border-top:10px solid {cor};border-radius:28px;padding:32px 36px;display:flex;flex-direction:column;gap:14px">'
-            f'<div style="font-size:34px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{rot}">{E(it["rotulo"])}</div>'
-            f'<div style="font-size:50px;line-height:1.32;color:{txt_cor}">{E(it["texto"])}</div></div>')
+    # caixa padrão da Clareia (regra do dono, 21/10): fundo branco, borda escura e sombra dura; o lado aparece só no pontinho colorido
+    sombra = C.get('sombra', AMARELO)
+    ponto = f'<i style="flex:none;width:30px;height:30px;border-radius:50%;background:{cor};border:3px solid {TINTA}"></i>' if it.get('lado') in ('lula', 'flavio') else ''
+    return (f'<div class="card" style="animation-delay:{d:.2f}s;background:#FFFFFF;color:{TINTA};border:5px solid {TINTA};border-radius:30px;box-shadow:12px 12px 0 {sombra};padding:32px 36px;display:flex;flex-direction:column;gap:14px">'
+            f'<div style="display:flex;align-items:center;gap:14px;font-size:34px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:{P.ROXO}">{ponto}{E(it["rotulo"])}</div>'
+            f'<div style="font-size:50px;line-height:1.32;color:{TINTA}">{E(it["texto"])}</div></div>')
 
 def telas(s):
     """Divide o roteiro em telas: [(tipo, dados, duração)]."""
@@ -110,12 +112,12 @@ CSS = """
 # paletas das famílias visuais (ver familias.py): fundo, cartão, texto, texto suave, destaque, borda, selo e logo
 LAV = '#EEE8FA'
 FAM = {
- 'pesquisa': dict(bg=LAV, fi='#FFFFFF', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd=TINTA, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
+ 'pesquisa': dict(bg=LAV, fi='#FFFFFF', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd=TINTA, sombra=P.ROXO, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
  'checagem': dict(bg=TINTA, fi='#22252C', fg='#FFFFFF', sub='#B5AFC4', acc=AMARELO, bd='#3A3E48', selo=(AMARELO, TINTA, '#FFFFFF'), logo='escuro'),
- 'boato':    dict(bg='#FFFFFF', fi='#F4F2F8', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd='#CFC8DD', selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
- 'agenda':   dict(bg=AMARELO, fi='#FFFFFF', fg=TINTA, sub='#3A3000', acc=P.ROXO, bd=TINTA, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
+ 'boato':    dict(bg='#FFFFFF', fi='#F4F2F8', fg=TINTA, sub='#4A4458', acc=P.ROXO, bd='#CFC8DD', sombra=P.ROXO, selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
+ 'agenda':   dict(bg=AMARELO, fi='#FFFFFF', fg=TINTA, sub='#3A3000', acc=P.ROXO, bd=TINTA, sombra=TINTA, selo=(TINTA, AMARELO, P.ROXO), logo='claro', claro=True),
  'plantao':  dict(bg=P.ROXO, fi='#2E1B70', fg='#FFFFFF', sub='#D9CFF5', acc=AMARELO, bd='#5B45A8', selo=(AMARELO, TINTA, TINTA), logo='roxo'),
- 'servico':  dict(bg='#FFFFFF', fi=LAV, fg=TINTA, sub='#3A3F49', acc=P.ROXO, bd=P.ROXO, selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
+ 'servico':  dict(bg='#FFFFFF', fi=LAV, fg=TINTA, sub='#3A3F49', acc=P.ROXO, bd=P.ROXO, sombra=P.ROXO, selo=(P.ROXO, '#FFFFFF', AMARELO), logo='claro', claro=True),
  'engajamento': dict(bg=P.ROXO, fi='#2E1B70', fg='#FFFFFF', sub='#E2D9FA', acc=AMARELO, bd='#5B45A8', selo=(AMARELO, TINTA, TINTA), logo='roxo'),
 }
 def logo_img(variante, alt=115):

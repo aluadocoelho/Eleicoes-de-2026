@@ -58,8 +58,8 @@ def lados(s, P, story, chip):
     def col(k):
         d = s[k]; c = COR[k]
         li = ''.join(f'<li style="margin:0 0 16px">{E(x)}</li>' for x in d.get('itens', [])[:4])
-        return (f'<div style="flex:1;background:#fff;border:5px solid {T};border-top:18px solid {c};border-radius:30px;padding:30px 30px 14px;box-shadow:8px 8px 0 {T}">'
-                f'<div style="font:900 30px/1.2 {SANS};letter-spacing:.06em;text-transform:uppercase">{E(d["rotulo"])}</div>'
+        return (f'<div style="flex:1;background:#fff;border:5px solid {T};border-radius:30px;padding:30px 30px 14px;box-shadow:10px 10px 0 {ROXO}">'
+                f'<div style="display:flex;align-items:center;gap:14px;font:900 30px/1.2 {SANS};letter-spacing:.06em;text-transform:uppercase"><i style="flex:none;width:26px;height:26px;border-radius:50%;background:{c}"></i>{E(d["rotulo"])}</div>'
                 f'<ul style="margin:20px 0 0;padding-left:30px;font:500 31px/1.34 {SANS}">{li}</ul></div>')
     return cab(s, chip, P) + tit(s, 88) + f'<div style="display:flex;gap:30px;align-items:stretch">{col("lula")}{col("flavio")}</div>'
 

@@ -54,6 +54,9 @@ IC = {
 NOME = {'pesquisa': 'PESQUISA', 'checagem': 'CHECAGEM', 'boato': 'BOATO DESMENTIDO', 'agenda': 'AGENDA', 'plantao': 'PLANTÃO', 'servico': 'SERVIÇO', 'contexto': 'ENTENDA'}
 CHIP = {'pesquisa': (T, AM, T), 'checagem': (AM, T, T), 'boato': (ROXO, '#fff', T), 'agenda': (T, AM, T), 'plantao': (AM, T, T), 'servico': ('#fff', ROXO, ROXO), 'contexto': (ROXO, '#fff', ROXO)}
 PILL = {'pesquisa': (ROXO, '#fff', T), 'checagem': (AM, T, AM), 'boato': (ROXO, '#fff', T), 'agenda': (ROXO, '#fff', T), 'plantao': (AM, T, T), 'servico': (ROXO, '#fff', T), 'contexto': (ROXO, '#fff', T)}
+def caixa(sombra=AM, fundo='#fff', borda=T, raio=26, pad='26px 30px'):
+    """Estilo único de caixa da Clareia (regra do dono, 21/10): borda escura e sombra dura deslocada. Nunca faixa/fitinha colorida na lateral ou no topo."""
+    return f'background:{fundo};color:{T};border:4px solid {borda};border-radius:{raio}px;box-shadow:10px 10px 0 {sombra};padding:{pad}'
 num = lambda v: (f'{float(v):.1f}'.rstrip('0').rstrip('.') if float(v) != int(float(v)) else str(int(float(v)))).replace('.', ',')
 
 def ico(k, px, cor):
@@ -111,7 +114,7 @@ def c_boato(s, P, story):
             f'box-shadow:10px 10px 0 {AM};font:900 104px/1 {SANS};color:{ROXO};letter-spacing:.04em;text-transform:uppercase">{E(s.get("selo", "Falso"))}</div></div>')
     corpo = (f'<div>{chip("boato")}<div style="font:700 32px {SANS};color:{P["sub"]};margin-top:26px">{E(s.get("onde", "Circulou nas redes"))} · checado em {E(s.get("checado", ""))}</div></div>'
              + post +
-             f'<div style="border-left:12px solid {AM};padding:6px 0 6px 30px"><div style="font:900 30px {SANS};letter-spacing:.1em;color:{ROXO}">O QUE É VERDADE</div>'
+             f'<div style="{caixa(AM)}"><div style="font:900 30px {SANS};letter-spacing:.1em;color:{ROXO}">O QUE É VERDADE</div>'
              f'<div style="font:600 38px/1.35 {SANS};margin-top:10px">{E(s["verdade"])}</div></div>')
     return corpo, s.get('fonte', '')
 
@@ -130,13 +133,13 @@ def c_agenda(s, P, story):
     return corpo, s.get('fonte', '')
 
 def c_plantao(s, P, story):
-    itens = ''.join(f'<div style="display:flex;gap:22px;align-items:flex-start;background:#2E1B70;border-left:12px solid {AM};border-radius:18px;padding:24px 28px">'
-                    f'<b style="flex:none;font:900 30px {SANS};color:{AM};letter-spacing:.08em;width:190px;text-transform:uppercase">{E(i["rotulo"])}</b><span style="font:600 34px/1.35 {SANS}">{E(i["texto"])}</span></div>'
+    itens = ''.join(f'<div style="display:flex;gap:22px;align-items:flex-start;{caixa(AM, raio=22, pad="22px 28px")}">'
+                    f'<b style="flex:none;font:900 30px {SANS};color:{ROXO};letter-spacing:.08em;width:190px;text-transform:uppercase">{E(i["rotulo"])}</b><span style="font:600 34px/1.35 {SANS}">{E(i["texto"])}</span></div>'
                     for i in s.get('itens', [])[:3])
     fs = 112 if len(s['titulo'] + s.get('destaque', '')) < 50 else 92
     corpo = (f'<div><div style="font:900 {fs}px/1.02 {SERIF};letter-spacing:-.02em">{E(s["titulo"])}</div>'
              + (f'<div style="font:900 {fs}px/1.02 {SERIF};color:{AM};letter-spacing:-.02em">{E(s["destaque"])}</div>' if s.get('destaque') else '') + '</div>'
-             f'<div style="display:flex;flex-direction:column;gap:18px">{itens}</div>')
+             f'<div style="display:flex;flex-direction:column;gap:26px">{itens}</div>')
     return corpo, s.get('fonte', '')
 
 def c_servico(s, P, story):
