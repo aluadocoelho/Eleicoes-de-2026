@@ -684,5 +684,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Relógio e aliança"
+ },
+ {
+  "id": "b50",
+  "data": "2026-10-21",
+  "alvo": "Flávio",
+  "boato": "Mensagens dizem que Flávio avisou que não vai ao debate da Globo se houver checagem de fatos em tempo real",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "O site não achou vídeo, entrevista ou nota que comprove a ameaça; o que existe é o pedido da campanha de Lula para a checagem ao vivo.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Debate da Globo"
+ },
+ {
+  "id": "b51",
+  "data": "2026-10-21",
+  "alvo": "Flávio",
+  "boato": "Posts atribuem a Flávio a frase \"Por que o aposentado tem que ganhar reajuste todo ano se não produz nada\"",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Não há registro da frase em vídeo, entrevista ou publicação original; o site cita que Flávio falou em reajustar aposentadorias acima da inflação.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-perguntou-por-que-o-aposentado-tem-que-ganhar-reajuste-todo-ano-se-nao-produz-nada.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Aposentadorias"
  }
 ]
