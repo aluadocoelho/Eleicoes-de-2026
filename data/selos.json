@@ -3523,6 +3523,21 @@
    "url": "https://agendadopoder.com.br/tse-rejeita-pedido-do-novo-para-barrar-atos-de-artistas-pro-lula-e-alerta-para-risco-de-censura-previa/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "BE88-7DF2",
+  "conjunto": "campanha",
+  "id": "e21",
+  "registro": {
+   "id": "e21",
+   "data": "2026-10-17",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Corregedor-geral eleitoral, Ricardo Villas Bôas Cueva, nega pedido do Novo para barrar atos de artistas pró-Lula marcados para domingo (18/10) em Porto Alegre, Rio e Salvador; diz que a Justiça Eleitoral não pode impor proibições gerais e antecipadas, mas irregularidades poderão ser apuradas depois.",
+   "fonte": "SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tse-mantem-atos-pro-lula-com-artistas-neste-domingo-18"
+  },
+  "primeira_vez": "2026-10-22T02:44:50Z",
   "ainda_publicado": true
  },
  {
