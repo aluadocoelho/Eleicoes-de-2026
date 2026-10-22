@@ -432,5 +432,19 @@
   "lula_totais": 48,
   "fonte": "TMC (PoderData/Aya, registro BR-07926/2026)",
   "url": "https://tmc.com.br/politica/poderdata-flavio-bolsonaro-a-frente-lula-segundo-turno/"
+ },
+ {
+  "id": "indexa-2210",
+  "instituto": "Indexa/Broadcast",
+  "divulgacao": "2026-10-22",
+  "campo": "20–21 out",
+  "amostra": 2000,
+  "margem": 2.2,
+  "flavio_validos": 50.6,
+  "lula_validos": 49.4,
+  "flavio_totais": 45.2,
+  "lula_totais": 44.1,
+  "fonte": "Broadcast, via Viva (entrevistas por telefone, registro BR-02348/2026)",
+  "url": "https://viva.com.br/politica/indexabroadcast-flavio-tem-452-e-lula-441-em-empate-tecnico.html"
  }
 ]
