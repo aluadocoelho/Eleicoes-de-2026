@@ -9333,6 +9333,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E5D5-C8D2",
+  "conjunto": "redes",
+  "id": "whats-canais-2210",
+  "registro": {
+   "id": "whats-canais-2210",
+   "metrica": "Seguidores dos canais de campanha no WhatsApp (Exército do Lula e Tropa do Flávio)",
+   "periodo": "22 out",
+   "lula": 8000000,
+   "flavio": 2100000,
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/exercito-do-lula-supera-8-milhoes-e-janones-pede-mais-soldados"
+  },
+  "primeira_vez": "2026-10-22T21:30:19Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "A6CB-9589",
   "conjunto": "sinais",
   "id": "apexata-band",
@@ -9652,6 +9668,20 @@
    "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
   },
   "primeira_vez": "2026-10-19T13:30:38Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8504-301F",
+  "conjunto": "sinais",
+  "id": "s-lives-2210",
+  "registro": {
+   "id": "s-lives-2210",
+   "data": "2026-10-22",
+   "sinal": "Lula marcou live às 19h com André Janones e Flávio, às 19h30 no YouTube, no mesmo dia. O Exército do Lula convocou seguidores para acompanhar a de Lula. Ainda não há dados de audiência.",
+   "fonte": "Fan F1 / Metrópoles",
+   "url": "https://fanf1.com.br/2026/10/22/lula-e-flavio-bolsonaro-preparam-guerra-de-lives-nesta-quinta-22-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-22T21:30:19Z",
   "ainda_publicado": true
  },
  {
