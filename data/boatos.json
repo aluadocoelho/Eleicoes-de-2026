@@ -726,5 +726,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Segurança"
+ },
+ {
+  "id": "b53",
+  "data": "2026-10-21",
+  "alvo": "Lula",
+  "boato": "Vídeo feito com inteligência artificial mostra Lula ajoelhado diante de Trump, pedindo que PCC e CV não sejam chamados de terroristas",
+  "veredito": "Removido por decisão do TSE",
+  "agencia": "TSE",
+  "explicacao": "O presidente do TSE mandou tirar do ar em 3 horas esse vídeo e outros 19 conteúdos contra Lula, por atribuírem crimes sem base e ligarem o candidato a facções.",
+  "url": "https://www.metropoles.com/colunas/manoela-alcantara/kassio-da-3h-para-remocao-de-20-conteudos-contra-lula-publicados-em-redes",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "O vídeo foi divulgado no X por Flávio Bolsonaro, segundo a reportagem; a decisão atinge também posts de deputados do PL.",
+  "tema": "Facções e IA"
  }
 ]
