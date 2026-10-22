@@ -3688,6 +3688,21 @@
    "url": "https://www.extraclasse.org.br/justica/2026/10/tse-nega-pedido-de-flavio-para-proibir-atuacao-politica-da-une-e-de-sindicatos/"
   },
   "primeira_vez": "2026-10-20T10:14:45Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "91C8-D83D",
+  "conjunto": "campanha",
+  "id": "e31",
+  "registro": {
+   "id": "e31",
+   "data": "2026-10-15",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O corregedor-geral Ricardo Villas Bôas Cueva negou, por ora, as medidas de urgência pedidas por Flávio em ação contra Lula e Alckmin e não impôs restrições genéricas à atuação da UNE, de sindicatos e de movimentos sociais. Mandou Flávio detalhar em 72 horas a conduta de cada dirigente citado.",
+   "fonte": "TSE",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-do-tse-afasta-restricoes-genericas-a-manifestacoes-de-sindicatos-e-estudantes-em-acao-de-flavio-contra-lula"
+  },
+  "primeira_vez": "2026-10-22T09:46:51Z",
   "ainda_publicado": true
  },
  {
