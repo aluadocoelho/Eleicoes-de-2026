@@ -268,5 +268,14 @@
   "flavio": 36,
   "fonte": "Vox Radar, via Itatiaia",
   "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-51-dos-comentarios-nas-redes-foram-favoraveis-a-lula-apos-debate-na-band/"
+ },
+ {
+  "id": "palver-sigilo",
+  "metrica": "Participação nas menções de apoio sobre o desafio de quebra de sigilos (%), sem mensagens neutras",
+  "periodo": "até 21 out",
+  "lula": 75,
+  "flavio": 25,
+  "fonte": "Palver, via SBT News",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/quebra-de-sigilo-ajuda-lula-nas-redes-flavio-reage-em-apps"
  }
 ]
