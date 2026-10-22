@@ -921,5 +921,31 @@
   "categoria": null,
   "fonte": "SBT News",
   "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
+ },
+ {
+  "id": "globo-01",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "21:20",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Começa o debate da TV Globo, no Rio, logo depois do Jornal Nacional. A mediação é de César Tralli. A exibição é ao mesmo tempo na TV Globo, na GloboNews e no g1; depois o debate completo fica no Globoplay e no g1.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+ },
+ {
+  "id": "globo-02",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "21:20",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "O 1º bloco tem perguntas sobre as cinco regiões do país, sorteadas. No 2º, cada candidato escolhe 6 de 10 temas propostos pela Globo. O 3º tem tema livre e termina com as considerações finais. As regras podem mudar por acordo até o dia. Não há horário de término divulgado.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
  }
 ]

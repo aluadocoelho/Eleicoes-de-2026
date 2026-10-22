@@ -418,5 +418,19 @@
   "lula_totais": 48,
   "fonte": "Exame (válidos calculados a partir dos votos totais; pesquisa online com amostra não probabilística)",
   "url": "https://exame.com/brasil/pesquisa-palver-flavio-bolsonaro-tem-50-e-lula-48-no-2o-turno/"
+ },
+ {
+  "id": "poderdata-2210",
+  "instituto": "PoderData/Aya",
+  "divulgacao": "2026-10-22",
+  "campo": "19–21 out",
+  "amostra": 4000,
+  "margem": 1.6,
+  "flavio_validos": 51,
+  "lula_validos": 49,
+  "flavio_totais": 49,
+  "lula_totais": 48,
+  "fonte": "TMC (PoderData/Aya, registro BR-07926/2026)",
+  "url": "https://tmc.com.br/politica/poderdata-flavio-bolsonaro-a-frente-lula-segundo-turno/"
  }
 ]
