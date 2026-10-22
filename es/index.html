@@ -895,6 +895,15 @@ body.el-vp-lock{overflow:hidden}
 .el-ph-q i{flex:none;width:12px;height:12px;border-radius:50%;margin-top:6px}
 .el-ph-f{font-size:.8125rem;color:var(--color-fg-muted,#5A5F6B)}
 .el-ph-f a{color:inherit}
+.el-ph-c>summary{list-style:none;cursor:pointer;display:block;position:relative;padding-right:46px}
+.el-ph-c>summary::-webkit-details-marker{display:none}
+.el-ph-c>summary:focus-visible{outline:3px solid var(--accent-text,#5B2DBF);outline-offset:4px;border-radius:8px}
+.el-ph-ch{margin:0;color:var(--color-fg-muted,#5A5F6B);font-size:.9375rem;line-height:1.5}
+.el-ph-x{position:absolute;right:0;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;border:2px solid var(--ink,#16181D);background:#FFD43B;color:#16181D;display:grid;place-items:center;box-shadow:2px 2px 0 var(--ink,#16181D);transition:transform .2s}
+.el-ph-x svg{transition:transform .2s}
+.el-ph-c[open] .el-ph-x svg{transform:rotate(180deg)}
+.el-ph-c>summary:active .el-ph-x{transform:translateY(-50%) translate(2px,2px);box-shadow:0 0 0 var(--ink,#16181D)}
+.el-ph-b{margin-top:12px;padding-top:12px;border-top:1px dashed var(--color-border,#D5D0E3)}
 .el-ph-mais{appearance:none;font:inherit;font-weight:700;background:none;border:2px solid var(--ink,#16181D);border-radius:999px;padding:8px 16px;min-height:44px;cursor:pointer;color:inherit}
 </style><style>
 @media (min-width:900px){
@@ -3781,7 +3790,7 @@ body.el-vp-lock{overflow:hidden}
     var q="";if(x.lula)q+='<div><i style="background:var(--cl,#D62B2B)"></i><span><b>'+T.lula+':</b> '+esc(x.lula)+'</span></div>';
     if(x.flavio)q+='<div><i style="background:var(--cf,#1F4FA8)"></i><span><b>'+T.flavio+':</b> '+esc(x.flavio)+'</span></div>';
     var f='<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte)+'</a>'+(x.url2?', <a href="'+esc(x.url2)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte2)+'</a>':"");
-    return '<article class="el-ph-c'+(at?' ativo':'')+'"><div class="el-ph-m">'+(at?'<span class="el-ph-tag">'+T.ativo+'</span>':'')+'<span>'+quando(x.inicio)+'</span></div><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.resumo)+'</p>'+(q?'<div class="el-ph-q">'+q+'</div>':'')+'<p class="el-ph-f">'+T.fonte+': '+f+'</p></article>'}
+    return '<details class="el-ph-c'+(at?' ativo':'')+'"><summary><div class="el-ph-m">'+(at?'<span class="el-ph-tag">'+T.ativo+'</span>':'')+'<span>'+quando(x.inicio)+'</span></div><h3>'+esc(x.titulo)+'</h3>'+(x.chamada?'<p class="el-ph-ch">'+esc(x.chamada)+'</p>':'')+'<span class="el-ph-x" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="el-ph-b"><p>'+esc(x.resumo)+'</p>'+(q?'<div class="el-ph-q">'+q+'</div>':'')+'<p class="el-ph-f">'+T.fonte+': '+f+'</p></div></details>'}
   (window.__tmP||Promise.resolve()).then(function(){return fetch(B+"data/plantao.json",{cache:"no-cache"})}).then(function(r){return r.ok?r.json():[]}).then(function(rows){
     if(window.__tradRows)rows=window.__tradRows("plantao",rows);
     rows=(rows||[]).filter(function(x){return x&&x.titulo}).sort(function(a,b){return new Date(b.inicio)-new Date(a.inicio)});
