@@ -306,5 +306,27 @@
   "depois": "17/10, SBT News: Justiça Eleitoral não pode impor proibições gerais e antecipadas, mas irregularidades poderão ser apuradas depois",
   "motivo": "A decisão do corregedor é de sábado (17/10) e as fontes não usam a expressão censura prévia; o texto passou a seguir o que o ministro disse.",
   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tse-mantem-atos-pro-lula-com-artistas-neste-domingo-18"
+ },
+ {
+  "id": "er29",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e31",
+  "o_que_mudou": "Troca de fonte, data da decisão e descrição da decisão do corregedor",
+  "antes": "Extra Classe, 16/10: corregedor negou liminar para proibir manifestações da UNE, de sindicatos e de movimentos sociais; mandou a campanha detalhar a conduta dos dirigentes",
+  "depois": "TSE, 15/10: corregedor negou, por ora, medidas de urgência e não impôs restrições genéricas; mandou Flávio, autor da ação, detalhar em 72 horas a conduta dos dirigentes",
+  "motivo": "A página do TSE informa que a decisão é de 15/10, que o pedido não era de proibir manifestações e que a ordem de detalhar foi dirigida a Flávio.",
+  "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-do-tse-afasta-restricoes-genericas-a-manifestacoes-de-sindicatos-e-estudantes-em-acao-de-flavio-contra-lula"
+ },
+ {
+  "id": "er30",
+  "data": "2026-10-22",
+  "conjunto": "plantao",
+  "registro_id": "p02",
+  "o_que_mudou": "Troca da segunda fonte e inclusão da resposta de Flávio sobre participação na Best Bet",
+  "antes": "Vero Notícias; texto dizia que a campanha não respondeu ao pedido de comentário",
+  "depois": "Terra; texto registra que Flávio afirma nunca ter tido conta conjunta com Tomaz nem participação societária em empresas ligadas à Best Bet",
+  "motivo": "A reportagem do Terra de 21/10 traz a resposta de Flávio e de Tomaz, e a campanha não deixou de responder.",
+  "url": "https://www.terra.com.br/noticias/o-que-se-sabe-sobre-suposto-elo-de-flavio-bolsonaro-com-esquema-de-bets,565fe97eae2082589f7650575db2a9eda3q1wpce.html"
  }
 ]
