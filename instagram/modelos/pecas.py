@@ -8,6 +8,7 @@ Modelos ("modelo" no JSON):
   lista     -> {chip, titulo, destaque?, itens:[{titulo, texto, selo?}], rodape}
   destaque  -> {chip, titulo, destaque?, texto, rodape?}
 Campo "formatos": lista com "feed" (1080x1350) e/ou "story" (1080x1920). Padrão: os dois.
+Com "familia" no lugar de "modelo", usa as famílias visuais por assunto (veja familias.py: pesquisa, checagem, boato, agenda, plantao, servico).
 Gera <saida>/feed.jpg e/ou <saida>/story.jpg. Precisa de Playwright + Chromium e de Pillow.
 """
 import json, os, sys, html, asyncio, tempfile
@@ -119,14 +120,18 @@ async def gerar(spec, saida):
     async with async_playwright() as p:
         b = await p.chromium.launch()
         for fmt in spec.get('formatos', ['feed', 'story']):
-            doc, w, h = pagina(spec, fmt)
+            if spec.get('familia'):
+                import familias
+                doc, w, h = familias.pagina(spec, fmt)
+            else:
+                doc, w, h = pagina(spec, fmt)
             with tempfile.NamedTemporaryFile('w', suffix='.html', delete=False) as t:
                 t.write(doc); caminho = t.name
             pg = await b.new_page(viewport={'width': w, 'height': h})
             await pg.goto('file://' + caminho); await pg.wait_for_timeout(400)
             # se o conteúdo não couber, reduz tudo um pouco até caber (nunca corta texto)
             await pg.evaluate('''() => { const m = document.getElementById("miolo"), c = document.getElementById("conteudo");
-                let z = 1; while (c.scrollHeight * z > m.clientHeight - 20 && z > 0.72) { z -= 0.03; c.style.zoom = z; } }''')
+                let z = parseFloat(c.style.zoom) || 1; while (c.scrollHeight * z > m.clientHeight - 20 && z > 0.72) { z -= 0.03; c.style.zoom = z; } }''')
             png = os.path.join(saida, f'{fmt}.png')
             await pg.screenshot(path=png)
             Image.open(png).convert('RGB').save(os.path.join(saida, f'{fmt}.jpg'), quality=92)

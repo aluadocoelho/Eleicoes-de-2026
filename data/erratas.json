@@ -280,9 +280,20 @@
   "conjunto": "campanha",
   "registro_id": "e04",
   "o_que_mudou": "Apoio de Augusto Cury no 2º turno",
-  "antes": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio — informação conflitante).",
+  "antes": "Augusto Cury publica carta sem declarar apoio (a Exame, em 15/10, o lista como apoiador de Flávio; informação conflitante).",
   "depois": "Cury fecha apoio a Flávio em 8/10 (CNN Brasil)",
   "motivo": "O registro estava desatualizado: em 8/10, Cury fechou apoio a Flávio, segundo a CNN Brasil.",
   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/"
+ },
+ {
+  "id": "er27",
+  "data": "2026-10-21",
+  "conjunto": "checagens_placar",
+  "registro_id": "gp-sbt-lula",
+  "o_que_mudou": "Contagem dos selos da Gazeta do Paraná na nota do placar",
+  "antes": "ressalvas (3) e imprecisa (4)",
+  "depois": "ressalvas (4) e imprecisa (3)",
+  "motivo": "A matéria traz quatro falas com 'verdadeira com ressalvas' e três com 'imprecisa'; o total (11) e a faixa não mudam.",
+  "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
  }
 ]

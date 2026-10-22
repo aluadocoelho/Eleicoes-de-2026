@@ -2,16 +2,31 @@
  {
   "id": "p01",
   "inicio": "2026-10-19T23:00:00-03:00",
-  "expira": "2026-10-22T08:00:00-03:00",
+  "expira": "2026-10-21T18:55:00-03:00",
   "chamada": "Lula liga debate da Globo à abertura dos sigilos de Flávio",
   "titulo": "Quebra de sigilo: o que cada um disse",
-  "resumo": "Lula entregou na terça (20/10) um documento que autoriza a abertura dos sigilos bancário, fiscal e telefônico dele e da família nos últimos oito anos, se Flávio Bolsonaro fizer o mesmo. À noite, Lula disse que Flávio não pode ir ao debate da Globo, marcado para sexta (23), sem abrir os dele. Aliados de Flávio disseram que a campanha não vai aderir.",
-  "lula": "Disse, entre Juazeiro (BA) e Petrolina (PE), que Flávio não pode ir ao debate da Globo sem autorizar a quebra de sigilo, e que um presidente não pode debater com ladrão.",
-  "flavio": "Não se manifestou pessoalmente sobre a condição de Lula até o horário da atualização. Aliados disseram, sem se identificar, que a campanha não vai aderir e pedem a divulgação dos gastos do cartão corporativo do governo. Sobre o desafio feito no debate da Band, ele disse que Lula não tem celular e que suas contas estão declaradas à Receita.",
+  "resumo": "Lula entregou na terça (20/10) um documento que autoriza a abertura dos sigilos bancário, fiscal e telefônico dele e da família nos últimos oito anos, se Flávio Bolsonaro fizer o mesmo. Lula disse que Flávio não pode ir ao debate da Globo, marcado para sexta (23), sem abrir os dele. Na quarta (21), em Guarulhos (SP), Flávio disse que aceita o desafio, mas pôs condições: que Lula abra também os registros telefônicos de Marcola, o cartão corporativo e dados do patrimônio da família. Ainda na quarta (21), o porta-voz da campanha de Lula, Camilo Santana, disse que Lula não se opõe às condições de Flávio e cobrou que Flávio inclua a offshore Alcazar Holdings. A campanha de Lula disse que vai protocolar resposta ao TSE na quinta (22), às 11h.",
+  "lula": "Disse na terça (20) que Flávio não pode ir ao debate da Globo sem autorizar a quebra de sigilo. Na quarta (21), Camilo Santana, porta-voz da campanha, disse que Lula não se opõe às condições de Flávio e cobrou a inclusão da Alcazar Holdings.",
+  "flavio": "Disse em Guarulhos (SP), na quarta (21), que aceita o desafio e vai levá-lo às últimas consequências, mas só abre os sigilos dele se Lula abrir os registros telefônicos de Marcola, o cartão corporativo da Presidência e informações do patrimônio da família, do Instituto Lula e das visitas ao Alvorada. Não se manifestou sobre a resposta da campanha de Lula até o horário da atualização.",
   "aba": "campanha",
   "fonte": "Poder360",
   "url": "https://www.poder360.com.br/poder-eleicoes/a-vida-dele-e-podre-diz-lula-sobre-flavio-nao-abrir-sigilo/",
-  "fonte2": "CNN Brasil",
-  "url2": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-flavio-nao-pode-ir-a-debate-sem-quebrar-sigilo/"
+  "fonte2": "Poder360 (resposta da campanha de Lula)",
+  "url2": "https://www.poder360.com.br/poder-eleicoes/lula-aceita-exigencias-de-flavio-e-marcola-aceita-abrir-sigilo/"
+ },
+ {
+  "id": "p02",
+  "inicio": "2026-10-21T18:55:00-03:00",
+  "expira": "2026-10-22T19:00:00-03:00",
+  "chamada": "PF pede ao STF inquérito sobre ligação de Flávio com a BestBet",
+  "titulo": "PF e a BestBet: o que se sabe",
+  "resumo": "A Polícia Federal pediu ao Supremo Tribunal Federal a abertura de um inquérito para apurar se Flávio Bolsonaro é sócio oculto da BestBet, casa de apostas licenciada no Rio de Janeiro. A informação foi divulgada pela revista Piauí nesta quarta (21/10). O pedido faz parte de uma investigação sobre lavagem de dinheiro e envolve o advogado Willer Tomaz, amigo de Flávio. Não há conclusão sobre a suposta participação.",
+  "lula": "Não se manifestou sobre o caso nas reportagens consultadas até o horário da atualização.",
+  "flavio": "A campanha de Flávio diz que a relação dele com Willer Tomaz é exclusivamente de amizade e trata a ligação com irregularidades como especulação. Tomaz também nega as acusações. A campanha não respondeu ao pedido de comentário sobre o pedido da PF.",
+  "aba": "campanha",
+  "fonte": "A Gazeta",
+  "url": "https://www.agazeta.com.br/brasil/pf-investiga-se-flavio-bolsonaro-e-socio-oculto-de-bet-diz-revista-1026",
+  "fonte2": "Vero Notícias",
+  "url2": "https://veronoticias.com/politica/pf-pede-investigacao-sobre-possivel-participacao-oculta-de-flavio-bolsonaro-em-casa-de-apostas/"
  }
 ]

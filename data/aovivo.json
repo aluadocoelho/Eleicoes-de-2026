@@ -908,5 +908,18 @@
   "categoria": null,
   "fonte": "Congresso em Foco",
   "url": "https://www.congressoemfoco.com.br/noticia/123404/quebra-de-sigilo-emendas-e-seguranca-veja-destaques-de-lula-no-sbt"
+ },
+ {
+  "id": "sbtflavio-01",
+  "evento": "sabatina-sbt-flavio",
+  "data": "2026-10-21",
+  "hora": "16:13",
+  "tipo": "Momento",
+  "candidato": "Flávio",
+  "texto": "A campanha de Flávio confirmou que ele não vai à sabatina do SBT Brasil desta noite. O motivo informado foi compromissos de agenda. Lula foi entrevistado pelo SBT em 19/10.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "SBT News",
+  "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
  }
 ]

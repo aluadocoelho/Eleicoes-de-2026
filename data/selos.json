@@ -1533,6 +1533,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "18CE-8EA3",
+  "conjunto": "aovivo",
+  "id": "sbtflavio-01",
+  "registro": {
+   "id": "sbtflavio-01",
+   "evento": "sabatina-sbt-flavio",
+   "data": "2026-10-21",
+   "hora": "16:13",
+   "tipo": "Momento",
+   "candidato": "Flávio",
+   "texto": "A campanha de Flávio confirmou que ele não vai à sabatina do SBT Brasil desta noite. O motivo informado foi compromissos de agenda. Lula foi entrevistado pelo SBT em 19/10.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "SBT News",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
+  },
+  "primeira_vez": "2026-10-21T19:32:53Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "BD90-8B30",
   "conjunto": "aovivo",
   "id": "sbtlula-01",
@@ -2974,6 +2994,111 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F943-1285",
+  "conjunto": "boatos",
+  "id": "b44",
+  "registro": {
+   "id": "b44",
+   "data": "2026-10-21",
+   "alvo": "Flávio",
+   "boato": "Propaganda de Lula mostra cenas encenadas de assédio a mulheres ao lado de vídeo de Flávio",
+   "veredito": "TSE mandou suspender",
+   "agencia": "TSE",
+   "explicacao": "O ministro Marco Aurélio Bellizze entendeu que as cenas encenadas podem mudar o sentido do vídeo original e levar o eleitor a crer que aquilo aconteceu de fato. A ação foi movida por Flávio.",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-suspender-propaganda-que-associa-flavio-a-assedio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Lula",
+   "origem_detalhe": "Segundo a reportagem da CNN Brasil, a propaganda foi veiculada pela coligação de Lula.",
+   "tema": "Assédio"
+  },
+  "primeira_vez": "2026-10-21T18:29:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "06B5-C562",
+  "conjunto": "boatos",
+  "id": "b45",
+  "registro": {
+   "id": "b45",
+   "data": "2026-10-16",
+   "alvo": "Lula",
+   "boato": "Vídeos de distribuição de ossos em Fortaleza são apresentados como cena do governo Lula",
+   "veredito": "Falta contexto",
+   "agencia": "Lupa",
+   "explicacao": "Os vídeos mostram uma ação social de um projeto em Fortaleza, sem relação com o governo, e um deles é de dezembro de 2024; a afirmação do áudio sobre moradores de rua também foi considerada exagerada.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/16/videos-de-doacao-de-ossos-em-fortaleza-circulam-fora-de-contexto-e-nao-tem-relacao-com-o-governo-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Lupa, o conteúdo foi compartilhado nos perfis de Flávio e do PL e no canal de WhatsApp Tropa do Flávio, ligado à campanha.",
+   "tema": "Fila do osso"
+  },
+  "primeira_vez": "2026-10-21T19:29:52Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3D10-617F",
+  "conjunto": "boatos",
+  "id": "b46",
+  "registro": {
+   "id": "b46",
+   "data": "2026-10-15",
+   "alvo": "Flávio",
+   "boato": "Publicação no Instagram liga Flávio a facções criminosas e a desvio de R$ 2,7 milhões em rachadinha",
+   "veredito": "Sem respaldo fático; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O TSE confirmou por unanimidade a ordem de apagar o post, por ligar o candidato a facções sem base mínima nos fatos; o PL disse que o caso de rachadinha foi arquivado em 2022.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-mantem-remocao-de-publicacao-que-associa-flavio-bolsonaro-a-organizacoes-criminosas-1",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo o TSE, o post foi publicado no Instagram por Fabrício Santos Vargas; a fonte não o liga a nenhuma campanha.",
+   "tema": "Facções e rachadinha"
+  },
+  "primeira_vez": "2026-10-21T22:30:18Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D9A3-4F20",
+  "conjunto": "boatos",
+  "id": "b47",
+  "registro": {
+   "id": "b47",
+   "data": "2026-10-20",
+   "alvo": "Flávio",
+   "boato": "Publicação liga Flávio à Operação Unha e Carne da PF, a milícias e a lavagem de dinheiro",
+   "veredito": "Sem respaldo fático; removido pelo TSE",
+   "agencia": "TSE",
+   "explicacao": "O Plenário do TSE confirmou a ordem de apagar o post: a defesa diz que Flávio não é investigado nem citado na operação, e a relatora viu acusação sem base mínima.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/plenario-mantem-remocao-de-publicacao-que-associa-flavio-bolsonaro-a-operacao-da-pf",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou. O TSE cita só como alvos da ação do PL políticos do PT e perfis, sem dizer quem fez este post.",
+   "tema": "Operação da PF"
+  },
+  "primeira_vez": "2026-10-21T22:30:18Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A9F3-379D",
+  "conjunto": "boatos",
+  "id": "b48",
+  "registro": {
+   "id": "b48",
+   "data": "2026-10-21",
+   "alvo": "Lula",
+   "boato": "Posts dizem que o Brasil só caiu no ranking do Pisa entre 2000 e 2025, ligando o resultado ao governo Lula",
+   "veredito": "Enganoso",
+   "agencia": "Aos Fatos",
+   "explicacao": "A comparação ignora que o número de países avaliados subiu de 32 para 91; pelas notas, o Brasil melhorou pouco em leitura, matemática e ciências, e especialistas dizem que o resultado não é só do governo federal.",
+   "url": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Educação, Pisa"
+  },
+  "primeira_vez": "2026-10-21T23:29:53Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -3556,6 +3681,51 @@
    "url": "https://agendadopoder.com.br/mendonca-mantem-propaganda-de-flavio-bolsonaro-que-liga-ato-pro-lula-ao-pcc-e-hamas/"
   },
   "primeira_vez": "2026-10-21T12:22:31Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6E21-F888",
+  "conjunto": "campanha",
+  "id": "e39",
+  "registro": {
+   "id": "e39",
+   "data": "2026-10-21",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O ministro Marco Aurélio Bellizze, do TSE, mandou a coligação de Lula suspender uma propaganda que mostra cena encenada numa padaria seguida de um vídeo de Flávio. Na ação, Flávio disse que o vídeo foi gravado entre amigos, imitando o irmão, e que o contexto foi omitido. O ministro entendeu que a edição pode sugerir como real algo que não ocorreu. A campanha de Lula não se manifestou na matéria.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-lula-suspender-propaganda-que-associa-flavio-a-assedio/"
+  },
+  "primeira_vez": "2026-10-21T18:14:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0395-84EE",
+  "conjunto": "campanha",
+  "id": "e40",
+  "registro": {
+   "id": "e40",
+   "data": "2026-10-21",
+   "tipo": "Estratégia",
+   "descricao": "Em ato em Guarulhos (SP), Flávio disse que aceita o desafio de Lula de abrir os sigilos, mas condicionou a abertura dos dele a Lula abrir também os registros telefônicos de Marco Aurélio Santana Ribeiro, o Marcola, os dados do cartão corporativo da Presidência e informações sobre o patrimônio da família, o Instituto Lula e as visitas ao Palácio da Alvorada. A campanha de Lula não se manifestou sobre as condições até o horário da atualização.",
+   "fonte": "Jornal de Brasília",
+   "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-nao-so-vou-aceitar-o-desafio-de-abrir-sigilo-como-vou-levar-as-ultimas-consequencias/"
+  },
+  "primeira_vez": "2026-10-21T19:32:30Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FBB8-251A",
+  "conjunto": "campanha",
+  "id": "e41",
+  "registro": {
+   "id": "e41",
+   "data": "2026-10-21",
+   "tipo": "Estratégia",
+   "descricao": "O porta-voz da campanha de Lula, Camilo Santana, disse em Brasília que Lula não se opõe às condições de Flávio para abrir os sigilos, entre elas os registros de Marcola, e cobrou que Flávio inclua também a offshore Alcazar Holdings. A campanha de Lula disse que vai protocolar uma resposta ao TSE na quinta (22/10), às 11h. Flávio não se manifestou sobre isso até o horário da atualização.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes/lula-aceita-exigencias-de-flavio-e-marcola-aceita-abrir-sigilo/"
+  },
+  "primeira_vez": "2026-10-21T22:14:38Z",
   "ainda_publicado": true
  },
  {
@@ -6636,6 +6806,26 @@
    "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
   },
   "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "691F-DCA0",
+  "conjunto": "checagens_placar",
+  "id": "gp-sbt-lula",
+  "registro": {
+   "id": "gp-sbt-lula",
+   "candidato": "Lula",
+   "agencia": "Gazeta do Paraná",
+   "evento": "Sabatina no SBT Brasil",
+   "data": "2026-10-19",
+   "total": 11,
+   "verdadeiro": 0,
+   "impreciso": 11,
+   "falso": 0,
+   "nota": "Checagem da Gazeta do Paraná (20/10), só falas do próprio Lula. O veículo usa cinco selos: 'verdadeira com ressalvas' (4), 'sem comprovação' (4) e 'imprecisa' (3) entraram como impreciso; nenhuma fala recebeu selo verdadeiro puro ou falso.",
+   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
+  },
+  "primeira_vez": "2026-10-21T19:34:48Z",
   "ainda_publicado": true
  },
  {
@@ -6968,6 +7158,25 @@
    "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/sbt-realiza-sabatina-com-candidatos-a-presidencia"
   },
   "primeira_vez": "2026-10-19T14:01:25Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "DE32-64A0",
+  "conjunto": "destaques",
+  "id": "sabatina-sbt-flavio",
+  "registro": {
+   "id": "sabatina-sbt-flavio",
+   "tipo": "Entrevista",
+   "titulo": "Sabatina de Flávio no SBT Brasil (Flávio recusou o convite)",
+   "data": "2026-10-21",
+   "hora_inicio": "19:45",
+   "hora_fim": "20:55",
+   "local": "Telejornal SBT Brasil, do SBT",
+   "como_assistir": "TV aberta: SBT, dentro do telejornal SBT Brasil (a grade da emissora prevê o jornal das 19h45 às 20h55, com pausa para o horário eleitoral às 20h30). Depois, a entrevista é reprisada no canal SBT News.",
+   "descricao": "A campanha de Flávio confirmou que ele não participa da sabatina do SBT desta quarta-feira (21/10), por \"compromissos de agenda\". Segundo o SBT News, ele é o único presidenciável da eleição a recusar o convite. Lula foi entrevistado em 19/10.",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-recusa-sabatina-do-sbt"
+  },
+  "primeira_vez": "2026-10-21T19:32:53Z",
   "ainda_publicado": true
  },
  {
@@ -7322,6 +7531,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F24F-A8AD",
+  "conjunto": "pesquisas",
+  "id": "gerp-2110",
+  "registro": {
+   "id": "gerp-2110",
+   "instituto": "Gerp",
+   "divulgacao": "2026-10-21",
+   "campo": "19–21 out",
+   "amostra": 2400,
+   "margem": 2,
+   "flavio_validos": 53,
+   "lula_validos": 47,
+   "flavio_totais": 50,
+   "lula_totais": 45,
+   "fonte": "Gazeta do Povo (registro TSE BR-03835/2026)",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno-3/"
+  },
+  "primeira_vez": "2026-10-22T00:00:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2F43-9F83",
   "conjunto": "pesquisas",
   "id": "ipespe-1010",
@@ -7424,6 +7654,27 @@
    "url": "https://www.poder360.com.br/poder-pesquisas/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-9-dias-do-2o-turno/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9591-4ADD",
+  "conjunto": "pesquisas",
+  "id": "palver-2110",
+  "registro": {
+   "id": "palver-2110",
+   "instituto": "Palver",
+   "divulgacao": "2026-10-21",
+   "campo": "18–20 out",
+   "amostra": 5000,
+   "margem": 2.4,
+   "flavio_validos": 51.0,
+   "lula_validos": 49.0,
+   "flavio_totais": 50,
+   "lula_totais": 48,
+   "fonte": "Exame (válidos calculados a partir dos votos totais; pesquisa online com amostra não probabilística)",
+   "url": "https://exame.com/brasil/pesquisa-palver-flavio-bolsonaro-tem-50-e-lula-48-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-22T00:00:41Z",
   "ainda_publicado": true
  },
  {
@@ -7592,6 +7843,27 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-511-dos-votos-validos-no-2o-turno-lula-489/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9F18-E3D6",
+  "conjunto": "pesquisas",
+  "id": "verita-2110",
+  "registro": {
+   "id": "verita-2110",
+   "instituto": "Veritá",
+   "divulgacao": "2026-10-21",
+   "campo": "15–19 out",
+   "amostra": 15554,
+   "margem": 1,
+   "flavio_validos": 50.7,
+   "lula_validos": 49.3,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Jornal Razão (pesquisa própria do Veritá, registro TSE BR-06396/2026; só votos válidos divulgados)",
+   "url": "https://jornalrazao.com/politica/verita-flavio-bolsonaro-50-lula-49-segundo-turno"
+  },
+  "primeira_vez": "2026-10-21T17:59:57Z",
   "ainda_publicado": true
  },
  {
@@ -7898,6 +8170,22 @@
    "url": "https://tribunadoplanalto.com.br/debate-gera-237-milhoes-de-mencoes-nas-redes-com-lula-e-flavio-empatados-em-volume/"
   },
   "primeira_vez": "2026-10-19T21:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1493-6185",
+  "conjunto": "redes",
+  "id": "brief-int-2t",
+  "registro": {
+   "id": "brief-int-2t",
+   "metrica": "Interações nos perfis oficiais (8 redes: Instagram, Facebook, X, TikTok, YouTube, Kwai, Threads e Bluesky)",
+   "periodo": "5–19 out (2º turno)",
+   "lula": 200000000,
+   "flavio": 54000000,
+   "fonte": "Projeto Brief, via Coluna do Estadão / Brasil em Folhas",
+   "url": "https://brasilemfolhas.com.br/2026/10/lula-supera-flavio-bolsonaro-em-engajamento-nas-redes-no-2-turno/"
+  },
+  "primeira_vez": "2026-10-21T17:30:00Z",
   "ainda_publicado": true
  },
  {
@@ -8301,6 +8589,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "915D-52E7",
+  "conjunto": "redes",
+  "id": "vox-ig-fav",
+  "registro": {
+   "id": "vox-ig-fav",
+   "metrica": "Comentários favoráveis no Instagram (%)",
+   "periodo": "0h de 18 out às 8h de 19 out (debate da Band)",
+   "lula": 51,
+   "flavio": 36,
+   "fonte": "Vox Radar, via Itatiaia",
+   "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-51-dos-comentarios-nas-redes-foram-favoraveis-a-lula-apos-debate-na-band/"
+  },
+  "primeira_vez": "2026-10-21T23:29:10Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0F29-67AE",
   "conjunto": "redes",
   "id": "whats-canais-2110",
@@ -8412,6 +8716,34 @@
    "url": "https://www.abcdoabc.com.br/debate-entre-lula-flavio-2-3-milhoes-mencoes/"
   },
   "primeira_vez": "2026-10-20T23:28:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1725-30BD",
+  "conjunto": "sinais",
+  "id": "brief-2t",
+  "registro": {
+   "id": "brief-2t",
+   "data": "2026-10-20",
+   "sinal": "Segundo o Projeto Brief, Lula teve mais interações que Flávio em todos os dias do 2º turno. O melhor dia de Lula foi 18 de outubro, do debate da Band (30,1 milhões), e o de Flávio foi 17 de outubro (8,5 milhões).",
+   "fonte": "Projeto Brief, via Coluna do Estadão / Brasil em Folhas",
+   "url": "https://brasilemfolhas.com.br/2026/10/lula-supera-flavio-bolsonaro-em-engajamento-nas-redes-no-2-turno/"
+  },
+  "primeira_vez": "2026-10-21T17:30:00Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D100-25F3",
+  "conjunto": "sinais",
+  "id": "canais-whats-debate",
+  "registro": {
+   "id": "canais-whats-debate",
+   "data": "2026-10-21",
+   "sinal": "A Fast Company Brasil analisou 247 mensagens dos canais de WhatsApp no dia do debate da Band (68 da Tropa do Flávio, 179 do Exército do Lula). O canal de Flávio divulgou muitos cortes curtos do mesmo trecho; o de Lula deu orientações sobre hashtags e vídeos prioritários, e lançou #LulaDandoShowNaBand.",
+   "fonte": "Fast Company Brasil",
+   "url": "https://fastcompanybrasil.com/creators-tech/debate-lula-flavio-canais-whatsapp"
+  },
+  "primeira_vez": "2026-10-21T21:29:35Z",
   "ainda_publicado": true
  },
  {
@@ -8636,6 +8968,34 @@
    "url": "https://jamildo.com/politica/lula-abre-vantagem-sobre-flavio-nas-redes-no-segundo-turno-aponta-bites.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D3A8-426D",
+  "conjunto": "sinais",
+  "id": "vox-temas",
+  "registro": {
+   "id": "vox-temas",
+   "data": "2026-10-21",
+   "sinal": "Segundo a Vox Radar, em 7,6 milhões de comentários no Instagram de 14 a 20 de outubro, o sigilo bancário foi o assunto mais citado (44%), seguido do Bolsa Família (20,2%). Nos dois temas os comentários favoráveis a Lula foram maioria (79% e 67%); no caso Luchsinger, 87% foram favoráveis a Flávio.",
+   "fonte": "Vox Radar, via Itatiaia",
+   "url": "https://www.itatiaia.com.br/politica/eleicoes/vox-radar-sigilo-bancario-e-bolsa-familia-sao-os-assuntos-mais-comentados-nas-redes-na-reta-final-da-eleicao/"
+  },
+  "primeira_vez": "2026-10-21T23:29:10Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1C2B-94CC",
+  "conjunto": "sinais",
+  "id": "x-nordeste",
+  "registro": {
+   "id": "x-nordeste",
+   "data": "2026-10-20",
+   "sinal": "No X, o canal Tropa do Flávio impulsionou o termo \"Não calem os nordestinos\" e o Exército do Lula respondeu com #NordestinosComLula e #LulaEmJuazeiro, que às 18h06 estavam em 1º e 2º nos assuntos do momento. O Poder360 diz que os registros não provam que um movimento derrubou o outro.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tropa-do-flavio-emplaca-termo-no-x-exercito-do-lula-reage-para-derrubar/"
+  },
+  "primeira_vez": "2026-10-21T17:30:00Z",
   "ainda_publicado": true
  },
  {
