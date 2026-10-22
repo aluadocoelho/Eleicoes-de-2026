@@ -740,5 +740,47 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "O vídeo foi divulgado no X por Flávio Bolsonaro, segundo a reportagem; a decisão atinge também posts de deputados do PL.",
   "tema": "Facções e IA"
+ },
+ {
+  "id": "b54",
+  "data": "2026-10-21",
+  "alvo": "Flávio",
+  "boato": "Posts dizem que a polícia achou cocaína e outras drogas no carro de Flávio após o debate da Band",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Houve só uma suspeita de bomba no estacionamento; o grupo de resgate não achou explosivo nem droga, e os cães apontaram compostos químicos que não indicam cocaína.",
+  "url": "https://www.boatos.org/politica/cocaina-e-outras-drogas-foram-encontradas-pela-policia-no-carro-de-flavio-bolsonaro.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Segurança"
+ },
+ {
+  "id": "b55",
+  "data": "2026-10-22",
+  "alvo": "Lula",
+  "boato": "Áudio com voz de Lula criticando a entrevista de Roberta Luchsinger à CNN Brasil e xingando a entrevistada",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "Análises de peritos e de um detector apontaram voz sintética, e a Secom negou que o áudio seja real; também checado pelo Boatos.org, que o chamou de fake news.",
+  "url": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Áudio com IA"
+ },
+ {
+  "id": "b56",
+  "data": "2026-10-21",
+  "alvo": "Lula",
+  "boato": "Imagem de suposta capa da Folha de S.Paulo diz que o jornal revelou extrato de Lula com R$ 300 bilhões em propina",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A capa não é da edição real, a Folha não publicou o extrato, e a imagem foi feita com inteligência artificial.",
+  "url": "https://www.boatos.org/politica/folha-de-s-paulo-divulga-extrato-bancario-de-lula-com-propina-de-escandalos-de-corrupcao.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Corrupção e IA"
  }
 ]
