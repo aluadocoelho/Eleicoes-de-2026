@@ -13,6 +13,10 @@ As peças são geradas com `python3 instagram/modelos/pecas.py especificacao.jso
 
 Segredo necessário no GitHub: `IG_ACCESS_TOKEN` (token de longa duração da conta profissional do Instagram, gerado num app da Meta com a permissão `instagram_business_content_publish`; vale 60 dias).
 
+## Regra de identidade: caixa é sempre com sombra (dono, 21/10)
+
+Toda caixa de texto, cartão ou balão (no feed, no story e no reels) segue um só desenho: fundo claro, borda escura e sombra dura deslocada para baixo e para a direita (amarela, roxa ou preta, conforme o fundo). Nunca caixa com faixa ou "fitinha" colorida na lateral ou no topo. Para mostrar de qual candidato é a informação, use um pontinho colorido ao lado do rótulo (azul Flávio, vermelho Lula), não uma faixa. Os modelos (familias.py, contexto.py, graficos.py, video.py e especiais/) já seguem isso; peça nova feita à mão também segue. Menos é mais: o nome da Clareia aparece no logo do topo e não precisa ser repetido em selos, chips e rodapés.
+
 ## Famílias visuais (desde 21/10/2026)
 
 Cada tipo de assunto tem um visual próprio, com as mesmas cores e a marca, para dar para saber do que a peça fala só de bater o olho. Use `"familia"` na especificação do feed/story (`pecas.py`) e do reels (`video.py`):
