@@ -112,11 +112,12 @@ def g_tendencia(s, ps):
 # ---------- 2. todas as pesquisas recentes ----------
 def g_rodada(s, ps):
     ate = data_spec(s.get('ate'), ps[-1]['d'].year) or ps[-1]['d']; dias = int(s.get('dias', 4))
-    rs = sorted(recentes(ps, ate, dias), key=lambda p: p['flavio_validos'] - p['lula_validos'], reverse=True)[:10]
+    # todas as pesquisas da janela, sem corte (cortar escondia justamente as que destoavam)
+    rs = sorted(recentes(ps, ate, dias), key=lambda p: p['flavio_validos'] - p['lula_validos'], reverse=True)[:18]
     LW, RW, TOP = 260, 160, 20
     lim = max(6, max(abs(p['flavio_validos'] - p['lula_validos']) + 2 * (p.get('margem') or 0) for p in rs))
     lim = 2 * -int(-lim // 2)
-    rh = 52 if len(rs) > 8 else 64; H = TOP + rh * len(rs) + 20
+    rh = 64 if len(rs) <= 8 else (52 if len(rs) <= 11 else 42); H = TOP + rh * len(rs) + 20
     x = lambda d: LW + (d + lim) / (2 * lim) * (W - LW - RW)
     g = (f'<rect x="{x(-lim):.1f}" y="{TOP - 10}" width="{x(0) - x(-lim):.1f}" height="{H - TOP - 10}" fill="{VM}" opacity=".05"/>'
          f'<rect x="{x(0):.1f}" y="{TOP - 10}" width="{x(lim) - x(0):.1f}" height="{H - TOP - 10}" fill="{AZ}" opacity=".05"/>')
@@ -214,9 +215,9 @@ def g_totais(s, ps):
     g += f'<path d="M{xf:.1f} 154 L{fv / 100 * W:.1f} 258" stroke="{CINZA}" stroke-width="2" stroke-dasharray="6 6" fill="none"/>'
     g += f'<path d="M{xl:.1f} 154 L{W:.1f} 258" stroke="{CINZA}" stroke-width="2" stroke-dasharray="6 6" fill="none"/>'
     g += f'<line x1="{W / 2}" x2="{W / 2}" y1="262" y2="366" stroke="{T}" stroke-width="4"/>' + txt(W / 2, 392, 'metade', 22, 700, SUB, 'middle')
-    leg = legenda(LEG2 + [('Brancos, nulos e indecisos', '#C9C2D6')])
+    leg = legenda(LEG2 + [('Nenhum dos dois (brancos, nulos, indecisos e outros)', '#C9C2D6')])
     titulo = s.get('titulo') or 'Votos totais e votos válidos'
-    nota = s.get('nota') or f'Os válidos tiram brancos, nulos e indecisos ({num(o)}% nesta pesquisa). É a conta que o TSE usa para saber quem ganha.'
+    nota = s.get('nota') or f'Os válidos tiram quem não escolheu nenhum dos dois: brancos, nulos, indecisos e quem diz que não vai votar ({num(o)}% nesta pesquisa). É a conta que o TSE usa para saber quem ganha.'
     meta = f'{p["instituto"]} · divulgada em {dbr(p["d"])}' + (f' · {int(p["amostra"]):,} entrevistas'.replace(',', '.') if p.get('amostra') else '')
     return titulo, meta, leg + svg(400, g), nota, fontes([p])
 
