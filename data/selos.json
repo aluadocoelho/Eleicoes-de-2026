@@ -1559,6 +1559,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3ABF-03C9",
+  "conjunto": "aovivo",
+  "id": "globo-01",
+  "registro": {
+   "id": "globo-01",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:20",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Começa o debate da TV Globo, no Rio, logo depois do Jornal Nacional. A mediação é de César Tralli. A exibição é ao mesmo tempo na TV Globo, na GloboNews e no g1; depois o debate completo fica no Globoplay e no g1.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+  },
+  "primeira_vez": "2026-10-22T11:02:32Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8BCA-204A",
+  "conjunto": "aovivo",
+  "id": "globo-02",
+  "registro": {
+   "id": "globo-02",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:20",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "O 1º bloco tem perguntas sobre as cinco regiões do país, sorteadas. No 2º, cada candidato escolhe 6 de 10 temas propostos pela Globo. O 3º tem tema livre e termina com as considerações finais. As regras podem mudar por acordo até o dia. Não há horário de término divulgado.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+  },
+  "primeira_vez": "2026-10-22T11:02:32Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "18CE-8EA3",
   "conjunto": "aovivo",
   "id": "sbtflavio-01",
@@ -7914,6 +7954,27 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-reage-e-vai-a-52-contra-48-de-lula-diz-poderdata-aya/"
   },
   "primeira_vez": "2026-10-19T11:00:42Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1A3A-A556",
+  "conjunto": "pesquisas",
+  "id": "poderdata-2210",
+  "registro": {
+   "id": "poderdata-2210",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-22",
+   "campo": "19–21 out",
+   "amostra": 4000,
+   "margem": 1.6,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 49,
+   "lula_totais": 48,
+   "fonte": "TMC (PoderData/Aya, registro BR-07926/2026)",
+   "url": "https://tmc.com.br/politica/poderdata-flavio-bolsonaro-a-frente-lula-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-22T11:02:32Z",
   "ainda_publicado": true
  },
  {
