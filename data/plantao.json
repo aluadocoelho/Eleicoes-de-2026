@@ -32,16 +32,16 @@
  {
   "id": "p03",
   "inicio": "2026-10-22T11:30:00-03:00",
-  "expira": "2026-10-23T11:30:00-03:00",
-  "chamada": "Sigilos: campanha de Lula formaliza no TSE aceitação das condições de Flávio",
-  "titulo": "Sigilos no TSE: campanha de Lula entrega resposta",
-  "resumo": "A campanha de Lula levou ao TSE, na quinta (22/10), a resposta ao desafio dos sigilos e disse aceitar todas as condições impostas por Flávio Bolsonaro, segundo o Metrópoles (publicado às 11h20, atualizado às 12h02). Participaram Camilo Santana, Guilherme Boulos, Paulo Pereira, Edinho Silva e Camila Jara. Os dados seriam divulgados pelo DivulgaCandContas ou outro portal público. Antes da ida ao tribunal, a CNN Brasil informou que a campanha de Flávio enviaria a advogada Maria Cláudia Bucchianeri ao TSE às 11h. Autorizar o acesso não significa divulgar os dados, e cada etapa tem prazos próprios. Ainda não se sabe se Flávio entregou os dados dele nem como o TSE vai proceder.",
-  "lula": "A campanha de Lula formalizou no TSE a aceitação das condições de Flávio e cobrou que ele apresente os dados no mesmo dia. Na terça (20), Lula já havia protocolado no TSE e no STF autorização para abrir os sigilos dele e de familiares, caso Flávio fizesse o mesmo.",
-  "flavio": "Na quarta (21), Flávio informou ao TSE que aceita o desafio, mas só apresenta os dados depois que Lula entregar os dele, e ampliou a lista de exigências (Marcola, cartão corporativo, agenda de Janja, Instituto Lula). Em coluna no Metrópoles, chamou a proposta de Lula de promessa vazia. As reportagens consultadas não trazem a manifestação de Flávio após a resposta da campanha de Lula nesta quinta.",
+  "expira": "2026-10-23T13:40:00-03:00",
+  "chamada": "Sigilos: campanha de Flávio vai ao TSE sem entregar autorização e cita análise de Dallagnol",
+  "titulo": "Sigilos no TSE: Lula entrega, Flávio ainda não",
+  "resumo": "A campanha de Lula levou ao TSE, na quinta (22/10), a resposta ao desafio dos sigilos e disse aceitar todas as condições impostas por Flávio Bolsonaro, com autorização para abrir os dados bancários, fiscais e telemáticos de Lula e familiares dos últimos oito anos, segundo Metrópoles e CartaCapital. A campanha de Flávio também foi ao TSE, mas, segundo Itatiaia (11h42) e CartaCapital (12h28), a advogada Maria Cláudia Bucchianeri chegou sem a autorização dele e disse que a entrega virá depois da conferência dos documentos de Lula. Ela afirmou que a campanha de Flávio vai oferecer tudo o que foi pedido. O ex-procurador Deltan Dallagnol (Novo-PR) vai analisar o material de Lula. Autorizar o acesso não significa divulgar os dados. Ainda não se sabe quando Flávio entregará a autorização, se isso ocorrerá antes de domingo (25) nem como o ministro André Mendonça, relator do caso no STF, vai decidir.",
+  "lula": "A campanha de Lula formalizou no TSE a aceitação das condições de Flávio e entregou autorização para abrir os sigilos de Lula e de familiares. Lula pediu que Flávio abra também os dele, da mulher, dos irmãos, da mãe e de empresas ligadas a ele. As reportagens consultadas não trazem fala de Lula ou da campanha sobre a ausência da autorização de Flávio.",
+  "flavio": "A campanha de Flávio foi ao TSE sem entregar a autorização. Maria Cláudia Bucchianeri disse: \"Se eles trouxerem tudo, a gente traz\", e que não há possibilidade de recuo. Na quarta (21), Flávio já havia dito que aceita o desafio, mas com cerca de 20 condições adicionais. Flávio não se manifestou pessoalmente sobre o tema nas reportagens consultadas desta quinta.",
   "aba": "campanha",
-  "fonte": "Metrópoles",
-  "url": "https://www.metropoles.com/brasil/campanha-de-lula-apresenta-resposta-tse-sobre-sigilo-apos-condicoes-de-flavio-bolsonaro",
-  "fonte2": "CNN Brasil",
-  "url2": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-apresentarao-aval-para-quebras-de-sigilo-ao-tse/"
+  "fonte": "CartaCapital",
+  "url": "https://www.cartacapital.com.br/justica/campanha-de-lula-entrega-documentos-autorizando-a-abertura-do-sigilo-flavio-nao/",
+  "fonte2": "Itatiaia",
+  "url2": "https://www.itatiaia.com.br/politica/eleicoes/campanha-de-flavio-bolsonaro-chega-ao-tse-de-maos-vazias-e-sem-dados-sob-sigilo/"
  }
 ]
