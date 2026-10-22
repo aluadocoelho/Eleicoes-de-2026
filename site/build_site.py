@@ -2,7 +2,7 @@ import re
 """Gera o index.html público (GitHub Pages) a partir da página do painel."""
 import sys
 # Microsoft Clarity (mapas de calor e gravações anônimas). Vazio = desligado; só carrega para quem aceitar.
-CLARITY_ID = ""
+CLARITY_ID = "z1ti7czjt6"
 _CK_DESC = " e de mapa de calor, para entender como as pessoas usam a página" if CLARITY_ID else ""
 _CK_OPT = ('<label class="ck-opt"><input type="checkbox" id="ck-cl"> <span><b>Mapa de calor</b> Microsoft Clarity: mostra onde as pessoas tocam e grava a navegação de forma anônima, sem o que você digita.</span></label>' if CLARITY_ID else '')
 src_path, out_path = sys.argv[1], sys.argv[2]

@@ -1675,7 +1675,7 @@ body.el-vp-lock{overflow:hidden}
         <span class="el-vh" id="upd-all"></span>
       </span></p>
 <p class="el-foot el-legal"><b>Clareia Eleições</b> (antes Verita Eleições) é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. <b>Não temos nenhuma relação com o Instituto Veritá</b>, de pesquisas eleitorais. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
-  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar.</p><p class="el-foot el-visits" id="gc-total" hidden></p><div class="el-foot el-foot-lang"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav></div><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
+  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar. Também com a sua permissão, o Microsoft Clarity mostra onde as pessoas tocam na página e grava a navegação de forma anônima, sem guardar o que é digitado.</p><p class="el-foot el-visits" id="gc-total" hidden></p><div class="el-foot el-foot-lang"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav></div><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
@@ -3476,11 +3476,11 @@ body.el-vp-lock{overflow:hidden}
 </script>
 <div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
   <h2 id="ck-t">Cookies na Clareia</h2>
-  <p id="ck-d">Os cookies essenciais fazem o site funcionar. Com a sua permissão, também usamos cookies de estatística. Nada é usado para anúncios.</p>
+  <p id="ck-d">Os cookies essenciais fazem o site funcionar. Com a sua permissão, também usamos cookies de estatística e de mapa de calor, para entender como as pessoas usam a página. Nada é usado para anúncios.</p>
   <div class="ck-opts" id="ck-opts" hidden>
     <label class="ck-opt"><input type="checkbox" checked disabled> <span><b>Essenciais</b> Sempre ligados: lembram suas escolhas, como tema e avisos.</span></label>
     <label class="ck-opt"><input type="checkbox" id="ck-ga"> <span><b>Estatística</b> Google Analytics: conta visitas e quais abas são mais lidas.</span></label>
-    
+    <label class="ck-opt"><input type="checkbox" id="ck-cl"> <span><b>Mapa de calor</b> Microsoft Clarity: mostra onde as pessoas tocam e grava a navegação de forma anônima, sem o que você digita.</span></label>
   </div>
   <div class="nt-btns">
     <button type="button" id="ck-no">Apenas essenciais</button>
@@ -3491,7 +3491,7 @@ body.el-vp-lock{overflow:hidden}
 </div>
 <script>
 (function () {
-  var GA = "G-2NR8ZVJG0L", CL = "", KEY = "el-cookies", box = document.getElementById("el-ck"), gaOn = false, clOn = false;
+  var GA = "G-2NR8ZVJG0L", CL = "z1ti7czjt6", KEY = "el-cookies", box = document.getElementById("el-ck"), gaOn = false, clOn = false;
   function get() { try { var v = localStorage.getItem(KEY); if (!v) return null; if (v === "sim") return {ga: true, cl: false, v: 1}; if (v === "nao") return {ga: false, cl: false, v: 1}; return JSON.parse(v); } catch (e) { return null; } }
   function set(o) { o.v = 2; try { localStorage.setItem(KEY, JSON.stringify(o)); } catch (e) {} }
   window.dataLayer = window.dataLayer || [];
