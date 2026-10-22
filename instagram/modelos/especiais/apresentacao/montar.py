@@ -188,12 +188,11 @@ def pagina(r, durs):
                     f'border-radius:999px;padding:10px 28px;font:900 32px \'Public Sans\';letter-spacing:.12em;text-transform:uppercase">{E(c["chip"])}</span></div>')
         h = ''; eventos.append((t0 + .2, 'in'))
         if cid in ('01', '11'):
-            # raios de luz girando atrás da lâmpada (que é a estrela no começo e no fim)
+            # ondas de luz saindo da lâmpada (só as ondas, sem os raios: pedido do dono em 21/10)
             cy = 700 if cid == '01' else 640
             raios = ''.join(f'<rect x="-9" y="-390" width="18" height="110" rx="9" fill="{AM}" transform="rotate({i * 30})"/>' for i in range(12))
             h += (f'<div class="ab" style="left:540px;top:{cy}px;width:0;height:0">'
-                  f'<svg class="ab" style="left:-480px;top:-480px;{A("luz", .9, .1)}" width="960" height="960" viewBox="-480 -480 960 960"><g style="transform-origin:0 0;animation:giro 18s linear infinite">{raios}</g></svg>'
-                  + ''.join(f'<div class="ab" style="left:-200px;top:-200px;width:400px;height:400px;border-radius:50%;border:6px solid {AM};animation:onda 2.6s ease-out {at(.4 + i * .85)}s infinite"></div>' for i in range(3))
+                                    + ''.join(f'<div class="ab" style="left:-200px;top:-200px;width:400px;height:400px;border-radius:50%;border:6px solid {AM};animation:onda 2.6s ease-out {at(.4 + i * .85)}s infinite"></div>' for i in range(3))
                   + '</div>')
             if cid == '01':
                 h += (f'<div class="ab" style="left:0;right:0;top:1130px;text-align:center"><div style="{A("foco", .7, .5)};{serif(110)}">Oi! Eu sou a</div>'
