@@ -17,7 +17,7 @@
  {
   "id": "p02",
   "inicio": "2026-10-21T18:55:00-03:00",
-  "expira": "2026-10-22T19:00:00-03:00",
+  "expira": "2026-10-22T11:30:00-03:00",
   "chamada": "PF pede ao STF inquérito sobre ligação de Flávio com a BestBet",
   "titulo": "PF e a BestBet: o que se sabe",
   "resumo": "A Polícia Federal pediu ao Supremo Tribunal Federal a abertura de um inquérito para apurar se Flávio Bolsonaro é sócio oculto da BestBet, casa de apostas licenciada no Rio de Janeiro. A informação foi divulgada pela revista Piauí nesta quarta (21/10). O pedido faz parte de uma investigação sobre lavagem de dinheiro e envolve o advogado Willer Tomaz, amigo de Flávio. Não há conclusão sobre a suposta participação.",
@@ -28,5 +28,20 @@
   "url": "https://www.agazeta.com.br/brasil/pf-investiga-se-flavio-bolsonaro-e-socio-oculto-de-bet-diz-revista-1026",
   "fonte2": "Terra",
   "url2": "https://www.terra.com.br/noticias/o-que-se-sabe-sobre-suposto-elo-de-flavio-bolsonaro-com-esquema-de-bets,565fe97eae2082589f7650575db2a9eda3q1wpce.html"
+ },
+ {
+  "id": "p03",
+  "inicio": "2026-10-22T11:30:00-03:00",
+  "expira": "2026-10-23T11:30:00-03:00",
+  "chamada": "Sigilos: Lula aceita as condições de Flávio e marca ida ao TSE às 11h desta quinta",
+  "titulo": "Sigilos no TSE: o que se sabe nesta quinta",
+  "resumo": "A campanha de Lula disse na quarta (21/10) que não se opõe às 19 condições apresentadas por Flávio Bolsonaro para a abertura dos sigilos, desde que Flávio também abra os dados pedidos por Lula. Lula convidou Flávio para formalizar a abertura no TSE nesta quinta (22/10), às 11h. Na noite de quarta, Flávio ampliou a lista de exigências. Autorizar o acesso não significa divulgar os dados, e cada etapa tem prazos próprios; até as 11h30, as reportagens consultadas ainda não traziam o resultado da ida ao TSE.",
+  "lula": "Convidou Flávio, em publicação no Instagram, a abrir os sigilos no TSE às 11h desta quinta. O coordenador da campanha, Camilo Santana, disse que Lula não se opõe às condições de Flávio.",
+  "flavio": "Ampliou na noite de quarta (21/10) as exigências, incluindo dados do Instituto Lula, de Marcola e dos cartões corporativos da Presidência. As reportagens consultadas não informam se ele vai ao TSE nesta quinta.",
+  "aba": "campanha",
+  "fonte": "Poder360",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-faz-convite-a-flavio-para-abrir-sigilos-nesta-5a-feira-no-tse/",
+  "fonte2": "Mais Goiás",
+  "url2": "https://www.maisgoias.com.br/politica/apos-lula-aceitar-19-condicoes-para-abrir-sigilo-flavio-amplia-lista-de-exigencias/"
  }
 ]
