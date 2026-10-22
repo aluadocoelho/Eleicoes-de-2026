@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261022-pesquisa-datafolha",
+  "titulo": "Nova pesquisa Datafolha (22/10)",
+  "curto": "Datafolha",
+  "data": "2026-10-22",
+  "origem": "instagram/publicados/20261022-pesquisa-datafolha-reels",
+  "video": "videos/20261022-pesquisa-datafolha.mp4",
+  "capa": "videos/20261022-pesquisa-datafolha.jpg",
+  "bolinha": "videos/20261022-pesquisa-datafolha-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De0FCoUjjFs/"
+ },
+ {
   "id": "20261022-pesquisa-indexa",
   "titulo": "Nova pesquisa Indexa/Broadcast (22/10)",
   "curto": "Indexa",
@@ -119,16 +130,5 @@
   "capa": "videos/ultima-semana.jpg",
   "bolinha": "videos/ultima-semana-b.jpg",
   "instagram": "https://www.instagram.com/reel/DevX3qVkZ5i/"
- },
- {
-  "id": "como-funciona",
-  "titulo": "Como a Clareia funciona",
-  "curto": "Como funciona",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-como-funciona-clareia-reels",
-  "video": "videos/como-funciona.mp4",
-  "capa": "videos/como-funciona.jpg",
-  "bolinha": "videos/como-funciona-b.jpg",
-  "instagram": "https://www.instagram.com/reel/Devci4lCBuP/"
  }
 ]
