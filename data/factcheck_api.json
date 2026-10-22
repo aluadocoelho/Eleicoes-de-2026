@@ -12,6 +12,30 @@
   "url": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Governador eleito do Maranhão, Eduardo Braide declarou apoio a Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Governador eleito do MA não declarou apoio a Flávio Bolsonaro no ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D46J8KE",
+  "termo": "Lula",
+  "afirmacao": "Reportagem registra compra de votos em eleição de 2026",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-14",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Reportagem antiga é usada para apontar falsamente compra de ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://checamos.afp.com/doc.afp.com.D46J8KE"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D44C6KE",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Assessora de Bolsonaro diz que vai acabar com Bolsa Familia em 2 anos",
@@ -1034,7 +1058,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1502,12 +1526,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
-  "quem_disse": "Lula",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -2173,13 +2197,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
+  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/"
  },
