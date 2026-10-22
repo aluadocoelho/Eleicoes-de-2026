@@ -682,6 +682,52 @@ _VJS = """<script>(function(){
 })();</script>"""
 html = html.replace('</body>', _VJS + '</body>', 1)
 
+
+# --- área de Plantão (última hora) no topo da aba Ao vivo: todos os plantões, do mais novo para o mais antigo ---
+_PHEAD = '<div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Ao vivo</span><p class="el-pgtitle">Debates e entrevistas, <em>momento a momento</em></p></div>'
+assert html.count(_PHEAD) == 1
+html = html.replace(_PHEAD, _PHEAD + '<section class="el-ph" id="el-ph" aria-labelledby="el-ph-t" hidden><h2 class="el-ph-t" id="el-ph-t"><i aria-hidden="true"></i>Plantão: última hora</h2><div id="el-ph-lista"></div></section>', 1)
+_PCSS = """<style>
+.el-ph{margin:6px 0 26px}
+.el-ph[hidden]{display:none}
+.el-ph-t{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:1.05rem;font-weight:900}
+.el-ph-t i{width:12px;height:12px;border-radius:50%;background:#5B2DBF;box-shadow:0 0 0 4px rgba(91,45,191,.18)}
+.el-ph-c{background:var(--color-panel,#fff);border:2px solid var(--ink,#16181D);border-radius:18px;box-shadow:5px 5px 0 var(--ink,#16181D);padding:16px 18px;margin:0 0 16px}
+.el-ph-c.ativo{box-shadow:5px 5px 0 #FFD43B}
+.el-ph-m{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:.8125rem;font-weight:700;color:var(--color-fg-muted,#5A5F6B)}
+.el-ph-tag{background:#FFD43B;color:#16181D;border-radius:999px;padding:2px 10px;font-weight:900;letter-spacing:.04em;text-transform:uppercase;font-size:.75rem}
+.el-ph-c h3{margin:8px 0 6px;font-family:var(--font-anthropic-serif);font-size:1.2rem;line-height:1.25}
+.el-ph-c p{margin:0 0 8px;line-height:1.55}
+.el-ph-q{display:grid;gap:8px;margin:10px 0}
+.el-ph-q div{display:flex;gap:8px;align-items:flex-start;line-height:1.5}
+.el-ph-q i{flex:none;width:12px;height:12px;border-radius:50%;margin-top:6px}
+.el-ph-f{font-size:.8125rem;color:var(--color-fg-muted,#5A5F6B)}
+.el-ph-f a{color:inherit}
+.el-ph-mais{appearance:none;font:inherit;font-weight:700;background:none;border:2px solid var(--ink,#16181D);border-radius:999px;padding:8px 16px;min-height:44px;cursor:pointer;color:inherit}
+</style>"""
+html = html.replace('</head>', _PCSS + '</head>', 1)
+_PJS = """<script>(function(){
+  var B=/\\/(en|es)\\//.test(location.pathname)?"../":"", sec=document.getElementById("el-ph"), L=document.getElementById("el-ph-lista");
+  var EN=/\\/en\\//.test(location.pathname), ES=/\\/es\\//.test(location.pathname);
+  var T={ativo:EN?"Live now":ES?"En curso":"Agora", lula:"Lula", flavio:"Flávio Bolsonaro", fonte:EN?"Sources":ES?"Fuentes":"Fontes", mais:EN?"Show earlier updates":ES?"Ver avisos anteriores":"Ver plantões anteriores"};
+  function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function quando(iso){var d=new Date(iso);if(isNaN(d))return "";var o={timeZone:"America/Sao_Paulo"};return d.toLocaleDateString(EN?"en-US":ES?"es":"pt-BR",Object.assign({day:"2-digit",month:"2-digit"},o))+" · "+d.toLocaleTimeString(EN?"en-US":ES?"es":"pt-BR",Object.assign({hour:"2-digit",minute:"2-digit"},o))}
+  function card(x,agora){var at=new Date(x.inicio)<=agora&&agora<new Date(x.expira);
+    var q="";if(x.lula)q+='<div><i style="background:var(--cl,#D62B2B)"></i><span><b>'+T.lula+':</b> '+esc(x.lula)+'</span></div>';
+    if(x.flavio)q+='<div><i style="background:var(--cf,#1F4FA8)"></i><span><b>'+T.flavio+':</b> '+esc(x.flavio)+'</span></div>';
+    var f='<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte)+'</a>'+(x.url2?', <a href="'+esc(x.url2)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte2)+'</a>':"");
+    return '<article class="el-ph-c'+(at?' ativo':'')+'"><div class="el-ph-m">'+(at?'<span class="el-ph-tag">'+T.ativo+'</span>':'')+'<span>'+quando(x.inicio)+'</span></div><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.resumo)+'</p>'+(q?'<div class="el-ph-q">'+q+'</div>':'')+'<p class="el-ph-f">'+T.fonte+': '+f+'</p></article>'}
+  (window.__tmP||Promise.resolve()).then(function(){return fetch(B+"data/plantao.json",{cache:"no-cache"})}).then(function(r){return r.ok?r.json():[]}).then(function(rows){
+    if(window.__tradRows)rows=window.__tradRows("plantao",rows);
+    rows=(rows||[]).filter(function(x){return x&&x.titulo}).sort(function(a,b){return new Date(b.inicio)-new Date(a.inicio)});
+    if(!rows.length)return; var agora=new Date();
+    L.innerHTML=rows.slice(0,3).map(function(x){return card(x,agora)}).join("");
+    if(rows.length>3){var bt=document.createElement("button");bt.type="button";bt.className="el-ph-mais";bt.textContent=T.mais;bt.onclick=function(){L.innerHTML=rows.map(function(x){return card(x,agora)}).join("");};L.appendChild(bt)}
+    sec.hidden=false;
+  }).catch(function(){});
+})();</script>"""
+html = html.replace('</body>', _PJS + '</body>', 1)
+
 # --- computador: página mais larga, menu inteiro à vista e topo mais justo (pedido do dono em 21/10) ---
 _DCSS = """<style>
 @media (min-width:900px){
