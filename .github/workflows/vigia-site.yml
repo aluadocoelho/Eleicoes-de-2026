@@ -10,6 +10,10 @@ on:
     paths: ["index.html", "en/**", "es/**", "site/**", "sw.js", "scripts/teste_site.py", ".github/workflows/vigia-site.yml"]
   schedule:
     - cron: "23 * * * *"
+  # também logo depois de cada publicação do site (o agendamento do GitHub às vezes atrasa ou pula horários)
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -17,7 +21,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: vigia-site-${{ github.event_name }}
+  group: vigia-site-${{ github.event_name == 'push' && 'push' || 'ar' }}
   cancel-in-progress: true
 
 jobs:

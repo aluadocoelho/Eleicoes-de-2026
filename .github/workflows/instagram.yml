@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
     paths: ["instagram/fila/**"]
+  # nova tentativa automática: se alguma peça falhou e ficou na fila, publica na próxima passada (fila vazia = não faz nada)
+  schedule:
+    - cron: "11,41 * * * *"
   workflow_dispatch:
     inputs:
       so_verificar:
