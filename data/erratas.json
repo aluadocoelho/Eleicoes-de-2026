@@ -295,5 +295,16 @@
   "depois": "ressalvas (4) e imprecisa (3)",
   "motivo": "A matéria traz quatro falas com 'verdadeira com ressalvas' e três com 'imprecisa'; o total (11) e a faixa não mudam.",
   "url": "https://gazetadoparana.com.br/publico/lula-no-sbt-checagem-confirma-reajuste-do-bolsa-familia-mas-encontra-lacunas-em-acusacoes-sobre-vorcaro-e-promessas-de-seguranca"
+ },
+ {
+  "id": "er28",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e21",
+  "o_que_mudou": "Troca de fonte, data da decisão e descrição da fala do corregedor",
+  "antes": "18/10, Agenda do Poder: vetar antes seria censura prévia, mas abusos podem ser julgados depois",
+  "depois": "17/10, SBT News: Justiça Eleitoral não pode impor proibições gerais e antecipadas, mas irregularidades poderão ser apuradas depois",
+  "motivo": "A decisão do corregedor é de sábado (17/10) e as fontes não usam a expressão censura prévia; o texto passou a seguir o que o ministro disse.",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tse-mantem-atos-pro-lula-com-artistas-neste-domingo-18"
  }
 ]
