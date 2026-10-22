@@ -3333,6 +3333,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3C14-3D64",
+  "conjunto": "boatos",
+  "id": "b57",
+  "registro": {
+   "id": "b57",
+   "data": "2026-10-20",
+   "alvo": "Lula",
+   "boato": "Mensagem diz que Lula anunciou que quem for traído não paga imposto e recebe R$ 1.200",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há registro da fala nem documento oficial; o pacote para microempreendedores anunciado em 13/10 trata de dívidas e crédito, sem relação com o boato.",
+   "url": "https://www.boatos.org/politica/lula-disse-que-quem-for-corno-nao-vai-pagar-imposto-e-vai-receber-r-1-200.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Impostos e deboche"
+  },
+  "primeira_vez": "2026-10-22T20:31:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9495-4DB1",
+  "conjunto": "boatos",
+  "id": "b58",
+  "registro": {
+   "id": "b58",
+   "data": "2026-10-20",
+   "alvo": "Lula",
+   "boato": "Vídeo diz que Lula será preso pela terceira vez depois de fala da sócia do \"Careca do INSS\"",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há ordem judicial nem anúncio de prisão; na entrevista à CNN Brasil, ela disse que pretende buscar delação premiada, e a previsão de prisão foi acrescentada pela publicação.",
+   "url": "https://www.boatos.org/politica/lula-vai-ser-preso-pela-terceira-vez-por-causa-de-bomba-de-socia-do-careca-do-inss.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Prisão e INSS"
+  },
+  "primeira_vez": "2026-10-22T20:31:27Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
