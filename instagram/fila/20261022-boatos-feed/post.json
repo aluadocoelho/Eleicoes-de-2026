@@ -1,0 +1,23 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Boatos desmentidos (22/10)",
+ "arquivos": [
+  "1-lula-audio.jpg",
+  "2-flavio-debate.jpg",
+  "3-lula-folha.jpg",
+  "4-flavio-aposentado.jpg"
+ ],
+ "legenda": "Quatro boatos sobre os candidatos foram desmentidos por checadores nesta quarta (21/10) e quinta (22/10).\n\nSobre @lulaoficial: um áudio com a voz dele criticando a lobista Roberta Luchsinger é falso, segundo o Aos Fatos (análises apontaram voz sintética e a Secom negou). Uma capa falsa da Folha sobre um extrato de Lula não é real, segundo o Boatos.org.\n\nSobre @flaviobolsonaro: não há registro de que ele tenha dito que não iria ao debate da Globo se houvesse checagem ao vivo, nem de uma frase atribuída a ele sobre reajuste de aposentados, segundo o Boatos.org.\n\nMais detalhes e o link de cada fonte no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#Eleicoes2026 #SegundoTurno #FakeNews #Lula #FlavioBolsonaro",
+ "alt": [
+  "Arte da Clareia Eleições: boato desmentido. Áudio com a voz de Lula criticando entrevista à CNN Brasil é falso; análises apontaram voz sintética e a Secom negou. Fonte: Aos Fatos.",
+  "Arte da Clareia Eleições: boato desmentido. A mensagem de que Flávio Bolsonaro não iria ao debate da Globo com checagem ao vivo é falsa; não há registro disso. Fonte: Boatos.org.",
+  "Arte da Clareia Eleições: boato desmentido. A capa da Folha com extrato de Lula e R$ 300 bilhões em propina é falsa e foi feita com IA. Fonte: Boatos.org.",
+  "Arte da Clareia Eleições: boato desmentido. A frase sobre aposentados atribuída a Flávio Bolsonaro não tem registro; ele defendeu reajuste acima da inflação. Fonte: Boatos.org."
+ ],
+ "fontes": [
+  "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+  "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
+  "https://www.boatos.org/politica/folha-de-s-paulo-divulga-extrato-bancario-de-lula-com-propina-de-escandalos-de-corrupcao.html",
+  "https://www.boatos.org/politica/flavio-bolsonaro-perguntou-por-que-o-aposentado-tem-que-ganhar-reajuste-todo-ano-se-nao-produz-nada.html"
+ ]
+}
