@@ -286,5 +286,23 @@
   "flavio": 26900000,
   "fonte": "Bites, via Diário do Centro do Mundo / Plantão Brasil",
   "url": "https://www.plantaobrasil.net/noticias/157690-lula-domina-engajamento-digital-e-supera-marca-de-flavio-bolsonaro-nas-redes"
+ },
+ {
+  "id": "mt-ig-seg-2110",
+  "metrica": "Seguidores no Instagram (perfil oficial)",
+  "periodo": "21 out (tarde)",
+  "lula": 18200000,
+  "flavio": 15100000,
+  "fonte": "Mobile Time",
+  "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
+ },
+ {
+  "id": "mt-wa-seg-2110",
+  "metrica": "Seguidores do canal oficial no WhatsApp",
+  "periodo": "21 out (tarde)",
+  "lula": 2200000,
+  "flavio": 255000,
+  "fonte": "Mobile Time",
+  "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
  }
 ]
