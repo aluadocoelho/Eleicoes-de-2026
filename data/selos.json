@@ -3840,6 +3840,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9B57-2835",
+  "conjunto": "boatos",
+  "id": "b65",
+  "registro": {
+   "id": "b65",
+   "data": "2026-10-23",
+   "alvo": "Lula",
+   "boato": "Posts dizem que Lula passou mal e não iria ao debate da Globo",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "As postagens usaram um vídeo de 2024 como se fosse recente, e a presença de Lula no debate está confirmada. Também checado pelo Estadão Verifica.",
+   "url": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Saúde e debate"
+  },
+  "primeira_vez": "2026-10-23T19:29:27Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
