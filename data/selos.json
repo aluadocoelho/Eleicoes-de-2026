@@ -1875,6 +1875,66 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
   },
   "primeira_vez": "2026-10-22T11:02:32Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "BF50-77C2",
+  "conjunto": "aovivo",
+  "id": "globo-02",
+  "registro": {
+   "id": "globo-02",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:20",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "O debate tem quatro blocos: perguntas sobre as regiões do país e um tema nacional, dois blocos com temas escolhidos pelos candidatos e um de tema livre, com considerações finais. A ordem das perguntas sai de sorteio ao vivo. Não há horário de término divulgado; a duração prevista é de pelo menos duas horas.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2444-6701",
+  "conjunto": "aovivo",
+  "id": "globo-03",
+  "registro": {
+   "id": "globo-03",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:20",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Uma equipe de mais de 30 jornalistas da Globo checa as falas durante o debate. Os resultados não aparecem na TV: saem no g1 (Fato ou Fake), em O Globo, no Valor, no Extra e na CBN. Opiniões, ofensas e previsões não são checadas.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "852D-7F90",
+  "conjunto": "aovivo",
+  "id": "globo-04",
+  "registro": {
+   "id": "globo-04",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:20",
+   "tipo": "Programação",
+   "candidato": null,
+   "texto": "Depois do debate, cada candidato dá uma entrevista coletiva de 10 minutos, com Lula falando primeiro por sorteio. Em seguida, o Jornal da Globo e a GloboNews cobrem o pós-debate.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
   "ainda_publicado": true
  },
  {
@@ -8080,6 +8140,25 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
   },
   "primeira_vez": "2026-10-21T12:03:13Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "9907-028E",
+  "conjunto": "destaques",
+  "id": "debate-globo",
+  "registro": {
+   "id": "debate-globo",
+   "tipo": "Debate",
+   "titulo": "Debate na TV Globo",
+   "data": "2026-10-23",
+   "hora_inicio": "21:20",
+   "hora_fim": null,
+   "local": "Estúdios Globo, no Rio de Janeiro",
+   "como_assistir": "TV aberta: TV Globo, logo depois do Jornal Nacional (previsto para 21h20). TV por assinatura: GloboNews, ao mesmo tempo. Internet: ao vivo no g1. Depois, o debate completo fica no g1 e no Globoplay.",
+   "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. Segundo a Exame, são quatro blocos: o 1º com perguntas sobre regiões do país e um tema nacional, o 2º e o 3º com temas escolhidos pelos candidatos e o 4º com tema livre, mais as considerações finais. A Globo não divulgou a hora do fim; a duração prevista é de pelo menos duas horas. Uma equipe de mais de 30 jornalistas checa as falas, e os resultados saem no g1, em O Globo, no Valor, no Extra e na CBN, não na TV. Depois, cada candidato dá uma entrevista coletiva de 10 minutos.",
+   "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
   "ainda_publicado": true
  },
  {
@@ -8236,6 +8315,27 @@
    "url": "https://exame.com/brasil/pesquisa-para-presidente-alfa-flavio-bolsonaro-tem-515-e-lula-485-no-2o-turno/"
   },
   "primeira_vez": "2026-10-22T16:48:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6E45-4F95",
+  "conjunto": "pesquisas",
+  "id": "alfa-2310",
+  "registro": {
+   "id": "alfa-2310",
+   "instituto": "Alfa Inteligência",
+   "divulgacao": "2026-10-23",
+   "campo": "18–22 out",
+   "amostra": 2700,
+   "margem": 1.9,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "CNN Brasil (registro BR-08496/2026)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/alfa-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
   "ainda_publicado": true
  },
  {
@@ -9202,6 +9302,27 @@
    "url": "https://www.dgabc.com.br/Noticia/4353712/real-time-big-data-flavio-tem-52-dos-votos-validos-e-lula-48-em-empate-tecnico"
   },
   "primeira_vez": "2026-10-23T02:45:52Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6244-51C1",
+  "conjunto": "pesquisas",
+  "id": "realtime-2310",
+  "registro": {
+   "id": "realtime-2310",
+   "instituto": "RealTime Big Data",
+   "divulgacao": "2026-10-23",
+   "campo": "19–22 out",
+   "amostra": 2000,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "CNN Brasil (registro BR-09670/2026)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+  },
+  "primeira_vez": "2026-10-23T13:02:18Z",
   "ainda_publicado": true
  },
  {
