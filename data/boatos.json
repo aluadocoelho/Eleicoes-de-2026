@@ -936,5 +936,33 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "Segundo a CNN Brasil, o vídeo foi publicado no canal de WhatsApp Tropa do Flávio, gerido pela campanha de Flávio.",
   "tema": "Economia e IA"
+ },
+ {
+  "id": "b68",
+  "data": "2026-10-23",
+  "alvo": "Flávio",
+  "boato": "Mensagens dizem que Daniella Marques afirmou que Flávio ampliaria o mandato para 8 anos e só depois haveria eleições",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem concluiu que a declaração atribuída à coordenadora do programa econômico de Flávio é falsa.",
+  "url": "https://www.boatos.org/politica/daniella-marques-diz-que-flavio-bolsonaro-vai-ampliar-mandato-para-8-anos-e-so-ai-tera-eleicoes.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Mandato"
+ },
+ {
+  "id": "b69",
+  "data": "2026-10-22",
+  "alvo": "Lula",
+  "boato": "Lista viral diz ser pesquisa da Paraná Pesquisas com Flávio vencendo em todos os estados, com mais de 70% dos votos na maioria",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem diz que a lista não é uma pesquisa oficial da Paraná Pesquisas.",
+  "url": "https://www.boatos.org/politica/pesquisa-parana-pesquisas-mostra-flavio-bolsonaro-vencendo-em-todos-os-estados-e-com-mais-de-70-de-votos-na-maioria.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Pesquisa"
  }
 ]
