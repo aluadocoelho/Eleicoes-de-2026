@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261022-debate-globo",
+  "titulo": "Debate na Globo (23/10)",
+  "curto": "Debate",
+  "data": "2026-10-22",
+  "origem": "instagram/publicados/20261022-debate-globo-reels",
+  "video": "videos/20261022-debate-globo.mp4",
+  "capa": "videos/20261022-debate-globo.jpg",
+  "bolinha": "videos/20261022-debate-globo-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De1hFlljv9i/"
+ },
+ {
   "id": "20261022-pesquisas-do-dia",
   "titulo": "Pesquisas do dia (22/10)",
   "curto": "Pesquisas",
@@ -119,16 +130,5 @@
   "capa": "videos/pesquisa-futura-2110.jpg",
   "bolinha": "videos/pesquisa-futura-2110-b.jpg",
   "instagram": "https://www.instagram.com/reel/DewyZPkjTje/"
- },
- {
-  "id": "pesquisa-meioideia-2110",
-  "titulo": "Nova pesquisa Meio/Ideia (21/10)",
-  "curto": "Meio/Ideia",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-pesquisa-meioideia-reels",
-  "video": "videos/pesquisa-meioideia-2110.mp4",
-  "capa": "videos/pesquisa-meioideia-2110.jpg",
-  "bolinha": "videos/pesquisa-meioideia-2110-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DewjTwEgOeX/"
  }
 ]
