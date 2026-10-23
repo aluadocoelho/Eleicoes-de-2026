@@ -516,5 +516,19 @@
   "lula_totais": null,
   "fonte": "CNN Brasil (registro BR-09670/2026)",
   "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+ },
+ {
+  "id": "ipespe-2310",
+  "instituto": "Ipespe/Abrapel",
+  "divulgacao": "2026-10-23",
+  "campo": "20–22 out",
+  "amostra": 1500,
+  "margem": 2.6,
+  "flavio_validos": 50.5,
+  "lula_validos": 49.5,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Metrópoles (Ipespe/Abrapel, registro BR-04350/2026; só votos válidos divulgados)",
+  "url": "https://www.metropoles.com/brasil/ipespe-flavio-tem-505-e-lula-marca-495-dos-votos-validos-no-2o-turno"
  }
 ]
