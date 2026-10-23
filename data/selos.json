@@ -10220,6 +10220,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "7158-727A",
+  "conjunto": "redes",
+  "id": "meta-ads-2310",
+  "registro": {
+   "id": "meta-ads-2310",
+   "metrica": "Gasto com anúncios impulsionados na Meta (R$)",
+   "periodo": "últimos 7 dias até 23 out",
+   "lula": 943300,
+   "flavio": 1600000,
+   "fonte": "Biblioteca de Anúncios da Meta, via Metrópoles (Ramiro Brites)",
+   "url": "https://www.metropoles.com/colunas/ramiro-brites/flavio-e-lula-lideram-impulsionamentos-nas-redes-em-7-dias-segundo-a-meta"
+  },
+  "primeira_vez": "2026-10-23T21:29:22Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F3FA-2689",
   "conjunto": "redes",
   "id": "mt-ig-seg-2110",
@@ -10803,6 +10819,20 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/live-de-lula-e-janones-chega-a-118-milhao-de-aparelhos-simultaneos/"
   },
   "primeira_vez": "2026-10-23T01:29:17Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DE65-168A",
+  "conjunto": "sinais",
+  "id": "s-meta-ads",
+  "registro": {
+   "id": "s-meta-ads",
+   "data": "2026-10-23",
+   "sinal": "Segundo a coluna de Ramiro Brites, no Metrópoles, Flávio concentrou o gasto em 777 anúncios na última semana, enquanto Lula espalhou o dele em 7.774. A coluna diz que podem faltar registros de Lula, pois o prazo de prestação de contas vai até 14 de novembro.",
+   "fonte": "Metrópoles (Biblioteca de Anúncios da Meta e DivulgaCand/TSE)",
+   "url": "https://www.metropoles.com/colunas/ramiro-brites/flavio-e-lula-lideram-impulsionamentos-nas-redes-em-7-dias-segundo-a-meta"
+  },
+  "primeira_vez": "2026-10-23T21:29:22Z",
   "ainda_publicado": true
  },
  {
