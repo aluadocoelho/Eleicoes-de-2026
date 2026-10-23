@@ -3876,6 +3876,21 @@
    "url": "https://ohoje.com/2026/10/18/lula-e-flavio-bolsonaro-intensificam-campanha-na-ultima-semana-antes-do-2o-turno/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "46E1-6362",
+  "conjunto": "campanha",
+  "id": "e07",
+  "registro": {
+   "id": "e07",
+   "data": "2026-10-13",
+   "tipo": "Debate",
+   "descricao": "Flávio diz que não irá ao debate da Band; Lula confirma presença e, no dia seguinte, Flávio também confirma.",
+   "fonte": "Diário do Nordeste",
+   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-bolsonaro-volta-atras-e-confirma-ida-ao-debate-da-band-apos-lula-assegurar-presenca-1.3798561"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -3936,6 +3951,21 @@
    "url": "https://viva.com.br/politica/tse-nega-remocao-de-video-de-lula-que-chama-flavio-bolsonaro-de-mentiroso.html"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "26DB-D069",
+  "conjunto": "campanha",
+  "id": "e11",
+  "registro": {
+   "id": "e11",
+   "data": "2026-10-17",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "TSE nega remover vídeo de Lula que chama Flávio de mentiroso: entendeu como crítica política.",
+   "fonte": "Diário do Grande ABC",
+   "url": "https://www.dgabc.com.br/Noticia/4353309/tse-nega-remocao-de-video-que-chama-flavio-bolsonaro-de-mentiroso-master"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -4161,6 +4191,21 @@
    "url": "https://viva.com.br/politica/mendonca-pede-destaque-e-adia-decisao-do-tse-sobre-propaganda-de-lula.html"
   },
   "primeira_vez": "2026-10-19T10:14:51Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "0C65-CBBC",
+  "conjunto": "campanha",
+  "id": "e24",
+  "registro": {
+   "id": "e24",
+   "data": "2026-10-15",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "André Mendonça havia mandado tirar do ar comercial de Lula que diz que Flávio cortaria programas sociais; no plenário virtual, a maioria (4 a 3) derrubou a ordem, mas Mendonça pediu destaque e o caso vai ao plenário presencial, ainda sem data.",
+   "fonte": "Times Brasil",
+   "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-mendonca-suspende-julgamento-sobre-video-de-lula-contra-flavio-no-tse/"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -4221,6 +4266,21 @@
    "url": "https://www.correiodamanha.com.br/politica/2026/10/326358-tse-manda-flavio-bolsonaro-e-aliados-apagarem-video-falso-usado-para-atacar-ato-de-lula.html"
   },
   "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "A450-F1A3",
+  "conjunto": "campanha",
+  "id": "e28",
+  "registro": {
+   "id": "e28",
+   "data": "2026-10-12",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Em decisão provisória, o ministro Marco Aurélio Bellizze mandou Flávio, Carlos Bolsonaro, Pablo Marçal e Rony Gabriel apagarem em 24 horas posts com vídeo fora de contexto que ligava o público do ato pró-Lula na Paulista ao uso de drogas.",
+   "fonte": "Congresso em Foco",
+   "url": "https://www.congressoemfoco.com.br/noticia/123180/ministro-do-tse-manda-flavio-apagar-video-falso-sobre-ato-pro-lula"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -4551,6 +4611,21 @@
    "url": "https://www.gazetadopovo.com.br/republica/flavio-amplia-exigencias-para-abrir-sigilos-e-cobra-dados-de-aliados-de-lula/"
   },
   "primeira_vez": "2026-10-22T21:51:51Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "0C3D-79FD",
+  "conjunto": "campanha",
+  "id": "e43",
+  "registro": {
+   "id": "e43",
+   "data": "2026-10-21",
+   "tipo": "Estratégia",
+   "descricao": "Na noite de quarta (21/10), Flávio ampliou a lista de pedidos ligados à abertura dos sigilos dele, incluindo dados do Instituto Lula, de Paulo Okamotto, de Frei Chico e de Roberta Luchsinger, além de extratos de cartões corporativos da Presidência e registros de visitas aos palácios. A campanha de Lula disse que Lula não se opõe às condições e iria ao TSE na quinta (22/10), às 11h; a matéria não confirma que isso já tenha ocorrido.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/campanha-de-flavio-responde-lula-e-apresenta-lista-de-sigilos-para-pt/"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -8629,6 +8704,27 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno-3/"
   },
   "primeira_vez": "2026-10-22T00:00:41Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "4CE8-6CBA",
+  "conjunto": "pesquisas",
+  "id": "gerp-2110",
+  "registro": {
+   "id": "gerp-2110",
+   "instituto": "Gerp",
+   "divulgacao": "2026-10-21",
+   "campo": "19–21 out",
+   "amostra": 2400,
+   "margem": 2,
+   "flavio_validos": 53,
+   "lula_validos": 47,
+   "flavio_totais": 50,
+   "lula_totais": 45,
+   "fonte": "Poder360 (registro TSE BR-03835/2026)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-dos-votos-validos-contra-47-de-lula-diz-gerp/"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -8965,6 +9061,27 @@
    "url": "https://www.cartacapital.com.br/politica/pesquisa-poderdata-mostra-empate-tecnico-entre-flavio-e-lula-a-3-dias-do-2o-turno/"
   },
   "primeira_vez": "2026-10-22T16:48:33Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "0B66-59C9",
+  "conjunto": "pesquisas",
+  "id": "poderdata-2210",
+  "registro": {
+   "id": "poderdata-2210",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-22",
+   "campo": "19–21 out",
+   "amostra": 4000,
+   "margem": 1.6,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 49,
+   "lula_totais": 48,
+   "fonte": "Terra (PoderData/Aya, registro BR-07926/2026)",
+   "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-poderdataaya-flavio-bolsonaro-tem-51-em-votos-validos-no-2-turno-e-lula-49,94dbf02cbc9f0bad38de4e0ca6c06b97aew7gt6b.html"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
@@ -9049,6 +9166,27 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno/"
   },
   "primeira_vez": "2026-10-22T16:48:33Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "B0EE-B0AB",
+  "conjunto": "pesquisas",
+  "id": "realtime-2010",
+  "registro": {
+   "id": "realtime-2010",
+   "instituto": "RealTime Big Data",
+   "divulgacao": "2026-10-20",
+   "campo": "15–19 out",
+   "amostra": 2000,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": 48,
+   "lula_totais": 45,
+   "fonte": "RealTime Big Data (registro BR-02952/2026), via Diário do Grande ABC",
+   "url": "https://www.dgabc.com.br/Noticia/4353712/real-time-big-data-flavio-tem-52-dos-votos-validos-e-lula-48-em-empate-tecnico"
+  },
+  "primeira_vez": "2026-10-23T02:45:52Z",
   "ainda_publicado": true
  },
  {
