@@ -866,5 +866,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Programas sociais"
+ },
+ {
+  "id": "b63",
+  "data": "2026-10-22",
+  "alvo": "Lula",
+  "boato": "Posts dizem que Janja gastou mais de R$ 7 bilhões em viagens durante o governo Lula",
+  "veredito": "Falso",
+  "agencia": "Boatos.org",
+  "explicacao": "Os cerca de R$ 7,14 bilhões são as despesas com viagens de todo o governo federal, e não de Janja; os gastos ligados à Presidência somaram cerca de R$ 150,5 milhões. A Aos Fatos checou o mesmo número em 5/10.",
+  "url": "https://www.boatos.org/politica/janja-gastou-mais-de-r-7-bilhoes-em-viagens-durante-o-governo-lula.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Gastos públicos"
  }
 ]
