@@ -4674,6 +4674,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "D757-8937",
+  "conjunto": "campanha",
+  "id": "e46",
+  "registro": {
+   "id": "e46",
+   "data": "2026-10-22",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "A campanha de Lula recorreu da decisão de André Mendonça que dispensou o TSE de intermediar a abertura dos sigilos. Pede que o tribunal requisite os dados a bancos, Receita, Banco Central e operadoras e os publique de uma vez em site público, e que Flávio seja intimado a provar que entregou as autorizações combinadas. O Tempo e O Povo também registraram a decisão de Mendonça.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/duelo-dos-sigilos-lula-pede-que-tse-atue-como-intermediador-imparcial/"
+  },
+  "primeira_vez": "2026-10-23T10:15:21Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
