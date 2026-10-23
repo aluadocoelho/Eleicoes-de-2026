@@ -153,6 +153,19 @@
    "url": "https://ndmais.com.br/politica/lula-e-flavio-bolsonaro-quarta-21-agendas"
   },
   "primeira_vez": "2026-10-21T10:15:21Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "C41C-7230",
+  "conjunto": "agenda",
+  "id": "2026-10-21",
+  "registro": {
+   "data": "2026-10-21",
+   "lula": "Sabatina na Record, em Brasília (cancelada pela campanha, por rouquidão); Belo Horizonte (MG): caminhada da Praça da Estação à Praça Raul Soares, prevista para as 15h, com chegada de Lula esperada por volta das 17h",
+   "flavio": "Guarulhos (SP): evento com Tarcísio, 11h; Fortaleza (CE): ato \"Bloco do 22\" perto da Arena Castelão, por volta das 19h",
+   "url": "https://ndmais.com.br/politica/lula-e-flavio-bolsonaro-quarta-21-agendas"
+  },
+  "primeira_vez": "2026-10-23T21:46:02Z",
   "ainda_publicado": true
  },
  {
@@ -7944,6 +7957,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "E5AD-C2A5",
+  "conjunto": "checagens",
+  "id": "l75",
+  "registro": {
+   "id": "l75",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que Flávio Bolsonaro foi eleito vereador aos 21 anos.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo a Lupa, Flávio nunca foi vereador; o primeiro cargo público dele foi o de deputado estadual na Alerj, aos 21 anos.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:46:02Z",
   "ainda_publicado": true
  },
  {
@@ -8024,6 +8057,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "DB5D-F34F",
+  "conjunto": "checagens",
+  "id": "l79",
+  "registro": {
+   "id": "l79",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que Flávio Bolsonaro empregava no Senado parentes de Adriano da Nóbrega.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo a Lupa, o emprego dos parentes de Adriano da Nóbrega ocorreu na Alerj, não no Senado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:46:02Z",
   "ainda_publicado": true
  },
  {
