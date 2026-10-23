@@ -9913,6 +9913,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BEB1-57B2",
+  "conjunto": "redes",
+  "id": "forum-impuls-2310",
+  "registro": {
+   "id": "forum-impuls-2310",
+   "metrica": "Gasto declarado ao TSE com impulsionamento de posts (R$)",
+   "periodo": "declarações até 23 out (Flávio, às 3h) e 22 out (Lula)",
+   "lula": 2690000,
+   "flavio": 18025000,
+   "fonte": "Painel de gastos de campanha com dados do TSE, via Revista Fórum",
+   "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-lula-impulso/"
+  },
+  "primeira_vez": "2026-10-23T13:30:37Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F452-D66F",
   "conjunto": "redes",
   "id": "globo-ig-mediana",
@@ -10584,6 +10600,20 @@
    "url": "https://jamildo.com/politica/lula-perdeu-vantagem-nas-redes-antes-da-band-e-flavio-leva-caso-luchsinger-ao-debate.html"
   },
   "primeira_vez": "2026-10-19T13:30:38Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D095-80BD",
+  "conjunto": "sinais",
+  "id": "s-impuls-2310",
+  "registro": {
+   "id": "s-impuls-2310",
+   "data": "2026-10-23",
+   "sinal": "A Revista Fórum, com base em painel de gastos declarados ao TSE, mostra que Flávio declarou 44 registros de impulsionamento e Lula 22. O anúncio pago na internet foi permitido até 22 de outubro e fica proibido de 23 a 26. O gasto declarado não é o custo real na Meta, e os valores são provisórios.",
+   "fonte": "Revista Fórum",
+   "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-lula-impulso/"
+  },
+  "primeira_vez": "2026-10-23T13:30:37Z",
   "ainda_publicado": true
  },
  {
