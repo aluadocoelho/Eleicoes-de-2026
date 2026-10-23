@@ -8451,6 +8451,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "18C8-E582",
+  "conjunto": "pesquisas",
+  "id": "datatrends-1110",
+  "registro": {
+   "id": "datatrends-1110",
+   "instituto": "DataTrends",
+   "divulgacao": "2026-10-11",
+   "campo": "7–9 out",
+   "amostra": 2000,
+   "margem": 2.19,
+   "flavio_validos": 53.1,
+   "lula_validos": 46.9,
+   "flavio_totais": 50,
+   "lula_totais": 44,
+   "fonte": "Times Brasil/CNBC (DataTrends, registro BR-03576/2026, entrevistas por telefone automatizado)",
+   "url": "https://timesbrasil.com.br/eleicoes-2026/pesquisa-datatrends-flavio-tem-531-contra-469-de-lula/"
+  },
+  "primeira_vez": "2026-10-23T02:01:22Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "DAF4-DFF2",
   "conjunto": "pesquisas",
   "id": "franca-2010",
