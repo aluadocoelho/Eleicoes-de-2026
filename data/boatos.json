@@ -922,5 +922,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Constituição"
+ },
+ {
+  "id": "b67",
+  "data": "2026-10-23",
+  "alvo": "Lula",
+  "boato": "Vídeo com imagem criada por IA mostra um homem parecido com Lula diante de uma bandeira em ruínas, com dados sem fonte sobre dívidas e empresas quebradas",
+  "veredito": "Removido por decisão do TSE",
+  "agencia": "TSE",
+  "explicacao": "Em decisão liminar, o ministro Bellizze mandou remover o vídeo por suspeita de conteúdo sintético sem aviso e de desinformação; o canal já o retirou.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-remover-video-com-ia-sobre-lula-em-canal-tropa-do-flavio/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo a CNN Brasil, o vídeo foi publicado no canal de WhatsApp Tropa do Flávio, gerido pela campanha de Flávio.",
+  "tema": "Economia e IA"
  }
 ]
