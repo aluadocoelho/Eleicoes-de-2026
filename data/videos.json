@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261023-debate-globo-chamada",
+  "titulo": "O último debate (23/10)",
+  "curto": "Debate",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-debate-globo-chamada-reels",
+  "video": "videos/20261023-debate-globo-chamada.mp4",
+  "capa": "videos/20261023-debate-globo-chamada.jpg",
+  "bolinha": "videos/20261023-debate-globo-chamada-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De2wEIvgpBh/"
+ },
+ {
   "id": "20261023-boatos",
   "titulo": "Boatos desmentidos (23/10)",
   "curto": "Boatos",
@@ -119,16 +130,5 @@
   "capa": "videos/faroeste-sigilos.jpg",
   "bolinha": "videos/faroeste-sigilos-b.jpg",
   "instagram": "https://www.instagram.com/reel/DexcZQSgVPt/"
- },
- {
-  "id": "apresentacao",
-  "titulo": "Apresentação da Clareia",
-  "curto": "A Clareia",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-apresentacao-clareia-reels",
-  "video": "videos/apresentacao.mp4",
-  "capa": "videos/apresentacao.jpg",
-  "bolinha": "videos/apresentacao-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DexT5bvDdoQ/"
  }
 ]
