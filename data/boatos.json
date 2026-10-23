@@ -908,5 +908,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Saúde e debate"
+ },
+ {
+  "id": "b66",
+  "data": "2026-10-10",
+  "alvo": "Flávio",
+  "boato": "Mensagens dizem que mulheres, pobres, negros e pessoas LGBT serão aniquilados se Flávio mudar a Constituição",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem não achou documento, fala ou proposta de Flávio que sustente a acusação; as propostas citadas na imprensa tratam de Judiciário, maioridade penal e fim da reeleição.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-vai-aniquilar-mulheres-pobres-negros-e-lgbts-em-nova-constituicao.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Constituição"
  }
 ]
