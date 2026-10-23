@@ -880,5 +880,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Gastos públicos"
+ },
+ {
+  "id": "b64",
+  "data": "2026-10-19",
+  "alvo": "Lula",
+  "boato": "Imagem mostra Janja beijando um boneco com chifres que seria o diabo ou Exu",
+  "veredito": "Falso",
+  "agencia": "Boatos.org",
+  "explicacao": "A imagem foi criada com inteligência artificial a partir de uma foto que Janja publicou em 2021, e a figura com chifres não aparece na foto original.",
+  "url": "https://www.boatos.org/politica/janja-beijou-imagem-de-boneco-que-representa-o-diabo.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Imagem com IA"
  }
 ]
