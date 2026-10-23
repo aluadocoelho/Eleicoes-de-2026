@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261023-boatos",
+  "titulo": "Boatos desmentidos (23/10)",
+  "curto": "Boatos",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-boatos-reels",
+  "video": "videos/20261023-boatos.mp4",
+  "capa": "videos/20261023-boatos.jpg",
+  "bolinha": "videos/20261023-boatos-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De2sDvyEqAU/"
+ },
+ {
   "id": "20261023-sigilos-flavio-autorizacoes",
   "titulo": "Sigilos no TSE (23/10)",
   "curto": "Sigilos",
@@ -119,16 +130,5 @@
   "capa": "videos/apresentacao.jpg",
   "bolinha": "videos/apresentacao-b.jpg",
   "instagram": "https://www.instagram.com/reel/DexT5bvDdoQ/"
- },
- {
-  "id": "pesquisa-quaest-2110",
-  "titulo": "Nova pesquisa Quaest (21/10)",
-  "curto": "Quaest",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-pesquisa-quaest-reels",
-  "video": "videos/pesquisa-quaest-2110.mp4",
-  "capa": "videos/pesquisa-quaest-2110.jpg",
-  "bolinha": "videos/pesquisa-quaest-2110-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DewyqULj8Q1/"
  }
 ]
