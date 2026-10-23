@@ -32,7 +32,7 @@
  {
   "id": "p03",
   "inicio": "2026-10-22T11:30:00-03:00",
-  "expira": "2026-10-23T13:40:00-03:00",
+  "expira": "2026-10-23T12:15:00-03:00",
   "chamada": "Sigilos: campanha de Flávio vai ao TSE sem entregar autorização e cita análise de Dallagnol",
   "titulo": "Sigilos no TSE: Lula entrega, Flávio ainda não",
   "resumo": "A campanha de Lula levou ao TSE, na quinta (22/10), a resposta ao desafio dos sigilos e disse aceitar todas as condições impostas por Flávio Bolsonaro, com autorização para abrir os dados bancários, fiscais e telemáticos de Lula e familiares dos últimos oito anos, segundo Metrópoles e CartaCapital. A campanha de Flávio também foi ao TSE, mas, segundo Itatiaia (11h42) e CartaCapital (12h28), a advogada Maria Cláudia Bucchianeri chegou sem a autorização dele e disse que a entrega virá depois da conferência dos documentos de Lula. Ela afirmou que a campanha de Flávio vai oferecer tudo o que foi pedido. O ex-procurador Deltan Dallagnol (Novo-PR) vai analisar o material de Lula. Autorizar o acesso não significa divulgar os dados. Ainda não se sabe quando Flávio entregará a autorização, se isso ocorrerá antes de domingo (25) nem como o ministro André Mendonça, relator do caso no STF, vai decidir.",
@@ -43,5 +43,20 @@
   "url": "https://www.itatiaia.com.br/politica/eleicoes/campanha-de-flavio-bolsonaro-chega-ao-tse-de-maos-vazias-e-sem-dados-sob-sigilo/",
   "fonte2": "CartaCapital",
   "url2": "https://www.cartacapital.com.br/justica/campanha-de-lula-entrega-documentos-autorizando-a-abertura-do-sigilo-flavio-nao/"
+ },
+ {
+  "id": "p04",
+  "inicio": "2026-10-23T12:15:00-03:00",
+  "expira": "2026-10-24T12:15:00-03:00",
+  "chamada": "Sigilos: TSE diz que Lula e Flávio podem divulgar os próprios dados; Flávio envia autorizações",
+  "titulo": "Sigilos: o que mudou desde quinta",
+  "resumo": "O ministro André Mendonça, vice-presidente do TSE e relator do caso, decidiu na quinta (22/10) que Lula e Flávio Bolsonaro podem divulgar por conta própria os próprios sigilos bancário, fiscal e telefônico, sem autorização da Justiça Eleitoral. Segundo ele, cabe a cada candidato decidir o que e quando divulgar. Na madrugada desta sexta (23), a campanha de Flávio enviou ao TSE as autorizações dele. Até o fim da manhã, as reportagens consultadas não informavam a divulgação dos dados de nenhum dos dois. Autorizar o acesso não é o mesmo que publicar os dados.",
+  "lula": "A campanha entregou ao TSE, na quinta (22/10), documentos com os sigilos de Lula e de familiares e pediu que o tribunal coordene a divulgação simultânea e completa dos dados dos dois candidatos, segundo o SBT News.",
+  "flavio": "Enviou ao TSE, nesta sexta (23), autorizações para divulgar os dados dos seus sigilos bancário e telefônico e cobrou que Lula abra os gastos do cartão corporativo e os registros de visitas ao gabinete, segundo o Metrópoles.",
+  "aba": "campanha",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/tse-lula-e-flavio-podem-abrir-sigilos-por-conta-propria-diz-mendonca/",
+  "fonte2": "Metrópoles",
+  "url2": "https://www.metropoles.com/brasil/flavio-libera-sigilos-ao-tse-e-desafia-lula-a-abrir-cartao-corporativo"
  }
 ]
