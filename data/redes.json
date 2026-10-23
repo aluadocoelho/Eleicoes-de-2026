@@ -313,5 +313,14 @@
   "flavio": 2100000,
   "fonte": "Metrópoles",
   "url": "https://www.metropoles.com/brasil/exercito-do-lula-supera-8-milhoes-e-janones-pede-mais-soldados"
+ },
+ {
+  "id": "forum-impuls-2310",
+  "metrica": "Gasto declarado ao TSE com impulsionamento de posts (R$)",
+  "periodo": "declarações até 23 out (Flávio, às 3h) e 22 out (Lula)",
+  "lula": 2690000,
+  "flavio": 18025000,
+  "fonte": "Painel de gastos de campanha com dados do TSE, via Revista Fórum",
+  "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-lula-impulso/"
  }
 ]
