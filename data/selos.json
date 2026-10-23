@@ -3662,6 +3662,69 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DF9E-586B",
+  "conjunto": "boatos",
+  "id": "b60",
+  "registro": {
+   "id": "b60",
+   "data": "2026-10-22",
+   "alvo": "Lula",
+   "boato": "Vídeo diz que a PRF apreendeu R$ 6 milhões que seriam usados para comprar votos para Lula no 2º turno",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "As imagens são da Operação Dionísio, feita em 24/09 pelo Ministério Público de Alagoas para apurar fraude de impostos no setor de bebidas, sem ligação com compra de votos.",
+   "url": "https://www.boatos.org/politica/prf-apreende-r-6-milhoes-que-seriam-usados-para-compra-de-votos-para-lula-no-2o-turno-das-eleicoes.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Compra de votos"
+  },
+  "primeira_vez": "2026-10-23T00:31:19Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A02A-DC09",
+  "conjunto": "boatos",
+  "id": "b61",
+  "registro": {
+   "id": "b61",
+   "data": "2026-10-06",
+   "alvo": "Lula",
+   "boato": "Vídeo diz que preços no Supermercados BH ficaram até 300% mais altos no governo Lula do que no de Bolsonaro",
+   "veredito": "Enganoso",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo compara preços de hoje com os de um folheto de promoção de 2020 e poucos produtos, o que não mede a inflação nem comprova alta de 300%.",
+   "url": "https://www.boatos.org/politica/comparacao-no-supermercados-bh-prova-que-precos-do-governo-lula-tiveram-300-de-aumento-em-relacao-a-bolsonaro.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo o Boatos.org, não se sabe quem gravou o vídeo; a mensagem que o acompanha cita um vereador de BH, sem dar o nome.",
+   "tema": "Preços"
+  },
+  "primeira_vez": "2026-10-23T00:31:19Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6D73-532A",
+  "conjunto": "boatos",
+  "id": "b62",
+  "registro": {
+   "id": "b62",
+   "data": "2026-10-08",
+   "alvo": "Flávio",
+   "boato": "Vídeo mostra Flávio dizendo que vai acabar com o Bolsa Família, o BPC, a aposentadoria e o Pé-de-Meia",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "É um vídeo alterado com imagens de um pronunciamento real de 4/10, mas com fala inventada; a campanha negou e o plano de governo não prevê o fim desses programas.",
+   "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-acabar-com-o-bolsa-familia-bpc-aposentadoria-e-pe-de-meia.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Programas sociais"
+  },
+  "primeira_vez": "2026-10-23T00:31:19Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
