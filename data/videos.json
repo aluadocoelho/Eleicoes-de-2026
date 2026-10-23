@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261023-sigilos-flavio-autorizacoes",
+  "titulo": "Sigilos no TSE (23/10)",
+  "curto": "Sigilos",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-sigilos-flavio-autorizacoes-reels",
+  "video": "videos/20261023-sigilos-flavio-autorizacoes.mp4",
+  "capa": "videos/20261023-sigilos-flavio-autorizacoes.jpg",
+  "bolinha": "videos/20261023-sigilos-flavio-autorizacoes-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De17NCpCqLV/"
+ },
+ {
   "id": "20261023-pesquisas-alfa-realtime",
   "titulo": "Novas pesquisas Alfa e RealTime (23/10)",
   "curto": "Pesquisas",
@@ -119,16 +130,5 @@
   "capa": "videos/pesquisa-quaest-2110.jpg",
   "bolinha": "videos/pesquisa-quaest-2110-b.jpg",
   "instagram": "https://www.instagram.com/reel/DewyqULj8Q1/"
- },
- {
-  "id": "pesquisa-verita-2110",
-  "titulo": "Nova pesquisa do instituto Veritá (21/10)",
-  "curto": "Veritá",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-pesquisa-verita-reels",
-  "video": "videos/pesquisa-verita-2110.mp4",
-  "capa": "videos/pesquisa-verita-2110.jpg",
-  "bolinha": "videos/pesquisa-verita-2110-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DexSdJ1j1JZ/"
  }
 ]
