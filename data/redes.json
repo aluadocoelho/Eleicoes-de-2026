@@ -358,5 +358,14 @@
   "flavio": 1600000,
   "fonte": "Biblioteca de Anúncios da Meta, via Metrópoles (Ramiro Brites)",
   "url": "https://www.metropoles.com/colunas/ramiro-brites/flavio-e-lula-lideram-impulsionamentos-nas-redes-em-7-dias-segundo-a-meta"
+ },
+ {
+  "id": "ipd-quaest-2210",
+  "metrica": "Índice de Popularidade Digital (0 a 100)",
+  "periodo": "dados até 22 out (em 19 out: Lula 83,3; Flávio 76,6)",
+  "lula": 81.1,
+  "flavio": 77,
+  "fonte": "Quaest, via Plantão Brasil",
+  "url": "https://www.plantaobrasil.net/noticias/158856-popularidade-digital-lula-mantem-lideranca-mas-vantagem-sobre-flavio-bolsonaro-encolhe"
  }
 ]
