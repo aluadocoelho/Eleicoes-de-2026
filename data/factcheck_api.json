@@ -7,7 +7,7 @@
   "data_afirmacao": "2026-10-22",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso áudio em que Lula reclama de entrevista de Roberta ...",
+  "titulo": "É falso áudio em que Lula reclama de entrevista de Roberta Luchsinger à CNN",
   "data_checagem": "2026-10-22",
   "url": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/"
  },
@@ -22,6 +22,18 @@
   "titulo": "Governador eleito do MA não declarou apoio a Flávio Bolsonaro no ...",
   "data_checagem": "2026-10-22",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.amp.htm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de campanha de Flávio, falando que o candidato está planejando um golpe e cortes, foi vazado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que áudio de coordenador de Flávio Bolsonaro vazou nas ...",
+  "data_checagem": "2026-10-22",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.amp.htm"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D46J8KE",
@@ -49,13 +61,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4426G3",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Lula abre vantagem de 54% para 49% sobre Flávio, segundo revista Quaest",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-20",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que pesquisa Quaest de 14 de outubro mostre Lula com 5 ...",
+  "titulo": "É falso que pesquisa Quaest de 14 de outubro mostre Lula com 5 pontos de vantagem sobre Flávio Bolsonaro",
   "data_checagem": "2026-10-22",
   "url": "https://checamos.afp.com/doc.afp.com.D4426G3"
  },
@@ -115,7 +127,7 @@
   "data_afirmacao": "2026-10-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Notícia sobre venda de pele de frango foi feita no governo ...",
+  "titulo": "Notícia sobre venda de pele de frango foi feita no governo Bolsonaro, não na gestão Lula",
   "data_checagem": "2026-10-21",
   "url": "https://checamos.afp.com/doc.afp.com.D3Z82G3"
  },
@@ -277,7 +289,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -626,7 +638,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -854,7 +866,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -867,8 +879,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -1526,8 +1538,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -2196,14 +2208,26 @@
   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-engana-sobre-saude-de-lula-para-gerar-cliques-em-link-de-compras-online/"
  },
  {
-  "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
-  "termo": "Flávio Bolsonaro",
-  "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "id": "https://www.estadao.com.br/tipo_conteudo/analise/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/",
+  "termo": "Lula",
+  "afirmacao": "Em áudio, Lula xinga Roberta após entrevista à CNN.",
+  "quem_disse": "Boatos em redes sociais",
+  "data_afirmacao": "2026-10-22",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi ...",
+  "titulo": "Análise | Áudio que imita Lula xingando Roberta Luchsinger foi fabricado com inteligência artificial",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/tipo_conteudo/analise/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
+  "termo": "Lula",
+  "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/"
  },
@@ -2827,7 +2851,7 @@
   "data_afirmacao": "2026-10-22",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que Flávio Bolsonaro tenha dito que 30 dias de férias é 'um ...",
+  "titulo": "É falso que Flávio Bolsonaro tenha dito que 30 dias de férias é ‘um exagero’",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-ferias-trinta-dias-exagero-fake-news/"
  },
@@ -2875,7 +2899,7 @@
   "data_afirmacao": "2026-10-22",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Áudio que imita Lula xingando Roberta Luchsinger foi fabricado ...",
+  "titulo": "Áudio que imita Lula xingando Roberta Luchsinger foi fabricado com inteligência artificial",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/"
  },
@@ -3024,6 +3048,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flavio Bolsonaro planeja aumentar idade mínima de aposentadoria para 70 anos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "O Globo não noticiou que Flávio planeja aumentar idade para aposentadoria",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm",
   "termo": "Lula",
   "afirmacao": "Lula tem relógio de luxo furtado durante contato com próprios apoiadores",
@@ -3046,6 +3082,18 @@
   "titulo": "IstoÉ não publicou capa com Flávio Bolsonaro; imagem foi alterada por IA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Multidão lota 12 quarteirões da Paulista para ato de Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de avenida Paulista cheia é de 2024, não de ato de Flávio no domingo",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/16/falso-virginia-fonseca-fez-l-imagem-ia.ghtm",
@@ -3094,6 +3142,18 @@
   "titulo": "Posts no X distorcem atos pró-Lula na Paulista e em Copacabana",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Post diz que imagem da Avenida Paulista de ato pró-Lula é IA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Posts no X distorcem atos pró-Lula na Paulista e em Copacabana",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/14/lula-nao-disse-que-criminosos-roubam-para-tomar-cerveja-video-e-editado.ghtm",
@@ -3168,6 +3228,30 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/desinformacao-falso-imagem-manifestacao-bolsonarista-ia-pro-lula-eleicoes.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/07/governo-lula-nao-tem-proposta-para-encerrar-bolsa-familia.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula avalia possibilidade de encerrar Bolsa Família",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que governo Lula planeje acabar com o Bolsa Família",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/07/governo-lula-nao-tem-proposta-para-encerrar-bolsa-familia.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/07/e-falso-que-lula-e-janja-gastaram-r-73-bilhoes-com-viagens.ghtm",
+  "termo": "Lula",
+  "afirmacao": "É falso que Lula e Janja gastaram R$ 7,35 bilhões em viagens",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula e Janja gastaram R$ 7,35 bilhões em viagens",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/07/e-falso-que-lula-e-janja-gastaram-r-73-bilhoes-com-viagens.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/07/diferenca-de-votos-entre-senadores-do-pl-e-flavio-nao-significa-fraude.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "A conta não fecha. Somente os senadores do PL tiveram 58.123.987 votos. Flávio Bolsonaro teve 56.076.888. Quem vota nos senadores do PL e não vota no Flávio do PL",
@@ -3228,6 +3312,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-declarou-plano-golpe-derrota-eleicao.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Avião usado pelo governo dos Estados Unidos na captura de Nicolás Maduro está no Brasil para levar o presidente Luiz Inácio Lula da Silva",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Avião dos EUA veio ao Brasil para exercício militar e já deixou o país",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.ghtm",
   "termo": "Lula",
   "afirmacao": "Avião usado pelo governo dos Estados Unidos na captura de Nicolás Maduro está no Brasil para levar o presidente Luiz Inácio Lula da Silva",
@@ -3276,6 +3372,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/01/e-falso-que-janja-tenha-dito-que-nem-deus-tira-eleicao-de-lula-no-piaui.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Torcida do Flamengo protesta contra Lula após fim das bets",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo não é de torcida do Flamengo protestando contra Lula por fim das bets",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.ghtm",
   "termo": "Lula",
   "afirmacao": "Romário critica Lula pelo fim das bets e o acusa de debochar da torcida do Flamengo",
@@ -3286,6 +3394,18 @@
   "titulo": "Vídeo de Romário criticando Lula pelo fim das bets foi manipulado por IA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/30/explica-regras-candidatos-convidados-debate-eleicoes-tv-globo.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula exigiu que Renan Santos não participasse do debate da TV Globo",
+  "quem_disse": "Boato da internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Enganoso",
+  "titulo": "Entenda as regras para participação de candidatos em debates na TV",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/30/explica-regras-candidatos-convidados-debate-eleicoes-tv-globo.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/30/e-falso-que-renan-santos-anunciou-apoio-a-lula-em-eventual-2-turno.ghtm",
@@ -3322,6 +3442,18 @@
   "titulo": "É falso que governo Lula passou a distribuir kit de higiene anal no SUS",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/29/e-falso-que-governo-lula-esteja-distribuindo-kit-de-higiene-anal-no-sus.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula acaba de anunciar em seu perfil oficial aulas de candomblé e umbanda nas escolas a partir de 2027 e punição criminal para os pais que se recusarem",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula anunciou aula obrigatória de candomblé e umbanda em escola",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/25/video-mostra-show-na-paraiba-nao-ato-de-flavio-bolsonaro.ghtm",
@@ -3442,6 +3574,18 @@
   "titulo": "Vídeo de Flávio Bolsonaro embarcando para os EUA é de maio",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/16/video-de-flavio-bolsonaro-embarcando-para-os-eua-e-de-maio.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Ato de Flávio Bolsonaro na Paulista estava lotado, já desfile de Lula no 7 de Setembro estava vazio",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo engana ao comparar públicos de Flávio e Lula no 7 de Setembro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.ghtm",
