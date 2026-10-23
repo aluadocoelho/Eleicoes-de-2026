@@ -1919,7 +1919,7 @@
   "afirmacao": "Disse que Flávio Bolsonaro foi eleito vereador aos 21 anos.",
   "veredito": "Falso",
   "categoria": "Falso",
-  "explicacao": "A Lupa checou a idade citada e classificou como falsa.",
+  "explicacao": "Segundo a Lupa, Flávio nunca foi vereador; o primeiro cargo público dele foi o de deputado estadual na Alerj, aos 21 anos.",
   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
   "direcao": "Ataque ao adversário"
  },
@@ -1968,10 +1968,10 @@
   "candidato": "Lula",
   "agencia": "Lupa",
   "evento": "Flow Podcast",
-  "afirmacao": "Disse que Flávio Bolsonaro empregava parentes no Senado.",
+  "afirmacao": "Disse que Flávio Bolsonaro empregava no Senado parentes de Adriano da Nóbrega.",
   "veredito": "Falso",
   "categoria": "Falso",
-  "explicacao": "Segundo a Lupa, os casos de parentes empregados foram na Alerj, não no Senado.",
+  "explicacao": "Segundo a Lupa, o emprego dos parentes de Adriano da Nóbrega ocorreu na Alerj, não no Senado.",
   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
   "direcao": "Ataque ao adversário"
  },

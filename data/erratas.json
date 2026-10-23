@@ -768,5 +768,38 @@
   "depois": "Itatiaia (fonte principal); CartaCapital vira segunda fonte",
   "motivo": "CartaCapital tem linha editorial declarada e não deve ser fonte principal; a Itatiaia (seção B) traz a parte da campanha de Flávio.",
   "url": "https://www.itatiaia.com.br/politica/eleicoes/campanha-de-flavio-bolsonaro-chega-ao-tse-de-maos-vazias-e-sem-dados-sob-sigilo/"
+ },
+ {
+  "id": "er71",
+  "data": "2026-10-23",
+  "conjunto": "checagens",
+  "registro_id": "l75",
+  "o_que_mudou": "Explicação corrigida: o erro de Lula era o cargo, não a idade",
+  "antes": "A Lupa checou a idade citada e classificou como falsa.",
+  "depois": "Segundo a Lupa, Flávio nunca foi vereador; o primeiro cargo público dele foi o de deputado estadual na Alerj, aos 21 anos.",
+  "motivo": "A Lupa diz que a idade está certa e que o falso é o cargo de vereador.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/"
+ },
+ {
+  "id": "er72",
+  "data": "2026-10-23",
+  "conjunto": "checagens",
+  "registro_id": "l79",
+  "o_que_mudou": "Afirmação e explicação completadas: eram parentes de Adriano da Nóbrega",
+  "antes": "Disse que Flávio Bolsonaro empregava parentes no Senado.",
+  "depois": "Disse que Flávio Bolsonaro empregava no Senado parentes de Adriano da Nóbrega.",
+  "motivo": "A frase checada pela Lupa fala dos parentes de Adriano da Nóbrega, e o texto anterior omitia isso.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/"
+ },
+ {
+  "id": "er73",
+  "data": "2026-10-23",
+  "conjunto": "agenda",
+  "registro_id": "2026-10-21",
+  "o_que_mudou": "Agenda de Lula em 21/10: sabatina na Record foi cancelada",
+  "antes": "Sabatina na Record, em Brasília",
+  "depois": "Sabatina na Record, em Brasília (cancelada pela campanha, por rouquidão)",
+  "motivo": "A campanha desmarcou a gravação por recomendação da fonoaudióloga, para poupar a voz de Lula.",
+  "url": "https://timesbrasil.com.br/eleicoes-2026/lula-desmarca-entrevista-record/"
  }
 ]
