@@ -10251,6 +10251,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DC9E-97E8",
+  "conjunto": "sinais",
+  "id": "s-lives-aud",
+  "registro": {
+   "id": "s-lives-aud",
+   "data": "2026-10-22",
+   "sinal": "A live de Lula com André Janones, no canal de Lula no YouTube, teve pico de 1.183.488 aparelhos conectados ao mesmo tempo, às 20h25, e ficou acima de 1 milhão de 19h45 até o fim. A transmissão do canal TV Celular Flávio Bolsonaro, no mesmo horário e sem a participação de Flávio, teve média de cerca de 10 mil visualizações. As duas medidas são diferentes e não se comparam diretamente.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/live-de-lula-e-janones-chega-a-118-milhao-de-aparelhos-simultaneos/"
+  },
+  "primeira_vez": "2026-10-23T01:29:17Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "9C87-9CDA",
   "conjunto": "sinais",
   "id": "s-mobiletime",
