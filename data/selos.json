@@ -6367,6 +6367,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "71FD-A993",
+  "conjunto": "checagens",
+  "id": "f74",
+  "registro": {
+   "id": "f74",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Pronunciamento após o 1º turno",
+   "afirmacao": "Disse que há recorde de brasileiros endividados no governo Lula.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -7844,6 +7864,446 @@
    "direcao": "Proposta ou outro tema"
   },
   "primeira_vez": "2026-10-20T21:59:54Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "378F-F378",
+  "conjunto": "checagens",
+  "id": "l72",
+  "registro": {
+   "id": "l72",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que 90% dos brasileiros são favoráveis à pena de morte.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Pesquisa Ipsos-Ipec indica 43% de apoio, segundo a Lupa.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B8FA-663C",
+  "conjunto": "checagens",
+  "id": "l73",
+  "registro": {
+   "id": "l73",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que em 1989 sua pré-candidatura tinha 3% nas pesquisas.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto ao número citado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3317-8EF0",
+  "conjunto": "checagens",
+  "id": "l74",
+  "registro": {
+   "id": "l74",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que havia 4,8 milhões de graduados no mercado de trabalho em 2003.",
+   "veredito": "Subestimado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa considerou o número menor que o real.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6A16-B814",
+  "conjunto": "checagens",
+  "id": "l75",
+  "registro": {
+   "id": "l75",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que Flávio Bolsonaro foi eleito vereador aos 21 anos.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A Lupa checou a idade citada e classificou como falsa.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BA38-80CE",
+  "conjunto": "checagens",
+  "id": "l76",
+  "registro": {
+   "id": "l76",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que hoje 25,5 milhões de graduados estão ocupados, cinco vezes mais.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou o dado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8DB9-9B60",
+  "conjunto": "checagens",
+  "id": "l77",
+  "registro": {
+   "id": "l77",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que Eduardo Bolsonaro foi demitido da Polícia Federal.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou a informação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "978A-32D4",
+  "conjunto": "checagens",
+  "id": "l78",
+  "registro": {
+   "id": "l78",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que criou o Fome Zero.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou que o programa foi criado em sua gestão.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "93EA-BE34",
+  "conjunto": "checagens",
+  "id": "l79",
+  "registro": {
+   "id": "l79",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que Flávio Bolsonaro empregava parentes no Senado.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo a Lupa, os casos de parentes empregados foram na Alerj, não no Senado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A250-2E90",
+  "conjunto": "checagens",
+  "id": "l80",
+  "registro": {
+   "id": "l80",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que o Bolsa Família ficou quatro anos sem reajuste.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A9B1-6981",
+  "conjunto": "checagens",
+  "id": "l81",
+  "registro": {
+   "id": "l81",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que fez a primeira reforma do Judiciário.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FCF1-57BE",
+  "conjunto": "checagens",
+  "id": "l82",
+  "registro": {
+   "id": "l82",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Flow Podcast",
+   "afirmacao": "Disse que o tarifaço reduziu as exportações aos EUA em 9,7%.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou o percentual.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4B22-BE21",
+  "conjunto": "checagens",
+  "id": "l83",
+  "registro": {
+   "id": "l83",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Falou sobre a remuneração de artistas e criadores.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1D2F-F8EE",
+  "conjunto": "checagens",
+  "id": "l84",
+  "registro": {
+   "id": "l84",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que o Brasil é um país livre do feminicídio.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa classificou a frase como exagerada.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7D4A-22F8",
+  "conjunto": "checagens",
+  "id": "l85",
+  "registro": {
+   "id": "l85",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Falou em centro de cooperação policial na Amazônia.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou a informação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9221-90FC",
+  "conjunto": "checagens",
+  "id": "l86",
+  "registro": {
+   "id": "l86",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que a Lei Antifacção tem penas maiores que as do terrorismo.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou a comparação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "697D-251B",
+  "conjunto": "checagens",
+  "id": "l87",
+  "registro": {
+   "id": "l87",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que o desmatamento caiu pela metade e está no menor nível em 11 anos.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou os dados.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "745F-C2BB",
+  "conjunto": "checagens",
+  "id": "l88",
+  "registro": {
+   "id": "l88",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que o país cresceu enquanto reduziu emissões.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9C9B-94E2",
+  "conjunto": "checagens",
+  "id": "l89",
+  "registro": {
+   "id": "l89",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que o Brasil é autossuficiente em petróleo.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que faltou contexto à afirmação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FB0E-3BFA",
+  "conjunto": "checagens",
+  "id": "l90",
+  "registro": {
+   "id": "l90",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Discurso na ONU",
+   "afirmacao": "Disse que o Brasil é o terceiro maior destino de investimento estrangeiro direto.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou a posição.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4259-DDA4",
+  "conjunto": "checagens",
+  "id": "l91",
+  "registro": {
+   "id": "l91",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Entrevista após o 1º turno",
+   "afirmacao": "Disse que houve superávit primário nos oito anos dos dois primeiros mandatos.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou a informação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CE27-89F6",
+  "conjunto": "checagens",
+  "id": "l92",
+  "registro": {
+   "id": "l92",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Entrevista após o 1º turno",
+   "afirmacao": "Disse que o Brasil foi o único país do G20 com superávit entre 2003 e 2010.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Segundo a Lupa, a Argentina também teve superávit no período.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9A73-96BE",
+  "conjunto": "checagens",
+  "id": "l93",
+  "registro": {
+   "id": "l93",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Entrevista após o 1º turno",
+   "afirmacao": "Disse que a abstenção foi de 28 a 29 milhões de eleitores.",
+   "veredito": "Subestimado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O TSE registrou 33,4 milhões, segundo a Lupa.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-23T21:30:44Z",
   "ainda_publicado": true
  },
  {
