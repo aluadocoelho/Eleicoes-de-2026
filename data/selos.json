@@ -322,6 +322,19 @@
    "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-fechara-campanha-em-sp-com-caminhada-na-avenida-paulista-no-sabado/"
   },
   "primeira_vez": "2026-10-23T02:14:31Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "4400-5991",
+  "conjunto": "agenda",
+  "id": "2026-10-24",
+  "registro": {
+   "data": "2026-10-24",
+   "lula": "Rio de Janeiro (RJ): concentração às 9h no Posto 5 da Avenida Atlântica, em Copacabana, e caminhada às 10h na orla; São Paulo (SP): concentração às 14h na Avenida Paulista e caminhada às 16h",
+   "flavio": "Belo Horizonte (MG): ato do Bloco do 22 às 9h na Praça da Liberdade; Rio de Janeiro (RJ): ato do Bloco do 22 às 14h na Praça do Ó, na Barra da Tijuca, com fim perto da casa de Jair Bolsonaro",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/lula-flavio-agenda-sabado-vespera-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-23T22:15:00Z",
   "ainda_publicado": true
  },
  {
@@ -4837,6 +4850,21 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-o-que-campanhas-apresentaram-ao-tse-sobre-quebras-de-sigilo/"
   },
   "primeira_vez": "2026-10-23T20:14:14Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D5A6-41EA",
+  "conjunto": "campanha",
+  "id": "e48",
+  "registro": {
+   "id": "e48",
+   "data": "2026-10-23",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O ministro André Mendonça, do TSE, manteve na sexta (23/10) a decisão de que Lula e Flávio podem abrir os próprios sigilos bancário, fiscal e telefônico sem passar pelo tribunal, e negou o pedido da campanha de Lula para que o TSE requisitasse os dados e os divulgasse de uma vez. Ele disse que o tribunal não fiscaliza desafios feitos em debate nem garante acordos entre candidatos. A Agência Brasil também registrou a decisão.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/sigilos-mendonca-mantem-decisao-e-cobra-transparencia-sem-subterfugios/"
+  },
+  "primeira_vez": "2026-10-23T22:15:00Z",
   "ainda_publicado": true
  },
  {
