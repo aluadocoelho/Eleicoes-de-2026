@@ -474,5 +474,19 @@
   "lula_totais": 44,
   "fonte": "Times Brasil/CNBC (DataTrends, registro BR-03576/2026, entrevistas por telefone automatizado)",
   "url": "https://timesbrasil.com.br/eleicoes-2026/pesquisa-datatrends-flavio-tem-531-contra-469-de-lula/"
+ },
+ {
+  "id": "vox-2210",
+  "instituto": "Vox Brasil",
+  "divulgacao": "2026-10-22",
+  "campo": "20–22 out",
+  "amostra": 2100,
+  "margem": 2.15,
+  "flavio_validos": 49.4,
+  "lula_validos": 50.6,
+  "flavio_totais": 44.3,
+  "lula_totais": 45.4,
+  "fonte": "Metrópoles (registro BR-03259/2026)",
+  "url": "https://www.metropoles.com/brasil/vox-lula-soma-506-dos-votos-validos-contra-494-de-flavio-bolsonaro"
  }
 ]
