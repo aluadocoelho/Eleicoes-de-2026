@@ -61,7 +61,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4426G3",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula abre vantagem de 54% para 49% sobre Flávio, segundo revista Quaest",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-20",
@@ -205,7 +205,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3Q24CQ",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Imagem mostra Flávio Bolsonaro na capa da revista IstoÉ como o \"anti-Lula\"",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-14",
@@ -265,7 +265,7 @@
  },
  {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/meta-ai-gerou-imagem-com-o-nome-de-flavio-mas-recusou-o-mesmo-pedido-relacionado-a-lula-entenda/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Meta AI faz camiseta de Flávio Bolsonaro, mas se recusa a fazer de Lula",
   "quem_disse": "redes sociais",
   "data_afirmacao": "2026-10-13",
@@ -289,7 +289,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -505,13 +505,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D2TN8T3",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Mapa mostra que Flávio Bolsonaro ganhou a eleição com 54,98%",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-05",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Mapa viral distorce resultados de Flávio e Lula no primeiro turno das eleições de 2026",
+  "titulo": "Mapa viral distorce resultados de Flávio e Lula no primeiro turno ...",
   "data_checagem": "2026-10-09",
   "url": "https://checamos.afp.com/doc.afp.com.D2TN8T3"
  },
@@ -613,7 +613,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/queda-percentual-flavio-apuracao-fraude/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Redução do percentual de Flávio e aumento no de Lula indica fraude eleitoral",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
@@ -638,7 +638,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -865,8 +865,8 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
-  "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "termo": "Lula",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1070,7 +1070,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1117,7 +1117,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/lula-desistir-candidatura/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Daniela Lima diz que Lula avalia desistir da eleição contra Flávio Bolsonaro para “não manchar a biografia”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-28",
@@ -1189,7 +1189,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C9E94KE",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Netanyahu grava vídeo para Flávio Bolsonaro após Lula citar o nome dele na ONU",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-24",
@@ -1537,19 +1537,19 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/diretor-quaest-flavio-bolsonaro/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Você crê na Quaest? BURRO! Este abaixo, ao lado de Tariflávio Bolsomaster, é Felipe Nunes, sócio da Quaest, que frequenta a Globo e GloboNews, sempre aproveitando pra desancar Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-17",
@@ -1597,7 +1597,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/lula-nao-chorou-flavio-bolsonaro-record/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula chora em entrevista à TV Record e fala sobre Flávio Bolsonaro querer transformar o Brasil na Argentina",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-16",
@@ -2221,13 +2221,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi ...",
+  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/"
  },
@@ -2545,7 +2545,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/pesquisa-quaest-lula-54-flavio-49-falso/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Quaest mostra Lula com 54% das intenções de voto contra 49% de Flávio Bolsonaro no segundo turno",
   "quem_disse": "Boatos de redes sociais",
   "data_afirmacao": "2026-10-21",
@@ -2614,6 +2614,18 @@
   "titulo": "Vídeo em que Lula promete que população vai voltar a comer ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-volta-a-prometer-picanha-fora-de-contexto/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/lula-tomar-o-poder-mesmo-se-pais-entrar-crise-falso/",
+  "termo": "Lula",
+  "afirmacao": "Lula disse que fará de tudo para tomar o poder, não importa se o País entrar em crise.",
+  "quem_disse": "uniaopatriotabrasil",
+  "data_afirmacao": "2026-10-22",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que Lula tenha dito que fará de tudo para tomar o poder ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/lula-tomar-o-poder-mesmo-se-pais-entrar-crise-falso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/lula-se-delacoes-master-continuarem-nenhum-de-nos-escapa-enganoso/",
@@ -3013,7 +3025,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/adesivo-flavio-digitalmente-imagem-empregada-domestica-fez-l/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Trabalhadora doméstica 'faz o L' de apoio a Lula em apartamento com adesivo de Flávio Bolsonaro",
   "quem_disse": "Boatos em redes sociais",
   "data_afirmacao": "2026-10-14",
@@ -3073,7 +3085,7 @@
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -3505,7 +3517,7 @@
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/24/e-falso-que-lula-tenha-chorado-ao-falar-sobre-flavio-bolsonaro-na-record.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula chorou ao falar sobre plano econômico de Flávio Bolsonaro na Record",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -3577,7 +3589,7 @@
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Ato de Flávio Bolsonaro na Paulista estava lotado, já desfile de Lula no 7 de Setembro estava vazio",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
@@ -3697,7 +3709,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4021,7 +4033,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "TSE determinou dias diferentes para eleitores do Flávio e do Lula votarem",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4141,7 +4153,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/28/desinformacao-enganoso-video-antigo-daniela-lima-lula-desistir-reeleicao.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Daniela Lima disse que Lula vai desistir da eleição contra Flávio para não manchar sua biografia",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4201,7 +4213,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/24/e-falso-que-lula-tenha-chorado-ao-falar-sobre-flavio-bolsonaro-na-record.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula chorou ao falar sobre plano econômico de Flávio Bolsonaro na Record",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4309,7 +4321,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Ato de Flávio Bolsonaro na Paulista estava lotado, já desfile de Lula no 7 de Setembro estava vazio",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
@@ -4405,7 +4417,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/02/desinformacao-ia-falso-video-milei-portugues-apoio-flavio-critica-lula.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Vídeo de Javier Milei falando em português e apoiando Flávio Bolsonaro e criticando Lula",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4513,7 +4525,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/16/explica-meta-ia-geracao-de-fotos-lula-flavio.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Assistente de inteligência artificial no WhatsApp faz artes para Lula e Flávio, sem distinção",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -4561,7 +4573,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
