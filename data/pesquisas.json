@@ -460,5 +460,19 @@
   "lula_totais": 46,
   "fonte": "Metrópoles, SBT News e Terra (pesquisa da Folha e da Globo, registro BR-09709/2026; votos válidos de 50,53% e 49,46% segundo o Metrópoles, 50% a 50% arredondado pelo Datafolha; 2.154 entrevistas)",
   "url": "https://www.terra.com.br/noticias/eleicoes/datafolha-2-turno-flavio-bolsonaro-e-lula-empatam-com-50-em-votos-validos,178579b6fa0f17850de817b0260c73797lr3ng40.html"
+ },
+ {
+  "id": "datatrends-1110",
+  "instituto": "DataTrends",
+  "divulgacao": "2026-10-11",
+  "campo": "7–9 out",
+  "amostra": 2000,
+  "margem": 2.19,
+  "flavio_validos": 53.1,
+  "lula_validos": 46.9,
+  "flavio_totais": 50,
+  "lula_totais": 44,
+  "fonte": "Times Brasil/CNBC (DataTrends, registro BR-03576/2026, entrevistas por telefone automatizado)",
+  "url": "https://timesbrasil.com.br/eleicoes-2026/pesquisa-datatrends-flavio-tem-531-contra-469-de-lula/"
  }
 ]
