@@ -319,6 +319,17 @@
   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-do-tse-afasta-restricoes-genericas-a-manifestacoes-de-sindicatos-e-estudantes-em-acao-de-flavio-contra-lula"
  },
  {
+  "id": "er30",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "p02",
+  "o_que_mudou": "Plantão p02: troca da segunda fonte e inclusão da resposta de Flávio sobre participação na Best Bet",
+  "antes": "Vero Notícias; texto dizia que a campanha não respondeu ao pedido de comentário",
+  "depois": "Terra; texto registra que Flávio afirma nunca ter tido conta conjunta com Tomaz nem participação societária em empresas ligadas à Best Bet",
+  "motivo": "A reportagem do Terra de 21/10 traz a resposta de Flávio e de Tomaz, e a campanha não deixou de responder.",
+  "url": "https://www.terra.com.br/noticias/o-que-se-sabe-sobre-suposto-elo-de-flavio-bolsonaro-com-esquema-de-bets,565fe97eae2082589f7650575db2a9eda3q1wpce.html"
+ },
+ {
   "id": "er31",
   "data": "2026-10-22",
   "conjunto": "pesquisas",
@@ -735,5 +746,27 @@
   "depois": "Terra",
   "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
   "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-poderdataaya-flavio-bolsonaro-tem-51-em-votos-validos-no-2-turno-e-lula-49,94dbf02cbc9f0bad38de4e0ca6c06b97aew7gt6b.html"
+ },
+ {
+  "id": "er69",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "p02",
+  "o_que_mudou": "Plantão p02: troca da fonte principal e correção da data da divulgação pela revista Piauí",
+  "antes": "A Gazeta; Piauí \"nesta quarta (21/10)\"",
+  "depois": "Jornal de Brasília; Piauí \"na noite de terça (20/10)\"",
+  "motivo": "A reportagem do Jornal de Brasília, publicada às 22h52 de 20/10, já relata a divulgação pela revista e o pedido da PF ao STF.",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/piaui-aponta-indicios-de-socio-oculto-de-flavio-na-best-bet/"
+ },
+ {
+  "id": "er70",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "p03",
+  "o_que_mudou": "Plantão p03: troca da fonte principal",
+  "antes": "CartaCapital (fonte principal)",
+  "depois": "Itatiaia (fonte principal); CartaCapital vira segunda fonte",
+  "motivo": "CartaCapital tem linha editorial declarada e não deve ser fonte principal; a Itatiaia (seção B) traz a parte da campanha de Flávio.",
+  "url": "https://www.itatiaia.com.br/politica/eleicoes/campanha-de-flavio-bolsonaro-chega-ao-tse-de-maos-vazias-e-sem-dados-sob-sigilo/"
  }
 ]
