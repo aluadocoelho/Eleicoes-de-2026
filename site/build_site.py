@@ -114,8 +114,8 @@ _painel = ('<div class="el-a11y" id="el-a11y" role="dialog" aria-label="Acessibi
            + ''.join(f'<button type="button" class="el-a11y-o" data-a11y="{k}" aria-pressed="false">{ic}<span>{t}</span></button>' for k, ic, t in _OPC)
            + '<p class="el-a11y-n">O botão azul no canto da tela abre a tradução em Libras (VLibras).</p></div>')
 body = body.replace('<div class="el-actions">', '<div class="el-actions">' + _painel, 1)
-_TBL_AT = {'ch-dif': 'Diferença em cada pesquisa', 'ch-pt': 'Resultado do 1º turno', 'ch-falsas': 'Taxa de falas falsas'}
-_CH = {'ch-dif': '<div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div>',
+_TBL_AT = {'ch-dif': 'Votos válidos em cada pesquisa', 'ch-pt': 'Resultado do 1º turno', 'ch-falsas': 'Taxa de falas falsas'}
+_CH = {'ch-dif': '<div class="el-chart el-ch-ig dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div>',
        'ch-pt': '<div class="el-chart-sm dash-skeleton" id="ch-pt" data-source="primeiro_turno"><svg></svg></div>',
        'ch-falsas': '<div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div>'}
 for _id, _h in _CH.items():

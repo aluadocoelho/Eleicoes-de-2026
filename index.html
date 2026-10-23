@@ -812,7 +812,15 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-sticky,.el-sticky.el-stuck{padding-bottom:8px}
 .el-scroll.el-bo-wrap{overflow:visible!important;padding:0 6px 6px 0}
 @media (max-width:400px){.el-seg .el-chip{padding:6px 3px;white-space:normal;line-height:1.15;min-width:0;overflow-wrap:anywhere}}
-.el-onde{margin:6px 0 12px;padding-left:20px;display:grid;gap:6px;line-height:1.45}
+.el-onde{margin:6px 0 12px;padding-left:20px;display:grid;gap:6px;line-height:1.45}.el-ch-ig{background:#fff;border:3px solid var(--ink);border-radius:22px;box-shadow:6px 6px 0 #3E2492;padding:14px 10px 6px;margin-top:14px;box-sizing:border-box}
+body:has(.el[data-theme="dark"]) .el-ch-ig{background:var(--color-panel);box-shadow:6px 6px 0 #B9A3FF}
+.el-leg-ig{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:12px;font-weight:800;font-size:.9rem}
+.el-leg-ig span{display:inline-flex;align-items:center;gap:7px}
+.el-leg-ig i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.el-leg-ig i.tr{width:22px;height:0;border-radius:0;border-top:3px dashed var(--color-fg-muted)}
+.el-ch-aviso{margin-top:14px;background:#FFF6CC;border:2px solid var(--ink);border-radius:14px;box-shadow:3px 3px 0 var(--ink);padding:10px 14px;color:#16181D}
+body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
+
 .el-actions{position:relative}
 .el-a11y{position:fixed;z-index:70;width:min(320px,calc(100vw - 32px));background:var(--color-panel);color:var(--color-fg);border:3px solid var(--ink);border-radius:20px;box-shadow:6px 6px 0 var(--ink);padding:14px;display:flex;flex-direction:column;gap:8px}
 .el-a11y[hidden]{display:none}
@@ -1224,7 +1232,7 @@ body.el-vp-lock{overflow:hidden}
   <!-- ================= PESQUISAS ================= -->
   <section class="el-page" id="pesquisas" role="tabpanel" aria-labelledby="tab-pesquisas" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Pesquisas</span><p class="el-pgtitle">Quem está na frente, <em>pesquisa por pesquisa</em></p></div>
-    <p class="el-intro">Aqui estão as pesquisas nacionais do 2º turno. O gráfico mostra todas as rodadas; a tabela mostra a mais recente de cada instituto. No gráfico, cada bolinha é uma pesquisa: quanto mais acima da linha do meio, mais Flávio está à frente; quanto mais abaixo, mais Lula.</p>
+    <p class="el-intro">Aqui estão as pesquisas nacionais do 2º turno. O gráfico mostra todas as rodadas; a tabela mostra a mais recente de cada instituto. No gráfico, as linhas mostram a mediana das pesquisas para cada candidato, e as bolinhas claras são cada pesquisa.</p>
     <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
     <div class="el-kpis">
       <div class="el-card">
@@ -1250,9 +1258,11 @@ body.el-vp-lock{overflow:hidden}
     </div>
 
     <div class="el-card" id="card-dif">
-      <h2 class="el-h">Diferença Flávio − Lula em cada pesquisa</h2>
-      <p class="el-note">Cada ponto é uma pesquisa, e a altura mostra <b>quantos pontos de vantagem</b> o líder tem nos votos válidos, não a porcentagem de cada um. Exemplo: a Vox de 18/10 deu Lula 51% e Flávio 49%, então o ponto fica em <b>L +2</b>. Acima da linha do empate, Flávio está à frente; abaixo, Lula. As linhas cinza ligam pesquisas do mesmo instituto, com o nome dele na coluna à direita. Toque num ponto para ver os números.</p>
-      <div class="el-chart dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-dif"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
+      <h2 class="el-h">Votos válidos: a mediana das pesquisas</h2>
+      <p class="el-note">As linhas mostram a <b>mediana</b> das pesquisas (a última rodada de cada instituto nos 7 dias anteriores), Flávio em azul e Lula em vermelho. As bolinhas claras são cada pesquisa; toque numa para ver os números.</p>
+      <div class="el-leg-ig" aria-hidden="true"><span><i style="background:var(--cf)"></i>Flávio Bolsonaro</span><span><i style="background:var(--cl)"></i>Lula</span><span><i class="tr"></i>Tendência até 25/10</span></div>
+      <div class="el-chart el-ch-ig dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-dif"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
+      <p class="el-note el-ch-aviso"><b>A linha tracejada não é previsão.</b> Ela só mostra para onde a mediana iria se o ritmo dos últimos 10 dias continuasse até a votação. Pesquisa retrata o momento, e o resultado pode ser diferente.</p>
     </div>
 
     <div class="el-card" id="card-ultimas">
@@ -2142,99 +2152,102 @@ body.el-vp-lock{overflow:hidden}
 
   // ---------- Gráfico: diferença por pesquisa ----------
   function drawDif(box, rows) { if (__fechada(box)) return;
+    // Estilo das peças do Instagram: duas linhas (Flávio azul, Lula vermelho) com a MEDIANA das pesquisas,
+    // bolinhas claras para cada pesquisa e, tracejada, a tendência dos últimos dias levada até 25/10.
     const svg = d3.select(box).select("svg");
     const tip = box.querySelector(".el-tip");
     svg.selectAll("*").remove();
     const W = box.clientWidth;
     if (!W || !rows || !rows.length) return;
-    const H = W < 480 ? 300 : 320;
+    const mob = W < 520, H = mob ? 340 : 380;
     box.style.minHeight = H + "px";
-    const data = rows.map(r => ({
-      instituto: r.instituto, d: dParse(r.divulgacao),
-      f: Number(r.flavio_validos), l: Number(r.lula_validos),
-      dif: Math.round((Number(r.flavio_validos) - Number(r.lula_validos)) * 100) / 100
-    }));
-    const m = Math.max(2, Math.ceil(d3.max(data, d => Math.abs(d.dif)) + 0.5));
-    const y = d3.scaleLinear([-m, m], [H - 30, 14]);
-    const ticks = y.ticks(6).filter(Number.isInteger);
-    const yLab = v => v === 0 ? "empate" : (W < 560 ? "+" : (v > 0 ? "Flávio +" : "Lula +")) + Lc.format("d")(Math.abs(v));   // no celular, só o número, na cor de quem está à frente
-    svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
-    const left = Math.ceil(measure(svg, ticks.map(yLab))) + 12;
-    const shortName = n => String(n).split("/")[0].replace(" Brasil", "");
-    const nomes = d3.groups(data, d => d.instituto).filter(([, v]) => v.length > 1).map(([k]) => shortName(k));
-    const right = nomes.length ? Math.ceil(measure(svg, nomes) * .92) + 22 : 12;   // coluna à direita só para os nomes
-    const ext = d3.extent(data, d => d.d);
-    const x = d3.scaleUtc([d3.utcDay.offset(ext[0], -1), d3.utcDay.offset(ext[1], 1)], [left, W - right]);
-    const g = svg.append("g");
-    g.append("rect").attr("x", left).attr("y", y(m)).attr("width", W - right - left).attr("height", y(0) - y(m)).attr("fill", CF).attr("opacity", 0.04);
-    g.append("rect").attr("x", left).attr("y", y(0)).attr("width", W - right - left).attr("height", y(-m) - y(0)).attr("fill", CL).attr("opacity", 0.04);
-    g.selectAll("line.grid").data(ticks.filter(t => t !== 0)).join("line")
-      .attr("x1", left).attr("x2", W - right).attr("y1", t => y(t)).attr("y2", t => y(t))
-      .attr("stroke", "var(--cds-chart-grid)").attr("stroke-width", 1);
-    g.append("line").attr("x1", left).attr("x2", W - right).attr("y1", y(0)).attr("y2", y(0))
-      .attr("stroke", "var(--cds-chart-reference)").attr("stroke-width", 1).attr("stroke-dasharray", "4 3");
-    g.selectAll("text.yl").data(ticks).join("text")
-      .attr("x", left - 8).attr("y", t => y(t)).attr("dy", "0.32em").attr("text-anchor", "end")
-      .style("font-size", "var(--cds-font-size-caption)").attr("fill", v => v > 0 ? CF : v < 0 ? CL : "var(--color-fg-muted)").style("font-weight", v => v ? 700 : 400).text(yLab);
-    const xt = x.ticks(d3.utcDay.every(W < 520 ? 3 : 2));
-    g.selectAll("text.xl").data(xt).join("text")
-      .attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
-      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(dFmt);
-    g.append("text").attr("x", left + 6).attr("y", y(m) + 4).attr("dy", "0.7em")
-      .style("font-size", "var(--cds-font-size-caption)").attr("fill", CF).text("Flávio à frente ↑");
-    g.append("text").attr("x", left + 6).attr("y", y(-m) - 6)
-      .style("font-size", "var(--cds-font-size-caption)").attr("fill", CL).text("Lula à frente ↓");
-    const line = d3.line().x(d => x(d.d)).y(d => y(d.dif));
-    const groups = d3.groups(data, d => d.instituto).filter(([, v]) => v.length > 1);
-    g.selectAll("path.inst").data(groups).join("path")
-      .attr("d", ([, v]) => line(v.slice().sort((a, b) => a.d - b.d)))
-      .attr("fill", "none").attr("stroke", "var(--cds-chart-muted)").attr("stroke-width", 1.5)
-      .attr("stroke-linecap", "round").attr("stroke-linejoin", "round");
-    const color = d => d.dif > 0 ? CF : d.dif < 0 ? CL : "var(--color-fg-muted)";
-    const dots = g.selectAll("circle.pt").data(data).join("circle")
-      .attr("cx", d => x(d.d)).attr("cy", d => y(d.dif)).attr("r", 5.5)
-      .attr("fill", color).style("stroke", "var(--color-panel)").attr("stroke-width", 1.5);
-    // Nome do instituto na ponta de cada linha (última rodada), sem sobrepor
-    const ends = groups.map(([k, v]) => { const e = v.slice().sort((a, b) => b.d - a.d)[0]; return {k: shortName(k), d: e.d, dif: e.dif, x: x(e.d), y: y(e.dif)}; })
-      .sort((a, b) => a.y - b.y);
-    // nomes numa coluna à direita do gráfico, empilhados sem encostar, com uma linha fina até a ponta de cada instituto
-    const LH = 15, gx = W - right + 10;
-    ends.forEach(e => { e.ly = e.y; });
-    for (let it = 0; it < 80; it++) {
-      let moved = false;
-      ends.sort((p, q) => p.ly - q.ly);
-      for (let i = 1; i < ends.length; i++) {
-        const d = ends[i].ly - ends[i - 1].ly;
-        if (d < LH) { const push = (LH - d) / 2; ends[i - 1].ly -= push; ends[i].ly += push; moved = true; }
-      }
-      ends.forEach(e => { e.ly = Math.max(10, Math.min(H - 34, e.ly)); });
-      if (!moved) break;
+    const data = rows.map(r => ({instituto: r.instituto, d: dParse(r.divulgacao), f: Number(r.flavio_validos), l: Number(r.lula_validos)}))
+      .filter(r => !isNaN(r.f) && !isNaN(r.l)).sort((a, b) => a.d - b.d);
+    if (!data.length) return;
+    // mediana diária: última rodada de cada instituto nos 7 dias até aquela data
+    const dias = Array.from(new Set(data.map(d => +d.d))).sort((a, b) => a - b).map(t => new Date(t));
+    const med = dias.map(dia => {
+      const ini = d3.utcDay.offset(dia, -6), ult = new Map();
+      data.filter(p => p.d >= ini && p.d <= dia).forEach(p => ult.set(p.instituto, p));
+      const v = Array.from(ult.values());
+      return {d: dia, f: d3.median(v, p => p.f), l: d3.median(v, p => p.l), n: v.length};
+    });
+    // tendência: reta (mínimos quadrados) sobre a mediana dos últimos 10 dias, levada até o dia da votação
+    const VOTO = dParse("2026-10-25"), ultD = med[med.length - 1].d;
+    const base = med.filter(m => m.d >= d3.utcDay.offset(ultD, -9));
+    let proj = null;
+    if (base.length >= 3 && ultD < VOTO) {
+      const xs = base.map(m => (m.d - ultD) / 864e5), mx = d3.mean(xs);
+      const fit = key => { const ys = base.map(m => m[key]), my = d3.mean(ys); const b = d3.sum(xs, (x, i) => (x - mx) * (ys[i] - my)) / (d3.sum(xs, x => (x - mx) ** 2) || 1); return x => my + b * (x - mx); };
+      const ff = fit("f"), fl = fit("l"), dd = (VOTO - ultD) / 864e5;
+      proj = {f0: med[med.length - 1].f, l0: med[med.length - 1].l, f1: ff(dd) - ff(0) + med[med.length - 1].f, l1: fl(dd) - fl(0) + med[med.length - 1].l};
     }
-    g.selectAll("path.inst-lk").data(ends).join("path").attr("class", "inst-lk")
-      .attr("d", d => `M${d.x + 6},${d.y}C${gx - 14},${d.y} ${gx - 14},${d.ly} ${gx - 3},${d.ly}`)
-      .attr("fill", "none").attr("stroke", "var(--color-fg-muted)").attr("stroke-width", 1).attr("opacity", .45);
-    g.selectAll("text.inst").data(ends).join("text")
-      .attr("x", gx).attr("y", d => d.ly).attr("dy", "0.35em")
-      .style("font-size", "11px").style("font-weight", "600").attr("fill", "var(--color-fg-muted)").text(d => d.k);
-    const hide = () => { tip.style.opacity = 0; dots.attr("r", 5.5); };
+    const vals = data.flatMap(p => [p.f, p.l]).concat(proj ? [proj.f1, proj.l1] : []);
+    const lo = Math.floor(Math.min(46, d3.min(vals) - 0.5)), hi = Math.ceil(Math.max(54, d3.max(vals) + 0.5));
+    const y = d3.scaleLinear([lo, hi], [H - 30, 16]);
+    svg.attr("width", "100%").attr("height", H).attr("viewBox", `0 0 ${W} ${H}`);
+    const left = 40, right = mob ? 58 : 74;
+    const x = d3.scaleUtc([d3.utcDay.offset(data[0].d, -1), proj ? VOTO : d3.utcDay.offset(ultD, 1)], [left, W - right]);
+    const g = svg.append("g");
+    const yt = y.ticks(6).filter(Number.isInteger).filter(v => v % 2 === 0);
+    g.selectAll("line.grid").data(yt).join("line").attr("x1", left).attr("x2", W - right).attr("y1", v => y(v)).attr("y2", v => y(v))
+      .attr("stroke", "var(--cds-chart-grid)").attr("stroke-dasharray", v => v === 50 ? null : "2 4").attr("stroke-width", v => v === 50 ? 1.5 : 1)
+      .attr("stroke", v => v === 50 ? "var(--cds-chart-reference)" : "var(--cds-chart-grid)");
+    g.selectAll("text.yl").data(yt).join("text").attr("x", left - 8).attr("y", v => y(v)).attr("dy", "0.32em").attr("text-anchor", "end")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(v => v + "%");
+    const xt = x.ticks(d3.utcDay.every(mob ? 4 : 2));
+    g.selectAll("text.xl").data(xt).join("text").attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
+      .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(dFmt);
+    if (proj) {   // faixa dos dias à frente
+      g.append("rect").attr("x", x(ultD)).attr("y", 16).attr("width", x(VOTO) - x(ultD)).attr("height", H - 46).attr("fill", "var(--color-fg-muted)").attr("opacity", .06);
+      g.append("text").attr("x", x(VOTO) - 4).attr("y", 26).attr("text-anchor", "end").style("font-size", "11px").style("font-weight", 700).attr("fill", "var(--color-fg-muted)").text("Votação 25/10");
+    }
+    // bolinhas de cada pesquisa (claras)
+    const pts = data.flatMap(p => [{p, v: p.f, c: CF, k: "f"}, {p, v: p.l, c: CL, k: "l"}]);
+    const dots = g.selectAll("circle.pt").data(pts).join("circle").attr("cx", d => x(d.p.d)).attr("cy", d => y(d.v)).attr("r", 4)
+      .attr("fill", d => d.c).attr("opacity", .28);
+    // linhas da mediana
+    const ln = k => d3.line().x(m => x(m.d)).y(m => y(m[k])).curve(d3.curveMonotoneX);
+    [["f", CF], ["l", CL]].forEach(([k, c]) => {
+      g.append("path").attr("d", ln(k)(med)).attr("fill", "none").attr("stroke", c).attr("stroke-width", 3.5).attr("stroke-linecap", "round");
+      if (proj) g.append("path").attr("d", `M${x(ultD)},${y(proj[k + "0"])}L${x(VOTO)},${y(proj[k + "1"])}`).attr("fill", "none").attr("stroke", c).attr("stroke-width", 2.5).attr("stroke-dasharray", "6 5").attr("stroke-linecap", "round");
+      const u = med[med.length - 1];
+      g.append("circle").attr("cx", x(u.d)).attr("cy", y(u[k])).attr("r", 6.5).attr("fill", c).style("stroke", "var(--color-panel)").attr("stroke-width", 2.5);
+    });
+    // rótulos na ponta (como nas peças): valor da mediana de hoje; e da tendência em 25/10
+    const u = med[med.length - 1];
+    const lab = (px, py, txt, c, anchor) => g.append("text").attr("x", px).attr("y", py).attr("dy", "0.35em").attr("text-anchor", anchor || "start").style("font-size", mob ? "14px" : "16px").style("font-weight", 800).attr("fill", c).text(txt);
+    const sep = (a, b) => { const d = Math.abs(a - b); return d < 18 ? (18 - d) / 2 : 0; };
+    if (proj) {
+      const pf = y(proj.f1), pl = y(proj.l1), s = sep(pf, pl), up = pf <= pl;
+      lab(x(VOTO) + 6, pf + (up ? -s : s), fNum(Math.round(proj.f1 * 10) / 10) + "%", CF);
+      lab(x(VOTO) + 6, pl + (up ? s : -s), fNum(Math.round(proj.l1 * 10) / 10) + "%", CL);
+      const s2 = sep(y(u.f), y(u.l)), up2 = u.f >= u.l;
+      lab(x(ultD) - 9, y(u.f) + (up2 ? -12 - s2 : 12 + s2), fNum(Math.round(u.f * 10) / 10) + "%", CF, "end");
+      lab(x(ultD) - 9, y(u.l) + (up2 ? 12 + s2 : -12 - s2), fNum(Math.round(u.l * 10) / 10) + "%", CL, "end");
+    } else {
+      const s2 = sep(y(u.f), y(u.l)), up2 = u.f >= u.l;
+      lab(x(u.d) + 10, y(u.f) + (up2 ? -s2 : s2), fNum(Math.round(u.f * 10) / 10) + "%", CF);
+      lab(x(u.d) + 10, y(u.l) + (up2 ? s2 : -s2), fNum(Math.round(u.l * 10) / 10) + "%", CL);
+    }
+    // texto para leitor de tela
+    svg.attr("role", "img").attr("aria-label", "Mediana das pesquisas nos votos válidos: Flávio " + fNum(Math.round(u.f * 10) / 10) + "%, Lula " + fNum(Math.round(u.l * 10) / 10) + "% em " + dFmt(u.d) + "." + (proj ? " Se o ritmo dos últimos dias continuasse, em 25/10 seria Flávio " + fNum(Math.round(proj.f1 * 10) / 10) + "% e Lula " + fNum(Math.round(proj.l1 * 10) / 10) + "%. Não é previsão." : ""));
+    const hide = () => { tip.style.opacity = 0; dots.attr("r", 4).attr("opacity", .28); };
     svg.on("pointermove pointerdown", (ev) => {
       const [px, py] = d3.pointer(ev);
-      const best = d3.least(data, d => Math.hypot(x(d.d) - px, y(d.dif) - py));
-      if (!best || Math.hypot(x(best.d) - px, y(best.dif) - py) > (ev.pointerType === "mouse" ? 32 : 44)) { hide(); return; }
-      dots.attr("r", d => d === best ? 7.5 : 5.5);
+      const best = d3.least(pts, d => Math.hypot(x(d.p.d) - px, y(d.v) - py));
+      if (!best || Math.hypot(x(best.p.d) - px, y(best.v) - py) > (ev.pointerType === "mouse" ? 24 : 40)) { hide(); return; }
+      dots.attr("r", d => d.p === best.p ? 6 : 4).attr("opacity", d => d.p === best.p ? 1 : .28);
       tip.replaceChildren();
-      const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = best.instituto + " · " + dFmt(best.d); tip.appendChild(a);
-      for (const [nm, v, c] of [["Flávio", best.f, CF], ["Lula", best.l, CL]]) {
-        const r = document.createElement("div");
-        const s = document.createElement("i"); s.className = "el-dot"; s.style.background = c; s.style.marginRight = "6px";
+      const a = document.createElement("div"); a.className = "el-tip-d"; a.textContent = best.p.instituto + " · " + dFmt(best.p.d); tip.appendChild(a);
+      for (const [nm, v, c] of [["Flávio", best.p.f, CF], ["Lula", best.p.l, CL]]) {
+        const r = document.createElement("div"); const s = document.createElement("i"); s.className = "el-dot"; s.style.background = c; s.style.marginRight = "6px";
         r.appendChild(s); r.appendChild(document.createTextNode(nm + " " + pct(v))); tip.appendChild(r);
       }
-      { const r = document.createElement("div"); r.className = "el-tip-d"; const a = Math.abs(best.dif);
-        r.textContent = a < 0.05 ? "Empate nos votos válidos" : "Vantagem: " + (best.dif > 0 ? "Flávio" : "Lula") + " +" + Lc.format(".1f")(a) + " ponto" + (a >= 1.95 ? "s" : ""); tip.appendChild(r); }
       tip.style.opacity = 1;
       const tw = tip.offsetWidth, th = tip.offsetHeight;
-      let tx = x(best.d) + 12; if (tx + tw > W) tx = x(best.d) - tw - 12; if (tx < 0) tx = 0;
-      let ty = y(best.dif) - th / 2; ty = Math.max(0, Math.min(H - th, ty));
+      let tx = x(best.p.d) + 12; if (tx + tw > W) tx = x(best.p.d) - tw - 12; if (tx < 0) tx = 0;
+      let ty = y(best.v) - th / 2; ty = Math.max(0, Math.min(H - th, ty));
       tip.style.left = tx + "px"; tip.style.top = ty + "px";
     }).on("pointerleave", (ev) => { if (ev.pointerType === "mouse") hide(); })
       .on("contextmenu", (ev) => ev.preventDefault());
