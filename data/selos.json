@@ -4791,6 +4791,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "2566-09D1",
+  "conjunto": "campanha",
+  "id": "e47",
+  "registro": {
+   "id": "e47",
+   "data": "2026-10-23",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "A campanha de Flávio entregou ao TSE as autorizações para abrir os sigilos bancário e telefônico dele, incluindo procuração ligada à Alcazar Holding, e cobrou que Lula abra o cartão corporativo da Presidência e os registros de visitas. A campanha de Lula já havia entregue seus documentos na quinta (22/10) e pede que o TSE divulgue tudo ao mesmo tempo, o que o ministro André Mendonça dispensou. Ainda não há data para a divulgação pública, segundo CNN Brasil e Metrópoles.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-o-que-campanhas-apresentaram-ao-tse-sobre-quebras-de-sigilo/"
+  },
+  "primeira_vez": "2026-10-23T20:14:14Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
