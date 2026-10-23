@@ -3641,6 +3641,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "B3EA-C9D9",
+  "conjunto": "boatos",
+  "id": "b59",
+  "registro": {
+   "id": "b59",
+   "data": "2026-10-16",
+   "alvo": "Flávio",
+   "boato": "Vídeo de multidão foi apresentado como ato da campanha de Flávio em Minas Gerais",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos e UOL Confere",
+   "explicacao": "As imagens são do Círio de Nazaré, em Belém (PA), e circulavam desde 10 e 11 de outubro. A campanha de Flávio faz bloquinhos em cidades mineiras, mas o vídeo não é de um deles.",
+   "url": "https://www.aosfatos.org/noticias/video-cirio-nazare-ato-flavio/",
+   "beneficiado": "Lula",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo o Aos Fatos, o próprio Flávio Bolsonaro compartilhou o vídeo no Instagram, e outros políticos que o apoiam também divulgaram.",
+   "tema": "Vídeo de ato"
+  },
+  "primeira_vez": "2026-10-23T00:01:00Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
