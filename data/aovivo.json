@@ -942,10 +942,36 @@
   "hora": "21:20",
   "tipo": "Programação",
   "candidato": null,
-  "texto": "O 1º bloco tem perguntas sobre as cinco regiões do país, sorteadas. No 2º, cada candidato escolhe 6 de 10 temas propostos pela Globo. O 3º tem tema livre e termina com as considerações finais. As regras podem mudar por acordo até o dia. Não há horário de término divulgado.",
+  "texto": "O debate tem quatro blocos: perguntas sobre as regiões do país e um tema nacional, dois blocos com temas escolhidos pelos candidatos e um de tema livre, com considerações finais. A ordem das perguntas sai de sorteio ao vivo. Não há horário de término divulgado; a duração prevista é de pelo menos duas horas.",
   "veredito": null,
   "categoria": null,
-  "fonte": "Poder360",
-  "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+  "fonte": "Exame",
+  "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+ },
+ {
+  "id": "globo-03",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "21:20",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Uma equipe de mais de 30 jornalistas da Globo checa as falas durante o debate. Os resultados não aparecem na TV: saem no g1 (Fato ou Fake), em O Globo, no Valor, no Extra e na CBN. Opiniões, ofensas e previsões não são checadas.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Exame",
+  "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
+ },
+ {
+  "id": "globo-04",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "21:20",
+  "tipo": "Programação",
+  "candidato": null,
+  "texto": "Depois do debate, cada candidato dá uma entrevista coletiva de 10 minutos, com Lula falando primeiro por sorteio. Em seguida, o Jornal da Globo e a GloboNews cobrem o pós-debate.",
+  "veredito": null,
+  "categoria": null,
+  "fonte": "Exame",
+  "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
  }
 ]

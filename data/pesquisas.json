@@ -488,5 +488,33 @@
   "lula_totais": 45.4,
   "fonte": "Metrópoles (registro BR-03259/2026)",
   "url": "https://www.metropoles.com/brasil/vox-lula-soma-506-dos-votos-validos-contra-494-de-flavio-bolsonaro"
+ },
+ {
+  "id": "alfa-2310",
+  "instituto": "Alfa Inteligência",
+  "divulgacao": "2026-10-23",
+  "campo": "18–22 out",
+  "amostra": 2700,
+  "margem": 1.9,
+  "flavio_validos": 52,
+  "lula_validos": 48,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "CNN Brasil (registro BR-08496/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/alfa-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+ },
+ {
+  "id": "realtime-2310",
+  "instituto": "RealTime Big Data",
+  "divulgacao": "2026-10-23",
+  "campo": "19–22 out",
+  "amostra": 2000,
+  "margem": 2,
+  "flavio_validos": 52,
+  "lula_validos": 48,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "CNN Brasil (registro BR-09670/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
  }
 ]

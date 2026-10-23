@@ -43,9 +43,9 @@
   "hora_inicio": "21:20",
   "hora_fim": null,
   "local": "Estúdios Globo, no Rio de Janeiro",
-  "como_assistir": "TV aberta: TV Globo, logo depois do Jornal Nacional (previsto para 21h20). TV por assinatura: GloboNews, ao mesmo tempo. Internet: ao vivo no site g1. Depois, o debate completo fica no g1 e no app Globoplay.",
-  "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. O 1º bloco tem perguntas sobre as cinco regiões do país, o 2º tem seis temas escolhidos por cada candidato entre dez propostos pela Globo, e o 3º tem tema livre e considerações finais. As campanhas assinaram as regras, que podem mudar por acordo até o dia.",
-  "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-serao-as-regras-do-debate-da-globo/"
+  "como_assistir": "TV aberta: TV Globo, logo depois do Jornal Nacional (previsto para 21h20). TV por assinatura: GloboNews, ao mesmo tempo. Internet: ao vivo no g1. Depois, o debate completo fica no g1 e no Globoplay.",
+  "descricao": "Último debate antes da votação, nos Estúdios Globo, no Rio, com mediação de César Tralli. Segundo a Exame, são quatro blocos: o 1º com perguntas sobre regiões do país e um tema nacional, o 2º e o 3º com temas escolhidos pelos candidatos e o 4º com tema livre, mais as considerações finais. A Globo não divulgou a hora do fim; a duração prevista é de pelo menos duas horas. Uma equipe de mais de 30 jornalistas checa as falas, e os resultados saem no g1, em O Globo, no Valor, no Extra e na CBN, não na TV. Depois, cada candidato dá uma entrevista coletiva de 10 minutos.",
+  "url": "https://exame.com/brasil/que-horas-termina-o-debate-da-globo-veja-duracao-do-encontro-entre-lula-e-flavio-bolsonaro/"
  },
  {
   "id": "votacao",
