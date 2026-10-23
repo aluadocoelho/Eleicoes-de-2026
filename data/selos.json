@@ -3929,6 +3929,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "8E7A-0A15",
+  "conjunto": "boatos",
+  "id": "b68",
+  "registro": {
+   "id": "b68",
+   "data": "2026-10-23",
+   "alvo": "Flávio",
+   "boato": "Mensagens dizem que Daniella Marques afirmou que Flávio ampliaria o mandato para 8 anos e só depois haveria eleições",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem concluiu que a declaração atribuída à coordenadora do programa econômico de Flávio é falsa.",
+   "url": "https://www.boatos.org/politica/daniella-marques-diz-que-flavio-bolsonaro-vai-ampliar-mandato-para-8-anos-e-so-ai-tera-eleicoes.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Mandato"
+  },
+  "primeira_vez": "2026-10-23T23:36:25Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E916-98CA",
+  "conjunto": "boatos",
+  "id": "b69",
+  "registro": {
+   "id": "b69",
+   "data": "2026-10-22",
+   "alvo": "Lula",
+   "boato": "Lista viral diz ser pesquisa da Paraná Pesquisas com Flávio vencendo em todos os estados, com mais de 70% dos votos na maioria",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem diz que a lista não é uma pesquisa oficial da Paraná Pesquisas.",
+   "url": "https://www.boatos.org/politica/pesquisa-parana-pesquisas-mostra-flavio-bolsonaro-vencendo-em-todos-os-estados-e-com-mais-de-70-de-votos-na-maioria.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Pesquisa"
+  },
+  "primeira_vez": "2026-10-23T23:36:25Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -10782,6 +10824,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "EAAE-B30C",
+  "conjunto": "redes",
+  "id": "ipd-quaest-2210",
+  "registro": {
+   "id": "ipd-quaest-2210",
+   "metrica": "Índice de Popularidade Digital (0 a 100)",
+   "periodo": "dados até 22 out (em 19 out: Lula 83,3; Flávio 76,6)",
+   "lula": 81.1,
+   "flavio": 77,
+   "fonte": "Quaest, via Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/158856-popularidade-digital-lula-mantem-lideranca-mas-vantagem-sobre-flavio-bolsonaro-encolhe"
+  },
+  "primeira_vez": "2026-10-23T23:36:25Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7158-727A",
   "conjunto": "redes",
   "id": "meta-ads-2310",
@@ -11353,6 +11411,34 @@
    "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-lula-impulso/"
   },
   "primeira_vez": "2026-10-23T13:30:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4678-5B3B",
+  "conjunto": "sinais",
+  "id": "s-ipd-2210",
+  "registro": {
+   "id": "s-ipd-2210",
+   "data": "2026-10-23",
+   "sinal": "A Quaest atualizou o Índice de Popularidade Digital com dados até 22 de outubro: a diferença a favor de Lula caiu de 6,7 pontos (19 out) para 4,1 pontos. A reportagem cita que a campanha de Lula aposta em volume de posts e a de Flávio tem mais curtidas por post.",
+   "fonte": "Quaest, via Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/158856-popularidade-digital-lula-mantem-lideranca-mas-vantagem-sobre-flavio-bolsonaro-encolhe"
+  },
+  "primeira_vez": "2026-10-23T23:36:25Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "846D-B1A1",
+  "conjunto": "sinais",
+  "id": "s-live-cancel",
+  "registro": {
+   "id": "s-live-cancel",
+   "data": "2026-10-22",
+   "sinal": "Flávio não fez a live semanal de quinta (22 out), dia da live de Lula com André Janones, que passou de 1,5 milhão de espectadores simultâneos no YouTube segundo o Terra. A agenda dele era a preparação para o debate da TV Globo.",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/flavio-cancela-live-em-dia-de-aniversario-da-mulher-e-de-transmissao-de-lula-com-janones,5e27a65866a4666f7ecf069f3a8bbb47l9hwm1od.html"
+  },
+  "primeira_vez": "2026-10-23T23:36:25Z",
   "ainda_publicado": true
  },
  {
