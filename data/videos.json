@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261023-pesquisas-alfa-realtime",
+  "titulo": "Novas pesquisas Alfa e RealTime (23/10)",
+  "curto": "Pesquisas",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-pesquisas-alfa-realtime-reels",
+  "video": "videos/20261023-pesquisas-alfa-realtime.mp4",
+  "capa": "videos/20261023-pesquisas-alfa-realtime.jpg",
+  "bolinha": "videos/20261023-pesquisas-alfa-realtime-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De1z2Y9iWRy/"
+ },
+ {
   "id": "20261022-debate-globo",
   "titulo": "Debate na Globo (23/10)",
   "curto": "Debate",
@@ -119,16 +130,5 @@
   "capa": "videos/pesquisa-verita-2110.jpg",
   "bolinha": "videos/pesquisa-verita-2110-b.jpg",
   "instagram": "https://www.instagram.com/reel/DexSdJ1j1JZ/"
- },
- {
-  "id": "pesquisa-futura-2110",
-  "titulo": "Nova pesquisa Futura/Apex (21/10)",
-  "curto": "Futura",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-pesquisa-futura-reels",
-  "video": "videos/pesquisa-futura-2110.mp4",
-  "capa": "videos/pesquisa-futura-2110.jpg",
-  "bolinha": "videos/pesquisa-futura-2110-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DewyZPkjTje/"
  }
 ]
