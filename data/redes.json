@@ -322,5 +322,32 @@
   "flavio": 18025000,
   "fonte": "Painel de gastos de campanha com dados do TSE, via Revista Fórum",
   "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-lula-impulso/"
+ },
+ {
+  "id": "ativa-eng-2210",
+  "metrica": "Taxa de engajamento no Instagram (média de curtidas e comentários dos posts recentes ÷ seguidores, %)",
+  "periodo": "levantamento fechado às 17h30 de 22 out (em 20 out: Lula 2,88%)",
+  "lula": 6.77,
+  "flavio": 5.94,
+  "fonte": "Ativaweb Datalab, via Coluna Política",
+  "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
+ },
+ {
+  "id": "ativa-intpost-2210",
+  "metrica": "Interações médias por post no Instagram (curtidas + comentários)",
+  "periodo": "levantamento fechado às 17h30 de 22 out",
+  "lula": 1250000,
+  "flavio": 910000,
+  "fonte": "Ativaweb Datalab, via Coluna Política",
+  "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
+ },
+ {
+  "id": "ativa-reels-2210",
+  "metrica": "Média de visualizações por Reel (18 Reels de Lula e 5 de Flávio)",
+  "periodo": "Reels mais recentes até 22 out",
+  "lula": 7200000,
+  "flavio": 3800000,
+  "fonte": "Ativaweb Datalab, via Coluna Política",
+  "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
  }
 ]
