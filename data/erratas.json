@@ -319,17 +319,6 @@
   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-do-tse-afasta-restricoes-genericas-a-manifestacoes-de-sindicatos-e-estudantes-em-acao-de-flavio-contra-lula"
  },
  {
-  "id": "er30",
-  "data": "2026-10-22",
-  "conjunto": "campanha",
-  "registro_id": "p02",
-  "o_que_mudou": "Plantão p02: troca da segunda fonte e inclusão da resposta de Flávio sobre participação na Best Bet",
-  "antes": "Vero Notícias; texto dizia que a campanha não respondeu ao pedido de comentário",
-  "depois": "Terra; texto registra que Flávio afirma nunca ter tido conta conjunta com Tomaz nem participação societária em empresas ligadas à Best Bet",
-  "motivo": "A reportagem do Terra de 21/10 traz a resposta de Flávio e de Tomaz, e a campanha não deixou de responder.",
-  "url": "https://www.terra.com.br/noticias/o-que-se-sabe-sobre-suposto-elo-de-flavio-bolsonaro-com-esquema-de-bets,565fe97eae2082589f7650575db2a9eda3q1wpce.html"
- },
- {
   "id": "er31",
   "data": "2026-10-22",
   "conjunto": "pesquisas",
@@ -658,5 +647,93 @@
   "depois": "O Povo; campo 13 a 15/10, 2.002 entrevistados, margem de 2,2 pontos",
   "motivo": "A reportagem de veículo da seção E traz os dados da rodada.",
   "url": "https://mais.opovo.com.br/jornal/politica/2026/10/17/pesquisa-cnt-mda-mostra-empate-tecnico-entre-flavio-bolsonaro-e-lula-veja-numeros.html"
+ },
+ {
+  "id": "er61",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e11",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Viva",
+  "depois": "Diário do Grande ABC",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.dgabc.com.br/Noticia/4353309/tse-nega-remocao-de-video-que-chama-flavio-bolsonaro-de-mentiroso-master"
+ },
+ {
+  "id": "er62",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e24",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Viva",
+  "depois": "Times Brasil",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-mendonca-suspende-julgamento-sobre-video-de-lula-contra-flavio-no-tse/"
+ },
+ {
+  "id": "er63",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e28",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Correio da Manhã",
+  "depois": "Congresso em Foco",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.congressoemfoco.com.br/noticia/123180/ministro-do-tse-manda-flavio-apagar-video-falso-sobre-ato-pro-lula"
+ },
+ {
+  "id": "er64",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e07",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "CNN Brasil / O Hoje",
+  "depois": "Diário do Nordeste",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-bolsonaro-volta-atras-e-confirma-ida-ao-debate-da-band-apos-lula-assegurar-presenca-1.3798561"
+ },
+ {
+  "id": "er65",
+  "data": "2026-10-22",
+  "conjunto": "campanha",
+  "registro_id": "e43",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gazeta do Povo",
+  "depois": "CNN Brasil",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/campanha-de-flavio-responde-lula-e-apresenta-lista-de-sigilos-para-pt/"
+ },
+ {
+  "id": "er66",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "realtime-2010",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gazeta do Povo",
+  "depois": "Diário do Grande ABC",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.dgabc.com.br/Noticia/4353712/real-time-big-data-flavio-tem-52-dos-votos-validos-e-lula-48-em-empate-tecnico"
+ },
+ {
+  "id": "er67",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "gerp-2110",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gazeta do Povo",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-dos-votos-validos-contra-47-de-lula-diz-gerp/"
+ },
+ {
+  "id": "er68",
+  "data": "2026-10-22",
+  "conjunto": "pesquisas",
+  "registro_id": "poderdata-2210",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "CartaCapital",
+  "depois": "Terra",
+  "motivo": "O link anterior era de veículo de linha partidária declarada, de site pequeno ou fora das seções A a E; a fonte nova traz a mesma informação.",
+  "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-poderdataaya-flavio-bolsonaro-tem-51-em-votos-validos-no-2-turno-e-lula-49,94dbf02cbc9f0bad38de4e0ca6c06b97aew7gt6b.html"
  }
 ]
