@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261024-dia-de-votar",
+  "titulo": "Amanhã é dia de votar (25/10)",
+  "curto": "Votação",
+  "data": "2026-10-24",
+  "origem": "instagram/publicados/20261024-dia-de-votar-reels",
+  "video": "videos/20261024-dia-de-votar.mp4",
+  "capa": "videos/20261024-dia-de-votar.jpg",
+  "bolinha": "videos/20261024-dia-de-votar-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De4fdfsD-rW/"
+ },
+ {
   "id": "20261023-debate-globo-chamada",
   "titulo": "O último debate (23/10)",
   "curto": "Debate",
@@ -119,16 +130,5 @@
   "capa": "videos/20261021-plantao-bestbet.jpg",
   "bolinha": "videos/20261021-plantao-bestbet-b.jpg",
   "instagram": "https://www.instagram.com/reel/DexpNxFAtGP/"
- },
- {
-  "id": "faroeste-sigilos",
-  "titulo": "Faroeste: a briga dos sigilos",
-  "curto": "Sigilos",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-faroeste-sigilos-reels",
-  "video": "videos/faroeste-sigilos.mp4",
-  "capa": "videos/faroeste-sigilos.jpg",
-  "bolinha": "videos/faroeste-sigilos-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DexcZQSgVPt/"
  }
 ]
