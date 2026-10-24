@@ -600,5 +600,61 @@
   "lula_totais": 45,
   "fonte": "Poder360 (Quaest, registro BR-09158/2026)",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-51-dos-votos-validos-contra-49-de-lula-diz-quaest/"
+ },
+ {
+  "id": "btg-2410",
+  "instituto": "BTG/Nexus",
+  "divulgacao": "2026-10-24",
+  "campo": "23–24 out",
+  "amostra": 2000,
+  "margem": 2.2,
+  "flavio_validos": 50.5,
+  "lula_validos": 49.5,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Metrópoles (BTG/Nexus, registro BR-08234/2026; Poder360 também lista a pesquisa)",
+  "url": "https://www.metropoles.com/brasil/btg-nexus-flavio-tem-505-dos-votos-validos-no-2o-turno-e-lula-495"
+ },
+ {
+  "id": "franca-2410",
+  "instituto": "França",
+  "divulgacao": "2026-10-24",
+  "campo": "21–23 out",
+  "amostra": 1537,
+  "margem": 2.5,
+  "flavio_validos": 51.4,
+  "lula_validos": 48.6,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Poder360 (Instituto França, registro BR-04863/2026; Congresso em Foco e outros também noticiaram)",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-514-contra-486-de-lula-em-votos-validos-diz-pesquisa/"
+ },
+ {
+  "id": "gerp-2410",
+  "instituto": "Gerp",
+  "divulgacao": "2026-10-24",
+  "campo": "22–24 out",
+  "amostra": 2400,
+  "margem": 2,
+  "flavio_validos": 52,
+  "lula_validos": 48,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "CNN Brasil (Gerp, registro BR-09327/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48-2/"
+ },
+ {
+  "id": "palver-2410",
+  "instituto": "Palver",
+  "divulgacao": "2026-10-24",
+  "campo": "22–24 out",
+  "amostra": 5000,
+  "margem": 2.2,
+  "flavio_validos": 50.5,
+  "lula_validos": 49.5,
+  "flavio_totais": 50,
+  "lula_totais": 49,
+  "fonte": "CartaCapital (Palver, registro BR-01794/2026; válidos calculados a partir dos votos totais; pesquisa online)",
+  "url": "https://www.cartacapital.com.br/politica/palver-na-vespera-do-2o-turno-flavio-bolsonaro-50-lula-49/"
  }
 ]
