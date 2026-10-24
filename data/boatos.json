@@ -1034,5 +1034,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Pesquisa eleitoral"
+ },
+ {
+  "id": "b75",
+  "data": "2026-10-23",
+  "alvo": "Flávio",
+  "boato": "Imagens mostram Paul McCartney e Axl Rose fazendo o L e pedindo voto em Lula",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "As imagens foram manipuladas com inteligência artificial e não há declaração dos artistas ou de seus representantes sobre a eleição brasileira.",
+  "url": "https://www.boatos.org/entretenimento/paul-mccartney-e-axl-rose-fizeram-o-l-e-pediram-voto-para-lula-em-2026.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Falso apoio de artistas"
  }
 ]
