@@ -4468,6 +4468,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F7F6-B450",
+  "conjunto": "boatos",
+  "id": "b81",
+  "registro": {
+   "id": "b81",
+   "data": "2026-10-15",
+   "alvo": "Lula",
+   "boato": "TSE teria reduzido o número de seções eleitorais no 2º turno para prejudicar Lula",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem diz que o total de seções instaladas cresceu e que a diferença de 4.384 vinha de dados do Tocantins ainda não importados na página de resultados.",
+   "url": "https://www.boatos.org/politica/tse-reduziu-numero-de-secoes-eleitorais-no-2o-turno-das-eleicoes-de-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Seções eleitorais"
+  },
+  "primeira_vez": "2026-10-24T17:30:45Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
