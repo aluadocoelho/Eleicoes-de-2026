@@ -4224,6 +4224,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BAA3-96BE",
+  "conjunto": "boatos",
+  "id": "b70",
+  "registro": {
+   "id": "b70",
+   "data": "2026-10-07",
+   "alvo": "Flávio",
+   "boato": "Mensagem diz que a PF descobriu R$ 27 milhões usados por Flávio para comprar votos",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem diz que os R$ 27 milhões são o total em dinheiro apreendido pela PF em operações eleitorais, sem ligação com a campanha de Flávio.",
+   "url": "https://www.boatos.org/politica/policia-descobre-r-27-milhoes-usados-por-flavio-bolsonaro-para-comprar-votos.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Compra de votos"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6570-30CF",
+  "conjunto": "boatos",
+  "id": "b71",
+  "registro": {
+   "id": "b71",
+   "data": "2026-10-06",
+   "alvo": "Lula",
+   "boato": "Mensagem diz que Nunes Marques revelou 3 milhões de votos atrasados e que Flávio foi eleito no 1º turno",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem diz que a apuração do 1º turno chegou a 100% e levou Flávio e Lula ao 2º turno, sem lote de votos atrasados.",
+   "url": "https://www.boatos.org/politica/nunes-marques-decide-que-flavio-bolsonaro-esta-eleito-com-3-milhoes-de-votos-atrasados.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Apuração"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -7139,6 +7181,106 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "5C12-23F9",
+  "conjunto": "checagens",
+  "id": "f94",
+  "registro": {
+   "id": "f94",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula deve explicar R$ 30 milhões do Instituto Lula para um filme.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A acusação se baseia em relatos da Veja sem prova de pagamento; PGR e PF negaram que o depoimento exista.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "133E-A162",
+  "conjunto": "checagens",
+  "id": "f95",
+  "registro": {
+   "id": "f95",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o juro real do Plano Safra é de quase 20%.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Os juros nominais ficam entre 8% e 12,5%; no caso de 12,5%, o juro real é de cerca de 7,9%.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "24BE-1AB2",
+  "conjunto": "checagens",
+  "id": "f96",
+  "registro": {
+   "id": "f96",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o maior reajuste dos professores, de 33%, foi no governo Bolsonaro.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O reajuste veio da Lei do Piso, sancionada por Lula em 2008; o governo Bolsonaro tentou barrá-lo.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "250E-3237",
+  "conjunto": "checagens",
+  "id": "f97",
+  "registro": {
+   "id": "f97",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que falta dipirona nas UBSs.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A compra desses remédios cabe aos municípios; não há levantamento nacional de 2026, só casos pontuais.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D821-8F2A",
+  "conjunto": "checagens",
+  "id": "f98",
+  "registro": {
+   "id": "f98",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o número de moradores de rua dobrou no governo Lula.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Os dados indicam alta de cerca de 42% a 51%, e não de 100%.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -7456,6 +7598,86 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2070-2C07",
+  "conjunto": "checagens",
+  "id": "l106",
+  "registro": {
+   "id": "l106",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o superávit comercial é de quase R$ 85 bilhões.",
+   "veredito": "Subestimado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor é uma projeção anual de US$ 84,4 bilhões, em dólares; até setembro o saldo era de US$ 62,4 bilhões.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E431-FD71",
+  "conjunto": "checagens",
+  "id": "l107",
+  "registro": {
+   "id": "l107",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que fez a lei da pequena e média empresa.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A lei foi sancionada por Lula em 2006, como ele afirmou, embora não seja uma lei nova.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "FE3F-F74A",
+  "conjunto": "checagens",
+  "id": "l108",
+  "registro": {
+   "id": "l108",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que, no governo Bolsonaro, diziam que a vacina faria a pessoa virar gay ou jacaré.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Em dezembro de 2020, Bolsonaro citou com ironia a possibilidade de virar jacaré após a vacina.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D1ED-0B87",
+  "conjunto": "checagens",
+  "id": "l109",
+  "registro": {
+   "id": "l109",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que anunciou perdão de quase R$ 15 bilhões em dívidas para 4 milhões de MEIs.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A lei foi sancionada em 21/10/2026; os valores são estimativas, não dívidas já baixadas.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T04:30:02Z",
   "ainda_publicado": true
  },
  {
