@@ -1,0 +1,16 @@
+{
+ "tipo": "reels",
+ "titulo": "Boatos desmentidos (24/10)",
+ "curto": "Boatos",
+ "arquivos": [
+  "reels.mp4"
+ ],
+ "capa": "capa.jpg",
+ "legenda": "Às vésperas da votação, quatro boatos foram desmentidos por checadores.\n\nSobre @lulaoficial: o corregedor do @tsejus mandou retirar de um canal de WhatsApp um áudio que dizia que mesários votam por eleitores ausentes; a decisão diz que a acusação de fraude não tem provas (via ConJur). E o número de seções eleitorais não caiu no 2º turno: são 499.207 em 2026, contra 472.028 em 2022 (via Boatos.org).\n\nSobre @flaviobolsonaro: os 8 anos citados por Daniella Marques são os do mandato de senador, não o de presidente, que segue de 4 anos. E não há proposta nem declaração dele sobre aniquilar grupos em uma nova Constituição (via Boatos.org).\n\nMais detalhes e o link de cada fonte no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#Eleicoes2026 #SegundoTurno #FakeNews #Lula #FlavioBolsonaro",
+ "fontes": [
+  "https://conjur.com.br/2026-out-24/corregedor-do-tse-manda-tropa-do-flavio-retirar-audio-sobre-falsa-fraude/",
+  "https://www.boatos.org/politica/tse-reduziu-numero-de-secoes-eleitorais-no-2o-turno-das-eleicoes-de-2026.html",
+  "https://www.boatos.org/politica/daniella-marques-diz-que-flavio-bolsonaro-vai-ampliar-mandato-para-8-anos-e-so-ai-tera-eleicoes.html",
+  "https://www.boatos.org/politica/flavio-bolsonaro-vai-aniquilar-mulheres-pobres-negros-e-lgbts-em-nova-constituicao.html"
+ ]
+}
