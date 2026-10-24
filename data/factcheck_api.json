@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
+  "termo": "Lula",
+  "afirmacao": "Supermercados colocam a venda o quilo pele de frango por R$ 3 reais durante o governo Lula",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-24",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Reportagem sobre venda de pele de frango em mercados é de ...",
+  "data_checagem": "2026-10-24",
+  "url": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Flávio disse que \"marginais andarão comigo\" durante debate da Globo",
@@ -67,7 +79,7 @@
   "data_afirmacao": "2026-10-16",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo de 2024 sobre boletim médico de Lula circula fora de ...",
+  "titulo": "Vídeo de 2024 sobre boletim médico de Lula circula fora de contexto às vésperas do segundo turno",
   "data_checagem": "2026-10-23",
   "url": "https://checamos.afp.com/doc.afp.com.D4A47CQ"
  },
@@ -91,7 +103,7 @@
   "data_afirmacao": "2026-10-21",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Assessora econômica de Flávio Bolsonaro não disse que vai ...",
+  "titulo": "Assessora econômica de Flávio Bolsonaro não disse que vai acabar com o Bolsa Família; vídeo foi manipulado por IA",
   "data_checagem": "2026-10-23",
   "url": "https://checamos.afp.com/doc.afp.com.D49V2WE"
  },
@@ -103,7 +115,7 @@
   "data_afirmacao": "2026-10-17",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Mulheres hipersexualizadas criadas com IA são inseridas em ...",
+  "titulo": "Mulheres hipersexualizadas criadas com IA são inseridas em conteúdos de política para promover pornografia",
   "data_checagem": "2026-10-23",
   "url": "https://checamos.afp.com/doc.afp.com.D49B8G7"
  },
@@ -998,7 +1010,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1202,7 +1214,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1670,12 +1682,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -2635,7 +2647,7 @@
   "data_afirmacao": "2026-10-14",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Postagem usa notícia de 2025 para sugerir que Lula pretende ...",
+  "titulo": "Postagem usa notícia de 2025 para sugerir que Lula pretende acabar com Bolsa Família",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/postagem-usa-noticia-de-2025-para-sugerir-que-lula-pretende-acabar-com-bolsa-familia/"
  },
@@ -4690,6 +4702,42 @@
   "titulo": "Vídeo mostra briga de trânsito no AP; não ataque a ônibus de petistas em SP",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/08/20/falso-bolsonaristas-ataque-onibus-petistas-ato-lula-sao-bernardo.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Reportagem de Caco Barcellos mostra ligação de Flávio Bolsonaro com compra de votos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Post usa reportagem antiga e sugere ligação de Flávio com compra de votos",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/e-falso-audio-de-suposto-membro-da-equipe-de-flavio-bolsonaro-sobre-cortes.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de Flávio vazou",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso áudio de suposto membro da equipe de Flávio Bolsonaro sobre cortes",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/e-falso-audio-de-suposto-membro-da-equipe-de-flavio-bolsonaro-sobre-cortes.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/desinformacao-loirona-do-flavio-ia-atos-politicos-conteudo-adulto.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Mulher loira esteve ao lado de Flávio em registros de atos políticos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Enganoso",
+  "titulo": "Personagem gerada com IA aparece ao lado de Flávio em vídeos virais para promover conteúdo adulto",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/desinformacao-loirona-do-flavio-ia-atos-politicos-conteudo-adulto.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/16/explica-meta-ia-geracao-de-fotos-lula-flavio.ghtm",
