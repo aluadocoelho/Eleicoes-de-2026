@@ -4544,6 +4544,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C33A-50F9",
+  "conjunto": "boatos",
+  "id": "b84",
+  "registro": {
+   "id": "b84",
+   "data": "2026-10-24",
+   "alvo": "Flávio",
+   "boato": "Posts dizem que Flávio falou no debate da Globo que \"marginais andarão comigo\"",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Ele disse que os marginais andariam \"com medo\" nas ruas; os posts usam um trecho com legenda errada.",
+   "url": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Debate"
+  },
+  "primeira_vez": "2026-10-24T22:31:38Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
