@@ -7866,6 +7866,26 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "84B9-581E",
+  "conjunto": "checagens",
+  "id": "f87",
+  "registro": {
+   "id": "f87",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que em 2022 a projeção de Selic era de 7%, contra cerca de 14% hoje.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa explicou que o Boletim Focus de 2022 projetava 7,75% para 2025, uma expectativa de mercado e não uma meta, e que a Selic estava em 13,75% em outubro de 2022.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:46:29Z",
   "ainda_publicado": true
  },
  {
