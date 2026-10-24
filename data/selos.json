@@ -4565,6 +4565,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E304-AFAB",
+  "conjunto": "boatos",
+  "id": "b85",
+  "registro": {
+   "id": "b85",
+   "data": "2026-10-24",
+   "alvo": "Lula",
+   "boato": "Mensagens dizem que Lula daria um golpe de Estado se perdesse a eleição para Flávio",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "A fala usada trata de um novo jeito de governar se ele for reeleito, e o pedido do PT ao STF não indica plano de golpe.",
+   "url": "https://www.boatos.org/politica/lula-vai-aplicar-um-golpe-de-estado-se-perder-as-eleicoes.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Golpe"
+  },
+  "primeira_vez": "2026-10-24T23:30:10Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9EE0-070C",
+  "conjunto": "boatos",
+  "id": "b86",
+  "registro": {
+   "id": "b86",
+   "data": "2026-10-24",
+   "alvo": "Lula",
+   "boato": "Vídeo diz que Lula cortou o próprio dedo para não precisar trabalhar",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "Ele perdeu parte do dedo em acidente de trabalho em 1964 e não há prova de que foi de propósito; o vídeo voltou a circular após o debate da Globo.",
+   "url": "https://www.boatos.org/politica/lula-cortou-o-dedo-para-nao-precisar-trabalhar-mais.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Dedo"
+  },
+  "primeira_vez": "2026-10-24T23:30:10Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
