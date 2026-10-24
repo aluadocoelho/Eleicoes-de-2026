@@ -5271,6 +5271,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "CD62-59EF",
+  "conjunto": "campanha",
+  "id": "e50",
+  "registro": {
+   "id": "e50",
+   "data": "2026-10-23",
+   "tipo": "Debate",
+   "descricao": "Lula e Flávio fizeram na sexta (23/10) o segundo e último debate do 2º turno, na TV Globo, com cerca de 2h30 e mediação de César Tralli. Segundo o Metrópoles, os blocos de tema livre ficaram marcados por acusações de corrupção, e Lula respondeu a Flávio dizendo que não aceitaria ser chamado de \"miliciano\". O Terra informou que, diferentemente do debate da Band, os candidatos não podiam circular livremente pelo estúdio.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/debate-globo-lula-flavio-bolsonaro"
+  },
+  "primeira_vez": "2026-10-24T10:14:07Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
