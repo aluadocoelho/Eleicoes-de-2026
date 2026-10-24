@@ -4502,6 +4502,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "025A-D7E3",
+  "conjunto": "boatos",
+  "id": "b82",
+  "registro": {
+   "id": "b82",
+   "data": "2026-10-23",
+   "alvo": "Lula",
+   "boato": "Áudio diz, sem provas, que mesários votariam no lugar de eleitores ausentes para beneficiar Lula",
+   "veredito": "Removido por decisão do TSE",
+   "agencia": "TSE",
+   "explicacao": "O corregedor-geral Ricardo Villas Bôas Cueva mandou remover o áudio em até duas horas, sob multa de R$ 100 mil por hora, e proibiu nova publicação.",
+   "url": "https://conjur.com.br/2026-out-24/corregedor-do-tse-manda-tropa-do-flavio-retirar-audio-sobre-falsa-fraude/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a Conjur, o áudio, atribuído ao deputado Gustavo Gayer (PL-GO), foi publicado no canal de WhatsApp Tropa do Flávio; quem administra o canal será apurado em ação contra a chapa de Flávio.",
+   "tema": "Fraude na votação"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6757-B0BF",
+  "conjunto": "boatos",
+  "id": "b83",
+  "registro": {
+   "id": "b83",
+   "data": "2026-10-05",
+   "alvo": "Flávio",
+   "boato": "TSE investigaria se o atraso na divulgação dos resultados do 1º turno teve relação com fraude contra Flávio",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem diz que o atraso foi congestionamento real no fluxo de dados e que não há indício de mudança de votos, pois a contagem parcial varia conforme as seções chegam.",
+   "url": "https://www.boatos.org/politica/tse-vai-investigar-se-atraso-na-divulgacao-de-resultados-das-eleicoes-tem-relacao-com-fraude-contra-flavio-bolsonaro.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Apuração"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -6147,6 +6189,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "143A-D01F",
+  "conjunto": "checagens",
+  "id": "f118",
+  "registro": {
+   "id": "f118",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o número de pessoas em situação de rua passou de cerca de 198,7 mil para 399 mil no atual governo.",
+   "veredito": "De fato",
+   "categoria": "Verdadeiro",
+   "explicacao": "Os números passaram de cerca de 198,7 mil (dez/2022) para 399 mil (set/2026).",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3731-1970",
+  "conjunto": "checagens",
+  "id": "f119",
+  "registro": {
+   "id": "f119",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que houve disputa por uma ilha em Angra dos Reis envolvendo o caso de Willer Tomaz e Richarlison.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "O caso transitou em julgado, e o último recurso foi rejeitado pelo STJ em 2025.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "8791-0811",
   "conjunto": "checagens",
   "id": "f12",
@@ -6164,6 +6246,46 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BFEF-75DA",
+  "conjunto": "checagens",
+  "id": "f120",
+  "registro": {
+   "id": "f120",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a PF atestou que não houve dinheiro público no filme Dark Horse.",
+   "veredito": "É falso",
+   "categoria": "Falso",
+   "explicacao": "A PF não atestou que não houve dinheiro público.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7958-6DA3",
+  "conjunto": "checagens",
+  "id": "f121",
+  "registro": {
+   "id": "f121",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula orientou as pessoas a não comprarem alimentos caros.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "Lula fez a declaração.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
   "ainda_publicado": true
  },
  {
@@ -8567,6 +8689,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "580F-7F44",
+  "conjunto": "checagens",
+  "id": "l118",
+  "registro": {
+   "id": "l118",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que as exportações foram recordes em 2025.",
+   "veredito": "De fato",
+   "categoria": "Verdadeiro",
+   "explicacao": "O volume foi recorde, segundo o MDIC.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5814-E719",
+  "conjunto": "checagens",
+  "id": "l119",
+  "registro": {
+   "id": "l119",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Flávio foi o único a votar contra o auxílio-maternidade na Alerj.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "Flávio foi o único deputado a votar contra.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7FE3-2145",
   "conjunto": "checagens",
   "id": "l12",
@@ -8584,6 +8746,206 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7F89-DCF6",
+  "conjunto": "checagens",
+  "id": "l120",
+  "registro": {
+   "id": "l120",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro espalhou que a vacina transformaria pessoas em gays ou jacarés.",
+   "veredito": "De fato",
+   "categoria": "Verdadeiro",
+   "explicacao": "Bolsonaro disseminou essa desinformação.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5FBD-AC46",
+  "conjunto": "checagens",
+  "id": "l121",
+  "registro": {
+   "id": "l121",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que mais de 5,6 mil obras da educação estavam paradas no início de 2023.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "Mais de 5.600 obras estavam paradas no início de 2023.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A405-4E23",
+  "conjunto": "checagens",
+  "id": "l122",
+  "registro": {
+   "id": "l122",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo abriu 700 novos mercados para produtos agropecuários.",
+   "veredito": "Lula acerta",
+   "categoria": "Verdadeiro",
+   "explicacao": "A marca foi alcançada.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "ACEC-8499",
+  "conjunto": "checagens",
+  "id": "l123",
+  "registro": {
+   "id": "l123",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo anunciou a instalação de computadores quânticos em João Pessoa.",
+   "veredito": "De fato",
+   "categoria": "Verdadeiro",
+   "explicacao": "O governo anunciou a instalação de dois computadores.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "515F-3AF9",
+  "conjunto": "checagens",
+  "id": "l124",
+  "registro": {
+   "id": "l124",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a vacina Covaxin não foi distribuída no Brasil.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Anvisa barrou o imunizante na época.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A394-D90D",
+  "conjunto": "checagens",
+  "id": "l125",
+  "registro": {
+   "id": "l125",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que, sem valorização, o salário mínimo seria R$ 900.",
+   "veredito": "Lula acerta",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Ministério do Trabalho estimou R$ 852.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D346-DDEF",
+  "conjunto": "checagens",
+  "id": "l126",
+  "registro": {
+   "id": "l126",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que assumiu o governo com a Selic em 13%.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "A taxa estava nesse patamar quando ele assumiu.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5D46-FFBA",
+  "conjunto": "checagens",
+  "id": "l127",
+  "registro": {
+   "id": "l127",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que havia 33,1 milhões de pessoas em insegurança alimentar grave quando voltou ao governo.",
+   "veredito": "É verdade",
+   "categoria": "Verdadeiro",
+   "explicacao": "Esse era o número no início do atual governo.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2678-CA93",
+  "conjunto": "checagens",
+  "id": "l128",
+  "registro": {
+   "id": "l128",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Flávio defendeu a atuação de milícias na Alerj.",
+   "veredito": "De fato",
+   "categoria": "Verdadeiro",
+   "explicacao": "Flávio defendeu a atuação de milícias em discurso.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BA8E-AE10",
+  "conjunto": "checagens",
+  "id": "l129",
+  "registro": {
+   "id": "l129",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Aos Fatos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Rio Grande do Sul é o estado com a maior porcentagem de aposentados e pensionistas.",
+   "veredito": "Lula acerta",
+   "categoria": "Verdadeiro",
+   "explicacao": "O estado tem a maior porcentagem de aposentados e pensionistas.",
+   "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T21:31:41Z",
   "ainda_publicado": true
  },
  {
