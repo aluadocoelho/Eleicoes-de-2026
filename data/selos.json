@@ -6899,6 +6899,246 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "085A-0484",
+  "conjunto": "checagens",
+  "id": "f82",
+  "registro": {
+   "id": "f82",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro elevou o Bolsa Família para, no mínimo, R$ 600.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O programa começou em R$ 400 e o valor de R$ 600 foi decidido em 2022, só até o fim daquele ano.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8147-07CA",
+  "conjunto": "checagens",
+  "id": "f83",
+  "registro": {
+   "id": "f83",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo dele fez o Marco Legal do Saneamento Básico.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O marco de 2020 nasceu de projeto enviado pelo Executivo na gestão Bolsonaro.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D129-2248",
+  "conjunto": "checagens",
+  "id": "f84",
+  "registro": {
+   "id": "f84",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Centro-Oeste é a região que mais produz alimentos.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Segundo o Ministério da Agricultura, a região tem o maior valor da produção agropecuária.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "31FD-E63C",
+  "conjunto": "checagens",
+  "id": "f85",
+  "registro": {
+   "id": "f85",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o atual governo deixa uma dívida de R$ 11 trilhões.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O número é a dívida bruta do governo geral, que inclui estados, municípios e INSS, e equivale a 82,9% do PIB.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E620-5AF1",
+  "conjunto": "checagens",
+  "id": "f86",
+  "registro": {
+   "id": "f86",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a taxa de juros oficial está em torno de 14%.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Selic estava em 13,75% ao ano, perto do valor citado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AF99-F51D",
+  "conjunto": "checagens",
+  "id": "f87",
+  "registro": {
+   "id": "f87",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que em 2022 a projeção de Selic para 2026 era de 7%, contra cerca de 14% hoje.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A projeção era do mercado, não uma meta, e a Selic já estava em 13,75% em 2022, só caindo a partir de 2023.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A350-AFDA",
+  "conjunto": "checagens",
+  "id": "f88",
+  "registro": {
+   "id": "f88",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro concluiu as obras da transposição do Rio São Francisco.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Bolsonaro inaugurou trechos, mas a obra não foi concluída; o Eixo Norte começou em 2007, no governo Lula.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B1C7-779D",
+  "conjunto": "checagens",
+  "id": "f89",
+  "registro": {
+   "id": "f89",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que mais de 80 milhões de brasileiros estão com as contas atrasadas.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Serasa registrou 83,9 milhões de inadimplentes em agosto de 2026.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8BB9-479B",
+  "conjunto": "checagens",
+  "id": "f90",
+  "registro": {
+   "id": "f90",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro não debochava de quem sentia falta de ar no vídeo em que a imita.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Bolsonaro imitou falta de ar em 2021 para criticar Mandetta e defender um tratamento sem eficácia comprovada.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "87E6-78B3",
+  "conjunto": "checagens",
+  "id": "f91",
+  "registro": {
+   "id": "f91",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Perguntou a Lula se ele não tem vergonha de deixar o país quebrado.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A dívida está no maior nível desde 2021, mas o PIB cresce, o desemprego caiu e o emprego com carteira bate recorde.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7CAF-4919",
+  "conjunto": "checagens",
+  "id": "f92",
+  "registro": {
+   "id": "f92",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula é o pai do \"Tigrinho\".",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A lei que legalizou as apostas é de 2018, sancionada por Temer; Lula sancionou a regulamentação em 2023.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4906-5849",
+  "conjunto": "checagens",
+  "id": "f93",
+  "registro": {
+   "id": "f93",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula defendeu roubar celular \"para tomar uma cervejinha\".",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Trechos de uma entrevista de 2017 foram editados; Lula falava que a falta de esperança leva ao crime.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -7116,6 +7356,106 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C743-DBDD",
+  "conjunto": "checagens",
+  "id": "l101",
+  "registro": {
+   "id": "l101",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Flávio chamou o Bolsa Família de \"bolsa farelo\".",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Flávio usou a expressão em 2011 e em posts no X depois apagados, que a imprensa recuperou.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9320-8501",
+  "conjunto": "checagens",
+  "id": "l102",
+  "registro": {
+   "id": "l102",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a economia não crescia acima de 3% desde que ele deixou a presidência, em 2010.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O PIB passou de 3% em 2011, 2013, 2021 e 2022, em governos diferentes.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5E1A-4DFA",
+  "conjunto": "checagens",
+  "id": "l103",
+  "registro": {
+   "id": "l103",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que nunca se exportou tanto no país.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "2025 teve o maior valor anual da série histórica e as exportações de janeiro a setembro de 2026 crescem 10,4%.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B240-ACFA",
+  "conjunto": "checagens",
+  "id": "l104",
+  "registro": {
+   "id": "l104",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o \"Tigrinho\" foi criado pelo governo Bolsonaro em 2022.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "As apostas foram legalizadas em 2018, e o governo Bolsonaro não cumpriu o prazo de regulamentação.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C300-7EC3",
+  "conjunto": "checagens",
+  "id": "l105",
+  "registro": {
+   "id": "l105",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a pobreza na Argentina chegou a 40% no governo Milei.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A pobreza foi de 52,4% no 1º semestre de 2024, caiu para 38% no 2º e chegou a 32,3% no 1º semestre de 2026.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:30:28Z",
   "ainda_publicado": true
  },
  {
