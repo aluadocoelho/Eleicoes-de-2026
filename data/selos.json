@@ -12910,6 +12910,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "165A-FC24",
+  "conjunto": "redes",
+  "id": "ativa-fav-globo",
+  "registro": {
+   "id": "ativa-fav-globo",
+   "metrica": "Participação nas menções favoráveis a um candidato (%)",
+   "periodo": "debate da TV Globo, 23 out, até 10h de 24 out (Facebook, Instagram, X, TikTok e YouTube)",
+   "lula": 56.4,
+   "flavio": 43.6,
+   "fonte": "Ativaweb Datalab, via Folha do Estado da Bahia",
+   "url": "https://www.jornalfolhadoestado.com/politica/debate-tem-564-de-mencoes-favoraveis-a-lula-e-436-a-flavio-nas-redes/"
+  },
+  "primeira_vez": "2026-10-24T23:29:20Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "AA61-12B7",
   "conjunto": "redes",
   "id": "ativa-intpost-2210",
@@ -14153,6 +14169,20 @@
    "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
   },
   "primeira_vez": "2026-10-23T17:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2CDE-B7EA",
+  "conjunto": "sinais",
+  "id": "s-ativa-globo",
+  "registro": {
+   "id": "s-ativa-globo",
+   "data": "2026-10-24",
+   "sinal": "A Ativaweb Datalab contou mais de 33,7 milhões de menções nas cinco redes até as 10h de sábado, depois do debate da TV Globo. Entre as menções favoráveis a um dos dois, 56,4% foram para Lula e 43,6% para Flávio.",
+   "fonte": "Ativaweb Datalab, via Folha do Estado da Bahia",
+   "url": "https://www.jornalfolhadoestado.com/politica/debate-tem-564-de-mencoes-favoraveis-a-lula-e-436-a-flavio-nas-redes/"
+  },
+  "primeira_vez": "2026-10-24T23:29:20Z",
   "ainda_publicado": true
  },
  {
