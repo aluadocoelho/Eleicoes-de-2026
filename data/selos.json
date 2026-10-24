@@ -4266,6 +4266,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "83FA-BD5A",
+  "conjunto": "boatos",
+  "id": "b72",
+  "registro": {
+   "id": "b72",
+   "data": "2026-10-23",
+   "alvo": "Flávio",
+   "boato": "Vídeo no TikTok sugere compra de votos para Flávio usando reportagem antiga",
+   "veredito": "Enganoso",
+   "agencia": "Projeto Comprova",
+   "explicacao": "A checagem diz que o trecho vem de uma reportagem de 2022 sobre suspeita de assédio eleitoral no Mato Grosso do Sul, que não cita Flávio. Também checado pela AFP Checamos.",
+   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-usa-reportagem-antiga-de-caco-barcellos-para-sugerir-ligacao-de-flavio-bolsonaro-com-compra-de-votos/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O vídeo foi publicado por um perfil no TikTok com 21,6 mil seguidores, e a checagem não aponta a que campo ele pertence.",
+   "tema": "Compra de votos"
+  },
+  "primeira_vez": "2026-10-24T10:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4DB1-069C",
+  "conjunto": "boatos",
+  "id": "b73",
+  "registro": {
+   "id": "b73",
+   "data": "2026-10-23",
+   "alvo": "Flávio",
+   "boato": "Vídeo mostra Daniella Marques, assessora econômica de Flávio, dizendo que acabaria com o Bolsa Família",
+   "veredito": "Falso",
+   "agencia": "AFP Checamos",
+   "explicacao": "A checagem diz que o áudio foi alterado por IA sobre uma entrevista de 2022 e que a fala real dela foi sobre uma regra de transição do programa.",
+   "url": "https://checamos.afp.com/doc.afp.com.D49V2WE",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Bolsa Família"
+  },
+  "primeira_vez": "2026-10-24T10:32:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
