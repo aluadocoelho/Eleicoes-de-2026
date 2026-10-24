@@ -385,5 +385,50 @@
   "flavio": 57,
   "fonte": "Palver, via Folha / Plantão Brasil",
   "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
+ },
+ {
+  "id": "apexata-pos-globo",
+  "metrica": "Menções positivas nas redes (%)",
+  "periodo": "após o debate da TV Globo, 23 out (antes: Lula 42,23; Flávio 39,92)",
+  "lula": 42.85,
+  "flavio": 39.34,
+  "fonte": "AP Exata, via CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/debate-da-ganho-residual-a-lula-nas-redes-sem-mudar-cenario-diz-ap-exata/"
+ },
+ {
+  "id": "dx-seg-0522",
+  "metrica": "Seguidores ganhos nas redes",
+  "periodo": "5–22 out (2º turno)",
+  "lula": 3520000,
+  "flavio": 3440000,
+  "fonte": "Datrix, via Exame",
+  "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+ },
+ {
+  "id": "dx-pub-dia",
+  "metrica": "Média diária de publicações sobre o candidato",
+  "periodo": "19–22 out",
+  "lula": 914000,
+  "flavio": 443000,
+  "fonte": "Datrix, via Exame",
+  "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+ },
+ {
+  "id": "dx-trends",
+  "metrica": "Índice médio de buscas no Google Trends",
+  "periodo": "19–22 out",
+  "lula": 36,
+  "flavio": 10,
+  "fonte": "Datrix, via Exame",
+  "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+ },
+ {
+  "id": "dx-sent-2210",
+  "metrica": "Saldo de sentimento (posts positivos menos negativos, pontos)",
+  "periodo": "22 out",
+  "lula": -5.5,
+  "flavio": -5.3,
+  "fonte": "Datrix, via Exame",
+  "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
  }
 ]
