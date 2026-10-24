@@ -12839,6 +12839,54 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "79B8-6B4B",
+  "conjunto": "redes",
+  "id": "evag-ifd",
+  "registro": {
+   "id": "evag-ifd",
+   "metrica": "Índice de Força Digital (pontos)",
+   "periodo": "véspera do 2º turno, 24 out",
+   "lula": 74.3,
+   "flavio": 49.1,
+   "fonte": "Radar Evag, via Metrópoles",
+   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-um-dia-da-eleicao-lula-influencia-debate-no-instagram-e-flavio-no-x"
+  },
+  "primeira_vez": "2026-10-24T21:29:26Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A101-971D",
+  "conjunto": "redes",
+  "id": "evag-ig-globo",
+  "registro": {
+   "id": "evag-ig-globo",
+   "metrica": "Interações no Instagram",
+   "periodo": "horas após o debate da TV Globo, 23 out",
+   "lula": 16700000,
+   "flavio": 9300000,
+   "fonte": "Radar Evag, via Metrópoles",
+   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-um-dia-da-eleicao-lula-influencia-debate-no-instagram-e-flavio-no-x"
+  },
+  "primeira_vez": "2026-10-24T21:29:26Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DE3C-9A39",
+  "conjunto": "redes",
+  "id": "evag-x-curtidas",
+  "registro": {
+   "id": "evag-x-curtidas",
+   "metrica": "Média de curtidas por post no X",
+   "periodo": "véspera do 2º turno, 24 out",
+   "lula": 14300,
+   "flavio": 21400,
+   "fonte": "Radar Evag, via Metrópoles",
+   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-um-dia-da-eleicao-lula-influencia-debate-no-instagram-e-flavio-no-x"
+  },
+  "primeira_vez": "2026-10-24T21:29:26Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "BEB1-57B2",
   "conjunto": "redes",
   "id": "forum-impuls-2310",
@@ -13646,6 +13694,20 @@
    "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
   },
   "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2227-CB86",
+  "conjunto": "sinais",
+  "id": "s-evag-2410",
+  "registro": {
+   "id": "s-evag-2410",
+   "data": "2026-10-24",
+   "sinal": "Segundo o Radar Evag, na véspera do 2º turno Lula aparece à frente no Instagram e Flávio à frente no X. Em relação ao início da semana, Flávio melhorou no Instagram e Lula melhorou no X.",
+   "fonte": "Radar Evag, via Metrópoles",
+   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-um-dia-da-eleicao-lula-influencia-debate-no-instagram-e-flavio-no-x"
+  },
+  "primeira_vez": "2026-10-24T21:29:26Z",
   "ainda_publicado": true
  },
  {
