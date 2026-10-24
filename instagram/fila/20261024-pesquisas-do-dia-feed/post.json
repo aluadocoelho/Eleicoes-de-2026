@@ -1,0 +1,25 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Pesquisas do dia (24/10)",
+ "arquivos": [
+  "1-cntmda.jpg",
+  "2-datafolha.jpg",
+  "3-atlas.jpg",
+  "4-quaest.jpg",
+  "5-rodada.jpg"
+ ],
+ "legenda": "Saíram neste sábado (24/10), véspera da votação, quatro pesquisas nacionais para o 2º turno. Nos votos válidos, @flaviobolsonaro aparece à frente de @lulaoficial nas quatro: Datafolha e Quaest, 51% a 49% (margem de 2 pontos); AtlasIntel, 50,8% a 49,2% (margem de 1 ponto); CNT/MDA, 50,7% a 49,3% (margem de 2,2 pontos).\n\nEm todas, a diferença cabe na margem de erro, o que os institutos chamam de empate técnico. Fontes: @cnnbrasil, @poder360, Metrópoles, O Povo e Estado de Minas.\n\nMais detalhes e o link de cada fonte no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#Eleicoes2026 #SegundoTurno #PesquisaEleitoral #Lula #FlavioBolsonaro",
+ "alt": [
+  "Arte da Clareia Eleições sobre a pesquisa CNT/MDA de 24/10: nos votos válidos, Flávio Bolsonaro tem 50,7% e Lula, 49,3%. Margem de erro de 2,2 pontos, 2.032 entrevistas.",
+  "Arte da Clareia Eleições sobre a pesquisa Datafolha de 24/10: nos votos válidos, Flávio Bolsonaro tem 51% e Lula, 49%. Margem de erro de 2 pontos, 4.050 entrevistas.",
+  "Arte da Clareia Eleições sobre a pesquisa AtlasIntel de 24/10: nos votos válidos, Flávio Bolsonaro tem 50,8% e Lula, 49,2%. Margem de erro de 1 ponto, 4.990 entrevistas.",
+  "Arte da Clareia Eleições sobre a pesquisa Quaest de 24/10: nos votos válidos, Flávio Bolsonaro tem 51% e Lula, 49%. Margem de erro de 2 pontos, 3.702 entrevistas.",
+  "Gráfico com a pesquisa mais recente de cada instituto, de 21 a 24/10, nos votos válidos: Flávio à frente em 14 dos 15 institutos, por 1 a 6 pontos; Lula à frente em um, por 1,2 ponto. Em 12 das 15, a diferença cabe na margem de erro."
+ ],
+ "fontes": [
+  "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-51-e-lula-49-dos-votos-validos-diz-datafolha/",
+  "https://www.cnnbrasil.com.br/eleicoes/quaest-flavio-tem-51-dos-votos-validos-lula-49/",
+  "https://www.metropoles.com/brasil/atlasintel-flavio-tem-508-e-lula-marca-492-em-ultima-pesquisa",
+  "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/pesquisa-cnt-mda-flavio-507-e-lula-493-de-votos-validos.html"
+ ]
+}
