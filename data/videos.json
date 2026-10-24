@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261024-pesquisa-cntmda",
+  "titulo": "Nova pesquisa CNT/MDA (24/10)",
+  "curto": "CNT/MDA",
+  "data": "2026-10-24",
+  "origem": "instagram/publicados/20261024-pesquisa-cntmda-reels",
+  "video": "videos/20261024-pesquisa-cntmda.mp4",
+  "capa": "videos/20261024-pesquisa-cntmda.jpg",
+  "bolinha": "videos/20261024-pesquisa-cntmda-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De4tozFjlww/"
+ },
+ {
   "id": "20261023-pesquisas-do-dia",
   "titulo": "Pesquisas do dia (23/10)",
   "curto": "Pesquisas",
@@ -119,16 +130,5 @@
   "capa": "videos/20261022-pesquisa-indexa.jpg",
   "bolinha": "videos/20261022-pesquisa-indexa-b.jpg",
   "instagram": "https://www.instagram.com/reel/DezJ2XGDm16/"
- },
- {
-  "id": "20261022-pesquisa-poderdata",
-  "titulo": "Nova pesquisa PoderData/Aya (22/10)",
-  "curto": "PoderData",
-  "data": "2026-10-22",
-  "origem": "instagram/publicados/20261022-pesquisa-poderdata-reels",
-  "video": "videos/20261022-pesquisa-poderdata.mp4",
-  "capa": "videos/20261022-pesquisa-poderdata.jpg",
-  "bolinha": "videos/20261022-pesquisa-poderdata-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DezAzVaAAWG/"
  }
 ]
