@@ -558,5 +558,19 @@
   "lula_totais": 45.0,
   "fonte": "O Povo (CNT/MDA, registro BR-02136/2026)",
   "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/pesquisa-cnt-mda-flavio-507-e-lula-493-de-votos-validos.html"
+ },
+ {
+  "id": "datafolha-2410",
+  "instituto": "Datafolha",
+  "divulgacao": "2026-10-24",
+  "campo": "23–24 out",
+  "amostra": 4050,
+  "margem": 2,
+  "flavio_validos": 51,
+  "lula_validos": 49,
+  "flavio_totais": 48,
+  "lula_totais": 47,
+  "fonte": "Metrópoles e Gazeta do Povo (pesquisa da Folha e da Globo, registro BR-09540/2026)",
+  "url": "https://www.metropoles.com/brasil/ultima-datafolha-flavio-bolsonaro-lula"
  }
 ]
