@@ -2097,6 +2097,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E7F9-7C69",
+  "conjunto": "aovivo",
+  "id": "globo-11",
+  "registro": {
+   "id": "globo-11",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que, quando voltou, 33 milhões de pessoas passavam fome.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "65D2-EEBC",
+  "conjunto": "aovivo",
+  "id": "globo-12",
+  "registro": {
+   "id": "globo-12",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que tinha acabado com a fome no país em 2012.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E201-FF33",
+  "conjunto": "aovivo",
+  "id": "globo-13",
+  "registro": {
+   "id": "globo-13",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que o governo abriu 700 novos mercados para produtos brasileiros.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C923-DA18",
+  "conjunto": "aovivo",
+  "id": "globo-14",
+  "registro": {
+   "id": "globo-14",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Lula",
+   "texto": "Disse que a BR-319 era uma obra que ninguém teve coragem de fazer.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E86B-08D7",
+  "conjunto": "aovivo",
+  "id": "globo-15",
+  "registro": {
+   "id": "globo-15",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que a indústria reduz produtos por causa da inflação e que uma barra de chocolate foi de 120g para 80g.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CD2B-988C",
+  "conjunto": "aovivo",
+  "id": "globo-16",
+  "registro": {
+   "id": "globo-16",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:50",
+   "tipo": "Checagem",
+   "candidato": "Flávio",
+   "texto": "Disse que Lula já gastou mais de R$ 400 bilhões para tentar se reeleger.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "fonte": "Lupa",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "18CE-8EA3",
   "conjunto": "aovivo",
   "id": "sbtflavio-01",
@@ -6739,6 +6859,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "2363-0339",
+  "conjunto": "checagens",
+  "id": "f80",
+  "registro": {
+   "id": "f80",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a indústria reduz produtos por causa da inflação e que uma barra de chocolate foi de 120g para 80g.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Barras de 80g já eram vendidas em 2022 e a redução de tamanho é gradual desde os anos 1990.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A479-C989",
+  "conjunto": "checagens",
+  "id": "f81",
+  "registro": {
+   "id": "f81",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula já gastou mais de R$ 400 bilhões para tentar se reeleger.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Ferramenta do Estadão contou R$ 405 bilhões em medidas do ano eleitoral com impacto no orçamento, mas isso não é o valor gasto nem prova intenção eleitoral.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -6936,6 +7096,26 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "01CF-5CC7",
+  "conjunto": "checagens",
+  "id": "l100",
+  "registro": {
+   "id": "l100",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a BR-319 era uma obra que ninguém teve coragem de fazer.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A estrada foi aberta em 1976, ficou quase intransitável em 1988 e as obras posteriores foram de recuperação; as obras voltaram em 2024.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
   "ainda_publicado": true
  },
  {
@@ -8756,6 +8936,66 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-24T01:29:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "283C-5602",
+  "conjunto": "checagens",
+  "id": "l97",
+  "registro": {
+   "id": "l97",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que, quando voltou, 33 milhões de pessoas passavam fome.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "Pesquisa da Rede Penssan de 2022 apontou 33,1 milhões de pessoas em insegurança alimentar grave, a condição que envolve fome.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CDB5-9902",
+  "conjunto": "checagens",
+  "id": "l98",
+  "registro": {
+   "id": "l98",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que tinha acabado com a fome no país em 2012.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O relatório da FAO que tirou o Brasil do Mapa da Fome saiu em 2014, e a fome não foi eliminada por completo.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B692-41D0",
+  "conjunto": "checagens",
+  "id": "l99",
+  "registro": {
+   "id": "l99",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo abriu 700 novos mercados para produtos brasileiros.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Ministério da Agricultura anunciou em outubro de 2026 a abertura de 700 mercados desde 2023, em 99 destinos.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T03:00:11Z",
   "ainda_publicado": true
  },
  {
