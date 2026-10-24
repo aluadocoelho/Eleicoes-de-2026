@@ -812,5 +812,27 @@
   "depois": "2.520 entrevistas",
   "motivo": "O número 2.154 é o da amostra do Quaest; as matérias sobre o Datafolha (20 a 22/10) trazem 2.520 eleitores.",
   "url": "https://www.terra.com.br/noticias/eleicoes/datafolha-2-turno-flavio-bolsonaro-e-lula-empatam-com-50-em-votos-validos,178579b6fa0f17850de817b0260c73797lr3ng40.html"
+ },
+ {
+  "id": "er75",
+  "data": "2026-10-24",
+  "conjunto": "campanha",
+  "registro_id": "e05",
+  "o_que_mudou": "Troca de fonte, data e descrição do levantamento de governadores",
+  "antes": "Gazeta do Povo, 07/10: 10 apoiam Flávio e 5 apoiam Lula",
+  "depois": "CNN Brasil, 05/10: entre os 20 governadores eleitos no 1º turno, 10 apoiam Flávio, 5 apoiam Lula, 4 são neutros e 1 apoia Caiado",
+  "motivo": "A CNN Brasil traz os mesmos números, com a data (05/10) e o critério da contagem, e o veículo anterior tem linha editorial declarada.",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/governadores-eleitos-flavio-lula/"
+ },
+ {
+  "id": "er76",
+  "data": "2026-10-24",
+  "conjunto": "campanha",
+  "registro_id": "e20",
+  "o_que_mudou": "Troca de fonte e resposta do vice incluída",
+  "antes": "Gazeta do Povo, sem informar se Gaspar respondeu",
+  "depois": "Poder360, que informa que Gaspar foi procurado e não respondeu até a publicação",
+  "motivo": "O Poder360 traz a mesma decisão da ministra Estela Aranha (prazo de 24 horas) e registra que o vice não se manifestou; o veículo anterior tem linha editorial declarada.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-vice-de-flavio-apagar-video-que-liga-lula-ao-crime/"
  }
 ]
