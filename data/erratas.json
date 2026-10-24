@@ -801,5 +801,16 @@
   "depois": "Sabatina na Record, em Brasília (cancelada pela campanha, por rouquidão)",
   "motivo": "A campanha desmarcou a gravação por recomendação da fonoaudióloga, para poupar a voz de Lula.",
   "url": "https://timesbrasil.com.br/eleicoes-2026/lula-desmarca-entrevista-record/"
+ },
+ {
+  "id": "er74",
+  "data": "2026-10-24",
+  "conjunto": "pesquisas",
+  "registro_id": "datafolha-2210",
+  "o_que_mudou": "Amostra do Datafolha de 22/10",
+  "antes": "2.154 entrevistas",
+  "depois": "2.520 entrevistas",
+  "motivo": "O número 2.154 é o da amostra do Quaest; as matérias sobre o Datafolha (20 a 22/10) trazem 2.520 eleitores.",
+  "url": "https://www.terra.com.br/noticias/eleicoes/datafolha-2-turno-flavio-bolsonaro-e-lula-empatam-com-50-em-votos-validos,178579b6fa0f17850de817b0260c73797lr3ng40.html"
  }
 ]
