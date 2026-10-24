@@ -12,6 +12,42 @@
   "url": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/"
  },
  {
+  "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-usa-reportagem-antiga-de-caco-barcellos-para-sugerir-ligacao-de-flavio-bolsonaro-com-compra-de-votos/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro está comprando votos, como mostra reportagem de Caco Barcellos",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Projeto Comprova",
+  "selo": "Enganoso",
+  "titulo": "Post usa reportagem antiga de Caco Barcellos para sugerir ligação ...",
+  "data_checagem": "2026-10-23",
+  "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-usa-reportagem-antiga-de-caco-barcellos-para-sugerir-ligacao-de-flavio-bolsonaro-com-compra-de-votos/"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4A47CQ",
+  "termo": "Lula",
+  "afirmacao": "Médicos de Lula se assustaram com o resultado dos seus exames em outubro de 2026",
+  "quem_disse": "Várais fontes",
+  "data_afirmacao": "2026-10-16",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Vídeo de 2024 sobre boletim médico de Lula circula fora de ...",
+  "data_checagem": "2026-10-23",
+  "url": "https://checamos.afp.com/doc.afp.com.D4A47CQ"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D49Z3ZQ",
+  "termo": "Lula",
+  "afirmacao": "Folha publica extrato bancário de Lula com R$ 300 bilhões em propina",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-21",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Folha não publicou capa sobre suposto extrato bancário de Lula",
+  "data_checagem": "2026-10-23",
+  "url": "https://checamos.afp.com/doc.afp.com.D49Z3ZQ"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D49V2WE",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Ministra do Flávio Bolsonaro diz que vai acabar com o Bolsa Família",
@@ -34,6 +70,30 @@
   "titulo": "Mulheres hipersexualizadas criadas com IA são inseridas em ...",
   "data_checagem": "2026-10-23",
   "url": "https://checamos.afp.com/doc.afp.com.D49B8G7"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Governador eleito do Maranhão, Eduardo Braide declarou apoio a Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Governador eleito do MA não declarou apoio a Flávio Bolsonaro no 2º turno",
+  "data_checagem": "2026-10-22",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de campanha de Flávio, falando que o candidato está planejando um golpe e cortes, foi vazado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que áudio de coordenador de Flávio Bolsonaro vazou nas redes",
+  "data_checagem": "2026-10-22",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
@@ -902,7 +962,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -915,8 +975,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -1574,8 +1634,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -2112,6 +2172,18 @@
   "url": "https://www.aosfatos.org/noticias/vacina-dengue-lulinha/"
  },
  {
+  "id": "https://www.aosfatos.org/noticias/tse-preso-eleicoes-2026/",
+  "termo": "Lula",
+  "afirmacao": "TSE derruba decisão que proibia preso de votar e agora presidiários poderão votar normalmente",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-08-26",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "TSE não permitiu que todo preso vote nas eleições de 2026",
+  "data_checagem": "2026-08-26",
+  "url": "https://www.aosfatos.org/noticias/tse-preso-eleicoes-2026/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/jair-bolsonaro-carreata-flavio/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo mostra Flávio Bolsonaro sendo recebido por apoiadores em Maceió",
@@ -2259,8 +2331,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2659,7 +2731,7 @@
   "data_afirmacao": "2026-10-22",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que Lula tenha dito que fará de tudo para tomar o poder ...",
+  "titulo": "É falso que Lula tenha dito que fará de tudo para tomar o poder, mesmo se o País entrar em crise",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-tomar-o-poder-mesmo-se-pais-entrar-crise-falso/"
  },
@@ -2995,7 +3067,7 @@
   "data_afirmacao": "2026-10-22",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É antigo o vídeo em que Lula relata ter passado mal e ficado ...",
+  "titulo": "É antigo o vídeo em que Lula relata ter passado mal e ficado preocupado com resultados de exames",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-tenha-passado-mal-e-ficado-preocupado-com-resultados-de-exames/"
  },
@@ -3718,6 +3790,18 @@
   "titulo": "Governador eleito do MA não declarou apoio a Flávio Bolsonaro no 2º turno",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de campanha de Flávio, falando que o candidato está planejando um golpe e cortes, foi vazado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que áudio de coordenador de Flávio Bolsonaro vazou nas redes",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
