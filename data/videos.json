@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261024-boatos",
+  "titulo": "Boatos desmentidos (24/10)",
+  "curto": "Boatos",
+  "data": "2026-10-24",
+  "origem": "instagram/publicados/20261024-boatos-reels",
+  "video": "videos/20261024-boatos.mp4",
+  "capa": "videos/20261024-boatos.jpg",
+  "bolinha": "videos/20261024-boatos-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De5RVX8kqPO/"
+ },
+ {
   "id": "20261024-pesquisa-cntmda",
   "titulo": "Nova pesquisa CNT/MDA (24/10)",
   "curto": "CNT/MDA",
@@ -119,16 +130,5 @@
   "capa": "videos/20261022-pesquisa-datafolha.jpg",
   "bolinha": "videos/20261022-pesquisa-datafolha-b.jpg",
   "instagram": "https://www.instagram.com/reel/De0FCoUjjFs/"
- },
- {
-  "id": "20261022-pesquisa-indexa",
-  "titulo": "Nova pesquisa Indexa/Broadcast (22/10)",
-  "curto": "Indexa",
-  "data": "2026-10-22",
-  "origem": "instagram/publicados/20261022-pesquisa-indexa-reels",
-  "video": "videos/20261022-pesquisa-indexa.mp4",
-  "capa": "videos/20261022-pesquisa-indexa.jpg",
-  "bolinha": "videos/20261022-pesquisa-indexa-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DezJ2XGDm16/"
  }
 ]
