@@ -378,7 +378,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-dbt .el-lv-sum,.el-dbt-list,.el-dbt .el-cta{margin-inline:var(--cds-pad-lg)}
 .el-dbt .el-cta{margin-top:0}
 .el-dbt-list{list-style:none;padding:0;margin-block:0;display:flex;flex-direction:column;gap:10px}
-.el-dbt-it{border:1px solid var(--color-border-line);border-left:5px solid var(--it-c);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px;position:relative}
+.el-dbt-it{border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px;position:relative}
 .el-dbt-it .el-dbt-top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:var(--cds-font-size-caption)}
 .el-dbt-it p{margin:0;line-height:1.5;font-size:var(--cds-font-size-body)}
 .el-dbt-it .el-fi-s{margin-top:2px}
@@ -715,6 +715,12 @@ body:has(.el[data-theme="dark"]) .el-ch-ig{background:var(--color-panel);box-sha
 .el-leg-ig i.tr{width:22px;height:0;border-radius:0;border-top:3px dashed var(--color-fg-muted)}
 .el-ch-aviso{margin-top:14px;background:#FFF6CC;border:2px solid var(--ink);border-radius:14px;box-shadow:3px 3px 0 var(--ink);padding:10px 14px;color:#16181D}
 body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
+
+/* ajustes de alinhamento (24/10) */
+@media (min-width:900px){
+  .el-pgtitle{max-width:none}
+  .el-qgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
 </style>
 
 <div class="el"><div class="el-wrap">
@@ -1930,9 +1936,11 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
       const pf = y(proj.f1), pl = y(proj.l1), s = sep(pf, pl), up = pf <= pl;
       lab(x(VOTO) + 6, pf + (up ? -s : s), fNum(Math.round(proj.f1 * 10) / 10) + "%", CF);
       lab(x(VOTO) + 6, pl + (up ? s : -s), fNum(Math.round(proj.l1 * 10) / 10) + "%", CL);
+      if (!mob) {
       const s2 = sep(y(u.f), y(u.l)), up2 = u.f >= u.l;
-      lab(x(ultD) - 9, y(u.f) + (up2 ? -12 - s2 : 12 + s2), fNum(Math.round(u.f * 10) / 10) + "%", CF, "end");
-      lab(x(ultD) - 9, y(u.l) + (up2 ? 12 + s2 : -12 - s2), fNum(Math.round(u.l * 10) / 10) + "%", CL, "end");
+        lab(x(ultD) - 9, y(u.f) + (up2 ? -12 - s2 : 12 + s2), fNum(Math.round(u.f * 10) / 10) + "%", CF, "end");
+        lab(x(ultD) - 9, y(u.l) + (up2 ? 12 + s2 : -12 - s2), fNum(Math.round(u.l * 10) / 10) + "%", CL, "end");
+      }
     } else {
       const s2 = sep(y(u.f), y(u.l)), up2 = u.f >= u.l;
       lab(x(u.d) + 10, y(u.f) + (up2 ? -s2 : s2), fNum(Math.round(u.f * 10) / 10) + "%", CF);
@@ -1991,7 +1999,8 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     g.selectAll("text.yl").data(ticks).join("text")
       .attr("x", left - 8).attr("y", t => y(t)).attr("dy", "0.32em").attr("text-anchor", "end")
       .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(fPct0);
-    const xt = x.ticks(d3.utcDay.every(W < 520 ? 4 : 2));
+    const plotW = (W - endW) - left, passo = Math.max(2, Math.ceil(((x1 - x0) / 864e5) / Math.max(2, Math.floor(plotW / 52))));
+    const xt = x.ticks(d3.utcDay.every(passo));
     g.selectAll("text.xl").data(xt).join("text")
       .attr("x", t => x(t)).attr("y", H - 8).attr("text-anchor", "middle")
       .style("font-size", "var(--cds-font-size-caption)").attr("fill", "var(--color-fg-muted)").text(dFmt);
