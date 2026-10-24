@@ -11734,6 +11734,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "9375-8A17",
+  "conjunto": "pesquisas",
+  "id": "datafolha-2410",
+  "registro": {
+   "id": "datafolha-2410",
+   "instituto": "Datafolha",
+   "divulgacao": "2026-10-24",
+   "campo": "23–24 out",
+   "amostra": 4050,
+   "margem": 2,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 48,
+   "lula_totais": 47,
+   "fonte": "Metrópoles e Gazeta do Povo (pesquisa da Folha e da Globo, registro BR-09540/2026)",
+   "url": "https://www.metropoles.com/brasil/ultima-datafolha-flavio-bolsonaro-lula"
+  },
+  "primeira_vez": "2026-10-24T21:51:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "3D90-784D",
   "conjunto": "pesquisas",
   "id": "dataranking-2010",
