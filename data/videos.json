@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261024-pesquisa-datafolha-vespera",
+  "titulo": "Último Datafolha antes do 2º turno (24/10)",
+  "curto": "Datafolha",
+  "data": "2026-10-24",
+  "origem": "instagram/publicados/20261024-pesquisa-datafolha-vespera-reels",
+  "video": "videos/20261024-pesquisa-datafolha-vespera.mp4",
+  "capa": "videos/20261024-pesquisa-datafolha-vespera.jpg",
+  "bolinha": "videos/20261024-pesquisa-datafolha-vespera-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De5Ro5GjsRH/"
+ },
+ {
   "id": "20261024-boatos",
   "titulo": "Boatos desmentidos (24/10)",
   "curto": "Boatos",
@@ -119,16 +130,5 @@
   "capa": "videos/20261022-pesquisas-do-dia.jpg",
   "bolinha": "videos/20261022-pesquisas-do-dia-b.jpg",
   "instagram": "https://www.instagram.com/reel/De1gbgdDkXJ/"
- },
- {
-  "id": "20261022-pesquisa-datafolha",
-  "titulo": "Nova pesquisa Datafolha (22/10)",
-  "curto": "Datafolha",
-  "data": "2026-10-22",
-  "origem": "instagram/publicados/20261022-pesquisa-datafolha-reels",
-  "video": "videos/20261022-pesquisa-datafolha.mp4",
-  "capa": "videos/20261022-pesquisa-datafolha.jpg",
-  "bolinha": "videos/20261022-pesquisa-datafolha-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De0FCoUjjFs/"
  }
 ]
