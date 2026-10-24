@@ -6519,6 +6519,86 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "07E9-8651",
+  "conjunto": "checagens",
+  "id": "f75",
+  "registro": {
+   "id": "f75",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Disse que a Selic está em 14% contra uma estimativa de 7%.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa explicou que a projeção de 7,5% era do mercado, não do governo, e que a Selic já estava em 13,75% em 2022.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EFB8-84C4",
+  "conjunto": "checagens",
+  "id": "f76",
+  "registro": {
+   "id": "f76",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Disse que Moro pediu para sair do governo e hoje são aliados.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa lembrou que Moro deixou o cargo em 2020 acusando Bolsonaro de interferir na Polícia Federal.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "46AB-A589",
+  "conjunto": "checagens",
+  "id": "f77",
+  "registro": {
+   "id": "f77",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Chamou Flávio Dino de ministro da Justiça ou da injustiça de Lula.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa observou que André Mendonça também foi ministro da Justiça de Bolsonaro antes de chegar ao STF.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "412A-DB41",
+  "conjunto": "checagens",
+  "id": "f78",
+  "registro": {
+   "id": "f78",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Disse que Flávio Dino afirmou que Bolsonaro era o demônio na terra.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou que Dino fez essa declaração em entrevista ao UOL em 2022.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -8476,6 +8556,46 @@
    "direcao": "Proposta ou outro tema"
   },
   "primeira_vez": "2026-10-23T21:30:44Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5D41-850C",
+  "conjunto": "checagens",
+  "id": "l94",
+  "registro": {
+   "id": "l94",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Disse que as relações comerciais com a China cresceram 20%.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Lupa apontou que as exportações para a China cresceram 12% de janeiro a setembro de 2026.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CC4E-6C25",
+  "conjunto": "checagens",
+  "id": "l95",
+  "registro": {
+   "id": "l95",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Sabatina na TV Globo",
+   "afirmacao": "Disse que as exportações para a Alemanha cresceram 15,8% e as para o Vietnã, 14,1%.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Lupa confirmou os dois números de crescimento das exportações.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T00:31:11Z",
   "ainda_publicado": true
  },
  {
