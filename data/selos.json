@@ -12839,6 +12839,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6C7F-FD1B",
+  "conjunto": "sinais",
+  "id": "s-hashtags-globo",
+  "registro": {
+   "id": "s-hashtags-globo",
+   "data": "2026-10-24",
+   "sinal": "Durante o debate da TV Globo, #DebateNaGlobo, #SomosTodos9Dedos, #ExplicaAlgumaCoisaFlavio e #FlavioIrmãoDoTigrinho entraram nos assuntos do momento no X. Os temas foram a fala de Flávio sobre a mão de Lula e a troca de acusações sobre bets. O Cenário MT lembra que estar na lista de tendências não mostra apoio ou rejeição a um candidato.",
+   "fonte": "Cenário MT / Poder360",
+   "url": "https://cenariomt.com.br/cenario-politico/debate-entre-lula-e-flavio-bolsonaro-domina-assuntos-mais-comentados-no-x/"
+  },
+  "primeira_vez": "2026-10-24T11:29:06Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "D095-80BD",
   "conjunto": "sinais",
   "id": "s-impuls-2310",
@@ -12934,6 +12948,20 @@
    "url": "https://www.mobiletime.com.br/noticias/21/10/2026/eleicoes-2026-digital/"
   },
   "primeira_vez": "2026-10-22T19:30:59Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "751C-06DD",
+  "conjunto": "sinais",
+  "id": "s-palver-globo",
+  "registro": {
+   "id": "s-palver-globo",
+   "data": "2026-10-24",
+   "sinal": "Segundo a Palver, no debate da TV Globo (23 out) a avaliação de desempenho favorável a Lula ficou com 58% no X, contra 38% de Flávio; no WhatsApp o quadro foi o inverso, 57% favoráveis a Flávio e 39% a Lula. No WhatsApp, as menções positivas a Flávio caíram de 37% no primeiro bloco para 26% no restante.",
+   "fonte": "Palver, via Folha / Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
+  },
+  "primeira_vez": "2026-10-24T11:29:06Z",
   "ainda_publicado": true
  },
  {
