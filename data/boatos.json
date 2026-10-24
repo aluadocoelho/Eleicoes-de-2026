@@ -1132,5 +1132,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Seções eleitorais"
+ },
+ {
+  "id": "b82",
+  "data": "2026-10-23",
+  "alvo": "Lula",
+  "boato": "Áudio diz, sem provas, que mesários votariam no lugar de eleitores ausentes para beneficiar Lula",
+  "veredito": "Removido por decisão do TSE",
+  "agencia": "TSE",
+  "explicacao": "O corregedor-geral Ricardo Villas Bôas Cueva mandou remover o áudio em até duas horas, sob multa de R$ 100 mil por hora, e proibiu nova publicação.",
+  "url": "https://conjur.com.br/2026-out-24/corregedor-do-tse-manda-tropa-do-flavio-retirar-audio-sobre-falsa-fraude/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo a Conjur, o áudio, atribuído ao deputado Gustavo Gayer (PL-GO), foi publicado no canal de WhatsApp Tropa do Flávio; quem administra o canal será apurado em ação contra a chapa de Flávio.",
+  "tema": "Fraude na votação"
+ },
+ {
+  "id": "b83",
+  "data": "2026-10-05",
+  "alvo": "Flávio",
+  "boato": "TSE investigaria se o atraso na divulgação dos resultados do 1º turno teve relação com fraude contra Flávio",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem diz que o atraso foi congestionamento real no fluxo de dados e que não há indício de mudança de votos, pois a contagem parcial varia conforme as seções chegam.",
+  "url": "https://www.boatos.org/politica/tse-vai-investigar-se-atraso-na-divulgacao-de-resultados-das-eleicoes-tem-relacao-com-fraude-contra-flavio-bolsonaro.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Apuração"
  }
 ]
