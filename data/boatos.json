@@ -1020,5 +1020,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Bolsa Família"
+ },
+ {
+  "id": "b74",
+  "data": "2026-10-21",
+  "alvo": "Flávio",
+  "boato": "Postagens atribuem à Quaest uma pesquisa de 2º turno com Lula em 54% e Flávio em 49%, somando mais de 100%",
+  "veredito": "Falso",
+  "agencia": "Estadão Verifica",
+  "explicacao": "A checagem diz que os números foram inventados; nas pesquisas reais da Quaest, Flávio tinha 46% e Lula 44% em 14/10, e 45% a 44% em 21/10.",
+  "url": "https://www.terra.com.br/noticias/brasil/politica/postagens-com-falsa-pesquisa-quaest-tem-resultado-em-que-lula-e-flavio-somam-mais-de-100,a614473d9ed1f7004aa83b871897fbdck7cuvprq.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Pesquisa eleitoral"
  }
 ]
