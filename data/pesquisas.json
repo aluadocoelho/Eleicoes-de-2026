@@ -572,5 +572,33 @@
   "lula_totais": 47,
   "fonte": "Poder360, CNN Brasil e Metrópoles (pesquisa da Folha e da Globo, registro BR-09540/2026)",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-51-e-lula-49-dos-votos-validos-diz-datafolha/"
+ },
+ {
+  "id": "atlas-2410",
+  "instituto": "AtlasIntel",
+  "divulgacao": "2026-10-24",
+  "campo": "18–23 out",
+  "amostra": 4990,
+  "margem": 1,
+  "flavio_validos": 50.8,
+  "lula_validos": 49.2,
+  "flavio_totais": 49.9,
+  "lula_totais": 48.4,
+  "fonte": "Poder360 (AtlasIntel, registro BR-06380/2026)",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-dos-votos-validos-e-lula-492-diz-atlasintel/"
+ },
+ {
+  "id": "quaest-2410",
+  "instituto": "Quaest",
+  "divulgacao": "2026-10-24",
+  "campo": "23–24 out",
+  "amostra": 3702,
+  "margem": 2,
+  "flavio_validos": 51,
+  "lula_validos": 49,
+  "flavio_totais": 46,
+  "lula_totais": 45,
+  "fonte": "Poder360 (Quaest, registro BR-09158/2026)",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-51-dos-votos-validos-contra-49-de-lula-diz-quaest/"
  }
 ]
