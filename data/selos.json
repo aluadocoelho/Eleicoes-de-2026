@@ -4350,6 +4350,111 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DE53-C408",
+  "conjunto": "boatos",
+  "id": "b76",
+  "registro": {
+   "id": "b76",
+   "data": "2026-10-17",
+   "alvo": "Lula",
+   "boato": "Corrente diz que Lula teve mais votos que habitantes em cidades, o que provaria que mortos votaram nele",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A mensagem não traz fontes e confunde população, eleitorado e votos; ter mais eleitores que moradores não prova fraude.",
+   "url": "https://www.boatos.org/politica/mortos-votaram-em-lula-em-cidades-que-tem-mais-votos-do-que-habitantes-nas-eleicoes-de-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Urnas"
+  },
+  "primeira_vez": "2026-10-24T16:30:49Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E0A0-C475",
+  "conjunto": "boatos",
+  "id": "b77",
+  "registro": {
+   "id": "b77",
+   "data": "2026-10-11",
+   "alvo": "Lula",
+   "boato": "Imagem diz que PCC e Comando Vermelho declararam apoio a Lula no 2º turno, citando a Jovem Pan",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há registro de manifestação das facções nem reportagem da Jovem Pan; a imagem imita uma manchete do veículo.",
+   "url": "https://www.boatos.org/politica/pcc-e-comando-vermelho-cv-declaram-apoio-a-lula-no-2o-turno-das-eleicoes.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Crime organizado"
+  },
+  "primeira_vez": "2026-10-24T16:30:49Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F11C-CC41",
+  "conjunto": "boatos",
+  "id": "b78",
+  "registro": {
+   "id": "b78",
+   "data": "2026-10-11",
+   "alvo": "Flávio",
+   "boato": "Vídeo diz que o cantor Leonardo mudou de lado e vai votar em Lula no 2º turno",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo usa narração manipulada por inteligência artificial e não há declaração do cantor sobre voto em Lula.",
+   "url": "https://www.boatos.org/entretenimento/leonardo-anuncia-que-vai-votar-em-lula-no-2o-turno-das-eleicoes-de-2026.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-24T16:30:49Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D0F7-DC9B",
+  "conjunto": "boatos",
+  "id": "b79",
+  "registro": {
+   "id": "b79",
+   "data": "2026-10-13",
+   "alvo": "Flávio",
+   "boato": "Vídeo diz que Virginia Fonseca anunciou voto em Lula no 2º turno",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo foi feito com inteligência artificial e não há declaração pública da influenciadora sobre voto em Lula.",
+   "url": "https://www.boatos.org/entretenimento/virginia-fonseca-anuncia-voto-em-lula-nas-eleicoes-de-2026.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-24T16:30:49Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4DDF-DB6A",
+  "conjunto": "boatos",
+  "id": "b80",
+  "registro": {
+   "id": "b80",
+   "data": "2026-10-16",
+   "alvo": "Flávio",
+   "boato": "Vídeo diz que Angélica declarou voto em Lula no 2º turno de 2026",
+   "veredito": "Enganoso",
+   "agencia": "Boatos.org",
+   "explicacao": "A fala de Angélica é real, mas é de setembro de 2022; não há manifestação equivalente sobre 2026.",
+   "url": "https://www.boatos.org/entretenimento/angelica-declara-voto-em-lula-no-2o-turno-das-eleicoes-de-2026.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-24T16:30:49Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
