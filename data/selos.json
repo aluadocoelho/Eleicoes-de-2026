@@ -5552,6 +5552,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "84F7-A4E8",
+  "conjunto": "campanha",
+  "id": "e53",
+  "registro": {
+   "id": "e53",
+   "data": "2026-10-23",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cueva, decidiu que Nikolas Ferreira e Pablo Marçal devem evitar conteúdos eleitorais até o fim da votação do 2º turno, em 25/10, com multa de R$ 100 mil por publicação. Meta e X também devem mandar relatórios ao TSE nos dias 24 e 25/10, segundo a CNN Brasil.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-determina-que-nikolas-e-marcal-evitem-conteudos-eleitorais-ate-2o-turno/"
+  },
+  "primeira_vez": "2026-10-24T20:14:00Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
