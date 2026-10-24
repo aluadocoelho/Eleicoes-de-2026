@@ -544,5 +544,19 @@
   "lula_totais": null,
   "fonte": "CNN Brasil (pesquisa própria do Veritá, registro TSE BR-06070/2026; só votos válidos divulgados)",
   "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-513-dos-votos-validos-no-2o-turno-lula-487/"
+ },
+ {
+  "id": "cntmda-2410",
+  "instituto": "CNT/MDA",
+  "divulgacao": "2026-10-24",
+  "campo": "21–23 out",
+  "amostra": 2032,
+  "margem": 2.2,
+  "flavio_validos": 50.7,
+  "lula_validos": 49.3,
+  "flavio_totais": 46.3,
+  "lula_totais": 45.0,
+  "fonte": "O Povo (CNT/MDA, registro BR-02136/2026)",
+  "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/pesquisa-cnt-mda-flavio-507-e-lula-493-de-votos-validos.html"
  }
 ]
