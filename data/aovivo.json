@@ -1051,5 +1051,83 @@
   "categoria": null,
   "fonte": "Poder360",
   "url": "https://www.poder360.com.br/ao-vivo/acompanhe-em-tempo-real-o-debate-da-tv-globo/"
+ },
+ {
+  "id": "globo-11",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Lula",
+  "texto": "Disse que, quando voltou, 33 milhões de pessoas passavam fome.",
+  "veredito": "Verdadeiro",
+  "categoria": "Verdadeiro",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "globo-12",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Lula",
+  "texto": "Disse que tinha acabado com a fome no país em 2012.",
+  "veredito": "Exagerado",
+  "categoria": "Impreciso ou sem contexto",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "globo-13",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Lula",
+  "texto": "Disse que o governo abriu 700 novos mercados para produtos brasileiros.",
+  "veredito": "Verdadeiro",
+  "categoria": "Verdadeiro",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "globo-14",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Lula",
+  "texto": "Disse que a BR-319 era uma obra que ninguém teve coragem de fazer.",
+  "veredito": "Falta contexto",
+  "categoria": "Impreciso ou sem contexto",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "globo-15",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Flávio",
+  "texto": "Disse que a indústria reduz produtos por causa da inflação e que uma barra de chocolate foi de 120g para 80g.",
+  "veredito": "Falso",
+  "categoria": "Falso",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "globo-16",
+  "evento": "debate-globo",
+  "data": "2026-10-23",
+  "hora": "22:50",
+  "tipo": "Checagem",
+  "candidato": "Flávio",
+  "texto": "Disse que Lula já gastou mais de R$ 400 bilhões para tentar se reeleger.",
+  "veredito": "Exagerado",
+  "categoria": "Impreciso ou sem contexto",
+  "fonte": "Lupa",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
  }
 ]
