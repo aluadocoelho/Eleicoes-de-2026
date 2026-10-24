@@ -377,8 +377,13 @@ html = f"""<!doctype html>
 <style>
 {tokens}{style}</style>
 <script type="application/ld+json">{LDJSON}</script>
+<script>window.dataLayer = window.dataLayer || []; function gtag() {{ dataLayer.push(arguments); }} gtag("consent", "default", {{analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied"}});</script>
+<!-- Google Tag Manager (GA4 e Clarity só disparam depois do aceite no banner de cookies) -->
+<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-K5KZ8B2R');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5KZ8B2R" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {NOSCRIPT}
 {body.strip()}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -406,19 +411,16 @@ html = f"""<!doctype html>
   function get() {{ try {{ var v = localStorage.getItem(KEY); if (!v) return null; if (v === "sim") return {{ga: true, cl: false, v: 1}}; if (v === "nao") return {{ga: false, cl: false, v: 1}}; return JSON.parse(v); }} catch (e) {{ return null; }} }}
   function set(o) {{ o.v = 2; try {{ localStorage.setItem(KEY, JSON.stringify(o)); }} catch (e) {{}} }}
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function () {{ window.dataLayer.push(arguments); }};
-  gtag("consent", "default", {{analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied"}});
+  if (!window.gtag) window.gtag = function () {{ window.dataLayer.push(arguments); }};
+  // GA4 e Clarity ficam no Google Tag Manager (GTM-K5KZ8B2R) e só disparam com estes eventos, depois do aceite
   function loadGA() {{
     if (gaOn) return; gaOn = true;
     gtag("consent", "update", {{analytics_storage: "granted"}});
-    gtag("js", new Date());
-    gtag("config", GA, {{allow_google_signals: false, allow_ad_personalization_signals: false}});
-    var sc = document.createElement("script"); sc.async = true; sc.src = "https://www.googletagmanager.com/gtag/js?id=" + GA; document.head.appendChild(sc);
+    window.dataLayer.push({{event: "clareia_consent_ga"}});
   }}
   function loadCL() {{
     if (clOn || !CL) return; clOn = true;
-    (function (c, l, a, r, i, t, y) {{ c[a] = c[a] || function () {{ (c[a].q = c[a].q || []).push(arguments); }}; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); }})(window, document, "clarity", "script", CL);
-    try {{ window.clarity("consent"); }} catch (e) {{}}
+    window.dataLayer.push({{event: "clareia_consent_cl"}});
   }}
   function apply(o) {{ if (o.ga) loadGA(); if (o.cl) loadCL(); }}
   window.elGA = function (path, title) {{ if (!gaOn) return; try {{ gtag("event", "page_view", {{page_title: title, page_location: location.origin + location.pathname + "#" + path}}); }} catch (e) {{}} }};
