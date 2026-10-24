@@ -12342,6 +12342,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "E7BA-B647",
+  "conjunto": "redes",
+  "id": "apexata-pos-globo",
+  "registro": {
+   "id": "apexata-pos-globo",
+   "metrica": "Menções positivas nas redes (%)",
+   "periodo": "após o debate da TV Globo, 23 out (antes: Lula 42,23; Flávio 39,92)",
+   "lula": 42.85,
+   "flavio": 39.34,
+   "fonte": "AP Exata, via CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/debate-da-ganho-residual-a-lula-nas-redes-sem-mudar-cenario-diz-ap-exata/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5362-C17E",
   "conjunto": "redes",
   "id": "ativa-eng-2210",
@@ -12678,6 +12694,38 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "92CA-9B75",
+  "conjunto": "redes",
+  "id": "dx-pub-dia",
+  "registro": {
+   "id": "dx-pub-dia",
+   "metrica": "Média diária de publicações sobre o candidato",
+   "periodo": "19–22 out",
+   "lula": 914000,
+   "flavio": 443000,
+   "fonte": "Datrix, via Exame",
+   "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3837-EBEE",
+  "conjunto": "redes",
+  "id": "dx-seg-0522",
+  "registro": {
+   "id": "dx-seg-0522",
+   "metrica": "Seguidores ganhos nas redes",
+   "periodo": "5–22 out (2º turno)",
+   "lula": 3520000,
+   "flavio": 3440000,
+   "fonte": "Datrix, via Exame",
+   "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "563A-05E1",
   "conjunto": "redes",
   "id": "dx-seg-publica",
@@ -12691,6 +12739,38 @@
    "url": "https://agendadopoder.com.br/lula-supera-flavio-bolsonaro-e-lidera-debate-sobre-seguranca-publica-nas-redes-sociais/"
   },
   "primeira_vez": "2026-10-21T01:28:49Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CFDA-8A59",
+  "conjunto": "redes",
+  "id": "dx-sent-2210",
+  "registro": {
+   "id": "dx-sent-2210",
+   "metrica": "Saldo de sentimento (posts positivos menos negativos, pontos)",
+   "periodo": "22 out",
+   "lula": -5.5,
+   "flavio": -5.3,
+   "fonte": "Datrix, via Exame",
+   "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9A15-88AC",
+  "conjunto": "redes",
+  "id": "dx-trends",
+  "registro": {
+   "id": "dx-trends",
+   "metrica": "Índice médio de buscas no Google Trends",
+   "periodo": "19–22 out",
+   "lula": 36,
+   "flavio": 10,
+   "fonte": "Datrix, via Exame",
+   "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
   "ainda_publicado": true
  },
  {
@@ -13448,6 +13528,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "896B-155C",
+  "conjunto": "sinais",
+  "id": "s-apexata-globo",
+  "registro": {
+   "id": "s-apexata-globo",
+   "data": "2026-10-24",
+   "sinal": "Para a AP Exata, o debate da TV Globo deu ganho pequeno a Lula nas redes e não mudou o quadro geral. A avaliação do governo ficou igual à véspera. A esquerda impulsionou a hashtag #SomosTodos9Dedos e a direita espalhou a fala de Lula sobre 'acabar com a polícia'.",
+   "fonte": "AP Exata, via CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/debate-da-ganho-residual-a-lula-nas-redes-sem-mudar-cenario-diz-ap-exata/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0A4F-54AB",
   "conjunto": "sinais",
   "id": "s-ativa-2210",
@@ -13459,6 +13553,20 @@
    "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
   },
   "primeira_vez": "2026-10-23T17:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DC4A-D4E2",
+  "conjunto": "sinais",
+  "id": "s-datrix-final",
+  "registro": {
+   "id": "s-datrix-final",
+   "data": "2026-10-23",
+   "sinal": "Segundo a Datrix, o sentimento ficou equilibrado entre os dois nos últimos dias: depois de 48,8 pontos de vantagem de Flávio logo após o 1º turno, a diferença entre 19 e 22 de outubro foi de 1,8 ponto. Lula teve mais publicações e buscas; Flávio teve mais perfis influentes publicando e mais interações médias por dia (4,8 bilhões contra 3,9 bilhões). A Datrix avisa que o resultado não indica intenção de voto.",
+   "fonte": "Datrix, via Exame",
+   "url": "https://exame.com/brasil/lula-e-flavio-chegam-ao-final-da-campanha-com-redes-empatadas-diz-datrix/"
+  },
+  "primeira_vez": "2026-10-24T17:30:03Z",
   "ainda_publicado": true
  },
  {
