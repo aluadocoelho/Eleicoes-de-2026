@@ -834,5 +834,16 @@
   "depois": "Poder360, que informa que Gaspar foi procurado e não respondeu até a publicação",
   "motivo": "O Poder360 traz a mesma decisão da ministra Estela Aranha (prazo de 24 horas) e registra que o vice não se manifestou; o veículo anterior tem linha editorial declarada.",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-vice-de-flavio-apagar-video-que-liga-lula-ao-crime/"
+ },
+ {
+  "id": "er77",
+  "data": "2026-10-24",
+  "conjunto": "agenda",
+  "registro_id": "2026-10-18",
+  "o_que_mudou": "Troca de fonte e ajuste da agenda de Lula e de Flávio em 18/10",
+  "antes": "Lula: Brasília, preparação; 20h debate na Band. Fonte: Diário do Poder",
+  "depois": "Lula: sem outra agenda pública além do debate das 20h na Band, em São Paulo; Flávio: ato na Av. Paulista por volta das 11h. Fonte: SBT News",
+  "motivo": "O link anterior era de veículo de linha partidária declarada; o SBT News diz que o debate era a única agenda pública de Lula e não menciona Brasília.",
+  "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-e-flavio-se-encaram-pela-primeira-vez-no-debate-da-band"
  }
 ]
