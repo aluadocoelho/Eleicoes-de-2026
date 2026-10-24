@@ -4353,6 +4353,21 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/quem-herda-votos-cury-renan-caiado-segundo-turno-presidente/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "370D-F2EE",
+  "conjunto": "campanha",
+  "id": "e05",
+  "registro": {
+   "id": "e05",
+   "data": "2026-10-05",
+   "tipo": "Apoio",
+   "descricao": "Levantamento dos 20 governadores eleitos no 1º turno: 10 apoiam Flávio e 5 apoiam Lula (4 neutros e 1 com Caiado).",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/governadores-eleitos-flavio-lula/"
+  },
+  "primeira_vez": "2026-10-24T09:49:01Z",
   "ainda_publicado": true
  },
  {
@@ -4623,6 +4638,21 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ministra-do-tse-determina-que-vice-de-flavio-apague-video-que-associa-lula-ao-crime-organizado/"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "A548-3941",
+  "conjunto": "campanha",
+  "id": "e20",
+  "registro": {
+   "id": "e20",
+   "data": "2026-10-18",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Ministra Estela Aranha manda Alfredo Gaspar, vice de Flávio, apagar em 24 horas post que ligava Lula ao crime organizado ao comentar o assassinato de um empresário em Pernambuco. O Poder360 procurou Gaspar e não teve resposta até a publicação.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-manda-vice-de-flavio-apagar-video-que-liga-lula-ao-crime/"
+  },
+  "primeira_vez": "2026-10-24T09:49:01Z",
   "ainda_publicado": true
  },
  {
