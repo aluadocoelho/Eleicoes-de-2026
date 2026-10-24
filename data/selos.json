@@ -5471,6 +5471,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "234C-5866",
+  "conjunto": "checagens",
+  "id": "f100",
+  "registro": {
+   "id": "f100",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Afirmou que a morte de Ana Clara ocorreu em troca de tiros.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A investigação do MP-RJ contesta essa versão.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4ECC-FA72",
+  "conjunto": "checagens",
+  "id": "f101",
+  "registro": {
+   "id": "f101",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Brasil voltou a ser um \"grande cemitério de obras\", segundo o TCU.",
+   "veredito": "Exagerado",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O TCU indica queda no total de obras paralisadas.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D825-2AD0",
+  "conjunto": "checagens",
+  "id": "f102",
+  "registro": {
+   "id": "f102",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Citou relatório da PF para dizer que o filme sobre Bolsonaro foi feito sem dinheiro público.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Reportagem do The Intercept aponta recursos do banco Master.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "312A-C195",
+  "conjunto": "checagens",
+  "id": "f103",
+  "registro": {
+   "id": "f103",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Prometeu criar a Casa da Mulher Brasileira.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O programa existe desde 2013 e há 13 unidades em funcionamento.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AD2E-6E89",
+  "conjunto": "checagens",
+  "id": "f104",
+  "registro": {
+   "id": "f104",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Afirmou que a espera por cirurgia de câncer de tireoide passou de 700 dias.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O TCU indicou 719 dias em 2025.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "40E8-BE41",
+  "conjunto": "checagens",
+  "id": "f105",
+  "registro": {
+   "id": "f105",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Afirmou nunca ter sido investigado por envolvimento com milícia.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A PF investigou uma assessora dele por negociar emendas com um miliciano condenado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "06EF-64AA",
   "conjunto": "checagens",
   "id": "f11",
@@ -7311,6 +7431,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A820-2B0C",
+  "conjunto": "checagens",
+  "id": "f99",
+  "registro": {
+   "id": "f99",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Afirmou que Lula é contra a redução da maioridade penal.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Lula declarou apoio à redução para crimes hediondos em outubro de 2026.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "2874-D067",
   "conjunto": "checagens",
   "id": "l01",
@@ -7728,6 +7868,26 @@
    "direcao": "Proposta ou outro tema"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BDB5-765D",
+  "conjunto": "checagens",
+  "id": "l110",
+  "registro": {
+   "id": "l110",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a proposta de Flávio de comprar dívidas copia uma ideia que ele já tinha enviado ao Senado.",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A medida provisória do Desenrola 3.0 foi publicada em setembro de 2026.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
   "ainda_publicado": true
  },
  {
@@ -9731,6 +9891,46 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C8DD-3DFB",
+  "conjunto": "checagens_placar",
+  "id": "lupa-globo-flavio",
+  "registro": {
+   "id": "lupa-globo-flavio",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "data": "2026-10-23",
+   "total": 27,
+   "verdadeiro": 5,
+   "impreciso": 16,
+   "falso": 6,
+   "nota": "Só falas de Flávio. Impreciso = exagerado (5), falta contexto (8) e insustentável (3).",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "250D-4CC1",
+  "conjunto": "checagens_placar",
+  "id": "lupa-globo-lula",
+  "registro": {
+   "id": "lupa-globo-lula",
+   "candidato": "Lula",
+   "agencia": "Lupa",
+   "evento": "Debate na Globo",
+   "data": "2026-10-23",
+   "total": 15,
+   "verdadeiro": 8,
+   "impreciso": 5,
+   "falso": 2,
+   "nota": "Só falas de Lula. Impreciso = exagerado (1), falta contexto (2) e subestimado (2).",
+   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "FB5B-5A95",
   "conjunto": "checagens_placar",
   "id": "lupa-live",
@@ -11250,6 +11450,27 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-507-dos-votos-validos-no-2o-turno-lula-493/"
   },
   "primeira_vez": "2026-10-22T16:48:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3BCF-12D3",
+  "conjunto": "pesquisas",
+  "id": "verita-2310",
+  "registro": {
+   "id": "verita-2310",
+   "instituto": "Veritá",
+   "divulgacao": "2026-10-23",
+   "campo": "18–22 out",
+   "amostra": 15554,
+   "margem": 1,
+   "flavio_validos": 51.3,
+   "lula_validos": 48.7,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "CNN Brasil (pesquisa própria do Veritá, registro TSE BR-06070/2026; só votos válidos divulgados)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-513-dos-votos-validos-no-2o-turno-lula-487/"
+  },
+  "primeira_vez": "2026-10-24T10:00:40Z",
   "ainda_publicado": true
  },
  {
