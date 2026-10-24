@@ -466,5 +466,14 @@
   "flavio": 49.1,
   "fonte": "Radar Evag, via Metrópoles",
   "url": "https://www.metropoles.com/colunas/thiago-herdy/a-um-dia-da-eleicao-lula-influencia-debate-no-instagram-e-flavio-no-x"
+ },
+ {
+  "id": "ativa-fav-globo",
+  "metrica": "Participação nas menções favoráveis a um candidato (%)",
+  "periodo": "debate da TV Globo, 23 out, até 10h de 24 out (Facebook, Instagram, X, TikTok e YouTube)",
+  "lula": 56.4,
+  "flavio": 43.6,
+  "fonte": "Ativaweb Datalab, via Folha do Estado da Bahia",
+  "url": "https://www.jornalfolhadoestado.com/politica/debate-tem-564-de-mencoes-favoraveis-a-lula-e-436-a-flavio-nas-redes/"
  }
 ]
