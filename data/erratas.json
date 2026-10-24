@@ -845,5 +845,16 @@
   "depois": "Lula: sem outra agenda pública além do debate das 20h na Band, em São Paulo; Flávio: ato na Av. Paulista por volta das 11h. Fonte: SBT News",
   "motivo": "O link anterior era de veículo de linha partidária declarada; o SBT News diz que o debate era a única agenda pública de Lula e não menciona Brasília.",
   "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-e-flavio-se-encaram-pela-primeira-vez-no-debate-da-band"
+ },
+ {
+  "id": "er78",
+  "data": "2026-10-24",
+  "conjunto": "checagens",
+  "registro_id": "f87",
+  "o_que_mudou": "Ano da projeção de Selic corrigido e trecho sem apoio na fonte retirado",
+  "antes": "Disse que em 2022 a projeção de Selic para 2026 era de 7%, contra cerca de 14% hoje. A projeção era do mercado, não uma meta, e a Selic já estava em 13,75% em 2022, só caindo a partir de 2023.",
+  "depois": "Afirmação e explicação conforme a Lupa: projeção do Focus de 2022 era de 7,75% para 2025.",
+  "motivo": "A Lupa trata de uma projeção feita em 2022 para 2025, e não para 2026, e não traz a afirmação de que a Selic só caiu a partir de 2023.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
  }
 ]
