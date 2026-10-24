@@ -2247,5 +2247,31 @@
   "explicacao": "A Lupa confirmou que Dino fez essa declaração em entrevista ao UOL em 2022.",
   "url": "https://www.agencialupa.org/jornalismo/2026/10/23/erros-e-acertos-de-flavio-bolsonaro-na-campanha-pela-presidencia-em-2026/",
   "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "l96",
+  "data": "2026-10-23",
+  "candidato": "Lula",
+  "agencia": "Lupa",
+  "evento": "Debate na Globo",
+  "afirmacao": "Disse que herdou 6.000 obras paradas.",
+  "veredito": "Subestimado",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "O painel do TCU mostra 8,6 mil obras paralisadas em agosto de 2022, cerca de 26% a mais que o número citado.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+  "direcao": "Ataque ao adversário"
+ },
+ {
+  "id": "f79",
+  "data": "2026-10-23",
+  "candidato": "Flávio",
+  "agencia": "Lupa",
+  "evento": "Debate na Globo",
+  "afirmacao": "Disse que há mais de 11.500 obras paralisadas do atual governo.",
+  "veredito": "Falta contexto",
+  "categoria": "Impreciso ou sem contexto",
+  "explicacao": "O número do TCU (11.944) reúne obras com verba federal entre 2022 e 2024, e o levantamento de abril de 2026 aponta 4.215 paradas.",
+  "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+  "direcao": "Ataque ao adversário"
  }
 ]
