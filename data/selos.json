@@ -361,6 +361,19 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-aliados-de-lula-fazem-atos-pelo-pais-na-reta-final-para-o-2o-turno/"
   },
   "primeira_vez": "2026-10-19T14:15:04Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "666C-F2D8",
+  "conjunto": "agenda",
+  "id": "2026-10-25",
+  "registro": {
+   "data": "2026-10-25",
+   "lula": "São Bernardo do Campo (SP): vota de manhã; à tarde fica em casa em São Paulo e acompanha a apuração no hotel InterContinental, depois das 17h",
+   "flavio": "Rio de Janeiro (RJ): vota às 8h em Vila Isabel; Brasília (DF): acompanha a apuração, local ainda não divulgado",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/onde-lula-flavio-acompanham-apuracao-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-24T00:14:28Z",
   "ainda_publicado": true
  },
  {
@@ -4928,6 +4941,21 @@
    "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/sigilos-mendonca-mantem-decisao-e-cobra-transparencia-sem-subterfugios/"
   },
   "primeira_vez": "2026-10-23T22:15:00Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E8D5-5A35",
+  "conjunto": "campanha",
+  "id": "e49",
+  "registro": {
+   "id": "e49",
+   "data": "2026-10-23",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O ministro Marco Aurélio Bellizze, do TSE, mandou, em decisão provisória, retirar um vídeo de 1min17 feito com imagens de inteligência artificial e publicado em 14/10 no canal \"Tropa do Flávio\", ligado à campanha de Flávio, a pedido da coligação de Lula. O canal já tinha apagado o vídeo, segundo a CNN Brasil.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-manda-remover-video-com-ia-sobre-lula-em-canal-tropa-do-flavio/"
+  },
+  "primeira_vez": "2026-10-24T00:14:28Z",
   "ainda_publicado": true
  },
  {
