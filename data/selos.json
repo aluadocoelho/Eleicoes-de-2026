@@ -11752,6 +11752,27 @@
    "url": "https://www.metropoles.com/brasil/ultima-datafolha-flavio-bolsonaro-lula"
   },
   "primeira_vez": "2026-10-24T21:51:33Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "4300-72F1",
+  "conjunto": "pesquisas",
+  "id": "datafolha-2410",
+  "registro": {
+   "id": "datafolha-2410",
+   "instituto": "Datafolha",
+   "divulgacao": "2026-10-24",
+   "campo": "23–24 out",
+   "amostra": 4050,
+   "margem": 2,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": 48,
+   "lula_totais": 47,
+   "fonte": "Poder360, CNN Brasil e Metrópoles (pesquisa da Folha e da Globo, registro BR-09540/2026)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-51-e-lula-49-dos-votos-validos-diz-datafolha/"
+  },
+  "primeira_vez": "2026-10-24T21:54:13Z",
   "ainda_publicado": true
  },
  {
