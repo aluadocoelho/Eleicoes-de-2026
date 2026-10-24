@@ -12327,6 +12327,38 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "3672-B485",
+  "conjunto": "redes",
+  "id": "palver-globo-wa",
+  "registro": {
+   "id": "palver-globo-wa",
+   "metrica": "Avaliação favorável do desempenho no debate, no WhatsApp (%)",
+   "periodo": "debate da TV Globo, 23 out",
+   "lula": 39,
+   "flavio": 57,
+   "fonte": "Palver, via Folha / Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
+  },
+  "primeira_vez": "2026-10-24T13:29:17Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2944-CCFA",
+  "conjunto": "redes",
+  "id": "palver-globo-x",
+  "registro": {
+   "id": "palver-globo-x",
+   "metrica": "Avaliação favorável do desempenho no debate, no X (%)",
+   "periodo": "debate da TV Globo, 23 out",
+   "lula": 58,
+   "flavio": 38,
+   "fonte": "Palver, via Folha / Plantão Brasil",
+   "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
+  },
+  "primeira_vez": "2026-10-24T13:29:17Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7292-C822",
   "conjunto": "redes",
   "id": "palver-redes",
