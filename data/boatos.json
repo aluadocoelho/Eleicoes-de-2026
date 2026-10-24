@@ -1160,5 +1160,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Apuração"
+ },
+ {
+  "id": "b84",
+  "data": "2026-10-24",
+  "alvo": "Flávio",
+  "boato": "Posts dizem que Flávio falou no debate da Globo que \"marginais andarão comigo\"",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "Ele disse que os marginais andariam \"com medo\" nas ruas; os posts usam um trecho com legenda errada.",
+  "url": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Debate"
  }
 ]
