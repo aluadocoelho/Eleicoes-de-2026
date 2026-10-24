@@ -1,5 +1,27 @@
 [
  {
+  "id": "20261023-pesquisas-do-dia",
+  "titulo": "Pesquisas do dia (23/10)",
+  "curto": "Pesquisas",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-pesquisas-do-dia-reels",
+  "video": "videos/20261023-pesquisas-do-dia.mp4",
+  "capa": "videos/20261023-pesquisas-do-dia.jpg",
+  "bolinha": "videos/20261023-pesquisas-do-dia-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De4gB-mE52s/"
+ },
+ {
+  "id": "20261023-pesquisa-ipespe",
+  "titulo": "Nova pesquisa Ipespe/Abrapel (23/10)",
+  "curto": "Ipespe",
+  "data": "2026-10-23",
+  "origem": "instagram/publicados/20261023-pesquisa-ipespe-reels",
+  "video": "videos/20261023-pesquisa-ipespe.mp4",
+  "capa": "videos/20261023-pesquisa-ipespe.jpg",
+  "bolinha": "videos/20261023-pesquisa-ipespe-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De4fxBglCGr/"
+ },
+ {
   "id": "20261024-dia-de-votar",
   "titulo": "Amanhã é dia de votar (25/10)",
   "curto": "Votação",
@@ -108,27 +130,5 @@
   "capa": "videos/20261022-pesquisa-poderdata.jpg",
   "bolinha": "videos/20261022-pesquisa-poderdata-b.jpg",
   "instagram": "https://www.instagram.com/reel/DezAzVaAAWG/"
- },
- {
-  "id": "20261021-pesquisas-gerp-palver",
-  "titulo": "Pesquisas Gerp e Palver (21/10)",
-  "curto": "Gerp e Palver",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-pesquisas-gerp-palver-reels",
-  "video": "videos/20261021-pesquisas-gerp-palver.mp4",
-  "capa": "videos/20261021-pesquisas-gerp-palver.jpg",
-  "bolinha": "videos/20261021-pesquisas-gerp-palver-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DezAHOOlFKz/"
- },
- {
-  "id": "20261021-plantao-bestbet",
-  "titulo": "PF e a BestBet (21/10)",
-  "curto": "BestBet",
-  "data": "2026-10-21",
-  "origem": "instagram/publicados/20261021-plantao-bestbet-reels",
-  "video": "videos/20261021-plantao-bestbet.mp4",
-  "capa": "videos/20261021-plantao-bestbet.jpg",
-  "bolinha": "videos/20261021-plantao-bestbet-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DexpNxFAtGP/"
  }
 ]
