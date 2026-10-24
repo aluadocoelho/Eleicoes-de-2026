@@ -1977,6 +1977,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0AD8-CEF6",
+  "conjunto": "aovivo",
+  "id": "globo-05",
+  "registro": {
+   "id": "globo-05",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "21:56",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "No primeiro bloco, o tema de infraestrutura abriu o debate. Flávio citou relatório do TCU sobre obras paradas e cobrou planos para rodovias, ferrovias e portos. Lula respondeu que nunca se investiu tanto no setor e que herdou obras paradas.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360 e DGABC",
+   "url": "https://www.dgabc.com.br/Noticia/4364541/lula-e-flavio-trocam-farpas-em-ultimo-debate-presidencial"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B466-A3A5",
+  "conjunto": "aovivo",
+  "id": "globo-06",
+  "registro": {
+   "id": "globo-06",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:10",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "Em temas econômicos, Lula disse que, sem os governos do PT, o salário mínimo seria de R$ 900. Flávio prometeu reajuste acima da inflação e disse ser a favor de tarifa zero nos ônibus aos fins de semana. Nenhuma das duas falas tinha checagem divulgada até a atualização.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360 e Metrópoles",
+   "url": "https://www.metropoles.com/brasil/durante-debate-flavio-diz-que-lula-da-com-uma-mao-e-tira-com-9-dedos"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8338-3F5B",
+  "conjunto": "aovivo",
+  "id": "globo-07",
+  "registro": {
+   "id": "globo-07",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:18",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "Sobre o agronegócio, Flávio disse que o setor é tratado com raiva pelo governo. Lula pediu que o público veja os investimentos feitos e citou as tarifas dos EUA sobre produtos brasileiros.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360 e DGABC",
+   "url": "https://www.dgabc.com.br/Noticia/4364541/lula-e-flavio-trocam-farpas-em-ultimo-debate-presidencial"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "92EB-FB95",
+  "conjunto": "aovivo",
+  "id": "globo-08",
+  "registro": {
+   "id": "globo-08",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:20",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "Nos temas regionais, Flávio acusou a bancada do PT de votar contra água e esgoto no Norte. Lula disse que ele não conhece o Brasil e lembrou a crise de oxigênio em Manaus. Sobre o Nordeste, Flávio se definiu como o carioca mais nordestino e Lula citou a indústria automobilística.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360 e DGABC",
+   "url": "https://www.poder360.com.br/ao-vivo/acompanhe-em-tempo-real-o-debate-da-tv-globo/"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7848-E6E9",
+  "conjunto": "aovivo",
+  "id": "globo-09",
+  "registro": {
+   "id": "globo-09",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:32",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "No bloco de temas escolhidos, Lula perguntou sobre o voto de Flávio contra a licença-maternidade quando era deputado estadual, e Flávio admitiu que errou. Houve pedidos de direito de resposta dos dois lados, e os dois usaram o tempo concedido.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/ao-vivo/acompanhe-em-tempo-real-o-debate-da-tv-globo/"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6A6F-0CA0",
+  "conjunto": "aovivo",
+  "id": "globo-10",
+  "registro": {
+   "id": "globo-10",
+   "evento": "debate-globo",
+   "data": "2026-10-23",
+   "hora": "22:43",
+   "tipo": "Momento",
+   "candidato": null,
+   "texto": "Sobre economia e saúde, Flávio citou dívida pública de R$ 11 trilhões e Lula disse que a dívida cai com o crescimento do PIB. No SUS, Lula perguntou como Flávio melhoraria a saúde pública, e Flávio chamou o sistema de orgulho nacional, mas mal gerido.",
+   "veredito": null,
+   "categoria": null,
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/ao-vivo/acompanhe-em-tempo-real-o-debate-da-tv-globo/"
+  },
+  "primeira_vez": "2026-10-24T02:00:35Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "18CE-8EA3",
   "conjunto": "aovivo",
   "id": "sbtflavio-01",
