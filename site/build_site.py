@@ -423,7 +423,7 @@ html = f"""<!doctype html>
     window.dataLayer.push({{event: "clareia_consent_cl"}});
   }}
   function apply(o) {{ if (o.ga) loadGA(); if (o.cl) loadCL(); }}
-  window.elGA = function (path, title) {{ if (!gaOn) return; try {{ gtag("event", "page_view", {{page_title: title, page_location: location.origin + location.pathname + "#" + path}}); }} catch (e) {{}} }};
+  window.elGA = function (path, title) {{ if (!gaOn) return; try {{ gtag("event", "aba_vista", {{aba: path, aba_titulo: title}}); }} catch (e) {{}} }};
   var opts = document.getElementById("ck-opts"), mais = document.getElementById("ck-mais"), salvar = document.getElementById("ck-salvar"), cga = document.getElementById("ck-ga"), ccl = document.getElementById("ck-cl");
   function hide() {{ box.hidden = true; }}
   function show() {{ var o = get() || {{ga: false, cl: false}}; cga.checked = !!o.ga; if (ccl) ccl.checked = !!o.cl; box.hidden = false; setTimeout(function () {{ box.focus({{preventScroll: true}}); }}, 50); }}
