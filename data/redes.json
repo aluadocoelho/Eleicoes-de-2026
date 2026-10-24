@@ -367,5 +367,23 @@
   "flavio": 77,
   "fonte": "Quaest, via Plantão Brasil",
   "url": "https://www.plantaobrasil.net/noticias/158856-popularidade-digital-lula-mantem-lideranca-mas-vantagem-sobre-flavio-bolsonaro-encolhe"
+ },
+ {
+  "id": "palver-globo-x",
+  "metrica": "Avaliação favorável do desempenho no debate, no X (%)",
+  "periodo": "debate da TV Globo, 23 out",
+  "lula": 58,
+  "flavio": 38,
+  "fonte": "Palver, via Folha / Plantão Brasil",
+  "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
+ },
+ {
+  "id": "palver-globo-wa",
+  "metrica": "Avaliação favorável do desempenho no debate, no WhatsApp (%)",
+  "periodo": "debate da TV Globo, 23 out",
+  "lula": 39,
+  "flavio": 57,
+  "fonte": "Palver, via Folha / Plantão Brasil",
+  "url": "https://www.plantaobrasil.net/noticias/159005-debate-na-tv-globo-revela-embate-digital-polarizado-entre-lula-e-flavio-bolsonaro"
  }
 ]
