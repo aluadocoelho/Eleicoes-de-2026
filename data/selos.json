@@ -5349,6 +5349,36 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0303-F0BD",
+  "conjunto": "campanha",
+  "id": "e51",
+  "registro": {
+   "id": "e51",
+   "data": "2026-10-23",
+   "tipo": "Apoio",
+   "descricao": "Os ex-candidatos João Doria e João Amoêdo declararam voto na sexta (23/10). Doria disse que votará em Flávio Bolsonaro, e Amoêdo disse que votará em Lula, segundo a CNN Brasil.",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/doria-declara-voto-em-flavio-bolsonaro-amoedo-escolhe-lula-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-24T14:14:17Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "AD8C-A35F",
+  "conjunto": "campanha",
+  "id": "e52",
+  "registro": {
+   "id": "e52",
+   "data": "2026-10-24",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "A Procuradoria-Geral Eleitoral, em parecer enviado ao TSE na sexta (23/10) e divulgado neste sábado (24/10), disse que o tribunal não tem competência para intervir no desafio dos sigilos entre Lula e Flávio. O vice-procurador Alexandre Espinosa afirmou que cada um pode autorizar a divulgação dos próprios dados, segundo a Gazeta do Povo.",
+   "fonte": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/promotoria-defende-extincao-desafio-sigilos-lula-flavio/"
+  },
+  "primeira_vez": "2026-10-24T14:14:17Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
