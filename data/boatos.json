@@ -964,5 +964,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Pesquisa"
+ },
+ {
+  "id": "b70",
+  "data": "2026-10-07",
+  "alvo": "Flávio",
+  "boato": "Mensagem diz que a PF descobriu R$ 27 milhões usados por Flávio para comprar votos",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem diz que os R$ 27 milhões são o total em dinheiro apreendido pela PF em operações eleitorais, sem ligação com a campanha de Flávio.",
+  "url": "https://www.boatos.org/politica/policia-descobre-r-27-milhoes-usados-por-flavio-bolsonaro-para-comprar-votos.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Compra de votos"
+ },
+ {
+  "id": "b71",
+  "data": "2026-10-06",
+  "alvo": "Lula",
+  "boato": "Mensagem diz que Nunes Marques revelou 3 milhões de votos atrasados e que Flávio foi eleito no 1º turno",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A checagem diz que a apuração do 1º turno chegou a 100% e levou Flávio e Lula ao 2º turno, sem lote de votos atrasados.",
+  "url": "https://www.boatos.org/politica/nunes-marques-decide-que-flavio-bolsonaro-esta-eleito-com-3-milhoes-de-votos-atrasados.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Apuração"
  }
 ]
