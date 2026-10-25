@@ -992,7 +992,13 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     fetch(URL, {cache: "no-cache", signal: ctl ? ctl.signal : undefined})
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (j) { clearTimeout(to); render(j, false); try { localStorage.setItem(KEY, JSON.stringify(j)); } catch (e) {} })
-      .catch(function () { clearTimeout(to); var g = guardado(); if (g) render(g, true); else { render(null, false); if (Date.now() >= FECHA.getTime()) msg("O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE."); } });
+      .catch(function () {
+        clearTimeout(to);
+        // reserva: cópia do mesmo arquivo do TSE, feita pela Clareia a cada minuto (data/apuracao.json)
+        fetch("/data/apuracao.json", {cache: "no-cache"}).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+          .then(function (j) { if (!j || !j.carg) throw new Error("vazio"); var g = guardado(); var novo = !g || !g.hg || String(j.dg) + String(j.hg) >= String(g.dg) + String(g.hg); render(novo ? j : g, false); if (novo) { try { localStorage.setItem(KEY, JSON.stringify(j)); } catch (e) {} } if (num(j.s && j.s.pst)) msg("Lendo uma cópia dos dados do TSE feita pela Clareia, atualizada a cada poucos minutos."); })
+          .catch(function () { var g = guardado(); if (g) render(g, true); else { render(null, false); if (Date.now() >= FECHA.getTime()) msg("O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE."); } });
+      });
   }
   var g0 = guardado(); if (g0) render(g0, false); else render(null, false);
   ler();

@@ -522,5 +522,6 @@
  "O site do TSE não respondeu agora. Mostrando a última leitura; tentamos de novo em um minuto.": "The TSE site did not respond just now. Showing the last reading; we will try again in a minute.",
  "As urnas fecham às 17h (horário de Brasília). Os primeiros números do TSE aparecem aqui logo depois.": "Polls close at 5 p.m. (Brasília time). The first TSE numbers will show up here right after.",
  "A apuração começou. Os primeiros números do TSE aparecem aqui em instantes.": "The count has started. The first TSE numbers will show up here shortly.",
- "O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE.": "The TSE site did not respond just now. We will try again in a minute; you can also check the TSE site directly."
+ "O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE.": "The TSE site did not respond just now. We will try again in a minute; you can also check the TSE site directly.",
+ "Lendo uma cópia dos dados do TSE feita pela Clareia, atualizada a cada poucos minutos.": "Reading a copy of the TSE data made by Clareia, updated every few minutes."
 }

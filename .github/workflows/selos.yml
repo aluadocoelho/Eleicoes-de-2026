@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "data/**"
+      - "!data/apuracao.json"
       - "!data/selos.json"
       - "scripts/selos.py"
   workflow_dispatch: {}
