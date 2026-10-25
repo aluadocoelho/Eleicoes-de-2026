@@ -4607,6 +4607,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "1FFD-C7F9",
+  "conjunto": "boatos",
+  "id": "b87",
+  "registro": {
+   "id": "b87",
+   "data": "2026-10-15",
+   "alvo": "Flávio",
+   "boato": "Mensagens dizem que Caiado, Zema e Augusto Cury retiraram o apoio a Flávio no 2º turno",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há anúncio de rompimento; os três declararam apoio a ele no 2º turno, e Cury falou em voto de confiança sem cheque em branco.",
+   "url": "https://www.boatos.org/politica/caiado-cury-e-zema-retiram-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Apoios"
+  },
+  "primeira_vez": "2026-10-25T00:30:43Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
