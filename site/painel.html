@@ -754,6 +754,8 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el[data-theme="dark"]{--lg1:#C4B5FD;--lg2:#FFFFFF}
 @media (prefers-color-scheme:dark){.el:not([data-theme="light"]){--lg1:#C4B5FD;--lg2:#FFFFFF}}
 .el-mtopo{display:none}
+/* celular: a faixa roxa Flávio × Lula fica só no topo; ao rolar, acompanha só a barra com o logo e o menu (pedido do dono, 25/10) */
+@media (max-width:48rem){.el-sticky.el-stuck>header{display:none}}
 @media (max-width:48rem){
   .el-marca{display:none}
   .el-mtopo{display:flex;order:-2;align-items:center;justify-content:space-between;gap:12px;padding:2px 2px 4px}
