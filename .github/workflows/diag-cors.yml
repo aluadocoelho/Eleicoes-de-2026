@@ -1,0 +1,17 @@
+name: Diagnóstico CORS do TSE
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set +e
+          mkdir -p diag
+          for uf in br sp; do
+            echo "== $uf" >> diag/cors.txt
+            curl -sS -m 20 -D - -o /dev/null -H "Origin: https://clareiaeleicoes.com.br" "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/$uf/$uf-c0001-e006258-u.json" | grep -i "^HTTP\|access-control\|cache-control\|age:\|last-modified\|date:" >> diag/cors.txt
+          done
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diag; git commit -qm "Diagnóstico CORS"; for t in 1 2 3; do git pull -q --rebase origin main; git push -q && break; done
