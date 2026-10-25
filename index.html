@@ -622,6 +622,8 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-apu-out b{color:var(--color-fg)}
 .el-apu-msg{margin:0;font-size:var(--cds-font-size-body);line-height:1.5}
 .el-apu-msg[hidden]{display:none}
+.el-apu-aviso{margin:0;background:#FFF4C2;color:#1A1500;border:2px solid #16181D;border-radius:14px;box-shadow:3px 3px 0 #16181D;padding:10px 12px;font-size:var(--cds-font-size-body);line-height:1.45}
+.el-apu-aviso[hidden]{display:none}
 .el-apu-foot{margin:0;font-size:0.85rem;color:var(--color-fg-muted);line-height:1.5}
 .el-apu-foot a{color:var(--accent-text)}
 @media (max-width:520px){.el-apu-cands{gap:8px}.el-apu-c{padding:10px}.el-apu-n{min-height:2.6em;align-items:flex-start}.el-apu-n i{margin-top:.35em}}
@@ -1147,6 +1149,7 @@ body.el-vp-lock{overflow:hidden}
     </div>
     <h2 class="el-apu-t" id="apu-t">Contagem dos votos para presidente</h2>
     <p class="el-apu-msg" id="apu-msg" hidden></p>
+    <p class="el-apu-aviso" id="apu-aviso" hidden><b>Votação prorrogada até as 19h em todo o país,</b> <span>por decisão do ministro Cristiano Zanin, do STF. O TSE pausou a divulgação dos resultados com 0,25% das urnas apuradas; os números voltam a mudar quando ela recomeçar.</span></p>
     <div class="el-apu-prog">
       <div class="el-apu-prog-l"><span>Urnas apuradas</span><span><span id="apu-pst">0</span>%</span></div>
       <div class="el-apu-bar" role="progressbar" aria-label="Urnas apuradas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="apu-bar"><b id="apu-bar-b"></b></div>
@@ -1185,6 +1188,7 @@ body.el-vp-lock{overflow:hidden}
     var cs = {}, c0 = j && j.carg && j.carg[0];
     ((c0 && c0.agr) || []).forEach(function (a) { (a.par || []).forEach(function (p) { (p.cand || []).forEach(function (c) { var k = ladoDe(c.nmu || c.nm, p.sg); if (k) cs[k] = c; }); }); });
     var pst = j && j.s ? num(j.s.pst) : null;
+    var av = $("apu-aviso"); if (av) av.hidden = !(Date.now() < new Date("2026-10-25T22:00:00-03:00").getTime() && (pst == null || pst <= 0.3));
     $("apu-pst").textContent = pst == null ? "0" : pctTxt(j.s.pst);
     $("apu-bar-b").style.width = (pst || 0) + "%"; $("apu-bar").setAttribute("aria-valuenow", String(pst || 0));
     var pf = null, pl = null;

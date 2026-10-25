@@ -17,18 +17,18 @@ concurrency:
 jobs:
   copiar:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
-      - name: Copiar o arquivo do TSE (por 5 minutos, a cada minuto)
+      - name: Copiar o arquivo do TSE a cada minuto (5 min no agendamento, até 6 h quando disparado à mão)
         run: |
           agora=$(date -u +%Y%m%d%H%M)
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && { [ "$agora" -lt 202610251945 ] || [ "$agora" -gt 202610270300 ]; }; then echo "Fora da janela da apuração"; exit 0; fi
-          # || [ "$agora" -gt 202610270300 ]; then echo "Fora da janela da apuração"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           URL="https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json"
-          for i in 1 2 3 4 5; do
+          N=5; [ "${{ github.event_name }}" = "workflow_dispatch" ] && N=360
+          for i in $(seq 1 $N); do
             if curl -fsS -m 30 -A "ClareiaEleicoes/1.0 (+https://clareiaeleicoes.com.br)" "$URL" -o /tmp/apu.json && python3 -c "import json;d=json.load(open('/tmp/apu.json'));assert d.get('carg')"; then
               if ! cmp -s /tmp/apu.json data/apuracao.json; then
                 cp /tmp/apu.json data/apuracao.json
@@ -39,5 +39,5 @@ jobs:
             else
               echo "TSE não respondeu"
             fi
-            [ "$i" -lt 5 ] && sleep 55
+            if [ "$i" -lt "$N" ]; then sleep 55; fi
           done
