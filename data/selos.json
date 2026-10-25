@@ -4809,6 +4809,69 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "0F59-1AFD",
+  "conjunto": "boatos",
+  "id": "b95",
+  "registro": {
+   "id": "b95",
+   "data": "2026-10-24",
+   "alvo": "Lula",
+   "boato": "Posts dizem que Lula vai acabar com a polícia no Brasil se for reeleito",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Lula usou a expressão em resposta sobre milícias e narcotráfico no debate da Globo; o site vê um ato falho e não encontra proposta de extinguir as polícias.",
+   "url": "https://www.boatos.org/politica/lula-vai-acabar-com-a-policia-no-brasil-se-for-reeleito.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Segurança pública"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3C4B-6203",
+  "conjunto": "boatos",
+  "id": "b96",
+  "registro": {
+   "id": "b96",
+   "data": "2026-10-20",
+   "alvo": "Flávio",
+   "boato": "Vídeo diz que Luciano Huck declarou voto em Lula",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo foi feito com inteligência artificial e não há registro de fala de Huck sobre voto.",
+   "url": "https://www.boatos.org/entretenimento/luciano-huck-declara-voto-em-lula-e-diz-que-ele-e-o-maior-presidente-da-historia.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8E88-BA04",
+  "conjunto": "boatos",
+  "id": "b97",
+  "registro": {
+   "id": "b97",
+   "data": "2026-10-16",
+   "alvo": "Flávio",
+   "boato": "Imagem mostra Renan Santos fazendo o L de Lula e aderindo à campanha do PT",
+   "veredito": "Falso (gerado por IA)",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi criada com inteligência artificial, e Renan Santos disse que não vai apoiar nenhum dos dois candidatos.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/16/e-falsa-imagem-que-mostra-renan-santos-fazendo-o-l-de-lula/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
@@ -6596,6 +6659,166 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2716-654E",
+  "conjunto": "checagens",
+  "id": "f122",
+  "registro": {
+   "id": "f122",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula é contra reduzir a maioridade penal",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "No Jornal Nacional, Lula disse ser favorável para crimes hediondos.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7461-6C57",
+  "conjunto": "checagens",
+  "id": "f123",
+  "registro": {
+   "id": "f123",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula defendeu ladrão de celular que rouba uma cervejinha",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O vídeo juntou trechos distintos de entrevistas de Lula.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "787C-CFE5",
+  "conjunto": "checagens",
+  "id": "f124",
+  "registro": {
+   "id": "f124",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Brasil tem uma das piores notas do Pisa com o atual governo",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A edição mais recente foi aplicada no governo Bolsonaro, com notas estáveis.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5AB5-3796",
+  "conjunto": "checagens",
+  "id": "f125",
+  "registro": {
+   "id": "f125",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a lei antifacção dá 80 anos de cumprimento integral",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O cumprimento efetivo é limitado a 40 anos.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E0E3-349D",
+  "conjunto": "checagens",
+  "id": "f126",
+  "registro": {
+   "id": "f126",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Tarcísio, Nunes e Derrite acabaram com a Cracolândia",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A concentração foi desfeita, mas os usuários se dispersaram.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C32F-EC80",
+  "conjunto": "checagens",
+  "id": "f127",
+  "registro": {
+   "id": "f127",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula zerou o orçamento do ensino integral",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Foram remanejados R$ 685,9 milhões, não zerados.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F201-3178",
+  "conjunto": "checagens",
+  "id": "f128",
+  "registro": {
+   "id": "f128",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo Lula é contra classificar facções como terroristas",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O governo rejeita essa classificação.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8D66-5F2E",
+  "conjunto": "checagens",
+  "id": "f129",
+  "registro": {
+   "id": "f129",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a espera por cirurgia de tireoide passa de 700 dias",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O TCU apontou 719 dias em 2025.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
   "ainda_publicado": true
  },
  {
@@ -9299,6 +9522,206 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "8584-97EC",
+  "conjunto": "checagens",
+  "id": "l130",
+  "registro": {
+   "id": "l130",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a ferrovia de Araras custaria quase R$ 12 bilhões",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "É uma rodovia da concessionária, com custo de R$ 1,2 a 1,5 bilhão.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3295-8C88",
+  "conjunto": "checagens",
+  "id": "l131",
+  "registro": {
+   "id": "l131",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a transposição do São Francisco é a maior obra hídrica do mundo",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O projeto chinês Sul-Norte é bem maior.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "79CD-C6F6",
+  "conjunto": "checagens",
+  "id": "l132",
+  "registro": {
+   "id": "l132",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a transposição tem 1.700 km de canais e 15 mil km de adutoras",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Os canais somam 477 km, ou 699 km com os ramais.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B1C1-0B8A",
+  "conjunto": "checagens",
+  "id": "l133",
+  "registro": {
+   "id": "l133",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a economia não cresceu acima de 3% desde 2010",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O PIB cresceu cerca de 4% em 2011 e 4,8% em 2021.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "747F-49D5",
+  "conjunto": "checagens",
+  "id": "l134",
+  "registro": {
+   "id": "l134",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Desenrola 2 atendeu 46 milhões de pessoas",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Foram cerca de 1,4 milhão de dívidas renegociadas.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D6ED-DAB7",
+  "conjunto": "checagens",
+  "id": "l135",
+  "registro": {
+   "id": "l135",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Tigrinho foi criado pelo adversário em 2022",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A Lei 14.790/2023, sancionada por Lula, permitiu os jogos online.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2AF5-9DE4",
+  "conjunto": "checagens",
+  "id": "l136",
+  "registro": {
+   "id": "l136",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a escola cívico-militar foi inventada e não foi feita pelo adversário",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O modelo chegou a 215 escolas cadastradas.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "599D-F474",
+  "conjunto": "checagens",
+  "id": "l137",
+  "registro": {
+   "id": "l137",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Flávio quer um modelo igual ao de Milei",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "No debate da Band, Flávio evitou assumir esse modelo.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "29AF-A036",
+  "conjunto": "checagens",
+  "id": "l138",
+  "registro": {
+   "id": "l138",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que argentinos comem carne de burro por pobreza",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Foi um caso isolado, sem relação com a pobreza.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "95B7-0252",
+  "conjunto": "checagens",
+  "id": "l139",
+  "registro": {
+   "id": "l139",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que herdou 6 mil obras paradas",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O TCU apontou 8.603 obras paralisadas em 2023.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "70C6-2695",
   "conjunto": "checagens",
   "id": "l14",
@@ -9316,6 +9739,86 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D8B3-1095",
+  "conjunto": "checagens",
+  "id": "l140",
+  "registro": {
+   "id": "l140",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que perdeu o dedo aos 17 anos, trabalhando à noite",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O acidente foi aos 18 anos, em 1963.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "589A-0E23",
+  "conjunto": "checagens",
+  "id": "l141",
+  "registro": {
+   "id": "l141",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Desenrola foi criado no primeiro mês de governo",
+   "veredito": "Impreciso",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A medida provisória veio em junho de 2023, cerca de seis meses após a posse.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2025-A0DB",
+  "conjunto": "checagens",
+  "id": "l142",
+  "registro": {
+   "id": "l142",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o salário mínimo é de R$ 1.621",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "O valor foi confirmado por decreto.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E247-50ED",
+  "conjunto": "checagens",
+  "id": "l143",
+  "registro": {
+   "id": "l143",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Flávio foi o único deputado contra a licença-maternidade na Alerj",
+   "veredito": "Verdadeiro",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Alerj aprovou o texto por 45 votos a 1.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
   "ainda_publicado": true
  },
  {
@@ -11396,6 +11899,46 @@
    "url": "https://ranking.org.br/en/articles/checagem-entrevista-flavio-bolsonaro-jornal-nacional-2-turno-2026"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6048-1A46",
+  "conjunto": "checagens_placar",
+  "id": "rk-globo-flavio",
+  "registro": {
+   "id": "rk-globo-flavio",
+   "candidato": "Flávio",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "data": "2026-10-23",
+   "total": 74,
+   "verdadeiro": 48,
+   "impreciso": 21,
+   "falso": 5,
+   "nota": "Só falas factuais do próprio candidato. Classes: verdadeiro, impreciso, falso.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "ED7F-1AA4",
+  "conjunto": "checagens_placar",
+  "id": "rk-globo-lula",
+  "registro": {
+   "id": "rk-globo-lula",
+   "candidato": "Lula",
+   "agencia": "Ranking dos Políticos",
+   "evento": "Debate na Globo",
+   "data": "2026-10-23",
+   "total": 63,
+   "verdadeiro": 28,
+   "impreciso": 26,
+   "falso": 9,
+   "nota": "Só falas factuais do próprio candidato. Classes: verdadeiro, impreciso, falso.",
+   "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026"
+  },
+  "primeira_vez": "2026-10-25T07:33:20Z",
   "ainda_publicado": true
  },
  {
