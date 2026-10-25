@@ -520,5 +520,32 @@
   "flavio": 2076,
   "fonte": "HypeAuditor, via Exame",
   "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+ },
+ {
+  "id": "ipd-quaest-2410",
+  "metrica": "Índice de Popularidade Digital (0 a 100)",
+  "periodo": "dados até 24 out, véspera do 2º turno (em 22 out: Lula 81,1; Flávio 77)",
+  "lula": 82.7,
+  "flavio": 76.2,
+  "fonte": "Quaest, via Jornal de Brasília",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-aumenta-vantagem-sobre-flavio-bolsonaro-em-popularidade-digital-na-vespera-do-segundo-turno/"
+ },
+ {
+  "id": "quaest-ig-seg-2410",
+  "metrica": "Seguidores ganhos no Instagram",
+  "periodo": "24 out (último dia de campanha)",
+  "lula": 221000,
+  "flavio": 161000,
+  "fonte": "Quaest, via Jornal de Brasília",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-aumenta-vantagem-sobre-flavio-bolsonaro-em-popularidade-digital-na-vespera-do-segundo-turno/"
+ },
+ {
+  "id": "quaest-posts-2410",
+  "metrica": "Posts publicados no último dia de campanha",
+  "periodo": "24 out",
+  "lula": 115,
+  "flavio": 29,
+  "fonte": "Quaest, via Jornal de Brasília",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-aumenta-vantagem-sobre-flavio-bolsonaro-em-popularidade-digital-na-vespera-do-segundo-turno/"
  }
 ]
