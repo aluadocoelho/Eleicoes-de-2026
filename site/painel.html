@@ -1101,28 +1101,29 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Redes sociais</span><p class="el-pgtitle">Como cada um <em>aparece nas redes</em></p></div>
     <p class="el-intro">Como os dois candidatos se saem nas redes sociais. Lembre: curtidas e seguidores mostram quem está mobilizando apoiadores, não quem vai ganhar.</p>
     <p class="el-note"><b>Palavras desta aba:</b> <b>interação</b> (ou engajamento) é cada curtida, comentário ou compartilhamento; <b>menção</b> é cada vez que o nome do candidato aparece numa publicação; <b>visualização</b> é cada vez que um vídeo é visto.</p>
-    <div class="el-kpis">
-      <div class="el-card">
-        <div class="el-kpi-label">Curtidas, comentários e compartilhamentos: quantas vezes Lula tem as de Flávio · 2º turno</div>
-        <div class="el-kpi-val"><span class="dash-skeleton" data-source="razao_redes" data-field="razao">—</span>×</div>
-        <div class="el-kpi-note"><span data-source="razao_redes" data-field="lula">—</span> contra <span data-source="razao_redes" data-field="flavio">—</span> · 5 a 17 out</div>
+    <div class="el-kpis" id="kpi-redes">
+      <div class="el-card" data-k="int">
+        <div class="el-kpi-label">Curtidas, comentários e compartilhamentos nos perfis oficiais: quantas vezes um tem as do outro</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-v>—</span></div>
+        <div class="el-kpi-note" data-n>—</div>
       </div>
-      <div class="el-card">
-        <div class="el-kpi-label">Curtidas e comentários por post · Flávio</div>
-        <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="redes" data-where="id=int-post" data-field="flavio">—</span></div>
-        <div class="el-kpi-note">Lula: <span data-source="redes" data-where="id=int-post" data-field="lula">—</span> · 6 a 15 out</div>
+      <div class="el-card" data-k="post">
+        <div class="el-kpi-label">Curtidas e comentários por post</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-v>—</span></div>
+        <div class="el-kpi-note" data-n>—</div>
       </div>
-      <div class="el-card">
-        <div class="el-kpi-label">Novos seguidores · Flávio</div>
-        <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="redes" data-where="id=seguidores" data-field="flavio">—</span></div>
-        <div class="el-kpi-note">Lula: <span data-source="redes" data-where="id=seguidores" data-field="lula">—</span> · 4 a 8 out</div>
+      <div class="el-card" data-k="seg">
+        <div class="el-kpi-label">Novos seguidores</div>
+        <div class="el-kpi-val"><span class="dash-skeleton" data-v>—</span></div>
+        <div class="el-kpi-note" data-n>—</div>
       </div>
     </div>
+    <p class="el-note">Os três números acima são sempre a medida mais recente de cada tipo que reunimos.</p>
 
     <div class="el-grid">
       <div class="el-card" id="card-redes">
         <h2 class="el-h">Lula e Flávio nas redes</h2>
-        <p class="el-note">Perfis oficiais dos candidatos, segundo Bites, Quaest, TV Globo, Projeto Brief e AP Exata (a fonte de cada linha está ao lado). Cada métrica na sua própria escala.</p>
+        <p class="el-note">Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.</p>
         <div class="dash-skeleton" id="ch-redes" data-source="redes" style="min-height:16rem"></div>
       </div>
       <div class="el-card" id="card-sinais">
@@ -1655,10 +1656,10 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
 
   dash.calc("razao_redes", {
     title: "Interações Lula ÷ Flávio",
-    description: "Quantas vezes as interações nos perfis de Lula superam as de Flávio de 5 a 17 de outubro.",
+    description: "Quantas vezes as interações nos perfis de Lula superam as de Flávio, na medida mais recente de interações nos perfis oficiais.",
     inputs: ["redes"],
     fn: (redes) => {
-      const r = redes.find(x => x.id === "int-2t");
+      const r = redes.filter(x => /^intera[çc][õo]es nos perfis oficiais/i.test(String(x.metrica))).pop() || redes.find(x => x.id === "int-2t");
       return [{razao: Math.round(Number(r.lula) / Number(r.flavio) * 10) / 10, lula: Number(r.lula), flavio: Number(r.flavio)}];
     }
   });
@@ -2088,7 +2089,7 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
       ["Outras medidas", /./]
     ];
     const grupos = GR.map(([nome]) => ({nome, itens: []}));
-    for (const r of rows) grupos[GR.findIndex(([, re]) => re.test(String(r.metrica)))].itens.push(r);
+    for (const r of rows.slice().reverse()) grupos[GR.findIndex(([, re]) => re.test(String(r.metrica)))].itens.push(r);
     grupos.filter(g => g.itens.length).forEach((g, gi) => {
       const det = document.createElement("details"); det.className = "el-rgrp"; if (gi === 0) det.open = true;
       const sm = document.createElement("summary"); sm.textContent = g.nome;
@@ -2114,6 +2115,36 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
       pairBar(wrap, "Flávio", fla, mx, CF, fComp.format(fla));
       pairBar(wrap, "Lula", lula, mx, CL, fComp.format(lula));
       box.appendChild(wrap);
+    }
+  }
+
+  function kpiRedes(rows) {
+    const box = document.getElementById("kpi-redes");
+    if (!box || !rows) return;
+    const ult = re => rows.filter(r => re.test(String(r.metrica)) && r.lula != null && r.flavio != null).pop();
+    const K = {
+      int: ult(/^intera[çc][õo]es nos perfis oficiais/i),
+      post: ult(/intera.*por post/i),
+      seg: ult(/novos seguidores|seguidores ganhos/i)
+    };
+    for (const [k, r] of Object.entries(K)) {
+      const card = box.querySelector('[data-k="' + k + '"]');
+      if (!card || !r) continue;
+      const l = Number(r.lula), f = Number(r.flavio), lulaFrente = l >= f;
+      const v = card.querySelector("[data-v]"), n = card.querySelector("[data-n]");
+      if (k !== "int") { const lb = card.querySelector(".el-kpi-label"); if (lb) lb.textContent = r.metrica; }
+      v.classList.remove("dash-skeleton");
+      v.className = lulaFrente ? "el-cl" : "el-cf";
+      const nome = lulaFrente ? "Lula" : "Flávio", outro = lulaFrente ? "Flávio" : "Lula";
+      if (k === "int") {
+        const raz = Math.round(Math.max(l, f) / Math.min(l, f) * 10) / 10;
+        v.textContent = nome + " " + String(raz).replace(".", ",") + "×";
+      } else v.textContent = nome + " " + fComp.format(Math.max(l, f));
+      n.replaceChildren();
+      const a = document.createElement("span"); a.textContent = (k === "int" ? nome + " " + fComp.format(Math.max(l, f)) + " · " : "") + outro + " " + fComp.format(Math.min(l, f)) + " · ";
+      const pe = document.createElement("span"); pe.textContent = r.periodo;
+      const fo = document.createElement("span"); fo.textContent = " · " + r.fonte;
+      n.append(a, pe, fo);
     }
   }
 
@@ -2850,6 +2881,7 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     // Redes
     const rd = document.getElementById("ch-redes");
     drawRedes(rd, blockState(rd, "redes"));
+    kpiRedes(blockState(rd, "redes"));
     const si = blockState(document.getElementById("t-sinais"), "sinais");
     table("#t-sinais", si ? si.slice().sort(byDateDesc) : null, [
       {f: "data", render: dateCell("data"), cls: "el-nowrap"}, {f: "sinal", render: (td, r) => {
