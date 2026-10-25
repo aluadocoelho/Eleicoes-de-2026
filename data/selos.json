@@ -14591,6 +14591,54 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "04DC-3022",
+  "conjunto": "redes",
+  "id": "hype-criadores",
+  "registro": {
+   "id": "hype-criadores",
+   "metrica": "Posts de criadores de conteúdo que citam o candidato",
+   "periodo": "5–18 out (após o 1º turno)",
+   "lula": 1934,
+   "flavio": 2076,
+   "fonte": "HypeAuditor, via Exame",
+   "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-25T15:30:10Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "70EC-A4FA",
+  "conjunto": "redes",
+  "id": "hype-curtidas-post",
+  "registro": {
+   "id": "hype-curtidas-post",
+   "metrica": "Média de curtidas por post no Instagram oficial",
+   "periodo": "5–18 out (antes, 20 set–3 out: Lula 190 mil; Flávio 591 mil)",
+   "lula": 704000,
+   "flavio": 783000,
+   "fonte": "HypeAuditor, via Exame",
+   "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-25T15:30:10Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DB7B-4018",
+  "conjunto": "redes",
+  "id": "hype-int-0518",
+  "registro": {
+   "id": "hype-int-0518",
+   "metrica": "Curtidas e comentários no Instagram oficial",
+   "periodo": "5–18 out (após o 1º turno; antes, 20 set–3 out: Lula 49,4 mi; Flávio 28,7 mi)",
+   "lula": 136500000,
+   "flavio": 39400000,
+   "fonte": "HypeAuditor, via Exame",
+   "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-25T15:30:10Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0EA4-0746",
   "conjunto": "redes",
   "id": "int-1t",
@@ -15404,6 +15452,20 @@
    "url": "https://cenariomt.com.br/cenario-politico/debate-entre-lula-e-flavio-bolsonaro-domina-assuntos-mais-comentados-no-x/"
   },
   "primeira_vez": "2026-10-24T11:29:06Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "50C4-7704",
+  "conjunto": "sinais",
+  "id": "s-hype-2510",
+  "registro": {
+   "id": "s-hype-2510",
+   "data": "2026-10-25",
+   "sinal": "A HypeAuditor mediu que, entre 5 e 18 de outubro, as curtidas e os comentários no Instagram de Lula foram de 49,4 milhões (período anterior) para 136,5 milhões, e os de Flávio de 28,7 milhões para 39,4 milhões. Os posts de criadores que citam cada um caíram nas duas campanhas; no caso de Flávio, um único post de Nikolas Ferreira concentrou 39% do alcance estimado, e no de Lula o alcance ficou espalhado entre artistas, com Anitta à frente.",
+   "fonte": "HypeAuditor, via Exame",
+   "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-25T15:30:10Z",
   "ainda_publicado": true
  },
  {
