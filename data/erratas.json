@@ -856,5 +856,38 @@
   "depois": "Afirmação e explicação conforme a Lupa: projeção do Focus de 2022 era de 7,75% para 2025.",
   "motivo": "A Lupa trata de uma projeção feita em 2022 para 2025, e não para 2026, e não traz a afirmação de que a Selic só caiu a partir de 2023.",
   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "er79",
+  "data": "2026-10-24",
+  "conjunto": "pesquisas",
+  "registro_id": "palver-2410",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "CartaCapital",
+  "depois": "Exame",
+  "motivo": "O link anterior era de veículo de linha editorial declarada; a Exame traz os mesmos dados (campo de 22 a 24/10, 5.000 entrevistas, margem de 2,2 pontos, registro BR-01794/2026, Flávio 50% e Lula 49% nos votos totais).",
+  "url": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/"
+ },
+ {
+  "id": "er80",
+  "data": "2026-10-24",
+  "conjunto": "boatos",
+  "registro_id": "b82",
+  "o_que_mudou": "Troca de fonte e texto da origem ajustado ao que o TSE informa",
+  "antes": "Conjur; origem: \"quem administra o canal será apurado em ação contra a chapa de Flávio\"",
+  "depois": "TSE (página oficial); origem: áudio atribuído ao deputado federal Gustavo Gayer, publicado no canal Tropa do Flávio",
+  "motivo": "A página do TSE é a fonte primária da decisão e confirma prazo, multa e o canal; ela não traz a frase sobre a apuração de quem administra o canal. Também informa que a decisão será submetida ao Plenário.",
+  "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-geral-eleitoral-determina-retirada-de-audio-falso-sobre-mesarios-do-canal-de-whatsapp-tropa-do-flavio"
+ },
+ {
+  "id": "er81",
+  "data": "2026-10-24",
+  "conjunto": "campanha",
+  "registro_id": "e52",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gazeta do Povo",
+  "depois": "Poder360",
+  "motivo": "O link anterior era de veículo com linha editorial declarada; o Poder360 traz o mesmo parecer do vice-procurador-geral eleitoral Alexandre Espinosa, apresentado em 23/10 e noticiado em 24/10.",
+  "url": "https://www.poder360.com.br/poder-eleicoes-2026/mp-eleitoral-defende-arquivar-acao-sobre-sigilo-de-candidatos/"
  }
 ]
