@@ -889,5 +889,38 @@
   "depois": "Poder360",
   "motivo": "O link anterior era de veículo com linha editorial declarada; o Poder360 traz o mesmo parecer do vice-procurador-geral eleitoral Alexandre Espinosa, apresentado em 23/10 e noticiado em 24/10.",
   "url": "https://www.poder360.com.br/poder-eleicoes-2026/mp-eleitoral-defende-arquivar-acao-sobre-sigilo-de-candidatos/"
+ },
+ {
+  "id": "er82",
+  "data": "2026-10-25",
+  "conjunto": "campanha",
+  "registro_id": "e26",
+  "o_que_mudou": "Troca de fonte",
+  "antes": "Gazeta Brasil (marcado a confirmar)",
+  "depois": "Correio Braziliense, que registra a fala de Gusttavo Lima no encerramento da Expo Assis, em Assis Chateaubriand (PR), em 18/10",
+  "motivo": "O link anterior era de veículo com linha partidária declarada; o Correio Braziliense traz a mesma informação, o que permite tirar a marcação a confirmar.",
+  "url": "https://tvprime.correiobraziliense.com.br/noticia/409916/celebridades/video-atitude-de-gusttavo-lima-em-relacao-a-flavio-a-poucos-dias-da-eleicao-gera-revolta-ridiculo-19102026"
+ },
+ {
+  "id": "er83",
+  "data": "2026-10-25",
+  "conjunto": "campanha",
+  "registro_id": "p03",
+  "o_que_mudou": "Troca de fonte no plantão p03 (aba campanha)",
+  "antes": "CartaCapital",
+  "depois": "Metrópoles",
+  "motivo": "CartaCapital tem linha editorial declarada; o Metrópoles registra a fala da advogada Maria Claudia Bucchianeri em 22/10, de que a campanha de Flávio entrega tudo depois de conferir os documentos de Lula.",
+  "url": "https://www.metropoles.com/brasil/campanha-de-flavio-vai-abrir-sigilos-exigidos-por-lula-desafio-aceito"
+ },
+ {
+  "id": "er84",
+  "data": "2026-10-25",
+  "conjunto": "pesquisas",
+  "registro_id": "colectta-2410",
+  "o_que_mudou": "Fonte citada",
+  "antes": "Congresso em Foco e Brasil 247",
+  "depois": "Congresso em Foco",
+  "motivo": "O Brasil 247 tem linha partidária declarada e o link da linha já era do Congresso em Foco.",
+  "url": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta"
  }
 ]
