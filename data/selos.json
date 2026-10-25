@@ -12968,6 +12968,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DA8D-5952",
+  "conjunto": "pesquisas",
+  "id": "verita-2410",
+  "registro": {
+   "id": "verita-2410",
+   "instituto": "Veritá",
+   "divulgacao": "2026-10-24",
+   "campo": "19–23 out",
+   "amostra": 15554,
+   "margem": 1,
+   "flavio_validos": 51.6,
+   "lula_validos": 48.4,
+   "flavio_totais": 49.4,
+   "lula_totais": 46.5,
+   "fonte": "Exame (pesquisa própria do Veritá, registro TSE BR-03181/2026)",
+   "url": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-5156-e-lula-4844-no-2o-turno"
+  },
+  "primeira_vez": "2026-10-25T05:59:40Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7A89-5E00",
   "conjunto": "pesquisas",
   "id": "vox-0910",
