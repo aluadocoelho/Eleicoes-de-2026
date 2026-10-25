@@ -39,5 +39,15 @@ jobs:
             else
               echo "TSE não respondeu"
             fi
+            mkdir -p data/apuracao-uf; mudou=0
+            for uf in ac al ap am ba ce df es go ma mt ms mg pa pb pr pe pi rj rn rs ro rr sc sp se to; do
+              if curl -fsS -m 20 -A "ClareiaEleicoes/1.0 (+https://clareiaeleicoes.com.br)" "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/$uf/$uf-c0001-e006258-u.json" -o /tmp/uf.json && python3 -c "import json;assert json.load(open('/tmp/uf.json')).get('carg')"; then
+                if ! cmp -s /tmp/uf.json data/apuracao-uf/$uf.json; then cp /tmp/uf.json data/apuracao-uf/$uf.json; mudou=1; fi
+              fi
+            done
+            if [ "$mudou" = 1 ]; then
+              git add data/apuracao-uf; git commit -q -m "Apuração: cópia do TSE por estado" || true
+              for t in 1 2 3; do git push -q && break; git pull -q --rebase origin main; done
+            fi
             if [ "$i" -lt "$N" ]; then sleep 55; fi
           done

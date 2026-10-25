@@ -2,7 +2,7 @@ name: Validar dados
 
 on:
   push:
-    paths: ["data/**", "!data/apuracao.json", "scripts/validate.py"]
+    paths: ["data/**", "!data/apuracao.json", "!data/apuracao-uf/**", "scripts/validate.py"]
   pull_request:
     paths: ["data/**", "scripts/validate.py"]
   workflow_dispatch: {}

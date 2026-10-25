@@ -6,6 +6,7 @@ on:
     paths:
       - "data/**"
       - "!data/apuracao.json"
+      - "!data/apuracao-uf/**"
       - "!data/selos.json"
       - "scripts/selos.py"
   workflow_dispatch: {}
