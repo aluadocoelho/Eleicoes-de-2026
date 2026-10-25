@@ -12524,6 +12524,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "803C-2702",
+  "conjunto": "pesquisas",
+  "id": "colectta-2410",
+  "registro": {
+   "id": "colectta-2410",
+   "instituto": "Colectta",
+   "divulgacao": "2026-10-24",
+   "campo": "23 out",
+   "amostra": 3000,
+   "margem": 2,
+   "flavio_validos": 49.7,
+   "lula_validos": 50.3,
+   "flavio_totais": 46,
+   "lula_totais": 46.5,
+   "fonte": "Congresso em Foco e Brasil 247 (Brazil Economy/Colectta, registro BR-05601/2026)",
+   "url": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta"
+  },
+  "primeira_vez": "2026-10-25T10:00:23Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "415C-724D",
   "conjunto": "pesquisas",
   "id": "datafolha-0810",
