@@ -4872,6 +4872,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "EC18-37B2",
+  "conjunto": "boatos",
+  "id": "b98",
+  "registro": {
+   "id": "b98",
+   "data": "2026-10-22",
+   "alvo": "Flávio",
+   "boato": "Mensagens dizem que Flávio ameaçou deixar o debate da Globo se houvesse checagem de fatos em tempo real",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A checagem não achou vídeo, nota ou fala de Flávio com essa ameaça; o que foi noticiado é que a campanha de Lula pediu à Globo a checagem em tempo real.",
+   "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Debate da Globo"
+  },
+  "primeira_vez": "2026-10-25T11:30:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0C7C-F514",
   "conjunto": "campanha",
   "id": "e01",
