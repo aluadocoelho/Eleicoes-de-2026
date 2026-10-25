@@ -2898,6 +2898,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "20EC-3EB1",
+  "conjunto": "boatos",
+  "id": "b102",
+  "registro": {
+   "id": "b102",
+   "data": "2026-10-25",
+   "alvo": "Flávio",
+   "boato": "Imagem seria prova de que Flávio usou ponto eletrônico no ouvido durante o debate da Globo",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A imagem não prova o uso do aparelho e vem de uma fala de Flávio sobre ferrovias, em outro contexto, e não do debate de 23/10.",
+   "url": "https://www.boatos.org/politica/flavio-bolsonaro-estava-usando-ponto-eletronico-durante-debate-da-globo.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Debate da Globo"
+  },
+  "primeira_vez": "2026-10-25T17:31:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C67E-CEBD",
+  "conjunto": "boatos",
+  "id": "b103",
+  "registro": {
+   "id": "b103",
+   "data": "2026-10-25",
+   "alvo": "Flávio",
+   "boato": "Vídeo diz que Flávio chutou uma imagem de Nossa Senhora durante um comício",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O objeto chutado no vídeo é um boneco chamado Pixuleco, que ironiza Lula, e não uma imagem religiosa.",
+   "url": "https://www.boatos.org/politica/flavio-bolsonaro-chutou-imagem-de-nossa-senhora-durante-comicio.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Religião"
+  },
+  "primeira_vez": "2026-10-25T17:31:05Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F7B3-BD58",
   "conjunto": "boatos",
   "id": "b11",
