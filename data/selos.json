@@ -13984,6 +13984,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "1E14-08CD",
+  "conjunto": "redes",
+  "id": "ativa-ipde-2410",
+  "registro": {
+   "id": "ativa-ipde-2410",
+   "metrica": "Índice de Presença Digital Eleitoral (pontos, soma 100)",
+   "periodo": "fechado em 24 out (véspera do 2º turno)",
+   "lula": 55.6,
+   "flavio": 44.4,
+   "fonte": "Ativaweb Datalab, via PE Notícias",
+   "url": "https://penoticias.com.br/blog/os-pontos-fortes-e-fracos-de-lula-e-flavio-nas-redes-sociais-na-vespera-do-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-25T13:29:08Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "D6F3-109E",
   "conjunto": "redes",
   "id": "ativa-reels-2210",
@@ -13997,6 +14013,22 @@
    "url": "https://colunapolitica.com.br/politica/lula-ultrapassa-flavio-bolsonaro-em-engajamento-e-amplia-vantagem-no-alcance-dos-videos-a-tres-dias-da-eleicao/"
   },
   "primeira_vez": "2026-10-23T17:29:27Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0876-FE17",
+  "conjunto": "redes",
+  "id": "ativa-seg-2410",
+  "registro": {
+   "id": "ativa-seg-2410",
+   "metrica": "Novos seguidores nos perfis",
+   "periodo": "sábado, 24 out",
+   "lula": 68222,
+   "flavio": 77442,
+   "fonte": "Ativaweb Datalab, via PE Notícias",
+   "url": "https://penoticias.com.br/blog/os-pontos-fortes-e-fracos-de-lula-e-flavio-nas-redes-sociais-na-vespera-do-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-25T13:29:08Z",
   "ainda_publicado": true
  },
  {
@@ -15225,6 +15257,20 @@
    "url": "https://www.jornalfolhadoestado.com/politica/debate-tem-564-de-mencoes-favoraveis-a-lula-e-436-a-flavio-nas-redes/"
   },
   "primeira_vez": "2026-10-24T23:29:20Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6138-4A71",
+  "conjunto": "sinais",
+  "id": "s-ativa-ipde",
+  "registro": {
+   "id": "s-ativa-ipde",
+   "data": "2026-10-25",
+   "sinal": "Na véspera da votação, a Ativaweb Datalab mostrou Lula à frente no índice geral de presença digital e em visualizações de vídeos, enquanto Flávio ficou à frente na taxa de engajamento e nos novos seguidores do sábado.",
+   "fonte": "PE Notícias (Ativaweb Datalab)",
+   "url": "https://penoticias.com.br/blog/os-pontos-fortes-e-fracos-de-lula-e-flavio-nas-redes-sociais-na-vespera-do-segundo-turno/"
+  },
+  "primeira_vez": "2026-10-25T13:29:08Z",
   "ainda_publicado": true
  },
  {
