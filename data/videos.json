@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261025-boatos",
+  "titulo": "Boatos desmentidos (25/10)",
+  "curto": "Boatos",
+  "data": "2026-10-25",
+  "origem": "instagram/publicados/20261025-boatos-reels",
+  "video": "videos/20261025-boatos.mp4",
+  "capa": "videos/20261025-boatos.jpg",
+  "bolinha": "videos/20261025-boatos-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De6_ldykvcR/"
+ },
+ {
   "id": "20261024-pesquisas-do-dia",
   "titulo": "Pesquisas do dia (24/10)",
   "curto": "Pesquisas",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-pesquisas-alfa-realtime.jpg",
   "bolinha": "videos/20261023-pesquisas-alfa-realtime-b.jpg",
   "instagram": "https://www.instagram.com/reel/De1z2Y9iWRy/"
- },
- {
-  "id": "20261022-debate-globo",
-  "titulo": "Debate na Globo (23/10)",
-  "curto": "Debate",
-  "data": "2026-10-22",
-  "origem": "instagram/publicados/20261022-debate-globo-reels",
-  "video": "videos/20261022-debate-globo.mp4",
-  "capa": "videos/20261022-debate-globo.jpg",
-  "bolinha": "videos/20261022-debate-globo-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De1hFlljv9i/"
  }
 ]
