@@ -2961,6 +2961,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "FBB5-A076",
+  "conjunto": "boatos",
+  "id": "b105",
+  "registro": {
+   "id": "b105",
+   "data": "2026-10-25",
+   "alvo": "Lula",
+   "boato": "Imagem de suposta capa da Folha diz que extrato de Lula mostrou quase R$ 300 bilhões em propinas",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi gerada por inteligência artificial, a Folha não publicou essa notícia e os valores da tabela não somam o total citado.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/25/e-falsa-capa-da-folha-de-s-paulo-sobre-supostos-r-300-bilhoes-em-propinas-de-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Corrupção"
+  },
+  "primeira_vez": "2026-10-25T19:29:53Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F7B3-BD58",
   "conjunto": "boatos",
   "id": "b11",
