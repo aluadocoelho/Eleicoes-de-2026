@@ -7,7 +7,7 @@
   "data_afirmacao": "2026-10-24",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Reportagem sobre venda de pele de frango em mercados é de ...",
+  "titulo": "Reportagem sobre venda de pele de frango em mercados é de 2022, não atual",
   "data_checagem": "2026-10-24",
   "url": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/"
  },
@@ -19,7 +19,7 @@
   "data_afirmacao": "2026-10-24",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Flávio disse no debate da Globo que marginais vão andar 'com ...",
+  "titulo": "Flávio disse no debate da Globo que marginais vão andar ‘com medo’, não ‘comigo’",
   "data_checagem": "2026-10-24",
   "url": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/"
  },
@@ -67,7 +67,7 @@
   "data_afirmacao": "2026-10-18",
   "checador": "Projeto Comprova",
   "selo": "Enganoso",
-  "titulo": "Post usa reportagem antiga de Caco Barcellos para sugerir ligação ...",
+  "titulo": "Post usa reportagem antiga de Caco Barcellos para sugerir ligação de Flávio Bolsonaro com compra de votos",
   "data_checagem": "2026-10-23",
   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-usa-reportagem-antiga-de-caco-barcellos-para-sugerir-ligacao-de-flavio-bolsonaro-com-compra-de-votos/"
  },
@@ -79,7 +79,7 @@
   "data_afirmacao": "2026-10-19",
   "checador": "Projeto Comprova",
   "selo": "Falso",
-  "titulo": "É falso áudio de suposto membro da equipe de Flávio Bolsonaro ...",
+  "titulo": "É falso áudio de suposto membro da equipe de Flávio Bolsonaro sobre corte do Bolsa Família e de aposentadorias",
   "data_checagem": "2026-10-23",
   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/e-falso-audio-de-suposto-membro-da-equipe-de-flavio-bolsonaro-sobre-corte-do-bolsa-familia-e-de-aposentadorias/"
  },
@@ -226,6 +226,18 @@
   "titulo": "É falso que pesquisa Quaest de 14 de outubro mostre Lula com 5 pontos de vantagem sobre Flávio Bolsonaro",
   "data_checagem": "2026-10-22",
   "url": "https://checamos.afp.com/doc.afp.com.D4426G3"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flavio Bolsonaro planeja aumentar idade mínima de aposentadoria para 70 anos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "O Globo não noticiou que Flávio planeja aumentar idade para aposentadoria",
+  "data_checagem": "2026-10-21",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
@@ -794,7 +806,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -1226,7 +1238,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1694,8 +1706,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -3216,6 +3228,30 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Reportagem de Caco Barcellos mostra ligação de Flávio Bolsonaro com compra de votos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Post usa reportagem antiga e sugere ligação de Flávio com compra de votos",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de campanha de Flávio, falando que o candidato está planejando um golpe e cortes, foi vazado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que áudio de coordenador de Flávio Bolsonaro vazou nas redes",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
@@ -3384,6 +3420,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-mulher-droga-ato-lula-paulista.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Ato pró-Lula na Paulista teve invocação a Satanás",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra Marcha para Exu, e não 'invocação a Satanás' em ato pró-Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm",
   "termo": "Lula",
   "afirmacao": "Ato pró-Lula na Paulista teve invocação a Satanás",
@@ -3480,6 +3528,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-jogou-bandeira-brasil-chao-apos-votar.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-declarou-plano-golpe-derrota-eleicao.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula revelou ao vivo que planeja dar golpe de Estado se perder eleições",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "William Waack não disse que Lula planeja dar golpe; áudio foi adulterado",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-declarou-plano-golpe-derrota-eleicao.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/04/falso-lula-declarou-plano-golpe-derrota-eleicao.ghtm",
   "termo": "Lula",
   "afirmacao": "Lula revelou ao vivo que planeja dar golpe de Estado se perder eleições",
@@ -3526,6 +3586,18 @@
   "titulo": "Todo mundo vota hoje; TSE não separou dias para eleitores de Flávio e Lula",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/03/desinformacao-falso-policia-militar-sp-alerta-ataques-pcc-flavio-eleicoes.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "PM de SP registrou planos de ataques do PCC no Brasil, caso Flávio seja eleito",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que PM de SP alertou para ataques do PCC caso Flávio seja eleito",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/03/desinformacao-falso-policia-militar-sp-alerta-ataques-pcc-flavio-eleicoes.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/03/desinformacao-falso-policia-militar-sp-alerta-ataques-pcc-flavio-eleicoes.ghtm",
@@ -3708,6 +3780,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/24/e-falso-que-dupla-presa-com-r-25-mi-tinha-ligacao-com-campanha-de-lula.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro protocolou pedido de impeachment de Dino",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não protocolou pedido de impeachment contra Dino",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Flávio Bolsonaro protocolou pedido de impeachment de Dino",
@@ -3766,6 +3850,18 @@
   "titulo": "Vídeo engana ao comparar públicos de Flávio e Lula no 7 de Setembro",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula é ovacionado por público durante o Rock in Rio 2026",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de público cantando 'Olê, olê, olá, Lula' no Rock in Rio é de 2022",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.ghtm",
