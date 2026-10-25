@@ -1230,5 +1230,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Preço de alimentos"
+ },
+ {
+  "id": "b89",
+  "data": "2026-10-07",
+  "alvo": "Flávio",
+  "boato": "Posts dizem que Flávio Bolsonaro afirmou que vai privatizar o SUS se for eleito",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "A frase não aparece em entrevistas nem nas redes dele, e a assessoria negou. As peças distorcem uma proposta de outra pessoa que não fala em privatização.",
+  "url": "https://www.aosfatos.org/noticias/falso-flavio-bolsonaro-disse-privatizar-sus-se-eleito-presidente/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Saúde"
  }
 ]
