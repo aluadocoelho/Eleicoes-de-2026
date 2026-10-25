@@ -15249,6 +15249,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C890-CA74",
+  "conjunto": "sinais",
+  "id": "s-exercito-10m",
+  "registro": {
+   "id": "s-exercito-10m",
+   "data": "2026-10-24",
+   "sinal": "O canal de WhatsApp Exército do Lula, ligado a André Janones, chegou a 10 milhões de seguidores na sexta (23 out), segundo reportagem. A matéria não cita quem mediu e lembra que o número do canal não mostra todo o alcance da mobilização digital de cada lado.",
+   "fonte": "Polêmica Paraíba",
+   "url": "https://www.polemicaparaiba.com.br/politica/exercito-do-lula-x-tropa-do-flavio-eleitores-intensificam-mobilizacao-nas-redes-na-reta-final-da-campanha/"
+  },
+  "primeira_vez": "2026-10-25T11:29:06Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "6C7F-FD1B",
   "conjunto": "sinais",
   "id": "s-hashtags-globo",
