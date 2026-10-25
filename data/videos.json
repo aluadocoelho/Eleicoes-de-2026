@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261025-votacao-prorrogada",
+  "titulo": "Votação prorrogada até as 19h (25/10)",
+  "curto": "Prorrogação",
+  "data": "2026-10-25",
+  "origem": "instagram/publicados/20261025-votacao-prorrogada-reels",
+  "video": "videos/20261025-votacao-prorrogada.mp4",
+  "capa": "videos/20261025-votacao-prorrogada.jpg",
+  "bolinha": "videos/20261025-votacao-prorrogada-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De7n4AYDNTY/"
+ },
+ {
   "id": "20261025-pesquisa-poderdata",
   "titulo": "Nova pesquisa PoderData/Aya (25/10)",
   "curto": "PoderData",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-boatos.jpg",
   "bolinha": "videos/20261023-boatos-b.jpg",
   "instagram": "https://www.instagram.com/reel/De2sDvyEqAU/"
- },
- {
-  "id": "20261023-sigilos-flavio-autorizacoes",
-  "titulo": "Sigilos no TSE (23/10)",
-  "curto": "Sigilos",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-sigilos-flavio-autorizacoes-reels",
-  "video": "videos/20261023-sigilos-flavio-autorizacoes.mp4",
-  "capa": "videos/20261023-sigilos-flavio-autorizacoes.jpg",
-  "bolinha": "videos/20261023-sigilos-flavio-autorizacoes-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De17NCpCqLV/"
  }
 ]
