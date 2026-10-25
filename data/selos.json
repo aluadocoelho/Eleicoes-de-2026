@@ -13385,6 +13385,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "1115-4FEB",
+  "conjunto": "pesquisas",
+  "id": "poderdata-2510",
+  "registro": {
+   "id": "poderdata-2510",
+   "instituto": "PoderData/Aya",
+   "divulgacao": "2026-10-25",
+   "campo": "23–24 out",
+   "amostra": 4000,
+   "margem": 1.6,
+   "flavio_validos": 51,
+   "lula_validos": 49,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360 (PoderData/Aya, registro BR-02828/2026; SBT News também divulgou)",
+   "url": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya-2/"
+  },
+  "primeira_vez": "2026-10-25T08:59:59Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "BF56-F089",
   "conjunto": "pesquisas",
   "id": "quaest-1410",
