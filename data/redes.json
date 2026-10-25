@@ -493,5 +493,32 @@
   "flavio": 77442,
   "fonte": "Ativaweb Datalab, via PE Notícias",
   "url": "https://penoticias.com.br/blog/os-pontos-fortes-e-fracos-de-lula-e-flavio-nas-redes-sociais-na-vespera-do-segundo-turno/"
+ },
+ {
+  "id": "hype-int-0518",
+  "metrica": "Curtidas e comentários no Instagram oficial",
+  "periodo": "5–18 out (após o 1º turno; antes, 20 set–3 out: Lula 49,4 mi; Flávio 28,7 mi)",
+  "lula": 136500000,
+  "flavio": 39400000,
+  "fonte": "HypeAuditor, via Exame",
+  "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+ },
+ {
+  "id": "hype-curtidas-post",
+  "metrica": "Média de curtidas por post no Instagram oficial",
+  "periodo": "5–18 out (antes, 20 set–3 out: Lula 190 mil; Flávio 591 mil)",
+  "lula": 704000,
+  "flavio": 783000,
+  "fonte": "HypeAuditor, via Exame",
+  "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
+ },
+ {
+  "id": "hype-criadores",
+  "metrica": "Posts de criadores de conteúdo que citam o candidato",
+  "periodo": "5–18 out (após o 1º turno)",
+  "lula": 1934,
+  "flavio": 2076,
+  "fonte": "HypeAuditor, via Exame",
+  "url": "https://exame.com/marketing/como-lula-e-flavio-bolsonaro-chegam-ao-fim-das-campanhas-nas-redes-sociais/"
  }
 ]
