@@ -670,5 +670,19 @@
   "lula_totais": 47.9,
   "fonte": "CNN Brasil e Exame (Futura/100% Cidades, registro BR-09726/2026)",
   "url": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-501-dos-votos-validos-no-2o-turno-lula-499/"
+ },
+ {
+  "id": "verita-2410",
+  "instituto": "Veritá",
+  "divulgacao": "2026-10-24",
+  "campo": "19–23 out",
+  "amostra": 15554,
+  "margem": 1,
+  "flavio_validos": 51.6,
+  "lula_validos": 48.4,
+  "flavio_totais": 49.4,
+  "lula_totais": 46.5,
+  "fonte": "Exame (pesquisa própria do Veritá, registro TSE BR-03181/2026)",
+  "url": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-5156-e-lula-4844-no-2o-turno"
  }
 ]
