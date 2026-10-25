@@ -544,5 +544,9 @@
  "Lula, menos de 2": "Lula, menos de 2",
  "Lula, de 2 a 10": "Lula, de 2 a 10",
  "Lula à frente por 10 pontos ou mais": "Lula adelante por 10 puntos o más",
- "O que o mapa mostra": "Qué muestra el mapa"
+ "O que o mapa mostra": "Qué muestra el mapa",
+ "Quem está à frente em cada estado": "Quién va adelante en cada estado",
+ "À frente": "Adelante",
+ "Percentuais dos votos válidos, que não contam brancos e nulos. Resultado parcial: os números mudam até o fim da apuração. No mapa, a cor mostra quem tem mais votos válidos em cada estado; os votos do exterior entram só no total do Brasil. A página se atualiza sozinha a cada minuto.": "Porcentajes de votos válidos, que no cuentan votos en blanco ni nulos. Resultado parcial: las cifras cambian hasta el final del conteo. En el mapa, el color muestra quién tiene más votos válidos en cada estado; los votos del exterior solo cuentan en el total de Brasil. La página se actualiza sola cada minuto.",
+ "No mapa: F = Flávio, L = Lula": "En el mapa: F = Flávio, L = Lula"
 }

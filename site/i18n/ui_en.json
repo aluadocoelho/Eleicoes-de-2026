@@ -544,5 +544,9 @@
  "Lula, menos de 2": "Lula, under 2",
  "Lula, de 2 a 10": "Lula, 2 to 10",
  "Lula à frente por 10 pontos ou mais": "Lula ahead by 10 points or more",
- "O que o mapa mostra": "What the map shows"
+ "O que o mapa mostra": "What the map shows",
+ "Quem está à frente em cada estado": "Who is ahead in each state",
+ "À frente": "Ahead",
+ "Percentuais dos votos válidos, que não contam brancos e nulos. Resultado parcial: os números mudam até o fim da apuração. No mapa, a cor mostra quem tem mais votos válidos em cada estado; os votos do exterior entram só no total do Brasil. A página se atualiza sozinha a cada minuto.": "Shares of valid votes, which exclude blank and null ballots. Partial result: the numbers change until the count is over. On the map, the color shows who has more valid votes in each state; votes cast abroad only count in the national total. The page updates itself every minute.",
+ "No mapa: F = Flávio, L = Lula": "On the map: F = Flávio, L = Lula"
 }
