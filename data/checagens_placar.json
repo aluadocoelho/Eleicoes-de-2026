@@ -180,5 +180,31 @@
   "falso": 6,
   "nota": "Só falas de Flávio. Impreciso = exagerado (5), falta contexto (8) e insustentável (3).",
   "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+ },
+ {
+  "id": "rk-globo-lula",
+  "candidato": "Lula",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Debate na Globo",
+  "data": "2026-10-23",
+  "total": 63,
+  "verdadeiro": 28,
+  "impreciso": 26,
+  "falso": 9,
+  "nota": "Só falas factuais do próprio candidato. Classes: verdadeiro, impreciso, falso.",
+  "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026"
+ },
+ {
+  "id": "rk-globo-flavio",
+  "candidato": "Flávio",
+  "agencia": "Ranking dos Políticos",
+  "evento": "Debate na Globo",
+  "data": "2026-10-23",
+  "total": 74,
+  "verdadeiro": 48,
+  "impreciso": 21,
+  "falso": 5,
+  "nota": "Só falas factuais do próprio candidato. Classes: verdadeiro, impreciso, falso.",
+  "url": "https://ranking.org.br/en/articles/checagem-debate-lula-flavio-bolsonaro-globo-2-turno-2026"
  }
 ]

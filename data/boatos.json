@@ -1314,5 +1314,47 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Golpe"
+ },
+ {
+  "id": "b95",
+  "data": "2026-10-24",
+  "alvo": "Lula",
+  "boato": "Posts dizem que Lula vai acabar com a polícia no Brasil se for reeleito",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Lula usou a expressão em resposta sobre milícias e narcotráfico no debate da Globo; o site vê um ato falho e não encontra proposta de extinguir as polícias.",
+  "url": "https://www.boatos.org/politica/lula-vai-acabar-com-a-policia-no-brasil-se-for-reeleito.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Segurança pública"
+ },
+ {
+  "id": "b96",
+  "data": "2026-10-20",
+  "alvo": "Flávio",
+  "boato": "Vídeo diz que Luciano Huck declarou voto em Lula",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "O vídeo foi feito com inteligência artificial e não há registro de fala de Huck sobre voto.",
+  "url": "https://www.boatos.org/entretenimento/luciano-huck-declara-voto-em-lula-e-diz-que-ele-e-o-maior-presidente-da-historia.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Falso apoio de artistas"
+ },
+ {
+  "id": "b97",
+  "data": "2026-10-16",
+  "alvo": "Flávio",
+  "boato": "Imagem mostra Renan Santos fazendo o L de Lula e aderindo à campanha do PT",
+  "veredito": "Falso (gerado por IA)",
+  "agencia": "Lupa",
+  "explicacao": "A imagem foi criada com inteligência artificial, e Renan Santos disse que não vai apoiar nenhum dos dois candidatos.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/16/e-falsa-imagem-que-mostra-renan-santos-fazendo-o-l-de-lula/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Falso apoio de artistas"
  }
 ]
