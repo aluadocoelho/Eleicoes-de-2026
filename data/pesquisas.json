@@ -698,5 +698,19 @@
   "lula_totais": null,
   "fonte": "Poder360 (PoderData/Aya, registro BR-02828/2026; SBT News também divulgou)",
   "url": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya-2/"
+ },
+ {
+  "id": "colectta-2410",
+  "instituto": "Colectta",
+  "divulgacao": "2026-10-24",
+  "campo": "23 out",
+  "amostra": 3000,
+  "margem": 2,
+  "flavio_validos": 49.7,
+  "lula_validos": 50.3,
+  "flavio_totais": 46,
+  "lula_totais": 46.5,
+  "fonte": "Congresso em Foco e Brasil 247 (Brazil Economy/Colectta, registro BR-05601/2026)",
+  "url": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta"
  }
 ]
