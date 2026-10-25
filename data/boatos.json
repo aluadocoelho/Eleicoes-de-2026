@@ -1412,5 +1412,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Segundo a checagem, nove candidatos e suplentes, entre eles Coronel Alberto Feitosa (PL-PE) e Anderson Moraes (PL-RJ), impulsionaram os anúncios na Meta.",
   "tema": "Segurança e crime"
+ },
+ {
+  "id": "b102",
+  "data": "2026-10-25",
+  "alvo": "Flávio",
+  "boato": "Imagem seria prova de que Flávio usou ponto eletrônico no ouvido durante o debate da Globo",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A imagem não prova o uso do aparelho e vem de uma fala de Flávio sobre ferrovias, em outro contexto, e não do debate de 23/10.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-estava-usando-ponto-eletronico-durante-debate-da-globo.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Debate da Globo"
+ },
+ {
+  "id": "b103",
+  "data": "2026-10-25",
+  "alvo": "Flávio",
+  "boato": "Vídeo diz que Flávio chutou uma imagem de Nossa Senhora durante um comício",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "O objeto chutado no vídeo é um boneco chamado Pixuleco, que ironiza Lula, e não uma imagem religiosa.",
+  "url": "https://www.boatos.org/politica/flavio-bolsonaro-chutou-imagem-de-nossa-senhora-durante-comicio.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Religião"
  }
 ]
