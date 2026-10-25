@@ -1216,5 +1216,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Apoios"
+ },
+ {
+  "id": "b88",
+  "data": "2026-10-24",
+  "alvo": "Lula",
+  "boato": "Posts mostram reportagem sobre venda de pele de frango em mercados como se fosse reflexo do governo Lula",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "A reportagem é de junho de 2022, exibida pela TV Record quando Jair Bolsonaro era presidente, e não é atual.",
+  "url": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Preço de alimentos"
  }
 ]

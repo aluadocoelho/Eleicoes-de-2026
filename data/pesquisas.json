@@ -656,5 +656,19 @@
   "lula_totais": 49,
   "fonte": "CartaCapital (Palver, registro BR-01794/2026; válidos calculados a partir dos votos totais; pesquisa online)",
   "url": "https://www.cartacapital.com.br/politica/palver-na-vespera-do-2o-turno-flavio-bolsonaro-50-lula-49/"
+ },
+ {
+  "id": "futura-2410",
+  "instituto": "Futura",
+  "divulgacao": "2026-10-24",
+  "campo": "23–24 out",
+  "amostra": 2000,
+  "margem": 2.2,
+  "flavio_validos": 50.1,
+  "lula_validos": 49.9,
+  "flavio_totais": 48.2,
+  "lula_totais": 47.9,
+  "fonte": "CNN Brasil e Exame (Futura/100% Cidades, registro BR-09726/2026)",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-501-dos-votos-validos-no-2o-turno-lula-499/"
  }
 ]
