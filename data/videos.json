@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261024-pesquisas-do-dia",
+  "titulo": "Pesquisas do dia (24/10)",
+  "curto": "Pesquisas",
+  "data": "2026-10-24",
+  "origem": "instagram/publicados/20261024-pesquisas-do-dia-reels",
+  "video": "videos/20261024-pesquisas-do-dia.mp4",
+  "capa": "videos/20261024-pesquisas-do-dia.jpg",
+  "bolinha": "videos/20261024-pesquisas-do-dia-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De5ZjtIF9Xm/"
+ },
+ {
   "id": "20261024-pesquisa-datafolha-vespera",
   "titulo": "Último Datafolha antes do 2º turno (24/10)",
   "curto": "Datafolha",
@@ -119,16 +130,5 @@
   "capa": "videos/20261022-debate-globo.jpg",
   "bolinha": "videos/20261022-debate-globo-b.jpg",
   "instagram": "https://www.instagram.com/reel/De1hFlljv9i/"
- },
- {
-  "id": "20261022-pesquisas-do-dia",
-  "titulo": "Pesquisas do dia (22/10)",
-  "curto": "Pesquisas",
-  "data": "2026-10-22",
-  "origem": "instagram/publicados/20261022-pesquisas-do-dia-reels",
-  "video": "videos/20261022-pesquisas-do-dia.mp4",
-  "capa": "videos/20261022-pesquisas-do-dia.jpg",
-  "bolinha": "videos/20261022-pesquisas-do-dia-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De1gbgdDkXJ/"
  }
 ]
