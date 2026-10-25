@@ -11650,6 +11650,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F142-F2A6",
+  "conjunto": "pesquisas",
+  "id": "btg-2410",
+  "registro": {
+   "id": "btg-2410",
+   "instituto": "BTG/Nexus",
+   "divulgacao": "2026-10-24",
+   "campo": "23–24 out",
+   "amostra": 2000,
+   "margem": 2.2,
+   "flavio_validos": 50.5,
+   "lula_validos": 49.5,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Metrópoles (BTG/Nexus, registro BR-08234/2026; Poder360 também lista a pesquisa)",
+   "url": "https://www.metropoles.com/brasil/btg-nexus-flavio-tem-505-dos-votos-validos-no-2o-turno-e-lula-495"
+  },
+  "primeira_vez": "2026-10-25T00:00:17Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "71E6-ADDC",
   "conjunto": "pesquisas",
   "id": "cntmda-1610",
@@ -11944,6 +11965,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "FA2F-AE00",
+  "conjunto": "pesquisas",
+  "id": "franca-2410",
+  "registro": {
+   "id": "franca-2410",
+   "instituto": "França",
+   "divulgacao": "2026-10-24",
+   "campo": "21–23 out",
+   "amostra": 1537,
+   "margem": 2.5,
+   "flavio_validos": 51.4,
+   "lula_validos": 48.6,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "Poder360 (Instituto França, registro BR-04863/2026; Congresso em Foco e outros também noticiaram)",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-514-contra-486-de-lula-em-votos-validos-diz-pesquisa/"
+  },
+  "primeira_vez": "2026-10-25T00:00:17Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0BEE-45F3",
   "conjunto": "pesquisas",
   "id": "futura-1310",
@@ -12088,6 +12130,27 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-dos-votos-validos-contra-47-de-lula-diz-gerp/"
   },
   "primeira_vez": "2026-10-23T02:45:52Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8E8C-D96B",
+  "conjunto": "pesquisas",
+  "id": "gerp-2410",
+  "registro": {
+   "id": "gerp-2410",
+   "instituto": "Gerp",
+   "divulgacao": "2026-10-24",
+   "campo": "22–24 out",
+   "amostra": 2400,
+   "margem": 2,
+   "flavio_validos": 52,
+   "lula_validos": 48,
+   "flavio_totais": null,
+   "lula_totais": null,
+   "fonte": "CNN Brasil (Gerp, registro BR-09327/2026)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48-2/"
+  },
+  "primeira_vez": "2026-10-25T00:00:17Z",
   "ainda_publicado": true
  },
  {
@@ -12319,6 +12382,27 @@
    "url": "https://exame.com/brasil/pesquisa-palver-flavio-bolsonaro-tem-50-e-lula-48-no-2o-turno/"
   },
   "primeira_vez": "2026-10-22T00:00:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "ED20-5F7B",
+  "conjunto": "pesquisas",
+  "id": "palver-2410",
+  "registro": {
+   "id": "palver-2410",
+   "instituto": "Palver",
+   "divulgacao": "2026-10-24",
+   "campo": "22–24 out",
+   "amostra": 5000,
+   "margem": 2.2,
+   "flavio_validos": 50.5,
+   "lula_validos": 49.5,
+   "flavio_totais": 50,
+   "lula_totais": 49,
+   "fonte": "CartaCapital (Palver, registro BR-01794/2026; válidos calculados a partir dos votos totais; pesquisa online)",
+   "url": "https://www.cartacapital.com.br/politica/palver-na-vespera-do-2o-turno-flavio-bolsonaro-50-lula-49/"
+  },
+  "primeira_vez": "2026-10-25T00:00:17Z",
   "ainda_publicado": true
  },
  {
