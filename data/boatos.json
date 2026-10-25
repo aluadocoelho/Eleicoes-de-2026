@@ -1440,5 +1440,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Religião"
+ },
+ {
+  "id": "b104",
+  "data": "2026-10-25",
+  "alvo": "Flávio",
+  "boato": "Imagem com logo do g1 mostra apoiadora de Flávio rasgando bandeira de Nossa Senhora Aparecida em ato em Belo Horizonte",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "A imagem foi gerada por inteligência artificial, e o g1 não publicou reportagem sobre o episódio.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/25/e-falsa-imagem-que-mostra-apoiadora-de-flavio-rasgando-bandeira-de-nossa-senhora-aparecida/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Religião"
  }
 ]
