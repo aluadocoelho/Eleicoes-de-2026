@@ -2856,6 +2856,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F9C7-1F25",
+  "conjunto": "boatos",
+  "id": "b100",
+  "registro": {
+   "id": "b100",
+   "data": "2026-10-22",
+   "alvo": "Lula",
+   "boato": "Post diz que Lula afirmou que fará de tudo para tomar o poder, mesmo que o país entre em crise",
+   "veredito": "Falso",
+   "agencia": "Estadão Verifica",
+   "explicacao": "Não há registro dessa fala, e a imagem do post é uma montagem com foto de uma entrevista de setembro.",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/e-falso-que-lula-tenha-dito-que-fara-de-tudo-para-tomar-o-poder-mesmo-se-o-pais-entrar-em-crise,704454028f3b9771c1961218eb61dbf7y0ripqy5.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo a checagem, o post circulou em perfis e grupos bolsonaristas nas redes sociais.",
+   "tema": "Frase falsa"
+  },
+  "primeira_vez": "2026-10-25T14:31:15Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1035-1887",
+  "conjunto": "boatos",
+  "id": "b101",
+  "registro": {
+   "id": "b101",
+   "data": "2026-10-22",
+   "alvo": "Lula",
+   "boato": "Anúncios dizem que Lula defendeu o roubo de celular por ladrões",
+   "veredito": "Desmentido (entrevista editada)",
+   "agencia": "Estadão Verifica",
+   "explicacao": "A peça vem de uma entrevista antiga editada, e a alegação já tinha sido desmentida pelo Estadão Verifica.",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/deputados-impulsionaram-anuncios-com-boato-falso-sobre-lula-e-roubo-de-celular,e40459d88332b341270f148a01533cd2yu8fr484.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo a checagem, nove candidatos e suplentes, entre eles Coronel Alberto Feitosa (PL-PE) e Anderson Moraes (PL-RJ), impulsionaram os anúncios na Meta.",
+   "tema": "Segurança e crime"
+  },
+  "primeira_vez": "2026-10-25T14:31:15Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F7B3-BD58",
   "conjunto": "boatos",
   "id": "b11",
@@ -4890,6 +4932,27 @@
    "tema": "Debate da Globo"
   },
   "primeira_vez": "2026-10-25T11:30:33Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A1A6-098A",
+  "conjunto": "boatos",
+  "id": "b99",
+  "registro": {
+   "id": "b99",
+   "data": "2026-10-22",
+   "alvo": "Flávio",
+   "boato": "Post diz que Flávio afirmou que 30 dias de férias são um exagero e que 15 bastariam",
+   "veredito": "Falso",
+   "agencia": "Estadão Verifica",
+   "explicacao": "Não há registro de que Flávio tenha dito isso, e o plano de governo dele não propõe reduzir as férias.",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/e-falso-que-flavio-bolsonaro-tenha-dito-que-30-dias-de-ferias-e-um-exagero,a3db37e16d51387cc703c06d19ebcf99ijwnu8rr.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A checagem não identifica o autor; o post usava um card com o logotipo da Jovem Pan News.",
+   "tema": "Férias e direitos"
+  },
+  "primeira_vez": "2026-10-25T14:31:15Z",
   "ainda_publicado": true
  },
  {
