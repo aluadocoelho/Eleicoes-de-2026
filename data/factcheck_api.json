@@ -24,6 +24,18 @@
   "url": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/"
  },
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D4C2963",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Alegações do último debate presidencial entre Lula e Flávio Bolsonaro",
+  "quem_disse": "Lula Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-23",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Checamos Lula e Flávio Bolsonaro no último debate antes do 2 ...",
+  "data_checagem": "2026-10-24",
+  "url": "https://checamos.afp.com/doc.afp.com.D4C2963"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D4BQ6CR",
   "termo": "Lula",
   "afirmacao": "Prefeito de Tucurí ameaça indígenas se não votarem no Lula",
@@ -1010,7 +1022,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1682,8 +1694,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
