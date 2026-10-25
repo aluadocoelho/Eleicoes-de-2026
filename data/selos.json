@@ -5478,6 +5478,21 @@
    "url": "https://gazetabrasil.com.br/entretenimento/2026/10/19/gusttavo-lima-declara-apoio-a-flavio-bolsonaro-durante-show-no-parana/"
   },
   "primeira_vez": "2026-10-25T02:46:51Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "D71E-46E3",
+  "conjunto": "campanha",
+  "id": "e26",
+  "registro": {
+   "id": "e26",
+   "data": "2026-10-18",
+   "tipo": "Apoio",
+   "descricao": "O cantor Gusttavo Lima declarou voto em Flávio durante show em Assis Chateaubriand (PR).",
+   "fonte": "Correio Braziliense",
+   "url": "https://tvprime.correiobraziliense.com.br/noticia/409916/celebridades/video-atitude-de-gusttavo-lima-em-relacao-a-flavio-a-poucos-dias-da-eleicao-gera-revolta-ridiculo-19102026"
+  },
+  "primeira_vez": "2026-10-25T16:46:12Z",
   "ainda_publicado": true
  },
  {
@@ -5583,6 +5598,21 @@
    "url": "https://www.cartacapital.com.br/politica/tse-mantem-propaganda-em-que-lula-diz-que-flavio-bolsonaro-era-contra-o-fim-da-escala-6x1/"
   },
   "primeira_vez": "2026-10-22T16:48:33Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "FBFB-EE70",
+  "conjunto": "campanha",
+  "id": "e30",
+  "registro": {
+   "id": "e30",
+   "data": "2026-10-19",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Ministro Marco Aurélio Bellizze negou o pedido de Flávio para tirar do ar a propaganda de Lula que diz que ele era contra o fim da escala 6x1. Na análise inicial, não viu abuso nem fato sabidamente falso. A decisão vai ao plenário do TSE. (a confirmar)",
+   "fonte": "CartaCapital",
+   "url": "https://www.cartacapital.com.br/politica/tse-mantem-propaganda-em-que-lula-diz-que-flavio-bolsonaro-era-contra-o-fim-da-escala-6x1/"
+  },
+  "primeira_vez": "2026-10-25T16:46:12Z",
   "ainda_publicado": true
  },
  {
@@ -12626,6 +12656,27 @@
    "url": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta"
   },
   "primeira_vez": "2026-10-25T10:00:23Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "F6D1-2AEB",
+  "conjunto": "pesquisas",
+  "id": "colectta-2410",
+  "registro": {
+   "id": "colectta-2410",
+   "instituto": "Colectta",
+   "divulgacao": "2026-10-24",
+   "campo": "23 out",
+   "amostra": 3000,
+   "margem": 2,
+   "flavio_validos": 49.7,
+   "lula_validos": 50.3,
+   "flavio_totais": 46,
+   "lula_totais": 46.5,
+   "fonte": "Congresso em Foco (Brazil Economy/Colectta, registro BR-05601/2026)",
+   "url": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta"
+  },
+  "primeira_vez": "2026-10-25T16:46:12Z",
   "ainda_publicado": true
  },
  {
