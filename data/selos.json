@@ -4533,6 +4533,27 @@
    "tema": "Fraude na votação"
   },
   "primeira_vez": "2026-10-24T21:31:41Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "FDB5-C010",
+  "conjunto": "boatos",
+  "id": "b82",
+  "registro": {
+   "id": "b82",
+   "data": "2026-10-23",
+   "alvo": "Lula",
+   "boato": "Áudio diz, sem provas, que mesários votariam no lugar de eleitores ausentes para beneficiar Lula",
+   "veredito": "Removido por decisão do TSE",
+   "agencia": "TSE",
+   "explicacao": "O corregedor-geral Ricardo Villas Bôas Cueva mandou remover o áudio em até duas horas, sob multa de R$ 100 mil por hora, e proibiu nova publicação. A decisão ainda será submetida ao referendo do Plenário.",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-geral-eleitoral-determina-retirada-de-audio-falso-sobre-mesarios-do-canal-de-whatsapp-tropa-do-flavio",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo o TSE, o áudio, atribuído ao deputado federal Gustavo Gayer, foi publicado no canal de WhatsApp Tropa do Flávio.",
+   "tema": "Fraude na votação"
+  },
+  "primeira_vez": "2026-10-25T02:46:51Z",
   "ainda_publicado": true
  },
  {
@@ -5190,6 +5211,21 @@
    "url": "https://gazetabrasil.com.br/entretenimento/2026/10/19/gusttavo-lima-declara-apoio-a-flavio-bolsonaro-durante-show-no-parana/"
   },
   "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "6C31-F12B",
+  "conjunto": "campanha",
+  "id": "e26",
+  "registro": {
+   "id": "e26",
+   "data": "2026-10-18",
+   "tipo": "Apoio",
+   "descricao": "O cantor Gusttavo Lima declarou voto em Flávio durante show em Assis Chateaubriand (PR). (a confirmar)",
+   "fonte": "Gazeta Brasil",
+   "url": "https://gazetabrasil.com.br/entretenimento/2026/10/19/gusttavo-lima-declara-apoio-a-flavio-bolsonaro-durante-show-no-parana/"
+  },
+  "primeira_vez": "2026-10-25T02:46:51Z",
   "ainda_publicado": true
  },
  {
@@ -5205,6 +5241,21 @@
    "url": "https://iclnoticias.com.br/ex-premie-grego-alexis-tsipras-declara-apoio-a-lula-e-destaca-defesa-da-democracia/"
   },
   "primeira_vez": "2026-10-19T12:16:30Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "99C9-4C34",
+  "conjunto": "campanha",
+  "id": "e27",
+  "registro": {
+   "id": "e27",
+   "data": "2026-10-19",
+   "tipo": "Apoio",
+   "descricao": "O ex-primeiro-ministro grego Alexis Tsipras declarou apoio a Lula em nota. (a confirmar)",
+   "fonte": "ICL Notícias",
+   "url": "https://iclnoticias.com.br/ex-premie-grego-alexis-tsipras-declara-apoio-a-lula-e-destaca-defesa-da-democracia/"
+  },
+  "primeira_vez": "2026-10-25T02:46:51Z",
   "ainda_publicado": true
  },
  {
@@ -5730,6 +5781,21 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/promotoria-defende-extincao-desafio-sigilos-lula-flavio/"
   },
   "primeira_vez": "2026-10-24T14:14:17Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "AA28-39C5",
+  "conjunto": "campanha",
+  "id": "e52",
+  "registro": {
+   "id": "e52",
+   "data": "2026-10-24",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "A Procuradoria-Geral Eleitoral, em parecer enviado ao TSE na sexta (23/10) e divulgado neste sábado (24/10), disse que o tribunal não tem competência para intervir no desafio dos sigilos entre Lula e Flávio. O vice-procurador Alexandre Espinosa afirmou que cada um pode autorizar a divulgação dos próprios dados, segundo o Poder360.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/mp-eleitoral-defende-arquivar-acao-sobre-sigilo-de-candidatos/"
+  },
+  "primeira_vez": "2026-10-25T02:46:51Z",
   "ainda_publicado": true
  },
  {
@@ -12500,6 +12566,27 @@
    "url": "https://www.cartacapital.com.br/politica/palver-na-vespera-do-2o-turno-flavio-bolsonaro-50-lula-49/"
   },
   "primeira_vez": "2026-10-25T00:00:17Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "2BDE-A02A",
+  "conjunto": "pesquisas",
+  "id": "palver-2410",
+  "registro": {
+   "id": "palver-2410",
+   "instituto": "Palver",
+   "divulgacao": "2026-10-24",
+   "campo": "22–24 out",
+   "amostra": 5000,
+   "margem": 2.2,
+   "flavio_validos": 50.5,
+   "lula_validos": 49.5,
+   "flavio_totais": 50,
+   "lula_totais": 49,
+   "fonte": "Exame (Palver, registro BR-01794/2026; válidos calculados a partir dos votos totais; pesquisa online)",
+   "url": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/"
+  },
+  "primeira_vez": "2026-10-25T02:46:51Z",
   "ainda_publicado": true
  },
  {
