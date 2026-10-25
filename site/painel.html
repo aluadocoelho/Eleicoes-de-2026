@@ -967,7 +967,7 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     var pf = null, pl = null;
     [["f", "apu-f"], ["l", "apu-l"]].forEach(function (k) {
       var c = cs[k[0]], el = $(k[1]);
-      var p = c ? num(c.pvapn != null && c.pvapn !== "" ? c.pvapn : c.pvap) : null;
+      var p = c ? num(c.pvap) : null;
       if (k[0] === "f") pf = p; else pl = p;
       el.querySelector("[data-p]").textContent = c && pst ? pctTxt(c.pvap) : "—";
       el.querySelector("[data-v]").textContent = c && pst ? nf.format(num(c.vap) || 0) : "—";
