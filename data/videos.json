@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261025-pesquisa-poderdata",
+  "titulo": "Nova pesquisa PoderData/Aya (25/10)",
+  "curto": "PoderData",
+  "data": "2026-10-25",
+  "origem": "instagram/publicados/20261025-pesquisa-poderdata-reels",
+  "video": "videos/20261025-pesquisa-poderdata.mp4",
+  "capa": "videos/20261025-pesquisa-poderdata.jpg",
+  "bolinha": "videos/20261025-pesquisa-poderdata-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De6_6CyCfTS/"
+ },
+ {
   "id": "20261025-boatos",
   "titulo": "Boatos desmentidos (25/10)",
   "curto": "Boatos",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-sigilos-flavio-autorizacoes.jpg",
   "bolinha": "videos/20261023-sigilos-flavio-autorizacoes-b.jpg",
   "instagram": "https://www.instagram.com/reel/De17NCpCqLV/"
- },
- {
-  "id": "20261023-pesquisas-alfa-realtime",
-  "titulo": "Novas pesquisas Alfa e RealTime (23/10)",
-  "curto": "Pesquisas",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-pesquisas-alfa-realtime-reels",
-  "video": "videos/20261023-pesquisas-alfa-realtime.mp4",
-  "capa": "videos/20261023-pesquisas-alfa-realtime.jpg",
-  "bolinha": "videos/20261023-pesquisas-alfa-realtime-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De1z2Y9iWRy/"
  }
 ]
