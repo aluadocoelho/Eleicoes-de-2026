@@ -684,5 +684,19 @@
   "lula_totais": 46.5,
   "fonte": "Exame (pesquisa própria do Veritá, registro TSE BR-03181/2026)",
   "url": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-5156-e-lula-4844-no-2o-turno"
+ },
+ {
+  "id": "poderdata-2510",
+  "instituto": "PoderData/Aya",
+  "divulgacao": "2026-10-25",
+  "campo": "23–24 out",
+  "amostra": 4000,
+  "margem": 1.6,
+  "flavio_validos": 51,
+  "lula_validos": 49,
+  "flavio_totais": null,
+  "lula_totais": null,
+  "fonte": "Poder360 (PoderData/Aya, registro BR-02828/2026; SBT News também divulgou)",
+  "url": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya-2/"
  }
 ]
