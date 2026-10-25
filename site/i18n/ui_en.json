@@ -507,5 +507,20 @@
  "Curtidas e comentários por post": "Likes and comments per post",
  "Novos seguidores": "New followers",
  "Os três números acima são sempre a medida mais recente de cada tipo que reunimos.": "The three numbers above are always the most recent measure of each type we have collected.",
- "Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.": "Candidates' official profiles, according to the firms and outlets cited on each line. In each group, the most recent measure comes first. Each metric on its own scale."
+ "Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.": "Candidates' official profiles, according to the firms and outlets cited on each line. In each group, the most recent measure comes first. Each metric on its own scale.",
+ "Apuração ao vivo": "Live vote count",
+ "Contagem dos votos para presidente": "Presidential vote count",
+ "Urnas apuradas": "Ballot boxes counted",
+ "votos": "votes",
+ "Eleito, segundo o TSE": "Elected, according to the TSE",
+ "Brancos": "Blank",
+ "Nulos": "Null",
+ "Abstenção": "Abstention",
+ "Percentuais dos votos válidos, que não contam brancos e nulos. Resultado parcial: os números mudam até o fim da apuração. A página se atualiza sozinha a cada minuto.": "Shares of valid votes, which exclude blank and null ballots. Partial result: the numbers change until the count is over. The page updates itself every minute.",
+ "Fonte:": "Source:",
+ "TSE, Resultados": "TSE, Results",
+ "O site do TSE não respondeu agora. Mostrando a última leitura; tentamos de novo em um minuto.": "The TSE site did not respond just now. Showing the last reading; we will try again in a minute.",
+ "As urnas fecham às 17h (horário de Brasília). Os primeiros números do TSE aparecem aqui logo depois.": "Polls close at 5 p.m. (Brasília time). The first TSE numbers will show up here right after.",
+ "A apuração começou. Os primeiros números do TSE aparecem aqui em instantes.": "The count has started. The first TSE numbers will show up here shortly.",
+ "O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE.": "The TSE site did not respond just now. We will try again in a minute; you can also check the TSE site directly."
 }

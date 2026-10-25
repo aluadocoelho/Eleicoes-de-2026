@@ -593,6 +593,38 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 @media (max-width:40rem){.el-sticky.el-stuck .el-title{white-space:normal;overflow:visible}}
 .el-lv-switch{appearance:none;background:var(--color-panel);color:var(--color-fg);padding:10px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer;margin-top:10px}
 @media (max-width:40rem){.el{padding-bottom:84px}}
+/* Apuração ao vivo (TSE), 25/10 */
+.el-apu{position:relative;background:var(--color-panel);color:var(--color-fg);border:2px solid var(--ink);border-radius:20px;box-shadow:4px 4px 0 var(--ink);padding:16px 18px 18px;display:flex;flex-direction:column;gap:12px}
+.el-apu[hidden]{display:none}
+.el-apu-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 12px}
+.el-apu-tag{display:inline-flex;align-items:center;gap:8px;background:#16181D;color:#FFD43B!important;border-radius:999px;padding:4px 12px;font-weight:900;font-size:0.75rem;letter-spacing:.08em;text-transform:uppercase}
+.el-apu-tag i{width:9px;height:9px;border-radius:50%;background:#FF4D4D;box-shadow:0 0 0 0 rgba(255,77,77,.7);animation:elApuPulse 1.6s infinite}
+@keyframes elApuPulse{0%{box-shadow:0 0 0 0 rgba(255,77,77,.7)}70%{box-shadow:0 0 0 8px rgba(255,77,77,0)}100%{box-shadow:0 0 0 0 rgba(255,77,77,0)}}
+@media (prefers-reduced-motion:reduce){.el-apu-tag i{animation:none}}
+.el-apu-hora{font-size:var(--cds-font-size-label,0.85rem);color:var(--color-fg-muted)}
+.el-apu-t{margin:0;font-family:var(--font-anthropic-serif);font-weight:700;font-size:clamp(1.3rem,4.6vw,1.7rem);line-height:1.15}
+.el-apu-prog{display:flex;flex-direction:column;gap:6px}
+.el-apu-prog-l{display:flex;justify-content:space-between;gap:8px;font-weight:700;font-variant-numeric:tabular-nums}
+.el-apu-bar{height:12px;border:2px solid var(--ink);border-radius:999px;background:var(--surface-soft);overflow:hidden}
+.el-apu-bar b{display:block;height:100%;width:0;background:var(--accent);transition:width .6s ease}
+.el-apu-cands{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.el-apu-c{border:2px solid var(--ink);border-radius:16px;box-shadow:3px 3px 0 var(--ink);padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.el-apu-n{font-weight:800;display:flex;align-items:center;gap:8px}
+.el-apu-n i{width:12px;height:12px;border-radius:50%;flex:none}
+.el-apu-p{font-family:var(--font-anthropic-serif);font-size:clamp(2rem,9vw,3.2rem);line-height:1.05;font-variant-numeric:tabular-nums}
+.el-apu-v{font-size:0.9rem;color:var(--color-fg-muted);font-variant-numeric:tabular-nums}
+.el-apu-el{display:inline-block;margin-top:6px;align-self:flex-start;background:#FFD43B;color:#1A1500!important;border:2px solid #16181D;border-radius:999px;padding:2px 10px;font-weight:900;font-size:0.75rem;text-transform:uppercase;letter-spacing:.05em}
+.el-apu-el[hidden]{display:none}
+.el-apu-split{display:flex;height:14px;border:2px solid var(--ink);border-radius:999px;overflow:hidden;position:relative;background:var(--surface-soft)}
+.el-apu-split i{display:block;height:100%;transition:width .6s ease}
+.el-apu-split::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:2px;background:var(--ink)}
+.el-apu-out{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:0.9rem;color:var(--color-fg-muted);font-variant-numeric:tabular-nums}
+.el-apu-out b{color:var(--color-fg)}
+.el-apu-msg{margin:0;font-size:var(--cds-font-size-body);line-height:1.5}
+.el-apu-msg[hidden]{display:none}
+.el-apu-foot{margin:0;font-size:0.85rem;color:var(--color-fg-muted);line-height:1.5}
+.el-apu-foot a{color:var(--accent-text)}
+@media (max-width:520px){.el-apu-cands{gap:8px}.el-apu-c{padding:10px}.el-apu-n{min-height:2.6em;align-items:flex-start}.el-apu-n i{margin-top:.35em}}
 .el-aviso{position:relative;background:#FFF4C2;color:#1A1500;border:2px solid #16181D;border-radius:20px;box-shadow:4px 4px 0 #16181D;padding:14px 18px 16px;display:flex;flex-direction:column;gap:8px}
 .el-aviso[hidden]{display:none}
 .el-aviso-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
@@ -1108,6 +1140,89 @@ body.el-vp-lock{overflow:hidden}
   </nav>
   </div>
 
+  <section class="el-apu" id="el-apu" aria-labelledby="apu-t" hidden>
+    <div class="el-apu-top">
+      <span class="el-apu-tag"><i aria-hidden="true"></i>Apuração ao vivo</span>
+      <span class="el-apu-hora" id="apu-hora" aria-live="polite"></span>
+    </div>
+    <h2 class="el-apu-t" id="apu-t">Contagem dos votos para presidente</h2>
+    <p class="el-apu-msg" id="apu-msg" hidden></p>
+    <div class="el-apu-prog">
+      <div class="el-apu-prog-l"><span>Urnas apuradas</span><span><span id="apu-pst">0</span>%</span></div>
+      <div class="el-apu-bar" role="progressbar" aria-label="Urnas apuradas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="apu-bar"><b id="apu-bar-b"></b></div>
+    </div>
+    <div class="el-apu-cands">
+      <div class="el-apu-c" id="apu-f"><span class="el-apu-n"><i style="background:var(--cf)" aria-hidden="true"></i>Flávio Bolsonaro</span><span class="el-apu-p" style="color:var(--cf)"><span data-p>—</span>%</span><span class="el-apu-v"><span data-v>—</span> <span>votos</span></span><span class="el-apu-el" data-e hidden>Eleito, segundo o TSE</span></div>
+      <div class="el-apu-c" id="apu-l"><span class="el-apu-n"><i style="background:var(--cl)" aria-hidden="true"></i>Lula</span><span class="el-apu-p" style="color:var(--cl)"><span data-p>—</span>%</span><span class="el-apu-v"><span data-v>—</span> <span>votos</span></span><span class="el-apu-el" data-e hidden>Eleito, segundo o TSE</span></div>
+    </div>
+    <div class="el-apu-split" aria-hidden="true"><i id="apu-sf" style="background:var(--cf);width:50%"></i><i id="apu-sl" style="background:var(--cl);width:50%"></i></div>
+    <div class="el-apu-out">
+      <span><span>Brancos</span> <b id="apu-b">—</b></span>
+      <span><span>Nulos</span> <b id="apu-n">—</b></span>
+      <span><span>Abstenção</span> <b id="apu-a">—</b></span>
+    </div>
+    <p class="el-apu-foot"><span>Percentuais dos votos válidos, que não contam brancos e nulos. Resultado parcial: os números mudam até o fim da apuração. A página se atualiza sozinha a cada minuto.</span> <span>Fonte:</span> <a href="https://resultados.tse.jus.br/oficial/app/index.html" target="_blank" rel="noopener noreferrer">TSE, Resultados</a>.</p>
+  </section>
+<script data-apuracao>
+(function () {
+  var box = document.getElementById("el-apu"); if (!box) return;
+  var FECHA = new Date("2026-10-25T17:00:00-03:00"), FIM = new Date("2026-10-28T00:00:00-03:00");
+  if (Date.now() > FIM.getTime()) return;
+  box.hidden = false;
+  var URL = "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json", KEY = "el-apu-ult";
+  var $ = function (id) { return document.getElementById(id); };
+  var nf = new Intl.NumberFormat("pt-BR");
+  var num = function (v) { if (v == null || v === "") return null; var n = Number(String(v).replace(/\./g, "").replace(",", ".")); return isFinite(n) ? n : null; };
+  var pctTxt = function (v) { var n = num(v); return n == null ? "—" : n.toLocaleString("pt-BR", {minimumFractionDigits: 2, maximumFractionDigits: 2}); };
+  function msg(t) { var m = $("apu-msg"); m.textContent = t || ""; m.hidden = !t; }
+  function ladoDe(nome, sg) {
+    var x = String(nome || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
+    if (x.indexOf("LULA") > -1 || sg === "PT") return "l";
+    if (x.indexOf("FLAVIO") > -1 || x.indexOf("BOLSONARO") > -1 || sg === "PL") return "f";
+    return "";
+  }
+  function render(j, antigo) {
+    var cs = {}, c0 = j && j.carg && j.carg[0];
+    ((c0 && c0.agr) || []).forEach(function (a) { (a.par || []).forEach(function (p) { (p.cand || []).forEach(function (c) { var k = ladoDe(c.nmu || c.nm, p.sg); if (k) cs[k] = c; }); }); });
+    var pst = j && j.s ? num(j.s.pst) : null;
+    $("apu-pst").textContent = pst == null ? "0" : pctTxt(j.s.pst);
+    $("apu-bar-b").style.width = (pst || 0) + "%"; $("apu-bar").setAttribute("aria-valuenow", String(pst || 0));
+    var pf = null, pl = null;
+    [["f", "apu-f"], ["l", "apu-l"]].forEach(function (k) {
+      var c = cs[k[0]], el = $(k[1]);
+      var p = c ? num(c.pvapn != null && c.pvapn !== "" ? c.pvapn : c.pvap) : null;
+      if (k[0] === "f") pf = p; else pl = p;
+      el.querySelector("[data-p]").textContent = c && pst ? pctTxt(c.pvap) : "—";
+      el.querySelector("[data-v]").textContent = c && pst ? nf.format(num(c.vap) || 0) : "—";
+      var eleito = c && (String(c.e || "").toLowerCase() === "s" || /^eleito/i.test(String(c.st || "")));
+      el.querySelector("[data-e]").hidden = !eleito;
+    });
+    if (pst && pf != null && pl != null && pf + pl > 0) { $("apu-sf").style.width = (pf / (pf + pl) * 100) + "%"; $("apu-sl").style.width = (pl / (pf + pl) * 100) + "%"; }
+    var v = (j && j.v) || {}, e = (j && j.e) || {};
+    $("apu-b").textContent = pst ? pctTxt(v.pvb) + "%" : "—";
+    $("apu-n").textContent = pst ? pctTxt(v.ptvn) + "%" : "—";
+    $("apu-a").textContent = pst ? pctTxt(e.pa) + "%" : "—";
+    var h = j && j.hg ? ("TSE · " + String(j.dg || "").slice(0, 5) + " · " + String(j.hg).slice(0, 5)) : "";
+    $("apu-hora").textContent = h;
+    if (antigo) msg("O site do TSE não respondeu agora. Mostrando a última leitura; tentamos de novo em um minuto.");
+    else if (!pst) msg(Date.now() < FECHA.getTime() ? "As urnas fecham às 17h (horário de Brasília). Os primeiros números do TSE aparecem aqui logo depois." : "A apuração começou. Os primeiros números do TSE aparecem aqui em instantes.");
+    else msg("");
+  }
+  function guardado() { try { var t = localStorage.getItem(KEY); return t ? JSON.parse(t) : null; } catch (e) { return null; } }
+  var etag = null;
+  function ler() {
+    var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, 20000);
+    fetch(URL, {cache: "no-cache", signal: ctl ? ctl.signal : undefined})
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { clearTimeout(to); render(j, false); try { localStorage.setItem(KEY, JSON.stringify(j)); } catch (e) {} })
+      .catch(function () { clearTimeout(to); var g = guardado(); if (g) render(g, true); else { render(null, false); if (Date.now() >= FECHA.getTime()) msg("O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE."); } });
+  }
+  var g0 = guardado(); if (g0) render(g0, false); else render(null, false);
+  ler();
+  setInterval(function () { if (!document.hidden) ler(); }, 60000);
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) ler(); });
+})();
+</script>
   <section class="el-vids" id="el-vids" aria-labelledby="el-vids-t"><h2 class="el-vids-t" id="el-vids-t">Vídeos da Clareia</h2><div class="el-vids-row" id="el-vids-row"><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span></div></section><div class="el-vp" id="el-vp" role="dialog" aria-modal="true" aria-labelledby="el-vp-t" hidden><div class="el-vp-box"><div class="el-vp-seg" id="el-vp-seg" aria-hidden="true"></div><div class="el-vp-top"><p class="el-vp-t" id="el-vp-t"></p><button type="button" class="el-vp-x" id="el-vp-x" aria-label="Fechar o vídeo">×</button></div><video class="el-vp-v" id="el-vp-v" playsinline controls preload="none"></video><div class="el-vp-pe"><button type="button" class="el-vp-nav" id="el-vp-ant" aria-label="Vídeo anterior">‹</button><span class="el-vp-n" id="el-vp-n"></span><a class="el-vp-ig" id="el-vp-ig" target="_blank" rel="noopener noreferrer">Ver no Instagram</a><button type="button" class="el-vp-nav" id="el-vp-prox" aria-label="Próximo vídeo">›</button></div></div></div><aside class="el-aviso" id="el-aviso" aria-labelledby="aviso-t">
     <div class="el-aviso-top">
       <span class="el-aviso-tag">Atenção, eleitor</span>

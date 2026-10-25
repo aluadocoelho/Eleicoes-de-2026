@@ -507,5 +507,20 @@
  "Curtidas e comentários por post": "Me gusta y comentarios por publicación",
  "Novos seguidores": "Nuevos seguidores",
  "Os três números acima são sempre a medida mais recente de cada tipo que reunimos.": "Las tres cifras de arriba son siempre la medición más reciente de cada tipo que reunimos.",
- "Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.": "Perfiles oficiales de los candidatos, según los institutos y medios citados en cada línea. En cada grupo, la medición más reciente va primero. Cada métrica en su propia escala."
+ "Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.": "Perfiles oficiales de los candidatos, según los institutos y medios citados en cada línea. En cada grupo, la medición más reciente va primero. Cada métrica en su propia escala.",
+ "Apuração ao vivo": "Conteo en vivo",
+ "Contagem dos votos para presidente": "Conteo de votos para presidente",
+ "Urnas apuradas": "Urnas escrutadas",
+ "votos": "votos",
+ "Eleito, segundo o TSE": "Electo, según el TSE",
+ "Brancos": "En blanco",
+ "Nulos": "Nulos",
+ "Abstenção": "Abstención",
+ "Percentuais dos votos válidos, que não contam brancos e nulos. Resultado parcial: os números mudam até o fim da apuração. A página se atualiza sozinha a cada minuto.": "Porcentajes de votos válidos, que no cuentan votos en blanco ni nulos. Resultado parcial: las cifras cambian hasta el final del conteo. La página se actualiza sola cada minuto.",
+ "Fonte:": "Fuente:",
+ "TSE, Resultados": "TSE, Resultados",
+ "O site do TSE não respondeu agora. Mostrando a última leitura; tentamos de novo em um minuto.": "El sitio del TSE no respondió ahora. Mostramos la última lectura; volvemos a intentar en un minuto.",
+ "As urnas fecham às 17h (horário de Brasília). Os primeiros números do TSE aparecem aqui logo depois.": "Las urnas cierran a las 17 h (hora de Brasilia). Las primeras cifras del TSE aparecerán aquí poco después.",
+ "A apuração começou. Os primeiros números do TSE aparecem aqui em instantes.": "El conteo comenzó. Las primeras cifras del TSE aparecerán aquí en instantes.",
+ "O site do TSE não respondeu agora. Tentamos de novo em um minuto; você também pode ver direto no site do TSE.": "El sitio del TSE no respondió ahora. Volvemos a intentar en un minuto; también puede verlo directamente en el sitio del TSE."
 }
