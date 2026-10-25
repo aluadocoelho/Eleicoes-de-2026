@@ -22,32 +22,32 @@ jobs:
       - uses: actions/checkout@v4
       - name: Copiar o arquivo do TSE a cada minuto (5 min no agendamento, até 6 h quando disparado à mão)
         run: |
+          set +e
           agora=$(date -u +%Y%m%d%H%M)
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && { [ "$agora" -lt 202610251945 ] || [ "$agora" -gt 202610270300 ]; }; then echo "Fora da janela da apuração"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          URL="https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json"
+          B="https://resultados.tse.jus.br/oficial/ele2026/6258/dados"
+          A="ClareiaEleicoes/1.0 (+https://clareiaeleicoes.com.br)"
           N=5; [ "${{ github.event_name }}" = "workflow_dispatch" ] && N=360
+          mkdir -p /tmp/novo/apuracao-uf
           for i in $(seq 1 $N); do
-            if curl -fsS -m 30 -A "ClareiaEleicoes/1.0 (+https://clareiaeleicoes.com.br)" "$URL" -o /tmp/apu.json && python3 -c "import json;d=json.load(open('/tmp/apu.json'));assert d.get('carg')"; then
-              if ! cmp -s /tmp/apu.json data/apuracao.json; then
-                cp /tmp/apu.json data/apuracao.json
-                git add data/apuracao.json
-                git commit -q -m "Apuração: cópia do TSE" || true
-                for t in 1 2 3; do git push -q && break; git pull -q --rebase origin main; done
-              fi
-            else
-              echo "TSE não respondeu"
-            fi
-            mkdir -p data/apuracao-uf; mudou=0
+            ok=0
+            if curl -fsS -m 30 -A "$A" "$B/br/br-c0001-e006258-u.json" -o /tmp/x.json && python3 -c "import json;assert json.load(open('/tmp/x.json')).get('carg')"; then cp /tmp/x.json /tmp/novo/apuracao.json; ok=1; else echo "TSE (br) não respondeu"; fi
             for uf in ac al ap am ba ce df es go ma mt ms mg pa pb pr pe pi rj rn rs ro rr sc sp se to; do
-              if curl -fsS -m 20 -A "ClareiaEleicoes/1.0 (+https://clareiaeleicoes.com.br)" "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/$uf/$uf-c0001-e006258-u.json" -o /tmp/uf.json && python3 -c "import json;assert json.load(open('/tmp/uf.json')).get('carg')"; then
-                if ! cmp -s /tmp/uf.json data/apuracao-uf/$uf.json; then cp /tmp/uf.json data/apuracao-uf/$uf.json; mudou=1; fi
-              fi
+              if curl -fsS -m 20 -A "$A" "$B/$uf/$uf-c0001-e006258-u.json" -o /tmp/x.json && python3 -c "import json;assert json.load(open('/tmp/x.json')).get('carg')"; then cp /tmp/x.json /tmp/novo/apuracao-uf/$uf.json; ok=1; fi
             done
-            if [ "$mudou" = 1 ]; then
-              git add data/apuracao-uf; git commit -q -m "Apuração: cópia do TSE por estado" || true
-              for t in 1 2 3; do git push -q && break; git pull -q --rebase origin main; done
+            if [ "$ok" = 1 ]; then
+              for t in 1 2 3 4; do
+                git fetch -q origin main && git checkout -q -B main origin/main || continue
+                mkdir -p data/apuracao-uf
+                [ -f /tmp/novo/apuracao.json ] && cp /tmp/novo/apuracao.json data/apuracao.json
+                cp /tmp/novo/apuracao-uf/*.json data/apuracao-uf/ 2>/dev/null
+                git add data/apuracao.json data/apuracao-uf
+                git diff --cached --quiet && break
+                git commit -q -m "Apuração: cópia do TSE" && git push -q origin main && break
+                sleep 3
+              done
             fi
-            if [ "$i" -lt "$N" ]; then sleep 55; fi
+            if [ "$i" -lt "$N" ]; then sleep 50; fi
           done
