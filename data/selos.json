@@ -2940,6 +2940,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "5545-B560",
+  "conjunto": "boatos",
+  "id": "b104",
+  "registro": {
+   "id": "b104",
+   "data": "2026-10-25",
+   "alvo": "Flávio",
+   "boato": "Imagem com logo do g1 mostra apoiadora de Flávio rasgando bandeira de Nossa Senhora Aparecida em ato em Belo Horizonte",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A imagem foi gerada por inteligência artificial, e o g1 não publicou reportagem sobre o episódio.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/25/e-falsa-imagem-que-mostra-apoiadora-de-flavio-rasgando-bandeira-de-nossa-senhora-aparecida/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Religião"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F7B3-BD58",
   "conjunto": "boatos",
   "id": "b11",
@@ -6998,6 +7019,206 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C3EA-7E5B",
+  "conjunto": "checagens",
+  "id": "f130",
+  "registro": {
+   "id": "f130",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o vídeo real de Jair Bolsonaro suspirando mostra a sua fala.",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "O vídeo é uma versão editada de uma live de 2021, com 30 segundos cortados.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6202-9A5F",
+  "conjunto": "checagens",
+  "id": "f131",
+  "registro": {
+   "id": "f131",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que havia 14 mil obras inacabadas em 2019 e pouco mais de 8 mil depois.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dados do TCU sustentam os números de 2019 e 2022.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B429-BD4E",
+  "conjunto": "checagens",
+  "id": "f132",
+  "registro": {
+   "id": "f132",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o atual governo tem mais de 11,5 mil obras paralisadas.",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "O painel do TCU registrava 4.215 obras federais paralisadas em abril de 2026.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B440-14DB",
+  "conjunto": "checagens",
+  "id": "f133",
+  "registro": {
+   "id": "f133",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro pagou R$ 600 de Bolsa Família.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor de R$ 600 veio de emenda aprovada pelo Congresso em 2022, e o governo Lula elevou o piso para R$ 691 em 2026.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "44A0-3921",
+  "conjunto": "checagens",
+  "id": "f134",
+  "registro": {
+   "id": "f134",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o marco do saneamento foi aprovado no governo Bolsonaro com voto contrário do PT.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "A lei foi aprovada no governo Bolsonaro e a bancada do PT votou contra, mas Flávio confundiu coleta com tratamento de esgoto.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "16F8-9C1C",
+  "conjunto": "checagens",
+  "id": "f135",
+  "registro": {
+   "id": "f135",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro concluiu a transposição do Rio São Francisco.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A água chegou ao Nordeste em 2017, e há ramais ainda em construção.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8857-D81F",
+  "conjunto": "checagens",
+  "id": "f136",
+  "registro": {
+   "id": "f136",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo Bolsonaro instalou 21,3 mil pontos do Wi-Fi Brasil.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Parte dos pontos já existia antes de 2019, e o programa evoluiu do Gesac, criado em 2002.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D67C-B934",
+  "conjunto": "checagens",
+  "id": "f137",
+  "registro": {
+   "id": "f137",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Milei começou o governo com inflação de 211% e juros de 100%.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Os números conferem.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "89F7-B9FD",
+  "conjunto": "checagens",
+  "id": "f138",
+  "registro": {
+   "id": "f138",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula é o pai do Tigrinho.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "As bets foram legalizadas em 2018, no governo Temer, e Lula regulamentou o setor em 2023.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "8049-6F84",
+  "conjunto": "checagens",
+  "id": "f139",
+  "registro": {
+   "id": "f139",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula orientou as pessoas a não comprarem comida cara.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Lula falou em o consumidor \"educar\" o mercado, mas a frase citada não foi confirmada literalmente.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "AB90-8FF3",
   "conjunto": "checagens",
   "id": "f14",
@@ -7018,6 +7239,206 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "00CA-026D",
+  "conjunto": "checagens",
+  "id": "f140",
+  "registro": {
+   "id": "f140",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que as audiências de custódia foram criadas em governo de esquerda.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Foram criadas em 2015, sob Dilma, por iniciativa do CNJ.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "CF00-4808",
+  "conjunto": "checagens",
+  "id": "f141",
+  "registro": {
+   "id": "f141",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula votou contra a Constituição de 1988.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Os registros da Constituinte confirmam o voto contrário do então deputado.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B707-607B",
+  "conjunto": "checagens",
+  "id": "f142",
+  "registro": {
+   "id": "f142",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a dívida do governo é de R$ 11 trilhões.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "A dívida bruta chegou a R$ 11,1 trilhões em agosto de 2026.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "30A2-4F31",
+  "conjunto": "checagens",
+  "id": "f143",
+  "registro": {
+   "id": "f143",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que previam juros de 7% e hoje estão em 14%.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Selic estava em 13,75%, e projeções antigas do Focus não bastam para comparar governos.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7B5A-8A19",
+  "conjunto": "checagens",
+  "id": "f144",
+  "registro": {
+   "id": "f144",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o caso Ana Clara envolve tiro de fuzil em 2021.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A investigação contraria a versão de confronto, e Flávio atuou na defesa do policial.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "6C0C-F3CC",
+  "conjunto": "checagens",
+  "id": "f145",
+  "registro": {
+   "id": "f145",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o governo gastou mais de R$ 405 bilhões fora da lei orçamentária.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O valor vem do Gastômetro, mas outras estimativas ficam em R$ 270 bi e R$ 300 bi.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D21D-93E4",
+  "conjunto": "checagens",
+  "id": "f146",
+  "registro": {
+   "id": "f146",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula não atualizou a tabela do SUS.",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "Lula sancionou lei de revisão anual, e houve reajustes em 2024 e 2025.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C0ED-2784",
+  "conjunto": "checagens",
+  "id": "f147",
+  "registro": {
+   "id": "f147",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula defendeu ladrão de celular ao falar da \"cervejinha\".",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "O vídeo juntou trechos de uma entrevista de 2017 de forma editada.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1E5F-2431",
+  "conjunto": "checagens",
+  "id": "f148",
+  "registro": {
+   "id": "f148",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o PL 3.723/2019 não existe e não passou pela Câmara.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O projeto foi aprovado na Câmara em 2019, e Flávio se manifestou a favor no Senado.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "3B05-83FA",
+  "conjunto": "checagens",
+  "id": "f149",
+  "registro": {
+   "id": "f149",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que mais de 80 milhões de brasileiros têm contas atrasadas.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "A Serasa aponta 83,9 milhões de inadimplentes, e outras pesquisas trazem números diferentes.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0E2D-179E",
   "conjunto": "checagens",
   "id": "f15",
@@ -7035,6 +7456,186 @@
    "direcao": "Ataque ao adversário"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E8DE-9621",
+  "conjunto": "checagens",
+  "id": "f150",
+  "registro": {
+   "id": "f150",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Bolsonaro deu desconto de quase 99% no Fies e reajuste de 33% a professores.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O desconto de 99% valia só para casos específicos, e o reajuste de 33,24% foi seguido pela lei do piso.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9D33-D228",
+  "conjunto": "checagens",
+  "id": "f151",
+  "registro": {
+   "id": "f151",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que os estados mais violentos do Nordeste são administrados pelo PT e aliados.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "As dez cidades mais violentas estão no Nordeste, com governos de vários partidos aliados.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "76A3-A862",
+  "conjunto": "checagens",
+  "id": "f152",
+  "registro": {
+   "id": "f152",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Perguntou a Lula se Willer Tomaz e Flávio seriam sócios.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Flávio é investigado no STF por suspeita de lavagem de dinheiro, e há indícios de acesso à conta da empresa.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F0A4-B2B8",
+  "conjunto": "checagens",
+  "id": "f153",
+  "registro": {
+   "id": "f153",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que há espera de mais de 700 dias por cirurgia de tireoide.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Dados da RNDS indicam média de 719 dias em 2025.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D01B-51FB",
+  "conjunto": "checagens",
+  "id": "f154",
+  "registro": {
+   "id": "f154",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Brasil tem uma das maiores taxas de juros do mundo.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O Brasil tinha a maior taxa de juros reais do mundo em setembro de 2026.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4C03-2580",
+  "conjunto": "checagens",
+  "id": "f155",
+  "registro": {
+   "id": "f155",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a barra de chocolate encolheu para 80 gramas.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Reduzir a embalagem sem baixar o preço é prática antiga, ligada a aumentos de custo.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "522A-02A3",
+  "conjunto": "checagens",
+  "id": "f156",
+  "registro": {
+   "id": "f156",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula manteve a saidinha com veto.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Lula manteve a saída temporária por veto, e o Congresso derrubou depois.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "E4BF-2EE0",
+  "conjunto": "checagens",
+  "id": "f157",
+  "registro": {
+   "id": "f157",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Lula afirmou não conhecer Roberta Luchsinger.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Há publicações que mostram os dois juntos antes da declaração de Lula.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "F233-04F6",
+  "conjunto": "checagens",
+  "id": "f158",
+  "registro": {
+   "id": "f158",
+   "data": "2026-10-23",
+   "candidato": "Flávio",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que vai criar a Casa da Mulher Brasileira.",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "O programa existe desde 2015 e tem 13 unidades.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
   "ainda_publicado": true
  },
  {
@@ -9978,6 +10579,126 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "FE55-6913",
+  "conjunto": "checagens",
+  "id": "l144",
+  "registro": {
+   "id": "l144",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que herdou 6 mil obras paradas.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O painel do TCU registrava 8.603 obras paralisadas em 2023.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BF7B-D62D",
+  "conjunto": "checagens",
+  "id": "l145",
+  "registro": {
+   "id": "l145",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que tinha acabado com a fome no país em 2012.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O Brasil saiu do Mapa da Fome em 2014, no governo Dilma.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "C9EC-0183",
+  "conjunto": "checagens",
+  "id": "l146",
+  "registro": {
+   "id": "l146",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que 33 milhões de pessoas passavam fome quando voltou ao governo.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "A pesquisa da Rede Penssan registrou esse número em 2022.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B392-1D7D",
+  "conjunto": "checagens",
+  "id": "l147",
+  "registro": {
+   "id": "l147",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que abriu 700 novos mercados e teve superávit de quase R$ 85 bilhões no agro.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O ministério confirma 707 mercados, mas o superávit é em dólares, não em reais.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "EBA3-5869",
+  "conjunto": "checagens",
+  "id": "l148",
+  "registro": {
+   "id": "l148",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o PAC de R$ 1,7 trilhão tem quase R$ 800 bilhões executados.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O painel mostra R$ 1,3 trilhão executado até junho de 2026.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B0D0-7A1D",
+  "conjunto": "checagens",
+  "id": "l149",
+  "registro": {
+   "id": "l149",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Fundo Amazônia foi paralisado por Bolsonaro e retomado no governo Lula.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "O STF mandou reativar em 2022, e Lula decretou a retomada em 2023.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E16E-A03B",
   "conjunto": "checagens",
   "id": "l15",
@@ -9995,6 +10716,86 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-19T00:51:05Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A096-6E5B",
+  "conjunto": "checagens",
+  "id": "l150",
+  "registro": {
+   "id": "l150",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que o Tigrinho foi criado no governo Bolsonaro em 2022.",
+   "veredito": "#FAKE",
+   "categoria": "Falso",
+   "explicacao": "A legislação das bets é de 2018, no governo Temer, e o marco regulatório é de 2023.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4B22-6A86",
+  "conjunto": "checagens",
+  "id": "l151",
+  "registro": {
+   "id": "l151",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que Fernando Henrique Cardoso trocou quatro vezes o presidente do Banco Central.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "Entre 1995 e 2002 houve quatro trocas.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "5E1F-1D57",
+  "conjunto": "checagens",
+  "id": "l152",
+  "registro": {
+   "id": "l152",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que a Argentina de Milei tem 40% de pobreza e consumo de carne de burro.",
+   "veredito": "#FATO",
+   "categoria": "Verdadeiro",
+   "explicacao": "A pobreza chegou a 52,9% em 2024 e caiu depois, e há imagens de consumo de carne de burro.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2574-9607",
+  "conjunto": "checagens",
+  "id": "l153",
+  "registro": {
+   "id": "l153",
+   "data": "2026-10-23",
+   "candidato": "Lula",
+   "agencia": "g1 Fato ou Fake",
+   "evento": "Debate na Globo",
+   "afirmacao": "Disse que herdou juros de 13% e que hoje estão em 13,75% com Banco Central independente.",
+   "veredito": "#NÃOÉBEMASSIM",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A Selic estava em 13,75% em janeiro de 2023 e chegou a 15% em 2025.",
+   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-25T18:32:16Z",
   "ainda_publicado": true
  },
  {
