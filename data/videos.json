@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261026-sinais-alarmismo",
+  "titulo": "Como saber se um vídeo quer te assustar (26/10)",
+  "curto": "Sinais de alarmismo",
+  "data": "2026-10-26",
+  "origem": "instagram/publicados/20261026-sinais-alarmismo-reels",
+  "video": "videos/20261026-sinais-alarmismo.mp4",
+  "capa": "videos/20261026-sinais-alarmismo.jpg",
+  "bolinha": "videos/20261026-sinais-alarmismo-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De-DJpfEYUY/"
+ },
+ {
   "id": "20261025-votacao-prorrogada",
   "titulo": "Votação prorrogada até as 19h (25/10)",
   "curto": "Prorrogação",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-debate-globo-chamada.jpg",
   "bolinha": "videos/20261023-debate-globo-chamada-b.jpg",
   "instagram": "https://www.instagram.com/reel/De2wEIvgpBh/"
- },
- {
-  "id": "20261023-boatos",
-  "titulo": "Boatos desmentidos (23/10)",
-  "curto": "Boatos",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-boatos-reels",
-  "video": "videos/20261023-boatos.mp4",
-  "capa": "videos/20261023-boatos.jpg",
-  "bolinha": "videos/20261023-boatos-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De2sDvyEqAU/"
  }
 ]
