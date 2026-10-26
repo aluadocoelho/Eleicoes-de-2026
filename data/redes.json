@@ -547,5 +547,14 @@
   "flavio": 29,
   "fonte": "Quaest, via Jornal de Brasília",
   "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-aumenta-vantagem-sobre-flavio-bolsonaro-em-popularidade-digital-na-vespera-do-segundo-turno/"
+ },
+ {
+  "id": "ativa-views-24h",
+  "metrica": "Visualizações de vídeos nas últimas 24 horas da campanha",
+  "periodo": "últimas 24 h antes da votação (até 25 out)",
+  "lula": 224900000,
+  "flavio": 118900000,
+  "fonte": "Ativaweb DataLab (coluna de Alek Maracajá em HNT)",
+  "url": "https://www.hnt.com.br/artigos/as-pesquisas-apontavam-flavio-o-digital-apontava-lula-a-urna-confirmou-o-digital/583303"
  }
 ]
