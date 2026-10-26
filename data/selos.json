@@ -3271,6 +3271,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "08EA-4E7D",
+  "conjunto": "boatos",
+  "id": "b114",
+  "registro": {
+   "id": "b114",
+   "data": "2026-10-26",
+   "alvo": "Lula",
+   "boato": "Vídeo de rapazes armados seria comemoração da vitória de Lula, com o letreiro \"Meninos do Lula\"",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "As imagens são anteriores ao 2º turno e mostram uma facção no Rio comemorando um ataque a rivais; o letreiro foi acrescentado depois.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/26/e-falso-que-video-de-meninos-armados-mostre-comemoracao-pela-vitoria-de-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa diz que a primeira publicação achada foi de 21/10 num perfil do Instagram que divulga vídeos de supostos criminosos, sem apontar quem pôs o letreiro.",
+   "tema": "Vídeo fora de contexto"
+  },
+  "primeira_vez": "2026-10-26T20:30:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "DDDE-8DC1",
+  "conjunto": "boatos",
+  "id": "b115",
+  "registro": {
+   "id": "b115",
+   "data": "2026-10-26",
+   "alvo": "Flávio",
+   "boato": "Flávio Bolsonaro teria fugido para os EUA depois de perder o 2º turno",
+   "veredito": "Enganoso",
+   "agencia": "Aos Fatos",
+   "explicacao": "O vídeo usado é de 25 de maio, de uma viagem a Washington; não há registro de saída do país e ele estava em Brasília no domingo. Também checado pelo UOL Confere.",
+   "url": "https://www.aosfatos.org/noticias/video-antigo-circula-nas-redes-para-sugerir-que-flavio-foi-para-os-eua/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Vídeo antigo"
+  },
+  "primeira_vez": "2026-10-26T20:30:55Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E95D-2BE4",
   "conjunto": "boatos",
   "id": "b12",
