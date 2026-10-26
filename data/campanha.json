@@ -438,5 +438,21 @@
   "descricao": "Lula (PT) foi reeleito presidente no 2º turno, com 51,75% dos votos válidos contra 48,25% de Flávio Bolsonaro (PL), com 98,27% das seções apuradas às 21h10, segundo o TSE. O Datafolha já projetava a vitória de Lula às 20h53. A posse está marcada para 5 de janeiro de 2027, segundo a Bloomberg Línea.",
   "fonte": "Bloomberg Línea",
   "url": "https://www.bloomberglinea.com.br/brasil/ao-vivo-brasil-vota-no-2-turno-para-escolher-entre-lula-e-flavio-bolsonaro-como-presidente/"
+ },
+ {
+  "id": "e56",
+  "data": "2026-10-25",
+  "tipo": "Resultado",
+  "descricao": "Com mais de 99,99% das seções apuradas, Lula (PT) tem 51,78% dos votos válidos e Flávio Bolsonaro (PL), 48,22%, uma diferença de cerca de 4,43 milhões de votos, segundo a Bloomberg Línea. Compareceram 128,2 milhões dos 158,7 milhões de eleitores (80,8%). Lula disse que vai governar para os 215 milhões de brasileiros.",
+  "fonte": "Bloomberg Línea",
+  "url": "https://www.bloomberglinea.com.br/brasil/ao-vivo-brasil-vota-no-2-turno-para-escolher-entre-lula-e-flavio-bolsonaro-como-presidente/"
+ },
+ {
+  "id": "e57",
+  "data": "2026-10-25",
+  "tipo": "Estratégia",
+  "descricao": "Por volta das 22h44 de domingo (25/10), em Brasília, Flávio Bolsonaro disse que é impossível reconhecer o resultado e que vai pedir a anulação da eleição. Ele citou a prorrogação da votação até as 19h decidida pelo ministro Cristiano Zanin. Segundo o Terra, a reportagem não informa a qual órgão o pedido será feito. A Bloomberg Línea também registrou que ele chamou a prorrogação de inaceitável.",
+  "fonte": "Terra",
+  "url": "https://www.terra.com.br/noticias/eleicoes/flavio-diz-que-nao-reconhece-vitoria-de-lula-e-vai-pedir-anulacao-da-eleicao,51dfbba3051bfd58376d056615ea0203otuvah64.html"
  }
 ]
