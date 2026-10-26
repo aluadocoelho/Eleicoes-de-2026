@@ -16451,6 +16451,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "296A-EE36",
+  "conjunto": "sinais",
+  "id": "s-aliados-2610",
+  "registro": {
+   "id": "s-aliados-2610",
+   "data": "2026-10-26",
+   "sinal": "Depois do resultado, aliados de Flávio, entre eles Nikolas Ferreira, Rogério Marinho, Marcel van Hattem e Eduardo Bolsonaro, publicaram no X e no Instagram mensagens contestando ou não reconhecendo a vitória de Lula. A reportagem não traz medição de alcance.",
+   "fonte": "ND Mais",
+   "url": "https://ndmais.com.br/politica/aliados-reforcam-discurso-de-flavio-bolsonaro-e-questionam-vitoria-de-lula/"
+  },
+  "primeira_vez": "2026-10-26T11:30:25Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "896B-155C",
   "conjunto": "sinais",
   "id": "s-apexata-globo",
@@ -16672,6 +16686,20 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/live-de-lula-e-janones-chega-a-118-milhao-de-aparelhos-simultaneos/"
   },
   "primeira_vez": "2026-10-23T01:29:17Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BCFC-4269",
+  "conjunto": "sinais",
+  "id": "s-memes-2510",
+  "registro": {
+   "id": "s-memes-2510",
+   "data": "2026-10-25",
+   "sinal": "Na noite da votação e na madrugada seguinte, o resultado do 2º turno virou assunto de memes e montagens nas redes, com imagens da vitória de Lula, da derrota de Flávio e figuras geradas por inteligência artificial. A reportagem não traz medição de volume.",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/resultado-do-2o-turno-das-eleicoes-vira-meme-nas-redes-sociais/"
+  },
+  "primeira_vez": "2026-10-26T11:30:25Z",
   "ainda_publicado": true
  },
  {
