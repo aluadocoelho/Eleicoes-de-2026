@@ -1524,5 +1524,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa diz que o vídeo circula no Instagram, sem apontar quem o criou.",
   "tema": "Vídeo com IA"
+ },
+ {
+  "id": "b110",
+  "data": "2026-10-25",
+  "alvo": "Flávio",
+  "boato": "Vereadora do PT de Montes Claros teria morrido após ser atacada por apoiadores de Flávio",
+  "veredito": "Desinformação",
+  "agencia": "Projeto Comprova",
+  "explicacao": "A vereadora Iara Pimentel foi atingida por objetos numa carreata, teve o nariz fraturado e levou pontos no rosto, mas saiu do hospital e votou no domingo. Também checado pela AFP Checamos.",
+  "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereadora-do-pt-que-sofreu-ataque-durante-carreata-em-montes-claros-mg-esta-viva-ao-contrario-do-que-afirma-post/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Comprova diz que o post no X partiu de uma conta com críticas a Flávio, mas não aponta ligação com a campanha de Lula.",
+  "tema": "Ataque a vereadora"
+ },
+ {
+  "id": "b111",
+  "data": "2026-10-26",
+  "alvo": "Flávio",
+  "boato": "Imagem com visual do g1 diz que Flávio Bolsonaro deixou o Brasil durante a apuração",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "A imagem é uma montagem: a Lupa não achou a notícia no g1 nem em outros veículos, e a assessoria do senador negou a informação.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/26/montagem-simula-noticia-do-g1-sobre-saida-de-flavio-bolsonaro-do-brasil/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa diz que a montagem circula no WhatsApp, sem apontar quem a criou.",
+  "tema": "Montagem de notícia"
  }
 ]
