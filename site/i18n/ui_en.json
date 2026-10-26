@@ -665,7 +665,6 @@
  "Debates e eventos,": "Debates and events,",
  "Do mais novo para o mais antigo. Cada item tem o link da fonte. Uma fala só aparece como checada quando o checador publicou a nota.": "From newest to oldest. Each item has the source link. A statement only appears as checked when the fact-checker has published the rating.",
  "Engajamento": "Engagement",
- "Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. No menu (botão amarelo, no celular) ou no topo da página (no computador), há “Letra maior”, “Modo escuro”, “Alto contraste”, “Ouvir a seção” e “Mais espaço no texto”. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. Os vídeos curtos da página repetem o que já está escrito nos textos.": "This page works with screen readers (TalkBack, VoiceOver, NVDA) and the keyboard: use Tab to move and the arrow keys to switch tabs. All charts have a text description. In the menu (yellow button, on phones) or at the top of the page (on computers), there are “Larger text”, “Dark mode”, “High contrast”, “Listen to the section” and “More text spacing”. The blue VLibras button, in the corner of the screen, translates the content into Libras (Brazilian Sign Language). The short videos on the page repeat what is already written in the texts.",
  "Este site usa cookies para o básico funcionar. Se você deixar, também medimos quais abas são mais lidas e onde as pessoas tocam, sem anúncios. Você escolhe.": "This site uses cookies so the basics work. If you allow it, we also measure which tabs are read most and where people tap, with no ads. You choose.",
  "Falas dos candidatos": "Candidates' statements",
  "Flávio: falsas de checadas": "Flávio: false out of checked",
@@ -725,5 +724,6 @@
  "Como a Clareia trabalha e contato": "How Clareia works and contact",
  "Resultado": "Result",
  "Flávio sem checagem": "Flávio no checks",
- "Lula sem checagem": "Lula no checks"
+ "Lula sem checagem": "Lula no checks",
+ "Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. No menu (botão amarelo, no celular) ou no topo da página (no computador), há “Letra maior”, “Modo escuro”, “Alto contraste”, “Ouvir a seção” e “Mais espaço no texto”. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. Os vídeos curtos têm só texto na tela e resumem informações que também estão nas abas.": "This page works with screen readers (TalkBack, VoiceOver, NVDA) and the keyboard: use Tab to move and the arrow keys to switch tabs. All charts have a text description. In the menu (yellow button, on phones) or at the top of the page (on computers), there are “Larger text”, “Dark mode”, “High contrast”, “Listen to the section” and “More text spacing”. The blue VLibras button, in the corner of the screen, translates the content into Libras (Brazilian Sign Language). The short videos show only text on screen and summarize information that is also in the tabs."
 }
