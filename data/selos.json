@@ -6300,6 +6300,21 @@
    "url": "https://www.terra.com.br/noticias/eleicoes/flavio-diz-que-nao-reconhece-vitoria-de-lula-e-vai-pedir-anulacao-da-eleicao,51dfbba3051bfd58376d056615ea0203otuvah64.html"
   },
   "primeira_vez": "2026-10-26T02:13:40Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "8FE2-8C6B",
+  "conjunto": "campanha",
+  "id": "e57",
+  "registro": {
+   "id": "e57",
+   "data": "2026-10-25",
+   "tipo": "Estratégia",
+   "descricao": "Na noite de domingo (25/10), em Brasília, Flávio Bolsonaro disse que é impossível reconhecer o resultado e que vai pedir a anulação da eleição. Ele citou a prorrogação da votação até as 19h decidida pelo ministro Cristiano Zanin. Segundo o Terra, a reportagem não informa a qual órgão o pedido será feito. A Bloomberg Línea também registrou que ele chamou a prorrogação de inaceitável.",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/eleicoes/flavio-diz-que-nao-reconhece-vitoria-de-lula-e-vai-pedir-anulacao-da-eleicao,51dfbba3051bfd58376d056615ea0203otuvah64.html"
+  },
+  "primeira_vez": "2026-10-26T09:45:12Z",
   "ainda_publicado": true
  },
  {
