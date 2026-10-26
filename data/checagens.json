@@ -4041,5 +4041,18 @@
   "explicacao": "A Selic estava em 13,75% em janeiro de 2023 e chegou a 15% em 2025.",
   "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
   "direcao": "Defesa de si ou do próprio governo"
+ },
+ {
+  "id": "f159",
+  "data": "2026-10-26",
+  "candidato": "Flávio",
+  "agencia": "Justiça Eleitoral (Fato ou Boato)",
+  "evento": null,
+  "afirmacao": "Disse, em entrevista após o resultado, que fiscais do PL foram retirados da sala-cofre do TSE.",
+  "veredito": "É falso",
+  "categoria": "Falso",
+  "explicacao": "O TSE diz que a sala-cofre não recebe visitas, que dois fiscais do PL estiveram no tribunal e que registros e filmagens mostram o acesso deles a outras áreas, como a Sala de Totalização.",
+  "url": "https://www.justicaeleitoral.jus.br/fato-ou-boato/checagens/2026/e-falso-que-fiscais-do-pl-foram-retirados-da-sala-cofre-do-tse",
+  "direcao": "Proposta ou outro tema"
  }
 ]
