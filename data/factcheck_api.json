@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio fugiu para os EUA após derrota eleitoral",
+  "quem_disse": "Flávio fugiu para os EUA após derrota eleitoral",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não viajou para os EUA após derrota para Lula ...",
+  "data_checagem": "2026-10-26",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm"
+ },
+ {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereadora-do-pt-que-sofreu-ataque-durante-carreata-em-montes-claros-mg-esta-viva-ao-contrario-do-que-afirma-post/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Apoiadores de Flávio Bolsonaro mataram a vereadora de Montes Claros Iara Pimentel jogando pedras e tijolos na cabeça dela em um ato de campanha",
@@ -1094,7 +1106,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2275,7 +2287,7 @@
   "data_afirmacao": "2026-07-20",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Fact Check. Lamine Yamal disse que se fosse brasileiro votava em Lula da Silva?",
+  "titulo": "Fact Check. Lamine Yamal disse que se fosse brasileiro votava em ...",
   "data_checagem": "2026-08-27",
   "url": "https://observador.pt/factchecks/fact-check-lamine-yamal-disse-que-se-fosse-brasileiro-votava-em-lula-da-silva/"
  },
@@ -3118,6 +3130,18 @@
   "titulo": "É falso que Flávio Bolsonaro tenha anunciado corte em aposentadorias, no 13º salário e no Pé-de-Meia",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-corte-aposentadorias-13-salario-pe-de-meia-fake-news/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/",
+  "termo": "Lula",
+  "afirmacao": "Decisão de prorrogação do horário da votação deu 2 milhões a mais de votos para Lula na Bahia",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-26",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-papa-recado-apoio-flavio-bolsonaro/",
