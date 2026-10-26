@@ -6195,6 +6195,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "81C6-735E",
+  "conjunto": "campanha",
+  "id": "e55",
+  "registro": {
+   "id": "e55",
+   "data": "2026-10-25",
+   "tipo": "Resultado",
+   "descricao": "Lula (PT) foi reeleito presidente no 2º turno, com 51,75% dos votos válidos contra 48,25% de Flávio Bolsonaro (PL), com 98,27% das seções apuradas às 21h10, segundo o TSE. O Datafolha já projetava a vitória de Lula às 20h53. A posse está marcada para 5 de janeiro de 2027, segundo a Bloomberg Línea.",
+   "fonte": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com.br/brasil/ao-vivo-brasil-vota-no-2-turno-para-escolher-entre-lula-e-flavio-bolsonaro-como-presidente/"
+  },
+  "primeira_vez": "2026-10-26T00:15:51Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
