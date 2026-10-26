@@ -416,6 +416,32 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "029B-76F8",
+  "conjunto": "agenda",
+  "id": "2026-10-26",
+  "registro": {
+   "data": "2026-10-26",
+   "lula": "Brasília (DF): sem agenda oficial pela manhã, após voltar de São Paulo; às 16h30, encontro com os presidentes da Câmara, Hugo Motta, e do Senado, Davi Alcolumbre",
+   "flavio": "Sem agenda pública divulgada",
+   "url": "https://www.metropoles.com/colunas/igor-gadelha/lula-recebe-motta-e-alcolumbre-apos-a-vitoria-nas-urnas"
+  },
+  "primeira_vez": "2026-10-26T18:14:41Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4F9B-6704",
+  "conjunto": "agenda",
+  "id": "2026-10-27",
+  "registro": {
+   "data": "2026-10-27",
+   "lula": "Brasília (DF): comemoração dos 81 anos, sem local nem horário divulgados",
+   "flavio": "Sem agenda pública divulgada",
+   "url": "https://www.bahianoticias.com.br/noticia/322970-semana-tem-lula-em-comemoracao-de-aniversario-acao-de-flavio-para-anular-eleicao-e-retorno-do-congresso"
+  },
+  "primeira_vez": "2026-10-26T18:14:41Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "0F73-83F8",
   "conjunto": "aovivo",
   "id": "band-06",
