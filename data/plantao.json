@@ -58,5 +58,20 @@
   "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/tse-lula-e-flavio-podem-abrir-sigilos-por-conta-propria-diz-mendonca/",
   "fonte2": "Metrópoles",
   "url2": "https://www.metropoles.com/brasil/flavio-libera-sigilos-ao-tse-e-desafia-lula-a-abrir-cartao-corporativo"
+ },
+ {
+  "id": "p05",
+  "inicio": "2026-10-26T08:40:00-03:00",
+  "expira": "2026-10-27T08:40:00-03:00",
+  "chamada": "TSE: Lula é reeleito no 2º turno com 51,79% dos votos válidos",
+  "titulo": "2º turno: Lula é reeleito, segundo a apuração do TSE",
+  "resumo": "Com 100% das urnas apuradas no domingo (25/10), Lula (PT) teve 51,79% dos votos válidos, mais de 64,2 milhões, e Flávio Bolsonaro (PL) teve 48,21%, cerca de 59,8 milhões, segundo o Metrópoles. A CNN Brasil publicou às 21h09 que Lula foi reeleito, com mais de 50% dos votos na divulgação parcial do TSE. No primeiro turno, Flávio havia ficado à frente. As reportagens consultadas não trazem, até agora, as falas dos dois candidatos sobre o resultado, e ainda não se sabe se Flávio reconheceu a derrota.",
+  "lula": "As reportagens consultadas não trazem manifestação dele sobre o resultado até 08h40.",
+  "flavio": "As reportagens consultadas não trazem manifestação dele sobre o resultado até 08h40.",
+  "aba": "aovivo",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/eleicoes/lula-e-reeleito-presidente-da-republica-no-2o-turno/",
+  "fonte2": "Metrópoles",
+  "url2": "https://www.metropoles.com/brasil/lula-conquista-virada-inedita-no-segundo-turno-e-e-reeleito-para-4o-mandato"
  }
 ]
