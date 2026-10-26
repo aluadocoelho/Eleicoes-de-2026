@@ -6339,6 +6339,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "57FB-32BE",
+  "conjunto": "campanha",
+  "id": "e58",
+  "registro": {
+   "id": "e58",
+   "data": "2026-10-25",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "O presidente do TSE, ministro Kassio Nunes Marques, declarou Lula vencedor do 2º turno e disse que a prorrogação da votação até as 19h, decidida por Zanin, não alterou a apuração nem o resultado. Segundo o Metrópoles, ele afirmou que a medida causou dificuldades operacionais e formou a maior fila de boletins de urna já registrada pelo TSE. A fala também foi dada à Agência Brasil. Até a manhã de segunda (26/10) não havia registro de que a campanha de Flávio tivesse protocolado o pedido de anulação, segundo a BM&C.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/nunes-marques-diz-que-decisao-de-zanin-nao-alterou-resultado-da-eleicao"
+  },
+  "primeira_vez": "2026-10-26T12:22:23Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
