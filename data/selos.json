@@ -3313,6 +3313,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F1DB-8D05",
+  "conjunto": "boatos",
+  "id": "b116",
+  "registro": {
+   "id": "b116",
+   "data": "2026-10-26",
+   "alvo": "Flávio",
+   "boato": "Vídeo mostraria Flávio Bolsonaro chorando depois de perder a eleição",
+   "veredito": "É falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "A gravação é de 22 de outubro, mostra Flávio vendo o último programa eleitoral e foi publicada por uma integrante da campanha na tarde de domingo, antes da apuração.",
+   "url": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Vídeo fora de contexto"
+  },
+  "primeira_vez": "2026-10-26T22:29:36Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E95D-2BE4",
   "conjunto": "boatos",
   "id": "b12",
