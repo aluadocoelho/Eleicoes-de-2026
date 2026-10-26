@@ -933,5 +933,16 @@
   "depois": "Na noite de domingo (25/10)",
   "motivo": "As 22h44 são a hora de publicação da reportagem do Terra, que não informa o horário exato da fala; a Agência Brasil também a situa só na noite de domingo.",
   "url": "https://www.terra.com.br/noticias/eleicoes/flavio-diz-que-nao-reconhece-vitoria-de-lula-e-vai-pedir-anulacao-da-eleicao,51dfbba3051bfd58376d056615ea0203otuvah64.html"
+ },
+ {
+  "id": "er86",
+  "data": "2026-10-26",
+  "conjunto": "aovivo",
+  "registro_id": "band-14",
+  "o_que_mudou": "Troca de fonte e trecho sem apoio na fonte retirado",
+  "antes": "Mais Goiás; Lula teria perguntado sobre a licença-maternidade e questionado mudanças de Flávio na PEC da escala 6x1",
+  "depois": "Diário do Nordeste; só a pergunta sobre a licença-maternidade, o único voto contra entre 49 deputados estaduais",
+  "motivo": "O link anterior era de site pequeno; o Diário do Nordeste traz a pergunta de Lula sobre a licença-maternidade, mas não registra o questionamento sobre a PEC da escala 6x1.",
+  "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/sem-responder-sobre-vorcaro-flavio-cobra-de-lula-explicacao-sobre-roberta-luchsinger-e-lulinha-1.3799524"
  }
 ]
