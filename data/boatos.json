@@ -1468,5 +1468,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Corrupção"
+ },
+ {
+  "id": "b106",
+  "data": "2026-10-21",
+  "alvo": "Lula",
+  "boato": "Apoiadores teriam roubado o relógio e a aliança de Lula em evento entre Juazeiro e Petrolina",
+  "veredito": "Falso",
+  "agencia": "Boatos.org",
+  "explicacao": "O vídeo foi gravado em São Luís (MA) em 19 de outubro e não mostra furto; não há boletim de ocorrência nem confirmação da equipe do presidente.",
+  "url": "https://www.boatos.org/politica/lula-teve-o-relogio-e-a-alianca-roubados-por-apoiadores-em-juazeiro-e-petrolina.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Segurança do presidente"
  }
 ]
