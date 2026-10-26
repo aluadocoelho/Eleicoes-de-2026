@@ -1510,5 +1510,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa cita posts no X e no Facebook, sem apontar quem criou o conteúdo.",
   "tema": "Votação no 2º turno"
+ },
+ {
+  "id": "b109",
+  "data": "2026-10-25",
+  "alvo": "Lula",
+  "boato": "Vídeo mostra Lula derrubando a mesa em entrevista com Ratinho",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "O trecho foi gerado ou manipulado por inteligência artificial a partir de uma entrevista de 2022, em que Lula não derruba a mesa.",
+  "url": "https://www.agencialupa.org/jornalismo/2026/10/25/e-falso-video-de-lula-derrubando-mesa-em-entrevista-com-ratinho/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa diz que o vídeo circula no Instagram, sem apontar quem o criou.",
+  "tema": "Vídeo com IA"
  }
 ]
