@@ -1175,13 +1175,23 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     }); }); });
     return r;
   }
-  function pega(uf) {
-    return fetch(BASE + uf + "/" + uf + "-c0001-e006258-u.json", {cache: "no-cache"}).then(function (r) { if (!r.ok) throw 0; return r.json(); })
-      .catch(function () { return fetch("/data/apuracao-uf/" + uf + ".json?v=" + Math.floor(Date.now() / 30000), {cache: "no-store"}).then(function (r) { if (!r.ok) throw 0; return r.json(); }); })
-      .then(function (j) { dados[uf] = ler1(j); }).catch(function () {});
+  function comPrazo(url, opt, ms) {
+    var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, ms);
+    opt.signal = ctl ? ctl.signal : undefined;
+    return fetch(url, opt).then(function (r) { clearTimeout(to); return r; }, function (e) { clearTimeout(to); throw e; });
   }
+  var agenda = null;
+  function pintaLogo() { if (agenda) return; agenda = setTimeout(function () { agenda = null; pinta(); }, 250); }
+  function pega(uf) {
+    return comPrazo(BASE + uf + "/" + uf + "-c0001-e006258-u.json", {cache: "no-cache"}, 12000).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .catch(function () { return comPrazo("/data/apuracao-uf/" + uf + ".json?v=" + Math.floor(Date.now() / 30000), {cache: "no-store"}, 12000).then(function (r) { if (!r.ok) throw 0; return r.json(); }); })
+      .then(function (j) { var r = ler1(j), a = dados[uf]; if (!a || !a.hg || String(r.dg) + String(r.hg) >= String(a.dg) + String(a.hg)) dados[uf] = r; pintaLogo(); }).catch(function () {});
+  }
+  var lendo = false;
   function tudo() {
+    if (lendo) return; lendo = true;
     Promise.all(UFS.map(pega)).then(function () {
+      lendo = false;
       var ult = ""; UFS.forEach(function (uf) { var r = dados[uf]; if (r && r.hg && String(r.dg) + String(r.hg) > ult) ult = String(r.dg) + String(r.hg); });
       pinta();
     });
