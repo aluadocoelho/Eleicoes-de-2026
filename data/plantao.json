@@ -62,7 +62,7 @@
  {
   "id": "p05",
   "inicio": "2026-10-26T08:40:00-03:00",
-  "expira": "2026-10-27T08:40:00-03:00",
+  "expira": "2026-10-26T17:55:00-03:00",
   "chamada": "TSE: Lula é reeleito no 2º turno com 51,79% dos votos válidos",
   "titulo": "2º turno: Lula é reeleito, segundo a apuração do TSE",
   "resumo": "Com 100% das urnas apuradas no domingo (25/10), Lula (PT) teve 51,79% dos votos válidos, mais de 64,2 milhões, e Flávio Bolsonaro (PL) teve 48,21%, cerca de 59,8 milhões, segundo o Metrópoles. A CNN Brasil publicou às 21h09 que Lula foi reeleito, com mais de 50% dos votos na divulgação parcial do TSE. No primeiro turno, Flávio havia ficado à frente. As reportagens consultadas não trazem, até agora, as falas dos dois candidatos sobre o resultado, e ainda não se sabe se Flávio reconheceu a derrota.",
@@ -73,5 +73,20 @@
   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-e-reeleito-presidente-da-republica-no-2o-turno/",
   "fonte2": "Metrópoles",
   "url2": "https://www.metropoles.com/brasil/lula-conquista-virada-inedita-no-segundo-turno-e-e-reeleito-para-4o-mandato"
+ },
+ {
+  "id": "p06",
+  "inicio": "2026-10-26T17:55:00-03:00",
+  "expira": "2026-10-27T17:55:00-03:00",
+  "chamada": "Flávio diz que a PF o intimou a entregar os passaportes, por ordem de Moraes",
+  "titulo": "Flávio diz ter sido intimado a entregar os passaportes",
+  "resumo": "O senador Flávio Bolsonaro (PL) disse que agentes da Polícia Federal o abordaram na manhã desta segunda (26/10), em Brasília, com uma ordem do ministro Alexandre de Moraes, do STF, para entregar os passaportes e não sair do país. Segundo ele, a decisão se baseou numa fala do irmão, Eduardo Bolsonaro, de que Flávio deveria deixar o país se perdesse. A decisão não foi divulgada, e o STF e a PF não se manifestaram nas reportagens consultadas até 17h55.",
+  "lula": "As reportagens consultadas não trazem manifestação dele até 17h55.",
+  "flavio": "Disse que vai entregar os passaportes e se defender, que nunca pensou em deixar o Brasil e que a decisão foi política, tomada depois do resultado. Também disse que vai pedir a anulação da eleição.",
+  "aba": "campanha",
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/brasil/flavio-bolsonaro-diz-que-foi-intimado-pela-pf-a-entregar-passaporte",
+  "fonte2": "CNN Portugal",
+  "url2": "https://cnnportugal.iol.pt/flavio-bolsonaro/brasil/flavio-bolsonaro-proibido-de-sair-do-brasil-policia-federal-exige-entrega-dos-passaportes/20261026/6adfb0ccd34e9a786e75de6a"
  }
 ]
