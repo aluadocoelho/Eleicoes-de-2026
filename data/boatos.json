@@ -1552,5 +1552,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa diz que a montagem circula no WhatsApp, sem apontar quem a criou.",
   "tema": "Montagem de notícia"
+ },
+ {
+  "id": "b112",
+  "data": "2026-10-26",
+  "alvo": "Lula",
+  "boato": "Os votos dados depois das 17h de 25/10 teriam decidido a vitória de Lula",
+  "veredito": "Falso",
+  "agencia": "E-farsas",
+  "explicacao": "Só cerca de 35 mil votos foram dados depois das 17h e apenas 5 mil na prorrogação até as 19h, e Lula venceu por mais de 4 milhões de votos.",
+  "url": "https://www.e-farsas.com/os-votos-feitos-depois-das-17h-deram-a-vitoria-para-o-lula.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Votação e prorrogação"
  }
 ]
