@@ -7834,6 +7834,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "C20C-71A9",
+  "conjunto": "checagens",
+  "id": "f159",
+  "registro": {
+   "id": "f159",
+   "data": "2026-10-26",
+   "candidato": "Flávio",
+   "agencia": "Justiça Eleitoral (Fato ou Boato)",
+   "evento": null,
+   "afirmacao": "Disse, em entrevista após o resultado, que fiscais do PL foram retirados da sala-cofre do TSE.",
+   "veredito": "É falso",
+   "categoria": "Falso",
+   "explicacao": "O TSE diz que a sala-cofre não recebe visitas, que dois fiscais do PL estiveram no tribunal e que registros e filmagens mostram o acesso deles a outras áreas, como a Sala de Totalização.",
+   "url": "https://www.justicaeleitoral.jus.br/fato-ou-boato/checagens/2026/e-falso-que-fiscais-do-pl-foram-retirados-da-sala-cofre-do-tse",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-26T12:31:36Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "3B39-F5FB",
   "conjunto": "checagens",
   "id": "f16",
