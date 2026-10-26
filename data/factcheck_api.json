@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereadora-do-pt-que-sofreu-ataque-durante-carreata-em-montes-claros-mg-esta-viva-ao-contrario-do-que-afirma-post/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Apoiadores de Flávio Bolsonaro mataram a vereadora de Montes Claros Iara Pimentel jogando pedras e tijolos na cabeça dela em um ato de campanha",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-10-25",
+  "checador": "Projeto Comprova",
+  "selo": "Falso",
+  "titulo": "Vereadora do PT que sofreu ataque durante carreata em Montes Claros (MG) está viva, ao contrário do que afirma post",
+  "data_checagem": "2026-10-25",
+  "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereadora-do-pt-que-sofreu-ataque-durante-carreata-em-montes-claros-mg-esta-viva-ao-contrario-do-que-afirma-post/"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D4EC79E",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Prorrogação das eleições foi para que mesários votassem pelos ausentes?",
@@ -10,6 +22,18 @@
   "titulo": "Mesários não podem votar no lugar de ausentes e votação após ...",
   "data_checagem": "2026-10-25",
   "url": "https://checamos.afp.com/doc.afp.com.D4EC79E"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4DY69E",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "apoiadores de Flávio Bolsonaro mataram a vereadora Iara Pimentel (PT)",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-25",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Vereadora petista em Montes Claros foi atingida no rosto durante comício para segundo turno, mas não morreu",
+  "data_checagem": "2026-10-25",
+  "url": "https://checamos.afp.com/doc.afp.com.D4DY69E"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4DR6G3",
@@ -31,7 +55,7 @@
   "data_afirmacao": "2026-10-21",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso áudio em que Lula xinga Roberta Luchsinger; conteúdo foi ...",
+  "titulo": "É falso áudio em que Lula xinga Roberta Luchsinger; conteúdo foi criado com IA",
   "data_checagem": "2026-10-25",
   "url": "https://checamos.afp.com/doc.afp.com.D4C32NQ"
  },
@@ -1070,11 +1094,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -1083,8 +1107,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2239,7 +2263,7 @@
   "data_afirmacao": "2026-08-18",
   "checador": "Observador",
   "selo": "Enganador",
-  "titulo": "Fact Check. Lula disse que só venceu eleições porque nordestinos são analfabetos?",
+  "titulo": "Lula diz que foi eleito porque nordestinos são analfabetos?",
   "data_checagem": "2026-08-27",
   "url": "https://observador.pt/factchecks/fact-check-lula-disse-que-so-venceu-eleicoes-porque-nordestinos-sao-analfabetos/"
  },
@@ -2263,7 +2287,7 @@
   "data_afirmacao": "2026-08-23",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Lula não propôs cortar benefícios para conter crise nos estados; vídeo antigo é tirado de contexto",
+  "titulo": "Lula não propôs cortar benefícios para conter crise nos estados ...",
   "data_checagem": "2026-08-27",
   "url": "https://checamos.afp.com/doc.afp.com.C6NB766"
  },
@@ -2439,8 +2463,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3139,7 +3163,7 @@
   "data_afirmacao": "2026-10-25",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Não há indício de que membro da equipe de Flávio tenha falado ...",
+  "titulo": "Não há indício de que membro da equipe de Flávio tenha falado sobre cortes sociais com ACM Neto",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-audio-equipe-flavio-bolsonaro-corte-bolsa-familia/"
  },
@@ -3300,6 +3324,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo é do Círio de Nazaré, não de ato em apoio a Flávio Bolsonaro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
@@ -3358,6 +3394,18 @@
   "titulo": "IstoÉ não publicou capa com Flávio Bolsonaro; imagem foi alterada por IA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Multidão lota 12 quarteirões da Paulista para ato de Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de avenida Paulista cheia é de 2024, não de ato de Flávio no domingo",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm",
@@ -3454,6 +3502,18 @@
   "titulo": "Lula não disse que criminosos roubam celular para tomar cerveja",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/14/lula-nao-disse-que-criminosos-roubam-para-tomar-cerveja-video-e-editado.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/14/e-montagem-video-de-cleitinho-mostrando-audio-de-flavio-sobre-nossa-senhora.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Cleitinho mostra áudio de Flávio Bolsonaro sobre Nossa Senhora Aparecida",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Cleitinho com áudio de Flávio Bolsonaro sobre padroeira é montagem",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/14/e-montagem-video-de-cleitinho-mostrando-audio-de-flavio-sobre-nossa-senhora.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/14/e-montagem-video-de-cleitinho-mostrando-audio-de-flavio-sobre-nossa-senhora.ghtm",
@@ -3732,6 +3792,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Torcida do Flamengo protesta contra Lula após fim das bets",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo não é de torcida do Flamengo protestando contra Lula por fim das bets",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.ghtm",
   "termo": "Lula",
   "afirmacao": "Romário critica Lula pelo fim das bets e o acusa de debochar da torcida do Flamengo",
@@ -3886,6 +3958,18 @@
   "titulo": "Flávio Bolsonaro não protocolou pedido de impeachment contra Dino",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro protocolou pedido de impeachment de Dino",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não protocolou pedido de impeachment contra Dino",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/23/flavio-bolsonaro-nao-protocolou-pedido-de-impeachment-de-dino.ghtm",
