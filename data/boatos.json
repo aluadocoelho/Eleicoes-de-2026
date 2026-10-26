@@ -1482,5 +1482,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Segurança do presidente"
+ },
+ {
+  "id": "b107",
+  "data": "2026-10-25",
+  "alvo": "Flávio",
+  "boato": "Foto mostraria o ex-jogador Ronaldo fazendo o \"L\" em apoio a Lula",
+  "veredito": "Falso (gerado por IA)",
+  "agencia": "Lupa",
+  "explicacao": "A imagem foi manipulada com inteligência artificial a partir de uma foto postada por um artista colombiano, e a assessoria de Ronaldo diz que ela foi usada sem autorização.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/25/foto-de-ronaldo-fazendo-o-l-foi-gerada-com-inteligencia-artificial/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa diz que a imagem circulou no Instagram, no X e no Facebook, sem apontar quem a criou.",
+  "tema": "Falso apoio de artistas"
+ },
+ {
+  "id": "b108",
+  "data": "2026-10-25",
+  "alvo": "Lula",
+  "boato": "Vídeo mostraria eleitores ribeirinhos de Lula chegando de barco a Belém para votar",
+  "veredito": "Falso (vídeo antigo)",
+  "agencia": "Lupa",
+  "explicacao": "As imagens são de 2020, de uma carreata de barcos de campanha municipal, e já circulavam em 2022.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/25/video-antigo-de-pessoas-de-vermelho-em-barco-e-usado-para-alegar-chegada-de-eleitores-de-lula-a-belem/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa cita posts no X e no Facebook, sem apontar quem criou o conteúdo.",
+  "tema": "Votação no 2º turno"
  }
 ]
