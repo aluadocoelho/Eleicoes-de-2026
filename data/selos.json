@@ -6354,6 +6354,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "2F4D-6738",
+  "conjunto": "campanha",
+  "id": "e59",
+  "registro": {
+   "id": "e59",
+   "data": "2026-10-25",
+   "tipo": "Resultado",
+   "descricao": "Na noite de domingo (25/10), Lula discursou em um hotel em São Paulo depois da confirmação da vitória e seguiu à Avenida Paulista para encontrar eleitores, segundo o Terra. O vice Geraldo Alckmin abriu a fala. Lula disse que governará com respeito à Constituição e atribuiu a vitória à juventude e às mulheres.",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/eleicoes/veja-quem-estava-ao-lado-de-lula-em-primeiro-discurso-apos-vitoria-nas-eleicoes,3b26856d9b9eda325e6c25fd600c9ae4thbvd81f.html"
+  },
+  "primeira_vez": "2026-10-26T14:14:50Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
