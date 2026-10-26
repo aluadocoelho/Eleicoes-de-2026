@@ -6589,6 +6589,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "91DF-D652",
+  "conjunto": "campanha",
+  "id": "e61",
+  "registro": {
+   "id": "e61",
+   "data": "2026-10-26",
+   "tipo": "Estratégia",
+   "descricao": "Em vídeo na segunda (26/10), Flávio Bolsonaro disse que vai pedir a cassação da chapa de Lula e Alckmin por abuso de poder e não falou mais em anular a eleição. Aliados e o jurídico disseram ao Metrópoles e à CNN Brasil que não haverá pedido de anulação. Já há 20 pedidos de cassação na Justiça Eleitoral, e novas ações devem ser protocoladas nos próximos dias. Flávio ainda não reconhece o resultado, segundo o Metrópoles.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/flavio-nao-vai-mais-pedir-anulacao-da-eleicao-dizem-aliados-e-juridico"
+  },
+  "primeira_vez": "2026-10-26T22:14:58Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
