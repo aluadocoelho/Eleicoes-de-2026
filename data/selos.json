@@ -15220,6 +15220,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "B113-A18F",
+  "conjunto": "redes",
+  "id": "ativa-views-24h",
+  "registro": {
+   "id": "ativa-views-24h",
+   "metrica": "Visualizações de vídeos nas últimas 24 horas da campanha",
+   "periodo": "últimas 24 h antes da votação (até 25 out)",
+   "lula": 224900000,
+   "flavio": 118900000,
+   "fonte": "Ativaweb DataLab (coluna de Alek Maracajá em HNT)",
+   "url": "https://www.hnt.com.br/artigos/as-pesquisas-apontavam-flavio-o-digital-apontava-lula-a-urna-confirmou-o-digital/583303"
+  },
+  "primeira_vez": "2026-10-26T13:36:33Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "77A2-DFD8",
   "conjunto": "redes",
   "id": "ativa-views-band",
