@@ -3237,6 +3237,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "2FC0-9269",
+  "conjunto": "boatos",
+  "id": "b113",
+  "registro": {
+   "id": "b113",
+   "data": "2026-10-26",
+   "alvo": "Lula",
+   "boato": "Vídeo de presos em festa seria comemoração da reeleição de Lula",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O vídeo é de 2022 e mostra detentos comemorando um gol do Santa Cruz contra o Sport; a legenda sobre Lula foi acrescentada às imagens antigas.",
+   "url": "https://www.agencialupa.org/verificacao/2026/10/26/video-mostra-detentos-comemorando-gol-em-2022-e-nao-vitoria-de-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Vídeo antigo"
+  },
+  "primeira_vez": "2026-10-26T19:30:36Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E95D-2BE4",
   "conjunto": "boatos",
   "id": "b12",
