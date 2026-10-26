@@ -17067,6 +17067,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A4AE-C649",
+  "conjunto": "sinais",
+  "id": "s-palver-pos",
+  "registro": {
+   "id": "s-palver-pos",
+   "data": "2026-10-26",
+   "sinal": "Segundo a Palver, entre domingo (25) e as 11h de segunda (26), em 9 meios e plataformas, a contestação do resultado ocupou de 34% (Telegram) a 56% (Instagram) das mensagens com posicionamento. Teses de fraude ficaram abaixo de 10%. O assunto central foi a prorrogação da votação decidida pelo ministro Zanin, e quem defendia o resultado lembrou que a campanha de Flávio também havia pedido mais tempo. Na manhã de segunda, a defesa do resultado cresceu em todos os meios.",
+   "fonte": "Palver, via Diário do Centro do Mundo",
+   "url": "https://www.diariodocentrodomundo.com.br/choro-bolsonarista-contra-vitoria-de-lula-lidera-debate-nas-redes-diz-levantamento"
+  },
+  "primeira_vez": "2026-10-26T23:29:06Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5485-09FC",
   "conjunto": "sinais",
   "id": "s-palver-sigilo",
