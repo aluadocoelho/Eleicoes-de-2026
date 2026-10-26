@@ -297,6 +297,13 @@ body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
 .el-muted{color:var(--color-fg-muted)}
 
 /* Início */
+.el-cmp-t{width:100%;border-collapse:collapse;margin:var(--cds-gap-sm) 0 var(--cds-gap-md);font-variant-numeric:tabular-nums}
+.el-cmp-t th,.el-cmp-t td{padding:10px 8px;border-bottom:2px solid var(--color-border-line);text-align:right}
+.el-cmp-t thead th{font-size:.9rem;font-weight:800}
+.el-cmp-t tbody th{text-align:left;font-weight:600;font-size:.95rem;line-height:1.3;max-width:11rem}
+.el-cmp-t td{font-family:var(--font-anthropic-serif);font-size:clamp(1.4rem,6vw,2rem);line-height:1.1;white-space:nowrap}
+.el-cmp-t td b{font-weight:400}
+.el-card[hidden]{display:none}
 .el-hero{background:var(--surface-soft);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:clamp(18px,4vw,32px)}
 .el-verdict{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(2rem,7vw,3.25rem);line-height:1.05;margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
 .el-names{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--cds-gap-md);margin-bottom:var(--cds-gap-sm)}
@@ -1497,65 +1504,37 @@ body.el-vp-lock{overflow:hidden}
   <!-- ================= INÍCIO ================= -->
   <main id="conteudo" tabindex="-1" class="el-main">
   <section class="el-page" id="inicio" role="tabpanel" aria-labelledby="tab-inicio" tabindex="-1">
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Início</span><p class="el-pgtitle">O 2º turno, <em>sem complicação</em></p></div>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Início</span><p class="el-pgtitle">Depois da votação, <em>em poucas palavras</em></p></div>
     <div class="el-banner" id="banner" data-source="destaques" hidden></div>
 
 
     <div class="el-hero" id="hero">
-      <p class="el-eyebrow">Pergunta principal</p>
-      <h2 class="el-hero-q">Quem está na frente nas pesquisas?</h2>
-      <p class="el-verdict" id="hero-verdict">—</p>
-      <p class="el-hero-plain" id="hero-plain"></p>
-      <div class="el-names">
-        <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="resumo" data-field="media_flavio">—</span>%</span></div>
-        <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="resumo" data-field="media_lula">—</span>%</span></div>
-      </div>
-      <div class="el-tug dash-skeleton" id="tug" data-source="resumo"></div>
-      <div class="el-tug-mid"><span>metade dos votos</span></div>
-      <p class="el-hero-note">Média das pesquisas mais recentes de <span data-source="resumo" data-field="n">—</span> institutos, contando só os votos dados a um dos dois. Flávio aparece à frente em <span data-source="resumo" data-field="flavio_frente">—</span> delas; Lula, em <span data-source="resumo" data-field="lula_frente">—</span>.</p>
+      <p class="el-eyebrow">Pesquisas e resultado</p>
+      <h2 class="el-hero-q">As pesquisas acertaram?</h2>
+      <p class="el-hero-plain">Veja a média das pesquisas da véspera ao lado da contagem do TSE. Os dois são de votos válidos.</p>
+      <table class="el-cmp-t">
+        <thead><tr><th scope="col"><span class="el-vh">Origem do número</span></th><th scope="col" class="el-cf">Flávio Bolsonaro</th><th scope="col" class="el-cl">Lula</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Média das pesquisas da véspera</th><td class="el-cf"><b data-source="resumo" data-field="media_flavio">—</b>%</td><td class="el-cl"><b data-source="resumo" data-field="media_lula">—</b>%</td></tr>
+          <tr data-cmp-tse hidden><th scope="row">Resultado final do TSE</th><td class="el-cf"><b data-c="rf">—</b>%</td><td class="el-cl"><b data-c="rl">—</b>%</td></tr>
+        </tbody>
+      </table>
+      <p class="el-hero-note">Pesquisas: média da última pesquisa de cada um dos <span data-source="resumo" data-field="n">—</span> institutos. Uma pesquisa ouve só uma parte dos eleitores, por isso pode ficar um pouco acima ou abaixo do resultado. Fonte da contagem: <a href="https://resultados.tse.jus.br/oficial/app/index.html" target="_blank" rel="noopener noreferrer">TSE, Resultados</a>.</p>
       <details class="el-details">
-        <summary>O que é voto válido, margem de erro e empate técnico?</summary>
-        <p><b>Votos válidos</b> são os votos dados a um dos candidatos, sem contar brancos e nulos. É assim que o TSE decide quem vence.</p>
-        <p><b>Margem de erro</b> é o quanto o resultado de uma pesquisa pode variar para mais ou para menos, porque ela ouve só uma parte dos eleitores.</p>
-        <p><b>Empate técnico</b> acontece quando a diferença entre os dois é menor do que essa margem: não dá para afirmar quem está na frente.</p>
+        <summary>O que quer dizer voto válido, margem de erro, empate técnico e ponto?</summary>
+        <p><b>Votos válidos</b> são os votos dados a um dos dois candidatos. Brancos e nulos não entram na conta. É com esses votos que se decide quem ganha.</p>
+        <p><b>Margem de erro:</b> a pesquisa pergunta a algumas pessoas, não a todas. Por isso o resultado pode ser um pouco maior ou menor. Esse “um pouco” é a margem de erro.</p>
+        <p><b>Empate técnico:</b> quando a diferença entre os dois é menor que a margem de erro, a pesquisa não consegue dizer quem está na frente. Chamamos isso de empate técnico.</p>
+        <p><b>Ponto</b> é a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</p>
+        <p><b>Abstenção</b> é a parte dos eleitores que não foi votar.</p>
+        <p><b>Mediana</b> é o valor do meio quando colocamos todas as pesquisas em fila.</p>
       </details>
       <button class="el-cta" data-go="pesquisas">Ver todas as pesquisas →</button>
     </div>
 
-    <button type="button" class="el-como-mini" data-go="sobre"><span class="el-como-mini-i" aria-hidden="true">C</span><span><b>Como a Clareia trabalha:</b> agregador, sempre com a fonte, os dois lados com o mesmo critério e feita com IA.</span><span class="el-como-mini-m" aria-hidden="true">Saiba mais →</span></button>
-    <h2 class="el-sec">O que mais você precisa saber</h2>
+    <button type="button" class="el-como-mini" data-go="sobre"><span class="el-como-mini-i" aria-hidden="true">C</span><span><b>Como a Clareia trabalha:</b> reunimos o que já foi publicado, sempre com o link da fonte, e damos o mesmo espaço aos dois candidatos. O site é feito com ajuda de inteligência artificial (um programa de computador).</span><span class="el-como-mini-m" aria-hidden="true">Saiba mais →</span></button>
+    <h2 class="el-sec">Outros assuntos</h2>
     <div class="el-qgrid">
-      <article class="el-q" id="q-tendencia">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><h3 class="el-q-t">Quem está subindo?</h3></div>
-        <p class="el-q-a" id="q-tend-a">—</p>
-        <p class="el-q-s">Nos <b data-source="tendencia" data-field="n">—</b> institutos que já fizeram mais de uma pesquisa no 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b> na primeira rodada e é de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b> na mais recente. A média de todos os institutos está na aba Pesquisas.</p>
-        <button class="el-q-more" data-go="pesquisas">Ver as pesquisas →</button>
-      </article>
-
-      <article class="el-q" id="q-pt">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="10" width="18" height="11" rx="2"/><path d="M8 10V4h8v6"/><path d="M10 7h4"/></svg></span><h3 class="el-q-t">Quem ganhou o 1º turno?</h3></div>
-        <p class="el-q-a" id="q-pt-a">—</p>
-        <p class="el-q-s"><span class="el-cf">Flávio teve <b data-source="primeiro_turno" data-where="candidato=Fl%C3%A1vio%20Bolsonaro" data-field="pct">—</b>%</span> e <span class="el-cl">Lula, <b data-source="primeiro_turno" data-where="candidato=Lula" data-field="pct">—</b>%</span>, em 4 de outubro. Como ninguém passou da metade, os dois voltam a disputar.</p>
-      </article>
-
-      <article class="el-q" id="q-falsas">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></svg></span><h3 class="el-q-t">O que dizem os checadores?</h3></div>
-        <div class="el-qf" id="q-falsas-lista" data-source="taxa_checador"></div>
-        <div class="el-mbars" data-source="taxa_resumo" hidden>
-          <div class="el-mbar"><span class="el-cf">Flávio</span><div class="el-track"><div class="el-fill" id="mb-f"></div></div><b class="el-cf" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</b></div>
-          <div class="el-mbar"><span class="el-cl">Lula</span><div class="el-track"><div class="el-fill" id="mb-l"></div></div><b class="el-cl" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</b></div>
-        </div>
-        <p class="el-q-s">Parte das falas checadas de cada um que foi classificada como falsa, em cada checador. Cada um escolhe o que verificar e usa critérios próprios, por isso os números mudam tanto.</p>
-        <button class="el-q-more" data-go="checagem">Ver as checagens →</button>
-      </article>
-
-      <article class="el-q" id="q-redes">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h3 class="el-q-t">Quem movimenta mais as redes?</h3></div>
-        <p class="el-q-a" id="q-redes-a">—</p>
-        <p class="el-q-s">Das <b data-source="redes_placar" data-field="total">—</b> medidas reunidas, Lula está na frente em <b data-source="redes_placar" data-field="lula">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_lula">—</span>) e Flávio em <b data-source="redes_placar" data-field="flavio">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_flavio">—</span>). Cada medida conta uma parte da história, e nenhuma mostra quem vai ganhar.</p>
-        <button class="el-q-more" data-go="redes">Ver as redes →</button>
-      </article>
-
       <article class="el-q" id="q-boatos">
         <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3 class="el-q-t">Tem muito boato circulando?</h3></div>
         <p class="el-q-a"><span data-source="boatos_resumo" data-field="total">—</span> boatos desmentidos</p>
@@ -1563,11 +1542,37 @@ body.el-vp-lock{overflow:hidden}
         <button class="el-q-more" data-go="checagem" data-anchor="card-boatos">Ver os boatos →</button>
       </article>
 
-      <article class="el-q" id="q-voto">
-        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><h3 class="el-q-t">Quando é a votação?</h3></div>
-        <p class="el-q-a" data-source="destaques" data-where="id=votacao" data-field="data">—</p>
-        <p class="el-q-s">Das <b data-source="destaques" data-where="id=votacao" data-field="hora_inicio">—</b> às <b data-source="destaques" data-where="id=votacao" data-field="hora_fim">—</b>, horário de Brasília. <span data-source="destaques" data-where="id=votacao" data-field="como_assistir">—</span></p>
+      <article class="el-q" id="q-falsas">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></svg></span><h3 class="el-q-t">Quantas falas foram marcadas como falsas?</h3></div>
+        <div class="el-qf" id="q-falsas-lista" data-source="taxa_checador"></div>
+        <div class="el-mbars" data-source="taxa_resumo" hidden>
+          <div class="el-mbar"><span class="el-cf">Flávio</span><div class="el-track"><div class="el-fill" id="mb-f"></div></div><b class="el-cf" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</b></div>
+          <div class="el-mbar"><span class="el-cl">Lula</span><div class="el-track"><div class="el-fill" id="mb-l"></div></div><b class="el-cl" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</b></div>
+        </div>
+        <p class="el-q-s">Cada linha mostra a parte das falas checadas que o checador marcou como falsa. Cada checador escolhe o que verifica e usa critérios próprios, por isso os números mudam tanto de um para outro.</p>
+        <button class="el-q-more" data-go="checagem">Ver as checagens →</button>
       </article>
+
+      <article class="el-q" id="q-tendencia">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><h3 class="el-q-t">Como as pesquisas mudaram?</h3></div>
+        <p class="el-q-a" id="q-tend-a">—</p>
+        <p class="el-q-s">Em <b data-source="tendencia" data-field="n">—</b> institutos que perguntaram mais de uma vez no 2º turno, a diferença média era de <b data-source="tendencia" data-field="inicio">—</b> pontos a favor de <b data-source="tendencia" data-field="inicio_lider">—</b> na primeira pesquisa e foi de <b data-source="tendencia" data-field="agora">—</b> pontos a favor de <b data-source="tendencia" data-field="agora_lider">—</b> na última. Ponto é a diferença entre duas porcentagens. A média de todos os institutos está na aba Pesquisas.</p>
+        <button class="el-q-more" data-go="pesquisas">Ver as pesquisas →</button>
+      </article>
+
+      <article class="el-q" id="q-pt">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="10" width="18" height="11" rx="2"/><path d="M8 10V4h8v6"/><path d="M10 7h4"/></svg></span><h3 class="el-q-t">Como foi o 1º turno?</h3></div>
+        <p class="el-q-a" id="q-pt-a">—</p>
+        <p class="el-q-s"><span class="el-cf">Flávio teve <b data-source="primeiro_turno" data-where="candidato=Fl%C3%A1vio%20Bolsonaro" data-field="pct">—</b>%</span> e <span class="el-cl">Lula, <b data-source="primeiro_turno" data-where="candidato=Lula" data-field="pct">—</b>%</span> dos votos válidos, em 4 de outubro. Como ninguém passou de 50%, os dois disputaram o 2º turno.</p>
+      </article>
+
+      <article class="el-q" id="q-redes">
+        <div class="el-q-top"><span class="el-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h3 class="el-q-t">Quem aparece mais nas redes?</h3></div>
+        <p class="el-q-a" id="q-redes-a">—</p>
+        <p class="el-q-s">Das <b data-source="redes_placar" data-field="total">—</b> medidas reunidas, Lula está na frente em <b data-source="redes_placar" data-field="lula">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_lula">—</span>) e Flávio em <b data-source="redes_placar" data-field="flavio">—</b> (por exemplo, <span data-source="redes_placar" data-field="ex_flavio">—</span>). Cada medida conta uma parte da história. Curtidas e seguidores não dizem quem ganhou.</p>
+        <button class="el-q-more" data-go="redes">Ver as redes →</button>
+      </article>
+
     </div>
 
     <div class="el-card el-simple" id="card-agenda-simples">
@@ -1602,44 +1607,58 @@ body.el-vp-lock{overflow:hidden}
 
   <!-- ================= PESQUISAS ================= -->
   <section class="el-page" id="pesquisas" role="tabpanel" aria-labelledby="tab-pesquisas" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Pesquisas</span><p class="el-pgtitle">Quem está na frente, <em>pesquisa por pesquisa</em></p></div>
-    <p class="el-intro">Aqui estão as pesquisas nacionais do 2º turno. O gráfico mostra todas as rodadas; a tabela mostra a mais recente de cada instituto. No gráfico, as linhas mostram a mediana das pesquisas para cada candidato, e as bolinhas claras são cada pesquisa.</p>
-    <p class="el-take">Na média da última rodada de cada instituto, Flávio tem <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparece à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Pesquisas</span><p class="el-pgtitle">As últimas pesquisas, <em>antes da votação</em></p></div>
+    <p class="el-intro">Aqui estão as pesquisas do 2º turno feitas antes da votação. A tabela traz a última pesquisa de cada instituto. O gráfico mostra a mediana ao longo dos dias.</p>
+    <div class="el-card el-cmp-card">
+      <h2 class="el-h">As pesquisas acertaram?</h2>
+      <table class="el-cmp-t">
+        <thead><tr><th scope="col"><span class="el-vh">Origem do número</span></th><th scope="col" class="el-cf">Flávio Bolsonaro</th><th scope="col" class="el-cl">Lula</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Média das pesquisas da véspera</th><td class="el-cf"><b data-source="resumo" data-field="media_flavio">—</b>%</td><td class="el-cl"><b data-source="resumo" data-field="media_lula">—</b>%</td></tr>
+          <tr data-cmp-tse hidden><th scope="row">Resultado final do TSE</th><td class="el-cf"><b data-c="rf">—</b>%</td><td class="el-cl"><b data-c="rl">—</b>%</td></tr>
+        </tbody>
+      </table>
+      <p class="el-note">Votos válidos nos dois casos. Uma pesquisa ouve só uma parte dos eleitores, por isso pode ficar um pouco acima ou abaixo do resultado. Fonte da contagem: <a href="https://resultados.tse.jus.br/oficial/app/index.html" target="_blank" rel="noopener noreferrer">TSE, Resultados</a>.</p>
+    </div>
+    <p class="el-take">Na média da última pesquisa de cada instituto, Flávio tinha <b data-source="resumo" data-field="media_flavio">—</b>% e Lula <b data-source="resumo" data-field="media_lula">—</b>% dos votos válidos, diferença de <b data-source="resumo" data-field="dif">—</b> ponto. Flávio aparecia à frente em <b data-source="resumo" data-field="flavio_frente">—</b> de <b data-source="resumo" data-field="n">—</b> institutos; Lula, em <b data-source="resumo" data-field="lula_frente">—</b>; empate, em <b data-source="resumo" data-field="empate">—</b>. <span id="verdict"></span></p>
+    <details class="el-details">
+        <summary>O que quer dizer voto válido, margem de erro, empate técnico e ponto?</summary>
+        <p><b>Votos válidos</b> são os votos dados a um dos dois candidatos. Brancos e nulos não entram na conta. É com esses votos que se decide quem ganha.</p>
+        <p><b>Margem de erro:</b> a pesquisa pergunta a algumas pessoas, não a todas. Por isso o resultado pode ser um pouco maior ou menor. Esse “um pouco” é a margem de erro.</p>
+        <p><b>Empate técnico:</b> quando a diferença entre os dois é menor que a margem de erro, a pesquisa não consegue dizer quem está na frente. Chamamos isso de empate técnico.</p>
+        <p><b>Ponto</b> é a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</p>
+        <p><b>Abstenção</b> é a parte dos eleitores que não foi votar.</p>
+        <p><b>Mediana</b> é o valor do meio quando colocamos todas as pesquisas em fila.</p>
+      </details>
     <div class="el-kpis">
       <div class="el-card">
-        <div class="el-kpi-label">Flávio · média das últimas rodadas</div>
+        <div class="el-kpi-label">Flávio: média das pesquisas</div>
         <div class="el-kpi-val el-cf"><span class="dash-skeleton" data-source="resumo" data-field="media_flavio">—</span>%</div>
         <div class="el-kpi-note">Votos válidos</div>
       </div>
       <div class="el-card">
-        <div class="el-kpi-label">Lula · média das últimas rodadas</div>
+        <div class="el-kpi-label">Lula: média das pesquisas</div>
         <div class="el-kpi-val el-cl"><span class="dash-skeleton" data-source="resumo" data-field="media_lula">—</span>%</div>
         <div class="el-kpi-note">Votos válidos</div>
       </div>
       <div class="el-card">
         <div class="el-kpi-label">Institutos com Flávio à frente</div>
         <div class="el-kpi-val"><span class="dash-skeleton" data-source="resumo" data-field="flavio_frente">—</span> de <span data-source="resumo" data-field="n">—</span></div>
-        <div class="el-kpi-note">Última rodada de cada um</div>
-      </div>
-      <div class="el-card">
-        <div class="el-kpi-label">Vantagem de Flávio no 1º turno</div>
-        <div class="el-kpi-val"><span class="dash-skeleton" data-source="pt_dif" data-field="dif">—</span> pt</div>
-        <div class="el-kpi-note"><span data-source="pt_dif" data-field="votos">—</span> votos · 4 out</div>
+        <div class="el-kpi-note">Última pesquisa de cada um</div>
       </div>
     </div>
 
     <div class="el-card" id="card-dif">
       <h2 class="el-h">Votos válidos: a mediana das pesquisas</h2>
-      <p class="el-note">As linhas mostram a <b>mediana</b> das pesquisas (a última rodada de cada instituto nos 7 dias anteriores), Flávio em azul e Lula em vermelho. As bolinhas claras são cada pesquisa; toque numa para ver os números.</p>
+      <p class="el-note">As linhas mostram a <b>mediana</b> das pesquisas (o valor do meio quando colocamos as pesquisas em fila; usamos a última pesquisa de cada instituto nos 7 dias anteriores), Flávio em azul e Lula em vermelho. As bolinhas claras são cada pesquisa; toque numa para ver os números. Média e mediana são contas diferentes, por isso os números podem diferir um pouco.</p>
       <div class="el-leg-ig" aria-hidden="true"><span><i style="background:var(--cf)"></i>Flávio Bolsonaro</span><span><i style="background:var(--cl)"></i>Lula</span><span><i class="tr"></i>Tendência até 25/10</span></div>
       <div class="el-chart el-ch-ig dash-skeleton" id="ch-dif" data-source="pesquisas"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-dif"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
-      <p class="el-note el-ch-aviso"><b>A linha tracejada não é previsão.</b> Ela só mostra para onde a mediana iria se o ritmo dos últimos 10 dias continuasse até a votação. Pesquisa retrata o momento, e o resultado pode ser diferente.</p>
+      <p class="el-note el-ch-aviso"><b>A linha tracejada não era uma previsão.</b> Ela só mostra para onde a mediana iria se o ritmo dos últimos 10 dias continuasse até a votação. Pesquisa retrata o momento, e o resultado pode ser diferente.</p>
     </div>
 
     <div class="el-card" id="card-ultimas">
-      <h2 class="el-h">Última rodada de cada instituto</h2>
-      <p class="el-note">Votos válidos; a barra mostra para quem pende a diferença. O nome do instituto leva à reportagem de origem.</p>
-      <p class="el-nota-verita" id="nota-verita">O instituto de pesquisa <b>Veritá</b>, que aparece nesta lista, não tem nenhuma relação com a Clareia Eleições (antes chamada Verita Eleições). Os nomes são parecidos, mas são iniciativas diferentes.</p>
+      <h2 class="el-h">A última pesquisa de cada instituto</h2>
+      <p class="el-note">Votos válidos, antes da votação. O nome do instituto leva à reportagem de origem.</p>
       <div class="el-scroll">
         <table class="el-t el-compact" id="t-ultimas" data-source="ultimas" data-row-key="instituto">
           <thead><tr>
@@ -1655,17 +1674,18 @@ body.el-vp-lock{overflow:hidden}
           <tbody></tbody>
         </table>
       </div>
+      <p class="el-nota-verita" id="nota-verita">O instituto de pesquisa <b>Veritá</b>, que aparece nesta lista, não tem nenhuma relação com a Clareia Eleições (antes chamada Verita Eleições). Os nomes são parecidos, mas são iniciativas diferentes.</p>
     </div>
 
     <div class="el-grid">
       <div class="el-card" id="card-pt">
-        <h2 class="el-h">Resultado do 1º turno</h2>
-        <p class="el-note">% dos votos válidos, 4 de outubro (TSE).</p>
+        <h2 class="el-h">Como foi o 1º turno</h2>
+        <p class="el-note">% dos votos válidos, 4 de outubro (TSE). Vantagem de Flávio: <b data-source="pt_dif" data-field="dif">—</b> pontos, ou <span data-source="pt_dif" data-field="votos">—</span> votos.</p>
         <div class="el-chart-sm dash-skeleton" id="ch-pt" data-source="primeiro_turno"><svg></svg></div><details class="el-tbl-alt" data-for="ch-pt"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
       </div>
       <div class="el-card" id="card-transf">
-        <h2 class="el-h">Para onde vão os votos da terceira via</h2>
-        <p class="el-note">Intenção de voto no 2º turno entre eleitores de candidatos derrotados. O restante declara branco, nulo ou indecisão.</p>
+        <h2 class="el-h">Em quem votariam os eleitores de quem ficou fora do 2º turno</h2>
+        <p class="el-note">Pergunta feita antes da votação a eleitores de candidatos que não foram ao 2º turno. O que falta para 100% são votos em branco, nulos e quem não sabia.</p>
         <table class="el-t el-stk" id="t-transf" data-source="transferencia" data-row-key="id">
           <thead><tr>
             <th data-field="grupo">Grupo</th>
@@ -3437,6 +3457,16 @@ body.el-vp-lock{overflow:hidden}
     lvSeen = ids;
   }
 
+  function renderCmp() {
+    const A = window.ELAPU, f2 = v => v.toLocaleString("pt-BR", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    document.querySelectorAll("[data-cmp-tse]").forEach(tr => {
+      const ok = !!(A && A.pst && A.f && A.l && A.f.p != null && A.l.p != null);
+      tr.hidden = !ok; if (!ok) return;
+      tr.querySelector("th").textContent = A.final ? "Resultado final do TSE" : "Contagem parcial do TSE";
+      tr.querySelector('[data-c="rf"]').textContent = f2(A.f.p); tr.querySelector('[data-c="rl"]').textContent = f2(A.l.p);
+    });
+  }
+  document.addEventListener("el-apu", renderCmp);
   function redraw() {
     readColors();
     renderNew();
@@ -3455,23 +3485,17 @@ body.el-vp-lock{overflow:hidden}
 
     // Início
     const rs = dash.data("resumo");
-    const hv = document.getElementById("hero-verdict"), he = document.getElementById("hero-plain"), vd = document.getElementById("verdict");
-    if (rs.status === "ok" && rs.data && rs.data[0]) {
-      const r = rs.data[0], tie = Math.abs(r.dif) <= 2;
-      hv.textContent = tie ? "Empate técnico" : (r.dif > 0 ? "Flávio à frente" : "Lula à frente");
-      hv.style.color = tie ? "var(--color-fg)" : (r.dif > 0 ? CF : CL);
-      he.textContent = tie ? "Os dois estão praticamente empatados. Qualquer um pode vencer." : (r.dif > 0 ? "Flávio está à frente, com uma diferença maior que a margem de erro." : "Lula está à frente, com uma diferença maior que a margem de erro.");
-      vd.textContent = tie ? "Diferença dentro da margem de erro: empate técnico." : "";
-    } else { hv.textContent = "—"; he.textContent = ""; vd.textContent = ""; }
+    const vd = document.getElementById("verdict");
+    if (vd) vd.textContent = (rs.status === "ok" && rs.data && rs.data[0] && Math.abs(rs.data[0].dif) <= 2) ? "A diferença estava dentro da margem de erro: empate técnico." : "";
+    renderCmp();
 
     // Respostas curtas
     const setAns = (id, text, color) => { const el = document.getElementById(id); if (!el) return; el.textContent = text; el.style.color = color || ""; };
     const td0 = dash.data("tendencia"), tdr = td0.status === "ok" && td0.data && td0.data[0];
-    if (tdr) setAns("q-tend-a", tdr.movimento === "a favor de Lula" ? "Lula" : tdr.movimento === "a favor de Flávio" ? "Flávio" : "Ninguém: está estável", tdr.movimento === "a favor de Lula" ? CL : tdr.movimento === "a favor de Flávio" ? CF : null);
+    if (tdr) setAns("q-tend-a", tdr.movimento === "a favor de Lula" ? "Mudaram a favor de Lula" : tdr.movimento === "a favor de Flávio" ? "Mudaram a favor de Flávio" : "Ficaram estáveis", tdr.movimento === "a favor de Lula" ? CL : tdr.movimento === "a favor de Flávio" ? CF : null);
     else setAns("q-tend-a", "—");
     const pd0 = dash.data("pt_dif"), pdr = pd0.status === "ok" && pd0.data && pd0.data[0];
-    if (pdr) setAns("q-pt-a", pdr.dif > 0 ? (pdr.dif < 3 ? "Flávio, por pouco" : "Flávio") : pdr.dif < 0 ? (pdr.dif > -3 ? "Lula, por pouco" : "Lula") : "Empate", pdr.dif > 0 ? CF : pdr.dif < 0 ? CL : null);
-    else setAns("q-pt-a", "—");
+    setAns("q-pt-a", pdr ? "Os dois foram ao 2º turno" : "—", null);
     const rz0 = dash.data("razao_redes"), rzr = rz0.status === "ok" && rz0.data && rz0.data[0];
     if (rzr) setAns("q-redes-a", "Depende da medida", null);
     else setAns("q-redes-a", "—");
@@ -3484,7 +3508,7 @@ body.el-vp-lock{overflow:hidden}
       if (box && tq.status === "ok" && tq.data) {
         const g = new Map(); for (const r of tq.data) { if (!g.has(r.agencia)) g.set(r.agencia, {}); g.get(r.agencia)[r.candidato] = r; }
         box.replaceChildren();
-        const pc = r => r && r.taxa != null ? Math.round(r.taxa * 100) + "%" : "—";
+        const pc = r => r && r.taxa != null ? Math.round(r.taxa * 100) + "%" : "sem checagem";
         for (const [ag, v] of g) {
           const row = document.createElement("div"); row.className = "el-qf-r";
           const a1 = document.createElement("span"); a1.className = "el-qf-a"; a1.textContent = ag;
@@ -3498,9 +3522,6 @@ body.el-vp-lock{overflow:hidden}
     renderBanner();
     renderEquilibrio();
     renderStatus();
-    const tug = document.getElementById("tug");
-    const tr = blockState(tug, "resumo");
-    drawTug(tug, tr && tr[0]);
 
     fillMarks("taxa_resumo", {taxa: fPct0, falsas: v => fInt(v), total: v => fInt(v)});
     const fl = document.getElementById("ch-falsas");
@@ -3515,6 +3536,7 @@ body.el-vp-lock{overflow:hidden}
     const agAll = blockState(document.getElementById("t-agenda-mini"), "agenda");
     const today = todayISO();
     let agNext = agAll ? agAll.filter(r => String(r.data) >= today).sort((a, b) => String(a.data).localeCompare(String(b.data))).slice(0, 3) : null;
+    { const ca = document.getElementById("card-agenda-simples"); if (ca) ca.hidden = !(agAll && agAll.some(r => String(r.data) >= today)); }
     if (agNext && !agNext.length) agNext = agAll.slice().sort((a, b) => String(b.data).localeCompare(String(a.data))).slice(0, 1);
     table("#t-agenda-mini", agNext, [
       {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
