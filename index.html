@@ -69,7 +69,7 @@ span.dash-skeleton,b.dash-skeleton{display:inline-block;min-width:2.2em}
 #el-ck p{margin:0;font-size:.88rem;line-height:1.5;color:#3A3F49}
 #el-ck .nt-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:4px}
 #el-ck button{appearance:none;font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:12px;border:2px solid #16181D;cursor:pointer;background:#FFFFFF;color:#16181D}
-#el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
+#el-ck .ck-yes{background:#FFFFFF;color:#16181D}
 #el-ck .ck-opts{display:flex;flex-direction:column;gap:8px;margin-top:2px}
 #el-ck .ck-opts[hidden]{display:none}
 #el-ck .ck-opt{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;line-height:1.45;color:#3A3F49;cursor:pointer}
@@ -81,7 +81,7 @@ body:has(.el[data-theme="dark"]) #el-ck .ck-opt b{color:#ECEEF3}
 body:has(.el[data-theme="dark"]) #el-ck{background:#171A22;color:#ECEEF3;border-color:#B9A3FF;box-shadow:5px 5px 0 #B9A3FF}
 body:has(.el[data-theme="dark"]) #el-ck p{color:#A6ADBB}
 body:has(.el[data-theme="dark"]) #el-ck button{background:#171A22;color:#ECEEF3;border-color:#B9A3FF}
-body:has(.el[data-theme="dark"]) #el-ck .ck-yes{background:#5B2DBF;color:#FFFFFF}
+body:has(.el[data-theme="dark"]) #el-ck .ck-yes{background:#171A22;color:#ECEEF3}
 .el-foot-btns{display:flex;gap:10px;flex-wrap:wrap}
 #el-notif .nt-top{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
 #el-notif .nt-ico{flex:none;width:56px;height:56px;border-radius:16px;background:#5B2DBF;color:#FFFFFF;display:flex;align-items:center;justify-content:center}
@@ -304,6 +304,18 @@ body:has(.el[data-theme="dark"]) #el-notif .nt-yes{border-color:#B9A3FF}
 .el-cmp-t td{font-family:var(--font-anthropic-serif);font-size:clamp(1.4rem,6vw,2rem);line-height:1.1;white-space:nowrap}
 .el-cmp-t td b{font-weight:400}
 .el-card[hidden]{display:none}
+.el-cgsw{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 var(--cds-gap-md)}
+.el-cgsw .el-chip{min-height:48px;padding:8px 16px;font-size:1rem}
+.el-cg[hidden]{display:none}
+.el-cg{display:flex;flex-direction:column;gap:var(--cds-gap-md)}
+.el-fold{margin:0}
+.el-fold>summary{cursor:pointer;min-height:48px;display:flex;align-items:center;font-weight:800;border:2px solid var(--ink);border-radius:14px;padding:8px 14px;box-shadow:3px 3px 0 var(--ink);background:var(--color-panel);list-style:none}
+.el-fold>summary::-webkit-details-marker{display:none}
+.el-fold>summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.el-fold[open]>summary{margin-bottom:var(--cds-gap-md)}
+.el-fold>.el-card{margin-bottom:var(--cds-gap-md)}
+.el-nota-l{display:flex;align-items:center;gap:6px;line-height:1.5}
+@media (max-width:48rem){#chips-dir{display:none}}
 .el-hero{background:var(--surface-soft);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:clamp(18px,4vw,32px)}
 .el-verdict{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(2rem,7vw,3.25rem);line-height:1.05;margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
 .el-names{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--cds-gap-md);margin-bottom:var(--cds-gap-sm)}
@@ -454,6 +466,10 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 /* Códigos de verificação */
 .el-cod{appearance:none;border:0;background:none;padding:2px 0;margin:0;font:inherit;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:0.8125rem;letter-spacing:.02em;color:var(--color-fg-muted);cursor:pointer;display:inline-flex;align-items:center;gap:4px;min-height:24px;text-decoration:underline dotted;text-underline-offset:3px;white-space:nowrap}
 .el-cod:hover{color:var(--accent-text)}
+.el-rgrp-b:not(.el-rm-all) .el-rm-x{display:none}
+.el-tagline{margin:4px 0 0;font-size:.9rem;line-height:1.35;color:#fff;opacity:.92}
+.el-cod{min-height:44px}
+.el-foot a{display:inline-block;padding:11px 2px}
 .el-cod-wrap{display:block;margin-top:4px}
 .el-cod-demo{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85em;background:rgba(255,255,255,.16);padding:1px 6px;border-radius:6px;white-space:nowrap}
 .el-vf-hero{background:var(--banner-bg);color:#FFFFFF;border-radius:var(--cds-radius);padding:clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:12px}
@@ -681,10 +697,11 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-apu-mapa-d>summary::after{content:"";width:9px;height:9px;border:solid currentColor;border-width:0 3px 3px 0;transform:rotate(45deg);margin-top:-4px;flex:none}
 .el-apu-mapa-d[open]>summary::after{transform:rotate(225deg);margin-top:3px}
 .el-apu-mapa-d>summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.el-apu-mini .el-apu-prog,.el-apu-mini .el-apu-split,.el-apu-mini .el-apu-ex,.el-apu-mini .el-apu-out,.el-apu-mini .el-apu-ex2,.el-apu-mini .el-apu-aviso,.el-apu-mini .el-apu-foot,.el-apu-mini .el-apu-mapa-d,.el-apu-mini .el-apu-v,.el-apu-mini .el-apu-el,.el-apu-mini .el-apu-pos,.el-apu-mini .el-apu-res{display:none}
+.el-apu-mini .el-apu-prog,.el-apu-mini .el-apu-split,.el-apu-mini .el-apu-ex,.el-apu-mini .el-apu-out,.el-apu-mini .el-apu-ex2,.el-apu-mini .el-apu-aviso,.el-apu-mini .el-apu-foot,.el-apu-mini .el-apu-mapa-d,.el-apu-mini .el-apu-v,.el-apu-mini .el-apu-el,.el-apu-mini .el-apu-pos{display:none}
 .el-apu-mini .el-apu .el-apu-cands,.el-apu.el-apu-mini .el-apu-cands{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 .el-apu-mini .el-apu-p{font-size:clamp(1.6rem,7vw,2.2rem)}
-.el-apu-mini .el-apu-ver{display:inline-flex;align-self:flex-start}
+.el-apu-mini .el-apu-ver{display:inline-flex;align-items:center;align-self:flex-start;min-height:44px;padding:8px 18px;font:inherit;font-weight:800;color:var(--color-fg);background:var(--color-panel);border:2px solid var(--ink);border-radius:999px;box-shadow:3px 3px 0 var(--ink);cursor:pointer}
+.el-apu-mini .el-apu-res{font-size:1.1rem}
 .el-apu-mini{gap:8px;padding-top:12px;padding-bottom:14px}
 .el-apu-foot a{color:var(--accent-text)}
 @media (max-width:520px){.el-apu-cands{gap:8px}.el-apu-c{padding:10px}}
@@ -707,6 +724,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 /* ---------- Menu: barra no topo (computador) e menu lateral (celular) ---------- */
 .el-tab-ico{width:18px;height:18px;flex:none}
 .el-mnav,.el-drw,.el-drw-bg{display:none}
+.el-mnav-w{display:none}
 @media (min-width:48.01rem){
   .el-sticky>.el-tabs{order:-1;border:2px solid var(--ink);border-radius:999px;background:var(--color-panel);padding:5px;gap:4px;box-shadow:4px 4px 0 var(--ink)}
   .el-sticky>.el-tabs .el-tab{border:0;margin:0;border-radius:999px;padding:9px 16px;min-height:42px;font-weight:600;color:var(--color-fg);transition:background-color .15s}
@@ -891,16 +909,17 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
   .el-mtopo{display:flex;order:-2;align-items:center;justify-content:space-between;gap:12px;padding:2px 2px 4px}
   .el-mtopo-svg{height:58px;width:auto;display:block;transition:height .2s}
   .el-sticky.el-stuck .el-mtopo-svg{height:40px}
-  .el-mtopo .el-mnav{width:52px;height:52px;min-height:0;padding:0;gap:0;justify-content:center;background:#FFD43B;color:#16181D;border:2.5px solid #16181D;border-radius:14px;box-shadow:4px 4px 0 #16181D;transition:transform .08s,box-shadow .08s}
+  .el-mtopo .el-mnav{width:auto;height:52px;min-height:0;padding:0 14px;gap:8px;justify-content:center;background:#FFD43B;color:#16181D;border:2.5px solid #16181D;border-radius:14px;box-shadow:4px 4px 0 #16181D;transition:transform .08s,box-shadow .08s}
   .el-mtopo .el-mnav:active{transform:translate(4px,4px);box-shadow:0 0 0 #16181D}
   .el-mtopo .el-mnav:focus-visible{outline:3px solid var(--accent-text);outline-offset:3px}
   .el-mtopo .el-mnav-ico{width:auto;height:auto;background:none;border:0}
   .el-mtopo .el-mnav-ico svg{width:24px;height:24px}
   .el-mtopo .el-mnav-new{top:-9px;right:-9px}
-  .el-sticky.el-stuck .el-mtopo .el-mnav{width:44px;height:44px;min-height:0;padding:0;box-shadow:3px 3px 0 #16181D}
+  .el-sticky.el-stuck .el-mtopo .el-mnav{width:auto;height:44px;min-height:0;padding:0 12px;box-shadow:3px 3px 0 #16181D}
   .el-sticky.el-stuck .el-mtopo .el-mnav:active{transform:translate(3px,3px);box-shadow:0 0 0 #16181D}
   .el-sticky.el-stuck .el-mtopo .el-mnav-ico{width:auto;height:auto}
   .el-mtopo .el-mnav-l{display:none}
+  .el-mtopo .el-mnav-w{display:inline;font-weight:800;font-size:1rem}
   .el-sticky>header .el-logo{display:none!important}
   .el-drw{left:auto;right:0;border-right:0;border-left:3px solid var(--ink);transform:translateX(105%)}
 }
@@ -954,7 +973,7 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
 <!-- End Google Tag Manager -->
 <style>
 .el-lang{display:inline-flex;gap:4px;padding:3px;border:2px solid var(--ink,#16181D);border-radius:999px;background:var(--color-panel,#fff)}
-.el-lang a{min-width:40px;min-height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;font-weight:800;font-size:.8125rem;letter-spacing:.06em;color:var(--color-fg,#16181D);text-decoration:none}
+.el-lang a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;font-weight:800;font-size:.8125rem;letter-spacing:.06em;color:var(--color-fg,#16181D);text-decoration:none}
 .el-lang a[aria-current="true"]{background:#5B2DBF;color:#fff}
 .el-lang a:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
 .el-marca{position:relative}
@@ -1010,14 +1029,15 @@ body.el-vp-lock{overflow:hidden}
 .el-ph-q i{flex:none;width:12px;height:12px;border-radius:50%;margin-top:6px}
 .el-ph-f{font-size:.8125rem;color:var(--color-fg-muted,#5A5F6B)}
 .el-ph-f a{color:inherit}
-.el-ph-c>summary{list-style:none;cursor:pointer;display:block;position:relative;padding-right:46px}
+.el-ph-c>summary{list-style:none;cursor:pointer;display:block;position:relative}
 .el-ph-c>summary::-webkit-details-marker{display:none}
 .el-ph-c>summary:focus-visible{outline:3px solid var(--accent-text,#5B2DBF);outline-offset:4px;border-radius:8px}
 .el-ph-ch{margin:0;color:var(--color-fg-muted,#5A5F6B);font-size:.9375rem;line-height:1.5}
-.el-ph-x{position:absolute;right:0;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;border:2px solid var(--ink,#16181D);background:#FFD43B;color:#16181D;display:grid;place-items:center;box-shadow:2px 2px 0 var(--ink,#16181D);transition:transform .2s}
+.el-ph-x{margin-top:10px;min-height:44px;padding:0 16px;gap:8px;border-radius:999px;border:2px solid var(--ink,#16181D);background:#FFD43B;color:#16181D;display:inline-flex;align-items:center;font-weight:800;font-size:.9375rem;box-shadow:2px 2px 0 var(--ink,#16181D)}
+.el-ph-xb,.el-ph-c[open] .el-ph-xa{display:none}.el-ph-c[open] .el-ph-xb{display:inline}
 .el-ph-x svg{transition:transform .2s}
 .el-ph-c[open] .el-ph-x svg{transform:rotate(180deg)}
-.el-ph-c>summary:active .el-ph-x{transform:translateY(-50%) translate(2px,2px);box-shadow:0 0 0 var(--ink,#16181D)}
+.el-ph-c>summary:active .el-ph-x{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink,#16181D)}
 .el-ph-b{margin-top:12px;padding-top:12px;border-top:1px dashed var(--color-border,#D5D0E3)}
 .el-ph-mais{appearance:none;font:inherit;font-weight:700;background:none;border:2px solid var(--ink,#16181D);border-radius:999px;padding:8px 16px;min-height:44px;cursor:pointer;color:inherit}
 </style><style>
@@ -1151,7 +1171,7 @@ body.el-vp-lock{overflow:hidden}
   <div class="el-mtopo"><svg class="el-mtopo-svg" viewBox="0 0 273.12 106.07" role="img" aria-label="Clareia Eleições"><use href="#marca-clareia"></use></svg>
   <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
     <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
-    <span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
+    <span class="el-mnav-w" aria-hidden="true">Menu</span><span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
   </button>
   </div>
   <header>
@@ -1164,6 +1184,7 @@ body.el-vp-lock{overflow:hidden}
 </linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrlogo1)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg>
         <div>
           <h1 class="el-title" style="margin-top:0">Flávio<span class="el-t-sn"> Bolsonaro</span> × Lula</h1>
+          <p class="el-tagline">Notícias e números sobre o 2º turno para presidente, com a fonte de cada informação.</p>
         </div>
       </div>
       <div class="el-actions"><div class="el-a11y" id="el-a11y" role="dialog" aria-label="Acessibilidade" hidden><div class="el-a11y-h">Acessibilidade</div><button type="button" class="el-a11y-o" data-a11y="ouvir" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Ouvir a seção</span></button><button type="button" class="el-a11y-o" data-a11y="contraste" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><span>Alto contraste</span></button><button type="button" class="el-a11y-o" data-a11y="espaco" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M2 9v6M22 9v6"/></svg><span>Mais espaço no texto</span></button><button type="button" class="el-a11y-o" data-a11y="parado" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg><span>Sem animações</span></button><p class="el-a11y-n">O botão azul no canto da tela abre a tradução em Libras (VLibras).</p></div>
@@ -1197,11 +1218,11 @@ body.el-vp-lock{overflow:hidden}
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
     <button class="el-tab" role="tab" id="tab-aovivo" aria-controls="aovivo" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
     <button class="el-tab" role="tab" id="tab-pesquisas" aria-controls="pesquisas" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
+    <button class="el-tab" role="tab" id="tab-checagem" aria-controls="checagem" data-tab="checagem" aria-selected="false">Verdade ou boato</button>
+    <button class="el-tab" role="tab" id="tab-campanha" aria-controls="campanha" data-tab="campanha" aria-selected="false">Campanha e Justiça</button>
     <button class="el-tab" role="tab" id="tab-redes" aria-controls="redes" data-tab="redes" aria-selected="false">Redes sociais</button>
-    <button class="el-tab" role="tab" id="tab-campanha" aria-controls="campanha" data-tab="campanha" aria-selected="false">Campanhas</button>
-    <button class="el-tab" role="tab" id="tab-checagem" aria-controls="checagem" data-tab="checagem" aria-selected="false">Checagem de fatos</button>
-    <button class="el-tab" role="tab" id="tab-verificar" aria-controls="verificar" data-tab="verificar" aria-selected="false">Verificar</button>
-    <button class="el-tab" role="tab" id="tab-sobre" aria-controls="sobre" data-tab="sobre" aria-selected="false">Sobre</button>
+    <button class="el-tab" role="tab" id="tab-verificar" aria-controls="verificar" data-tab="verificar" aria-selected="false">Conferir print</button>
+    <button class="el-tab" role="tab" id="tab-sobre" aria-controls="sobre" data-tab="sobre" aria-selected="false">Quem somos</button>
   </nav>
   </div>
 
@@ -1587,10 +1608,10 @@ body.el-vp-lock{overflow:hidden}
 
   <!-- ================= AO VIVO ================= -->
   <section class="el-page" id="aovivo" role="tabpanel" aria-labelledby="tab-aovivo" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Ao vivo</span><p class="el-pgtitle">Debates e entrevistas, <em>momento a momento</em></p></div><section class="el-ph" id="el-ph" aria-labelledby="el-ph-t" hidden><h2 class="el-ph-t" id="el-ph-t"><i aria-hidden="true"></i>Plantão: última hora</h2><div id="el-ph-lista"></div></section>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Ao vivo</span><p class="el-pgtitle">Debates e eventos, <em>momento a momento</em></p></div><section class="el-ph" id="el-ph" aria-labelledby="el-ph-t" hidden><h2 class="el-ph-t" id="el-ph-t"><i aria-hidden="true"></i>Avisos recentes</h2><div id="el-ph-lista"></div></section>
     <div class="el-lv-head" id="lv-head" data-source="destaques"></div>
     <div class="el-lv-sum" id="lv-sum" data-source="aovivo">
-      <div class="el-lv-box"><b id="lv-n">—</b><span>atualizações do evento</span></div>
+      <div class="el-lv-box"><b id="lv-n">—</b><span>registros do evento</span></div>
       <div class="el-lv-box"><b class="el-cf" id="lv-f">—</b><span id="lv-f-s">falas de Flávio checadas</span></div>
       <div class="el-lv-box"><b class="el-cl" id="lv-l">—</b><span id="lv-l-s">falas de Lula checadas</span></div>
     </div>
@@ -1599,10 +1620,10 @@ body.el-vp-lock{overflow:hidden}
       <button class="el-chip" data-lv="Tudo" aria-pressed="true">Tudo</button>
       <button class="el-chip" data-lv="Flávio" aria-pressed="false">Flávio</button>
       <button class="el-chip" data-lv="Lula" aria-pressed="false">Lula</button>
-      <button class="el-chip" data-lv="Checagem" aria-pressed="false">Só checagens</button>
+      <button class="el-chip" data-lv="Checagem" aria-pressed="false">Só falas conferidas</button>
     </div>
     <ol class="el-feed" id="lv-feed" data-source="aovivo"></ol>
-    <p class="el-foot">O mais recente aparece primeiro. Os momentos e as checagens vêm das coberturas ao vivo de veículos e checadores, com link para cada um. Uma fala só aparece como checada quando o checador publicou o selo. Durante o debate, esta página recebe novidades mais ou menos a cada meia hora.</p>
+    <p class="el-foot">Do mais novo para o mais antigo. Cada item tem o link da fonte. Uma fala só aparece como checada quando o checador publicou a nota.</p>
   </section>
 
   <!-- ================= PESQUISAS ================= -->
@@ -1702,11 +1723,11 @@ body.el-vp-lock{overflow:hidden}
   <!-- ================= REDES ================= -->
   <section class="el-page" id="redes" role="tabpanel" aria-labelledby="tab-redes" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Redes sociais</span><p class="el-pgtitle">Como cada um <em>aparece nas redes</em></p></div>
-    <p class="el-intro">Como os dois candidatos se saem nas redes sociais. Lembre: curtidas e seguidores mostram quem está mobilizando apoiadores, não quem vai ganhar.</p>
-    <p class="el-note"><b>Palavras desta aba:</b> <b>interação</b> (ou engajamento) é cada curtida, comentário ou compartilhamento; <b>menção</b> é cada vez que o nome do candidato aparece numa publicação; <b>visualização</b> é cada vez que um vídeo é visto.</p>
+    <p class="el-intro">Curtidas e seguidores mostram quem as redes alcançam. Não mostram quem ganhou a eleição.</p>
+    <p class="el-note"><b>Palavras desta aba.</b> <b>Interação</b>: curtida, comentário ou compartilhamento. <b>Engajamento</b>: o mesmo que interação. <b>Menção</b>: vez em que o nome aparece numa publicação. <b>Visualização</b>: vez em que um vídeo é visto.</p>
     <div class="el-kpis" id="kpi-redes">
       <div class="el-card" data-k="int">
-        <div class="el-kpi-label">Curtidas, comentários e compartilhamentos nos perfis oficiais: quantas vezes um tem as do outro</div>
+        <div class="el-kpi-label">Curtidas, comentários e compartilhamentos nos perfis oficiais: quantas vezes o total de um é maior que o do outro</div>
         <div class="el-kpi-val"><span class="dash-skeleton" data-v>—</span></div>
         <div class="el-kpi-note" data-n>—</div>
       </div>
@@ -1726,12 +1747,12 @@ body.el-vp-lock{overflow:hidden}
     <div class="el-grid">
       <div class="el-card" id="card-redes">
         <h2 class="el-h">Lula e Flávio nas redes</h2>
-        <p class="el-note">Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada métrica na sua própria escala.</p>
+        <p class="el-note">Perfis oficiais dos candidatos, segundo os institutos e veículos citados em cada linha. Em cada grupo, a medida mais recente vem primeiro. Cada linha tem a sua própria escala: compare só as duas barras da mesma linha.</p>
         <div class="dash-skeleton" id="ch-redes" data-source="redes" style="min-height:16rem"></div>
       </div>
       <div class="el-card" id="card-sinais">
-        <h2 class="el-h">Sinais de inteligência digital</h2>
-        <p class="el-note">Leituras de Quaest e Bites sobre o ambiente digital desde o 1º turno.</p>
+        <h2 class="el-h">O que se falou nas redes</h2>
+        <p class="el-note">Leituras da Quaest e da Bites sobre o que circulou nas redes desde o 1º turno.</p>
         <div class="el-scroll">
           <table class="el-t el-stk" id="t-sinais" data-source="sinais" data-row-key="id">
             <thead><tr>
@@ -1748,11 +1769,11 @@ body.el-vp-lock{overflow:hidden}
 
   <!-- ================= CAMPANHAS ================= -->
   <section class="el-page" id="campanha" role="tabpanel" aria-labelledby="tab-campanha" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Campanhas</span><p class="el-pgtitle">Apoios, agenda e <em>Justiça Eleitoral</em></p></div>
-    <p class="el-intro">O que cada candidato vai fazer nos próximos dias e o que já aconteceu na campanha, do mais recente ao mais antigo.</p>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Campanha e Justiça</span><p class="el-pgtitle">Campanha e decisões <em>da Justiça Eleitoral</em></p></div>
+    <p class="el-intro">O que cada candidato fez durante a campanha e o que a Justiça Eleitoral decidiu. Do mais novo para o mais antigo.</p>
     <div class="el-card" id="card-agenda">
-      <h2 class="el-h">Agenda dos candidatos, de hoje até a votação</h2>
-      <p class="el-note">Compromissos divulgados pelas campanhas; podem mudar.</p>
+      <h2 class="el-h" id="agenda-h">Agenda dos candidatos</h2>
+      <p class="el-note">Compromissos divulgados pelas campanhas.</p>
       <div class="el-scroll">
         <table class="el-t el-stk" id="t-agenda" data-source="agenda" data-row-key="data">
           <thead><tr>
@@ -1766,7 +1787,7 @@ body.el-vp-lock{overflow:hidden}
     </div>
     <div class="el-card" id="card-eventos">
       <h2 class="el-h">Linha do tempo do 2º turno</h2>
-      <p class="el-note">Apoios, decisões do TSE, debates e mudanças de estratégia, do mais recente ao mais antigo.</p>
+      <p class="el-note">Apoios, decisões do TSE, debates e mudanças de estratégia, do mais novo para o mais antigo.</p>
       <div class="el-scroll">
         <table class="el-t el-stk" id="t-eventos" data-source="campanha" data-row-key="id">
           <thead><tr>
@@ -1783,7 +1804,69 @@ body.el-vp-lock{overflow:hidden}
 
   <!-- ================= CHECAGEM ================= -->
   <section class="el-page" id="checagem" role="tabpanel" aria-labelledby="tab-checagem" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Checagem de fatos</span><p class="el-pgtitle">O que é verdade, <em>o que é boato</em></p></div>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Verdade ou boato</span><p class="el-pgtitle">O que é verdade, <em>o que é boato</em></p></div>
+    <div class="el-cgsw" role="group" aria-label="O que você quer ver">
+      <button type="button" class="el-chip" data-cgb="boatos" aria-pressed="true">Boatos que circulam</button>
+      <button type="button" class="el-chip" data-cgb="falas" aria-pressed="false">Falas dos candidatos</button>
+    </div>
+    <div class="el-cg" data-cg="boatos">
+    <div class="el-card el-howto"><p><b>Recebeu algo estranho no WhatsApp?</b> Veja abaixo se já foi desmentido. Antes de compartilhar, confira a fonte.</p></div>
+    <div class="el-card" id="card-boatos">
+      <h2 class="el-h">Boatos desmentidos</h2>
+      <p class="el-note">Conteúdos que circularam contra os candidatos e que checadores desmentiram ou o TSE mandou retirar. Cada cartão diz contra quem era, o que se sabe e quem desmentiu, com o link.</p>
+      <div class="el-filtros">
+        <div class="el-chips" id="chips-alvo">
+          <span class="el-chip-l">Boatos sobre</span>
+          <span class="el-seg"><button class="el-chip" data-alvo="Todos" aria-pressed="true">Os dois</button><button class="el-chip" data-alvo="Lula" aria-pressed="false">Lula</button><button class="el-chip" data-alvo="Flávio" aria-pressed="false">Flávio</button></span>
+        </div>
+        <div class="el-filtro-info"><span id="bo-count" aria-live="polite"></span></div>
+      </div>
+      <div class="el-scroll el-bo-wrap">
+        <table class="el-t el-stk" id="t-boatos" data-source="boatos" data-row-key="id">
+          <thead><tr>
+            <th data-field="data">Data</th>
+            <th data-field="alvo">Sobre</th>
+            <th class="el-sm-hide" data-field="beneficiado">Favorece</th>
+            <th data-field="origem_campo">Origem</th>
+            <th data-field="boato">Boato</th>
+            <th class="el-sm-hide" data-field="tema">Tema</th>
+            <th data-field="veredito">Nota do checador</th>
+            <th class="el-sm-hide" data-field="origem_detalhe">Sobre a origem</th>
+            <th data-field="explicacao">O que se sabe</th>
+            <th data-field="agencia">Quem desmentiu</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <details class="el-fold"><summary>Ver os números: de onde vêm os boatos</summary>
+    <div class="el-card" id="card-matriz">
+      <h2 class="el-h">Direção dos boatos: de onde vêm e contra quem</h2>
+      <p class="el-note">Número de boatos desmentidos por origem e alvo. A origem só é contada quando a checagem ou a decisão do TSE aponta quem publicou; na maioria dos casos ela não é identificada.</p>
+      <table class="el-t" id="t-matriz">
+        <thead><tr>
+          <th>Origem</th>
+          <th class="el-num">Contra <span class="el-cl">Lula</span></th>
+          <th class="el-num">Contra <span class="el-cf">Flávio</span></th>
+        </tr></thead>
+        <tbody>
+          <tr><td>Campo de Flávio</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-flavio" data-field="n">—</span></td></tr>
+          <tr><td>Campo de Lula</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-flavio" data-field="n">—</span></td></tr>
+          <tr><td>Não identificada</td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-lula" data-field="n">—</span></td>
+            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-flavio" data-field="n">—</span></td></tr>
+        </tbody>
+      </table>
+      <p class="el-note" style="margin:var(--cds-gap-sm) 0 0">A tabela conta só os boatos já desmentidos por checadores ou pelo TSE, não tudo o que circula nas redes.</p>
+    </div>
+
+    </details>
+    </div>
+    <div class="el-cg" data-cg="falas" hidden>
     <div class="el-dbt" id="card-debate" hidden>
       <div class="el-dbt-head">
         <span class="el-bn-tag" id="dbt-tag"><i class="el-bn-dot"></i><span id="dbt-tag-t">Debate</span></span>
@@ -1800,7 +1883,8 @@ body.el-vp-lock{overflow:hidden}
     </div>
     <div class="el-card el-howto">
       <h2 class="el-h">Como ler esta aba</h2>
-      <p>Reúne checagens de falas dos dois candidatos feitas por agências como Lupa, Aos Fatos, Estadão Verifica, g1 Fato ou Fake e Ranking dos Políticos. Cada um usa selos e critérios próprios, aqui agrupados em três faixas: verdadeiro, impreciso ou sem contexto, e falso. Os placares mostram só as falas que cada checador escolheu verificar, não são comparáveis entre checadores e não medem a campanha inteira. Em alguns casos os checadores registram de forma diferente até o que foi dito. Toque no nome do checador para abrir a checagem original.</p>
+      <p>Reúne checagens de falas dos dois candidatos feitas por agências como Lupa, Aos Fatos, Estadão Verifica, g1 Fato ou Fake e Ranking dos Políticos. Cada checador usa notas próprias. Para facilitar, juntamos em três grupos: <b>Verdadeiro</b>; <b>Impreciso</b> (exagerado, falta contexto, sem prova); <b>Falso</b>.</p>
+      <p>Os placares mostram só as falas que cada checador escolheu verificar. Por isso não dá para comparar um checador com outro nem medir a campanha inteira. Toque no nome do checador para abrir a checagem original.</p>
       <div class="el-legend">
         <span><i class="el-dot" style="background:var(--f-true)"></i>Verdadeiro</span>
         <span><i class="el-dot" style="background:var(--f-mid)"></i>Impreciso ou sem contexto</span>
@@ -1815,23 +1899,22 @@ body.el-vp-lock{overflow:hidden}
         <div class="el-name"><span class="el-name-n el-cf">Flávio Bolsonaro</span><span class="el-name-p el-cf"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="taxa">—</span></span></div>
         <div class="el-name el-r"><span class="el-name-n el-cl">Lula</span><span class="el-name-p el-cl"><span class="dash-skeleton" data-source="taxa_resumo" data-where="candidato=Lula" data-field="taxa">—</span></span></div>
       </div>
-      <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula.</p>
+      <p class="el-txt">das falas checadas de cada um foram classificadas como <b>falsas</b>: <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Fl%C3%A1vio" data-field="total">—</b> no caso de Flávio e <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="falsas">—</b> de <b data-source="taxa_resumo" data-where="candidato=Lula" data-field="total">—</b> no caso de Lula. Cada checador escolhe o que verifica, então não dá para comparar os dois como se fosse um placar.</p>
       <p class="el-note" style="margin-bottom:var(--cds-gap-xs)">Percentual de falas falsas, somando todas as checagens até cada data.</p>
       <div class="el-chart dash-skeleton" id="ch-falsas" data-source="taxa_falsas" style="min-height:240px"><svg></svg><div class="el-tip"></div></div><details class="el-tbl-alt" data-for="ch-falsas"><summary>Ver os números em tabela</summary><div class="el-tbl-alt-b"></div></details>
       <p class="el-txt" style="margin-top:var(--cds-gap-md)"><b>O resultado muda conforme o checador.</b> Cada um escolhe quais falas verificar e usa critérios próprios:</p>
-      <div class="el-xscroll"><table class="el-t el-compact el-stk" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
+      <div class="el-xscroll"><table class="el-t el-compact" id="t-taxa-checador" data-source="taxa_checador" data-row-key="id">
         <thead><tr>
           <th data-field="agencia">Checador</th>
-          <th data-field="candidato">Candidato</th>
-          <th class="el-num" data-field="falsas">Falsas</th>
-          <th class="el-num" data-field="total">Checadas</th>
-          <th class="el-num" data-field="taxa">Taxa de falsas</th>
+          <th data-field="flavio">Flávio: falsas de checadas</th>
+          <th data-field="lula">Lula: falsas de checadas</th>
         </tr></thead>
         <tbody></tbody>
       </table></div>
       <p class="el-txt el-muted" style="margin-top:var(--cds-gap-sm)">Conta só falas dos próprios candidatos em entrevistas, lives e debates, não boatos de terceiros. Como os checadores não verificam tudo o que cada um diz, a taxa é um retrato das falas checadas, não de toda a campanha.</p>
     </div>
 
+    <details class="el-fold"><summary>Ver os números por checador</summary>
     <div class="el-card" id="card-placar">
       <h2 class="el-h">Placar por checagem</h2>
       <p class="el-note">Afirmações em cada faixa, por checador e entrevista.</p>
@@ -1842,9 +1925,7 @@ body.el-vp-lock{overflow:hidden}
             <th data-field="agencia">Checador</th>
             <th data-field="evento">Evento</th>
             <th data-field="data">Data</th>
-            <th class="el-num" data-field="verdadeiro">Verdadeiro</th>
-            <th class="el-num" data-field="impreciso">Impreciso</th>
-            <th class="el-num" data-field="falso">Falso</th>
+            <th data-field="verdadeiro">Resultado</th>
             <th data-field="total">Total</th>
             <th class="el-sm-hide" data-field="nota">Observação</th>
           </tr></thead>
@@ -1871,6 +1952,7 @@ body.el-vp-lock{overflow:hidden}
       </div>
     </div>
 
+    </details>
     <div class="el-card" id="card-checagens">
       <h2 class="el-h">Afirmações checadas</h2>
       <p class="el-note">Falas dos candidatos em entrevistas, lives e debates, com o selo original do checador e a explicação resumida. Aqui estão as falas que conseguimos listar uma a uma; o placar acima é maior porque soma as contagens publicadas por cada checador.</p>
@@ -1880,7 +1962,7 @@ body.el-vp-lock{overflow:hidden}
           <span class="el-seg"><button class="el-chip" data-cand="Todos" aria-pressed="true">Todos</button><button class="el-chip" data-cand="Lula" aria-pressed="false">Lula</button><button class="el-chip" data-cand="Flávio" aria-pressed="false">Flávio</button></span>
         </div>
         <div class="el-chips" id="chips-cat">
-          <span class="el-chip-l">Faixa</span>
+          <span class="el-chip-l">Resultado</span>
           <span class="el-seg"><button class="el-chip" data-cat="Todas" aria-pressed="true">Todas</button><button class="el-chip" data-cat="Verdadeiro" aria-pressed="false">Verdadeiro</button><button class="el-chip" data-cat="Impreciso ou sem contexto" aria-pressed="false">Impreciso</button><button class="el-chip" data-cat="Falso" aria-pressed="false">Falso</button></span>
         </div>
         <div class="el-chips" id="chips-dir">
@@ -1896,7 +1978,7 @@ body.el-vp-lock{overflow:hidden}
             <th data-field="candidato">Quem</th>
             <th data-field="afirmacao">Afirmação</th>
             <th data-field="direcao">Tipo de fala</th>
-            <th data-field="veredito">Selo</th>
+            <th data-field="veredito">Nota do checador</th>
             <th data-field="explicacao">Por quê</th>
             <th data-field="agencia">Checador</th>
           </tr></thead>
@@ -1905,67 +1987,16 @@ body.el-vp-lock{overflow:hidden}
       </div>
     </div>
 
-    <div class="el-card" id="card-matriz">
-      <h2 class="el-h">Direção dos boatos: de onde vêm e contra quem</h2>
-      <p class="el-note">Número de boatos desmentidos por origem e alvo. A origem só é contada quando a checagem ou a decisão do TSE aponta quem publicou; na maioria dos casos ela não é identificada.</p>
-      <table class="el-t" id="t-matriz">
-        <thead><tr>
-          <th>Origem</th>
-          <th class="el-num">Contra <span class="el-cl">Lula</span></th>
-          <th class="el-num">Contra <span class="el-cf">Flávio</span></th>
-        </tr></thead>
-        <tbody>
-          <tr><td>Campo de Flávio</td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-lula" data-field="n">—</span></td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cf-flavio" data-field="n">—</span></td></tr>
-          <tr><td>Campo de Lula</td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-lula" data-field="n">—</span></td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=cl-flavio" data-field="n">—</span></td></tr>
-          <tr><td>Não identificada</td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-lula" data-field="n">—</span></td>
-            <td class="el-num el-mx"><span class="dash-skeleton" data-source="boatos_matriz" data-where="id=ni-flavio" data-field="n">—</span></td></tr>
-        </tbody>
-      </table>
-      <p class="el-note" style="margin:var(--cds-gap-sm) 0 0">A tabela conta só os boatos já desmentidos por checadores ou pelo TSE, não tudo o que circula nas redes.</p>
-    </div>
-
-    <div class="el-card" id="card-boatos">
-      <h2 class="el-h">Boatos desmentidos</h2>
-      <p class="el-note">Conteúdos que circularam contra os candidatos e que checadores desmentiram ou o TSE mandou retirar. Cada cartão diz contra quem era, o que se sabe e quem desmentiu, com o link.</p>
-      <div class="el-filtros">
-        <div class="el-chips" id="chips-alvo">
-          <span class="el-chip-l">Boatos contra</span>
-          <span class="el-seg"><button class="el-chip" data-alvo="Todos" aria-pressed="true">Os dois</button><button class="el-chip" data-alvo="Lula" aria-pressed="false">Lula</button><button class="el-chip" data-alvo="Flávio" aria-pressed="false">Flávio</button></span>
-        </div>
-        <div class="el-filtro-info"><span id="bo-count" aria-live="polite"></span></div>
-      </div>
-      <div class="el-scroll el-bo-wrap">
-        <table class="el-t el-stk" id="t-boatos" data-source="boatos" data-row-key="id">
-          <thead><tr>
-            <th data-field="data">Data</th>
-            <th data-field="alvo">Contra</th>
-            <th class="el-sm-hide" data-field="beneficiado">Favorece</th>
-            <th data-field="origem_campo">Origem</th>
-            <th data-field="boato">Boato</th>
-            <th class="el-sm-hide" data-field="tema">Tema</th>
-            <th data-field="veredito">Selo</th>
-            <th class="el-sm-hide" data-field="origem_detalhe">Sobre a origem</th>
-            <th data-field="explicacao">O que se sabe</th>
-            <th data-field="agencia">Quem desmentiu</th>
-          </tr></thead>
-          <tbody></tbody>
-        </table>
-      </div>
     </div>
   </section>
 
   <!-- ================= VERIFICAR ================= -->
   <section class="el-page" id="verificar" role="tabpanel" aria-labelledby="tab-verificar" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Verificar</span><p class="el-pgtitle">Recebeu um print? <em>Confira aqui</em></p></div>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Conferir print</span><p class="el-pgtitle">Recebeu um print do Clareia? <em>Confira aqui</em></p></div>
     <div class="el-vf-hero">
       <span class="el-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
       <h2 class="el-bn-t">Recebeu um print desta página?</h2>
-      <p class="el-vf-p">Cada informação daqui tem um código, que aparece assim: <span class="el-cod-demo">conferir 3F9A-12C7</span>. Digite abaixo o código que está no print e veja como a informação está de verdade nos dados da página. Se o texto do print for diferente, ele foi alterado.</p>
+      <p class="el-vf-p">Cada notícia do site tem um código, como <span class="el-cod-demo">conferir 3F9A-12C7</span>. Se alguém mandar um print do site, digite o código aqui. Se o texto que aparecer for diferente do print, o print foi alterado.</p>
       <div class="el-vf-form" id="vf-form" role="search">
         <label class="el-vh" for="vf-in">Código de verificação</label>
         <input id="vf-in" class="el-vf-in" type="text" autocomplete="off" enterkeyhint="go" inputmode="text" autocapitalize="characters" spellcheck="false" maxlength="12" placeholder="Ex.: 3F9A-12C7">
@@ -1977,23 +2008,24 @@ body.el-vp-lock{overflow:hidden}
       <h2 class="el-h">Correções (erratas)</h2>
       <p class="el-note">Duas vezes por dia conferimos as informações publicadas contra as fontes originais. Quando achamos um erro, corrigimos e registramos aqui o que mudou e por quê.</p>
       <p class="el-empty" id="errata-empty" hidden>Nenhuma correção até agora.</p>
+      <details class="el-fold"><summary>Ver as correções que já fizemos</summary>
       <table class="el-t el-stk" id="t-erratas" data-row-key="id">
         <thead><tr><th data-field="data">Data</th><th data-field="o_que_mudou">O que foi corrigido</th><th data-field="antes">Antes</th><th data-field="depois">Depois</th><th data-field="motivo">Motivo</th><th data-field="url">Fonte</th></tr></thead>
         <tbody></tbody>
       </table>
+      </details>
     </div>
     <div class="el-card el-howto">
       <h2 class="el-h">Como funciona</h2>
-      <p>O código é calculado a partir do conteúdo exato da informação. Se alguém mudar uma letra ou um número, o código deixa de bater.</p>
-      <p>Os dados ficam num repositório público no GitHub, que guarda com data e hora tudo o que foi publicado e corrigido. Quando uma informação é corrigida, o código antigo continua aqui, marcado como versão antiga, para que um print antigo e verdadeiro também possa ser conferido.</p>
+      <p>O código é como uma impressão digital da informação. Se alguém mudar uma letra ou um número, o código deixa de bater.</p>
+      <p>Guardamos todas as versões do que foi publicado e corrigido, com data e hora, num repositório público. Assim, um print antigo e verdadeiro também pode ser conferido: o código antigo continua aqui, marcado como versão antiga.</p>
       <p>Prints sem código, ou com um código que não aparece aqui, não saíram desta página.</p>
     </div>
   </section>
 
   <!-- ================= SOBRE ================= -->
   <section class="el-page" id="sobre" role="tabpanel" aria-labelledby="tab-sobre" tabindex="-1" hidden>
-    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Sobre a Clareia</span><p class="el-pgtitle">Que ninguém vote <em>no escuro</em></p></div>
-    <p class="el-aviso-nome" role="note"><b>Novo nome:</b> a Verita Eleições agora se chama <b>Clareia Eleições</b>. Mudamos para não haver confusão com o <b>Instituto Veritá</b>, que faz pesquisas eleitorais e com quem nunca tivemos nenhuma relação. O propósito e o jeito de trabalhar continuam os mesmos. A Clareia não faz pesquisas: só reúne as que outros institutos publicaram, inclusive as do Veritá, com o link da fonte.</p>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Quem somos</span><p class="el-pgtitle">Quem somos e <em>como trabalhamos</em></p></div>
     <p class="el-intro">A Clareia reúne num lugar só o que já foi publicado sobre as eleições no Brasil, com a fonte de cada informação e os dois lados com o mesmo critério, para você entender e decidir por conta própria.</p>
     <section class="el-card el-como" id="como" aria-labelledby="como-h">
       <h2 class="el-h" id="como-h">Como a Clareia trabalha</h2>
@@ -2001,58 +2033,64 @@ body.el-vp-lock{overflow:hidden}
         <li><b>Reunimos o que já foi publicado.</b> Pesquisas, notícias e checagens de institutos, imprensa e checadores. Não fazemos pesquisa nem checagem própria.</li>
         <li><b>Sempre com a fonte.</b> Cada informação tem o link do original, para você conferir.</li>
         <li><b>Os dois lados, com o mesmo critério.</b> Não dizemos em quem votar. Veja o <button type="button" class="el-link" data-go="sobre" data-anchor="card-equilibrio">equilíbrio do conteúdo</button>.</li>
-        <li><b>Erros corrigidos em público.</b> Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</li>
+        <li><b>Erros corrigidos em público.</b> Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Conferir print</button>.</li>
       </ol>
-      <p class="el-note" style="margin:0">A busca, os resumos e a organização são feitos com <b>inteligência artificial</b>, com conferência automática duas vezes por dia; os posts do Instagram são aprovados por uma pessoa antes de sair. Achou um erro? Fale com a gente no Instagram <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
+      <p class="el-note" style="margin:0">A busca, os resumos e a organização são feitos com <b>inteligência artificial</b> (um programa de computador), que confere os dados duas vezes por dia; os posts do Instagram são aprovados por uma pessoa antes de sair. Achou um erro? Fale com a gente no Instagram <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
     </section>
-    <div class="el-card" id="card-equilibrio">
-      <h2 class="el-h">Equilíbrio do conteúdo</h2>
-      <p class="el-note">Quanto do que está no site fala de cada candidato, contado automaticamente a partir dos dados. Serve para qualquer pessoa conferir se a Clareia dá o mesmo espaço aos dois.</p>
-      <div class="el-scroll"><table class="el-t el-compact" id="t-equilibrio">
-        <thead><tr><th>O que contamos</th><th class="el-num">Flávio</th><th class="el-num">Lula</th></tr></thead>
-        <tbody></tbody>
-      </table></div>
-      <p class="el-note" style="margin-top:8px">Os números não precisam ser iguais: dependem do que institutos, checadores e imprensa publicaram. Diferenças grandes aparecem aqui para todo mundo ver.</p>
-    </div>
-    <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre-fontes">
-      <h2 class="el-h" id="sobre-h">Sobre este site e as fontes</h2>
-      <p class="el-note">Este site é um <b>agregador de informações</b>. Ele não faz pesquisas nem checagens próprias: reúne o que institutos de pesquisa, veículos de imprensa e agências de checagem já publicaram, e sempre mostra o nome e o link da fonte original, onde está o conteúdo completo.</p>
-      <p class="el-note">Para respeitar o direito autoral de quem produziu cada conteúdo, aqui só aparecem resumos curtos, escritos com palavras nossas, e trechos breves de falas públicas dos candidatos, entre aspas. Não copiamos reportagens ou checagens inteiras, nem fotos, vídeos, gráficos ou logotipos de outros sites. Os números das pesquisas e os selos das checagens pertencem a quem os publicou. Este site não tem ligação com nenhum desses veículos, institutos ou checadores, nem com as campanhas.</p>
-      <p class="el-note">Se você é autor de algum conteúdo citado e quer uma correção ou a retirada, <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
-      <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A coleta das notícias, os resumos, a organização dos dados e o código desta página são feitos com ajuda de IA (Claude, da Anthropic), com conferência automática dos dados e revisão de qualidade duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Verificar.</p>
-    </section>
-
-    <section class="el-card" id="onde-procuramos" aria-labelledby="onde-h">
-      <h2 class="el-h" id="onde-h">Onde a Clareia procura</h2>
-      <p class="el-note">Nenhuma informação se apoia num lugar só. A cada atualização, procuramos o mesmo assunto em vários veículos grandes e mostramos quem publicou.</p>
-      <ul class="el-onde"><li><b>Jornais, revistas e portais:</b> Folha de S.Paulo, O Globo, Estadão, Valor Econômico, UOL, g1, Veja, IstoÉ, piauí, Nexo, Poder360, Metrópoles, Terra, Correio Braziliense, Congresso em Foco, JOTA, InfoMoney, Exame.</li><li><b>TV e rádio:</b> CNN Brasil, GloboNews, SBT News, Band, BandNews, Record (R7), RedeTV!, CBN, Itatiaia.</li><li><b>Agências e imprensa internacional:</b> Agência Brasil, Agência Senado, Agência Câmara, Reuters, Bloomberg Línea, BBC News Brasil, DW Brasil, Observador.</li><li><b>Jornais regionais:</b> GZH, Estado de Minas, O Tempo, Jornal do Commercio, Folha de Pernambuco, A Tarde, Correio, O Popular, NSC Total, ND+, O Povo, O Liberal, Jornal de Brasília, Diário do Grande ABC.</li><li><b>Checadores:</b> Lupa, Aos Fatos, Estadão Verifica, g1 Fato ou Fake, UOL Confere, Comprova, AFP Checamos, Reuters Fact Check, Boatos.org, E-farsas, Ranking dos Políticos.</li><li><b>Fontes oficiais:</b> TSE, STF, institutos de pesquisa, campanhas e emissoras.</li></ul>
-      <p class="el-note" style="margin-bottom:0">Sites com linha partidária declarada, de qualquer lado, são acompanhados para saber o que está circulando, mas nunca são fonte única: só registramos o que um veículo grande, um checador ou a fonte oficial confirmar.</p>
-    </section>
-
-    <section class="el-card" id="contato" aria-labelledby="contato-h">
-      <h2 class="el-h" id="contato-h">Fale com a Clareia</h2>
-      <p class="el-note">Achou um erro, quer sugerir uma checagem ou é autor de um conteúdo citado? Mande mensagem no Instagram <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a> ou <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>. Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Verificar</button>.</p>
-      <p class="el-note" style="margin-bottom:0">Os dados do site são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
-    </section>
-    <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
-      <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
-      <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. O botão <b>A+</b> no topo aumenta a letra, e o botão da lua troca para o modo escuro. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. A página não tem áudio nem vídeo: tudo está escrito.</p>
-    </section>
-
     <details class="el-card el-details el-siglas" id="siglas">
-      <summary>O que querem dizer as siglas que aparecem no site?</summary>
+      <summary>O que querem dizer as siglas e palavras difíceis do site?</summary>
       <ul class="el-note" style="margin:10px 0 0;padding-left:18px;line-height:1.7">
         <li><b>TSE</b>: Tribunal Superior Eleitoral, que organiza a eleição e julga as regras da campanha.</li>
         <li><b>STF</b>: Supremo Tribunal Federal, o tribunal mais alto do país.</li>
         <li><b>STJ</b>: Superior Tribunal de Justiça.</li>
         <li><b>PGR</b>: Procuradoria-Geral da República, que acusa autoridades na Justiça.</li>
+        <li><b>MPE</b>: Ministério Público Eleitoral, que atua nas eleições em defesa da lei.</li>
+        <li><b>Totalização</b>: a soma dos votos de todas as urnas.</li>
+        <li><b>Sigilo bancário e telefônico</b>: quando a Justiça autoriza abrir os dados de contas e ligações de alguém.</li>
+        <li><b>Abstenção</b>: a parte dos eleitores que não foi votar.</li>
+        <li><b>Mediana</b>: o valor do meio quando colocamos os números em fila.</li>
         <li><b>PF</b> e <b>PRF</b>: Polícia Federal e Polícia Rodoviária Federal.</li>
         <li><b>PEC</b>: proposta para mudar a Constituição.</li>
         <li><b>PL</b> e <b>PT</b>: os partidos de Flávio Bolsonaro e de Lula.</li>
         <li><b>Pontos</b> (ou p.p.): a diferença entre duas porcentagens. De 48% para 50% são 2 pontos.</li>
       </ul>
     </details>
+    <div class="el-card" id="card-equilibrio">
+      <h2 class="el-h">Equilíbrio do conteúdo</h2>
+      <p class="el-note">Quanto do que está no site fala de cada candidato, contado automaticamente a partir dos dados. Serve para qualquer pessoa conferir se a Clareia dá o mesmo espaço aos dois.</p>
+      <details class="el-details"><summary>Ver a contagem</summary><div class="el-scroll"><table class="el-t el-compact" id="t-equilibrio">
+        <thead><tr><th>O que contamos</th><th class="el-num">Flávio</th><th class="el-num">Lula</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <p class="el-note" style="margin-top:8px">Os números não precisam ser iguais: dependem do que institutos, checadores e imprensa publicaram. Diferenças grandes aparecem aqui para todo mundo ver.</p></details>
+    </div>
+    <section class="el-card el-a11y-box" aria-labelledby="sobre-h" id="sobre-fontes">
+      <h2 class="el-h" id="sobre-h">Sobre este site e as fontes</h2>
+      <p class="el-note">Este site é um <b>agregador de informações</b>. Ele não faz pesquisas nem checagens próprias: reúne o que institutos de pesquisa, veículos de imprensa e agências de checagem já publicaram, e sempre mostra o nome e o link da fonte original, onde está o conteúdo completo.</p>
+      <p class="el-note">Para respeitar o direito autoral de quem produziu cada conteúdo, aqui só aparecem resumos curtos, escritos com palavras nossas, e trechos breves de falas públicas dos candidatos, entre aspas. Não copiamos reportagens ou checagens inteiras, nem fotos, vídeos, gráficos ou logotipos de outros sites. Os números das pesquisas e os selos das checagens pertencem a quem os publicou. Este site não tem ligação com nenhum desses veículos, institutos ou checadores, nem com as campanhas.</p>
+      <p class="el-note">Se você é autor de algum conteúdo citado e quer uma correção ou a retirada, <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>.</p>
+      <p class="el-note" style="margin-bottom:0"><b>Feito com inteligência artificial.</b> A busca, os resumos e a organização são feitos por um programa de inteligência artificial (o Claude, da Anthropic). Um programa confere os dados duas vezes por dia. Mesmo assim pode haver erro: confira sempre na fonte e veja as correções na aba Conferir print.</p>
+    </section>
 
+    <section class="el-card" id="onde-procuramos" aria-labelledby="onde-h">
+      <h2 class="el-h" id="onde-h">Onde a Clareia procura</h2>
+      <p class="el-note">Nenhuma informação se apoia num lugar só. A cada atualização, procuramos o mesmo assunto em vários veículos grandes e mostramos quem publicou.</p>
+      <details class="el-details"><summary>Ver os veículos que consultamos</summary><ul class="el-onde"><li><b>Jornais, revistas e portais:</b> Folha de S.Paulo, O Globo, Estadão, Valor Econômico, UOL, g1, Veja, IstoÉ, piauí, Nexo, Poder360, Metrópoles, Terra, Correio Braziliense, Congresso em Foco, JOTA, InfoMoney, Exame.</li><li><b>TV e rádio:</b> CNN Brasil, GloboNews, SBT News, Band, BandNews, Record (R7), RedeTV!, CBN, Itatiaia.</li><li><b>Agências e imprensa internacional:</b> Agência Brasil, Agência Senado, Agência Câmara, Reuters, Bloomberg Línea, BBC News Brasil, DW Brasil, Observador.</li><li><b>Jornais regionais:</b> GZH, Estado de Minas, O Tempo, Jornal do Commercio, Folha de Pernambuco, A Tarde, Correio, O Popular, NSC Total, ND+, O Povo, O Liberal, Jornal de Brasília, Diário do Grande ABC.</li><li><b>Checadores:</b> Lupa, Aos Fatos, Estadão Verifica, g1 Fato ou Fake, UOL Confere, Comprova, AFP Checamos, Reuters Fact Check, Boatos.org, E-farsas, Ranking dos Políticos.</li><li><b>Fontes oficiais:</b> TSE, STF, institutos de pesquisa, campanhas e emissoras.</li></ul></details>
+      <p class="el-note" style="margin-bottom:0">Sites com linha partidária declarada, de qualquer lado, são acompanhados para saber o que está circulando, mas nunca são fonte única: só registramos o que um veículo grande, um checador ou a fonte oficial confirmar.</p>
+    </section>
+
+    <section class="el-card" id="contato" aria-labelledby="contato-h">
+      <h2 class="el-h" id="contato-h">Fale com a Clareia</h2>
+      <p class="el-note">Achou um erro, quer sugerir uma checagem ou é autor de um conteúdo citado? Mande mensagem no Instagram <a href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer">@clareiaeleicoes</a> ou, se você entende de computador, <a href="https://github.com/aluadocoelho/Eleicoes-de-2026/issues" target="_blank" rel="noopener noreferrer">abra um aviso no GitHub</a>. Toda correção fica registrada na aba <button type="button" class="el-link" data-go="verificar" data-anchor="card-erratas">Conferir print</button>.</p>
+      <p class="el-note" style="margin-bottom:0">Os dados do site são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
+    </section>
+    <section class="el-card el-a11y-box" aria-labelledby="a11y-h">
+      <h2 class="el-h" id="a11y-h">Acessibilidade</h2>
+      <p class="el-note" style="margin-bottom:0">Esta página funciona com leitor de tela (TalkBack, VoiceOver, NVDA) e pelo teclado: use Tab para andar e as setas para trocar de aba. Todos os gráficos têm uma descrição em texto. No menu (botão amarelo, no celular) ou no topo da página (no computador), há “Letra maior”, “Modo escuro”, “Alto contraste”, “Ouvir a seção” e “Mais espaço no texto”. O botão azul do VLibras, no canto da tela, traduz o conteúdo para Libras. Os vídeos curtos da página repetem o que já está escrito nos textos.</p>
+    </section>
+
+
+    <p class="el-aviso-nome" role="note"><b>Novo nome:</b> antes, este site se chamava Verita Eleições. Mudamos o nome para não ser confundido com o <b>Instituto Veritá</b>, que faz pesquisas e não tem ligação com a gente. A Clareia não faz pesquisas: só reúne as que outros institutos publicaram, inclusive as do Veritá, com o link da fonte.</p>
   </section>
 
   </main>
@@ -2092,8 +2130,8 @@ body.el-vp-lock{overflow:hidden}
         <span id="upd-last">—</span><span class="el-upd-sep">·</span><span id="upd-next">—</span>
         <span class="el-vh" id="upd-all"></span>
       </span></p>
-<p class="el-foot el-legal"><b>Clareia Eleições</b> (antes Verita Eleições) é um site independente, sem ligação com partidos, campanhas ou institutos de pesquisa. <b>Não temos nenhuma relação com o Instituto Veritá</b>, de pesquisas eleitorais. Site feito com inteligência artificial. Agregador de informações: o conteúdo original pertence às fontes citadas, com link em cada item. Código e dados: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a>.</p>
-  <p class="el-foot">Dados reunidos de reportagens e checagens publicadas, com link para cada fonte, atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates. Os dados são abertos e podem ser baixados em <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">github.com/aluadocoelho/Eleicoes-de-2026</a> (dados sob CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). A página conta visitas com o GoatCounter, que não usa cookies nem guarda dados pessoais. Se você aceitar, também usamos o Google Analytics, que usa cookies, para entender quais abas são mais lidas; ele fica desligado se você recusar. Também com a sua permissão, o Microsoft Clarity mostra onde as pessoas tocam na página e grava a navegação de forma anônima, sem guardar o que é digitado.</p><p class="el-foot el-visits" id="gc-total" hidden></p><div class="el-foot el-foot-lang"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav></div><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
+<p class="el-foot el-legal"><b>Clareia Eleições</b> (antes Verita Eleições) é um site independente, feito com inteligência artificial. Reunimos o que já foi publicado e sempre mostramos a fonte. Não temos ligação com partidos, campanhas nem com o instituto de pesquisa Veritá.</p>
+  <p class="el-foot">Dados abertos: <a href="https://github.com/aluadocoelho/Eleicoes-de-2026" target="_blank" rel="noopener noreferrer">baixar os dados</a> (CC BY 4.0; os números e selos pertencem aos institutos e checadores citados). Atualizados a cada hora, das 7h às 23h, e com mais frequência durante debates.</p><p class="el-foot el-visits" id="gc-total" hidden></p><div class="el-foot el-foot-lang"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav></div><p class="el-foot el-foot-btns"><button type="button" class="el-btn el-notif-open" id="el-notif-open" hidden>Receber avisos de novidades</button> <button type="button" class="el-btn el-notif-open" id="el-ck-open">Preferências de cookies</button></p>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3||document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>')</script>
@@ -2754,6 +2792,7 @@ body.el-vp-lock{overflow:hidden}
     grid.append(a, tr, b); parent.appendChild(grid);
   }
 
+  const redesMais = {};
   function drawRedes(box, rows) { if (__fechada(box)) return;
     box.querySelectorAll(".el-rm").forEach(n => n.remove());
     if (!rows) return;
@@ -2774,6 +2813,16 @@ body.el-vp-lock{overflow:hidden}
       const body = document.createElement("div"); body.className = "el-rgrp-b";
       det.append(sm, body); box.appendChild(det);
       drawRedesItens(body, g.itens);
+      const its = body.querySelectorAll(".el-rm");
+      if (its.length > 3) {
+        const abre = !!redesMais[g.nome];
+        its.forEach((n, i) => { if (i >= 3) n.classList.add("el-rm-x"); });
+        body.classList.toggle("el-rm-all", abre);
+        const bt = document.createElement("button"); bt.type = "button"; bt.className = "el-more";
+        const rot = () => { bt.textContent = body.classList.contains("el-rm-all") ? "Mostrar menos" : "Ver mais " + (its.length - 3) + " medidas"; };
+        rot(); bt.addEventListener("click", () => { body.classList.toggle("el-rm-all"); redesMais[g.nome] = body.classList.contains("el-rm-all"); rot(); });
+        body.appendChild(bt);
+      }
     });
   }
   function drawRedesItens(box, rows) { if (__fechada(box)) return;
@@ -2974,7 +3023,7 @@ body.el-vp-lock{overflow:hidden}
     let lastTxt = "—";
     if (last && !isNaN(last)) {
       const ld = spDate(last);
-      lastTxt = "Atualizado " + (ld === today ? "hoje" : ld === yest ? "ontem" : "em " + last.toLocaleDateString("pt-BR", {day: "2-digit", month: "2-digit", timeZone: "America/Sao_Paulo"})) + " às " + hm(last);
+      lastTxt = "Atualizado " + (ld === today ? "hoje" : "em " + last.toLocaleDateString("pt-BR", {day: "2-digit", month: "2-digit", timeZone: "America/Sao_Paulo"})) + " às " + hm(last);
     }
     const slots = String(r.horarios || "").split(",").map(s => s.trim()).filter(Boolean).sort();
     let nextTxt = "";
@@ -3110,7 +3159,7 @@ body.el-vp-lock{overflow:hidden}
       if (r.tipo === "Checagem" && r.veredito) {
         const v = mk("span", "el-fi-v");
         const i = mk("i", "el-dot"); i.style.background = CAT[r.categoria] || "var(--color-fg-muted)";
-        v.append(i, document.createTextNode("Selo: " + r.veredito));
+        v.append(i, document.createTextNode("Nota do checador: " + r.veredito));
         b.appendChild(v);
       }
       const s = mk("div", "el-fi-s");
@@ -3527,11 +3576,10 @@ body.el-vp-lock{overflow:hidden}
     const fl = document.getElementById("ch-falsas");
     drawFalsas(fl, blockState(fl, "taxa_falsas"));
     const tc = blockState(document.getElementById("t-taxa-checador"), "taxa_checador");
-    table("#t-taxa-checador", tc, [
-      {f: "agencia"},
-      {f: "candidato", render: (td, r) => td.append("span").style("color", r.candidato === "Lula" ? CL : CF).style("font-weight", "var(--cds-font-weight-medium)").text(r.candidato)},
-      {f: "falsas", fmt: fInt, cls: "el-num"}, {f: "total", fmt: fInt, cls: "el-num"}, {f: "taxa", fmt: fPct0, cls: "el-num"}
-    ], r => r.id);
+    { const g = new Map(); (tc || []).forEach(r => { if (!g.has(r.agencia)) g.set(r.agencia, {id: r.agencia, agencia: r.agencia}); g.get(r.agencia)[r.candidato === "Lula" ? "lula" : "flavio"] = r; });
+      const cel = (cor) => (td, r) => { const x = r[cor === CF ? "flavio" : "lula"]; const sp = td.append("span").style("color", cor).style("font-weight", "var(--cds-font-weight-medium)");
+        if (!x || x.taxa == null) sp.text("sem checagem"); else { sp.append("b").text(fInt(x.falsas)); sp.append("span").text(" de "); sp.append("b").text(fInt(x.total)); sp.append("span").text(" (" + fPct0(x.taxa) + ")"); } };
+      table("#t-taxa-checador", tc ? Array.from(g.values()) : null, [{f: "agencia"}, {f: "flavio", render: cel(CF)}, {f: "lula", render: cel(CL)}], r => r.id); }
 
     const agAll = blockState(document.getElementById("t-agenda-mini"), "agenda");
     const today = todayISO();
@@ -3576,8 +3624,9 @@ body.el-vp-lock{overflow:hidden}
     const ag = blockState(document.getElementById("t-agenda"), "agenda");
     const hojeAg = todayISO();
     let agFut = ag ? ag.filter(r => String(r.data) >= hojeAg) : null;
-    if (agFut && !agFut.length) agFut = ag.slice();
-    table("#t-agenda", agFut ? agFut.sort((a, b) => String(a.data).localeCompare(String(b.data))) : null, [
+    const semFut = !!(agFut && !agFut.length); if (semFut) agFut = ag.slice();
+    { const h = document.getElementById("agenda-h"); if (h) h.textContent = semFut ? "Onde os candidatos estiveram" : "Agenda dos candidatos"; }
+    table("#t-agenda", agFut ? agFut.sort((a, b) => semFut ? String(b.data).localeCompare(String(a.data)) : String(a.data).localeCompare(String(b.data))) : null, [
       {f: "data", fmt: dayFmt, cls: "el-nowrap"}, {f: "lula"}, {f: "flavio"}
     ], r => r.data);
     const ev = blockState(document.getElementById("t-eventos"), "campanha");
@@ -3592,7 +3641,7 @@ body.el-vp-lock{overflow:hidden}
     table("#t-placar", pl ? pl.slice().sort((a, b) => String(b.data).localeCompare(String(a.data)) || String(a.agencia).localeCompare(String(b.agencia))) : null, [
       {f: "candidato"}, {f: "agencia", render: linkCell("agencia")}, {f: "evento"},
       {f: "data", render: dateCell("data"), cls: "el-nowrap"},
-      {f: "verdadeiro", fmt: fInt, cls: "el-num"}, {f: "impreciso", fmt: fInt, cls: "el-num"}, {f: "falso", fmt: fInt, cls: "el-num"},
+      {f: "verdadeiro", render: (td, r) => { [["verdadeiro", "verdadeira", "verdadeiras", CAT["Verdadeiro"]], ["impreciso", "imprecisa", "imprecisas", CAT["Impreciso ou sem contexto"]], ["falso", "falsa", "falsas", CAT["Falso"]]].forEach(([k, um, v, cor]) => { const n = Number(r[k]) || 0; const l = td.append("div").attr("class", "el-nota-l"); l.append("i").attr("class", "el-dot").style("background", cor); l.append("b").text(fInt(n)); l.append("span").text(n === 1 ? um : v); }); }},
       {f: "total", render: stackCell}, {f: "nota", cls: "el-src el-sm-hide"}
     ], r => r.id);
 
@@ -3667,10 +3716,10 @@ body.el-vp-lock{overflow:hidden}
       sobre: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.5v.5"/>'
     };
     const DESC = {
-      inicio: "Resumo do 2º turno em um minuto", aovivo: "Debates e eventos em tempo real", pesquisas: "Todas as pesquisas e a média",
-      redes: "Desempenho dos candidatos nas redes", campanha: "Agenda, propostas e Justiça Eleitoral", checagem: "Checagens das falas e boatos",
-      verificar: "Confira prints e veja as correções",
-      sobre: "Como a Clareia trabalha, equilíbrio e contato"
+      inicio: "Resultado e resumo do 2º turno", aovivo: "Debates, eventos e avisos", pesquisas: "Todas as pesquisas e a média",
+      redes: "Desempenho dos candidatos nas redes", campanha: "Apoios, agenda e Justiça Eleitoral", checagem: "Boatos e falas checadas",
+      verificar: "Confira um print e veja as correções",
+      sobre: "Como a Clareia trabalha e contato"
     };
     const svg = (id, sz) => '<svg class="el-tab-ico" width="' + sz + '" height="' + sz + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + (IC[id] || "") + '</svg>';
     const tabsEl = Array.from(document.querySelectorAll(".el-tab"));
@@ -3753,6 +3802,13 @@ body.el-vp-lock{overflow:hidden}
       tr.append(a1, b, c); tb.appendChild(tr);
     }
   }
+  // ---------- Checagem: boatos ou falas ----------
+  function mostraCg(nome) {
+    document.querySelectorAll(".el-cg").forEach(g => { g.hidden = g.dataset.cg !== nome; });
+    document.querySelectorAll("[data-cgb]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cgb === nome)));
+    redraw();
+  }
+  document.querySelectorAll("[data-cgb]").forEach(b => b.addEventListener("click", () => mostraCg(b.dataset.cgb)));
   // ---------- Abas ----------
   const tabs = Array.from(document.querySelectorAll(".el-tab"));
   const pages = Array.from(document.querySelectorAll(".el-page"));
@@ -3830,6 +3886,7 @@ body.el-vp-lock{overflow:hidden}
     show(id, true); goTop(id);
     const pg = document.getElementById(id); if (pg) pg.focus({preventScroll: true});
     const an = b.getAttribute("data-anchor"), ae = an && document.getElementById(an);
+    { const g = ae && ae.closest(".el-cg"); if (g && g.hidden) mostraCg(g.dataset.cg); }
     if (ae) setTimeout(() => { ae.scrollIntoView({block: "start"}); window.scrollBy(0, -140); }, 60);
   }));
 
@@ -3934,17 +3991,18 @@ body.el-vp-lock{overflow:hidden}
 </script>
 <div id="el-ck" role="dialog" aria-modal="false" aria-labelledby="ck-t" aria-describedby="ck-d" tabindex="-1" hidden>
   <h2 id="ck-t">Cookies na Clareia</h2>
-  <p id="ck-d">Os cookies essenciais fazem o site funcionar. Com a sua permissão, também usamos cookies de estatística e de mapa de calor, para entender como as pessoas usam a página. Nada é usado para anúncios.</p>
+  <p id="ck-d">Este site usa cookies para o básico funcionar. Se você deixar, também medimos quais abas são mais lidas e onde as pessoas tocam, sem anúncios. Você escolhe.</p>
   <div class="ck-opts" id="ck-opts" hidden>
     <label class="ck-opt"><input type="checkbox" checked disabled> <span><b>Essenciais</b> Sempre ligados: lembram suas escolhas, como tema e avisos.</span></label>
     <label class="ck-opt"><input type="checkbox" id="ck-ga"> <span><b>Estatística</b> Google Analytics: conta visitas e quais abas são mais lidas.</span></label>
     <label class="ck-opt"><input type="checkbox" id="ck-cl"> <span><b>Mapa de calor</b> Microsoft Clarity: mostra onde as pessoas tocam e grava a navegação de forma anônima, sem o que você digita.</span></label>
+    <p>A contagem de visitas do GoatCounter não usa cookies nem guarda dados pessoais.</p>
   </div>
   <div class="nt-btns">
-    <button type="button" id="ck-no">Apenas essenciais</button>
+    <button type="button" id="ck-no">Só o básico</button>
     <button type="button" id="ck-mais" aria-expanded="false" aria-controls="ck-opts">Personalizar</button>
     <button type="button" id="ck-salvar" hidden>Salvar escolhas</button>
-    <button type="button" class="ck-yes" id="ck-yes">Aceitar todos</button>
+    <button type="button" class="ck-yes" id="ck-yes">Aceitar</button>
   </div>
 </div>
 <script>
@@ -4179,14 +4237,14 @@ body.el-vp-lock{overflow:hidden}
 })();</script><script>(function(){
   var B=/\/(en|es)\//.test(location.pathname)?"../":"", sec=document.getElementById("el-ph"), L=document.getElementById("el-ph-lista");
   var EN=/\/en\//.test(location.pathname), ES=/\/es\//.test(location.pathname);
-  var T={ativo:EN?"Live now":ES?"En curso":"Agora", lula:"Lula", flavio:"Flávio Bolsonaro", fonte:EN?"Sources":ES?"Fuentes":"Fontes", mais:EN?"Show earlier updates":ES?"Ver avisos anteriores":"Ver plantões anteriores"};
+  var T={ativo:EN?"Live now":ES?"En curso":"Agora", lula:"Lula", flavio:"Flávio Bolsonaro", fonte:EN?"Sources":ES?"Fuentes":"Fontes", mais:EN?"Show earlier updates":ES?"Ver avisos anteriores":"Ver avisos anteriores", ler:EN?"Read more":ES?"Leer más":"Ler mais", menos:EN?"Read less":ES?"Leer menos":"Ler menos"};
   function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
   function quando(iso){var d=new Date(iso);if(isNaN(d))return "";var o={timeZone:"America/Sao_Paulo"};return d.toLocaleDateString(EN?"en-US":ES?"es":"pt-BR",Object.assign({day:"2-digit",month:"2-digit"},o))+" · "+d.toLocaleTimeString(EN?"en-US":ES?"es":"pt-BR",Object.assign({hour:"2-digit",minute:"2-digit"},o))}
   function card(x,agora){var at=new Date(x.inicio)<=agora&&agora<new Date(x.expira);
     var q="";if(x.lula)q+='<div><i style="background:var(--cl,#D62B2B)"></i><span><b>'+T.lula+':</b> '+esc(x.lula)+'</span></div>';
     if(x.flavio)q+='<div><i style="background:var(--cf,#1F4FA8)"></i><span><b>'+T.flavio+':</b> '+esc(x.flavio)+'</span></div>';
     var f='<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte)+'</a>'+(x.url2?', <a href="'+esc(x.url2)+'" target="_blank" rel="noopener noreferrer">'+esc(x.fonte2)+'</a>':"");
-    return '<details class="el-ph-c'+(at?' ativo':'')+'"><summary><div class="el-ph-m">'+(at?'<span class="el-ph-tag">'+T.ativo+'</span>':'')+'<span>'+quando(x.inicio)+'</span></div><h3>'+esc(x.titulo)+'</h3>'+(x.chamada?'<p class="el-ph-ch">'+esc(x.chamada)+'</p>':'')+'<span class="el-ph-x" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="el-ph-b"><p>'+esc(x.resumo)+'</p>'+(q?'<div class="el-ph-q">'+q+'</div>':'')+'<p class="el-ph-f">'+T.fonte+': '+f+'</p></div></details>'}
+    return '<details class="el-ph-c'+(at?' ativo':'')+'"><summary><div class="el-ph-m">'+(at?'<span class="el-ph-tag">'+T.ativo+'</span>':'')+'<span>'+quando(x.inicio)+'</span></div><h3>'+esc(x.titulo)+'</h3>'+(x.chamada?'<p class="el-ph-ch">'+esc(x.chamada)+'</p>':'')+'<span class="el-ph-x" aria-hidden="true"><span class="el-ph-xa">'+T.ler+'</span><span class="el-ph-xb">'+T.menos+'</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="el-ph-b"><p>'+esc(x.resumo)+'</p>'+(q?'<div class="el-ph-q">'+q+'</div>':'')+'<p class="el-ph-f">'+T.fonte+': '+f+'</p></div></details>'}
   (window.__tmP||Promise.resolve()).then(function(){return fetch(B+"data/plantao.json",{cache:"no-cache"})}).then(function(r){return r.ok?r.json():[]}).then(function(rows){
     if(window.__tradRows)rows=window.__tradRows("plantao",rows);
     rows=(rows||[]).filter(function(x){return x&&x.titulo}).sort(function(a,b){return new Date(b.inicio)-new Date(a.inicio)});
