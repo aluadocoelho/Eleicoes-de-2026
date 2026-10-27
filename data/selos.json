@@ -8145,6 +8145,26 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F267-2306",
+  "conjunto": "checagens",
+  "id": "f160",
+  "registro": {
+   "id": "f160",
+   "data": "2026-10-26",
+   "candidato": "Flávio",
+   "agencia": "Aos Fatos",
+   "evento": null,
+   "afirmacao": "Disse, em pronunciamento após a derrota, que fiscais do PL foram retirados da sala-cofre do TSE quando a votação foi prorrogada.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "A sala-cofre não é aberta a visitas. O TSE afirma que os dois fiscais do PL que estiveram na sede naquele dia estavam na Sala de Totalização e na Sala dos Partidos Políticos, e imagens mostram o acesso livre deles.",
+   "url": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-27T00:00:40Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "AF56-AEE0",
   "conjunto": "checagens",
   "id": "f17",
