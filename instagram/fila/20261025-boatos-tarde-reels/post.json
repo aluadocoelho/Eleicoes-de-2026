@@ -1,0 +1,16 @@
+{
+ "tipo": "reels",
+ "titulo": "Boatos desmentidos (25/10)",
+ "curto": "Boatos",
+ "arquivos": [
+  "reels.mp4"
+ ],
+ "capa": "capa.jpg",
+ "legenda": "Quatro boatos sobre os candidatos foram desmentidos por checadores.\n\nSobre @flaviobolsonaro: não há registro de que ele tenha dito que 30 dias de férias são um exagero, e o plano de governo dele não prevê mudar as férias (via Estadão Verifica). Também não há fala dele sobre privatizar o SUS no dia da posse; os posts distorceram uma coluna sobre um plano de saúde (via Aos Fatos).\n\nSobre @lulaoficial: a frase de que ele defendeu o roubo de celular vem de uma entrevista antiga, editada (via Estadão Verifica). E a reportagem sobre pele de frango em mercados é da TV Record, de junho de 2022, quando Jair Bolsonaro era presidente (via Aos Fatos).\n\nMais detalhes e o link de cada fonte no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#Eleicoes2026 #SegundoTurno #FakeNews #Lula #FlavioBolsonaro",
+ "fontes": [
+  "https://www.terra.com.br/noticias/brasil/politica/e-falso-que-flavio-bolsonaro-tenha-dito-que-30-dias-de-ferias-e-um-exagero,a3db37e16d51387cc703c06d19ebcf99ijwnu8rr.html",
+  "https://www.terra.com.br/noticias/brasil/politica/deputados-impulsionaram-anuncios-com-boato-falso-sobre-lula-e-roubo-de-celular,e40459d88332b341270f148a01533cd2yu8fr484.html",
+  "https://www.aosfatos.org/noticias/falso-flavio-bolsonaro-disse-privatizar-sus-se-eleito-presidente/",
+  "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/"
+ ]
+}
