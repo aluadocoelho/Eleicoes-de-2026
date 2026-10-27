@@ -1734,5 +1734,19 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "Segundo a reportagem, a tese foi difundida pelos deputados Nikolas Ferreira (PL-MG), Thiago Medina (PL-PE) e Rony Gabriel (Podemos-RS), que não responderam.",
   "tema": "Resultado da votação"
+ },
+ {
+  "id": "b125",
+  "data": "2026-10-27",
+  "alvo": "Lula",
+  "boato": "Lula teria \"levado\" todos os votos dos derrotados e dos ausentes do 1º turno, o que provaria fraude",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "Lula ganhou 10,3 milhões de votos entre os turnos, mas o voto é secreto e não dá para saber para quem foram os votos de outros candidatos ou de quem se absteve; Flávio também ganhou 3,7 milhões.",
+  "url": "https://www.agencialupa.org/jornalismo/2026/10/27/aumento-de-votos-a-lula-nao-reflete-transferencia-automatica-de-votos-de-outros-candidatos/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa cita uma legenda no Facebook com dezenas de compartilhamentos, sem identificar o autor, e diz que Elon Musk usou a mesma comparação.",
+  "tema": "Resultado da votação"
  }
 ]
