@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
+  "termo": "Lula",
+  "afirmacao": "Passada a eleição, governo Lula recua e vai manter escala 6x1 para vários setores",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-27",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que Lula recuou sobre fim da escala 6x1",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-disse-que-queria-cortar-chaga-dos-programas-sociais-no-brasil/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "A gente tem que começar cortando os programas sociais, porque ​eu vou libertar o Brasil dessa chaga, desse cancro, dessa ​doença.",
@@ -10,6 +22,18 @@
   "titulo": "Bolsonaro queria cortar apoios sociais no Brasil?",
   "data_checagem": "2026-10-27",
   "url": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-disse-que-queria-cortar-chaga-dos-programas-sociais-no-brasil/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio fugiu para os EUA após derrota eleitoral",
+  "quem_disse": "Flávio fugiu para os EUA após derrota eleitoral",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não viajou para os EUA após derrota para Lula; vídeo é de maio",
+  "data_checagem": "2026-10-26",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
@@ -43,7 +67,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não ...",
+  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não reeleição de Lula",
   "data_checagem": "2026-10-26",
   "url": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/"
  },
@@ -62,7 +86,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -73,13 +97,13 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Flávio fugiu para os EUA após derrota eleitoral",
   "quem_disse": "Flávio fugiu para os EUA após derrota eleitoral",
   "data_afirmacao": null,
   "checador": "UOL Notícias",
   "selo": "Falso",
-  "titulo": "Flávio Bolsonaro não viajou para os EUA após derrota para Lula ...",
+  "titulo": "Flávio Bolsonaro não viajou para os EUA após derrota para Lula; vídeo é de maio",
   "data_checagem": "2026-10-26",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm"
  },
@@ -115,7 +139,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo de comemoração em presídio por jogo de futebol é ...",
+  "titulo": "Vídeo de comemoração em presídio por jogo de futebol é falsamente associado à reeleição de Lula em 2026",
   "data_checagem": "2026-10-26",
   "url": "https://checamos.afp.com/doc.afp.com.D4HD4CQ"
  },
@@ -986,7 +1010,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -1214,7 +1238,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1418,7 +1442,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1898,8 +1922,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -3271,7 +3295,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões ...",
+  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões de votos a mais para Lula na Bahia",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/"
  },
@@ -3456,6 +3480,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio fugiu para os EUA após derrota eleitoral",
+  "quem_disse": "Flávio fugiu para os EUA após derrota eleitoral",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Flávio viajando para os EUA é de maio, antes de derrota para Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.htm?t={seek_to_second_number}",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Reportagem de Caco Barcellos mostra ligação de Flávio Bolsonaro com compra de votos",
@@ -3466,6 +3502,30 @@
   "titulo": "Post usa reportagem antiga e sugere ligação de Flávio com compra de votos",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Governador eleito do Maranhão, Eduardo Braide declarou apoio a Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Governador eleito do MA não declarou apoio a Flávio Bolsonaro no 2º turno",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-eduardo-braide-governador-maranhao-apoio-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Áudio de coordenador de campanha de Flávio, falando que o candidato está planejando um golpe e cortes, foi vazado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que áudio de coordenador de Flávio Bolsonaro vazou nas redes",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/22/falso-desinformacao-audio-coordenador-campanha-flavio-golpe-cortes.ghtm",
@@ -3490,6 +3550,18 @@
   "titulo": "Vídeo é do Círio de Nazaré, não de ato em apoio a Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo é do Círio de Nazaré, não de ato em apoio a Flávio Bolsonaro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.ghtm",
@@ -3564,6 +3636,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Multidão lota 12 quarteirões da Paulista para ato de Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de avenida Paulista cheia é de 2024, não de ato de Flávio no domingo",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/falso-video-multidao-avenida-paulista-ato-flavio-bolsonaro.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Multidão lota 12 quarteirões da Paulista para ato de Flávio Bolsonaro",
@@ -3610,6 +3694,18 @@
   "titulo": "É falso que Papa Leão 14 declarou apoio a Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Papa Leão 14 declarou apoio a Flávio Bolsonaro no segundo turno",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Papa Leão 14 declarou apoio a Flávio Bolsonaro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/16/e-falso-que-papa-leao-14-declarou-apoio-a-flavio-bolsonaro.ghtm",
@@ -3876,6 +3972,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Avião usado pelo governo dos Estados Unidos na captura de Nicolás Maduro está no Brasil para levar o presidente Luiz Inácio Lula da Silva",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Avião dos EUA veio ao Brasil para exercício militar e já deixou o país",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/04/desinformacao-falso-aviao-maduro-brasil-capturar-lula.ghtm",
   "termo": "Lula",
   "afirmacao": "Avião usado pelo governo dos Estados Unidos na captura de Nicolás Maduro está no Brasil para levar o presidente Luiz Inácio Lula da Silva",
@@ -4030,6 +4138,18 @@
   "titulo": "É falso que Lula anunciou aula obrigatória de candomblé e umbanda em escola",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula acaba de anunciar em seu perfil oficial aulas de candomblé e umbanda nas escolas a partir de 2027 e punição criminal para os pais que se recusarem",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula anunciou aula obrigatória de candomblé e umbanda em escola",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/25/video-mostra-show-na-paraiba-nao-ato-de-flavio-bolsonaro.ghtm",
@@ -4188,6 +4308,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Ato de Flávio Bolsonaro na Paulista estava lotado, já desfile de Lula no 7 de Setembro estava vazio",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo engana ao comparar públicos de Flávio e Lula no 7 de Setembro",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/09/video-que-mostra-publico-cantando-lula-lula-no-rock-in-rio-e-de-2022.htm?t={seek_to_second_number}",
   "termo": "Lula",
   "afirmacao": "Lula é ovacionado por público durante o Rock in Rio 2026",
@@ -4270,6 +4402,18 @@
   "titulo": "Governo Lula não proibiu garis de usarem estribo em caminhões de lixo",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/03/falso-governo-lula-proibiu-garis-estribo-caminhao-lixo.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/01/enganoso-lula-humilha-garis.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula menospreza garis durante discurso",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não menosprezou garis em discurso; vídeo é tirado de contexto",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/01/enganoso-lula-humilha-garis.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm",
