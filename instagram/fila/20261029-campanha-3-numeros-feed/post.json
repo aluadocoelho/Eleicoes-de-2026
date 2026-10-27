@@ -1,0 +1,18 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Campanha contra fake news 3/7: Os boatos da eleição em números",
+ "curto": "Números",
+ "site": false,
+ "arquivos": [
+  "1-campanha.jpg",
+  "2-campanha.jpg"
+ ],
+ "legenda": "Quem desmentiu os 119 boatos da eleição? O Boatos.org desmentiu 42, a Lupa 27, o Aos Fatos 23, e o @tsejus mandou retirar 16; outros checadores fizeram os demais. E quem espalhou? Em 98 casos, os checadores não apontam quem criou ou espalhou. Quando apontaram, 16 vieram do campo de @flaviobolsonaro e 5 do campo de @lulaoficial. Só contamos um lado quando o checador ou o TSE disse quem publicou.\n\nCada boato, com o link da checagem, está no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#FakeNews #Desinformacao #ChequeAntes #Eleicoes2026 #Checagem",
+ "alt": [
+  "Gráfico de barras: quem desmentiu os 119 boatos. Boatos.org 42, Lupa 27, Aos Fatos 23, TSE 16, outros checadores 11.",
+  "Gráfico de barras: quem espalhou. Não identificado em 98 boatos, campo de Flávio em 16, campo de Lula em 5. Só conta um lado quando o checador ou o TSE disse quem publicou."
+ ],
+ "fontes": [
+  "https://clareiaeleicoes.com.br/"
+ ]
+}
