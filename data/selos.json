@@ -6767,6 +6767,36 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "4735-9AF2",
+  "conjunto": "campanha",
+  "id": "e63",
+  "registro": {
+   "id": "e63",
+   "data": "2026-10-26",
+   "tipo": "Estratégia",
+   "descricao": "O ministro Alexandre de Moraes mandou Flávio Bolsonaro entregar os passaportes à Polícia Federal em 24 horas e o proibiu de falar com o advogado Willer Tomaz, no inquérito sobre suspeita de lavagem de dinheiro. Flávio disse em vídeo que entregaria os documentos e contestou a medida, segundo Exame e CNN Brasil.",
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/moraes-determina-que-flavio-entregue-passaportes-em-24-horas-e-proibe-contato-com-willer-tomaz/"
+  },
+  "primeira_vez": "2026-10-27T18:16:55Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "2683-A54C",
+  "conjunto": "campanha",
+  "id": "e64",
+  "registro": {
+   "id": "e64",
+   "data": "2026-10-27",
+   "tipo": "Estratégia",
+   "descricao": "Segundo o Metrópoles, aliados de Flávio Bolsonaro não sabiam onde ele estava na terça (27/10) e o último contato foi às 8h, quando disse estar esfriando a cabeça. O prazo para entregar os passaportes à PF terminou sem a entrega, e o Metrópoles relatou, com fontes próximas à família, que ele viajou aos EUA. Ele não confirmou a saída do país.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/grande-angular/flavio-bolsonaro-foi-embora-para-os-eua-aviao-em-voo"
+  },
+  "primeira_vez": "2026-10-27T18:16:55Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
