@@ -6625,6 +6625,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "1D4D-9C60",
+  "conjunto": "campanha",
+  "id": "e62",
+  "registro": {
+   "id": "e62",
+   "data": "2026-10-26",
+   "tipo": "Estratégia",
+   "descricao": "Em nota assinada por Valdemar Costa Neto, o PL disse reconhecer o resultado da eleição presidencial proclamado pelo TSE, mas afirmou que os questionamentos feitos depois da votação precisam ser esclarecidos. A posição difere da de Flávio Bolsonaro, que disse não reconhecer a vitória de Lula. A informação também foi publicada pelo Jornal Opção.",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/partido-de-flavio-bolsonaro-reconhece-vitoria-eleitoral-de-lula/"
+  },
+  "primeira_vez": "2026-10-27T00:14:43Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
