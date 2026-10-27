@@ -1,0 +1,19 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Campanha contra fake news 6/7: Jornal de mentira",
+ "curto": "Jornal falso",
+ "site": false,
+ "arquivos": [
+  "1-campanha.jpg",
+  "2-campanha.jpg"
+ ],
+ "legenda": "Logo de jornal não é prova. Na eleição, prints e capas falsas com a marca de jornais conhecidos circularam contra os dois lados. Uma capa da Folha dizia que um extrato de @lulaoficial mostrou quase R$ 300 bilhões em propinas: a Folha não publicou isso, e a imagem foi gerada por IA. Um print do O Globo dizia que @flaviobolsonaro elevaria a idade mínima da aposentadoria para 70 anos: o jornal não publicou isso, e o plano dele não trata do tema. As duas checagens são da Lupa. Se é notícia de verdade, está no site do jornal.\n\nAs checagens completas estão no site. Link na bio.\n\n#FakeNews #Desinformacao #ChequeAntes #Boato #InteligenciaArtificial",
+ "alt": [
+  "Arte da campanha da Clareia, boato desmentido: capa da Folha diz que um extrato de Lula mostrou quase R$ 300 bilhões em propinas. Falso: a Folha não publicou isso e a imagem foi gerada por IA, segundo a Lupa.",
+  "Arte da campanha da Clareia, boato desmentido: print do O Globo diz que Flávio elevaria a idade mínima da aposentadoria para 70 anos. Falso: o jornal não publicou isso e a imagem foi feita com IA, segundo a Lupa."
+ ],
+ "fontes": [
+  "https://www.agencialupa.org/verificacao/2026/10/25/e-falsa-capa-da-folha-de-s-paulo-sobre-supostos-r-300-bilhoes-em-propinas-de-lula/",
+  "https://www.agencialupa.org/verificacao/2026/10/20/e-falso-que-flavio-bolsonaro-propos-elevar-idade-minima-da-aposentadoria-para-70-anos/"
+ ]
+}

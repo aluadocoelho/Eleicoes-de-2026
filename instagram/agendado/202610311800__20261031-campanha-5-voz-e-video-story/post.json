@@ -1,0 +1,12 @@
+{
+ "tipo": "story",
+ "titulo": "Campanha contra fake news 5/7: Voz e vídeo montados",
+ "arquivos": [
+  "1-story.jpg",
+  "2-story.jpg"
+ ],
+ "fontes": [
+  "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+  "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/"
+ ]
+}

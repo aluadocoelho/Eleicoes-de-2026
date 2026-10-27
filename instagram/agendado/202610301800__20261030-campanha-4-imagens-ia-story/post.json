@@ -1,0 +1,12 @@
+{
+ "tipo": "story",
+ "titulo": "Campanha contra fake news 4/7: Imagem feita com IA",
+ "arquivos": [
+  "1-story.jpg",
+  "2-story.jpg"
+ ],
+ "fontes": [
+  "https://www.agencialupa.org/jornalismo/2026/10/15/e-falsa-imagem-de-zico-com-faixa-de-fora-lula/",
+  "https://www.agencialupa.org/verificacao/2026/10/04/foto-de-flavio-bolsonaro-com-elefante-abatido-foi-gerada-por-ia/"
+ ]
+}
