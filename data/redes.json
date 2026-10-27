@@ -556,5 +556,14 @@
   "flavio": 118900000,
   "fonte": "Ativaweb DataLab (coluna de Alek Maracajá em HNT)",
   "url": "https://www.hnt.com.br/artigos/as-pesquisas-apontavam-flavio-o-digital-apontava-lula-a-urna-confirmou-o-digital/583303"
+ },
+ {
+  "id": "meltwater-2526",
+  "metrica": "Impressões potenciais das menções ao candidato",
+  "periodo": "25–26 out (votação e dia seguinte)",
+  "lula": 664000000000,
+  "flavio": 113000000000,
+  "fonte": "Meltwater, via Lupa (newsletter Ebulição)",
+  "url": "https://lupanewsletter.substack.com/p/a-euforia-progressista-e-o-luto-golpista"
  }
 ]
