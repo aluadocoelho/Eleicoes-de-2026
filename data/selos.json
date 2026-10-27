@@ -3355,6 +3355,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6400-D44C",
+  "conjunto": "boatos",
+  "id": "b118",
+  "registro": {
+   "id": "b118",
+   "data": "2026-10-26",
+   "alvo": "Lula",
+   "boato": "Vídeo de falso telejornal diria que Lula afirmou que saúde é para quem pode pagar",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "O vídeo mistura um trecho gerado por inteligência artificial com um discurso real de Lula de julho, tirado de contexto. No discurso, ele falou de discriminação e dinheiro no atendimento de saúde, e não disse que o cuidado é só para quem paga.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/26/lula-nao-disse-que-servicos-de-saude-sao-para-quem-pode-pagar/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Fala falsa de Lula"
+  },
+  "primeira_vez": "2026-10-27T02:30:12Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E95D-2BE4",
   "conjunto": "boatos",
   "id": "b12",
