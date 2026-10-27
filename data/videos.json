@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261025-boatos-tarde",
+  "titulo": "Boatos desmentidos (25/10)",
+  "curto": "Boatos",
+  "data": "2026-10-25",
+  "origem": "instagram/publicados/20261025-boatos-tarde-reels",
+  "video": "videos/20261025-boatos-tarde.mp4",
+  "capa": "videos/20261025-boatos-tarde.jpg",
+  "bolinha": "videos/20261025-boatos-tarde-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfAcJOuD-cN/"
+ },
+ {
   "id": "20261027-campanha-1-hora-da-verdade-reels-v2",
   "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
   "curto": "Verdade",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-pesquisas-do-dia.jpg",
   "bolinha": "videos/20261023-pesquisas-do-dia-b.jpg",
   "instagram": "https://www.instagram.com/reel/De4gB-mE52s/"
- },
- {
-  "id": "20261023-pesquisa-ipespe",
-  "titulo": "Nova pesquisa Ipespe/Abrapel (23/10)",
-  "curto": "Ipespe",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-pesquisa-ipespe-reels",
-  "video": "videos/20261023-pesquisa-ipespe.mp4",
-  "capa": "videos/20261023-pesquisa-ipespe.jpg",
-  "bolinha": "videos/20261023-pesquisa-ipespe-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De4fxBglCGr/"
  }
 ]
