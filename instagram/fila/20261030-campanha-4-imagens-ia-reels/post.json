@@ -1,0 +1,14 @@
+{
+ "tipo": "reels",
+ "titulo": "Campanha contra fake news 4/7: Imagem feita com IA",
+ "curto": "Imagens IA",
+ "arquivos": [
+  "reels.mp4"
+ ],
+ "capa": "capa.jpg",
+ "legenda": "Parece foto, mas não é. Na eleição, imagens feitas com inteligência artificial circularam contra os dois candidatos. Uma mostrava o Zico segurando uma faixa contra @lulaoficial: a Lupa mostrou que a imagem foi manipulada com IA. Outra mostrava @flaviobolsonaro armado ao lado de um elefante abatido: a Lupa mostrou que foi gerada por IA. Rosto liso demais, mãos estranhas e textos borrados são sinais de alerta.\n\nAs checagens completas estão no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#FakeNews #Desinformacao #ChequeAntes #Boato #InteligenciaArtificial",
+ "fontes": [
+  "https://www.agencialupa.org/jornalismo/2026/10/15/e-falsa-imagem-de-zico-com-faixa-de-fora-lula/",
+  "https://www.agencialupa.org/verificacao/2026/10/04/foto-de-flavio-bolsonaro-com-elefante-abatido-foi-gerada-por-ia/"
+ ]
+}
