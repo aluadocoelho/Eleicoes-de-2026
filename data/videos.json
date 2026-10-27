@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261027-campanha-1-hora-da-verdade",
+  "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
+  "curto": "Verdade",
+  "data": "2026-10-27",
+  "origem": "instagram/publicados/20261027-campanha-1-hora-da-verdade-reels",
+  "video": "videos/20261027-campanha-1-hora-da-verdade.mp4",
+  "capa": "videos/20261027-campanha-1-hora-da-verdade.jpg",
+  "bolinha": "videos/20261027-campanha-1-hora-da-verdade-b.jpg",
+  "instagram": "https://www.instagram.com/reel/De_85DbkkTz/"
+ },
+ {
   "id": "20261026-sinais-alarmismo",
   "titulo": "Como saber se um vídeo quer te assustar (26/10)",
   "curto": "Sinais de alarmismo",
@@ -119,16 +130,5 @@
   "capa": "videos/20261024-dia-de-votar.jpg",
   "bolinha": "videos/20261024-dia-de-votar-b.jpg",
   "instagram": "https://www.instagram.com/reel/De4fdfsD-rW/"
- },
- {
-  "id": "20261023-debate-globo-chamada",
-  "titulo": "O último debate (23/10)",
-  "curto": "Debate",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-debate-globo-chamada-reels",
-  "video": "videos/20261023-debate-globo-chamada.mp4",
-  "capa": "videos/20261023-debate-globo-chamada.jpg",
-  "bolinha": "videos/20261023-debate-globo-chamada-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De2wEIvgpBh/"
  }
 ]
