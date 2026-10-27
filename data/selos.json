@@ -6797,6 +6797,21 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "356D-BA58",
+  "conjunto": "campanha",
+  "id": "e65",
+  "registro": {
+   "id": "e65",
+   "data": "2026-10-27",
+   "tipo": "Justiça Eleitoral",
+   "descricao": "Segundo o Metrópoles, a PF cancelou os passaportes comuns e diplomáticos de Flávio Bolsonaro depois que o prazo de entrega terminou, e vai avisar o ministro Alexandre de Moraes. O Estado de Minas, citando o Correio Braziliense, diz que ele estaria em voo para os EUA com passaporte italiano; o Metrópoles informa que não há registro formal de saída do país.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/o-que-se-sabe-sobre-a-fuga-de-flavio-bolsonaro-do-pais-rumo-aos-eua"
+  },
+  "primeira_vez": "2026-10-27T20:15:39Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4296-376B",
   "conjunto": "checagens",
   "id": "f01",
