@@ -882,13 +882,13 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el-mais{appearance:none;border:0;background:none;padding:4px 0 0;font:inherit;font-size:.8125rem;font-weight:800;color:var(--accent-text);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 
 /* Topo mais fino: marca acima do card roxo, sem etiqueta nem logo dentro dele; atualização no rodapé */
-.el-siga{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 10px;margin:0 0 2px}
-.el-siga-t{font-weight:800;font-size:.9rem;letter-spacing:.02em}
-.el .el-siga-b{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 16px;border:2px solid var(--ink);border-radius:999px;background:var(--color-panel);color:var(--color-fg);font-weight:800;font-size:.95rem;text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
-.el .el-siga-b:hover{background:#FFD43B;color:#1A1500}
+.el-siga{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#16181D;color:#fff;box-shadow:0 0 0 100vmax #16181D;clip-path:inset(0 -100vmax);margin:calc(-1 * clamp(16px,4vw,40px)) 0 10px;padding:10px 0}
+.el-siga-t{font-weight:800;font-size:.95rem;letter-spacing:.02em;color:#fff}
+.el-siga-i{display:flex;gap:12px}
+.el .el-siga-b{display:inline-grid;place-items:center;width:44px;height:44px;border:2px solid #fff;border-radius:50%;background:#fff;color:#16181D;text-decoration:none;box-shadow:3px 3px 0 #FFD43B;flex:none}
+.el .el-siga-b:hover{background:#FFD43B;border-color:#FFD43B}
 .el .el-siga-b:active{transform:translate(3px,3px);box-shadow:none}
-.el .el-siga-b:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media (max-width:48rem){.el-siga{order:-3;justify-content:space-between;margin:0 0 6px}.el-siga-t{flex:1 1 100%;text-align:center;font-size:.85rem}.el .el-siga-b{flex:1;justify-content:center}}
+.el .el-siga-b:focus-visible{outline:3px solid #FFD43B;outline-offset:3px}
 .el-marca{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 2px 4px}
 .el-marca-ico{width:52px;height:52px;flex:none;display:block}
 .el-marca-t{display:flex;flex-direction:column;line-height:1}
@@ -1197,9 +1197,9 @@ body.el-vp-lock{overflow:hidden}
 </g>
 </symbol></svg>
   <nav class="el-siga" aria-label="Siga a Clareia nas redes">
-    <span class="el-siga-t">Siga a Clareia</span>
-    <a class="el-siga-b" href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a>
-    <a class="el-siga-b" href="https://www.tiktok.com/@oficialclareiaeleicoes" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 3h3.1c.2 1.9 1.6 3.4 3.4 3.6v3.1c-1.3 0-2.5-.4-3.5-1v6.4c0 3.3-2.7 5.9-6 5.9s-6-2.6-6-5.9 2.7-5.9 6-5.9c.3 0 .6 0 .9.1v3.2c-.3-.1-.6-.2-.9-.2-1.6 0-2.9 1.3-2.9 2.8s1.3 2.8 2.9 2.8 2.9-1.2 2.9-2.8V3z"/></svg><span>TikTok</span></a>
+    <span class="el-siga-t">Siga a Clareia nas redes</span><span class="el-siga-i">
+    <a class="el-siga-b" href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Clareia (@clareiaeleicoes)" title="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+    <a class="el-siga-b" href="https://www.tiktok.com/@oficialclareiaeleicoes" target="_blank" rel="noopener noreferrer" aria-label="TikTok da Clareia (@oficialclareiaeleicoes)" title="TikTok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 3h3.1c.2 1.9 1.6 3.4 3.4 3.6v3.1c-1.3 0-2.5-.4-3.5-1v6.4c0 3.3-2.7 5.9-6 5.9s-6-2.6-6-5.9 2.7-5.9 6-5.9c.3 0 .6 0 .9.1v3.2c-.3-.1-.6-.2-.9-.2-1.6 0-2.9 1.3-2.9 2.8s1.3 2.8 2.9 2.8 2.9-1.2 2.9-2.8V3z"/></svg></a></span>
   </nav>
   <div class="el-marca"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav><svg class="el-marca-svg" viewBox="0 0 273.12 106.07" role="img" aria-label="Clareia Eleições"><use href="#marca-clareia"></use></svg></div>
   <div class="el-sticky" id="el-sticky">
