@@ -1650,5 +1650,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Fala falsa de Lula"
+ },
+ {
+  "id": "b119",
+  "data": "2026-10-09",
+  "alvo": "Lula",
+  "boato": "Nota oficial do Corinthians diria que o clube apoia Flávio no 2º turno",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "A nota não foi publicada nos canais do clube, que afirmou não apoiar nenhum candidato nesta eleição.",
+  "url": "https://www.aosfatos.org/noticias/corinthians-apoio-flavio-bolsonaro-falso/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica os autores; diz só que a imagem circulou em plataformas da Meta.",
+  "tema": "Falso apoio de clube"
  }
 ]
