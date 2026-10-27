@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-disse-que-queria-cortar-chaga-dos-programas-sociais-no-brasil/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "A gente tem que começar cortando os programas sociais, porque ​eu vou libertar o Brasil dessa chaga, desse cancro, dessa ​doença.",
+  "quem_disse": "Utilizador do Facebook",
+  "data_afirmacao": "2026-10-14",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Bolsonaro queria cortar apoios sociais no Brasil?",
+  "data_checagem": "2026-10-27",
+  "url": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-disse-que-queria-cortar-chaga-dos-programas-sociais-no-brasil/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "FLÁVIO BOLSONARO CHORA IGUAL CRIANÇA APÓS DERROTA PARA LULA, QUE CONQUISTA SEU QUARTO MANDATO PRESIDENCIAL",
@@ -974,7 +986,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -1406,7 +1418,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1886,8 +1898,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -2698,6 +2710,18 @@
   "titulo": "Vídeo de Lula no Paraguai é usado fora de contexto para sugerir constrangimento na ONU",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-lula-paraguai-usado-fora-contexto-sugerir-constrangimento-onu/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/video-flavio-bolsonaro-chorando-fora-de-contexto/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Foto de Flávio chorando após a reeleição de Lula",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-27",
+  "checador": "Estadão",
+  "selo": "Fora de contexto",
+  "titulo": "Vídeo que mostra Flávio Bolsonaro chorando foi gravado antes do ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/video-flavio-bolsonaro-chorando-fora-de-contexto/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/video-enganoso-trump-ameaca-lula-maduro/",
