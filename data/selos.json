@@ -5959,6 +5959,21 @@
    "url": "https://iclnoticias.com.br/ex-premie-grego-alexis-tsipras-declara-apoio-a-lula-e-destaca-defesa-da-democracia/"
   },
   "primeira_vez": "2026-10-25T02:46:51Z",
+  "ainda_publicado": false
+ },
+ {
+  "codigo": "54EA-CDB2",
+  "conjunto": "campanha",
+  "id": "e27",
+  "registro": {
+   "id": "e27",
+   "data": "2026-10-22",
+   "tipo": "Apoio",
+   "descricao": "O ex-primeiro-ministro grego Alexis Tsipras declarou apoio a Lula em vídeo divulgado em 22/10, em grego e português, no qual descreveu a eleição como uma disputa entre democracia e autoritarismo, segundo o Greek Reporter. Ele já havia elogiado Lula em 15/10.",
+   "fonte": "Greek Reporter",
+   "url": "https://greekreporter.com/2026/10/23/tsipras-endorses-lula-brazil-election/"
+  },
+  "primeira_vez": "2026-10-27T02:46:03Z",
   "ainda_publicado": true
  },
  {
