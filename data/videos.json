@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261027-campanha-1-hora-da-verdade-reels-v2",
+  "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
+  "curto": "Verdade",
+  "data": "2026-10-27",
+  "origem": "instagram/publicados/20261027-campanha-1-hora-da-verdade-reels-v2",
+  "video": "videos/20261027-campanha-1-hora-da-verdade-reels-v2.mp4",
+  "capa": "videos/20261027-campanha-1-hora-da-verdade-reels-v2.jpg",
+  "bolinha": "videos/20261027-campanha-1-hora-da-verdade-reels-v2-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfAARYRD8o4/"
+ },
+ {
   "id": "20261027-campanha-1-hora-da-verdade",
   "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
   "curto": "Verdade",
@@ -119,16 +130,5 @@
   "capa": "videos/20261023-pesquisa-ipespe.jpg",
   "bolinha": "videos/20261023-pesquisa-ipespe-b.jpg",
   "instagram": "https://www.instagram.com/reel/De4fxBglCGr/"
- },
- {
-  "id": "20261024-dia-de-votar",
-  "titulo": "Amanhã é dia de votar (25/10)",
-  "curto": "Votação",
-  "data": "2026-10-24",
-  "origem": "instagram/publicados/20261024-dia-de-votar-reels",
-  "video": "videos/20261024-dia-de-votar.mp4",
-  "capa": "videos/20261024-dia-de-votar.jpg",
-  "bolinha": "videos/20261024-dia-de-votar-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De4fdfsD-rW/"
  }
 ]
