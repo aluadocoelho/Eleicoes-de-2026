@@ -3334,6 +3334,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "05A0-DB39",
+  "conjunto": "boatos",
+  "id": "b117",
+  "registro": {
+   "id": "b117",
+   "data": "2026-10-26",
+   "alvo": "Flávio",
+   "boato": "Imagem mostraria o cantor Roberto Carlos fazendo o \"L\" em apoio a Lula",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "A foto foi montada com edição gráfica, com uma mão inserida sobre a imagem do cantor.",
+   "url": "https://www.boatos.org/entretenimento/roberto-carlos-fez-o-sinal-do-l-em-apoio-a-lula-nas-eleicoes-de-2026.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Falso apoio de artistas"
+  },
+  "primeira_vez": "2026-10-27T01:30:18Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "E95D-2BE4",
   "conjunto": "boatos",
   "id": "b12",
