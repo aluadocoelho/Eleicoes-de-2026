@@ -1678,5 +1678,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa diz que a postagem foi feita no X e não identifica o perfil autor.",
   "tema": "Compra de votos"
+ },
+ {
+  "id": "b121",
+  "data": "2026-10-27",
+  "alvo": "Flávio",
+  "boato": "Flávio teria perdido 5,7% dos votos em Santa Catarina no 2º turno e Lula ganhado 14%",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "Os dados do TRE-SC mostram que os dois candidatos aumentaram o percentual de votos válidos no estado do 1º para o 2º turno, ao contrário do que dizem as postagens.",
+  "url": "https://www.agencialupa.org/noticias/2026/10/27/e-falso-que-flavio-bolsonaro-perdeu-votos-em-sc-no-segundo-turno/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Votação em SC"
  }
 ]
