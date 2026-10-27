@@ -955,5 +955,16 @@
   "depois": "Greek Reporter; apoio em vídeo divulgado em 22/10, após elogios em 15/10",
   "motivo": "O link anterior era de site de linha partidária declarada; o Greek Reporter confirma o apoio, mas o descreve como vídeo de 22/10, não como nota de 19/10.",
   "url": "https://greekreporter.com/2026/10/23/tsipras-endorses-lula-brazil-election/"
+ },
+ {
+  "id": "er88",
+  "data": "2026-10-27",
+  "conjunto": "campanha",
+  "registro_id": "e60",
+  "o_que_mudou": "Trecho sobre a fala de Flávio a respeito da sala-cofre do TSE",
+  "antes": "o que não foi comprovado",
+  "depois": "e que o TSE desmentiu: a sala-cofre não recebe visitas, e os dois fiscais do PL estiveram em outras salas",
+  "motivo": "O InfoMoney informa que o TSE classificou a afirmação como falsa e apresentou registros de presença e filmagens, e não apenas que faltou comprovação.",
+  "url": "https://www.infomoney.com.br/politica/tse-diz-nao-ter-retirado-fiscais-do-pl-da-sala-cofre-durante-eleicao/"
  }
 ]
