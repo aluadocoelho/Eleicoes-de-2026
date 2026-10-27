@@ -1664,5 +1664,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "O Aos Fatos não identifica os autores; diz só que a imagem circulou em plataformas da Meta.",
   "tema": "Falso apoio de clube"
+ },
+ {
+  "id": "b120",
+  "data": "2026-10-26",
+  "alvo": "Lula",
+  "boato": "Vídeo de apreensão de mala com dinheiro seria de compra de votos para o PT no 2º turno",
+  "veredito": "Falso",
+  "agencia": "Lupa",
+  "explicacao": "A apreensão é real, mas ocorreu em janeiro de 2026 em Cristalina (GO), com R$ 1,7 milhão, e não há indício de ligação com compra de votos nem com o PT.",
+  "url": "https://www.agencialupa.org/verificacao/2026/10/26/video-de-apreensao-de-r-17-milhao-em-mala-nao-trata-de-compra-de-votos/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa diz que a postagem foi feita no X e não identifica o perfil autor.",
+  "tema": "Compra de votos"
  }
 ]
