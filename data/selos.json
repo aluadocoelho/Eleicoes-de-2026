@@ -3473,6 +3473,69 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "30C9-D0C1",
+  "conjunto": "boatos",
+  "id": "b122",
+  "registro": {
+   "id": "b122",
+   "data": "2026-10-27",
+   "alvo": "Lula",
+   "boato": "Lula teria recuado do fim da escala 6x1 e preparado novas exceções depois da eleição",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "As exceções para alguns setores já estavam no texto da PEC aprovada antes do 2º turno, e não há anúncio do governo sobre novas exclusões.",
+   "url": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Escala 6x1"
+  },
+  "primeira_vez": "2026-10-27T21:30:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "1534-8AF1",
+  "conjunto": "boatos",
+  "id": "b123",
+  "registro": {
+   "id": "b123",
+   "data": "2026-10-26",
+   "alvo": "Lula",
+   "boato": "A extensão do horário de votação teria dado 2 milhões de votos a mais para Lula na Bahia",
+   "veredito": "Falso",
+   "agencia": "Estadão Verifica",
+   "explicacao": "Os registros do TSE mostram cerca de 35 mil votos após as 17h em todo o país e não indicam o destino deles; o presidente do TSE disse que a prorrogação não mudou o resultado.",
+   "url": "https://www.terra.com.br/noticias/eleicoes/e-falso-que-extensao-do-horario-de-votacao-tenha-dado-2-milhoes-de-votos-a-mais-para-lula-na-bahia,45df975678b3cb82f16661edfe0ef76da8cr9218.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a checagem, a publicação com mais de 300 mil visualizações no X é do deputado federal eleito Jeffrey Chiquini, do PL-PR, que não respondeu.",
+   "tema": "Prorrogação da votação"
+  },
+  "primeira_vez": "2026-10-27T21:30:37Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9F14-9280",
+  "conjunto": "boatos",
+  "id": "b124",
+  "registro": {
+   "id": "b124",
+   "data": "2026-10-27",
+   "alvo": "Lula",
+   "boato": "A vitória de Lula no 2º turno seria matematicamente impossível",
+   "veredito": "Falso",
+   "agencia": "Terra (Checamos)",
+   "explicacao": "A abstenção caiu para 19,22%, a menor desde 2006, e Lula somou votos da terceira via e cresceu no Sudeste e no Nordeste, o que explica a vitória por mais de 4,4 milhões de votos.",
+   "url": "https://www.terra.com.br/noticias/brasil/politica/campanha-de-desinformacao-impulsiona-falsa-tese-de-vitoria-matematicamente-impossivel-de-lula,d96cc6ced3c9b50535e4343c9704a1ba1l18bzzo.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Campo de Flávio",
+   "origem_detalhe": "Segundo a reportagem, a tese foi difundida pelos deputados Nikolas Ferreira (PL-MG), Thiago Medina (PL-PE) e Rony Gabriel (Podemos-RS), que não responderam.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-10-27T21:30:37Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5212-328B",
   "conjunto": "boatos",
   "id": "b13",
