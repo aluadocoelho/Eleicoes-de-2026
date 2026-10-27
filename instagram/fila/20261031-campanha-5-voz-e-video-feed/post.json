@@ -1,0 +1,19 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Campanha contra fake news 5/7: Voz e vídeo montados",
+ "curto": "Áudio falso",
+ "site": false,
+ "arquivos": [
+  "1-campanha.jpg",
+  "2-campanha.jpg"
+ ],
+ "legenda": "Ouvir e ver não basta. Com inteligência artificial, dá para imitar a voz e o rosto de qualquer pessoa. Um áudio com a voz de @lulaoficial xingando uma entrevistada da @cnnbrasil era falso: peritos apontaram voz sintética. Um vídeo de @flaviobolsonaro anunciando cortes em pensões, no 13º e no Pé-de-Meia também era falso: foi montado com IA sobre um discurso em que ele não fala disso. Os dois foram checados pelo Aos Fatos. Voz que não combina com a boca é sinal de alerta.\n\nAs checagens completas estão no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#FakeNews #Desinformacao #ChequeAntes #Boato #InteligenciaArtificial",
+ "alt": [
+  "Arte da campanha da Clareia, boato desmentido: áudio com a voz de Lula xingando uma entrevistada da CNN Brasil. Falso: peritos apontaram voz sintética e o governo negou, segundo o Aos Fatos.",
+  "Arte da campanha da Clareia, boato desmentido: vídeo de Flávio anunciando cortes em pensões, no 13º e no Pé-de-Meia. Falso: o vídeo foi montado com IA sobre um discurso de 4/10, segundo o Aos Fatos."
+ ],
+ "fontes": [
+  "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+  "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/"
+ ]
+}
