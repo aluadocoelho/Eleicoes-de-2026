@@ -535,6 +535,29 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-apu-tab th:first-child,.el-apu-tab td:first-child{text-align:left}
 @media (max-width:620px){.el-apu-svg text{font-size:21px;stroke-width:5px}.el-apu-svg text tspan.p{font-size:21px}.el-apu-svg text.in tspan.s{display:none}}
 .el-apu-det summary{cursor:pointer;font-weight:700;min-height:40px;display:flex;align-items:center}
+/* Campanha contra fake news (27/10) */
+.el-camp{position:relative;overflow:hidden;background:#16181D;color:#fff;border:2px solid #16181D;border-radius:24px;box-shadow:5px 5px 0 #FFD43B;padding:22px 20px 22px;display:flex;flex-direction:column;gap:12px}
+.el-camp-tag{align-self:flex-start;background:#FFD43B;color:#1A1500!important;border:2px solid #16181D;border-radius:999px;padding:3px 12px;font-weight:900;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;transform:rotate(-2deg)}
+.el-camp-t{margin:0;font-family:var(--font-anthropic-serif);font-weight:800;font-size:clamp(2rem,8.5vw,3.6rem);line-height:1.02;letter-spacing:-.02em}
+.el-camp-t em{font-style:normal;color:#FFD43B}
+.el-camp-d{margin:0;font-size:clamp(1rem,3.8vw,1.15rem);line-height:1.5;color:#E6E3EC;max-width:46rem}
+.el-camp-btns{display:flex;flex-wrap:wrap;gap:10px 14px;margin-top:4px}
+.el .el-camp-go{background:#FFD43B;color:#1A1500;border:2px solid #FFD43B;box-shadow:3px 3px 0 #fff;border-radius:14px;padding:10px 16px;min-height:44px;font:inherit;font-weight:800;cursor:pointer}
+.el .el-camp-go2{background:transparent;color:#fff;border:2px solid #fff;border-radius:14px;padding:10px 16px;min-height:44px;font:inherit;font-weight:700;cursor:pointer}
+.el-camp-go:active,.el-camp-go2:active{transform:translate(3px,3px);box-shadow:none}
+.el-camp-go:focus-visible,.el-camp-go2:focus-visible{outline:3px solid #FFD43B;outline-offset:3px}
+.el-guia{display:flex;flex-direction:column;gap:14px}
+.el-guia-sinais{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin:0;padding:0;list-style:none;counter-reset:s}
+@media (min-width:700px){.el-guia-sinais{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.el-guia-sinais li{counter-increment:s;border:2px solid var(--ink);border-radius:16px;box-shadow:3px 3px 0 var(--ink);background:var(--color-panel);padding:12px 14px 12px 56px;position:relative;line-height:1.45}
+.el-guia-sinais li::before{content:counter(s);position:absolute;left:12px;top:12px;width:32px;height:32px;border-radius:50%;background:#FFD43B;color:#1A1500;border:2px solid #16181D;display:grid;place-items:center;font-weight:900}
+.el-guia-sinais b{display:block;font-size:1.05rem}
+.el-guia-passos{margin:0;padding-left:1.3em;line-height:1.6}
+.el-guia-links{display:flex;flex-wrap:wrap;gap:8px}
+.el-guia-links a{display:inline-flex;align-items:center;min-height:44px;padding:6px 12px;border:2px solid var(--ink);border-radius:999px;background:var(--color-panel);color:var(--color-fg);font-weight:700;text-decoration:none}
+.el-guia-links a:hover{background:var(--surface-hover)}
+#guia-compartilhar,#card-boatos{scroll-margin-top:130px}
+.el-guia-num{margin:0;font-size:1.05rem;line-height:1.5}
 /* Apuração ao vivo (TSE), 25/10 */
 .el-apu{position:relative;background:var(--color-panel);color:var(--color-fg);border:2px solid var(--ink);border-radius:20px;box-shadow:4px 4px 0 var(--ink);padding:16px 18px 18px;display:flex;flex-direction:column;gap:12px}
 .el-apu[hidden]{display:none}
@@ -1052,6 +1075,13 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
     </div>
     <p class="el-apu-foot"><span id="apu-foot-t">Resultado parcial: os números mudam até o fim da contagem. No mapa, a cor mostra quem tem mais votos válidos em cada estado; os votos do exterior entram só no total do Brasil.</span> <span>Fonte:</span> <a href="https://resultados.tse.jus.br/oficial/app/index.html" target="_blank" rel="noopener noreferrer">TSE, Resultados</a>.</p>
   </section>
+<script data-go-alvo>
+document.addEventListener("click", function (e) {
+  var b = e.target.closest && e.target.closest("[data-go-alvo]"); if (!b) return;
+  var id = b.getAttribute("data-go-alvo");
+  setTimeout(function () { var t = document.getElementById(id); if (t) { t.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start"}); var h = t.querySelector("h2"); if (h) { h.setAttribute("tabindex", "-1"); h.focus({preventScroll: true}); } } }, 120);
+});
+</script>
 <script data-apuracao>
 (function () {
   var box = document.getElementById("el-apu"); if (!box) return;
@@ -1302,6 +1332,15 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
   <main id="conteudo" tabindex="-1" class="el-main">
   <section class="el-page" id="inicio" role="tabpanel" aria-labelledby="tab-inicio" tabindex="-1">
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Início</span><p class="el-pgtitle">Depois da votação, <em>em poucas palavras</em></p></div>
+    <aside class="el-camp" aria-labelledby="camp-t">
+      <span class="el-camp-tag">Campanha Clareia</span>
+      <h2 class="el-camp-t" id="camp-t">Agora, é hora de <em>falar a verdade.</em></h2>
+      <p class="el-camp-d">A eleição acabou, mas boatos, fake news e memes falsos continuam circulando. Nesta semana, a Clareia mostra como reconhecer uma mentira, onde checar e por que vale parar antes de compartilhar.</p>
+      <div class="el-camp-btns">
+        <button type="button" class="el-camp-go" data-go="checagem" data-go-alvo="guia-compartilhar">Como reconhecer um boato →</button>
+        <button type="button" class="el-camp-go2" data-go="checagem" data-go-alvo="card-boatos">Ver os boatos desmentidos</button>
+      </div>
+    </aside>
     <div class="el-banner" id="banner" data-source="destaques" hidden></div>
 
 
@@ -1586,6 +1625,26 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
       <button type="button" class="el-chip" data-cgb="falas" aria-pressed="false">Falas dos candidatos</button>
     </div>
     <div class="el-cg" data-cg="boatos">
+    <div class="el-card el-guia" id="guia-compartilhar">
+      <h2 class="el-h">Antes de compartilhar: 4 sinais de alerta</h2>
+      <p class="el-guia-num">Na eleição, checadores e o TSE desmentiram <b data-source="boatos_resumo" data-field="total">—</b> boatos: <b data-source="boatos_resumo" data-field="contra_lula">—</b> contra Lula e <b data-source="boatos_resumo" data-field="contra_flavio">—</b> contra Flávio. Boato atinge todo mundo.</p>
+      <ol class="el-guia-sinais">
+        <li><b>Pede pressa</b> "Compartilhe antes que apaguem" é um jeito de fazer você repassar sem pensar.</li>
+        <li><b>Não diz de onde veio</b> Sem fonte, sem data e sem autor, ninguém consegue conferir.</li>
+        <li><b>Dá raiva ou medo na hora</b> Boato costuma mexer com a emoção para você reagir rápido.</li>
+        <li><b>Imagem, áudio ou vídeo estranho</b> Rosto liso demais, voz que não combina com a boca, página de jornal montada ou meme com uma frase que a pessoa nunca disse.</li>
+      </ol>
+      <h3 class="el-h" style="font-size:1.1rem;margin:4px 0 0">Como checar em 1 minuto</h3>
+      <ol class="el-guia-passos">
+        <li>Procure o assunto num jornal ou site de notícias conhecido. Se for verdade, alguém grande publicou.</li>
+        <li>Pesquise o assunto junto com a palavra "checagem".</li>
+        <li>Veja a data: muita coisa velha volta a circular como se fosse nova.</li>
+        <li>Na dúvida, não compartilhe.</li>
+      </ol>
+      <h3 class="el-h" style="font-size:1.1rem;margin:4px 0 0">Onde checar</h3>
+      <div class="el-guia-links"><a href="https://www.justicaeleitoral.jus.br/fato-ou-boato/" target="_blank" rel="noopener noreferrer">Fato ou Boato (Justiça Eleitoral)<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://www.agencialupa.org/" target="_blank" rel="noopener noreferrer">Lupa<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://www.aosfatos.org/" target="_blank" rel="noopener noreferrer">Aos Fatos<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://www.boatos.org/" target="_blank" rel="noopener noreferrer">Boatos.org<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://projetocomprova.com.br/" target="_blank" rel="noopener noreferrer">Projeto Comprova<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://g1.globo.com/fato-ou-fake/" target="_blank" rel="noopener noreferrer">g1 Fato ou Fake<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://www.estadao.com.br/estadao-verifica/" target="_blank" rel="noopener noreferrer">Estadão Verifica<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a href="https://checamos.afp.com/" target="_blank" rel="noopener noreferrer">AFP Checamos<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:6px"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a></div>
+      <p class="el-note" style="margin:0">Os sinais de alerta seguem orientações publicadas pelo jornal <a href="https://www.oliberal.com/politica/fake-news-nas-eleicoes-saiba-como-identificar-noticias-falsas-e-evitar-desinformacao-1.1139811" target="_blank" rel="noopener noreferrer">O Liberal</a>, com o cientista político André Carneiro Buna (UFPA), e práticas dos checadores. A contagem de boatos vem da lista abaixo.</p>
+    </div>
     <div class="el-card el-howto"><p><b>Recebeu algo estranho no WhatsApp?</b> Veja abaixo se já foi desmentido. Antes de compartilhar, confira a fonte.</p></div>
     <div class="el-card" id="card-boatos">
       <h2 class="el-h">Boatos desmentidos</h2>
