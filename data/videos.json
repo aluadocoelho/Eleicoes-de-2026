@@ -1,5 +1,38 @@
 [
  {
+  "id": "20261027-boatos",
+  "titulo": "Boatos desmentidos (27/10)",
+  "curto": "Boatos",
+  "data": "2026-10-27",
+  "origem": "instagram/publicados/20261027-boatos-reels",
+  "video": "videos/20261027-boatos.mp4",
+  "capa": "videos/20261027-boatos.jpg",
+  "bolinha": "videos/20261027-boatos-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfAm4N7jTVd/"
+ },
+ {
+  "id": "20261026-flavio-passaportes",
+  "titulo": "Flávio diz ter sido intimado a entregar os passaportes (26/10)",
+  "curto": "Passaportes",
+  "data": "2026-10-26",
+  "origem": "instagram/publicados/20261026-flavio-passaportes-reels",
+  "video": "videos/20261026-flavio-passaportes.mp4",
+  "capa": "videos/20261026-flavio-passaportes.jpg",
+  "bolinha": "videos/20261026-flavio-passaportes-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfAmkDZGjkP/"
+ },
+ {
+  "id": "20261025-boatos-noite",
+  "titulo": "Boatos desmentidos (25/10, noite)",
+  "curto": "Boatos",
+  "data": "2026-10-25",
+  "origem": "instagram/publicados/20261025-boatos-noite-reels",
+  "video": "videos/20261025-boatos-noite.mp4",
+  "capa": "videos/20261025-boatos-noite.jpg",
+  "bolinha": "videos/20261025-boatos-noite-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfAmat7iMSG/"
+ },
+ {
   "id": "20261025-boatos-tarde",
   "titulo": "Boatos desmentidos (25/10)",
   "curto": "Boatos",
@@ -97,38 +130,5 @@
   "capa": "videos/20261024-pesquisa-datafolha-vespera.jpg",
   "bolinha": "videos/20261024-pesquisa-datafolha-vespera-b.jpg",
   "instagram": "https://www.instagram.com/reel/De5Ro5GjsRH/"
- },
- {
-  "id": "20261024-boatos",
-  "titulo": "Boatos desmentidos (24/10)",
-  "curto": "Boatos",
-  "data": "2026-10-24",
-  "origem": "instagram/publicados/20261024-boatos-reels",
-  "video": "videos/20261024-boatos.mp4",
-  "capa": "videos/20261024-boatos.jpg",
-  "bolinha": "videos/20261024-boatos-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De5RVX8kqPO/"
- },
- {
-  "id": "20261024-pesquisa-cntmda",
-  "titulo": "Nova pesquisa CNT/MDA (24/10)",
-  "curto": "CNT/MDA",
-  "data": "2026-10-24",
-  "origem": "instagram/publicados/20261024-pesquisa-cntmda-reels",
-  "video": "videos/20261024-pesquisa-cntmda.mp4",
-  "capa": "videos/20261024-pesquisa-cntmda.jpg",
-  "bolinha": "videos/20261024-pesquisa-cntmda-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De4tozFjlww/"
- },
- {
-  "id": "20261023-pesquisas-do-dia",
-  "titulo": "Pesquisas do dia (23/10)",
-  "curto": "Pesquisas",
-  "data": "2026-10-23",
-  "origem": "instagram/publicados/20261023-pesquisas-do-dia-reels",
-  "video": "videos/20261023-pesquisas-do-dia.mp4",
-  "capa": "videos/20261023-pesquisas-do-dia.jpg",
-  "bolinha": "videos/20261023-pesquisas-do-dia-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De4gB-mE52s/"
  }
 ]
