@@ -944,5 +944,16 @@
   "depois": "Diário do Nordeste; só a pergunta sobre a licença-maternidade, o único voto contra entre 49 deputados estaduais",
   "motivo": "O link anterior era de site pequeno; o Diário do Nordeste traz a pergunta de Lula sobre a licença-maternidade, mas não registra o questionamento sobre a PEC da escala 6x1.",
   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/sem-responder-sobre-vorcaro-flavio-cobra-de-lula-explicacao-sobre-roberta-luchsinger-e-lulinha-1.3799524"
+ },
+ {
+  "id": "er87",
+  "data": "2026-10-27",
+  "conjunto": "campanha",
+  "registro_id": "e27",
+  "o_que_mudou": "Troca de fonte e correção da data e do formato do apoio de Tsipras",
+  "antes": "ICL Notícias; apoio em nota em 19/10 (a confirmar)",
+  "depois": "Greek Reporter; apoio em vídeo divulgado em 22/10, após elogios em 15/10",
+  "motivo": "O link anterior era de site de linha partidária declarada; o Greek Reporter confirma o apoio, mas o descreve como vídeo de 22/10, não como nota de 19/10.",
+  "url": "https://greekreporter.com/2026/10/23/tsipras-endorses-lula-brazil-election/"
  }
 ]
