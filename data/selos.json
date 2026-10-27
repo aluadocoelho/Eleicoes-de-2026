@@ -17065,6 +17065,20 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "B2A7-13CC",
+  "conjunto": "sinais",
+  "id": "s-brandwatch-2510",
+  "registro": {
+   "id": "s-brandwatch-2510",
+   "data": "2026-10-27",
+   "sinal": "Segundo Lilian Carvalho (FGV/EAESP, Brandwatch), do início de sábado (24) à tarde de segunda (26) houve cerca de 4 milhões de menções de 840 mil autores na base de apoio a Lula, com a hashtag #HojeEuVotoLula em 191 mil ocorrências. Em amostra de 5 mil posts, 37% expressavam alegria, 34% medo e 15% tristeza. O levantamento não mede a base de Flávio e não permite comparação.",
+   "fonte": "Lilian Carvalho (FGV/EAESP, Brandwatch), via Blog do Amarildo",
+   "url": "https://blogdoamarildo.com.br/redes-sociais-mobilizaram-eleitores-de-lula-ate-o-ultimo-momento-da-eleicao-veja-numeros/"
+  },
+  "primeira_vez": "2026-10-27T19:29:54Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "DC4A-D4E2",
   "conjunto": "sinais",
   "id": "s-datrix-final",
