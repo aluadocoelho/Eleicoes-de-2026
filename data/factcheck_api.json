@@ -25,7 +25,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Vídeo mostra presos comemorando reeleição de Lula neste domingo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-26",
@@ -50,7 +50,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -91,7 +91,7 @@
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Prorrogação do segundo turno teve apenas 35 mil votos e não ...",
+  "titulo": "Prorrogação do segundo turno teve cerca de 35 mil votos e não ...",
   "data_checagem": "2026-10-26",
   "url": "https://checamos.afp.com/doc.afp.com.D4HN663"
  },
@@ -625,7 +625,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -1202,11 +1202,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -1406,7 +1406,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -1861,13 +1861,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C8QD7T3",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisa Datafolha mostra que Lula lidera com 17 pontos percentuais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
@@ -1886,12 +1886,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
-  "quem_disse": "Lula",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -2029,13 +2029,13 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/helicoptero-globo-santinhos-lula-ato-flavio/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Helicóptero da Globo lança milhares de santinhos de Lula durante manifestação em São Paulo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-11",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso que helicóptero da Globo jogou santinhos de Lula sobre ato ...",
+  "titulo": "É falso que helicóptero da Globo jogou santinhos de Lula sobre ato de Flávio",
   "data_checagem": "2026-09-11",
   "url": "https://www.aosfatos.org/noticias/helicoptero-globo-santinhos-lula-ato-flavio/"
  },
