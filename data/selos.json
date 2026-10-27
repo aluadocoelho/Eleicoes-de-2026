@@ -16325,6 +16325,22 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "2F94-8D8A",
+  "conjunto": "redes",
+  "id": "meltwater-2526",
+  "registro": {
+   "id": "meltwater-2526",
+   "metrica": "Impressões potenciais das menções ao candidato",
+   "periodo": "25–26 out (votação e dia seguinte)",
+   "lula": 664000000000,
+   "flavio": 113000000000,
+   "fonte": "Meltwater, via Lupa (newsletter Ebulição)",
+   "url": "https://lupanewsletter.substack.com/p/a-euforia-progressista-e-o-luto-golpista"
+  },
+  "primeira_vez": "2026-10-27T17:55:39Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "7158-727A",
   "conjunto": "redes",
   "id": "meta-ads-2310",
