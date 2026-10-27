@@ -3536,6 +3536,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "A07A-2603",
+  "conjunto": "boatos",
+  "id": "b125",
+  "registro": {
+   "id": "b125",
+   "data": "2026-10-27",
+   "alvo": "Lula",
+   "boato": "Lula teria \"levado\" todos os votos dos derrotados e dos ausentes do 1º turno, o que provaria fraude",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "Lula ganhou 10,3 milhões de votos entre os turnos, mas o voto é secreto e não dá para saber para quem foram os votos de outros candidatos ou de quem se absteve; Flávio também ganhou 3,7 milhões.",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/27/aumento-de-votos-a-lula-nao-reflete-transferencia-automatica-de-votos-de-outros-candidatos/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa cita uma legenda no Facebook com dezenas de compartilhamentos, sem identificar o autor, e diz que Elon Musk usou a mesma comparação.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-10-27T23:30:24Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5212-328B",
   "conjunto": "boatos",
   "id": "b13",
