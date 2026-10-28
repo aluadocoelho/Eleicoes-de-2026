@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261028-flavio-eua",
+  "titulo": "Disse que ficaria. Saiu. O caminho de Flávio até Miami (28/10)",
+  "curto": "Flávio EUA",
+  "data": "2026-10-28",
+  "origem": "instagram/publicados/20261028-flavio-eua-reels",
+  "video": "videos/20261028-flavio-eua.mp4",
+  "capa": "videos/20261028-flavio-eua.jpg",
+  "bolinha": "videos/20261028-flavio-eua-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfCy4Hygk8G/"
+ },
+ {
   "id": "20261027-boatos-noite",
   "titulo": "Boatos desmentidos (27/10, noite)",
   "curto": "Boatos",
@@ -119,16 +130,5 @@
   "capa": "videos/20261025-boatos.jpg",
   "bolinha": "videos/20261025-boatos-b.jpg",
   "instagram": "https://www.instagram.com/reel/De6_ldykvcR/"
- },
- {
-  "id": "20261024-pesquisas-do-dia",
-  "titulo": "Pesquisas do dia (24/10)",
-  "curto": "Pesquisas",
-  "data": "2026-10-24",
-  "origem": "instagram/publicados/20261024-pesquisas-do-dia-reels",
-  "video": "videos/20261024-pesquisas-do-dia.mp4",
-  "capa": "videos/20261024-pesquisas-do-dia.jpg",
-  "bolinha": "videos/20261024-pesquisas-do-dia-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De5ZjtIF9Xm/"
  }
 ]
