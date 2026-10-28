@@ -310,5 +310,77 @@
   "url": "https://www.cnnbrasil.com.br/internacional/lula-reeleito-lideres-mundiais-reagem-a-4a-vitoria-eleitoral-do-presidente/",
   "fonte2": "Al Jazeera",
   "url2": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race"
+ },
+ {
+  "id": "m27",
+  "data": "2026-10-26",
+  "grupo": "Ásia, África e Oriente Médio",
+  "pais": "Japão",
+  "quem": "Sanae Takaichi, primeira-ministra",
+  "reacao": "Enviou carta de parabéns a Lula pela reeleição e disse querer trabalhar de perto para reforçar as relações entre Japão e Brasil.",
+  "fonte": "Ministério das Relações Exteriores do Japão",
+  "url": "https://www.mofa.go.jp/region/latin/brazil/pageite_000001_00002.html",
+  "fonte2": null,
+  "url2": null
+ },
+ {
+  "id": "m28",
+  "data": "2026-10-26",
+  "grupo": "Ásia, África e Oriente Médio",
+  "pais": "Austrália",
+  "quem": "Anthony Albanese, primeiro-ministro",
+  "reacao": "Parabenizou Lula, chamou Austrália e Brasil de grandes democracias e disse que os países seguirão trabalhando juntos.",
+  "fonte": "Congresso em Foco",
+  "url": "https://www.congressoemfoco.com.br/noticia/128542/lideres-mundiais-parabenizam-lula-pela-reeleicao-e-reforcam-parceria",
+  "fonte2": null,
+  "url2": null
+ },
+ {
+  "id": "m29",
+  "data": "2026-10-27",
+  "grupo": "Ásia, África e Oriente Médio",
+  "pais": "China",
+  "quem": "Xi Jinping, presidente",
+  "reacao": "Parabenizou Lula, disse que ele deu contribuições importantes às relações China-Brasil e que está pronto para levar os laços a novos patamares.",
+  "fonte": "Governo da China (english.www.gov.cn)",
+  "url": "https://english.www.gov.cn/news/202610/27/content_WS6ae0853cc6d00ca5f9a0df40.html",
+  "fonte2": "CGTN",
+  "url2": "https://news.cgtn.com/news/2026-10-27/Xi-congratulates-Lula-on-re-election-as-Brazilian-president-1RAkGMCkew8/p.html"
+ },
+ {
+  "id": "m30",
+  "data": "2026-10-27",
+  "grupo": "América Latina",
+  "pais": "Argentina",
+  "quem": "Adrián Ravier, porta-voz da Presidência",
+  "reacao": "Disse que o governo não enviará comunicado oficial de felicitações, que \"se tomó nota del resultado electoral\" e que há uma diferença ideológica entre Milei e Lula.",
+  "fonte": "Los Andes",
+  "url": "https://www.losandes.com.ar/politica/argentina-no-felicitara-oficialmente-lula-su-reeleccion-brasil-el-presidente-no-es-un-hipocrita-n6011910",
+  "fonte2": "La Política Online",
+  "url2": "https://www.lapoliticaonline.com/politica/muy-aturdido-milei-reconoce-a-disgusto-el-triunfo-de-lula-se-tomo-nota-del-resultado-638/"
+ },
+ {
+  "id": "m31",
+  "data": "2026-10-26",
+  "grupo": "Organizações internacionais",
+  "pais": "OEA",
+  "quem": "Albert Ramdin, secretário-geral",
+  "reacao": "Elogiou o aumento da participação no segundo turno e disse que a OEA seguirá trabalhando com o governo brasileiro.",
+  "fonte": "Agência Gov (EBC)",
+  "url": "https://agenciagov.ebc.com.br/noticias/202610/lideres-europeus-e-latino-americanos-parabenizam-lula-oea-destaca-aumento-da-participacao-no-segundo-turno",
+  "fonte2": null,
+  "url2": null
+ },
+ {
+  "id": "m32",
+  "data": "2026-10-26",
+  "grupo": "Organizações internacionais",
+  "pais": "ONU",
+  "quem": "Daniela Gross De Almeida, porta-voz do secretário-geral António Guterres",
+  "reacao": "Disse que Guterres saudou a condução pacífica e participativa da eleição e que a ONU está pronta para seguir trabalhando com o Brasil.",
+  "fonte": "Anadolu",
+  "url": "https://www.aa.com.tr/en/world/un-chief-welcomes-brazil-s-presidential-election-takes-note-of-serbia-vote/4101684",
+  "fonte2": null,
+  "url2": null
  }
 ]
