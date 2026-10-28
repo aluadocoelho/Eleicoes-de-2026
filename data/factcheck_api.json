@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-27",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Votos registrados após as 17h não mudam resultado das eleições",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
   "termo": "Lula",
   "afirmacao": "Lula acaba de cortar quase R$ 6 Bilhões da Saúde e Educação",
@@ -98,7 +110,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -1250,7 +1262,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1934,7 +1946,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -1945,7 +1957,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/diretor-quaest-flavio-bolsonaro/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Você crê na Quaest? BURRO! Este abaixo, ao lado de Tariflávio Bolsomaster, é Felipe Nunes, sócio da Quaest, que frequenta a Globo e GloboNews, sempre aproveitando pra desancar Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-17",
@@ -2023,7 +2035,7 @@
   "data_afirmacao": "2026-09-14",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Flávio não viajou para os EUA recentemente; vídeo é de maio",
+  "titulo": "Flávio não viajou para os EUA em setembro de 2026; vídeo é de maio",
   "data_checagem": "2026-09-14",
   "url": "https://www.aosfatos.org/noticias/flavio-nao-viajou-para-eua/"
  },
@@ -2755,7 +2767,7 @@
   "data_afirmacao": "2026-10-27",
   "checador": "Estadão",
   "selo": "Fora de contexto",
-  "titulo": "Vídeo que mostra Flávio Bolsonaro chorando foi gravado antes do ...",
+  "titulo": "Vídeo que mostra Flávio Bolsonaro chorando foi gravado antes do resultado das eleições",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-flavio-bolsonaro-chorando-fora-de-contexto/"
  },
@@ -3157,7 +3169,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/locais-votacao-alterados-impactam-secoes-em-que-lula-e-flavio-venceram/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Seções foram alteradas pelo TSE para interferir no resultado eleitoral",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-21",
@@ -3229,13 +3241,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/foto-ato-lula-avenida-paulista-editada-com-ia-falso/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "PT e a esquerda manipularam com IA foto de ato pró-Bolsonaro para dizer que a Avenida Paulista estava lotada em ato para Lula",
   "quem_disse": "Boato nas redes sociais",
   "data_afirmacao": "2026-10-13",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Foto de ato de Lula na Paulista não foi editada a partir de imagem ...",
+  "titulo": "Foto de ato de Lula na Paulista não foi editada a partir de imagem de manifestação bolsonarista",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/foto-ato-lula-avenida-paulista-editada-com-ia-falso/"
  },
@@ -4438,6 +4450,18 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/27/video-de-calculo-de-votos-ignora-aumento-de-eleitores-no-segundo-turno.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Números não justificam vitória de Lula sobre Flávio",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vídeo ignora votos brancos e nulos em conta para alegar fraude no 2º turno",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/27/video-de-calculo-de-votos-ignora-aumento-de-eleitores-no-segundo-turno.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.ghtm",
