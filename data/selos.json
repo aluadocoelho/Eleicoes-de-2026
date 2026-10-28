@@ -3557,6 +3557,90 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "BCE8-3EDD",
+  "conjunto": "boatos",
+  "id": "b126",
+  "registro": {
+   "id": "b126",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "Governo Lula teria cortado mais de 1 milhão de beneficiários do Bolsa Família depois da reeleição",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "Os vídeos são de 2023: o bloqueio de cerca de 1,2 milhão de pagamentos ocorreu em abril daquele ano, na correção de cadastros, e a Secom negou cortes agora.",
+   "url": "https://www.aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Bolsa Família"
+  },
+  "primeira_vez": "2026-10-28T22:31:32Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "05E8-C89B",
+  "conjunto": "boatos",
+  "id": "b127",
+  "registro": {
+   "id": "b127",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "Governo Lula teria bloqueado os recursos do Gás do Povo e não pagaria o benefício em dezembro",
+   "veredito": "Enganoso (sem selo explícito)",
+   "agencia": "Aos Fatos",
+   "explicacao": "O Ministério do Desenvolvimento Social e a Caixa negaram a suspensão; as próximas liberações estão previstas para 10 de novembro e 10 de dezembro, e há orçamento para 2026.",
+   "url": "https://www.aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Gás do Povo"
+  },
+  "primeira_vez": "2026-10-28T22:31:32Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "99D1-17C0",
+  "conjunto": "boatos",
+  "id": "b128",
+  "registro": {
+   "id": "b128",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "Governo teria prometido R$ 5.000 aos MEIs, mas só pagaria R$ 363 a cada um no Pix MEI",
+   "veredito": "Falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "A conta divide R$ 5 bilhões por 13,78 milhões de MEIs e ignora os critérios do programa, que deve atender de início 1 milhão de MEIs, com prioridade para mulheres.",
+   "url": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Pix MEI"
+  },
+  "primeira_vez": "2026-10-28T22:31:32Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "ACE7-1729",
+  "conjunto": "boatos",
+  "id": "b129",
+  "registro": {
+   "id": "b129",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "Soma de votos de três seções de Teixeira de Freitas (BA) provaria fraude a favor de Lula",
+   "veredito": "Sem selo (não comprova fraude)",
+   "agencia": "Aos Fatos",
+   "explicacao": "A comparação soma só 3 das 342 seções da cidade; somando todas, os números batem com os divulgados pelo TSE, que também classificou a comparação como enganosa.",
+   "url": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O Aos Fatos cita um homem que disse ter sido fiscal na cidade, em vídeo nas redes, sem identificá-lo.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-10-28T22:31:32Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "5212-328B",
   "conjunto": "boatos",
   "id": "b13",
