@@ -103,5 +103,20 @@
   "url": "https://www.metropoles.com/mundo/apos-fuga-alfandega-dos-eua-registra-entrada-de-flavio-bolsonaro-e-familia",
   "fonte2": "O Liberal",
   "url2": "https://www.oliberal.com/politica/aviao-em-que-estaria-flavio-bolsonaro-chega-aos-eua-apos-sair-do-equador-1.1187774"
+ },
+ {
+  "id": "p08",
+  "inicio": "2026-10-28T18:30:00-03:00",
+  "expira": "2026-10-30T18:30:00-03:00",
+  "chamada": "Nos EUA, Flávio divulga carta, se diz presidente eleito e fala em fraude; checamos 7 afirmações",
+  "titulo": "Flávio divulga carta e se diz presidente eleito",
+  "resumo": "Depois de chegar aos EUA, Flávio Bolsonaro (PL) divulgou uma carta de 3 páginas em que se diz \"o verdadeiro presidente eleito do Brasil\" (uma versão que circula diz \"o líder do Brasil\") e fala em fraude. Checamos: o TSE proclamou Lula com 51,79% dos votos válidos, só 34 mil votos entraram depois das 17h e Lula avançou em 97% das cidades, o que não sustenta a tese de fraude. Procede em parte a crítica à prorrogação até 19h, decidida depois do horário e válida só onde a urna seguia aberta, mas a campanha de Flávio também pediu mais tempo. Também procede em parte o que ele diz sobre Moraes: a PF pediu os passaportes 7 minutos após o resultado, mas o inquérito sobre lavagem já era público desde 18/10. É verdade que não há mandado de prisão; é falso que ele não fugiu, já que estava proibido pelo STF de sair do país.",
+  "lula": "As reportagens consultadas não trazem manifestação dele sobre a carta até 18h30.",
+  "flavio": "Na carta, diz que deixou o Brasil para liderar a oposição de fora, que houve fraude e que Moraes o persegue.",
+  "aba": "campanha",
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/mundo/em-carta-flavio-se-declara-verdadeiro-presidente-eleito-do-brasil",
+  "fonte2": "CNN Brasil",
+  "url2": "https://www.cnnbrasil.com.br/eleicoes/lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e-virou-em-213/"
  }
 ]
