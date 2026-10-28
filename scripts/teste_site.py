@@ -81,7 +81,10 @@ def frescor():
         ult = dt.datetime.fromisoformat(st[0]['ultima_atualizacao'].replace('Z', '+00:00'))
         agora = dt.datetime.now(dt.timezone.utc); h_brt = (agora - dt.timedelta(hours=3)).hour
         idade = (agora - ult).total_seconds() / 3600
-        if 8 <= h_brt <= 23 and idade > 4: falha(f'os dados não são atualizados há {idade:.1f} horas (última: {st[0]["ultima_atualizacao"]})')
+        # depois da eleição (a partir de 28/10/2026) as atualizações automáticas pararam: vira só um aviso
+        if agora >= dt.datetime(2026, 10, 28, 3, tzinfo=dt.timezone.utc):
+            if idade > 48: aviso(f'os dados não são atualizados há {idade:.0f} horas (última: {st[0]["ultima_atualizacao"]})')
+        elif 8 <= h_brt <= 23 and idade > 4: falha(f'os dados não são atualizados há {idade:.1f} horas (última: {st[0]["ultima_atualizacao"]})')
     except Exception as e:
         aviso(f'não consegui ler data/status.json: {e}')
 

@@ -3,8 +3,11 @@ name: Instagram · publicar peças agendadas
 # Peças aprovadas pelo dono com dia e hora marcados ficam em instagram/agendado/<AAAAMMDDHHMM>__<id>/
 # (hora de Brasília). A cada 10 minutos, as que já passaram da hora vão para instagram/fila/ e são publicadas.
 on:
+  # O agendamento do GitHub atrasa ou pula execuções de 10 em 10 minutos; uma tarefa agendada da Clareia
+  # dispara esta ação nos horários certos (9h, 15h e 18h). Estes horários ficam como reserva.
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "4,24,44 * * * *"
+    - cron: "7 12,18,21 * * *"
   workflow_dispatch: {}
 
 permissions:
