@@ -1,0 +1,37 @@
+{
+ "tipo": "carrossel",
+ "titulo": "Checagem: a carta de Flávio, afirmação por afirmação (28/10)",
+ "curto": "Carta de Flávio",
+ "site": false,
+ "arquivos": [
+  "1-carta.jpg",
+  "2-carta.jpg",
+  "3-carta.jpg",
+  "4-carta.jpg",
+  "5-carta.jpg",
+  "6-carta.jpg",
+  "7-carta.jpg",
+  "8-carta.jpg",
+  "9-carta.jpg"
+ ],
+ "legenda": "Checamos a carta de @flaviobolsonaro. Divulgada depois que ele chegou aos EUA, ela circula em duas versões: numa, ele se diz \"o verdadeiro presidente eleito do Brasil\"; noutra, \"o líder do Brasil\". Separamos 7 afirmações:\n\n❌ FALSO: que é presidente eleito. O @tsejus proclamou Lula com 51,79% dos votos válidos.\n❌ FALSO: que houve fraude. Lula ganhou 10,4 milhões de votos entre os turnos, mas só 34 mil votos entraram depois das 17h, e ele avançou em 97% das cidades.\n❌ FALSO: que não fugiu. Estava proibido pelo STF de sair do país e não entregou os passaportes.\n◐ EM PARTE: a prorrogação até 19h saiu depois do horário e só valeu onde a urna seguia aberta. A carta omite que a campanha dele também pediu mais tempo.\n◐ EM PARTE: a PF pediu os passaportes 7 minutos após o resultado, mas o inquérito sobre lavagem já era público desde 18/10.\n◐ EM PARTE: o contrato de R$ 131 milhões entre o escritório da esposa de Moraes e o Banco Master foi noticiado, mas não há investigação formal conhecida contra Moraes.\n✅ VERDADEIRO: não há mandado de prisão contra ele até agora.\n\n(via Metrópoles, @cnnbrasil, @sbtnews, Bloomberg Línea e Times Brasil)\n\nCada fonte, com link, no site. Link na bio.\n\nClareia Eleições, antes Verita Eleições.\n\n#FlavioBolsonaro #Checagem #FakeNews #Eleicoes2026 #STF",
+ "alt": [
+  "Checamos a carta de Flávio. Ilustração de três folhas de papel. Ele se diz presidente eleito.",
+  "Afirmação 1: ele se diz o verdadeiro presidente eleito do Brasil. Selo FALSO. Resultado oficial: Lula 51,79%, Flávio 48,21%.",
+  "Afirmação 2: diz que houve fraude eleitoral e que Lula ganhou mais de 10 milhões de votos. Selo FALSO. Lula ganhou 10.376.694 votos entre os turnos; só 34.300 votos entraram depois das 17h.",
+  "Afirmação 3: diz que o STF passou por cima do TSE e que eleitores votaram sob regras diferentes. Selo EM PARTE. A votação foi estendida das 17h para as 19h só onde a urna não tinha fechado; a campanha de Flávio também pediu mais tempo.",
+  "Afirmação 4: diz que Moraes agiu sete minutos depois da eleição. Selo EM PARTE. Linha do tempo: 18/10, inquérito de lavagem vem a público; 25/10, TSE confirma o resultado; 7 minutos depois, PF pede os passaportes.",
+  "Afirmação 5: chama Moraes de juiz implicado em escândalo de corrupção. Selo EM PARTE. Contrato de R$ 131 milhões com o Banco Master foi reportado; não há investigação formal contra Moraes conhecida.",
+  "Afirmação 6: diz que não fugiu. Selo FALSO. Rota Foz, Argentina, Equador, Miami. Estava proibido pelo STF de sair do país.",
+  "Afirmação 7: diz que não existe mandado de prisão. Selo VERDADEIRO. Mas a ordem do STF não foi cumprida.",
+  "O placar da carta: 3 falso, 3 em parte, 1 verdadeiro. As críticas ao horário estendido têm base, mas não provam fraude, e a carta omite que ele descumpriu uma ordem judicial."
+ ],
+ "fontes": [
+  "https://www.metropoles.com/mundo/em-carta-flavio-se-declara-verdadeiro-presidente-eleito-do-brasil",
+  "https://www.cnnbrasil.com.br/eleicoes/lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e-virou-em-213/",
+  "https://sbtnews.sbt.com.br/noticia/eleicoes/zanin-diz-que-extensao-so-vale-onde-urnas-nao-foram-fechadas",
+  "https://www.bloomberglinea.com.br/brasil/argentina-confirma-passagem-de-flavio-bolsonaro-pelo-pais-durante-fuga-rumo-aos-eua/",
+  "https://timesbrasil.com.br/brasil/policia-federal-pediu-apreensao-de-passaporte-de-flavio-bolsonaro-7-minutos-apos-definicao-do-resultado-do-2o-turno/",
+  "https://www.diariodepernambuco.com.br/politica/2026/10/11726955-flavio-e-investigado-em-2-inquerito-no-stf-para-apurar-suspeitas-de-lavagem-com-advogado.html"
+ ]
+}
