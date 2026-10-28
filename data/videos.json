@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261028-campanha-2-4-sinais",
+  "titulo": "Campanha contra fake news 2/7: 4 sinais de que pode ser boato",
+  "curto": "4 sinais",
+  "data": "2026-10-28",
+  "origem": "instagram/publicados/20261028-campanha-2-4-sinais-reels",
+  "video": "videos/20261028-campanha-2-4-sinais.mp4",
+  "capa": "videos/20261028-campanha-2-4-sinais.jpg",
+  "bolinha": "videos/20261028-campanha-2-4-sinais-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfDCtXkFGWu/"
+ },
+ {
   "id": "20261028-flavio-eua",
   "titulo": "Disse que ficaria. Saiu. O caminho de Flávio até Miami (28/10)",
   "curto": "Flávio EUA",
@@ -119,16 +130,5 @@
   "capa": "videos/20261025-pesquisa-poderdata.jpg",
   "bolinha": "videos/20261025-pesquisa-poderdata-b.jpg",
   "instagram": "https://www.instagram.com/reel/De6_6CyCfTS/"
- },
- {
-  "id": "20261025-boatos",
-  "titulo": "Boatos desmentidos (25/10)",
-  "curto": "Boatos",
-  "data": "2026-10-25",
-  "origem": "instagram/publicados/20261025-boatos-reels",
-  "video": "videos/20261025-boatos.mp4",
-  "capa": "videos/20261025-boatos.jpg",
-  "bolinha": "videos/20261025-boatos-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De6_ldykvcR/"
  }
 ]
