@@ -120,7 +120,7 @@ SCHEMAS = {
     "plantao": {
         "key": "id",
         "fields": ["id", "inicio", "expira", "chamada", "titulo", "resumo", "lula", "flavio", "aba", "fonte", "url", "fonte2", "url2"],
-        "enums": {"aba": [None, "inicio", "aovivo", "pesquisas", "redes", "campanha", "checagem", "verificar"]},
+        "enums": {"aba": [None, "inicio", "resultados", "aovivo", "pesquisas", "redes", "campanha", "checagem", "verificar"]},
         "required": ["id", "inicio", "expira", "chamada", "titulo", "resumo", "fonte", "url"],
     },
     "mundo": {
