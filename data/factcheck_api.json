@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://observador.pt/factchecks/fact-check-kylian-mbappe-fez-apelo-ao-voto-em-lula-da-silva/",
+  "termo": "Lula",
+  "afirmacao": "KYLIAN MBAPPÉ PEDE VOTO PARA O PRESIDENTE LULA!",
+  "quem_disse": "Utilizador de Instagram",
+  "data_afirmacao": "2026-10-15",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Fact Check. Kylian Mbappé fez apelo ao voto em Lula da Silva?",
+  "data_checagem": "2026-10-28",
+  "url": "https://observador.pt/factchecks/fact-check-kylian-mbappe-fez-apelo-ao-voto-em-lula-da-silva/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
@@ -1262,7 +1274,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -1946,7 +1958,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -1957,7 +1969,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/diretor-quaest-flavio-bolsonaro/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Você crê na Quaest? BURRO! Este abaixo, ao lado de Tariflávio Bolsomaster, é Felipe Nunes, sócio da Quaest, que frequenta a Globo e GloboNews, sempre aproveitando pra desancar Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-17",
@@ -3442,6 +3454,18 @@
   "titulo": "É falso que André Mendonça tenha alterado locais de votação na Maré para prejudicar Lula",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/e-falso-que-andre-mendonca-tenha-alterado-locais-de-votacao-na-mare-para-prejudicar-lula/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/denuncia-blitiz-rio-de-janeiro-eleitores-lula/",
+  "termo": "Lula",
+  "afirmacao": "Blitz no Rio de Janeiro estão barrando eleitores do PT de irem votar.",
+  "quem_disse": "Moments of Brazilian Politics  @MomentsOfBrPol",
+  "data_afirmacao": "2026-10-28",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Denúncia sobre blitz para barrar eleitores de Lula no Rio de Janeiro ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/denuncia-blitiz-rio-de-janeiro-eleitores-lula/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/daniela-lima-disse-que-lula-avalia-desistir-de-candidatura/",
