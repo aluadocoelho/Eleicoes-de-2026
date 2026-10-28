@@ -123,6 +123,13 @@ SCHEMAS = {
         "enums": {"aba": [None, "inicio", "aovivo", "pesquisas", "redes", "campanha", "checagem", "verificar"]},
         "required": ["id", "inicio", "expira", "chamada", "titulo", "resumo", "fonte", "url"],
     },
+    "mundo": {
+        "key": "id",
+        "fields": ["id", "data", "grupo", "pais", "quem", "reacao", "fonte", "url", "fonte2", "url2"],
+        "dates": ["data"],
+        "enums": {"grupo": ["América Latina", "América do Norte", "Europa", "Ásia, África e Oriente Médio", "Organizações internacionais"]},
+        "required": ["id", "data", "grupo", "pais", "quem", "reacao", "fonte", "url"],
+    },
     "status": {
         "key": "id",
         "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],
