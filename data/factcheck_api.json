@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
+  "termo": "Lula",
+  "afirmacao": "Lula acaba de cortar quase R$ 6 Bilhões da Saúde e Educação",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-27",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Notícia sobre bloqueio de R$ 6 bilhões na Saúde e Educação é de ...",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
   "termo": "Lula",
   "afirmacao": "Passada a eleição, governo Lula recua e vai manter escala 6x1 para vários setores",
@@ -1238,7 +1250,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3217,13 +3229,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/foto-ato-lula-avenida-paulista-editada-com-ia-falso/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "PT e a esquerda manipularam com IA foto de ato pró-Bolsonaro para dizer que a Avenida Paulista estava lotada em ato para Lula",
   "quem_disse": "Boato nas redes sociais",
   "data_afirmacao": "2026-10-13",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Foto de ato de Lula na Paulista não foi editada a partir de imagem de manifestação bolsonarista",
+  "titulo": "Foto de ato de Lula na Paulista não foi editada a partir de imagem ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/foto-ato-lula-avenida-paulista-editada-com-ia-falso/"
  },
