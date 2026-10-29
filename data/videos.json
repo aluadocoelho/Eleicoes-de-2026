@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261028-carta-flavio",
+  "titulo": "Checagem: a carta de Flávio, afirmação por afirmação (28/10)",
+  "curto": "Carta de Flávio",
+  "data": "2026-10-28",
+  "origem": "instagram/publicados/20261028-carta-flavio-reels",
+  "video": "videos/20261028-carta-flavio.mp4",
+  "capa": "videos/20261028-carta-flavio.jpg",
+  "bolinha": "videos/20261028-carta-flavio-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfDrJbrkiM1/"
+ },
+ {
   "id": "20261028-campanha-2-4-sinais",
   "titulo": "Campanha contra fake news 2/7: 4 sinais de que pode ser boato",
   "curto": "4 sinais",
@@ -119,16 +130,5 @@
   "capa": "videos/20261025-votacao-prorrogada.jpg",
   "bolinha": "videos/20261025-votacao-prorrogada-b.jpg",
   "instagram": "https://www.instagram.com/reel/De7n4AYDNTY/"
- },
- {
-  "id": "20261025-pesquisa-poderdata",
-  "titulo": "Nova pesquisa PoderData/Aya (25/10)",
-  "curto": "PoderData",
-  "data": "2026-10-25",
-  "origem": "instagram/publicados/20261025-pesquisa-poderdata-reels",
-  "video": "videos/20261025-pesquisa-poderdata.mp4",
-  "capa": "videos/20261025-pesquisa-poderdata.jpg",
-  "bolinha": "videos/20261025-pesquisa-poderdata-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De6_6CyCfTS/"
  }
 ]
