@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261029-campanha-3-numeros",
+  "titulo": "Campanha contra fake news 3/7: Os boatos da eleição em números",
+  "curto": "Números",
+  "data": "2026-10-29",
+  "origem": "instagram/publicados/20261029-campanha-3-numeros-reels",
+  "video": "videos/20261029-campanha-3-numeros.mp4",
+  "capa": "videos/20261029-campanha-3-numeros.jpg",
+  "bolinha": "videos/20261029-campanha-3-numeros-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfFnSc6DZUI/"
+ },
+ {
   "id": "20261028-carta-flavio",
   "titulo": "Checagem: a carta de Flávio, afirmação por afirmação (28/10)",
   "curto": "Carta de Flávio",
@@ -119,16 +130,5 @@
   "capa": "videos/20261026-sinais-alarmismo.jpg",
   "bolinha": "videos/20261026-sinais-alarmismo-b.jpg",
   "instagram": "https://www.instagram.com/reel/De-DJpfEYUY/"
- },
- {
-  "id": "20261025-votacao-prorrogada",
-  "titulo": "Votação prorrogada até as 19h (25/10)",
-  "curto": "Prorrogação",
-  "data": "2026-10-25",
-  "origem": "instagram/publicados/20261025-votacao-prorrogada-reels",
-  "video": "videos/20261025-votacao-prorrogada.mp4",
-  "capa": "videos/20261025-votacao-prorrogada.jpg",
-  "bolinha": "videos/20261025-votacao-prorrogada-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De7n4AYDNTY/"
  }
 ]
