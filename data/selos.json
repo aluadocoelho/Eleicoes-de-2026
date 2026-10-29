@@ -3683,6 +3683,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "156C-D0EE",
+  "conjunto": "boatos",
+  "id": "b131",
+  "registro": {
+   "id": "b131",
+   "data": "2026-10-27",
+   "alvo": "Lula",
+   "boato": "Lula teria acabado de cortar quase R$ 6 bilhões da Saúde e da Educação",
+   "veredito": "Enganoso (sem selo explícito)",
+   "agencia": "Aos Fatos",
+   "explicacao": "As publicações reaproveitam uma reportagem de julho de 2024 sobre a contenção de R$ 15 bilhões em gastos, em que Saúde e Educação somavam cerca de R$ 5,7 bilhões; era uma restrição temporária, não um corte novo.",
+   "url": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Saúde e Educação"
+  },
+  "primeira_vez": "2026-10-29T22:31:04Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B6B5-EB8F",
+  "conjunto": "boatos",
+  "id": "b132",
+  "registro": {
+   "id": "b132",
+   "data": "2026-10-29",
+   "alvo": "Lula",
+   "boato": "Relatório diria que Flávio venceria se a votação terminasse às 17h e que os dados do TSE mostram fraude",
+   "veredito": "Falso ou enganoso (sem selo explícito)",
+   "agencia": "Aos Fatos",
+   "explicacao": "Só 34.393 votos foram registrados após as 17h e o voto é secreto; Lula venceu por 4,4 milhões de votos. Os logs das urnas foram liberados durante a totalização, e as duas campanhas pediram a prorrogação.",
+   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O Aos Fatos cita um perfil no X criado em outubro, que se diz ligado ao Anonymous sem provas, e diz que o texto circulou entre bolsonaristas.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-10-29T22:31:04Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4DAB-1C2E",
   "conjunto": "boatos",
   "id": "b14",
