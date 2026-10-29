@@ -24,6 +24,18 @@
   "url": "https://observador.pt/factchecks/fact-check-mulher-foi-gravada-a-cheirar-po-durante-manifestacao-pro-lula-da-silva/"
  },
  {
+  "id": "https://observador.pt/factchecks/fact-check-claques-dos-dois-maiores-clubes-brasileiros-protestam-contra-lula-e-pt-apos-proibicao-de-apostas/",
+  "termo": "Lula",
+  "afirmacao": "Flamengo e Corinthians contra lula? Reação às bets ganha 'tom eleitoral' nas redes\nA ofensiva de Lula contra as bets provocou reação no futebol brasileiro. Flamengo, Corinthians e outros grandes clubes participaram de manifestações contra a proibição, alegando risco de perdas milionárias (...).",
+  "quem_disse": "Página de Facebook",
+  "data_afirmacao": "2026-09-28",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Claques protestam contra Lula da Silva, que proibiu bets?",
+  "data_checagem": "2026-10-29",
+  "url": "https://observador.pt/factchecks/fact-check-claques-dos-dois-maiores-clubes-brasileiros-protestam-contra-lula-e-pt-apos-proibicao-de-apostas/"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-apoiante-de-bolsonaro-destruiu-igreja-catolica/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Só destruição, as imagens falam por si só, bolsonaristas estão destruindo igrejas católicas Brasil afora.",
@@ -34,6 +46,54 @@
   "titulo": "Fact Check. Apoiante de Bolsonaro destruiu igreja católica?",
   "data_checagem": "2026-10-29",
   "url": "https://observador.pt/factchecks/fact-check-apoiante-de-bolsonaro-destruiu-igreja-catolica/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/video-de-flavio-bolsonaro-chorando-foi-gravado-antes-de-derrota-na-eleicao.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro chorou após perder a eleição para Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de Flávio Bolsonaro chorando foi gravado antes de derrota ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/video-de-flavio-bolsonaro-chorando-foi-gravado-antes-de-derrota-na-eleicao.amp.htm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Auxílio-reclusão: Lula vetou benefício a membro de facção em ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula anuncia cortes de R$ 6 bilhões na Saúde e Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula ganhou 2 milhões de votos na Bahia após as 17h",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Lula obteve 1.600 votos na Bahia após as 17h, e não 2 milhões",
+  "data_checagem": "2026-10-28",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
@@ -1466,11 +1526,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2150,7 +2210,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
