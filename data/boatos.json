@@ -1804,5 +1804,19 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "O Aos Fatos cita um homem que disse ter sido fiscal na cidade, em vídeo nas redes, sem identificá-lo.",
   "tema": "Resultado da votação"
+ },
+ {
+  "id": "b130",
+  "data": "2026-10-28",
+  "alvo": "Lula",
+  "boato": "165.699 votos de Lula no 2º turno teriam origem não identificada, o que indicaria irregularidade",
+  "veredito": "Não procede",
+  "agencia": "Aos Fatos",
+  "explicacao": "As páginas de resultado do TSE foram atualizadas em momentos diferentes e as somas não batiam por falta de sincronização, não por votos sem origem. A atualização foi suspensa por volta das 17h57 de 25/10, com votação ainda em andamento.",
+  "url": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos cita um vídeo de um homem não identificado e não aponta quem criou ou espalhou o boato.",
+  "tema": "Resultado da votação"
  }
 ]
