@@ -3662,6 +3662,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "47A1-EA0F",
+  "conjunto": "boatos",
+  "id": "b130",
+  "registro": {
+   "id": "b130",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "165.699 votos de Lula no 2º turno teriam origem não identificada, o que indicaria irregularidade",
+   "veredito": "Não procede",
+   "agencia": "Aos Fatos",
+   "explicacao": "As páginas de resultado do TSE foram atualizadas em momentos diferentes e as somas não batiam por falta de sincronização, não por votos sem origem. A atualização foi suspensa por volta das 17h57 de 25/10, com votação ainda em andamento.",
+   "url": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O Aos Fatos cita um vídeo de um homem não identificado e não aponta quem criou ou espalhou o boato.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "4DAB-1C2E",
   "conjunto": "boatos",
   "id": "b14",
@@ -8541,6 +8562,186 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "6C2F-726E",
+  "conjunto": "checagens",
+  "id": "f161",
+  "registro": {
+   "id": "f161",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que viu uma fraude eleitoral se concretizar na noite do 2º turno.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "Não há provas de fraude. O PL reconheceu o resultado, e o TSE, o teste de integridade (389 votos auditados sem divergência) e observadores não apontaram irregularidades.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BE8B-6270",
+  "conjunto": "checagens",
+  "id": "f162",
+  "registro": {
+   "id": "f162",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que houve uma impossibilidade matemática, com Lula ganhando mais de 10 milhões de votos entre os turnos após a prorrogação da votação.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O aumento de 10,3 milhões é compatível com a queda de abstenções, brancos e nulos. Após as 17h foram 34.393 votos (0,027%), insuficientes para mudar a vantagem de 4,43 milhões.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "88AC-0A32",
+  "conjunto": "checagens",
+  "id": "f163",
+  "registro": {
+   "id": "f163",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que a decisão do STF estendeu a votação no apagar das luzes e a ordem chegou após o horário legal.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "A decisão foi tomada três minutos antes do fim, mas divulgada às 17h02. O PT pediu a prorrogação, a campanha de Flávio também pediu, e valeu só para seções ainda abertas.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "7708-3E2E",
+  "conjunto": "checagens",
+  "id": "f164",
+  "registro": {
+   "id": "f164",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que o pedido de passaporte foi perseguição planejada, com Moraes implicado em escândalo e investigado no inquérito.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O pedido veio de inquérito sobre lavagem de dinheiro e evasão de divisas envolvendo Flávio e um advogado. Moraes não é formalmente investigado nesse caso.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "D983-160D",
+  "conjunto": "checagens",
+  "id": "f165",
+  "registro": {
+   "id": "f165",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que não era sua intenção deixar o país.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Reportagem de O Globo indica que a saída estava planejada semanas antes do 2º turno, e Eduardo Bolsonaro já havia defendido que Flávio deixasse o país em caso de derrota.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "430F-7A0D",
+  "conjunto": "checagens",
+  "id": "f166",
+  "registro": {
+   "id": "f166",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que o pai está calado, preso e censurado.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Jair Bolsonaro cumpre prisão domiciliar humanitária após condenação a 27 anos e 3 meses, recebe visitas autorizadas, e a proibição de redes sociais se aplica a ele.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Proposta ou outro tema"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A398-B046",
+  "conjunto": "checagens",
+  "id": "f167",
+  "registro": {
+   "id": "f167",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que há um regime de exceção no Brasil, com uma Suprema Corte aparelhada pela organização criminosa petista.",
+   "veredito": "Falso",
+   "categoria": "Falso",
+   "explicacao": "O Brasil é um Estado Democrático de Direito, sem suspensão de direitos, e os ministros do STF foram indicados por diferentes presidentes e aprovados pelo Senado.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "905C-3793",
+  "conjunto": "checagens",
+  "id": "f168",
+  "registro": {
+   "id": "f168",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que não existe mandado de prisão contra ele porque não cometeu nenhum crime.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Não há mandado de prisão, mas Flávio é investigado em três inquéritos no STF e Moraes impôs medidas cautelares, como a apreensão do passaporte.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "0626-5C0B",
+  "conjunto": "checagens",
+  "id": "f169",
+  "registro": {
+   "id": "f169",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que Rui Barbosa foi para o exílio por enfrentar o arbítrio de Floriano Peixoto, comparando ao próprio caso.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "O exílio de Rui Barbosa em 1893 decorreu da oposição a um governo considerado inconstitucional, situação diferente da de Flávio.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "AF56-AEE0",
   "conjunto": "checagens",
   "id": "f17",
@@ -8558,6 +8759,46 @@
    "direcao": "Defesa de si ou do próprio governo"
   },
   "primeira_vez": "2026-10-18T22:56:56Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B1CF-03A4",
+  "conjunto": "checagens",
+  "id": "f170",
+  "registro": {
+   "id": "f170",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que Charles de Gaulle liderou a França Livre de Londres, condenado à morte por Vichy, comparando ao próprio caso.",
+   "veredito": "Falta contexto",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "De Gaulle deixou a França em 1940, na ocupação nazista. Flávio saiu do país após a derrota eleitoral e enquanto responde a investigações criminais.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Defesa de si ou do próprio governo"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "4192-9298",
+  "conjunto": "checagens",
+  "id": "f171",
+  "registro": {
+   "id": "f171",
+   "data": "2026-10-28",
+   "candidato": "Flávio",
+   "agencia": "Lupa",
+   "evento": "Carta divulgada após a derrota",
+   "afirmacao": "Disse que saiu do país para impedir que Lula consolide um regime ditatorial.",
+   "veredito": "Insustentável",
+   "categoria": "Impreciso ou sem contexto",
+   "explicacao": "Não há indício de ditadura. Lula foi eleito pela maioria dos votos válidos, o resultado foi reconhecido pelos três Poderes, e a oposição terá maioria no Congresso.",
+   "url": "https://www.agencialupa.org/checagem/2026/10/28/apos-fuga-do-brasil-flavio-bolsonaro-mente-sobre-eleicoes-em-carta-com-teor-golpista/",
+   "direcao": "Ataque ao adversário"
+  },
+  "primeira_vez": "2026-10-29T11:34:24Z",
   "ainda_publicado": true
  },
  {
