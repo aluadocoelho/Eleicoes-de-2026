@@ -1846,5 +1846,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "O Aos Fatos cita um perfil no X criado em outubro, que se diz ligado ao Anonymous sem provas, e diz que o texto circulou entre bolsonaristas.",
   "tema": "Resultado da votação"
+ },
+ {
+  "id": "b133",
+  "data": "2026-10-29",
+  "alvo": "Lula",
+  "boato": "Professores petistas teriam entrado em greve após Lula anunciar corte de R$ 6 bilhões na Educação",
+  "veredito": "Falso ou enganoso (sem selo explícito)",
+  "agencia": "Aos Fatos",
+  "explicacao": "O vídeo mostra um protesto de professores de Sergipe de 18 de setembro de 2026, contra o governo estadual. O corte de R$ 6 bilhões vem de uma medida de julho de 2024, e o governo federal não anunciou corte na Educação na semana da checagem.",
+  "url": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica os autores das postagens.",
+  "tema": "Educação e greve"
+ },
+ {
+  "id": "b134",
+  "data": "2026-10-29",
+  "alvo": "Lula",
+  "boato": "Governo Lula teria previsto cortar 670 mil benefícios do BPC depois da reeleição",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "O número de 670.400 vem de uma estimativa do governo de 2024, publicada pela Folha em 7 de agosto de 2024, e não de um anúncio novo. O pente-fino do BPC notifica os beneficiários e permite defesa. O Boatos.org também checou.",
+  "url": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "BPC"
  }
 ]
