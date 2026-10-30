@@ -1874,5 +1874,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "BPC"
+ },
+ {
+  "id": "b135",
+  "data": "2026-10-29",
+  "alvo": "Lula",
+  "boato": "Lula teria dito, depois da reeleição, que o Brasil não pode viver do Bolsa Família e anunciado mudanças no programa",
+  "veredito": "Enganosa",
+  "agencia": "Estadão Verifica",
+  "explicacao": "A fala é de abril de 2025, numa visita à Nissan, e não propunha o fim do benefício. A mudança citada nas postagens é a regra de transição de 2025, e a Secom negou alterações recentes. O UOL Confere também checou.",
+  "url": "https://www.terra.com.br/noticias/brasil/politica/fala-de-lula-sobre-brasil-nao-poder-viver-eternamente-do-bolsa-familia-e-de-2025-nao-recente,ab469ed6a752f67d94a090575bcdd7dc8o461zbe.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Bolsa Família"
+ },
+ {
+  "id": "b136",
+  "data": "2026-10-30",
+  "alvo": "Lula",
+  "boato": "Lula teria sancionado, depois das eleições, uma lei que acaba com o auxílio-reclusão",
+  "veredito": "Enganoso",
+  "agencia": "Aos Fatos",
+  "explicacao": "A restrição está na Lei 15.358/2026 (Lei Antifacção), sancionada em 24 de março, sete meses antes do 2º turno. Ela impede o benefício a dependentes de presos por certos crimes ligados a organizações criminosas, mas não extinguiu o auxílio. O UOL Confere também checou.",
+  "url": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Auxílio-reclusão"
  }
 ]
