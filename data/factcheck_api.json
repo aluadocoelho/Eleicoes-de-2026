@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
+  "termo": "Lula",
+  "afirmacao": "Lula sancionou lei que corta auxílio-reclusão após fim das eleições",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-30",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Lei que restringe auxílio-reclusão foi sancionada em março, não ...",
+  "data_checagem": "2026-10-30",
+  "url": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.amp.htm",
   "termo": "Lula",
   "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
@@ -12,6 +24,42 @@
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.amp.htm"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula recebeu 165 mil votos de origem desconhecida no 2º turno",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Lula recebeu 165 mil votos de origem desconhecida no ...",
+  "data_checagem": "2026-10-30",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Auxílio-reclusão: Lula vetou benefício a membro de facção em março; não após vitória",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula anuncia cortes de R$ 6 bilhões na Saúde e Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
   "termo": "Lula",
   "afirmacao": "PROFESSORES PETISTAS ENTRAM EM GREVE EM MENOS DE TRÊS DIAS APÓS ELEIÇÕES, DEPOIS QUE LULA ANUNCIOU CORTE DE 6 BILHÕES NA EDUCAÇÃO",
@@ -19,18 +67,18 @@
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo mostra protesto de professores em setembro, não após ...",
+  "titulo": "Vídeo mostra protesto de professores em setembro, não após reeleição de Lula",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -43,7 +91,7 @@
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Não é verdade que governo prevê corte de 670 mil beneficiários do ...",
+  "titulo": "Não é verdade que governo prevê corte de 670 mil beneficiários do BPC",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/"
  },
@@ -79,7 +127,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Claques protestam contra Lula da Silva, que proibiu bets?",
+  "titulo": "Fact Check. Claques dos dois maiores clubes brasileiros protestam contra Lula e PT após proibição de apostas?",
   "data_checagem": "2026-10-29",
   "url": "https://observador.pt/factchecks/fact-check-claques-dos-dois-maiores-clubes-brasileiros-protestam-contra-lula-e-pt-apos-proibicao-de-apostas/"
  },
@@ -115,7 +163,7 @@
   "data_afirmacao": null,
   "checador": "UOL Notícias",
   "selo": "Distorcido",
-  "titulo": "Auxílio-reclusão: Lula vetou benefício a membro de facção em ...",
+  "titulo": "Auxílio-reclusão: Lula vetou benefício a membro de facção em março; não após vitória",
   "data_checagem": "2026-10-29",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm"
  },
@@ -139,7 +187,7 @@
   "data_afirmacao": "2026-10-27",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula não cortou 6 bilhões da Saúde e Educação após ser reeleito ...",
+  "titulo": "Lula não cortou 6 bilhões da Saúde e Educação após ser reeleito; reportagem viral é de 2024",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VF6NQ"
  },
@@ -151,7 +199,7 @@
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar painéis durante interrupção da apuração",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
@@ -523,7 +571,7 @@
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Prorrogação do segundo turno teve cerca de 35 mil votos e não ...",
+  "titulo": "Prorrogação do segundo turno teve pouco mais de 34 mil votos e ...",
   "data_checagem": "2026-10-26",
   "url": "https://checamos.afp.com/doc.afp.com.D4HN663"
  },
@@ -984,6 +1032,18 @@
   "url": "https://checamos.afp.com/doc.afp.com.D3WE3T3"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/lula-nos-quatro-anos-do-governo-deles-a-inflacao-97c5dc",
+  "termo": "Lula",
+  "afirmacao": "[...] nos quatro anos do governo deles, a inflação de alimentos estava em 56,17%. Agora, nos meus quatro anos, está em 13%, quatro vezes menos.",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Fato",
+  "titulo": "“[...] nos quatro anos do governo deles, a…”: o que o g1 Fato ou Fake concluiu",
+  "data_checagem": "2026-10-19",
+  "url": "https://www.votoporideias.com.br/checagens/lula-nos-quatro-anos-do-governo-deles-a-inflacao-97c5dc"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/lula-no-governo-deles-eles-liberaram-mais-de-1-773c53",
   "termo": "Lula",
   "afirmacao": "No governo deles, eles liberaram mais de 1 milhão de armas, mais de 1 milhão de armas, e uma parte delas foi para o crime organizado, e 1,1 bilhão de balas.",
@@ -1008,6 +1068,18 @@
   "url": "https://www.votoporideias.com.br/checagens/lula-fui-o-unico-presidente-que-fez-superavit-nos-26dba0"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/lula-em-2009-voce-flavio-bolsonaro-como-deputado-estadual-939da0",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Em 2009, você [Flávio Bolsonaro], como deputado estadual… Tinha uma discussão na Assembleia [Legislativa do Rio de Janeiro] para ampliar a licença de maternidade das funcionárias. E, de 49 deputados, você foi o único que votou contra.",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Fato",
+  "titulo": "“Em 2009, você [Flávio Bolsonaro], como deputado…”: o que o g1 Fato ou Fake concluiu",
+  "data_checagem": "2026-10-19",
+  "url": "https://www.votoporideias.com.br/checagens/lula-em-2009-voce-flavio-bolsonaro-como-deputado-estadual-939da0"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/lula-e-e-importante-lembrar-que-quando-eu-cheguei-53b3b1",
   "termo": "Lula",
   "afirmacao": "E é importante lembrar que, quando eu cheguei à Presidência, este país devia US$ 30 bilhões ao FMI [Fundo Monetário Internacional].",
@@ -1030,6 +1102,18 @@
   "titulo": "“Não foi você que prendeu [o ex-banqueiro Daniel]…”: o que o g1 Fato ou Fake concluiu",
   "data_checagem": "2026-10-19",
   "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-nao-foi-voce-que-prendeu-o-ex-banqueiro-daniel-31d96a"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-governo-de-lula-registrou-recorde-de-mulher-assassinada-ac8062",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "[Governo de Lula registrou] recorde de mulher assassinada.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Fato",
+  "titulo": "“[Governo de Lula registrou] recorde de mulher…”: o que o g1 Fato ou Fake concluiu",
+  "data_checagem": "2026-10-19",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-governo-de-lula-registrou-recorde-de-mulher-assassinada-ac8062"
  },
  {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-ele-eduardo-bolsonaro-esta-exilado-perseguido-cf2586",
@@ -1128,6 +1212,18 @@
   "url": "https://www.votoporideias.com.br/checagens/lula-e-tenho-orgulho-de-ter-sido-o-primeiro-0a0f77"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/lula-e-importante-lembrar-que-esse-pais-cresceu-7-5-4fb596",
+  "termo": "Lula",
+  "afirmacao": "É importante lembrar que esse país cresceu 7,5% em 2010",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Verdadeiro",
+  "titulo": "“É importante lembrar que esse país cresceu 7,5%…”: o que o Aos Fatos concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/lula-e-importante-lembrar-que-esse-pais-cresceu-7-5-4fb596"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/lula-disse-que-foi-o-primeiro-presidente-da-republica-62c776",
   "termo": "Lula",
   "afirmacao": "Disse que foi o primeiro presidente da República a conseguir dois graus de investimento para o Brasil",
@@ -1138,6 +1234,30 @@
   "titulo": "Disse que foi o primeiro presidente da República…: o que o Estadão Verifica concluiu",
   "data_checagem": "2026-10-18",
   "url": "https://www.votoporideias.com.br/checagens/lula-disse-que-foi-o-primeiro-presidente-da-republica-62c776"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-voce-lula-pode-explicar-por-que-73-dos-5520cc",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Você [Lula] pode explicar por que 73% dos presidiários votaram em você?",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Falta contexto",
+  "titulo": "“Você [Lula] pode explicar por que 73% dos…”: o que a Lupa concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-voce-lula-pode-explicar-por-que-73-dos-5520cc"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-recorde-de-mulher-espancada-7226f8",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "recorde de mulher espancada,",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "Verdadeiro",
+  "titulo": "“recorde de mulher espancada,”: o que o Aos Fatos concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-recorde-de-mulher-espancada-7226f8"
  },
  {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-r-7-bilhoes-que-voce-lula-gastou-em-b082b6",
@@ -1212,6 +1332,18 @@
   "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-e-recorde-de-criminalidade-86020e"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-gastou-r-7-bilhoes-com-5902f1",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Disse que Lula gastou R$ 7 bilhões com viagens da primeira-dama Rosângela da Silva, a Janja.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "enganoso",
+  "titulo": "Disse que Lula gastou R$ 7 bilhões com viagens da…: o que o Estadão Verifica concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-gastou-r-7-bilhoes-com-5902f1"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-esta-dando-emprego-para-pessoas-02c7d3",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Disse que Lula está dando emprego para pessoas que foram condenadas no Mensalão.",
@@ -1258,6 +1390,18 @@
   "titulo": "“A Lei Antifacção que nós aprovamos, os líderes…”: o que a Lupa concluiu",
   "data_checagem": "2026-10-18",
   "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-a-lei-antifaccao-que-nos-aprovamos-os-lideres-0798c4"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-o-governo-gastou-quase-350-bi-para-se-755952",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "O governo \"gastou quase 350 bi para se reeleger\"",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-16",
+  "checador": "Voto por Ideias",
+  "selo": "Exagerado",
+  "titulo": "“O governo \"gastou quase 350 bi para se reeleger\"”: o que a Agência Lupa concluiu",
+  "data_checagem": "2026-10-16",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-o-governo-gastou-quase-350-bi-para-se-755952"
  },
  {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-o-focus-de-2022-previa-selic-em-7-4e8a21",
@@ -1366,6 +1510,18 @@
   "titulo": "Vídeo em que Flávio Bolsonaro fala em cortar aposentadorias e outros benefícios foi gerado por IA",
   "data_checagem": "2026-10-16",
   "url": "https://checamos.afp.com/doc.afp.com.D3HE2WE"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/lula-6-mil-obras-paralisadas-5b4171",
+  "termo": "Lula",
+  "afirmacao": "6 mil obras paralisadas",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-15",
+  "checador": "Voto por Ideias",
+  "selo": "Subestimado",
+  "titulo": "“6 mil obras paralisadas”: o que o Estadão Verifica concluiu",
+  "data_checagem": "2026-10-15",
+  "url": "https://www.votoporideias.com.br/checagens/lula-6-mil-obras-paralisadas-5b4171"
  },
  {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/meta-ai-gerou-imagem-com-o-nome-de-flavio-mas-recusou-o-mesmo-pedido-relacionado-a-lula-entenda/",
@@ -1970,11 +2126,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2174,7 +2330,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -2629,13 +2785,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C8QD7T3",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Pesquisa Datafolha mostra que Lula lidera com 17 pontos percentuais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
@@ -2654,7 +2810,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4308,6 +4464,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula vetou auxílio-reclusão a membro de facção em março; não após vitória",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.htm",
   "termo": "Lula",
   "afirmacao": "Lula ganhou 2 milhões de votos na Bahia após as 17h",
@@ -4450,6 +4618,18 @@
   "titulo": "O Globo não noticiou que Flávio planeja aumentar idade para aposentadoria",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/21/e-falso-que-flavio-bolsonaro-planeje-aumentar-idade-minima-de-aposentadoria.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula tem relógio de luxo furtado durante contato com próprios apoiadores",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula teve relógio e aliança roubados por apoiadores",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm",
@@ -4644,6 +4824,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/14/e-montagem-video-de-cleitinho-mostrando-audio-de-flavio-sobre-nossa-senhora.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/13/imagem-de-mulher-negra-limpando-pichacao-em-metro-e-ia.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Imagem mostra trabalhadora limpando pichações na estação do metrô Trianon-Masp após ato da campanha do presidente e candidato à reeleição Lula (PT) na Avenida Paulista",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Imagem de mulher limpando pichação em metrô de SP foi feita com IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/13/imagem-de-mulher-negra-limpando-pichacao-em-metro-e-ia.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/13/imagem-de-mulher-negra-limpando-pichacao-em-metro-e-ia.ghtm",
   "termo": "Lula",
   "afirmacao": "Imagem mostra trabalhadora limpando pichações na estação do metrô Trianon-Masp após ato da campanha do presidente e candidato à reeleição Lula (PT) na Avenida Paulista",
@@ -4714,6 +4906,18 @@
   "titulo": "Foto de ato pró-Lula na Paulista é real; imagem bolsonarista é que usou IA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/desinformacao-falso-imagem-manifestacao-bolsonarista-ia-pro-lula-eleicoes.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/09/desinformacao-falso-video-ia-flavio-cortes-aposentadoria-13-salario.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio diz que vai cortar aposentadorias, o 13º salário e o Pé-de-Meia",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Flávio anunciando cortes em aposentadorias e 13º salário é IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/09/desinformacao-falso-video-ia-flavio-cortes-aposentadoria-13-salario.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-lula-frases-ofensivas-nordestinos.ghtm",
@@ -4978,6 +5182,18 @@
   "titulo": "Entenda as regras para participação de candidatos em debates na TV",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/30/explica-regras-candidatos-convidados-debate-eleicoes-tv-globo.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/30/explica-regras-candidatos-convidados-debate-eleicoes-tv-globo.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula exigiu que Renan Santos não participasse do debate da TV Globo",
+  "quem_disse": "Boato da internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Enganoso",
+  "titulo": "Entenda as regras para participação de candidatos em debates na TV",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/30/explica-regras-candidatos-convidados-debate-eleicoes-tv-globo.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/30/e-falso-que-renan-santos-anunciou-apoio-a-lula-em-eventual-2-turno.ghtm",
@@ -5256,6 +5472,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/09/enganoso-lula-pobre-patrimonio-eleicao.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/03/video-exibe-ponte-construida-na-china-nao-no-brasil.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Ponte enorme foi construída no Brasil durante governo Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo exibe ponte construída na China, não obra da gestão Lula no Brasil",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/03/video-exibe-ponte-construida-na-china-nao-no-brasil.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/03/video-exibe-ponte-construida-na-china-nao-no-brasil.ghtm",
   "termo": "Lula",
   "afirmacao": "Ponte enorme foi construída no Brasil durante governo Lula",
@@ -5350,6 +5578,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Professores petistas entram em greve em menos de três dias após eleições, depois que Lula anunciou corte de 6 bilhões na Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra greve de professores encerrada antes do resultado eleitoral",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/28/falso-video-presos-comemoram-vitoria-lula-prisao.ghtm",
