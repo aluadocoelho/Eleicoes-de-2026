@@ -1958,11 +1958,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -1971,8 +1971,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2617,13 +2617,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C8QD7T3",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Pesquisa Datafolha mostra que Lula lidera com 17 pontos percentuais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
@@ -2642,7 +2642,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -3336,11 +3336,23 @@
   "url": "https://www.estadao.com.br/tipo_conteudo/analise/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "É 'simplesmente impossível' que Flávio Bolsonaro não tenha recebido votos em 106 seções",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-30",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Votação unânime de Lula em 106 seções eleitorais não prova ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4078,6 +4090,18 @@
   "titulo": "É falso que Lula tenha sancionado lei autorizando banheiro sem gênero definido",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-lula-sancionou-lei-autorizando-banheiro-sem-genero-definido/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/",
+  "termo": "Lula",
+  "afirmacao": "Crminosos armados comemoram vitória de Lula",
+  "quem_disse": "Boatos em redes sociais",
+  "data_afirmacao": "2026-10-30",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Criminosos não comemoraram eleição de Lula; vídeo foi gravado ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-audio-imita-lula-xingando-roberta-luchsinger-ia/",
