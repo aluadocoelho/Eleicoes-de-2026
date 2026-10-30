@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261030-campanha-4-imagens-ia",
+  "titulo": "Campanha contra fake news 4/7: Imagem feita com IA",
+  "curto": "Imagens IA",
+  "data": "2026-10-30",
+  "origem": "instagram/publicados/20261030-campanha-4-imagens-ia-reels",
+  "video": "videos/20261030-campanha-4-imagens-ia.mp4",
+  "capa": "videos/20261030-campanha-4-imagens-ia.jpg",
+  "bolinha": "videos/20261030-campanha-4-imagens-ia-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfIML7hjASP/"
+ },
+ {
   "id": "20261029-campanha-3-numeros",
   "titulo": "Campanha contra fake news 3/7: Os boatos da eleição em números",
   "curto": "Números",
@@ -119,16 +130,5 @@
   "capa": "videos/20261027-campanha-1-hora-da-verdade.jpg",
   "bolinha": "videos/20261027-campanha-1-hora-da-verdade-b.jpg",
   "instagram": "https://www.instagram.com/reel/De_85DbkkTz/"
- },
- {
-  "id": "20261026-sinais-alarmismo",
-  "titulo": "Como saber se um vídeo quer te assustar (26/10)",
-  "curto": "Sinais de alarmismo",
-  "data": "2026-10-26",
-  "origem": "instagram/publicados/20261026-sinais-alarmismo-reels",
-  "video": "videos/20261026-sinais-alarmismo.mp4",
-  "capa": "videos/20261026-sinais-alarmismo.jpg",
-  "bolinha": "videos/20261026-sinais-alarmismo-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De-DJpfEYUY/"
  }
 ]
