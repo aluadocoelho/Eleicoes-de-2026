@@ -1,5 +1,41 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
+  "termo": "Lula",
+  "afirmacao": "PROFESSORES PETISTAS ENTRAM EM GREVE EM MENOS DE TRÊS DIAS APÓS ELEIÇÕES, DEPOIS QUE LULA ANUNCIOU CORTE DE 6 BILHÕES NA EDUCAÇÃO",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-29",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Vídeo mostra protesto de professores em setembro, não após ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-29",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula prevê cortes de 670 mil benefícios do BPC",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-10-29",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Não é verdade que governo prevê corte de 670 mil beneficiários do ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-papa-leao-xiv-mandou-recado-a-flavio-bolsonaro-com-frase-sobre-invocar-o-nome-de-deus-para-legitimar-a-violencia/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Papa Leão XIV manda recado após ataques de Flávio à Igreja Católica.",
@@ -82,6 +118,30 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é ...",
   "data_checagem": "2026-10-29",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4VF6NQ",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula anuncia corte de quase R$ 6 Bilhões na Saúde e Educação",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-27",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Lula não cortou 6 bilhões da Saúde e Educação após ser reeleito ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://checamos.afp.com/doc.afp.com.D4VF6NQ"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4VB69G",
+  "termo": "Lula",
+  "afirmacao": "Lula teve 165 mil votos sem origem no 2º turno",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-25",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.amp.htm",
@@ -1298,7 +1358,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -1526,11 +1586,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2185,13 +2245,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C8QD7T3",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Pesquisa Datafolha mostra que Lula lidera com 17 pontos percentuais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
@@ -2905,13 +2965,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
+  "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/"
  },
