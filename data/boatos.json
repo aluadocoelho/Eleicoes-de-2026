@@ -1902,5 +1902,47 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Auxílio-reclusão"
+ },
+ {
+  "id": "b137",
+  "data": "2026-10-29",
+  "alvo": "Lula",
+  "boato": "124 mil urnas teriam registrado votos só para Lula no 2º turno, sem nenhum voto para Flávio",
+  "veredito": "Falso",
+  "agencia": "Fato ou Boato (Justiça Eleitoral)",
+  "explicacao": "Segundo a área técnica do TSE, só 110 das 499.205 seções com votos no 2º turno tiveram todos os votos válidos para um único candidato: 106 para Lula e 4 para Flávio. Seções vizinhas podem ter a mesma votação para os dois candidatos, com brancos e nulos diferentes.",
+  "url": "https://www.justicaeleitoral.jus.br/fato-ou-boato/checagens/2026/e-falso-que-124-mil-urnas-tenham-registrado-votos-apenas-para-lula-no-2o-turno-das-eleicoes-2026",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "Segundo o TSE, a afirmação foi feita em vídeo por um deputado federal eleito pelo PL do Rio Grande do Sul.",
+  "tema": "Urnas e apuração"
+ },
+ {
+  "id": "b138",
+  "data": "2026-10-30",
+  "alvo": "Flávio",
+  "boato": "O ministro Alexandre de Moraes teria cancelado o passaporte de Flávio minutos depois do resultado do 2º turno",
+  "veredito": "Falta contexto",
+  "agencia": "Lupa",
+  "explicacao": "A Lupa diz que o cancelamento vem de um inquérito de lavagem de dinheiro, sem ligação com a campanha presidencial, e que o pedido foi enviado pela Polícia Federal depois que o TSE confirmou o resultado. A afirmação consta de um documento chamado Relatório Pericial Independente, que a Lupa checou por inteiro.",
+  "url": "https://www.agencialupa.org/eleicoes/2026/10/30/documento-falso-distorce-dados-do-tse-para-alegar-fraude-na-eleicao-presidencial-de-2026/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A Lupa diz que o documento circulou no Instagram e no X, sem identificar o autor.",
+  "tema": "Passaporte"
+ },
+ {
+  "id": "b139",
+  "data": "2026-10-29",
+  "alvo": "Flávio",
+  "boato": "O papa Leão XIV teria mandado um recado a Flávio ao dizer que invocar o nome de Deus para legitimar a violência é profanação",
+  "veredito": "Errado",
+  "agencia": "Observador",
+  "explicacao": "O papa disse a frase num encontro inter-religioso em Metz, na França, referindo-se à União Europeia. Ele não citou o Brasil nem Flávio.",
+  "url": "https://observador.pt/factchecks/fact-check-papa-leao-xiv-mandou-recado-a-flavio-bolsonaro-com-frase-sobre-invocar-o-nome-de-deus-para-legitimar-a-violencia/",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Observador cita apenas um usuário do Facebook, sem identificá-lo.",
+  "tema": "Papa Leão XIV"
  }
 ]
