@@ -641,6 +641,16 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 @media (max-width:620px){.el-apu-svg text{font-size:21px;stroke-width:5px}.el-apu-svg text tspan.p{font-size:21px}.el-apu-svg text.in tspan.s{display:none}}
 .el-apu-det summary{cursor:pointer;font-weight:700;min-height:40px;display:flex;align-items:center}
 /* Aba Resultados (27/10) */
+.el-ent{margin-top:4px}
+.el-ent-blk{margin:18px 0 8px;font:900 .85rem/1 var(--font-sans,system-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--color-fg-muted)}
+.el-ent-c{border:2px solid var(--ink);border-radius:16px;box-shadow:4px 4px 0 var(--ink);background:var(--color-panel);padding:14px 16px;margin-top:12px}
+.el-ent-c h3{margin:0;font-family:var(--font-anthropic-serif);font-size:1.25rem}
+.el-ent-c p{margin:8px 0 0;line-height:1.5}
+.el-ent-q{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.el-ent-q span{border:2px solid #16181D;border-radius:12px;padding:2px 10px;font-weight:800;font-size:.85rem;background:#FFD43B;color:#1A1500}
+.el-ent-q span.st{background:var(--color-panel);color:var(--ink)}
+.el-ent-f{font-size:.85rem;color:var(--color-fg-muted)}.el-ent-f a{color:var(--accent-text)}
+.el-ent-grid{display:grid;gap:12px}@media(min-width:48rem){.el-ent-grid{grid-template-columns:1fr 1fr}}
 .el-mundo{margin-top:16px;padding:16px 4px 4px;border-top:2px dashed var(--color-border-line)}
 .el-mundo-n{margin:0 0 10px;font-size:1rem}.el-mundo-n b{font-family:var(--font-anthropic-serif);font-size:1.6rem;margin-right:2px}
 .el-mundo-g{border:2px solid var(--ink);border-radius:16px;box-shadow:3px 3px 0 var(--ink);background:var(--color-panel);margin-top:10px}
@@ -1606,6 +1616,39 @@ document.addEventListener("click", function (e) {
         <p class="el-note">O que governos e organizações de outros países disseram sobre o resultado, segundo a imprensa. A lista cresce conforme novas reações são publicadas.</p>
         <div id="mundo-lista"><p class="el-note">Carregando…</p></div>
       </section>
+<script data-entenda>
+(function () {
+function run() {
+  var box = document.getElementById("entenda-lista"); if (!box) return;
+  var ORD = ["Situação", "Caminho", "Bastidor", "Próximos passos"];
+  var TIT = {"Situação": "Onde ele está", "Caminho": "Os caminhos em discussão", "Bastidor": "Bastidor", "Próximos passos": "Próximos passos"};
+  function el(t, c, txt) { var e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; }
+  function link(n, u) { var a = el("a", null, n); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; return a; }
+  (window.__tmP || Promise.resolve()).then(function () { return fetch("/data/entenda.json?v=" + Math.floor(Date.now() / 600000), {cache: "no-cache"}); })
+    .then(function (r) { return r.ok ? r.json() : []; })
+    .then(function (rows) {
+      rows = (rows || []).slice().sort(function (a, b) { return a.ordem - b.ordem; });
+      var orig = rows.map(function (x) { return x.bloco; });
+      if (window.__tradRows) rows = window.__tradRows("entenda", rows);
+      box.replaceChildren();
+      if (!rows.length) { box.appendChild(el("p", "el-note", "Ainda não há conteúdo.")); return; }
+      ORD.forEach(function (b) {
+        var its = rows.filter(function (x, i) { return orig[i] === b; }); if (!its.length) return;
+        box.appendChild(el("h3", "el-ent-blk", TIT[b]));
+        var wrap = el("div", b === "Caminho" ? "el-ent-grid" : null);
+        its.forEach(function (x) {
+          var c = el("article", "el-ent-c"); c.appendChild(el("h3", null, x.titulo)); c.appendChild(el("p", null, x.texto));
+          if (x.quem_decide || x.status) { var q = el("div", "el-ent-q"); if (x.quem_decide) q.appendChild(el("span", null, x.quem_decide)); if (x.status) q.appendChild(el("span", "st", x.status)); c.appendChild(q); }
+          var f = el("p", "el-ent-f"); f.appendChild(document.createTextNode("Fonte: ")); f.appendChild(link(x.fonte, x.url)); if (x.url2) { f.appendChild(document.createTextNode(" · ")); f.appendChild(link(x.fonte2, x.url2)); } c.appendChild(f);
+          wrap.appendChild(c);
+        });
+        box.appendChild(wrap);
+      });
+    }).catch(function () { box.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+})();
+</script>
 <script data-mundo>
 (function () {
   var box = document.getElementById("mundo-lista"); if (!box) return;
@@ -1899,6 +1942,11 @@ document.addEventListener("click", function (e) {
   <section class="el-page" id="campanha" role="tabpanel" aria-labelledby="tab-campanha" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Campanha e Justiça</span><p class="el-pgtitle">Campanha e decisões <em>da Justiça Eleitoral</em></p></div>
     <p class="el-intro">O que cada candidato fez durante a campanha e o que a Justiça Eleitoral decidiu. Do mais novo para o mais antigo.</p>
+    <div class="el-card" id="card-entenda">
+      <h2 class="el-h">Entenda: os caminhos para tirar Bolsonaro da prisão</h2>
+      <p class="el-note">Onde ele está, quais saídas estão em discussão, quem decide cada uma e o que vem agora. Cada ponto traz a fonte.</p>
+      <div class="el-ent" id="entenda-lista" aria-live="polite"><p class="el-note">Carregando…</p></div>
+    </div>
     <div class="el-card" id="card-agenda">
       <h2 class="el-h" id="agenda-h">Agenda dos candidatos</h2>
       <p class="el-note">Compromissos divulgados pelas campanhas.</p>
