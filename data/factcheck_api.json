@@ -74,11 +74,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -193,13 +193,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4VB69G",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Lula teve 165 mil votos sem origem no 2º turno",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar painéis durante interrupção da apuração",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
@@ -373,13 +373,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -505,13 +505,13 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo mostra presos comemorando reeleição de Lula neste domingo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não reeleição de Lula",
+  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não ...",
   "data_checagem": "2026-10-26",
   "url": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/"
  },
@@ -1898,7 +1898,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -2126,11 +2126,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2330,7 +2330,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -2810,12 +2810,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "falso",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
+  "selo": "não_é_bem_assim",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -3514,6 +3514,18 @@
   "titulo": "Votação unânime de Lula em 106 seções eleitorais não prova ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/votacao-em-brasilia-teve-mesmo-numero-de-votos-em-todas-as-zonas-falso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Votação em Brasília teve o mesmo número de votos em todas as zonas",
+  "quem_disse": "Boato nas redes sociais",
+  "data_afirmacao": "2026-10-30",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que votação em Brasília tenha tido mesmo número de votos ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/votacao-em-brasilia-teve-mesmo-numero-de-votos-em-todas-as-zonas-falso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
@@ -4236,14 +4248,26 @@
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-corte-aposentadorias-13-salario-pe-de-meia-fake-news/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-relatorio-apocrifo-fraude-eleicoes/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Relatório prova fraude nas eleições de 2026",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-30",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "'Relatório pericial' apócrifo distorce dados para alegar falsa fraude ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-relatorio-apocrifo-fraude-eleicoes/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Decisão de prorrogação do horário da votação deu 2 milhões a mais de votos para Lula na Bahia",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-26",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões de votos a mais para Lula na Bahia",
+  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/"
  },
