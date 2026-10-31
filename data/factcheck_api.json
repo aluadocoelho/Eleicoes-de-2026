@@ -7,7 +7,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Lei que restringe auxílio-reclusão foi sancionada em março, não ...",
+  "titulo": "Lei que restringe auxílio-reclusão foi sancionada em março, não depois das eleições",
   "data_checagem": "2026-10-30",
   "url": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/"
  },
@@ -36,6 +36,30 @@
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.amp.htm"
  },
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D4Y93G3",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula bloqueia auxílio gás até dezembro após as eleições",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-29",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Reportagens antigas são usadas para alegar falsamente que benefício de gás será bloqueado até dezembro",
+  "data_checagem": "2026-10-30",
+  "url": "https://checamos.afp.com/doc.afp.com.D4Y93G3"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D4Y6863",
+  "termo": "Lula",
+  "afirmacao": "Cancelamento do Bolsa Família já começou após vitória do Lula",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-27",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Reportagens antigas sobre cortes no Bolsa Família circulam como se fossem de 2026",
+  "data_checagem": "2026-10-30",
+  "url": "https://checamos.afp.com/doc.afp.com.D4Y6863"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm",
   "termo": "Lula",
   "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
@@ -58,6 +82,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
   "data_checagem": "2026-10-29",
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Professores petistas entram em greve em menos de três dias após eleições, depois que Lula anunciou corte de 6 bilhões na Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra greve de professores encerrada antes do resultado eleitoral",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
@@ -193,13 +229,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4VB69G",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula teve 165 mil votos sem origem no 2º turno",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar painéis durante interrupção da apuração",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
@@ -373,13 +409,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -505,13 +541,13 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Vídeo mostra presos comemorando reeleição de Lula neste domingo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não ...",
+  "titulo": "Vídeo mostra presos comemorando gol do Santa Cruz, não reeleição de Lula",
   "data_checagem": "2026-10-26",
   "url": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/"
  },
@@ -530,7 +566,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -1898,7 +1934,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -2126,11 +2162,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2139,8 +2175,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2785,13 +2821,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C8QD7T3",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisa Datafolha mostra que Lula lidera com 17 pontos percentuais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
@@ -2810,12 +2846,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
-  "quem_disse": "Lula",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -3511,7 +3547,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Votação unânime de Lula em 106 seções eleitorais não prova ...",
+  "titulo": "Votação unânime de Lula em 106 seções eleitorais não prova fraude eleitoral",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/"
  },
@@ -3531,8 +3567,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3667,7 +3703,7 @@
   "data_afirmacao": "2026-09-01",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Vídeo não mostra Trump ameaçando fazer com Lula o que fez com Maduro",
+  "titulo": "Vídeo não mostra Trump ameaçando fazer com Lula o que fez com ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-enganoso-trump-ameaca-lula-maduro/"
  },
@@ -4147,7 +4183,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Governo Lula não bloqueou auxílio-gás de dezembro; postagens ...",
+  "titulo": "Governo Lula não bloqueou auxílio-gás de dezembro; postagens usam reportagem antiga",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/governo-nao-bloqueou-auxilio-gas-para-dezembro-2026/"
  },
@@ -4261,13 +4297,13 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Decisão de prorrogação do horário da votação deu 2 milhões a mais de votos para Lula na Bahia",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-26",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões ...",
+  "titulo": "É falso que extensão do horário de votação tenha dado 2 milhões de votos a mais para Lula na Bahia",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-prorrogacao-horario-votacao-2-milhoes-votos-lula/"
  },
@@ -4303,7 +4339,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Criminosos não comemoraram eleição de Lula; vídeo foi gravado ...",
+  "titulo": "Criminosos não comemoraram eleição de Lula; vídeo foi gravado antes do segundo turno",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/"
  },
@@ -4411,7 +4447,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Estadão",
   "selo": "Fora de contexto",
-  "titulo": "Declaração antiga de Trump de apoio aos Bolsonaros circula como ...",
+  "titulo": "Declaração antiga de Trump de apoio aos Bolsonaros circula como se fosse atual",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/donald-trump-prisao-flavio-bolsonaro/"
  },
@@ -4486,6 +4522,18 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo de Jair Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não disse que mudará Bolsa Família; fala de 2025 foi distorcida",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}",
@@ -4680,6 +4728,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "IstoÉ não publicou capa com Flávio Bolsonaro; imagem foi alterada por IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/istoe-nao-publicou-capa-com-flavio-bolsonaro-imagem-foi-alterada-por-ia.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "IstoÉ publicou capa com Flávio Bolsonaro e título \"Nasce o anti-Lula\"",
@@ -4812,6 +4872,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/16/desinformacao-ia-falso-posts-imagens-x-atos-pro-lula-paulista-copacabana.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/deputada-nega-post-sobre-fechar-igrejas-divulgado-por-nikolas-ferreira.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Deputada Ana Elisa publicou em seu perfil do X, pedindo para Lula (PT) fechar as igrejas e que \"crente só faz m****\"",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Enganoso",
+  "titulo": "Deputada nega post sobre fechar igrejas divulgado por Nikolas Ferreira",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/deputada-nega-post-sobre-fechar-igrejas-divulgado-por-nikolas-ferreira.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/14/lula-nao-disse-que-criminosos-roubam-para-tomar-cerveja-video-e-editado.ghtm",
   "termo": "Lula",
   "afirmacao": "Lula disse que criminosos roubam celular para tomar cerveja",
@@ -4942,6 +5014,18 @@
   "titulo": "Vídeo de Flávio anunciando cortes em aposentadorias e 13º salário é IA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/09/desinformacao-falso-video-ia-flavio-cortes-aposentadoria-13-salario.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/08/flavio-bolsonaro-nao-foi-alvo-de-operacao-da-pf-por-compra-de-votos.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Polícia descobre compra de votos para Flávio Bolsonaro em vários estados do norte e nordeste; R$ 27 milhões restantes são apreendidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não foi alvo de operação da PF por compra de votos",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/08/flavio-bolsonaro-nao-foi-alvo-de-operacao-da-pf-por-compra-de-votos.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-lula-frases-ofensivas-nordestinos.ghtm",
@@ -5566,6 +5650,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Lula não disse que mudará Bolsa Família; fala de 2025 foi distorcida",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula recebeu 165 mil votos de origem desconhecida no 2º turno",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Lula recebeu 165 mil votos de origem desconhecida no 2º turno",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/video-de-flavio-bolsonaro-chorando-foi-gravado-antes-de-derrota-na-eleicao.ghtm",
