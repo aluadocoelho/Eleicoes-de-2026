@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261031-campanha-5-voz-e-video",
+  "titulo": "Campanha contra fake news 5/7: Voz e vídeo montados",
+  "curto": "Áudio falso",
+  "data": "2026-10-31",
+  "origem": "instagram/publicados/20261031-campanha-5-voz-e-video-reels",
+  "video": "videos/20261031-campanha-5-voz-e-video.mp4",
+  "capa": "videos/20261031-campanha-5-voz-e-video.jpg",
+  "bolinha": "videos/20261031-campanha-5-voz-e-video-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfKwoqagCwU/"
+ },
+ {
   "id": "20261030-campanha-4-imagens-ia",
   "titulo": "Campanha contra fake news 4/7: Imagem feita com IA",
   "curto": "Imagens IA",
@@ -119,16 +130,5 @@
   "capa": "videos/20261027-campanha-1-hora-da-verdade-reels-v2.jpg",
   "bolinha": "videos/20261027-campanha-1-hora-da-verdade-reels-v2-b.jpg",
   "instagram": "https://www.instagram.com/reel/DfAARYRD8o4/"
- },
- {
-  "id": "20261027-campanha-1-hora-da-verdade",
-  "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
-  "curto": "Verdade",
-  "data": "2026-10-27",
-  "origem": "instagram/publicados/20261027-campanha-1-hora-da-verdade-reels",
-  "video": "videos/20261027-campanha-1-hora-da-verdade.mp4",
-  "capa": "videos/20261027-campanha-1-hora-da-verdade.jpg",
-  "bolinha": "videos/20261027-campanha-1-hora-da-verdade-b.jpg",
-  "instagram": "https://www.instagram.com/reel/De_85DbkkTz/"
  }
 ]
