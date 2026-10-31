@@ -3914,6 +3914,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "667A-84A2",
+  "conjunto": "boatos",
+  "id": "b140",
+  "registro": {
+   "id": "b140",
+   "data": "2026-10-28",
+   "alvo": "Lula",
+   "boato": "18 governadores de direita teriam rompido com o STF e com Lula depois das eleições",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "O Boatos.org não achou registro oficial, nota à imprensa ou publicação em diário oficial de rompimento. O vídeo vem de um canal que usa apresentadores virtuais feitos com IA para ler roteiros que misturam nomes reais com cenários inventados.",
+   "url": "https://www.boatos.org/politica/18-governadores-de-direita-romperam-com-o-stf-e-lula-apos-as-eleicoes-de-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "O Boatos.org aponta apenas um canal de vídeos com apresentadores feitos por IA, sem dizer quem está por trás dele.",
+   "tema": "Governadores e STF"
+  },
+  "primeira_vez": "2026-10-31T22:30:05Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "46E9-68AB",
   "conjunto": "boatos",
   "id": "b15",
