@@ -3935,6 +3935,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "35DD-1498",
+  "conjunto": "boatos",
+  "id": "b141",
+  "registro": {
+   "id": "b141",
+   "data": "2026-10-30",
+   "alvo": "Lula",
+   "boato": "Vídeo mostraria uma urna eletrônica votando sozinha durante as duas horas extras do 2º turno, a favor de Lula",
+   "veredito": "Falso",
+   "agencia": "Boatos.org",
+   "explicacao": "O vídeo é de 2014, de uma urna de Torres (RS) que travou e foi trocada. Em 2026, foram 34.393 votos depois das 17h, número pequeno diante da diferença de 4.430.191 votos entre os candidatos.",
+   "url": "https://www.boatos.org/brasil/video-mostra-urna-eletronica-votando-automaticamente-durante-duas-horas-nas-eleicoes-de-2026.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Urnas e apuração"
+  },
+  "primeira_vez": "2026-11-01T22:31:26Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "9216-A7AD",
+  "conjunto": "boatos",
+  "id": "b142",
+  "registro": {
+   "id": "b142",
+   "data": "2026-10-18",
+   "alvo": "Flávio",
+   "boato": "Vídeo mostraria o jogador Kylian Mbappé pedindo voto para Lula",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O Boatos.org não achou declaração do jogador nem fonte original do vídeo e concluiu que o material foi criado de forma sintética, possivelmente com inteligência artificial.",
+   "url": "https://www.boatos.org/esporte/kylian-mbappe-pede-voto-para-lula-nas-eleicoes-de-2026.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Apoio de famosos"
+  },
+  "primeira_vez": "2026-11-01T22:31:26Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "46E9-68AB",
   "conjunto": "boatos",
   "id": "b15",
