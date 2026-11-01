@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261101-campanha-6-jornal-falso",
+  "titulo": "Campanha contra fake news 6/7: Jornal de mentira",
+  "curto": "Jornal falso",
+  "data": "2026-11-01",
+  "origem": "instagram/publicados/20261101-campanha-6-jornal-falso-reels",
+  "video": "videos/20261101-campanha-6-jornal-falso.mp4",
+  "capa": "videos/20261101-campanha-6-jornal-falso.jpg",
+  "bolinha": "videos/20261101-campanha-6-jornal-falso-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfNVnmIgHld/"
+ },
+ {
   "id": "20261031-campanha-5-voz-e-video",
   "titulo": "Campanha contra fake news 5/7: Voz e vídeo montados",
   "curto": "Áudio falso",
@@ -119,16 +130,5 @@
   "capa": "videos/20261025-boatos-tarde.jpg",
   "bolinha": "videos/20261025-boatos-tarde-b.jpg",
   "instagram": "https://www.instagram.com/reel/DfAcJOuD-cN/"
- },
- {
-  "id": "20261027-campanha-1-hora-da-verdade-reels-v2",
-  "titulo": "Campanha contra fake news 1/7: Agora, é hora de falar a verdade",
-  "curto": "Verdade",
-  "data": "2026-10-27",
-  "origem": "instagram/publicados/20261027-campanha-1-hora-da-verdade-reels-v2",
-  "video": "videos/20261027-campanha-1-hora-da-verdade-reels-v2.mp4",
-  "capa": "videos/20261027-campanha-1-hora-da-verdade-reels-v2.jpg",
-  "bolinha": "videos/20261027-campanha-1-hora-da-verdade-reels-v2-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DfAARYRD8o4/"
  }
 ]
