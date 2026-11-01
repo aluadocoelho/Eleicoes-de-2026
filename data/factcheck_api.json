@@ -12,6 +12,18 @@
   "url": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/"
  },
  {
+  "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/fim-da-escala-6x1-esta-mantido-ao-contrario-do-que-afirma-video/",
+  "termo": "Lula",
+  "afirmacao": "Passada e eleição, governo Lula recua e vai manter a escala 6x1 para vários setores",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-10-27",
+  "checador": "Projeto Comprova",
+  "selo": "Falso",
+  "titulo": "Fim da escala 6x1 está mantido, ao contrário do que afirma vídeo",
+  "data_checagem": "2026-10-30",
+  "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/fim-da-escala-6x1-esta-mantido-ao-contrario-do-que-afirma-video/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.amp.htm",
   "termo": "Lula",
   "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
@@ -122,7 +134,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -226,6 +238,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é ...",
   "data_checagem": "2026-10-29",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.amp.htm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/e-falso-que-bolsonaro-foi-preso-por-desacato-apos-segundo-turno-da-eleicao.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Bolsonaro foi preso por desacato e será enviado de volta à Papuda",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Bolsonaro foi preso por desacato após segundo turno ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/e-falso-que-bolsonaro-foi-preso-por-desacato-apos-segundo-turno-da-eleicao.amp.htm"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4VF6NQ",
@@ -1601,7 +1625,7 @@
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
-  "checador": "AFP Checamos",
+  "checador": "Checamos AFP",
   "selo": "Enganoso",
   "titulo": "As pesquisas “erraram”? Entenda a diferença entre pesquisas ...",
   "data_checagem": "2026-10-15",
@@ -2187,8 +2211,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2333,7 +2357,7 @@
   "afirmacao": "Vídeos mostram protestos de torcidas do Corinthians e Flamengo contra o PT",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-09-27",
-  "checador": "AFP Checamos",
+  "checador": "Checamos AFP",
   "selo": "Falso",
   "titulo": "Vídeos não mostram atos de torcidas do Corinthians e Flamengo ...",
   "data_checagem": "2026-09-30",
@@ -3271,7 +3295,7 @@
   "data_afirmacao": "2026-08-30",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Posts resgatam vídeo de 2024 para desinformar sobre a saúde de Lula antes das eleições",
+  "titulo": "Posts resgatam vídeo de 2024 para desinformar sobre a saúde de ...",
   "data_checagem": "2026-09-02",
   "url": "https://checamos.afp.com/doc.afp.com.C7794T3"
  },
@@ -3283,7 +3307,7 @@
   "data_afirmacao": "2026-08-28",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Flávio Bolsonaro disse em sabatina da Globo que irá respeitar o resultado das eleições",
+  "titulo": "Flávio Bolsonaro disse em sabatina da Globo que irá respeitar o ...",
   "data_checagem": "2026-09-02",
   "url": "https://checamos.afp.com/doc.afp.com.C76R966"
  },
@@ -3579,8 +3603,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3595,7 +3619,7 @@
   "data_afirmacao": "2026-09-02",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que Jornal Nacional tenha noticiado inelegibilidade de Lula; vídeo foi feito com IA",
+  "titulo": "É falso que Jornal Nacional tenha noticiado inelegibilidade de Lula ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-renata-vasconcellos-falso-inelegibilidade-lula-ia/"
  },
@@ -4548,6 +4572,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula recebeu 165 mil votos de origem desconhecida no 2º turno",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula recebeu 165 mil votos de origem desconhecida no 2º turno",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}",
   "termo": "Lula",
   "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
@@ -4560,6 +4596,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Professores petistas entram em greve em menos de três dias após eleições, depois que Lula anunciou corte de 6 bilhões na Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra greve de professores encerrada antes do resultado eleitoral",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.htm",
   "termo": "Lula",
   "afirmacao": "Lula ganhou 2 milhões de votos na Bahia após as 17h",
@@ -4570,6 +4618,18 @@
   "titulo": "Lula obteve 1.600 votos na Bahia após as 17h, e não 2 milhões",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/28/desinformacao-enganoso-governo-recuo-fim-escala-6x1-lula-vencer-eleicoes.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula recuou no fim da escala 6x1 e mantém jornada para determinados setores",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "É falso que governo Lula anunciou recuo do fim da escala 6x1 após eleição",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/28/desinformacao-enganoso-governo-recuo-fim-escala-6x1-lula-vencer-eleicoes.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/27/falso-video-bandidos-comemoram-reeleicao-lula.ghtm",
@@ -5002,6 +5062,18 @@
   "titulo": "Vídeo mostra Marcha para Exu, e não 'invocação a Satanás' em ato pró-Lula",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/13/e-falso-que-lula-comparou-mulheres-a-milho-em-contexto-pedofilo.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula diz que 'mulher é igual milho nasceu pelinho já pode comer'",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula comparou mulheres a milho em fala com conotação pedófila",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/13/e-falso-que-lula-comparou-mulheres-a-milho-em-contexto-pedofilo.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/13/desinformacao-falso-imagem-manifestacao-bolsonarista-ia-pro-lula-eleicoes.ghtm",
@@ -6193,7 +6265,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "TSE determinou dias diferentes para eleitores do Flávio e do Lula votarem",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -6769,7 +6841,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
