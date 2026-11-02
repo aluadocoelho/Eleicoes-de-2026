@@ -1,5 +1,16 @@
 [
  {
+  "id": "20261102-campanha-7-onde-checar",
+  "titulo": "Campanha contra fake news 7/7: Onde checar antes de compartilhar",
+  "curto": "Onde checar",
+  "data": "2026-11-02",
+  "origem": "instagram/publicados/20261102-campanha-7-onde-checar-reels",
+  "video": "videos/20261102-campanha-7-onde-checar.mp4",
+  "capa": "videos/20261102-campanha-7-onde-checar.jpg",
+  "bolinha": "videos/20261102-campanha-7-onde-checar-b.jpg",
+  "instagram": "https://www.instagram.com/reel/DfP66TfEtCQ/"
+ },
+ {
   "id": "20261101-campanha-6-jornal-falso",
   "titulo": "Campanha contra fake news 6/7: Jornal de mentira",
   "curto": "Jornal falso",
@@ -119,16 +130,5 @@
   "capa": "videos/20261025-boatos-noite.jpg",
   "bolinha": "videos/20261025-boatos-noite-b.jpg",
   "instagram": "https://www.instagram.com/reel/DfAmat7iMSG/"
- },
- {
-  "id": "20261025-boatos-tarde",
-  "titulo": "Boatos desmentidos (25/10)",
-  "curto": "Boatos",
-  "data": "2026-10-25",
-  "origem": "instagram/publicados/20261025-boatos-tarde-reels",
-  "video": "videos/20261025-boatos-tarde.mp4",
-  "capa": "videos/20261025-boatos-tarde.jpg",
-  "bolinha": "videos/20261025-boatos-tarde-b.jpg",
-  "instagram": "https://www.instagram.com/reel/DfAcJOuD-cN/"
  }
 ]
