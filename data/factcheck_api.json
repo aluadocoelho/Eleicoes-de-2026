@@ -134,11 +134,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -2295,8 +2295,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3259,7 +3259,7 @@
   "data_afirmacao": "2026-08-31",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Governo Lula não proibiu coletores de lixo de usarem estribo do caminhão",
+  "titulo": "Governo Lula não proibiu coletores de lixo de usarem estribo do ...",
   "data_checagem": "2026-09-04",
   "url": "https://checamos.afp.com/doc.afp.com.C7E789F"
  },
@@ -3271,7 +3271,7 @@
   "data_afirmacao": "2026-07-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Flávio Bolsonaro não prometeu salário mínimo de R$ 3 mil; vídeos virais foram gerados por IA",
+  "titulo": "Flávio Bolsonaro não prometeu salário mínimo de R$ 3 mil; vídeos ...",
   "data_checagem": "2026-09-04",
   "url": "https://checamos.afp.com/doc.afp.com.C7E63ZT"
  },
@@ -3283,7 +3283,7 @@
   "data_afirmacao": "2026-08-23",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Trump não fez pronunciamento afirmando que “fará com Lula o que fez com Maduro”",
+  "titulo": "Trump não fez pronunciamento afirmando que “fará com Lula o que ...",
   "data_checagem": "2026-09-04",
   "url": "https://checamos.afp.com/doc.afp.com.C7DZ7WE"
  },
@@ -3687,8 +3687,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4308,6 +4308,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/governo-nao-bloqueou-auxilio-gas-para-dezembro-2026/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/governo-nao-anunciou-corte-de-r6-bi-na-saude-e-educacao/",
+  "termo": "Lula",
+  "afirmacao": "Reportagem mostra que governo Lula anunciou corte de R$6 bi na Saúde e Educação.",
+  "quem_disse": "Boato nas redes sociais",
+  "data_afirmacao": "2026-11-03",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Governo não anunciou corte de R$ 6 bilhões em Saúde e Educação ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/governo-nao-anunciou-corte-de-r6-bi-na-saude-e-educacao/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/governo-lula-recua-escala-6x1-manter-varios-setores-falso/",
   "termo": "Lula",
   "afirmacao": "Após eleição, Lula recua sobre escala 6x1 e vai manter modelo para vários setores",
@@ -4522,6 +4534,18 @@
   "titulo": "Bets foram autorizadas por Temer e regulamentadas por Lula; entenda a linha de tempo",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/enganoso-bets-criadas-governo-lula-presidente-sancionou-lei-regulamentando-apostas/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/enganoso-5-mil-prometidos-pix-mei-cair-363/",
+  "termo": "Lula",
+  "afirmacao": "Os R$5 mil prometidos pelo presidente Luiz Inácio Lula da Silva para microempreendedores individuais (MEls) podem cair para apenas R$363.",
+  "quem_disse": "Boatos em redes sociais.",
+  "data_afirmacao": "2026-11-03",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Não é verdade que os R$ 5 mil prometidos para Pix MEI podem cair ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/enganoso-5-mil-prometidos-pix-mei-cair-363/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-tenha-passado-mal-e-ficado-preocupado-com-resultados-de-exames/",
@@ -7009,7 +7033,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
