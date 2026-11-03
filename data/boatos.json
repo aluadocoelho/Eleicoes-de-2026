@@ -2014,5 +2014,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "A Lupa diz que o vídeo circulou no X e no Facebook, sem apontar quem publicou.",
   "tema": "Saída de Flávio do país"
+ },
+ {
+  "id": "b145",
+  "data": "2026-10-30",
+  "alvo": "Lula",
+  "boato": "Lula e Flávio teriam tido a mesma votação em todas as zonas eleitorais de Brasília no 2º turno, o que indicaria fraude",
+  "veredito": "Falso",
+  "agencia": "Estadão Verifica",
+  "explicacao": "O vídeo usou só os números da 1ª zona (Lula 32.714, Flávio 29.764) como se valessem para todas. Os dados do TSE mostram valores diferentes nas 19 zonas. O UOL Confere também checou o boato em 03/11.",
+  "url": "https://www.terra.com.br/noticias/brasil/politica/e-falso-que-votacao-em-brasilia-tenha-tido-mesmo-numero-de-votos-em-todas-as-zonas-eleitorais,824fa5cd5cf80ab776e1ccb987ff9337tww8vqsq.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A checagem fala em vídeo viral e não aponta quem o criou ou espalhou.",
+  "tema": "Resultado da votação"
+ },
+ {
+  "id": "b146",
+  "data": "2026-10-30",
+  "alvo": "Lula",
+  "boato": "Seria impossível Flávio ter zero votos em 106 seções no 2º turno e Lula zero em apenas quatro, o que indicaria fraude",
+  "veredito": "Enganoso",
+  "agencia": "Estadão Verifica",
+  "explicacao": "A maioria das 106 seções fica em comunidades indígenas, rurais, ribeirinhas, quilombolas ou assentamentos, e duas são em presídios. A Justiça Eleitoral diz que votação unânime em seção é comum e já ocorreu em 2018 e 2022.",
+  "url": "https://www.terra.com.br/noticias/brasil/politica/votacao-unanime-de-lula-em-106-secoes-eleitorais-nao-prova-fraude-eleitoral,c95f350a1d37514d2428cac56c6fdd553x25pqeq.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Campo de Flávio",
+  "origem_detalhe": "O Estadão Verifica diz que o deputado federal Gustavo Gayer (PL-GO) compartilhou uma das publicações.",
+  "tema": "Resultado da votação"
  }
 ]
