@@ -3977,6 +3977,48 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "F4C1-02D7",
+  "conjunto": "boatos",
+  "id": "b143",
+  "registro": {
+   "id": "b143",
+   "data": "2026-11-02",
+   "alvo": "Lula",
+   "boato": "Relatório do TSE mostraria 8 milhões de pessoas votando sem biometria depois das 17h no 2º turno, o que indicaria fraude",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "O documento é apócrifo. O número de cerca de 8,6 milhões se refere a liberações sem biometria ao longo de todo o dia, e o TSE registrou 34.393 votos depois das 17h.",
+   "url": "https://www.boatos.org/politica/tse-revela-que-em-relatorio-que-8-milhoes-de-pessoas-votaram-sem-biometria-apos-as-17h.html",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Resultado da votação"
+  },
+  "primeira_vez": "2026-11-03T11:30:21Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B002-0A47",
+  "conjunto": "boatos",
+  "id": "b144",
+  "registro": {
+   "id": "b144",
+   "data": "2026-10-30",
+   "alvo": "Lula",
+   "boato": "Vídeo de militares dos EUA rindo num avião mostraria o resgate de Flávio Bolsonaro",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "A Lupa diz que Flávio saiu do Brasil em 27/10 num jato particular vindo da Argentina e que o vídeo mostra os atores David Boreanaz e Tyler Grey nos bastidores da série Seal Team, com legenda enganosa.",
+   "url": "https://agencialupa.org/verificacao/2026/10/30/video-de-militares-dos-eua-gargalhando-nao-mostra-resgate-de-flavio-bolsonaro",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "A Lupa diz que o vídeo circulou no X e no Facebook, sem apontar quem publicou.",
+   "tema": "Saída de Flávio do país"
+  },
+  "primeira_vez": "2026-11-03T11:30:21Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "46E9-68AB",
   "conjunto": "boatos",
   "id": "b15",
