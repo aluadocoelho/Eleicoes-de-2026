@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Lula e Flávio Bolsonaro tiveram a mesma votação em todas as zonas eleitorais de Brasília (DF)",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Lula e Flávio tiveram a mesma votação em todas as ...",
+  "data_checagem": "2026-11-03",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
   "termo": "Lula",
   "afirmacao": "Lula sancionou lei que corta auxílio-reclusão após fim das eleições",
@@ -602,7 +614,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -1279,7 +1291,7 @@
   "data_afirmacao": "2026-10-14",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Revista IstoÉ não publicou capa com Flávio Bolsonaro como “anti ...",
+  "titulo": "Revista IstoÉ não publicou capa com Flávio Bolsonaro como “anti-Lula”; posts manipulam edição de 2017",
   "data_checagem": "2026-10-19",
   "url": "https://checamos.afp.com/doc.afp.com.D3Q24CQ"
  },
@@ -1342,6 +1354,18 @@
   "titulo": "Disse que foi o primeiro presidente da República…: o que o Estadão Verifica concluiu",
   "data_checagem": "2026-10-18",
   "url": "https://www.votoporideias.com.br/checagens/lula-disse-que-foi-o-primeiro-presidente-da-republica-62c776"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/lula-disse-que-flavio-bolsonaro-comprou-uma-casa-de-90c4a9",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Disse que Flávio Bolsonaro comprou uma casa de R$ 10 milhões.",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "exagerado",
+  "titulo": "Disse que Flávio Bolsonaro comprou uma casa de R$…: o que o Estadão Verifica concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/lula-disse-que-flavio-bolsonaro-comprou-uma-casa-de-90c4a9"
  },
  {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-voce-lula-pode-explicar-por-que-73-dos-5520cc",
@@ -2282,7 +2306,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2295,8 +2319,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2966,8 +2990,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -3687,8 +3711,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4668,6 +4692,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não disse que mudará Bolsa Família; fala de 2025 foi distorcida",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm",
   "termo": "Lula",
   "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
@@ -4788,6 +4824,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio fugiu para os EUA após derrota eleitoral",
+  "quem_disse": "Flávio fugiu para os EUA após derrota eleitoral",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Flávio viajando para os EUA é de maio, antes de derrota para Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.htm?t={seek_to_second_number}",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Reportagem de Caco Barcellos mostra ligação de Flávio Bolsonaro com compra de votos",
@@ -4906,6 +4954,18 @@
   "titulo": "É falso que Lula teve relógio e aliança roubados por apoiadores",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula tem relógio de luxo furtado durante contato com próprios apoiadores",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula teve relógio e aliança roubados por apoiadores",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/21/desinformacao-falso-lula-relogio-alianca-roubado-ato-ma-sao-luis.ghtm",
@@ -5278,6 +5338,18 @@
   "titulo": "Posts manipulam frases de Lula para insinuar menosprezo a nordestinos",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-lula-frases-ofensivas-nordestinos.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-flavio-bolsonaro-venceu-eleicao-1o-turno.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro ganhou no 1º turno com 54,98%",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Posts usam cálculo incorreto para dizer que Flávio foi eleito no 1º turno",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-flavio-bolsonaro-venceu-eleicao-1o-turno.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/07/governo-lula-nao-tem-proposta-para-encerrar-bolsa-familia.ghtm?t=%7Bseek_to_second_number%7D",
@@ -7033,7 +7105,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
