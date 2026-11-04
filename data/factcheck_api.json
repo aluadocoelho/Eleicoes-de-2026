@@ -24,6 +24,18 @@
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm"
  },
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D6BE6KE",
+  "termo": "Lula",
+  "afirmacao": "Lula recebeu dois milhões de votos na Bahia após a prorrogação das eleições",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-26",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Bahia registrou 4.190 votos durante prorrogação das eleições, não 2 milhões",
+  "data_checagem": "2026-11-03",
+  "url": "https://checamos.afp.com/doc.afp.com.D6BE6KE"
+ },
+ {
   "id": "https://www.fastcheck.cl/2026/10/30/este-video-de-flavio-bolsonaro-en-el-aeropuerto-no-corresponde-a-su-llegada-a-estados-unidos/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Este video de Flávio Bolsonaro en el aeropuerto no corresponde a su llegada a Estados Unidos",
@@ -182,11 +194,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -325,13 +337,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4VB69G",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula teve 165 mil votos sem origem no 2º turno",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar painéis durante interrupção da apuração",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
@@ -505,13 +517,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -722,7 +734,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -2570,7 +2582,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2607,8 +2619,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2798,12 +2810,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -4011,8 +4023,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4222,6 +4234,18 @@
   "titulo": "Vídeo de manifestação na Paulista em 2024 circula como se fosse ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-2024-circula-7-de-setembro-enganoso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Urna com a tecla 2 colada pra prejudicar o voto em Flávio Bolsonaro",
+  "quem_disse": "Delegado Richard Serrano",
+  "data_afirmacao": "2026-11-03",
+  "checador": "Estadão",
+  "selo": "Fora de contexto",
+  "titulo": "Vídeo sobre urna eletrônica vandalizada omite a existência de equipamentos de contingência",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/sem-contexto-video-de-casal-supostamente-espancado-por-apoiar-bolsonaro-circula-desde-2022/",
@@ -4639,7 +4663,7 @@
   "data_afirmacao": "2026-11-03",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Governo não anunciou corte de R$ 6 bilhões em Saúde e Educação ...",
+  "titulo": "Governo não anunciou corte de R$ 6 bilhões em Saúde e Educação; contenção de gastos ocorreu em 2024",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/governo-nao-anunciou-corte-de-r6-bi-na-saude-e-educacao/"
  },
@@ -4867,7 +4891,7 @@
   "data_afirmacao": "2026-11-03",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Não é verdade que os R$ 5 mil prometidos para Pix MEI podem cair ...",
+  "titulo": "Não é verdade que os R$ 5 mil prometidos para Pix MEI podem cair para R$ 363",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/enganoso-5-mil-prometidos-pix-mei-cair-363/"
  },
@@ -4992,6 +5016,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/03/enganoso-governo-lula-bloqueio-farmacia-popular-gas-povo-2026.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula bloqueou Farmácia Popular e Auxílio Gás após as eleições",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Bloqueio no Farmácia Popular e Auxílio Gás foi em 2024, não após eleições",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/03/enganoso-governo-lula-bloqueio-farmacia-popular-gas-povo-2026.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.htm?t={seek_to_second_number}",
   "termo": "Lula",
   "afirmacao": "Lula diz que Brasil não pode depender do Bolsa Família e vai alterar regras do programa",
@@ -5040,6 +5076,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula vetou auxílio-reclusão a membro de facção em março; não após vitória",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.htm?t={seek_to_second_number}",
   "termo": "Lula",
   "afirmacao": "Lula anuncia cortes de R$ 6 bilhões na Saúde e Educação",
@@ -5062,6 +5110,18 @@
   "titulo": "Vídeo mostra greve de professores encerrada antes do resultado eleitoral",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-video-presos-comemoram-vitoria-lula-prisao.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra presos comemorando reeleição de Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Presos comemoram gol do Santa Cruz em 2022, não reeleição de Lula em 2026",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-video-presos-comemoram-vitoria-lula-prisao.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/28/falso-lula-2-milhoes-votos-bahia-extensao-horario-votacao.htm",
@@ -5628,6 +5688,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/08/flavio-bolsonaro-nao-foi-alvo-de-operacao-da-pf-por-compra-de-votos.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/08/flavio-bolsonaro-nao-foi-alvo-de-operacao-da-pf-por-compra-de-votos.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Polícia descobre compra de votos para Flávio Bolsonaro em vários estados do norte e nordeste; R$ 27 milhões restantes são apreendidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Flávio Bolsonaro não foi alvo de operação da PF por compra de votos",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/08/flavio-bolsonaro-nao-foi-alvo-de-operacao-da-pf-por-compra-de-votos.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-lula-frases-ofensivas-nordestinos.ghtm",
   "termo": "Lula",
   "afirmacao": "Três frases de Lula sobre o Nordeste",
@@ -6000,6 +6072,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/25/falso-imagem-flavio-bolsonaro-camisa-ofensa-nordestinos.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra comício de Lula lotado em Florianópolis (SC)",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo é de ato contra PL da Dosimetria no Rio, e não comício de Lula em SC",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra comício de Lula lotado em Florianópolis (SC)",
@@ -6298,6 +6382,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Lula e Flávio Bolsonaro tiveram a mesma votação em todas as zonas eleitorais de Brasília (DF)",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lula e Flávio não tiveram a mesma votação em todas as zonas de Brasília",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/enganoso-governo-lula-bloqueio-farmacia-popular-gas-povo-2026.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula bloqueou Farmácia Popular e Auxílio Gás após as eleições",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Bloqueio no Farmácia Popular e Auxílio Gás foi em 2024, não após eleições",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/enganoso-governo-lula-bloqueio-farmacia-popular-gas-povo-2026.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/lula-nao-prometeu-mudar-regras-do-bolsa-familia-fala-foi-distorcida.ghtm",
@@ -7318,6 +7426,18 @@
   "titulo": "Vídeo mostra briga de trânsito no AP; não ataque a ônibus de petistas em SP",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/08/20/falso-bolsonaristas-ataque-onibus-petistas-ato-lula-sao-bernardo.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/11/03/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro fugiu de uma ditadura",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Veja linha do tempo: da fuga de Flávio até a divulgação da carta golpista",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/11/03/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/23/post-usa-reportagem-antiga-e-sugere-ligacao-de-flavio-com-compra-de-votos.ghtm",
