@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/",
+  "termo": "Lula",
+  "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até Escala 6 por 1",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-04",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que reportagem mostra fila após bloqueio do auxílio-gás",
+  "data_checagem": "2026-11-04",
+  "url": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno/",
+  "termo": "Lula",
+  "afirmacao": "Só na Bahia eles incluíram 2 milhões de votos depois das 17h. Aqui em São Paulo entrou seis pessoas",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-04",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Bahia registrou 4.190 votos na prorrogação do segundo turno, não ...",
+  "data_checagem": "2026-11-04",
+  "url": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/trump-flavio-preso.amp.htm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Donald Trump declara saber que tentaram prender Flávio Bolsonaro",
@@ -10,6 +34,30 @@
   "titulo": "Trump não disse que tentaram prender Flávio agora; fala confusa é ...",
   "data_checagem": "2026-11-04",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/trump-flavio-preso.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D6G329H",
+  "termo": "Lula",
+  "afirmacao": "Professores fazem greve três dias após as eleições contra Lula",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-28",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Vídeo de greve de professores é de setembro e não mostra ...",
+  "data_checagem": "2026-11-04",
+  "url": "https://checamos.afp.com/doc.afp.com.D6G329H"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D6FR2ZQ",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Relatório independente revela dados alarmantes sobre as eleições de 2026",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-29",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Relatório distorce dados eleitorais para alegar fraude no segundo ...",
+  "data_checagem": "2026-11-04",
+  "url": "https://checamos.afp.com/doc.afp.com.D6FR2ZQ"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D6F28WE",
@@ -230,7 +278,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -770,7 +818,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -2618,11 +2666,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2655,8 +2703,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4059,8 +4107,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
