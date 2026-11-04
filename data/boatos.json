@@ -2042,5 +2042,33 @@
   "origem_campo": "Campo de Flávio",
   "origem_detalhe": "O Estadão Verifica diz que o deputado federal Gustavo Gayer (PL-GO) compartilhou uma das publicações.",
   "tema": "Resultado da votação"
+ },
+ {
+  "id": "b147",
+  "data": "2026-10-28",
+  "alvo": "Lula",
+  "boato": "165.699 votos de Lula no 2º turno não teriam origem identificada, o que indicaria irregularidade na apuração",
+  "veredito": "Não é verdade",
+  "agencia": "Aos Fatos",
+  "explicacao": "O vídeo comparou painéis do TSE que estavam em etapas diferentes de atualização durante a suspensão temporária da divulgação. A página nacional tinha dados que ainda não apareciam nas páginas por estado e exterior. A diferença vem dessa atualização desencontrada. O UOL Confere também checou o boato em 30/10 e deu o selo Falso.",
+  "url": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "A checagem fala em vídeo que circulou no Instagram, no Facebook e no WhatsApp e não aponta quem o criou ou espalhou.",
+  "tema": "Resultado da votação"
+ },
+ {
+  "id": "b148",
+  "data": "2026-11-03",
+  "alvo": "Lula",
+  "boato": "O governo Lula teria proibido crianças de assistir aos desenhos bíblicos exibidos na Record",
+  "veredito": "Posts enganam",
+  "agencia": "Aos Fatos",
+  "explicacao": "O Ministério da Justiça mudou a classificação indicativa do programa de Livre para não recomendado para menores de 12 anos, pela Portaria 2.272, de 28/10/2026. A classificação é uma orientação aos pais, não uma proibição, e a emissora pode continuar exibindo o programa.",
+  "url": "https://www.aosfatos.org/noticias/governo-lula-nao-proibiu-desenhos-biblicos/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Classificação de desenhos"
  }
 ]
