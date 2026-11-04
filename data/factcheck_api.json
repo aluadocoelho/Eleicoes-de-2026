@@ -1,7 +1,19 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/governo-lula-nao-proibiu-desenhos-biblicos/",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula proibiu desenhos bíblicos na Record",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-03",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Governo Lula não proibiu exibição de desenhos bíblicos",
+  "data_checagem": "2026-11-03",
+  "url": "https://www.aosfatos.org/noticias/governo-lula-nao-proibiu-desenhos-biblicos/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Lula e Flávio Bolsonaro tiveram a mesma votação em todas as zonas eleitorais de Brasília (DF)",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -10,6 +22,18 @@
   "titulo": "É falso que Lula e Flávio tiveram a mesma votação em todas as ...",
   "data_checagem": "2026-11-03",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm"
+ },
+ {
+  "id": "https://www.fastcheck.cl/2026/10/30/este-video-de-flavio-bolsonaro-en-el-aeropuerto-no-corresponde-a-su-llegada-a-estados-unidos/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Este video de Flávio Bolsonaro en el aeropuerto no corresponde a su llegada a Estados Unidos",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Fast Check",
+  "selo": "Engañoso",
+  "titulo": "Este video de Flávio Bolsonaro en el aeropuerto no corresponde a ...",
+  "data_checagem": "2026-10-30",
+  "url": "https://www.fastcheck.cl/2026/10/30/este-video-de-flavio-bolsonaro-en-el-aeropuerto-no-corresponde-a-su-llegada-a-estados-unidos/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
@@ -58,6 +82,18 @@
   "titulo": "É falso que Lula recebeu 165 mil votos de origem desconhecida no ...",
   "data_checagem": "2026-10-30",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/30/falso-lula-165-mil-votos-origem-desconhecida.amp.htm"
+ },
+ {
+  "id": "https://factual.afp.com/doc.afp.com.D4XU264",
+  "termo": "Lula",
+  "afirmacao": "Es señal de fraude que Lula haya obtenido más de 10 millones de votos en Brasil",
+  "quem_disse": "Varias personas",
+  "data_afirmacao": "2026-10-26",
+  "checador": "AFP Factual",
+  "selo": "Falso",
+  "titulo": "La conquista de Lula de 10 millones de votos extras en el balotaje ...",
+  "data_checagem": "2026-10-30",
+  "url": "https://factual.afp.com/doc.afp.com.D4XU264"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4YL9TJ",
@@ -146,11 +182,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -264,6 +300,18 @@
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/29/e-falso-que-bolsonaro-foi-preso-por-desacato-apos-segundo-turno-da-eleicao.amp.htm"
  },
  {
+  "id": "https://grupoanimal.mx/verificacion-viral/video-milei-bolsonaro-avion-ia",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Javier Milei ayuda a Flávio Bolsonaro escapar en un avión F-16.",
+  "quem_disse": "Redes sociales.",
+  "data_afirmacao": null,
+  "checador": "Animal Político",
+  "selo": "Falso",
+  "titulo": "Este video donde Javier Milei ayuda a Flávio Bolsonaro a escapar ...",
+  "data_checagem": "2026-10-29",
+  "url": "https://grupoanimal.mx/verificacion-viral/video-milei-bolsonaro-avion-ia"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D4VF6NQ",
   "termo": "Lula",
   "afirmacao": "Governo Lula anuncia corte de quase R$ 6 Bilhões na Saúde e Educação",
@@ -277,13 +325,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4VB69G",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Lula teve 165 mil votos sem origem no 2º turno",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar painéis durante interrupção da apuração",
+  "titulo": "Lula teve 165 mil votos sem origem? Vídeo desinforma ao comparar ...",
   "data_checagem": "2026-10-29",
   "url": "https://checamos.afp.com/doc.afp.com.D4VB69G"
  },
@@ -457,13 +505,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -490,6 +538,42 @@
   "titulo": "É falso que Lula foi a um presídio cumprimentar “o bandido Marcola”",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QG666"
+ },
+ {
+  "id": "https://www.newtral.es/presos-celebran-victoria-lula-da-silva-bulo/20261027/",
+  "termo": "Lula",
+  "afirmacao": "Vídeo de los presos de las cárceles de Brasil celebrando la victoria de Lula Da Silva el 25 de octubre de 2026.",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Newtral",
+  "selo": "Falso",
+  "titulo": "No son presos celebrando la victoria electoral de Lula en Brasil",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.newtral.es/presos-celebran-victoria-lula-da-silva-bulo/20261027/"
+ },
+ {
+  "id": "https://www.newtral.es/bad-bunny-celebracion-lula/20261027/",
+  "termo": "Lula",
+  "afirmacao": "El cantante Bad Bunny celebra en Brasil la victoria del candidato Lula da Silva",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Newtral",
+  "selo": "Falso",
+  "titulo": "Este vídeo no muestra a Bad Bunny celebrando la victoria de Lula ...",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.newtral.es/bad-bunny-celebracion-lula/20261027/"
+ },
+ {
+  "id": "https://www.fastcheck.cl/2026/10/27/flavio-bolsonaro-tambien-solicito-la-extension-del-horario-de-votacion-no-fue-solo-pedido-de-lula/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro también solicitó la extensión del horario de votación, no fue solo pedido de Lula",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Fast Check",
+  "selo": "Incompleto",
+  "titulo": "Flávio Bolsonaro también solicitó la extensión del horario de ...",
+  "data_checagem": "2026-10-27",
+  "url": "https://www.fastcheck.cl/2026/10/27/flavio-bolsonaro-tambien-solicito-la-extension-del-horario-de-votacion-no-fue-solo-pedido-de-lula/"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/27/falso-video-bandidos-comemoram-reeleicao-lula.amp.htm",
@@ -550,6 +634,30 @@
   "titulo": "Bolsonaro queria cortar apoios sociais no Brasil?",
   "data_checagem": "2026-10-27",
   "url": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-disse-que-queria-cortar-chaga-dos-programas-sociais-no-brasil/"
+ },
+ {
+  "id": "https://maldita.es/desinfo/20261027/un-video-muestra-a-presos-brasilenos-celebrando-la-victoria-de-lula-da-silva-desde-la-carcel/",
+  "termo": "Lula",
+  "afirmacao": "Presos brasileños celebrando la victoria de Lula da Silva desde la cárcel",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Maldita.es",
+  "selo": "Falso",
+  "titulo": "No, este vídeo no muestra a presos de una cárcel de Brasil ...",
+  "data_checagem": "2026-10-27",
+  "url": "https://maldita.es/desinfo/20261027/un-video-muestra-a-presos-brasilenos-celebrando-la-victoria-de-lula-da-silva-desde-la-carcel/"
+ },
+ {
+  "id": "https://grupoanimal.mx/verificacion-viral/bolsonaro-avion-es-2023",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Foto de Flavio Bolsonaro en avión es actual y está huyendo de Brasil",
+  "quem_disse": "Redes sociales",
+  "data_afirmacao": null,
+  "checador": "Animal Político",
+  "selo": "Sacado de contexto",
+  "titulo": "Esta foto de Flavio Bolsonaro en un avión no es actual; es de 2023 ...",
+  "data_checagem": "2026-10-27",
+  "url": "https://grupoanimal.mx/verificacion-viral/bolsonaro-avion-es-2023"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/26/desinformacao-enganoso-video-flavio-fugiu-eua-maio-derrota-eleitoral.amp.htm",
@@ -614,7 +722,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -646,6 +754,18 @@
   "titulo": "Fact Check: Video Of Crying Flávio Bolsonaro PREDATES Election ...",
   "data_checagem": "2026-10-26",
   "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-of-crying-flavio-bolsonaro-predates-election-results-announcement.html"
+ },
+ {
+  "id": "https://espanol.leadstories.com/fact-check/2026/10/verificacion-de-datos-flavio-bolsonaro-llorando-derrota-electoral-brasil-video-publicado-antes-resultados.html",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Video muestra a Flavio Bolsonaro llorando luego de los resultados de las elecciones",
+  "quem_disse": "x.com",
+  "data_afirmacao": "2026-10-26",
+  "checador": "Lead Stories",
+  "selo": "Video de Antes",
+  "titulo": "Verificación de Datos: Video de Flávio Bolsonaro Llorando ES ...",
+  "data_checagem": "2026-10-26",
+  "url": "https://espanol.leadstories.com/fact-check/2026/10/verificacion-de-datos-flavio-bolsonaro-llorando-derrota-electoral-brasil-video-publicado-antes-resultados.html"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4HN663",
@@ -1020,6 +1140,18 @@
   "url": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/"
  },
  {
+  "id": "https://verifica.efe.com/flavio-bolsonaro-logia-masones-falso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Un video muestra al candidato presidencial brasileño Flávio Bolsonaro en una reunión de la Gran Logia Masónica jurando que, si gana, le entregará su país a Israel.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-20",
+  "checador": "EFE Verifica",
+  "selo": "Falso.",
+  "titulo": "Flávio Bolsonaro no juró entregar Brasil a Israel a unos masones",
+  "data_checagem": "2026-10-21",
+  "url": "https://verifica.efe.com/flavio-bolsonaro-logia-masones-falso/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/21/video-e-do-cirio-de-nazare-nao-de-ato-em-apoio-a-flavio-bolsonaro.amp.htm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo de ato em apoio a Flávio Bolsonaro mostra multidão em Minas Gerais",
@@ -1066,6 +1198,18 @@
   "titulo": "Notícia sobre venda de pele de frango foi feita no governo Bolsonaro, não na gestão Lula",
   "data_checagem": "2026-10-21",
   "url": "https://checamos.afp.com/doc.afp.com.D3Z82G3"
+ },
+ {
+  "id": "https://www.fastcheck.cl/2026/10/20/la-mujer-que-acompana-a-flavio-bolsonaro-en-multiples-actividades-de-campana-fue-generada-con-inteligencia-artificial/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "La mujer que acompaña a Flávio Bolsonaro en múltiples actividades de campaña fue generada con Inteligencia Artificial",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "Fast Check",
+  "selo": "Falso",
+  "titulo": "La mujer que acompaña a Flávio Bolsonaro en múltiples ...",
+  "data_checagem": "2026-10-20",
+  "url": "https://www.fastcheck.cl/2026/10/20/la-mujer-que-acompana-a-flavio-bolsonaro-en-multiples-actividades-de-campana-fue-generada-con-inteligencia-artificial/"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/20/e-falso-que-pcc-e-cv-declararam-apoio-a-lula.amp.htm",
@@ -1632,6 +1776,18 @@
   "url": "https://www.aosfatos.org/noticias/video-cirio-nazare-ato-flavio/"
  },
  {
+  "id": "https://verifica.efe.com/lula-da-silva-dijo-mantener-brasilenos-pobreza/",
+  "termo": "Lula",
+  "afirmacao": "Un video muestra al presidente de Brasil y candidato a la reelección, Luiz Inácio Lula da Silva, afirmando que quiere mantener a los brasileños en la pobreza para perpetuarse en el poder, tras decir \"quiero una sociedad de clase media baja\" durante una entrevista.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-15",
+  "checador": "EFE Verifica",
+  "selo": "Falso.",
+  "titulo": "Lula no dijo que quiere mantener a los brasileños en la pobreza",
+  "data_checagem": "2026-10-16",
+  "url": "https://verifica.efe.com/lula-da-silva-dijo-mantener-brasilenos-pobreza/"
+ },
+ {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/posts-no-x-distorcem-atos-pro-lula-na-paulista-e-em-copacabana/",
   "termo": "Lula",
   "afirmacao": "Petistas manipulam imagens para bombar público em manifestações, que teria sido pequeno",
@@ -1884,6 +2040,18 @@
   "url": "https://www.aosfatos.org/noticias/imagem-de-trabalhadora-limpando-metro-na-paulista-foi-alterada-por-ia/"
  },
  {
+  "id": "https://observador.pt/factchecks/fact-check-militares-e-aeronaves-dos-estados-unidos-foram-vistos-no-brasil-na-vespera-da-primeira-volta-das-eleicoes-presidenciais/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "AERONAVES E MILITARES AMERICANOS NO BRASIL ÀS VÉSPERAS DAS ELEIÇÕES: O QUE ESTÁ ACONTECENDO? A presença de aeronaves e militares dos Estados Unidos em território brasileiro, durante a reta final do calendário eleitoral, chamou a atenção nas redes sociais e levantou questionamentos sobre a finalidade",
+  "quem_disse": "Utilizador do Facebook",
+  "data_afirmacao": "2026-10-04",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Aeronaves dos EUA foram vistas no Brasil antes de eleições?",
+  "data_checagem": "2026-10-12",
+  "url": "https://observador.pt/factchecks/fact-check-militares-e-aeronaves-dos-estados-unidos-foram-vistos-no-brasil-na-vespera-da-primeira-volta-das-eleicoes-presidenciais/"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-exibiu-imagem-de-donald-trump-vestido-de-santo-durante-comicio/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vejam a falsidade do vagabundo",
@@ -1894,6 +2062,30 @@
   "titulo": "Fact Check. Flávio Bolsonaro exibiu imagem de Donald Trump ...",
   "data_checagem": "2026-10-12",
   "url": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-exibiu-imagem-de-donald-trump-vestido-de-santo-durante-comicio/"
+ },
+ {
+  "id": "https://grupoanimal.mx/verificacion-viral/flavio-bolsonaro-brasil-logia-masonica",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "El candidato de extrema derecha brasileño, Flávio Bolsonaro, jura ante l...",
+  "quem_disse": "Redes Sociales",
+  "data_afirmacao": null,
+  "checador": "Animal Político",
+  "selo": "Falso",
+  "titulo": "No es Flávio Bolsonaro ni juró entregar Brasil a “Satanás” ni a Israel ...",
+  "data_checagem": "2026-10-12",
+  "url": "https://grupoanimal.mx/verificacion-viral/flavio-bolsonaro-brasil-logia-masonica"
+ },
+ {
+  "id": "https://verifica.efe.com/lula-da-silva-no-arrojo-al-suelo-la-bandera-de-brasil-despues-de-votar/",
+  "termo": "Lula",
+  "afirmacao": "Luiz Inácio Lula da Silva, presidente de Brasil y candidato a la reelección, lanzó al suelo la bandera de su país tras haberse tomado una foto después de ejercer su derecho al voto.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-09",
+  "checador": "EFE Verifica",
+  "selo": "Falso.",
+  "titulo": "Lula no arrojó al suelo la bandera de Brasil después de votar",
+  "data_checagem": "2026-10-10",
+  "url": "https://verifica.efe.com/lula-da-silva-no-arrojo-al-suelo-la-bandera-de-brasil-despues-de-votar/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/pcc-comando-vermelho-apoio-lula-falso/",
@@ -1930,6 +2122,18 @@
   "titulo": "Corinthians não declarou apoio a Flávio Bolsonaro",
   "data_checagem": "2026-10-09",
   "url": "https://www.aosfatos.org/noticias/corinthians-apoio-flavio-bolsonaro-falso/"
+ },
+ {
+  "id": "https://espanol.leadstories.com/fact-check/2026/10/verificacion-de-datos-flavio-bolsonaro-logia-masonica-gran-israel-satanas-video-falso.html",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "El candidato Flavio Bolsonaro jura que, si gana las elecciones, entregará el país al “Gran Israel” y a su dios, Satanás.",
+  "quem_disse": "x.com",
+  "data_afirmacao": "2026-10-09",
+  "checador": "Lead Stories",
+  "selo": "El Papá",
+  "titulo": "Verificación de Datos: Video NO Muestra a Flávio Bolsonaro en ...",
+  "data_checagem": "2026-10-09",
+  "url": "https://espanol.leadstories.com/fact-check/2026/10/verificacion-de-datos-flavio-bolsonaro-logia-masonica-gran-israel-satanas-video-falso.html"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D2TQ6ZR",
@@ -2040,6 +2244,18 @@
   "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-flavio-bolsonaro-telling-a-masonic-lodge-he-would-give-brazil-to-greater-israel-and-satan.html"
  },
  {
+  "id": "https://factual.afp.com/doc.afp.com.D2NV4WG",
+  "termo": "Lula",
+  "afirmacao": "Lula fue detenido por lavado de dinero en su juventud",
+  "quem_disse": "Varias fuentes",
+  "data_afirmacao": "2026-10-03",
+  "checador": "AFP Factual",
+  "selo": "Engañoso",
+  "titulo": "Lula da Silva fue preso en 1980 por encabezar una huelga sindical ...",
+  "data_checagem": "2026-10-08",
+  "url": "https://factual.afp.com/doc.afp.com.D2NV4WG"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D2NV4WF",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Flávio ter recebido menos votos que senadores do PL é indício de fraude",
@@ -2122,6 +2338,54 @@
   "titulo": "Lula não gastou R$ 7 bilhões em viagens pessoais",
   "data_checagem": "2026-10-05",
   "url": "https://www.aosfatos.org/noticias/lula-7-bilhoes-viagens/"
+ },
+ {
+  "id": "https://grupoanimal.mx/verificacion-viral/lula-da-silva-bandera-brasil-elecciones",
+  "termo": "Lula",
+  "afirmacao": "Lula tira la bandera de Brasil al suelo después de votar. Si fuese la ba...",
+  "quem_disse": "Redes Sociales",
+  "data_afirmacao": null,
+  "checador": "Animal Político",
+  "selo": "Falso",
+  "titulo": "Lula da Silva no tiró la bandera de Brasil al suelo tras votar en las ...",
+  "data_checagem": "2026-10-05",
+  "url": "https://grupoanimal.mx/verificacion-viral/lula-da-silva-bandera-brasil-elecciones"
+ },
+ {
+  "id": "https://factual.afp.com/doc.afp.com.D29X8KE",
+  "termo": "Lula",
+  "afirmacao": "El mandatario brasileño, Luiz Inácio Lula da Silva, arrojó al suelo la bandera de Brasil después de votar.",
+  "quem_disse": "Varias fuentes",
+  "data_afirmacao": "2026-10-04",
+  "checador": "AFP Factual",
+  "selo": "Falso",
+  "titulo": "El mandatario brasileño Lula da Silva le dio la bandera de Brasil a ...",
+  "data_checagem": "2026-10-05",
+  "url": "https://factual.afp.com/doc.afp.com.D29X8KE"
+ },
+ {
+  "id": "https://factual.afp.com/doc.afp.com.D29P2KE",
+  "termo": "Lula",
+  "afirmacao": "El mandatario brasileño, Luiz Inácio Lula da Silva, arrojó al suelo la bandera de Brasil después de votar.",
+  "quem_disse": "Varias fuentes",
+  "data_afirmacao": "2026-10-04",
+  "checador": "AFP Factual",
+  "selo": "Falso",
+  "titulo": "El presidente brasileño Lula no tiró al suelo la bandera de Brasil ...",
+  "data_checagem": "2026-10-05",
+  "url": "https://factual.afp.com/doc.afp.com.D29P2KE"
+ },
+ {
+  "id": "https://colombiacheck.com/chequeos/el-video-de-lula-sobre-los-controles-de-salud-no-dijo-que-las-mujeres-les-gusta-que-las",
+  "termo": "Lula",
+  "afirmacao": "Lula dijo: “a las mujeres les gustan que las toquen desde chiquitas\"",
+  "quem_disse": null,
+  "data_afirmacao": null,
+  "checador": "ColombiaCheck",
+  "selo": "Falso",
+  "titulo": "El video de Lula sobre los controles de salud: no dijo que “a las ...",
+  "data_checagem": "2026-10-05",
+  "url": "https://colombiacheck.com/chequeos/el-video-de-lula-sobre-los-controles-de-salud-no-dijo-que-las-mujeres-les-gusta-que-las"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-ia-flavio-direitos-trabalhistas/",
@@ -2306,7 +2570,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2316,11 +2580,35 @@
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
  },
  {
+  "id": "https://verifica.efe.com/falso-lula-no-dijo-que-a-las-mujeres-disfrutan-ser-tocadas-desde-pequenas/",
+  "termo": "Lula",
+  "afirmacao": "El presidente de Brasil y candidato a la reelección, Luiz Inácio Lula da Silva, dijo que a las mujeres \"les gusta ser tocadas desde pequeñas\" durante un mitin en la ciudad de Belén.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-02",
+  "checador": "EFE Verifica",
+  "selo": "Falso.",
+  "titulo": "Lula no dijo que las mujeres disfrutan ser tocadas desde pequeñas ...",
+  "data_checagem": "2026-10-02",
+  "url": "https://verifica.efe.com/falso-lula-no-dijo-que-a-las-mujeres-disfrutan-ser-tocadas-desde-pequenas/"
+ },
+ {
+  "id": "https://verifica.efe.com/bolsonaro-quitarle-titulo-virgen-aparecida-falso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "El candidato presidencial brasileño Flávio Bolsonaro prometió quitarle el título de patrona de Brasil a la Virgen de Aparecida si gana las elecciones.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-02",
+  "checador": "EFE Verifica",
+  "selo": "Falso.",
+  "titulo": "Bolsonaro no va a quitarle el patronato a la Virgen de Aparecida",
+  "data_checagem": "2026-10-02",
+  "url": "https://verifica.efe.com/bolsonaro-quitarle-titulo-virgen-aparecida-falso/"
+ },
+ {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -2510,12 +2798,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -2542,6 +2830,18 @@
   "titulo": "Fact Check. Trump diz que \"fará com Lula o que fez com Maduro\"?",
   "data_checagem": "2026-09-29",
   "url": "https://observador.pt/factchecks/fact-check-trump-diz-que-fara-com-lula-o-que-fez-com-maduro/"
+ },
+ {
+  "id": "https://factual.afp.com/doc.afp.com.C9QD39L",
+  "termo": "Lula",
+  "afirmacao": "Lula dijo que \"a las mujeres les gusta que las toquen desde chiquitas\"",
+  "quem_disse": "Varias fuentes",
+  "data_afirmacao": "2026-09-29",
+  "checador": "AFP Factual",
+  "selo": "Falso",
+  "titulo": "Video de Lula sobre la prevención del cáncer de próstata es ...",
+  "data_checagem": "2026-09-29",
+  "url": "https://factual.afp.com/doc.afp.com.C9QD39L"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.C9QC2WE",
@@ -2990,7 +3290,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -3711,8 +4011,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -7294,6 +7594,18 @@
   "titulo": "Flávio foi filiado ao Missão, mas conseguiu registrar candidatura pelo PL",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/08/20/candidatura-tse-pl-flavio-bolsonaro-filiacao-missao.ghtm"
+ },
+ {
+  "id": "https://cotejo.info/2026/10/falso-lula-no-anuncio-prohibicion-facebook-tiktok-instagram-twitter/",
+  "termo": "Lula",
+  "afirmacao": "Es falso que Lula da Silva anunció que prohibirá Twitter, Instagram, TikTok y Facebook",
+  "quem_disse": "Mensaje viral",
+  "data_afirmacao": "2026-10-29",
+  "checador": "Cotejo.info",
+  "selo": "Falso",
+  "titulo": "Es falso que Lula da Silva anunció que prohibirá Twitter, Instagram ...",
+  "data_checagem": null,
+  "url": "https://cotejo.info/2026/10/falso-lula-no-anuncio-prohibicion-facebook-tiktok-instagram-twitter/"
  },
  {
   "id": "https://acervo.estadao.com.br/estadao-verifica/janja-nem-deus-tira-essa-eleicao-de-lula-falso/",
