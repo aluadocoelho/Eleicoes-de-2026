@@ -4187,6 +4187,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "8639-82C5",
+  "conjunto": "boatos",
+  "id": "b151",
+  "registro": {
+   "id": "b151",
+   "data": "2026-11-05",
+   "alvo": "Lula",
+   "boato": "Vídeo mostraria moradores de Fortaleza buscando comida em caminhão de lixo depois da reeleição de Lula",
+   "veredito": "É falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "As imagens são de outubro de 2021, no governo Bolsonaro, segundo reportagens do g1 encontradas por busca reversa. As pessoas usam máscaras, o que indica o período da pandemia. O Brasil saiu do Mapa da Fome em 2025, segundo o relatório SOFI da ONU.",
+   "url": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Fome e miséria"
+  },
+  "primeira_vez": "2026-11-05T22:30:15Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "839B-19CC",
   "conjunto": "boatos",
   "id": "b16",
