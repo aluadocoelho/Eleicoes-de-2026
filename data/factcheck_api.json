@@ -1,5 +1,53 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
+  "termo": "Lula",
+  "afirmacao": "Enquanto Lula e Janja se lançam em nova tour internacional, com o fruto no “NOSSO TRABALHO”, moradores de Fortaleza procuram comida no CAMINHÃO DE LIXO.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-05",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Vídeo de pessoas buscando comida em caminhão de lixo não é ...",
+  "data_checagem": "2026-11-05",
+  "url": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/",
+  "termo": "Lula",
+  "afirmacao": "Declaração: Cidades que até os mortos votaram em Lula: Porto da Pedra, Pernambuco, habitantes 6.122, Lula 8.090 votos. Poço das Antas, Pernambuco, habitantes 4.342, Lula 5.873 votos. Xique-Xique, Bahia, habitantes Lula, 64.805 votos. Barragem, Bahia. Habitantes, 25.687. Lula, 31.338 votos. Nova Liberdade, Bahia. Habitantes, 11.026. Lula, 16.192 votos. Nova Açores, Bahia. Habitantes, 9.622. Lula, 12.351 votos. Guanambim, Bahia. habitantes 19.764, Lula 22.538 votos, Joaçaba, Bahia, habitantes 6.142, Lula 6.984 votos, Antas, Bahia, habitantes 11.434, Lula 18.001 votos.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-05",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falsa lista de cidades que registraram mais votos que habitantes",
+  "data_checagem": "2026-11-05",
+  "url": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Às 17h, Flávio Bolsonaro já era presidente, confirma relatório",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que relatório prove vitória de Flávio Bolsonaro até as 17h",
+  "data_checagem": "2026-11-05",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D6KL2WE",
+  "termo": "Lula",
+  "afirmacao": "Após a eleição de 2026 Lula sanciona lei que corta auxílio-reclusão e revolta eleitores",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-30",
+  "checador": "AFP Checamos",
+  "selo": "Enganoso",
+  "titulo": "Governo Lula restringiu o auxílio-reclusão em março, não após ...",
+  "data_checagem": "2026-11-05",
+  "url": "https://checamos.afp.com/doc.afp.com.D6KL2WE"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/",
   "termo": "Lula",
   "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até Escala 6 por 1",
@@ -290,11 +338,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -830,7 +878,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -2678,11 +2726,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2906,7 +2954,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3398,8 +3446,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
