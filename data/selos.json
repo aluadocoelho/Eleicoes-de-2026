@@ -4103,6 +4103,27 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "DC21-F777",
+  "conjunto": "boatos",
+  "id": "b149",
+  "registro": {
+   "id": "b149",
+   "data": "2026-11-04",
+   "alvo": "Lula",
+   "boato": "Reportagem mostraria nordestinos revoltados com o bloqueio do auxílio-gás pelo governo Lula até dezembro",
+   "veredito": "É falso",
+   "agencia": "Aos Fatos",
+   "explicacao": "O Gás do Povo não foi suspenso, segundo o Ministério do Desenvolvimento Social e a Caixa. As imagens são de uma reportagem da Record Bahia de pelo menos abril de 2023 e mostram a espera pelo recadastramento no Cadastro Único.",
+   "url": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Auxílio-gás"
+  },
+  "primeira_vez": "2026-11-05T11:31:21Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "46E9-68AB",
   "conjunto": "boatos",
   "id": "b15",
@@ -4142,6 +4163,27 @@
    "tema": "Segurança"
   },
   "primeira_vez": "2026-10-19T09:45:42Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "A71E-717D",
+  "conjunto": "boatos",
+  "id": "b150",
+  "registro": {
+   "id": "b150",
+   "data": "2026-11-04",
+   "alvo": "Lula",
+   "boato": "As urnas teriam um código que transfere votos de um candidato para outro depois das 17h01, o que explicaria a diferença a favor de Lula",
+   "veredito": "Publicações enganosas",
+   "agencia": "Aos Fatos",
+   "explicacao": "Não há prova do código nem de votos transferidos. O TSE diz que o software da urna passa por auditoria e é assinado digitalmente, e os códigos ficaram abertos à análise de outubro de 2025 a setembro de 2026.",
+   "url": "https://www.aosfatos.org/noticias/urnas-roubar-votos-apos-17h01/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Urnas após 17h"
+  },
+  "primeira_vez": "2026-11-05T11:31:21Z",
   "ainda_publicado": true
  },
  {
