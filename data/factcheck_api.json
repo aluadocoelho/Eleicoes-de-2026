@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/",
+  "termo": "Lula",
+  "afirmacao": "PEC da Segurança Pública dá o controle total das polícias para Lula",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-06",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "PEC da Segurança Pública não transfere controle das forças ...",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula defendeu prisão para trabalhadores e proteção a bandidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lula não defendeu proteção a bandidos e prisão para trabalhadores",
+  "data_checagem": "2026-11-06",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
   "termo": "Lula",
   "afirmacao": "Enquanto Lula e Janja se lançam em nova tour internacional, com o fruto no “NOSSO TRABALHO”, moradores de Fortaleza procuram comida no CAMINHÃO DE LIXO.",
@@ -7,9 +31,21 @@
   "data_afirmacao": "2026-11-05",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo de pessoas buscando comida em caminhão de lixo não é ...",
+  "titulo": "Vídeo de pessoas buscando comida em caminhão de lixo não é posterior à reeleição de Lula",
   "data_checagem": "2026-11-05",
   "url": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/reportagem-gasolina-marco-2026/",
+  "termo": "Lula",
+  "afirmacao": "Gasolina está sendo vendida a R$ 9,29 em São Paulo",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-05",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Reportagem sobre gasolina a quase R$ 10 em SP é de março de ...",
+  "data_checagem": "2026-11-05",
+  "url": "https://www.aosfatos.org/noticias/reportagem-gasolina-marco-2026/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/",
@@ -22,6 +58,18 @@
   "titulo": "É falsa lista de cidades que registraram mais votos que habitantes",
   "data_checagem": "2026-11-05",
   "url": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/"
+ },
+ {
+  "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereador-usa-imagens-descontextualizadas-para-associar-vitoria-de-lula-a-comemoracoes-de-traficantes/",
+  "termo": "Lula",
+  "afirmacao": "Presidiários e traficantes estão com Lula",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-10-26",
+  "checador": "Projeto Comprova",
+  "selo": "Enganoso",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de ...",
+  "data_checagem": "2026-11-05",
+  "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereador-usa-imagens-descontextualizadas-para-associar-vitoria-de-lula-a-comemoracoes-de-traficantes/"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.amp.htm",
@@ -43,7 +91,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Governo Lula restringiu o auxílio-reclusão em março, não após ...",
+  "titulo": "Governo Lula restringiu o auxílio-reclusão em março, não após vitória nas eleições de 2026",
   "data_checagem": "2026-11-05",
   "url": "https://checamos.afp.com/doc.afp.com.D6KL2WE"
  },
@@ -2750,7 +2798,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2787,8 +2835,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3470,7 +3518,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4191,8 +4239,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5182,6 +5230,18 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo de Jair Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Às 17h, Flávio Bolsonaro já era presidente, confirma relatório",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que relatório prove vitória de Flávio Bolsonaro até as 17h",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/04/trump-flavio-preso.ghtm",
@@ -6622,6 +6682,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula anunciou corte de 670,4 beneficiários do BPC após se reeleger",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Governo Lula não anunciou corte de 670 mil beneficiários do BPC",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Às 17h, Flávio Bolsonaro já era presidente, confirma relatório",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que relatório prove vitória de Flávio Bolsonaro até as 17h",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/trump-flavio-preso.ghtm",
