@@ -79,7 +79,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Fact Check. Flávio Bolsonaro chorou após resultados das eleições ...",
+  "titulo": "Fact Check. Flávio Bolsonaro chorou após resultados das eleições no Brasil?",
   "data_checagem": "2026-11-04",
   "url": "https://observador.pt/factchecks/fact-check-flavio-bolsonaro-chorou-apos-resultados-das-eleicoes-no-brasil/"
  },
@@ -103,7 +103,7 @@
   "data_afirmacao": "2026-10-28",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo de greve de professores é de setembro e não mostra ...",
+  "titulo": "Vídeo de greve de professores é de setembro e não mostra reivindicação contra suposto corte de 6 bilhões",
   "data_checagem": "2026-11-04",
   "url": "https://checamos.afp.com/doc.afp.com.D6G329H"
  },
@@ -127,7 +127,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Vídeo de imigrantes brasileiros a caminho do Paraguai é anterior à ...",
+  "titulo": "Vídeo de imigrantes brasileiros a caminho do Paraguai é anterior à reeleição de Lula em 2026",
   "data_checagem": "2026-11-04",
   "url": "https://checamos.afp.com/doc.afp.com.D6F28WE"
  },
@@ -139,9 +139,21 @@
   "data_afirmacao": "2026-11-02",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Lista de cidades com “mais votos em Lula que habitantes” é falsa e ...",
+  "titulo": "Lista de cidades com “mais votos em Lula que habitantes” é falsa e circula desde 2022",
   "data_checagem": "2026-11-04",
   "url": "https://checamos.afp.com/doc.afp.com.D6EQ9WF"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Lula e Flávio Bolsonaro tiveram a mesma votação em todas as zonas eleitorais de Brasília (DF)",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que Lula e Flávio tiveram a mesma votação em todas as zonas de Brasília",
+  "data_checagem": "2026-11-03",
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/governo-lula-nao-proibiu-desenhos-biblicos/",
@@ -157,13 +169,13 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Lula e Flávio Bolsonaro tiveram a mesma votação em todas as zonas eleitorais de Brasília (DF)",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
   "checador": "UOL Notícias",
   "selo": "Falso",
-  "titulo": "É falso que Lula e Flávio tiveram a mesma votação em todas as ...",
+  "titulo": "É falso que Lula e Flávio tiveram a mesma votação em todas as zonas de Brasília",
   "data_checagem": "2026-11-03",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm"
  },
@@ -338,11 +350,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -878,7 +890,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -1577,7 +1589,7 @@
   "afirmacao": "Bloco do 22 com Flávio Bolsonaro em Minas Gerais no dia 15 de outubro",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-16",
-  "checador": "Checamos AFP",
+  "checador": "AFP Checamos",
   "selo": "Falso",
   "titulo": "Registro do Círio de Nazaré é falsamente associado a manifestação pró-Bolsonaro em Minas",
   "data_checagem": "2026-10-19",
@@ -1992,6 +2004,18 @@
   "url": "https://www.votoporideias.com.br/checagens/lula-acabou-com-a-fome-em-2014-2e113c"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/lula-78-da-populacao-endividada-ede875",
+  "termo": "Lula",
+  "afirmacao": "78% da população endividada",
+  "quem_disse": "Lula",
+  "data_afirmacao": "2026-10-15",
+  "checador": "Voto por Ideias",
+  "selo": "Falta contexto",
+  "titulo": "“78% da população endividada”: o que a Agência Lupa concluiu",
+  "data_checagem": "2026-10-15",
+  "url": "https://www.votoporideias.com.br/checagens/lula-78-da-populacao-endividada-ede875"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/lula-6-mil-obras-paralisadas-7b26a8",
   "termo": "Lula",
   "afirmacao": "6 mil obras paralisadas",
@@ -2165,7 +2189,7 @@
   "afirmacao": "“Lula: ‘Mulher é que nem milho, nasceu pelinho já pode comer”",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-07",
-  "checador": "Checamos AFP",
+  "checador": "AFP Checamos",
   "selo": "Falso",
   "titulo": "Lula não disse que \"mulher é que nem milho\"; publicação que simula notícia do g1 é falsa",
   "data_checagem": "2026-10-13",
@@ -2309,7 +2333,7 @@
   "afirmacao": "Mapa mostra que Flávio Bolsonaro ganhou a eleição com 54,98%",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-05",
-  "checador": "Checamos AFP",
+  "checador": "AFP Checamos",
   "selo": "Falso",
   "titulo": "Mapa viral distorce resultados de Flávio e Lula no primeiro turno das eleições de 2026",
   "data_checagem": "2026-10-09",
@@ -2450,7 +2474,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -2726,11 +2750,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -2954,7 +2978,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3446,8 +3470,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -5160,6 +5184,30 @@
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/04/trump-flavio-preso.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Donald Trump declara saber que tentaram prender Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Trump não disse que tentaram prender Flávio agora; fala confusa é de junho",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/04/trump-flavio-preso.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo mostra militares de forças especiais americanas gargalhando após operação que resgatou o PRESIDENTE Flávio Bolsonaro e o levou seguro aos USA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra bastidores de uma série, e não ?resgate de Flávio por militares dos EUA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/03/enganoso-governo-lula-bloqueio-farmacia-popular-gas-povo-2026.ghtm",
   "termo": "Lula",
   "afirmacao": "Governo Lula bloqueou Farmácia Popular e Auxílio Gás após as eleições",
@@ -5242,6 +5290,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula anuncia cortes de R$ 6 bilhões na Saúde e Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm",
@@ -5650,6 +5710,18 @@
   "titulo": "Deputada nega post sobre fechar igrejas divulgado por Nikolas Ferreira",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/16/deputada-nega-post-sobre-fechar-igrejas-divulgado-por-nikolas-ferreira.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/16/deputada-nega-post-sobre-fechar-igrejas-divulgado-por-nikolas-ferreira.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Deputada Ana Elisa publicou em seu perfil do X, pedindo para Lula (PT) fechar as igrejas e que \"crente só faz m****\"",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Enganoso",
+  "titulo": "Deputada nega post sobre fechar igrejas divulgado por Nikolas Ferreira",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/16/deputada-nega-post-sobre-fechar-igrejas-divulgado-por-nikolas-ferreira.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/14/lula-nao-disse-que-criminosos-roubam-para-tomar-cerveja-video-e-editado.ghtm",
@@ -6228,6 +6300,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra comício de Lula lotado em Florianópolis (SC)",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo é de ato contra PL da Dosimetria no Rio, e não comício de Lula em SC",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra comício de Lula lotado em Florianópolis (SC)",
@@ -6370,6 +6454,18 @@
   "titulo": "Vídeo que mostra ato da esquerda em Copacabana é de 2025, e não atual",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/16/e-de-2025-video-que-mostra-ato-da-esquerda-em-copacabana.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/16/e-de-2025-video-que-mostra-ato-da-esquerda-em-copacabana.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Ato da esquerda em apoio aos presidente Lula reuniu 41, 8 mil pessoas",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo que mostra ato da esquerda em Copacabana é de 2025, e não atual",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/16/e-de-2025-video-que-mostra-ato-da-esquerda-em-copacabana.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/10/video-engana-com-comparacao-de-publico-no-7-de-setembro.htm?t={seek_to_second_number}",
@@ -6526,6 +6622,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/trump-flavio-preso.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Donald Trump declara saber que tentaram prender Flávio Bolsonaro",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Trump não disse que tentaram prender Flávio agora; fala confusa é de junho",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/trump-flavio-preso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo mostra militares de forças especiais americanas gargalhando após operação que resgatou o PRESIDENTE Flávio Bolsonaro e o levou seguro aos USA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra bastidores de uma série, e não ?resgate de Flávio por militares dos EUA",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.ghtm",
@@ -7870,6 +7990,90 @@
   "titulo": "Es falso que Lula da Silva anunció que prohibirá Twitter, Instagram ...",
   "data_checagem": null,
   "url": "https://cotejo.info/2026/10/falso-lula-no-anuncio-prohibicion-facebook-tiktok-instagram-twitter/"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/f44ae9b93e268d7884668893ae5bd67e",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Você [Lula] foi condenado por ocultação de patrimônio.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Impreciso",
+  "titulo": "Você [Lula] foi condenado por ocultação de pat",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/f44ae9b93e268d7884668893ae5bd67e"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/d2864f5f8abd9afeaddba48be42b6bec",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Você que recebe Bolsa Família, você foi esquecido pela atual governo por 4 anos. Sabe quando ele lembrou de você? Há 17 dias. E te deu um reajuste de 3 reais por dia.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Impreciso",
+  "titulo": "Você que recebe Bolsa Família, você foi esquec",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/d2864f5f8abd9afeaddba48be42b6bec"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/b6454c51e8f29ed68c2e9531efef3546",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Você [Lula] é contra classificar Comando Vermelho, PCC e milícias como organizações terroristas.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Verdadeiro",
+  "titulo": "Você [Lula] é contra classificar Comando Verme",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/b6454c51e8f29ed68c2e9531efef3546"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/9404f2da3298ea1ff65c768c478864f4",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Bom, nós pegamos o Brasil lá em 2019 com cerca de 14 mil obras inacabadas e, apesar de todos os problemas, a gente entregou o Brasil com um pouco mais de 8 mil obras inacabadas.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Impreciso",
+  "titulo": "Bom, nós pegamos o Brasil lá em 2019 com cerca",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/9404f2da3298ea1ff65c768c478864f4"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/8b309ecf3e698c0ea4bbe08eb9810396",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Como na época do presidente Bolsonaro, você tinha lá os seus 600 reais de Bolsa Família, que foi o Bolsonaro que deu no mínimo 600 reais, e você conseguia encher um carrinho de compra.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Falso",
+  "titulo": "Como na época do presidente Bolsonaro, você ti",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/8b309ecf3e698c0ea4bbe08eb9810396"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/7fd567bee1a352f7214adb20cf43c8ef",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Você não vai precisar mais andar centenas de quilômetros, muitas vezes, pra poder se habilitar a receber a sua aposentadoria. Você não vai precisar ficar mais tanto tempo na fila, porque eu vou garantir isso na palma da sua mão.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Falso",
+  "titulo": "Você não vai precisar mais andar centenas de q",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/7fd567bee1a352f7214adb20cf43c8ef"
+ },
+ {
+  "id": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/17e325fba10392e3931b96b9d1c6ed3c",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Como começou a fazer o presidente Bolsonaro, nós instalamos mais de 21 mil e 300 pontos de internet em vários locais do Brasil atingindo mais de 3 mil e 100 cidades atendendo a mais de 11 milhões de brasileiros",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-22",
+  "checador": "AletheiaFact.org",
+  "selo": "Verdadeiro",
+  "titulo": "Como começou a fazer o presidente Bolsonaro, n",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/17e325fba10392e3931b96b9d1c6ed3c"
  },
  {
   "id": "https://acervo.estadao.com.br/estadao-verifica/janja-nem-deus-tira-essa-eleicao-de-lula-falso/",
