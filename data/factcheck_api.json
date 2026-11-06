@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra servidores do INSS criticando Lula após eleições",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-06",
+  "checador": "Aos Fatos",
+  "selo": "não_é_bem_assim",
+  "titulo": "Vídeo de servidores do INSS criticando Lula é de 2024, não de 2026",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/",
+  "termo": "Lula",
+  "afirmacao": "Petistas, estão revoltados, por quê o presidente Lula? Teve que fazer cortes em Bolsa Família vale gás e outros benefícios que o governo se dispõe para o brasileiro mais carente",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-06",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que vídeo mostre protesto após supostos cortes no Bolsa ...",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/",
   "termo": "Lula",
   "afirmacao": "PEC da Segurança Pública dá o controle total das polícias para Lula",
@@ -22,6 +46,18 @@
   "titulo": "Lula não defendeu proteção a bandidos e prisão para trabalhadores",
   "data_checagem": "2026-11-06",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D6P489E",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Mulher que colou cartazes contra Flávio Bolsonaro em NY foi deportada",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-03",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "É falso que vídeo mostre a deportação de brasileira que colou ...",
+  "data_checagem": "2026-11-06",
+  "url": "https://checamos.afp.com/doc.afp.com.D6P489E"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
@@ -398,11 +434,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -2113,7 +2149,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -2497,7 +2533,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/queda-percentual-flavio-apuracao-fraude/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Redução do percentual de Flávio e aumento no de Lula indica fraude eleitoral",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
@@ -2798,7 +2834,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2835,8 +2871,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3518,7 +3554,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4239,8 +4275,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
