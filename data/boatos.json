@@ -2112,5 +2112,47 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Fome e miséria"
+ },
+ {
+  "id": "b152",
+  "data": "2026-11-06",
+  "alvo": "Lula",
+  "boato": "A PEC da Segurança Pública daria a Lula o controle total das polícias",
+  "veredito": "Enganoso",
+  "agencia": "Aos Fatos",
+  "explicacao": "O texto aprovado pelo Senado mantém as polícias militares, civis, penais e de bombeiros subordinadas aos governadores. A PEC coloca o Susp na Constituição e amplia a cooperação entre União, estados e municípios. Os posts somavam ao menos 7,5 milhões de visualizações no Instagram e 100 mil no X até 5 de novembro.",
+  "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica quem publicou os posts.",
+  "tema": "Segurança pública"
+ },
+ {
+  "id": "b153",
+  "data": "2026-11-04",
+  "alvo": "Lula",
+  "boato": "Vídeo mostraria gasolina a R$ 9,29 em São Paulo depois da reeleição de Lula",
+  "veredito": "Falta contexto",
+  "agencia": "Lupa",
+  "explicacao": "A reportagem do SBT foi exibida em 16 de março de 2026 e tratava de gasolina premium aditivada. Entre 25 e 31 de outubro, a gasolina comum custou em média R$ 6,35 em São Paulo, segundo dados da Petrobras com base na ANP. O Aos Fatos também checou e chegou à mesma conclusão.",
+  "url": "https://www.agencialupa.org/verificacao/2026/11/04/video-de-posto-com-gasolina-a-r-929-em-sp-e-de-marco/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Preço dos combustíveis"
+ },
+ {
+  "id": "b154",
+  "data": "2026-10-31",
+  "alvo": "Lula",
+  "boato": "Vídeo mostraria Lula dizendo \"para o povo trabalhador, a prisão; para o bandido, a proteção\"",
+  "veredito": "Falso",
+  "agencia": "Boatos.org",
+  "explicacao": "Lula disse o contrário, em reunião com parlamentares em Brasília, em 7 de outubro de 2026: \"Para o povo trabalhador, a proteção. Para o bandido, a prisão.\" O vídeo usa imagem real com as duas partes da frase trocadas.",
+  "url": "https://www.boatos.org/politica/lula-disse-para-o-povo-trabalhador-a-prisao-e-para-o-bandido-a-protecao-em-comicio.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Segurança pública"
  }
 ]
