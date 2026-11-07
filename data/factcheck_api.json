@@ -31,7 +31,7 @@
   "data_afirmacao": "2026-11-06",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "PEC da Segurança Pública não transfere controle das forças ...",
+  "titulo": "PEC da Segurança Pública não transfere controle das forças policiais a Lula",
   "data_checagem": "2026-11-06",
   "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/"
  },
@@ -55,7 +55,7 @@
   "data_afirmacao": "2026-11-03",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que vídeo mostre a deportação de brasileira que colou ...",
+  "titulo": "É falso que vídeo mostre a deportação de brasileira que colou cartazes contra Flávio Bolsonaro em Nova York",
   "data_checagem": "2026-11-06",
   "url": "https://checamos.afp.com/doc.afp.com.D6P489E"
  },
@@ -434,7 +434,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -2533,7 +2533,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/queda-percentual-flavio-apuracao-fraude/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Redução do percentual de Flávio e aumento no de Lula indica fraude eleitoral",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
@@ -2558,7 +2558,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -2834,7 +2834,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2871,8 +2871,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3062,7 +3062,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3554,7 +3554,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4275,8 +4275,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5266,6 +5266,18 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo de Jair Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até dezembro de 2026 após reeleição",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Matéria não exibe fila por suposto bloqueio do Auxílio Gás; vídeo é de 2023",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm",
@@ -6718,6 +6730,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até dezembro de 2026 após reeleição",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Matéria não exibe fila por suposto bloqueio do Auxílio Gás; vídeo é de 2023",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula defendeu prisão para trabalhadores e proteção a bandidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lula não defendeu proteção a bandidos e prisão para trabalhadores",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.ghtm",
