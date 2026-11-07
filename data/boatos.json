@@ -2154,5 +2154,47 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Segurança pública"
+ },
+ {
+  "id": "b155",
+  "data": "2026-11-06",
+  "alvo": "Lula",
+  "boato": "Vídeo mostraria servidores do INSS criticando Lula depois das eleições de 2026",
+  "veredito": "Não é bem assim",
+  "agencia": "Aos Fatos",
+  "explicacao": "As imagens são de 4 de setembro de 2024, quando servidores em greve ocuparam a sede do INSS, em Brasília, contra descontos salariais. Descontos por dias de greve também ocorreram em 2022, e a postagem tinha cerca de 14 mil compartilhamentos no Facebook.",
+  "url": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica quem publicou as postagens.",
+  "tema": "Servidores do INSS"
+ },
+ {
+  "id": "b156",
+  "data": "2026-11-06",
+  "alvo": "Lula",
+  "boato": "Vídeo mostraria petistas em protesto por cortes no Bolsa Família e no vale-gás depois da reeleição",
+  "veredito": "Falso",
+  "agencia": "Aos Fatos",
+  "explicacao": "As imagens circulam desde setembro de 2026, antes da reeleição, e um perfil do Kwai de conteúdo feito com IA publicou o mesmo vídeo. Os programas não tiveram cortes, segundo o ministro Wellington Dias. A Reuters também checou o caso.",
+  "url": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "O Aos Fatos não identifica quem publicou as postagens.",
+  "tema": "Bolsa Família"
+ },
+ {
+  "id": "b157",
+  "data": "2026-11-06",
+  "alvo": "Flávio",
+  "boato": "Brasileira que colou cartazes de \"procurado\" com a foto de Flávio nos EUA teria sido presa e deportada",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Não há confirmação pública de que ela tenha sido detida ou deportada. A imagem das postagens mostra outro caso, de julho de 2025, em que mãe e filho foram presos na Flórida por motivos sem relação com ela. A AFP Checamos também classificou o boato como falso.",
+  "url": "https://www.boatos.org/politica/brasileira-que-espalhou-cartazes-contra-flavio-bolsonaro-nos-eua-foi-presa-e-deportada.html",
+  "beneficiado": "Lula",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Cartazes nos EUA"
  }
 ]
