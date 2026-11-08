@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até dezembro de 2026 após reeleição",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Reportagem não mostra fila por suposto bloqueio do Auxílio Gás",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra servidores do INSS criticando Lula após eleições",
@@ -19,7 +31,7 @@
   "data_afirmacao": "2026-11-06",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso que vídeo mostre protesto após supostos cortes no Bolsa ...",
+  "titulo": "É falso que vídeo mostre protesto após supostos cortes no Bolsa Família e vale-gás",
   "data_checagem": "2026-11-06",
   "url": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/"
  },
@@ -34,6 +46,18 @@
   "titulo": "PEC da Segurança Pública não transfere controle das forças policiais a Lula",
   "data_checagem": "2026-11-06",
   "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até dezembro de 2026 após reeleição",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Reportagem não mostra fila por suposto bloqueio do Auxílio Gás",
+  "data_checagem": "2026-11-06",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm",
@@ -70,6 +94,18 @@
   "titulo": "É falso que vídeo mostre a deportação de brasileira que colou cartazes contra Flávio Bolsonaro em Nova York",
   "data_checagem": "2026-11-06",
   "url": "https://checamos.afp.com/doc.afp.com.D6P489E"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula anunciou corte de 670,4 beneficiários do BPC após se reeleger",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Governo Lula não anunciou corte de 670 mil beneficiários do BPC",
+  "data_checagem": "2026-11-05",
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
@@ -115,7 +151,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Projeto Comprova",
   "selo": "Enganoso",
-  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de ...",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de Lula a comemorações de traficantes",
   "data_checagem": "2026-11-05",
   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereador-usa-imagens-descontextualizadas-para-associar-vitoria-de-lula-a-comemoracoes-de-traficantes/"
  },
@@ -446,7 +482,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -1908,6 +1944,18 @@
   "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-esta-dando-emprego-para-pessoas-02c7d3"
  },
  {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-ate-mesmo-entrou-na-justica-17b24c",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Disse que Lula até mesmo entrou na Justiça para garantir a volta da saidinha dos presos.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "Voto por Ideias",
+  "selo": "enganoso",
+  "titulo": "Disse que Lula até mesmo entrou na Justiça para…: o que o Estadão Verifica concluiu",
+  "data_checagem": "2026-10-18",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-disse-que-lula-ate-mesmo-entrou-na-justica-17b24c"
+ },
+ {
   "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-como-tem-no-atual-governo-que-faz-uma-4b52de",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "como tem no atual governo, que faz uma política de desencarceramento, que coloca nas ruas marginais perigosos, alegando que não tem vagas no sistema penitenciário.",
@@ -2161,7 +2209,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -2846,7 +2894,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2883,8 +2931,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3074,7 +3122,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3566,8 +3614,8 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
-  "quem_disse": "Flávio Bolsonaro",
+  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
   "selo": "falso",
@@ -4287,8 +4335,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5292,6 +5340,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula defendeu prisão para trabalhadores e proteção a bandidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Lula não defendeu proteção a bandidos e prisão para trabalhadores",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Às 17h, Flávio Bolsonaro já era presidente, confirma relatório",
@@ -5314,6 +5374,18 @@
   "titulo": "Trump não disse que tentaram prender Flávio agora; fala confusa é de junho",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/11/04/trump-flavio-preso.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo mostra militares de forças especiais americanas gargalhando após operação que resgatou o PRESIDENTE Flávio Bolsonaro e o levou seguro aos USA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra bastidores de uma série, e não ?resgate de Flávio por militares dos EUA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm",
@@ -5422,6 +5494,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Professores petistas entram em greve em menos de três dias após eleições, depois que Lula anunciou corte de 6 bilhões na Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra greve de professores encerrada antes do resultado eleitoral",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm",
@@ -5964,6 +6048,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.htm?t={seek_to_second_number}"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Ato pró-Lula na Paulista teve invocação a Satanás",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra Marcha para Exu, e não 'invocação a Satanás' em ato pró-Lula",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/13/falso-video-ato-lula-paulista-invocacao-satanas.ghtm",
   "termo": "Lula",
   "afirmacao": "Ato pró-Lula na Paulista teve invocação a Satanás",
@@ -6046,6 +6142,18 @@
   "titulo": "Posts manipulam frases de Lula para insinuar menosprezo a nordestinos",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-lula-frases-ofensivas-nordestinos.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-flavio-bolsonaro-venceu-eleicao-1o-turno.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro ganhou no 1º turno com 54,98%",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Posts usam cálculo incorreto para dizer que Flávio foi eleito no 1º turno",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-flavio-bolsonaro-venceu-eleicao-1o-turno.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/08/falso-flavio-bolsonaro-venceu-eleicao-1o-turno.ghtm",
@@ -6384,6 +6492,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/28/falso-lula-candomble-e-umbanda-nas-escolas-punicao-pais-que-recusarem.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/28/desinformacao-enganoso-video-antigo-daniela-lima-lula-desistir-reeleicao.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Daniela Lima disse que Lula vai desistir da eleição contra Flávio para não manchar sua biografia",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de Daniela Lima falando que Lula pode desistir da eleição é de abril",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/28/desinformacao-enganoso-video-antigo-daniela-lima-lula-desistir-reeleicao.ghtm"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/25/video-mostra-show-na-paraiba-nao-ato-de-flavio-bolsonaro.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Ato de Flávio Bolsonaro no Recife reúne multidão",
@@ -6442,6 +6562,18 @@
   "titulo": "Vídeo é de ato contra PL da Dosimetria no Rio, e não comício de Lula em SC",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/24/falso-video-lula-comicio-florianopolis.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/24/fala-de-lula-sobre-delacoes-e-antiga-e-nao-tem-relacao-com-caso-master.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Lula",
+  "afirmacao": "Lula afirmou que 'se delações continuarem, nenhum de nós escapa'",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Fala de Lula sobre delações é antiga e não tem relação com caso Master",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/24/fala-de-lula-sobre-delacoes-e-antiga-e-nao-tem-relacao-com-caso-master.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/24/fala-de-lula-sobre-delacoes-e-antiga-e-nao-tem-relacao-com-caso-master.ghtm",
@@ -8242,6 +8374,18 @@
   "titulo": "Como começou a fazer o presidente Bolsonaro, n",
   "data_checagem": null,
   "url": "https://aletheiafact.org/personality/flavio-bolsonaro/claim/debate-globo-2026-lula-x-flavio-bolsonaro/sentence/17e325fba10392e3931b96b9d1c6ed3c"
+ },
+ {
+  "id": "https://aletheiafact.org/claim/andre-ventura-disse-que-nao-receberia-flavio-bolsonaro-em-portugal/sentence/c9290d669c1b43d985e1601611ee9d95",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "André Ventura disse que não receberia Flávio Bolsonaro em Portugal.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-28",
+  "checador": "AletheiaFact.org",
+  "selo": "Confiável",
+  "titulo": "André Ventura disse que não receberia Flávio B",
+  "data_checagem": null,
+  "url": "https://aletheiafact.org/claim/andre-ventura-disse-que-nao-receberia-flavio-bolsonaro-em-portugal/sentence/c9290d669c1b43d985e1601611ee9d95"
  },
  {
   "id": "https://acervo.estadao.com.br/estadao-verifica/janja-nem-deus-tira-essa-eleicao-de-lula-falso/",
