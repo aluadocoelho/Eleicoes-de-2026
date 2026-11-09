@@ -4397,6 +4397,69 @@
   "ainda_publicado": true
  },
  {
+  "codigo": "CF37-431A",
+  "conjunto": "boatos",
+  "id": "b160",
+  "registro": {
+   "id": "b160",
+   "data": "2026-11-09",
+   "alvo": "Lula",
+   "boato": "Lula teria nomeado o filho Lulinha para fiscalizar as entregas do governo",
+   "veredito": "Falso",
+   "agencia": "Lupa",
+   "explicacao": "Lula usou o apelido para falar de si mesmo numa reunião do CNPE; o filho não recebeu cargo. Aos Fatos e Boatos.org também checaram.",
+   "url": "https://www.agencialupa.org/verificacao/2026/11/09/e-falso-que-lula-nomeou-o-filho-lulinha-para-fiscalizar-entregas-do-governo/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Família de Lula"
+  },
+  "primeira_vez": "2026-11-09T22:30:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "B4F5-9028",
+  "conjunto": "boatos",
+  "id": "b161",
+  "registro": {
+   "id": "b161",
+   "data": "2026-11-09",
+   "alvo": "Flávio",
+   "boato": "Apoiador teria feito tatuagem gigante de Flávio nas costas com a frase \"Eleito Presidente do Brasil em 24/10/2026\"",
+   "veredito": "Fake news",
+   "agencia": "Boatos.org",
+   "explicacao": "Não há registro confiável da tatuagem, a imagem tem sinais de geração por IA e a data da frase está errada: o 2º turno foi em 25/10 e Lula venceu.",
+   "url": "https://www.boatos.org/politica/homem-fez-tatuagem-gigante-de-flavio-bolsonaro-eleito-como-presidente-nas-costas.html",
+   "beneficiado": "Lula",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+   "tema": "Resultado da eleição"
+  },
+  "primeira_vez": "2026-11-09T22:30:43Z",
+  "ainda_publicado": true
+ },
+ {
+  "codigo": "BC56-500E",
+  "conjunto": "boatos",
+  "id": "b162",
+  "registro": {
+   "id": "b162",
+   "data": "2026-11-05",
+   "alvo": "Lula",
+   "boato": "Vídeo mostraria traficantes comemorando a vitória de Lula",
+   "veredito": "Enganoso",
+   "agencia": "Projeto Comprova",
+   "explicacao": "O vídeo junta cenas de outras ocasiões, como uma festa de presos de 2022, e uma imagem alterada por IA; nada liga o tiroteio no Rio à eleição.",
+   "url": "https://www.agenciatatu.com.br/noticia/comemoracao-traficantes-lula/",
+   "beneficiado": "Flávio",
+   "origem_campo": "Não identificada",
+   "origem_detalhe": "Segundo o Comprova, o vídeo foi publicado no Instagram do vereador de Curitiba Guilherme Kilter (Novo).",
+   "tema": "Segurança pública"
+  },
+  "primeira_vez": "2026-11-09T22:30:43Z",
+  "ainda_publicado": true
+ },
+ {
   "codigo": "F6EC-D970",
   "conjunto": "boatos",
   "id": "b17",
