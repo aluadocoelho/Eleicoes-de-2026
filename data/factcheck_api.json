@@ -241,7 +241,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D6FR2ZQ",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Relatório independente revela dados alarmantes sobre as eleições de 2026",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-29",
@@ -430,6 +430,18 @@
   "titulo": "Reportagens antigas sobre cortes no Bolsa Família circulam como se fossem de 2026",
   "data_checagem": "2026-10-30",
   "url": "https://checamos.afp.com/doc.afp.com.D4Y6863"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/video-de-flavio-bolsonaro-chorando-foi-gravado-antes-de-derrota-na-eleicao.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro chorou após perder a eleição para Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de Flávio Bolsonaro chorando foi gravado antes de derrota na eleição",
+  "data_checagem": "2026-10-29",
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/video-de-flavio-bolsonaro-chorando-foi-gravado-antes-de-derrota-na-eleicao.amp.htm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.amp.htm",
@@ -1150,6 +1162,18 @@
   "titulo": "É falso áudio em que Lula xinga Roberta Luchsinger; conteúdo foi criado com IA",
   "data_checagem": "2026-10-25",
   "url": "https://checamos.afp.com/doc.afp.com.D4C32NQ"
+ },
+ {
+  "id": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-agora-o-lula-votou-contra-a-constituicao-de-295647",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Agora, o Lula votou contra a Constituição de 88, que criou o SUS.",
+  "quem_disse": "Flávio Bolsonaro",
+  "data_afirmacao": "2026-10-23",
+  "checador": "Voto por Ideias",
+  "selo": "Enganoso",
+  "titulo": "“Agora, o Lula votou contra a Constituição de 88…”: o que o UOL Confere concluiu",
+  "data_checagem": "2026-10-24",
+  "url": "https://www.votoporideias.com.br/checagens/flavio-bolsonaro-agora-o-lula-votou-contra-a-constituicao-de-295647"
  },
  {
   "id": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
@@ -2894,7 +2918,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -2931,8 +2955,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3122,7 +3146,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3614,7 +3638,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4335,8 +4359,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5386,6 +5410,18 @@
   "titulo": "Vídeo mostra bastidores de uma série, e não ?resgate de Flávio por militares dos EUA",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.htm?t={seek_to_second_number}"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm?t=%7Bseek_to_second_number%7D",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Vídeo mostra militares de forças especiais americanas gargalhando após operação que resgatou o PRESIDENTE Flávio Bolsonaro e o levou seguro aos USA",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra bastidores de uma série, e não ?resgate de Flávio por militares dos EUA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/04/desinformacao-falso-video-bastidores-fuga-de-flavio-militares-americanos.ghtm",
