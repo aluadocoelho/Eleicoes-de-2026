@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D6WV7NQ",
+  "termo": "Lula",
+  "afirmacao": "Foto mostra protesto contra o governo Milei na Argentina",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-01",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Foto não mostra protesto contra Milei na Argentina em 2026, mas ...",
+  "data_checagem": "2026-11-09",
+  "url": "https://checamos.afp.com/doc.afp.com.D6WV7NQ"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm",
   "termo": "Lula",
   "afirmacao": "Nordestinos ficam revoltados após as eleições, Lula bloqueou o auxílio gás até dezembro de 2026 após reeleição",
@@ -10,6 +22,18 @@
   "titulo": "Reportagem não mostra fila por suposto bloqueio do Auxílio Gás",
   "data_checagem": "2026-11-06",
   "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula defendeu prisão para trabalhadores e proteção a bandidos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Lula não defendeu proteção a bandidos e prisão para trabalhadores",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-lula-defendeu-protecao-bandidos-prisao-trabalhadores.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/",
@@ -46,6 +70,18 @@
   "titulo": "PEC da Segurança Pública não transfere controle das forças policiais a Lula",
   "data_checagem": "2026-11-06",
   "url": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/"
+ },
+ {
+  "id": "https://www.agenciatatu.com.br/noticia/comemoracao-traficantes-lula/",
+  "termo": "Lula",
+  "afirmacao": "Traficantes celebram a vitória de Lula",
+  "quem_disse": null,
+  "data_afirmacao": "2026-11-06",
+  "checador": "Agência Tatu",
+  "selo": "Checamos",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de ...",
+  "data_checagem": "2026-11-06",
+  "url": "https://www.agenciatatu.com.br/noticia/comemoracao-traficantes-lula/"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.amp.htm",
@@ -298,6 +334,18 @@
   "titulo": "Governo Lula não proibiu exibição de desenhos bíblicos",
   "data_checagem": "2026-11-03",
   "url": "https://www.aosfatos.org/noticias/governo-lula-nao-proibiu-desenhos-biblicos/"
+ },
+ {
+  "id": "https://www.agenciatatu.com.br/noticia/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro estaria sofrendo perseguição política e que o Brasil vive sob uma ditadura.",
+  "quem_disse": null,
+  "data_afirmacao": "2026-11-03",
+  "checador": "Agência Tatu",
+  "selo": "Checamos",
+  "titulo": "Veja linha do tempo: da fuga de Flávio até a divulgação da carta ...",
+  "data_checagem": "2026-11-03",
+  "url": "https://www.agenciatatu.com.br/noticia/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista/"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/03/falso-lula-flavio-bolsonaro-votacoes-iguais-brasilia.amp.htm",
@@ -2918,7 +2966,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3146,7 +3194,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3835,7 +3883,7 @@
   "data_afirmacao": "2026-09-06",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que carro de Lula foi atacado em São José do Rio Preto; gravação foi feita na Albânia",
+  "titulo": "É falso que carro de Lula foi atacado em São José do Rio Preto ...",
   "data_checagem": "2026-09-10",
   "url": "https://checamos.afp.com/doc.afp.com.C7XG8KE"
  },
@@ -4399,7 +4447,7 @@
   "data_afirmacao": "2026-09-10",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Vídeo não mostra Lula sendo hostilizado no interior de São Paulo; imagens são de protesto na Albânia",
+  "titulo": "Vídeo não mostra Lula sendo hostilizado no interior de São Paulo ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-nao-mostra-lula-hostilizado-interior-sp/"
  },
@@ -4435,7 +4483,7 @@
   "data_afirmacao": "2026-09-10",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "Vídeo que mostra multidão de apoio a Lula no 7 de Setembro foi feito com inteligência artificial",
+  "titulo": "Vídeo que mostra multidão de apoio a Lula no 7 de Setembro foi ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-multidao-lula-7-de-setembro-inteligencia-artificial/"
  },
@@ -4654,6 +4702,18 @@
   "titulo": "Nikolas divulga vídeo de presos comemorando gol e sugere que é festa por Lula",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/presidio-comemora-reeleicao-lula-falso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio registrou até 10 votos em 3042 seções, uma fraude eleitoral",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Votação baixíssima de Flávio em 3 mil urnas não é evidência de ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/postagem-usa-noticia-de-2025-para-sugerir-que-lula-pretende-acabar-com-bolsa-familia/",
@@ -4978,6 +5038,18 @@
   "titulo": "Imagem de trabalhadora limpando pichação em metrô na Paulista foi criada com inteligência artificial",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/imagem-trabalhadora-limpando-pichacoes-falso-inteligencia-artificial/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/",
+  "termo": "Lula",
+  "afirmacao": "Matemático Marcelo Trindade explica como algoritmo de penalizaçao fraudou a eleição",
+  "quem_disse": "Jim Pfaff",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Comportamento de gráfico da evolução dos votos não indica fraude ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/governo-nao-bloqueou-auxilio-gas-para-dezembro-2026/",
@@ -5314,6 +5386,18 @@
   "titulo": "Avião que capturou Maduro esteve no Brasil para exercício militar e já deixou o País",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/aviao-capturou-maduro-brasil-exercicio-militar-deixou-o-pais/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/audio-falso-flavio-dino-arruinar-a-economia-volta-a-circular/",
+  "termo": "Lula",
+  "afirmacao": "Em áudio vazado, Flávio Dino diz que seu objetivo é arruinar a economia, aumentar o desemprego, destruir o comércio e deixar o povo desabastecido",
+  "quem_disse": "Boatos de redes sociais",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Áudio falso atribuído a Flávio Dino sobre 'arruinar a economia' volta ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/audio-falso-flavio-dino-arruinar-a-economia-volta-a-circular/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/atos-direita-esquerda-paulista/",
@@ -6718,6 +6802,18 @@
   "titulo": "Flávio Bolsonaro não viajou aos EUA em setembro; imagens são de maio",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/18/desinformacao-falso-flavio-bolsonaro-eua-viagem-fuga-video-antigo.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/17/desinformacao-falso-video-lula-ministros-stf-moraes-vorcaro-crise.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Vídeo de Lula se encontrando com ministros do STF e Viviane Barci antes de Fachin retirar relatoria de Mendonça",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Lula com ministros é antigo e sem relação com crise atual do STF",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/17/desinformacao-falso-video-lula-ministros-stf-moraes-vorcaro-crise.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/16/video-de-flavio-bolsonaro-embarcando-para-os-eua-e-de-maio.ghtm",
