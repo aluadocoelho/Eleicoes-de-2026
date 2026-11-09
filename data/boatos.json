@@ -2196,5 +2196,33 @@
   "origem_campo": "Não identificada",
   "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
   "tema": "Cartazes nos EUA"
+ },
+ {
+  "id": "b158",
+  "data": "2026-11-07",
+  "alvo": "Lula",
+  "boato": "Governo Lula estaria preparando novo confisco da poupança em 2027",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "Não há documento, medida oficial ou dado que comprove confisco ou bloqueio de saques. A imagem de uma suposta tela de erro não mostra banco, local ou data, e a Secom da Presidência negou a existência de confisco.",
+  "url": "https://www.boatos.org/politica/governo-lula-prepara-confisco-do-dinheiro-da-poupanca-dos-brasileiros-em-2027.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "Confisco da poupança"
+ },
+ {
+  "id": "b159",
+  "data": "2026-11-07",
+  "alvo": "Lula",
+  "boato": "Governo Lula teria aprovado a volta do seguro DPVAT, com cobrança de todos os donos de veículos a partir de janeiro de 2027",
+  "veredito": "Fake news",
+  "agencia": "Boatos.org",
+  "explicacao": "A lei de 2024 que criava o SPVAT foi revogada em dezembro daquele ano, antes de a cobrança começar, e não há norma em vigor para cobrar em 2027. O vídeo do Jornal Nacional é de 2024 e circulou de novo sem a informação da revogação.",
+  "url": "https://www.boatos.org/politica/governo-lula-aprovou-a-volta-do-seguro-dpvat-e-motoristas-terao-que-pagar-novamente-a-partir-de-janeiro.html",
+  "beneficiado": "Flávio",
+  "origem_campo": "Não identificada",
+  "origem_detalhe": "Os checadores não apontam quem criou ou espalhou.",
+  "tema": "DPVAT"
  }
 ]
