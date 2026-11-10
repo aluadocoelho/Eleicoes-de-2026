@@ -36,6 +36,18 @@
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.amp.htm"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula é alvo de protesto no grande prêmio de F1 em Interlagos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de protesto contra Lula no GP de São Paulo da Fórmula 1 é ...",
+  "data_checagem": "2026-11-09",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.amp.htm"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D6YG9G3",
   "termo": "Lula",
   "afirmacao": "Moradores de Fortaleza coletam comida do lixo após a reeleição de Lula em 2026",
@@ -127,7 +139,7 @@
   "data_afirmacao": "2026-11-06",
   "checador": "Agência Tatu",
   "selo": "Checamos",
-  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de ...",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de Lula a comemorações de traficantes",
   "data_checagem": "2026-11-06",
   "url": "https://www.agenciatatu.com.br/noticia/comemoracao-traficantes-lula/"
  },
@@ -190,6 +202,18 @@
   "titulo": "Governo Lula não anunciou corte de 670 mil beneficiários do BPC",
   "data_checagem": "2026-11-05",
   "url": "https://www.bol.uol.com.br/noticias/2026/11/05/falso-lula-anuncio-corte-670-mil-beneficiarios-bpc.amp.htm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Às 17h, Flávio Bolsonaro já era presidente, confirma relatório",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "É falso que relatório prove vitória de Flávio Bolsonaro até as 17h",
+  "data_checagem": "2026-11-05",
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/05/e-falso-que-flavio-bolsonaro-era-presidente-eleito-as-17h.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
@@ -391,7 +415,7 @@
   "data_afirmacao": "2026-11-03",
   "checador": "Agência Tatu",
   "selo": "Checamos",
-  "titulo": "Veja linha do tempo: da fuga de Flávio até a divulgação da carta ...",
+  "titulo": "Veja linha do tempo: da fuga de Flávio até a divulgação da carta golpista",
   "data_checagem": "2026-11-03",
   "url": "https://www.agenciatatu.com.br/noticia/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista/"
  },
@@ -1142,7 +1166,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3026,7 +3050,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3907,7 +3931,7 @@
   "data_afirmacao": "2026-09-01",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo de IA simula JN para alegar falsamente que André Mendonça declarou Lula inelegível",
+  "titulo": "Vídeo de IA simula JN para alegar falsamente que André Mendonça ...",
   "data_checagem": "2026-09-11",
   "url": "https://checamos.afp.com/doc.afp.com.C83A8KF"
  },
@@ -3919,7 +3943,7 @@
   "data_afirmacao": "2026-09-06",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "É de 2022 vídeo em que pessoas manifestam apoio a Lula no Rock in Rio",
+  "titulo": "É de 2022 vídeo em que pessoas manifestam apoio a Lula no Rock ...",
   "data_checagem": "2026-09-11",
   "url": "https://checamos.afp.com/doc.afp.com.C82F4CQ"
  },
@@ -3931,7 +3955,7 @@
   "data_afirmacao": "2026-09-09",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo de Lula em reunião do G7 circula falsamente como pedido de silenciamento de Mendonça",
+  "titulo": "Vídeo de Lula em reunião do G7 circula falsamente como pedido de ...",
   "data_checagem": "2026-09-11",
   "url": "https://checamos.afp.com/doc.afp.com.C7ZY7CR"
  },
@@ -4644,6 +4668,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/video-deputado-reforma-tributaria-consumo-impostos-2027-enganoso/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/video-de-pessoas-procurando-comida-em-caminhao-de-lixo-em-fortaleza-e-de-2021/",
+  "termo": "Lula",
+  "afirmacao": "Moradores procuram comida em caminhão de lixo em Fortaleza durante governo Lula",
+  "quem_disse": "Boatos de redes sociais",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Estadão",
+  "selo": "Fora de contexto",
+  "titulo": "Vídeo de pessoas procurando comida em caminhão de lixo em Fortaleza é de 2021",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/video-de-pessoas-procurando-comida-em-caminhao-de-lixo-em-fortaleza-e-de-2021/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/video-de-2022-de-lula-em-belo-horizonte-circula-como-se-fosse-atual/",
   "termo": "Lula",
   "afirmacao": "Multidão recepcionou Lula em Belo Horizonnte durante passeata",
@@ -4783,7 +4819,7 @@
   "data_afirmacao": "2026-11-09",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Votação baixíssima de Flávio em 3 mil urnas não é evidência de ...",
+  "titulo": "Votação baixíssima de Flávio em 3 mil urnas não é evidência de fraude eleitoral",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/"
  },
@@ -5446,6 +5482,18 @@
   "titulo": "Daniela Lima não disse que Lula avalia desistir de candidatura contra Flávio Bolsonaro",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/daniela-lima-disse-que-lula-avalia-desistir-de-candidatura/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/boletins-urna-mostram-vitoria-flavio-bolsonaro-eleicoes-enganoso/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Boletins de urna mostram que houve fraude nas eleições",
+  "quem_disse": "Postagens em redes sociais",
+  "data_afirmacao": "2026-11-10",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Dados de um conjunto pequeno de boletins de urna não servem ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/boletins-urna-mostram-vitoria-flavio-bolsonaro-eleicoes-enganoso/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/aviao-capturou-maduro-brasil-exercicio-militar-deixou-o-pais/",
