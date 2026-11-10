@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/trump-lula-extraditar-flavio/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Trump ligou para Lula e disse que quer mandar Flávio Bolsonaro de volta ao Brasil",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-10",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que Trump ligou para Lula para dizer que pretende ...",
+  "data_checagem": "2026-11-10",
+  "url": "https://www.aosfatos.org/noticias/trump-lula-extraditar-flavio/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022/",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra público da F1 protestando contra Lula em 2026",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-10",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Vídeo de protesto contra Lula na Fórmula 1 é de 2022, não de 2026",
+  "data_checagem": "2026-11-10",
+  "url": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/lula-filho-fiscal-resultados-governo/",
   "termo": "Lula",
   "afirmacao": "Lula disse que Lulinha será fiscal das entregas do governo",
@@ -55,7 +79,7 @@
   "data_afirmacao": "2026-11-05",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É de 2021 vídeo de pessoas pegando comida em caminhão de lixo ...",
+  "titulo": "É de 2021 vídeo de pessoas pegando comida em caminhão de lixo, não após a reeleição de Lula",
   "data_checagem": "2026-11-09",
   "url": "https://checamos.afp.com/doc.afp.com.D6YG9G3"
  },
@@ -475,7 +499,7 @@
   "data_afirmacao": "2026-10-30",
   "checador": "Agência Tatu",
   "selo": "Checamos",
-  "titulo": "Empresários podem demitir funcionários por posicionamento ...",
+  "titulo": "Empresários podem demitir funcionários por posicionamento político? Entenda o que diz a lei",
   "data_checagem": "2026-10-30",
   "url": "https://www.agenciatatu.com.br/noticia/demitir-funcionarios-politica/"
  },
@@ -626,11 +650,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -2365,7 +2389,7 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D3EB89E",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Pesquisas eleitorais erraram",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-01-05",
@@ -2774,7 +2798,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3050,7 +3074,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3087,8 +3111,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3278,12 +3302,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -4491,8 +4515,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4651,7 +4675,7 @@
   "data_afirmacao": "2026-09-11",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Lula não ignorou comandante do Exército no 7 de Setembro; vídeo de 2023 foi editado",
+  "titulo": "Lula não ignorou comandante do Exército no 7 de Setembro; vídeo ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/video-desinforma-lula-ignorou-general-7-de-setembro/"
  },
@@ -5412,6 +5436,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/enganoso-5-mil-prometidos-pix-mei-cair-363/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/e-falso-que-votacoes-de-lula-e-flavio-bolsonaro-tenham-sido-trocadas/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Estenderam o horário de votação para inverter os resultados de Lula e Flávio Bolsonaro",
+  "quem_disse": "Boatos de redes sociais",
+  "data_afirmacao": "2026-11-10",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que votações de Lula e Flávio Bolsonaro tenham sido trocadas",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/e-falso-que-votacoes-de-lula-e-flavio-bolsonaro-tenham-sido-trocadas/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/e-falso-que-lula-tenha-passado-mal-e-ficado-preocupado-com-resultados-de-exames/",
   "termo": "Lula",
   "afirmacao": "Lula passou mal e seus médicos ficaram assustados com os resultados dos exames",
@@ -5554,6 +5590,42 @@
   "titulo": "Postagem engana ao listar políticas públicas adotadas no governo ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/16-motivos-para-votar-no-lula-acoes-de-bolsonaro-enganoso/"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lista mostra 10 cidades onde número de votos de Lula é maior do que o total de habitantes",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Lista de cidades com mais votos para Lula do que habitantes é falsa",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/09/desinformacao-falso-ia-videos-vitoria-lula-traficantes-criminosos.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Vídeos mostram traficantes comemorando a vitória de Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de Lula a comemorações de traficantes",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/09/desinformacao-falso-ia-videos-vitoria-lula-traficantes-criminosos.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula é alvo de protesto no grande prêmio de F1 em Interlagos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de protesto contra Lula no GP de São Paulo da Fórmula 1 é de 2022",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm",
@@ -5710,6 +5782,18 @@
   "titulo": "Lula vetou auxílio-reclusão a membro de facção em março; não após vitória",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula corta auxílio reclusão de presos: família vai pagar pela irresponsabilidade",
+  "quem_disse": "boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula vetou auxílio-reclusão a membro de facção em março; não após vitória",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-encerrou-auxilio-reclusao-apos-2-turno-fala-e-do-pl-antifaccao.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.htm?t={seek_to_second_number}",
@@ -6660,6 +6744,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-video-torcida-flamengo-protesto-lula-fim-bets.ghtm?t=%7Bseek_to_second_number%7D"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Romário critica Lula pelo fim das bets e o acusa de debochar da torcida do Flamengo",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Romário criticando Lula pelo fim das bets foi manipulado por IA",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/30/falso-romario-video-critica-lula-fim-bets-ia.ghtm",
   "termo": "Lula",
   "afirmacao": "Romário critica Lula pelo fim das bets e o acusa de debochar da torcida do Flamengo",
@@ -7174,6 +7270,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lista mostra 10 cidades onde número de votos de Lula é maior do que o total de habitantes",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lista de cidades com mais votos para Lula do que habitantes é falsa",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula é alvo de protesto no grande prêmio de F1 em Interlagos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Vídeo de protesto contra Lula no GP de São Paulo da Fórmula 1 é de 2022",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/desinformacao-enganoso-video-protesto-lula-gp-f1-sp-2022.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/06/falso-reportagem-pessoas-revoltadas-bloqueio-auxilio-gas.ghtm",
@@ -8290,6 +8410,18 @@
   "titulo": "Vídeo mostra briga de trânsito no AP; não ataque a ônibus de petistas em SP",
   "data_checagem": null,
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/08/20/falso-bolsonaristas-ataque-onibus-petistas-ato-lula-sao-bernardo.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/11/09/desinformacao-falso-ia-videos-vitoria-lula-traficantes-criminosos.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Vídeos mostram traficantes comemorando a vitória de Lula",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Vereador usa imagens descontextualizadas para associar vitória de Lula a comemorações de traficantes",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/11/09/desinformacao-falso-ia-videos-vitoria-lula-traficantes-criminosos.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/11/03/veja-linha-do-tempo-da-fuga-de-flavio-ate-a-divulgacao-da-carta-golpista.ghtm",
