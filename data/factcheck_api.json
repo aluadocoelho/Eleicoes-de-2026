@@ -12,6 +12,18 @@
   "url": "https://www.aosfatos.org/noticias/trump-lula-extraditar-flavio/"
  },
  {
+  "id": "https://www.aosfatos.org/noticias/trump-flavio-assumir-presidencia-lula/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "O presidente Donald Trump, afirma em rede sociais que Lula não assumirá a presidência do Brasil! E que o Flávio assumirá a presidência do nosso Brasil",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-10",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Trump não disse que Flávio vai assumir Presidência no lugar de Lula",
+  "data_checagem": "2026-11-10",
+  "url": "https://www.aosfatos.org/noticias/trump-flavio-assumir-presidencia-lula/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022/",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra público da F1 protestando contra Lula em 2026",
@@ -22,6 +34,18 @@
   "titulo": "Vídeo de protesto contra Lula na Fórmula 1 é de 2022, não de 2026",
   "data_checagem": "2026-11-10",
   "url": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/10/desinformacao-enganoso-lula-nomeou-filho-lulinha-fiscalizar-governo.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula disse que nomeou filho Lulinha para fiscalizar governo",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lula não nomeou o filho Lulinha para fiscalizar governo; entenda fala",
+  "data_checagem": "2026-11-10",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/10/desinformacao-enganoso-lula-nomeou-filho-lulinha-fiscalizar-governo.amp.htm"
  },
  {
   "id": "https://www.aosfatos.org/noticias/lula-filho-fiscal-resultados-governo/",
@@ -650,7 +674,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -1190,7 +1214,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -2798,7 +2822,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3074,11 +3098,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3302,7 +3326,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
