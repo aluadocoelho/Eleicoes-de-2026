@@ -1,5 +1,53 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/lula-filho-fiscal-resultados-governo/",
+  "termo": "Lula",
+  "afirmacao": "Lula disse que Lulinha será fiscal das entregas do governo",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Lula não disse que seu filho será fiscal dos resultados do governo",
+  "data_checagem": "2026-11-09",
+  "url": "https://www.aosfatos.org/noticias/lula-filho-fiscal-resultados-governo/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/governo-lula-volta-dpvat-2027/",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula aprova volta do DPVAT em janeiro de 2027",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-09",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que governo Lula aprovou volta do DPVAT em 2027",
+  "data_checagem": "2026-11-09",
+  "url": "https://www.aosfatos.org/noticias/governo-lula-volta-dpvat-2027/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lista mostra 10 cidades onde número de votos de Lula é maior do que o total de habitantes",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Lista de cidades com mais votos para Lula do que habitantes é falsa",
+  "data_checagem": "2026-11-09",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/09/falso-cidades-lula-mais-votos-habitantes-fraude.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D6YG9G3",
+  "termo": "Lula",
+  "afirmacao": "Moradores de Fortaleza coletam comida do lixo após a reeleição de Lula em 2026",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-05",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "É de 2021 vídeo de pessoas pegando comida em caminhão de lixo ...",
+  "data_checagem": "2026-11-09",
+  "url": "https://checamos.afp.com/doc.afp.com.D6YG9G3"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D6WV7NQ",
   "termo": "Lula",
   "afirmacao": "Foto mostra protesto contra o governo Milei na Argentina",
@@ -396,6 +444,18 @@
   "url": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/"
  },
  {
+  "id": "https://www.agenciatatu.com.br/noticia/demitir-funcionarios-politica/",
+  "termo": "Lula",
+  "afirmacao": "Empresários afirmam que vão demitir funcionários que votaram para reeleger o presidente Lula",
+  "quem_disse": null,
+  "data_afirmacao": "2026-10-30",
+  "checador": "Agência Tatu",
+  "selo": "Checamos",
+  "titulo": "Empresários podem demitir funcionários por posicionamento ...",
+  "data_checagem": "2026-10-30",
+  "url": "https://www.agenciatatu.com.br/noticia/demitir-funcionarios-politica/"
+ },
+ {
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/fim-da-escala-6x1-esta-mantido-ao-contrario-do-que-afirma-video/",
   "termo": "Lula",
   "afirmacao": "Passada e eleição, governo Lula recua e vai manter a escala 6x1 para vários setores",
@@ -542,11 +602,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -2966,7 +3026,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3194,7 +3254,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3686,7 +3746,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4632,6 +4692,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/servidor-tse-petista-resultado-eleicoes-fake-news/",
+  "termo": "Lula",
+  "afirmacao": "O secretário de Tecnologia da Informação do Tribunal Superior Eleitoral (TSE) é petista e pode alterar o resultado das eleições",
+  "quem_disse": "Postagens em redes sociais",
+  "data_afirmacao": "2026-10-21",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que funcionário da área de tecnologia do TSE possa alterar ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/servidor-tse-petista-resultado-eleicoes-fake-news/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/sem-contexto-video-de-casal-supostamente-espancado-por-apoiar-bolsonaro-circula-desde-2022/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Vídeo que mostraria casal sendo espancado por apoiar Bolsonaro",
@@ -5041,7 +5113,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Matemático Marcelo Trindade explica como algoritmo de penalizaçao fraudou a eleição",
   "quem_disse": "Jim Pfaff",
   "data_afirmacao": "2026-11-09",
@@ -5686,6 +5758,18 @@
   "titulo": "É falso que governo Lula anunciou recuo do fim da escala 6x1 após eleição",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/28/desinformacao-enganoso-governo-recuo-fim-escala-6x1-lula-vencer-eleicoes.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/27/video-de-calculo-de-votos-ignora-aumento-de-eleitores-no-segundo-turno.ghtm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Números não justificam vitória de Lula sobre Flávio",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo ignora votos brancos e nulos em conta para alegar fraude no 2º turno",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/27/video-de-calculo-de-votos-ignora-aumento-de-eleitores-no-segundo-turno.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/27/falso-video-bandidos-comemoram-reeleicao-lula.ghtm",
@@ -6480,6 +6564,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/10/03/desinformacao-falso-policia-militar-sp-alerta-ataques-pcc-flavio-eleicoes.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/02/video-xuxa-criticando-lula-bolsonaro-menores-eleicoes-2026-2022.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Xuxa gravou um vídeo criticando o presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, e pedindo para as pessoas não votarem nele",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL",
+  "selo": "Falso",
+  "titulo": "Vídeo de Xuxa é antigo e critica declaração de Bolsonaro sobre menores",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/02/video-xuxa-criticando-lula-bolsonaro-menores-eleicoes-2026-2022.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/01/e-falso-que-janja-tenha-dito-que-nem-deus-tira-eleicao-de-lula-no-piaui.ghtm",
   "termo": "Lula",
   "afirmacao": "Janja disse que nem Deus pode tirar a eleição de Lula",
@@ -6636,6 +6732,18 @@
   "url": "https://www.bol.uol.com.br/noticias/2026/09/25/video-mostra-show-na-paraiba-nao-ato-de-flavio-bolsonaro.ghtm"
  },
  {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/25/falso-imagem-flavio-bolsonaro-camisa-ofensa-nordestinos.htm?t={seek_to_second_number}",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro usa camisa com frase ofensiva contra nordestinos",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Montagem de Flávio com camisa ofensiva a nordestinos volta a circular",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/25/falso-imagem-flavio-bolsonaro-camisa-ofensa-nordestinos.htm?t={seek_to_second_number}"
+ },
+ {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/25/falso-imagem-flavio-bolsonaro-camisa-ofensa-nordestinos.ghtm",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Flávio Bolsonaro usa camisa com frase ofensiva contra nordestinos",
@@ -6790,6 +6898,18 @@
   "titulo": "Documentos do caso Master não mostram que Lula recebeu R$ 300 mi de Vorcaro",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/09/23/falso-lula-recebeu-300-milhoes-vorcaro.ghtm"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/09/18/falso-lula-pediu-cabeca-andre-mendonca.htm?t={seek_to_second_number}",
+  "termo": "Lula",
+  "afirmacao": "Lula \"pediu a cabeça\" do ministro André Mendonça",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra Lula em reunião do G7, e não 'pedindo a cabeça' de Mendonça",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/09/18/falso-lula-pediu-cabeca-andre-mendonca.htm?t={seek_to_second_number}"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/09/18/desinformacao-falso-flavio-bolsonaro-eua-viagem-fuga-video-antigo.ghtm",
