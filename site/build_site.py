@@ -239,7 +239,7 @@ shim = r"""
     calc: function (id, spec) { calcs.push({id: id, inputs: spec.inputs, fn: spec.fn}); store[id] = {status: "loading", data: []}; },
     data: function (id) { return store[id] || {status: "missing", data: []}; },
     onData: function (fn) { listeners.push(fn); fn(); },
-    setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
+    setLink: function (id) { try { if (location.hash !== "#" + id) history.pushState({aba: id}, "", "#" + id); } catch (e) {} },
     loader: function () {}, refresh: function () {}
   };
   var loadedOnce = {}, domPronto = document.readyState !== "loading", espera = [];
@@ -616,9 +616,9 @@ LANGSW = ('<nav class="el-lang" aria-label="Idioma · Language · Idioma">'
           '<a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a>'
           '<a href="/en/" hreflang="en" lang="en" title="English">EN</a>'
           '<a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav>')
-_MARCA = '<div class="el-marca"><svg class="el-marca-svg"'
+_MARCA = '<div class="el-marca"><a class="el-marca-a"'
 assert html.count(_MARCA) == 1
-html = html.replace(_MARCA, '<div class="el-marca">' + LANGSW + '<svg class="el-marca-svg"', 1)
+html = html.replace(_MARCA, '<div class="el-marca">' + LANGSW + '<a class="el-marca-a"', 1)
 assert html.count('<div class="el-drw-pe">') == 1
 html = html.replace('<div class="el-drw-pe">', '<div class="el-drw-lang">' + LANGSW + '</div><div class="el-drw-pe">', 1)
 assert html.count('<p class="el-foot el-foot-btns">') == 1

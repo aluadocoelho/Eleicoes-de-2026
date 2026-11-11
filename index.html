@@ -928,6 +928,10 @@ details.el-details[open]>summary::after{transform:rotate(-135deg) translateY(-1p
 .el .el-siga-b:active{transform:translate(3px,3px);box-shadow:none}
 .el .el-siga-b:focus-visible{outline:3px solid #FFD43B;outline-offset:3px}
 .el-marca{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 2px 4px}
+.el-marca-a{display:block;border-radius:12px}
+.el-marca-a:focus-visible,.el-mtopo-a:focus-visible,.el-logo-a:focus-visible{outline:3px solid var(--accent-text);outline-offset:4px}
+.el-logo-a{flex:none;display:flex;border-radius:50%}.el-mtopo-a{display:flex;border-radius:10px}
+.el-sticky:not(.el-stuck)>header .el-logo-a{display:none}
 .el-marca-ico{width:52px;height:52px;flex:none;display:block}
 .el-marca-t{display:flex;flex-direction:column;line-height:1}
 .el-marca-n{font-family:"Source Serif 4",Georgia,serif;font-weight:900;font-size:1.75rem;line-height:.95;letter-spacing:-.03em;color:var(--color-fg,#16181D)}
@@ -1293,9 +1297,9 @@ body.el-vp-lock{overflow:hidden}
     <a class="el-siga-b" href="https://www.instagram.com/clareiaeleicoes/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Clareia (@clareiaeleicoes)" title="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor" stroke="none"/></svg></a>
     <a class="el-siga-b" href="https://www.tiktok.com/@oficialclareiaeleicoes" target="_blank" rel="noopener noreferrer" aria-label="TikTok da Clareia (@oficialclareiaeleicoes)" title="TikTok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 3h3.1c.2 1.9 1.6 3.4 3.4 3.6v3.1c-1.3 0-2.5-.4-3.5-1v6.4c0 3.3-2.7 5.9-6 5.9s-6-2.6-6-5.9 2.7-5.9 6-5.9c.3 0 .6 0 .9.1v3.2c-.3-.1-.6-.2-.9-.2-1.6 0-2.9 1.3-2.9 2.8s1.3 2.8 2.9 2.8 2.9-1.2 2.9-2.8V3z"/></svg></a></span>
   </nav>
-  <div class="el-marca"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav><svg class="el-marca-svg" viewBox="0 0 273.12 106.07" role="img" aria-label="Clareia Eleições"><use href="#marca-clareia"></use></svg></div>
+  <div class="el-marca"><nav class="el-lang" aria-label="Idioma · Language · Idioma"><a href="/" hreflang="pt-BR" lang="pt-BR" aria-current="true" title="Português">PT</a><a href="/en/" hreflang="en" lang="en" title="English">EN</a><a href="/es/" hreflang="es" lang="es" title="Español">ES</a></nav><a class="el-marca-a" href="#inicio" data-home aria-label="Clareia Eleições: ir para o início" title="Ir para o início"><svg class="el-marca-svg" viewBox="0 0 273.12 106.07" aria-hidden="true" focusable="false"><use href="#marca-clareia"></use></svg></a></div>
   <div class="el-sticky" id="el-sticky">
-  <div class="el-mtopo"><svg class="el-mtopo-svg" viewBox="0 0 273.12 106.07" role="img" aria-label="Clareia Eleições"><use href="#marca-clareia"></use></svg>
+  <div class="el-mtopo"><a class="el-mtopo-a" href="#inicio" data-home aria-label="Clareia Eleições: ir para o início"><svg class="el-mtopo-svg" viewBox="0 0 273.12 106.07" aria-hidden="true" focusable="false"><use href="#marca-clareia"></use></svg></a>
   <button type="button" class="el-mnav" id="el-mnav" aria-haspopup="dialog" aria-controls="el-drw" aria-expanded="false">
     <span class="el-mnav-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><i class="el-mnav-new" id="el-mnav-new" hidden></i></span>
     <span class="el-mnav-w" aria-hidden="true">Menu</span><span class="el-mnav-l"><span class="el-mnav-cur" id="el-mnav-cur">Início</span></span>
@@ -1304,10 +1308,10 @@ body.el-vp-lock{overflow:hidden}
   <header>
     <div class="el-top">
       <div class="el-brand">
-        <svg xmlns="http://www.w3.org/2000/svg" class="el-logo" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrlogo1" x1="0" y1="0" x2="0" y2="1">
+        <a class="el-logo-a" href="#inicio" data-home aria-label="Clareia Eleições: ir para o início"><svg xmlns="http://www.w3.org/2000/svg" class="el-logo" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrlogo1" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#2D6BE0"/>
 <stop offset="1" stop-color="#E23A3A"/>
-</linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrlogo1)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg>
+</linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrlogo1)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg></a>
         <div>
           <h1 class="el-title" style="margin-top:0">Política com <span class="el-hl">fonte</span>.</h1>
           <p class="el-tagline">Eleições no Brasil e no mundo, explicadas com o link de cada informação.</p>
@@ -1701,10 +1705,10 @@ function run() {
   var L = document.getElementById("cob-lista"), D = document.getElementById("cob-det");
   if (!L) return;
   var COB = [];
-  function abre(c) {
+  function abre(c, hist) {
     if (c.abre.indexOf("aba:") === 0) { var b = document.querySelector('.el-tab[data-tab="' + c.abre.slice(4) + '"]'); if (b) b.click(); return; }
     L.hidden = true; D.hidden = false; D.replaceChildren(el("p", "el-note", "Carregando…"));
-    try { history.replaceState(null, "", "#cobertura=" + c.id); } catch (e) {}
+    if (hist) { try { history.pushState({cob: c.id}, "", "#cobertura=" + c.id); } catch (e) {} }
     get("/data/coberturas/" + c.id + ".json").then(function (d) {
       D.replaceChildren();
       var bk = el("button", "el-cob-back", "← Todas as coberturas"); bk.type = "button"; bk.addEventListener("click", fecha); D.appendChild(bk);
@@ -1729,7 +1733,12 @@ function run() {
       });
     }).catch(function () { D.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
   }
-  function fecha() { D.hidden = true; L.hidden = false; try { history.replaceState(null, "", "#coberturas"); } catch (e) {} }
+  function fechaVista() { D.hidden = true; L.hidden = false; }
+  function fecha() { if (history.state && history.state.cob) { history.back(); return; } fechaVista(); try { history.replaceState(null, "", "#coberturas"); } catch (e) {} }
+  window.addEventListener("popstate", function () {
+    var m = /^#cobertura=([\w-]+)$/.exec(location.hash), c = m && COB.filter(function (x) { return x.id === m[1]; })[0];
+    if (c) { if (window.__elShow) window.__elShow("coberturas"); abre(c); } else if (!D.hidden) fechaVista();
+  });
   get("/data/coberturas.json").then(function (rows) {
     COB = rows.slice().sort(function (a, b) { return a.data_eleicao < b.data_eleicao ? 1 : -1; });
     var vis = tr("coberturas", COB.map(function (x) { return Object.assign({}, x); }));
@@ -1738,13 +1747,13 @@ function run() {
       var c = COB[i], b = el("button", "el-cob-c"); b.type = "button";
       var t = el("div", "el-cob-top"); t.appendChild(el("span", "el-cob-sig", c.sigla)); t.appendChild(el("span", "el-cob-st" + (c.status === "Encerrada" ? "" : " on"), x.status)); t.appendChild(el("span", "el-news-d", dt(c.data_eleicao)));
       b.appendChild(t); b.appendChild(el("h3", "el-cob-t", x.titulo)); b.appendChild(el("p", "el-cob-r", x.resumo)); b.appendChild(el("span", "el-cob-go", "Abrir cobertura →"));
-      b.addEventListener("click", function () { abre(c); });
+      b.addEventListener("click", function () { abre(c, true); });
       L.appendChild(b);
     });
     var m = /^#cobertura=([\w-]+)$/.exec(location.hash);
-    if (m) { var c = COB.filter(function (x) { return x.id === m[1]; })[0]; var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (c && tb) { tb.click(); abre(c); } }
+    if (m) { var c = COB.filter(function (x) { return x.id === m[1]; })[0]; var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (c && tb) { if (window.__elShow) window.__elShow("coberturas"); else tb.click(); abre(c); } }
   }).catch(function () { L.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
-  var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (tb) tb.addEventListener("click", function () { if (!/^#cobertura=/.test(location.hash)) fecha(); });
+  var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (tb) tb.addEventListener("click", fechaVista);
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
 })();
@@ -2497,7 +2506,7 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
     calc: function (id, spec) { calcs.push({id: id, inputs: spec.inputs, fn: spec.fn}); store[id] = {status: "loading", data: []}; },
     data: function (id) { return store[id] || {status: "missing", data: []}; },
     onData: function (fn) { listeners.push(fn); fn(); },
-    setLink: function (id) { try { history.replaceState(null, "", "#" + id); } catch (e) {} },
+    setLink: function (id) { try { if (location.hash !== "#" + id) history.pushState({aba: id}, "", "#" + id); } catch (e) {} },
     loader: function () {}, refresh: function () {}
   };
   var loadedOnce = {}, domPronto = document.readyState !== "loading", espera = [];
@@ -4237,6 +4246,22 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
   dash.onData(redraw);
 
   const h = location.hash.slice(1);
+  // Botão Voltar do navegador: cada troca de aba vira uma entrada no histórico (dash.setLink usa pushState)
+  window.__elShow = id => show(id, false);
+  window.addEventListener("popstate", () => {
+    const d = document.getElementById("el-drw"), x = document.getElementById("el-drw-x");
+    if (d && x && d.classList.contains("on")) x.click();
+    const hh = location.hash.slice(1);
+    if (/^(cobertura|verificar)=/.test(hh)) return;
+    let id = !hh ? "inicio" : (pages.some(p => p.id === hh) ? hh : null);
+    if (!id) { const e = document.getElementById(hh), pg = e && e.closest(".el-page"); if (pg) id = pg.id; }
+    if (id) { show(id, false); goTop(id); }
+  });
+  // Logotipo: volta para a Início
+  document.querySelectorAll("[data-home]").forEach(a => a.addEventListener("click", ev => {
+    ev.preventDefault(); show("inicio", true);
+    window.scrollTo({top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }));
   window.addEventListener("hashchange", () => {
     const m = /^#verificar=([0-9A-Fa-f-]{8,9})$/.exec(location.hash);
     if (m) { const c = normCode(m[1]); if (c) openVerify(c); }
