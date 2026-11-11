@@ -1,7 +1,7 @@
 {
  "id": "eua-2026-meio-de-mandato",
  "titulo": "EUA 2026: eleições de meio de mandato",
- "atualizado": "2026-11-07T19:03:00Z",
+ "atualizado": "2026-11-11T17:19:00Z",
  "blocos": [
   {
    "tipo": "texto",
@@ -15,7 +15,7 @@
    "titulo": "Senado",
    "total": 100,
    "maioria": 51,
-   "nota": "Projeção da AP; 2 cadeiras ainda indefinidas.",
+   "nota": "Projeção da AP em 11/11; Alasca e Mississippi ainda indefinidos.",
    "linhas": [
     {
      "nome": "Democratas",
@@ -33,54 +33,66 @@
      "cor": "#B9B4C4"
     }
    ],
-   "fonte": "Yahoo News, com dados da AP (7/11)",
-   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+   "fonte": "Yahoo News, com dados da AP (11/11)",
+   "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-havent-been-called-yet-heres-where-things-stand-right-now-235850171.html"
   },
   {
    "tipo": "cadeiras",
    "titulo": "Câmara dos Representantes",
    "total": 435,
    "maioria": 218,
-   "nota": "Projeção da AP; 19 disputas ainda indefinidas.",
+   "nota": "Projeção da AP em 11/11: 255 democratas e 13 disputas indefinidas (duas da Louisiana vão a 2º turno em 12/12). Os 167 republicanos são a diferença até 435.",
    "linhas": [
     {
      "nome": "Democratas",
-     "valor": 254,
+     "valor": 255,
      "cor": "#2F6FD6"
     },
     {
      "nome": "Republicanos",
-     "valor": 162,
+     "valor": 167,
      "cor": "#D64545"
     },
     {
      "nome": "Indefinidas",
-     "valor": 19,
+     "valor": 13,
      "cor": "#B9B4C4"
     }
    ],
-   "fonte": "Yahoo News, com dados da AP (7/11)",
-   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+   "fonte": "Yahoo News, com dados da AP (11/11)",
+   "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-havent-been-called-yet-heres-where-things-stand-right-now-235850171.html"
   },
   {
    "tipo": "lista",
-   "titulo": "Ainda em aberto",
+   "titulo": "Senado: ainda em aberto",
    "itens": [
     {
-     "rotulo": "Senado, Mississippi",
-     "texto": "Scott Colom (D) lidera Cindy Hyde-Smith (R) por 2.574 votos, com 97% apurado."
+     "rotulo": "Mississippi",
+     "texto": "Scott Colom (D) lidera Cindy Hyde-Smith (R) por 2.633 votos, cerca de 0,28% das cédulas, com 97% apurado. A AP não projetou o vencedor. O estado certifica em 3/12, e só há recontagem por ordem judicial."
     },
     {
-     "rotulo": "Senado, Alasca",
-     "texto": "Mary Peltola (D) lidera Dan Sullivan (R) por 637 votos, com 74% apurado. Se ninguém passar de 50%, o voto ranqueado começa a ser contado em 18/11."
-    },
-    {
-     "rotulo": "Governo, Kansas",
-     "texto": "Cindy Holscher (D) lidera Ty Masterson (R) por cerca de 7 mil votos. Há auditoria com recontagem manual, e Masterson não reconheceu a derrota."
+     "rotulo": "Alasca",
+     "texto": "Mary Peltola (D) lidera Dan Sullivan (R) por 2.517 votos, com 76% apurado. Se ninguém passar de 50%, a contagem do voto ranqueado começa em 18/11."
     }
    ],
-   "fonte": "Yahoo News, com dados da AP (7/11)",
-   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+   "fonte": "Yahoo News, com dados da AP (11/11)",
+   "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-havent-been-called-yet-heres-where-things-stand-right-now-235850171.html"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Governos: ainda em aberto",
+   "itens": [
+    {
+     "rotulo": "Kansas",
+     "texto": "Cindy Holscher (D) lidera Ty Masterson (R) por menos de 1 ponto percentual. Uma auditoria com contagem manual deve terminar antes de 16/11, prazo para os condados certificarem."
+    },
+    {
+     "rotulo": "Alasca",
+     "texto": "Jonathan Kreiss-Tomkins (D) tem 49,6% contra 28,9% de Bernadette Wilson, com cerca de 76% apurado. Se ninguém passar de 50%, a disputa vai ao voto ranqueado."
+    }
+   ],
+   "fonte": "Gulf Coast News, com texto da AP (11/11)",
+   "url": "https://www.gulfcoastnewsnow.com/article/key-races-still-undecided-midterm-election-2026/74397433"
   },
   {
    "tipo": "texto",

@@ -150,6 +150,13 @@ SCHEMAS = {
         "enums": {"bloco": ["Situação", "Caminho", "Bastidor", "Próximos passos"]},
         "required": ["id", "ordem", "bloco", "data", "titulo", "texto", "fonte", "url"],
     },
+    "entenda_direita": {
+        "key": "id",
+        "fields": ["id", "ordem", "bloco", "data", "titulo", "texto", "quem_decide", "status", "fonte", "url", "fonte2", "url2"],
+        "dates": ["data"],
+        "enums": {"bloco": ["Fato", "Bastidor", "Próximos passos"]},
+        "required": ["id", "ordem", "bloco", "data", "titulo", "texto", "fonte", "url"],
+    },
     "status": {
         "key": "id",
         "fields": ["id", "ultima_atualizacao", "horarios", "fuso", "url"],

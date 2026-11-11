@@ -14,6 +14,20 @@
   "url": "https://resultados.tse.jus.br/"
  },
  {
+  "id": "brasil-2026-congresso-governos",
+  "titulo": "Brasil 2026: Senado, Câmara e governadores",
+  "pais": "Brasil",
+  "sigla": "BR",
+  "cargo": "Senado, Câmara e governos estaduais",
+  "data_eleicao": "2026-10-04",
+  "status": "Encerrada",
+  "resumo": "O PL terá as maiores bancadas no Senado e na Câmara a partir de 2027 e elegeu 6 governadores, o maior número entre os partidos. Seis estados tiveram 2º turno para governador.",
+  "abre": "detalhe",
+  "atualizado": "2026-11-11",
+  "fonte": "Agência Senado e CNN Brasil",
+  "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo"
+ },
+ {
   "id": "eua-2026-meio-de-mandato",
   "titulo": "EUA 2026: Câmara e Senado",
   "pais": "Estados Unidos",
@@ -21,10 +35,10 @@
   "cargo": "Congresso e governos estaduais",
   "data_eleicao": "2026-11-03",
   "status": "Em apuração",
-  "resumo": "Os democratas passaram a controlar a Câmara e o Senado. Ainda há disputas abertas no Alasca, no Mississippi e em governos estaduais.",
+  "resumo": "Os democratas passaram a controlar a Câmara e o Senado. Até 11/11, a AP não tinha projetado o vencedor no Senado do Alasca e do Mississippi nem nos governos do Kansas e do Alasca.",
   "abre": "detalhe",
-  "atualizado": "2026-11-07",
+  "atualizado": "2026-11-11",
   "fonte": "Yahoo News, com dados da AP",
-  "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+  "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-havent-been-called-yet-heres-where-things-stand-right-now-235850171.html"
  }
 ]

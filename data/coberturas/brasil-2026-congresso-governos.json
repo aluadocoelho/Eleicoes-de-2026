@@ -1,0 +1,380 @@
+{
+ "id": "brasil-2026-congresso-governos",
+ "titulo": "Brasil 2026: Senado, Câmara e governadores",
+ "atualizado": "2026-11-11T18:00:00Z",
+ "blocos": [
+  {
+   "tipo": "texto",
+   "titulo": "O que estava em jogo",
+   "texto": "Em 4 de outubro, junto com o 1º turno para presidente, os eleitores escolheram 54 das 81 cadeiras do Senado (duas por estado), os 513 deputados federais e os 27 governadores. Seis estados tiveram 2º turno para governador, em 25 de outubro.",
+   "fonte": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo"
+  },
+  {
+   "tipo": "cadeiras",
+   "titulo": "Senado a partir de 2027",
+   "total": 81,
+   "maioria": 41,
+   "nota": "Projeção da Agência Senado de 5/10, antes de trocas de partido e suplências. Outros: PSDB 2, Podemos 2, Rede 1, PDT 1 e Romário, sem partido. A candidatura de Deltan Dallagnol (Novo-PR) está sub judice no TSE.",
+   "linhas": [
+    {
+     "nome": "PL",
+     "valor": 28,
+     "cor": "#4C3BCF"
+    },
+    {
+     "nome": "PT",
+     "valor": 9,
+     "cor": "#E07A1F"
+    },
+    {
+     "nome": "MDB",
+     "valor": 8,
+     "cor": "#1B9E77"
+    },
+    {
+     "nome": "União",
+     "valor": 6,
+     "cor": "#C2185B"
+    },
+    {
+     "nome": "PP",
+     "valor": 6,
+     "cor": "#7CB342"
+    },
+    {
+     "nome": "Republicanos",
+     "valor": 5,
+     "cor": "#00838F"
+    },
+    {
+     "nome": "PSD",
+     "valor": 5,
+     "cor": "#8E6C3A"
+    },
+    {
+     "nome": "PSB",
+     "valor": 4,
+     "cor": "#D4A017"
+    },
+    {
+     "nome": "Novo",
+     "valor": 3,
+     "cor": "#5E7CE2"
+    },
+    {
+     "nome": "Outros",
+     "valor": 7,
+     "cor": "#B9B4C4"
+    }
+   ],
+   "fonte": "Exame, com projeção da Agência Senado (5/10)",
+   "url": "https://exame.com/brasil/pl-tera-28-senadores-e-bancada-sera-tres-vezes-maior-que-a-do-pt-em-2027-veja-composicao/"
+  },
+  {
+   "tipo": "cadeiras",
+   "titulo": "Câmara a partir de 2027",
+   "total": 513,
+   "maioria": 257,
+   "nota": "Contagem preliminar de 5/10, com dados do TSE; há candidatos sub judice. Outros: PCdoB 11, PSDB 11, Novo 10, PV 7, PDT 6, Avante 5, PRD 5, Solidariedade 2, Missão 1 e Rede 1.",
+   "linhas": [
+    {
+     "nome": "PL",
+     "valor": 121,
+     "cor": "#4C3BCF"
+    },
+    {
+     "nome": "PT",
+     "valor": 70,
+     "cor": "#E07A1F"
+    },
+    {
+     "nome": "União",
+     "valor": 46,
+     "cor": "#1B9E77"
+    },
+    {
+     "nome": "PSD",
+     "valor": 43,
+     "cor": "#C2185B"
+    },
+    {
+     "nome": "PP",
+     "valor": 41,
+     "cor": "#7CB342"
+    },
+    {
+     "nome": "Republicanos",
+     "valor": 41,
+     "cor": "#00838F"
+    },
+    {
+     "nome": "MDB",
+     "valor": 36,
+     "cor": "#8E6C3A"
+    },
+    {
+     "nome": "Podemos",
+     "valor": 27,
+     "cor": "#D4A017"
+    },
+    {
+     "nome": "PSB",
+     "valor": 15,
+     "cor": "#5E7CE2"
+    },
+    {
+     "nome": "PSOL",
+     "valor": 14,
+     "cor": "#9C27B0"
+    },
+    {
+     "nome": "Outros",
+     "valor": 59,
+     "cor": "#B9B4C4"
+    }
+   ],
+   "fonte": "Exame, com dados do TSE compilados pela Inteligov (5/10)",
+   "url": "https://exame.com/brasil/pl-amplia-bancada-e-tera-121-deputados-veja-a-nova-composicao-da-camara/"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Governadores por partido",
+   "texto": "PL elegeu 6 governadores; PSD, 5; PT, PP e Republicanos, 4 cada; PSDB, 2; MDB e Podemos, 1 cada. Os 2º turnos foram no Acre, no Amazonas, no Distrito Federal, no Espírito Santo, no Rio Grande do Norte e no Tocantins.",
+   "fonte": "CNN Brasil (27/10)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-quem-sao-os-27-governadores-eleitos-em-2026/"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Governadores eleitos",
+   "itens": [
+    {
+     "rotulo": "AC",
+     "texto": "Mailza Assis (PP), no 2º turno"
+    },
+    {
+     "rotulo": "AL",
+     "texto": "JHC (PSDB), no 1º turno"
+    },
+    {
+     "rotulo": "AP",
+     "texto": "Dr. Furlan (PSD), no 1º turno"
+    },
+    {
+     "rotulo": "AM",
+     "texto": "Omar Aziz (PSD), no 2º turno"
+    },
+    {
+     "rotulo": "BA",
+     "texto": "Jerônimo Rodrigues (PT), no 1º turno"
+    },
+    {
+     "rotulo": "CE",
+     "texto": "Elmano de Freitas (PT), no 1º turno"
+    },
+    {
+     "rotulo": "DF",
+     "texto": "Celina Leão (PP), no 2º turno"
+    },
+    {
+     "rotulo": "ES",
+     "texto": "Lorenzo Pazolini (Republicanos), no 2º turno"
+    },
+    {
+     "rotulo": "GO",
+     "texto": "Daniel Vilela (MDB), no 1º turno"
+    },
+    {
+     "rotulo": "MA",
+     "texto": "Eduardo Braide (PSD), no 1º turno"
+    },
+    {
+     "rotulo": "MT",
+     "texto": "Otaviano Pivetta (Republicanos), no 1º turno"
+    },
+    {
+     "rotulo": "MS",
+     "texto": "Eduardo Riedel (PP), no 1º turno"
+    },
+    {
+     "rotulo": "MG",
+     "texto": "Cleitinho Azevedo (Republicanos), no 1º turno"
+    },
+    {
+     "rotulo": "PA",
+     "texto": "Dr. Daniel Santos (Podemos), no 1º turno"
+    },
+    {
+     "rotulo": "PB",
+     "texto": "Lucas Ribeiro (PP), no 1º turno"
+    },
+    {
+     "rotulo": "PR",
+     "texto": "Sergio Moro (PL), no 1º turno"
+    },
+    {
+     "rotulo": "PE",
+     "texto": "Raquel Lyra (PSD), no 1º turno"
+    },
+    {
+     "rotulo": "PI",
+     "texto": "Rafael Fonteles (PT), no 1º turno"
+    },
+    {
+     "rotulo": "RJ",
+     "texto": "Douglas Ruas (PL), declarado eleito depois que o TSE anulou os votos de Anthony Garotinho (Republicanos) por inelegibilidade e refez a totalização"
+    },
+    {
+     "rotulo": "RN",
+     "texto": "Cadu de Lula (PT), no 2º turno"
+    },
+    {
+     "rotulo": "RS",
+     "texto": "Luciano Zucco (PL), no 1º turno"
+    },
+    {
+     "rotulo": "RO",
+     "texto": "Marcos Rogério (PL), no 1º turno"
+    },
+    {
+     "rotulo": "RR",
+     "texto": "Arthur Henrique (PL), no 1º turno"
+    },
+    {
+     "rotulo": "SC",
+     "texto": "Jorginho Mello (PL), no 1º turno"
+    },
+    {
+     "rotulo": "SP",
+     "texto": "Tarcísio de Freitas (Republicanos), no 1º turno"
+    },
+    {
+     "rotulo": "SE",
+     "texto": "Fábio Mitidieri (PSD), no 1º turno"
+    },
+    {
+     "rotulo": "TO",
+     "texto": "Vicentinho Júnior (PSDB), no 2º turno"
+    }
+   ],
+   "fonte": "CNN Brasil (27/10)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/veja-quem-sao-os-27-governadores-eleitos-em-2026/"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Senadores eleitos",
+   "itens": [
+    {
+     "rotulo": "AC",
+     "texto": "Marcio Bittar (PL) e Mara Rocha (Republicanos)"
+    },
+    {
+     "rotulo": "AL",
+     "texto": "Arthur Lira (PP) e Marina JHC (PSDB)"
+    },
+    {
+     "rotulo": "AP",
+     "texto": "Rayssa Furlan (Podemos) e Lucas Barreto (PSD)"
+    },
+    {
+     "rotulo": "AM",
+     "texto": "Eduardo Braga (MDB) e Plínio Valério (PSDB)"
+    },
+    {
+     "rotulo": "BA",
+     "texto": "Rui Costa (PT) e Jaques Wagner (PT)"
+    },
+    {
+     "rotulo": "CE",
+     "texto": "Cid Gomes (PSB) e Luizianne Lins (Rede)"
+    },
+    {
+     "rotulo": "DF",
+     "texto": "Michelle Bolsonaro (PL) e Bia Kicis (PL)"
+    },
+    {
+     "rotulo": "ES",
+     "texto": "Renato Casagrande (PSB) e Evair de Melo (Republicanos)"
+    },
+    {
+     "rotulo": "GO",
+     "texto": "Gustavo Gayer (PL) e Gracinha Caiado (União)"
+    },
+    {
+     "rotulo": "MA",
+     "texto": "André Fufuca (PP) e Lahesio Bonfim (Novo)"
+    },
+    {
+     "rotulo": "MT",
+     "texto": "Mauro Mendes (União) e Zé Medeiros (PL)"
+    },
+    {
+     "rotulo": "MS",
+     "texto": "Reinaldo Azambuja (PL) e Capitão Contar (PL)"
+    },
+    {
+     "rotulo": "MG",
+     "texto": "Domingos Sávio (PL) e Marília Campos (PT)"
+    },
+    {
+     "rotulo": "PA",
+     "texto": "Helder Barbalho (MDB) e Chicão (União)"
+    },
+    {
+     "rotulo": "PB",
+     "texto": "João Azevêdo (PSB) e Veneziano Vital do Rêgo (MDB)"
+    },
+    {
+     "rotulo": "PR",
+     "texto": "Filipe Barros (PL) e Deltan Dallagnol (Novo)"
+    },
+    {
+     "rotulo": "PE",
+     "texto": "Humberto Costa (PT) e Marília Arraes (PDT)"
+    },
+    {
+     "rotulo": "PI",
+     "texto": "Marcelo Castro (MDB) e Júlio César (PSD)"
+    },
+    {
+     "rotulo": "RJ",
+     "texto": "Carlos Portinho (PL) e Carlos Jordy (PL)"
+    },
+    {
+     "rotulo": "RN",
+     "texto": "Styvenson Valentim (Podemos) e Samanda de Lula (PT)"
+    },
+    {
+     "rotulo": "RS",
+     "texto": "Ubiratan Sanderson (PL) e Marcel Van Hattem (Novo)"
+    },
+    {
+     "rotulo": "RO",
+     "texto": "Fernando Máximo (PL) e Bruno Scheid (PL)"
+    },
+    {
+     "rotulo": "RR",
+     "texto": "Nicoletti (PL) e Teresa Surita (MDB)"
+    },
+    {
+     "rotulo": "SC",
+     "texto": "Carol de Toni (PL) e Carlos Bolsonaro (PL)"
+    },
+    {
+     "rotulo": "SP",
+     "texto": "Guilherme Derrite (PP) e André do Prado (PL)"
+    },
+    {
+     "rotulo": "SE",
+     "texto": "Rogério Carvalho (PT) e Alessandro Vieira (MDB)"
+    },
+    {
+     "rotulo": "TO",
+     "texto": "Eduardo Gomes (PL) e Alexandre Guimarães (MDB)"
+    }
+   ],
+   "fonte": "Agência Senado (4/10)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo"
+  }
+ ]
+}

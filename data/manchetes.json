@@ -1,5 +1,45 @@
 [
  {
+  "id": "n07",
+  "data": "2026-11-11",
+  "editoria": "Governo",
+  "titulo": "Na COP31, Lula diz que os países ricos devem cumprir seus compromissos climáticos",
+  "resumo": "No primeiro discurso a líderes mundiais depois da reeleição, em Antália, na Turquia, Lula defendeu os dois roteiros levados pelo Brasil para reduzir a dependência de combustíveis fósseis e acabar com o desmatamento.",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/internacional/lula-comeca-discurso-na-cupula-de-lideres-na-cop31-acompanhe/",
+  "cobertura": null
+ },
+ {
+  "id": "n06",
+  "data": "2026-11-11",
+  "editoria": "Congresso",
+  "titulo": "PL adia decisão sobre apoiar a reeleição de Hugo Motta no comando da Câmara",
+  "resumo": "Sem consenso na reunião, a bancada fará uma consulta reservada aos 121 deputados eleitos, com prazo de 15 dias. O líder Sóstenes Cavalcante disse que nenhum nome para candidatura própria foi discutido.",
+  "fonte": "Jornal de Brasília",
+  "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-adia-decisao-sobre-apoio-a-hugo-motta-na-camara/",
+  "cobertura": "brasil-2026-congresso-governos"
+ },
+ {
+  "id": "n08",
+  "data": "2026-11-11",
+  "editoria": "Governo",
+  "titulo": "Casa Civil pede balanço aos ministérios e diz que não haverá equipe formal de transição",
+  "resumo": "Por ser reeleição, os ministérios vão enviar relatórios sobre programas e prioridades para os futuros titulares. Lula tem reunião marcada para 16/11 sobre o novo Ministério da Segurança Pública.",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/politica/casa-civil-cobra-balanco-de-ministerios-para-continuidade-em-lula-4/",
+  "cobertura": null
+ },
+ {
+  "id": "n09",
+  "data": "2026-11-10",
+  "editoria": "Flávio",
+  "titulo": "PF abre inquérito sobre suspeita de financiamento estrangeiro à campanha de Flávio",
+  "resumo": "A investigação, ordenada por Flávio Dino (STF) em 27/10, apura se o grupo americano Rockbridge Network repassou dinheiro ou serviços à campanha e quem pagou posts no exterior. A abertura do inquérito não significa que houve crime.",
+  "fonte": "Metrópoles",
+  "url": "https://www.metropoles.com/brasil/pf-abre-inquerito-para-apurar-verba-estrangeira-na-campanha-de-flavio",
+  "cobertura": "brasil-2026-presidente"
+ },
+ {
   "id": "n01",
   "data": "2026-11-09",
   "editoria": "STF",
