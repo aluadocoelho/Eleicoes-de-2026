@@ -674,7 +674,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -3098,11 +3098,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3135,8 +3135,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3326,7 +3326,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3818,7 +3818,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -4539,8 +4539,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4942,6 +4942,18 @@
   "titulo": "Postagens com falsa pesquisa Quaest têm resultado em que Lula e Flávio somam mais de 100%",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/pesquisa-quaest-lula-54-flavio-49-falso/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/nordeste-sem-agua-abandono-lula-falta-contexto/",
+  "termo": "Lula",
+  "afirmacao": "Nordeste sem água abandonado por Lula",
+  "quem_disse": "Postagens em redes sociais",
+  "data_afirmacao": "2026-11-11",
+  "checador": "Estadão",
+  "selo": "Fora de contexto",
+  "titulo": "Falta de água em cidade do Nordeste não tem relação com o ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/nordeste-sem-agua-abandono-lula-falta-contexto/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/nestle-quebrou-demitiu-16-mil-funcionarios-fechou-duas-fabricas-governo-lula-enganoso/",
@@ -5842,6 +5854,18 @@
   "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm?t=%7Bseek_to_second_number%7D"
+ },
+ {
+  "id": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula anuncia cortes de R$ 6 bilhões na Saúde e Educação",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "BOL - UOL",
+  "selo": "Distorcido",
+  "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
+  "data_checagem": null,
+  "url": "https://www.bol.uol.com.br/noticias/2026/10/29/lula-nao-anunciou-cortes-bilionarios-na-saude-e-educacao-noticia-e-de-2024.ghtm"
  },
  {
   "id": "https://www.bol.uol.com.br/noticias/2026/10/29/desinformacao-falso-video-greve-professores-sergipe-corte-educacao-eleicoes.ghtm?t=%7Bseek_to_second_number%7D",
