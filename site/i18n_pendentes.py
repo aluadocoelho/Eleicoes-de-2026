@@ -22,6 +22,22 @@ def textos():
             for f in fs + CAT:
                 v = r.get(f)
                 if isinstance(v, str) and v.strip(): out.add(v)
+    # coberturas detalhadas (data/coberturas/<id>.json): blocos e linhas
+    pc = os.path.join(REPO, 'data', 'coberturas')
+    if os.path.isdir(pc):
+        for fn in sorted(os.listdir(pc)):
+            if not fn.endswith('.json'): continue
+            d = json.load(open(os.path.join(pc, fn)))
+            for t in [d.get('titulo')]: 
+                if isinstance(t, str): out.add(t)
+            for b in d.get('blocos', []):
+                for f in CAMPOS.get('cobertura_bloco', []):
+                    v = b.get(f)
+                    if isinstance(v, str) and v.strip(): out.add(v)
+                for r in (b.get('linhas') or []) + (b.get('itens') or []):
+                    for f in CAMPOS.get('cobertura_linha', []):
+                        v = r.get(f)
+                        if isinstance(v, str) and v.strip(): out.add(v)
     return out
 if len(sys.argv) > 1 and sys.argv[1] == '--juntar':
     for lg, arq in zip(('en', 'es'), sys.argv[2:4]):

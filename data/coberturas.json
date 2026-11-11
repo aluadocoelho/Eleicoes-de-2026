@@ -1,0 +1,30 @@
+[
+ {
+  "id": "brasil-2026-presidente",
+  "titulo": "Brasil 2026: Presidência",
+  "pais": "Brasil",
+  "sigla": "BR",
+  "cargo": "Presidente",
+  "data_eleicao": "2026-10-25",
+  "status": "Encerrada",
+  "resumo": "Lula (PT) foi reeleito no 2º turno com 51,79% dos votos válidos, contra 48,21% de Flávio Bolsonaro (PL). Posse em 5 de janeiro de 2027.",
+  "abre": "aba:resultados",
+  "atualizado": "2026-10-25",
+  "fonte": "TSE",
+  "url": "https://resultados.tse.jus.br/"
+ },
+ {
+  "id": "eua-2026-meio-de-mandato",
+  "titulo": "EUA 2026: Câmara e Senado",
+  "pais": "Estados Unidos",
+  "sigla": "EUA",
+  "cargo": "Congresso e governos estaduais",
+  "data_eleicao": "2026-11-03",
+  "status": "Em apuração",
+  "resumo": "Os democratas passaram a controlar a Câmara e o Senado. Ainda há disputas abertas no Alasca, no Mississippi e em governos estaduais.",
+  "abre": "detalhe",
+  "atualizado": "2026-11-07",
+  "fonte": "Yahoo News, com dados da AP",
+  "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+ }
+]

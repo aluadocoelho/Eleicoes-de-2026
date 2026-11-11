@@ -1,0 +1,93 @@
+{
+ "id": "eua-2026-meio-de-mandato",
+ "titulo": "EUA 2026: eleições de meio de mandato",
+ "atualizado": "2026-11-07T19:03:00Z",
+ "blocos": [
+  {
+   "tipo": "texto",
+   "titulo": "O que estava em jogo",
+   "texto": "Em 3 de novembro, os americanos escolheram todas as 435 cadeiras da Câmara, 35 das 100 do Senado e 36 governadores. Donald Trump não estava na cédula: o mandato dele vai até 2029. Os eleitos tomam posse em 3 de janeiro de 2027.",
+   "fonte": "O Liberal, com dados da AP",
+   "url": "https://www.oliberal.com/mundo/eleicoes-dos-eua-trump-perdeu-veja-o-resultado-da-votacao-de-meio-de-mandato-1.1190228"
+  },
+  {
+   "tipo": "cadeiras",
+   "titulo": "Senado",
+   "total": 100,
+   "maioria": 51,
+   "nota": "Projeção da AP; 2 cadeiras ainda indefinidas.",
+   "linhas": [
+    {
+     "nome": "Democratas",
+     "valor": 54,
+     "cor": "#2F6FD6"
+    },
+    {
+     "nome": "Republicanos",
+     "valor": 44,
+     "cor": "#D64545"
+    },
+    {
+     "nome": "Indefinidas",
+     "valor": 2,
+     "cor": "#B9B4C4"
+    }
+   ],
+   "fonte": "Yahoo News, com dados da AP (7/11)",
+   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+  },
+  {
+   "tipo": "cadeiras",
+   "titulo": "Câmara dos Representantes",
+   "total": 435,
+   "maioria": 218,
+   "nota": "Projeção da AP; 19 disputas ainda indefinidas.",
+   "linhas": [
+    {
+     "nome": "Democratas",
+     "valor": 254,
+     "cor": "#2F6FD6"
+    },
+    {
+     "nome": "Republicanos",
+     "valor": 162,
+     "cor": "#D64545"
+    },
+    {
+     "nome": "Indefinidas",
+     "valor": 19,
+     "cor": "#B9B4C4"
+    }
+   ],
+   "fonte": "Yahoo News, com dados da AP (7/11)",
+   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Ainda em aberto",
+   "itens": [
+    {
+     "rotulo": "Senado, Mississippi",
+     "texto": "Scott Colom (D) lidera Cindy Hyde-Smith (R) por 2.574 votos, com 97% apurado."
+    },
+    {
+     "rotulo": "Senado, Alasca",
+     "texto": "Mary Peltola (D) lidera Dan Sullivan (R) por 637 votos, com 74% apurado. Se ninguém passar de 50%, o voto ranqueado começa a ser contado em 18/11."
+    },
+    {
+     "rotulo": "Governo, Kansas",
+     "texto": "Cindy Holscher (D) lidera Ty Masterson (R) por cerca de 7 mil votos. Há auditoria com recontagem manual, e Masterson não reconheceu a derrota."
+    }
+   ],
+   "fonte": "Yahoo News, com dados da AP (7/11)",
+   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que Trump disse",
+   "texto": "Trump disse que vai trabalhar com os democratas nos dois anos que faltam, mas que não vai hesitar em vetar propostas. Reconheceu que a guerra com o Irã contribuiu para as derrotas republicanas e defendeu a decisão de travá-la.",
+   "fonte": "Yahoo News",
+   "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+  }
+ ]
+}

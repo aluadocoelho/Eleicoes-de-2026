@@ -1,0 +1,52 @@
+[
+ {
+  "id": "n01",
+  "data": "2026-11-09",
+  "editoria": "STF",
+  "titulo": "Fachin arquiva o inquérito das fake news depois de mais de sete anos",
+  "resumo": "O presidente do STF atendeu a um pedido da PGR. A maior parte dos documentos deve se tornar pública, e as investigações que nasceram do inquérito continuam.",
+  "fonte": "SBT News",
+  "url": "https://sbtnews.sbt.com.br/noticia/politica/stf-arquiva-inquerito-das-fake-news",
+  "cobertura": null
+ },
+ {
+  "id": "n02",
+  "data": "2026-11-08",
+  "editoria": "Governo",
+  "titulo": "No primeiro pronunciamento após a reeleição, Lula promete condições para baixar os juros",
+  "resumo": "Também anunciou que vai criar, por medida provisória, o Ministério da Segurança Pública, e defendeu debater com urgência as reformas política e do Judiciário. Não apresentou medidas de corte de gastos.",
+  "fonte": "Exame",
+  "url": "https://exame.com/brasil/em-pronunciamento-lula-promete-criar-condicoes-para-reduzir-taxa-de-juros/",
+  "cobertura": "brasil-2026-presidente"
+ },
+ {
+  "id": "n03",
+  "data": "2026-11-07",
+  "editoria": "EUA",
+  "titulo": "Democratas conquistam a Câmara e o Senado nas eleições de meio de mandato dos EUA",
+  "resumo": "Segundo a AP, os democratas têm 54 cadeiras no Senado e 254 na Câmara, com disputas ainda abertas no Alasca e no Mississippi. Os eleitos tomam posse em 3 de janeiro.",
+  "fonte": "Yahoo News, com dados da AP",
+  "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html",
+  "cobertura": "eua-2026-meio-de-mandato"
+ },
+ {
+  "id": "n04",
+  "data": "2026-11-05",
+  "editoria": "Flávio",
+  "titulo": "Em Miami, Flávio diz ao New York Times que espera ser preso se voltar ao Brasil",
+  "resumo": "Ele repetiu, sem provas, que houve fraude e disse que pretende atuar do exterior pela anistia ao pai. Afirmou ter organizado a viagem sozinho, sem ajuda de governos.",
+  "fonte": "ND Mais, citando o New York Times",
+  "url": "https://ndmais.com.br/politica/flavio-bolsonaro-revela-destino-entrevista-nyt-prisao/",
+  "cobertura": "brasil-2026-presidente"
+ },
+ {
+  "id": "n05",
+  "data": "2026-11-03",
+  "editoria": "Congresso",
+  "titulo": "Senado aprova a PEC da Segurança Pública e deixa a redução da maioridade penal de fora",
+  "resumo": "A PEC passou por unanimidade e vai à promulgação. Por 38 a 36, os senadores separaram as emendas da maioridade penal, que vão tramitar como outra proposta.",
+  "fonte": "Agência Senado",
+  "url": "https://www12.senado.leg.br/noticias/materias/2026/11/03/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal",
+  "cobertura": null
+ }
+]

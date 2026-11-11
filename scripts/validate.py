@@ -130,6 +130,19 @@ SCHEMAS = {
         "enums": {"grupo": ["América Latina", "América do Norte", "Europa", "Ásia, África e Oriente Médio", "Organizações internacionais"]},
         "required": ["id", "data", "grupo", "pais", "quem", "reacao", "fonte", "url"],
     },
+    "manchetes": {
+        "key": "id",
+        "fields": ["id", "data", "editoria", "titulo", "resumo", "fonte", "url", "cobertura"],
+        "dates": ["data"],
+        "required": ["id", "data", "editoria", "titulo", "resumo", "fonte", "url"],
+    },
+    "coberturas": {
+        "key": "id",
+        "fields": ["id", "titulo", "pais", "sigla", "cargo", "data_eleicao", "status", "resumo", "abre", "atualizado", "fonte", "url"],
+        "dates": ["data_eleicao", "atualizado"],
+        "enums": {"status": ["Em breve", "Em andamento", "Em apuração", "Encerrada"]},
+        "required": ["id", "titulo", "pais", "sigla", "cargo", "data_eleicao", "status", "resumo", "abre", "fonte", "url"],
+    },
     "entenda": {
         "key": "id",
         "fields": ["id", "ordem", "bloco", "data", "titulo", "texto", "quem_decide", "status", "fonte", "url", "fonte2", "url2"],

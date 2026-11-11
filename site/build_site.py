@@ -649,7 +649,11 @@ _VHTML = ('<section class="el-vids" id="el-vids" aria-labelledby="el-vids-t"><h2
           '<button type="button" class="el-vp-nav" id="el-vp-prox" aria-label="Próximo vídeo">›</button></div></div></div>')
 _AV = '<aside class="el-aviso" id="el-aviso"'
 assert html.count(_AV) == 1
-html = html.replace(_AV, _VHTML + _AV, 1)
+_NEWS = '<div class="el-news-grid" id="news-grid" aria-live="polite"><p class="el-note">Carregando…</p></div>\n    </section>'
+if html.count(_NEWS) == 1:
+    html = html.replace(_NEWS, _NEWS + _VHTML, 1)   # vídeos logo abaixo das Novidades, na Início
+else:
+    html = html.replace(_AV, _VHTML + _AV, 1)
 _VCSS = """<style>
 .el-vids{margin:14px 0 6px;min-height:118px}
 .el-vids-t{margin:0 0 8px;font-size:.8125rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted,#5A5F6B)}

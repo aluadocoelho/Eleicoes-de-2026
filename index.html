@@ -587,7 +587,7 @@ table.el-t{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-cap
 .el-more{display:none;appearance:none;background:var(--accent-soft);color:var(--accent-text);padding:8px 16px;min-height:44px;font:inherit;font-size:var(--cds-font-size-body);font-weight:700;cursor:pointer;margin-top:var(--cds-gap-sm)}
 .el-more[hidden]{display:none!important}
 
-/* Visual das peças: topo roxo e títulos de seção */
+/* Visual das peças: topo e títulos de seção */
 .el-sticky>header{position:relative;overflow:hidden;isolation:isolate;background:var(--banner-bg);color:#FFFFFF;border-radius:24px;padding:18px 20px}
 .el-sticky>header::after{content:"";position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;border:46px solid rgba(255,255,255,.07);z-index:-1;pointer-events:none}
 .el-sticky>header .el-flag{margin:-18px -20px 16px;border-radius:0;height:8px}
@@ -1011,6 +1011,60 @@ body:has(.el[data-theme="dark"]) .el-ch-aviso{background:#2A2610;color:#ECEEF3}
   .el-qgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 
+/* Topo novo (nov/2026): sem o placar dos candidatos; faixa clara com marca-texto */
+.el-sticky>header{background:var(--color-panel);color:var(--color-fg);border:2px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}
+.el-sticky>header::after{border-color:rgba(255,212,59,.35)}
+.el-sticky>header .el-title{color:var(--color-fg)}
+.el-sticky>header .el-tagline{color:var(--color-fg-muted);opacity:1}
+.el-hl{background:linear-gradient(transparent 55%,#FFD43B 55%,#FFD43B 90%,transparent 90%);padding:0 .06em}
+/* Novidades (hero da Início) */
+.el-news{margin:4px 0 26px}
+.el-news-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.el-news-grid{display:grid;gap:14px}
+@media(min-width:56rem){.el-news-grid{grid-template-columns:1.35fr 1fr 1fr}.el-news-c.lead{grid-row:span 2}}
+.el-news-c{position:relative;display:flex;flex-direction:column;gap:8px;border:2px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--ink);background:var(--color-panel);color:var(--color-fg);padding:16px 18px;text-decoration:none;transition:transform .12s, box-shadow .12s}
+.el-news-c:hover,.el-news-c:focus-visible{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}
+.el-news-c.lead{background:#16181D;color:#fff;box-shadow:6px 6px 0 #FFD43B;padding:22px 22px}
+.el-news-c.lead:hover{box-shadow:8px 8px 0 #FFD43B}
+.el-news-tag{align-self:flex-start;background:#FFD43B;color:#1A1500;border:2px solid #16181D;border-radius:999px;padding:2px 10px;font-weight:900;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+.el-news-t{font-family:var(--font-anthropic-serif);font-weight:700;font-size:1.15rem;line-height:1.2;margin:0}
+.el-news-c.lead .el-news-t{font-size:clamp(1.45rem,4.5vw,2rem);line-height:1.1}
+.el-news-r{margin:0;font-size:.95rem;line-height:1.45;color:var(--color-fg-muted)}
+.el-news-c.lead .el-news-r{color:#D9DBE1;font-size:1.02rem}
+.el-news-f{margin-top:auto;font-size:.82rem;font-weight:800;color:var(--accent-text)}
+.el-news-c.lead .el-news-f{color:#FFD43B}
+.el-news-d{font-size:.78rem;color:var(--color-fg-muted);font-weight:700}
+.el-news-c.lead .el-news-d{color:#B9BDC8}
+.el-news-meta{display:flex;justify-content:space-between;align-items:center;gap:8px}
+/* Coberturas */
+.el-cob-grid{display:grid;gap:14px;margin-top:8px}
+@media(min-width:48rem){.el-cob-grid{grid-template-columns:1fr 1fr}}
+.el-cob-c{appearance:none;font:inherit;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:8px;border:2px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--ink);background:var(--color-panel);color:var(--color-fg);padding:16px 18px}
+.el-cob-c:hover,.el-cob-c:focus-visible{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}
+.el-cob-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.el-cob-sig{background:#16181D;color:#FFD43B;border-radius:10px;padding:4px 9px;font-weight:900;font-size:.8rem;letter-spacing:.06em}
+.el-cob-st{border:2px solid var(--ink);border-radius:999px;padding:1px 10px;font-weight:800;font-size:.75rem}
+.el-cob-st.on{background:#FFD43B;color:#1A1500}
+.el-cob-t{font-family:var(--font-anthropic-serif);font-weight:700;font-size:1.3rem;margin:0}
+.el-cob-r{margin:0;line-height:1.45;color:var(--color-fg-muted)}
+.el-cob-go{font-weight:800;color:var(--accent-text);font-size:.9rem}
+.el-cob-det[hidden]{display:none}
+.el-cob-back{appearance:none;font:inherit;font-weight:800;border:2px solid var(--ink);border-radius:999px;background:var(--color-panel);color:var(--color-fg);padding:6px 14px;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.el-cob-b{border:2px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--ink);background:var(--color-panel);padding:16px 18px;margin-top:16px}
+.el-cob-b h3{margin:0 0 8px;font-family:var(--font-anthropic-serif);font-size:1.25rem}
+.el-cob-b p{margin:0;line-height:1.5}
+.el-seats{display:flex;height:34px;border:2px solid var(--ink);border-radius:10px;overflow:hidden;position:relative;margin:10px 0 8px}
+.el-seats i{display:block;height:100%}
+.el-seats b{position:absolute;top:-6px;bottom:-6px;width:3px;background:var(--ink);transform:translateX(-50%)}
+.el-seats-leg{display:flex;flex-wrap:wrap;gap:12px;font-weight:800;font-size:.95rem}
+.el-seats-leg span{display:inline-flex;align-items:center;gap:6px}
+.el-seats-leg i{width:12px;height:12px;border-radius:3px;border:1.5px solid var(--ink)}
+.el-cob-li{margin:10px 0 0;padding:0;list-style:none}
+.el-cob-li li{padding:10px 0;border-top:1px dashed var(--color-border-line)}
+.el-cob-li li:first-child{border-top:0}
+.el-cob-li b{display:block}
+.el-cob-f{font-size:.85rem;color:var(--color-fg-muted);margin-top:10px}.el-cob-f a{color:var(--accent-text)}
+
 .el-actions{position:relative}
 .el-a11y{position:fixed;z-index:70;width:min(320px,calc(100vw - 32px));background:var(--color-panel);color:var(--color-fg);border:3px solid var(--ink);border-radius:20px;box-shadow:6px 6px 0 var(--ink);padding:14px;display:flex;flex-direction:column;gap:8px}
 .el-a11y[hidden]{display:none}
@@ -1248,7 +1302,6 @@ body.el-vp-lock{overflow:hidden}
   </button>
   </div>
   <header>
-    <div class="el-flag" aria-hidden="true"><i style="background:var(--cf)"></i><i style="background:var(--cl)"></i></div>
     <div class="el-top">
       <div class="el-brand">
         <svg xmlns="http://www.w3.org/2000/svg" class="el-logo" aria-hidden="true" focusable="false" viewBox="0 0 140 140"><circle cx="74" cy="74" r="58" fill="#FFD43B"/><circle cx="66" cy="66" r="58" fill="#3E2492" stroke="#FFD43B" stroke-width="6"/><defs><linearGradient id="clrlogo1" x1="0" y1="0" x2="0" y2="1">
@@ -1256,8 +1309,8 @@ body.el-vp-lock{overflow:hidden}
 <stop offset="1" stop-color="#E23A3A"/>
 </linearGradient></defs><g transform="translate(66 66) scale(0.86) translate(-6.22 0.79)"><path d="M23.64 -28.47 A30 30 0 1 0 -22.98 9.28 C-15.91 17.70 -12 20 -12 28 L12 28 C12 20 15.91 17.70 22.98 9.28 A30 30 0 0 0 27.81 1.24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.60 -35.86 A44 44 0 0 1 41.35 5.05" fill="none" stroke="url(#clrlogo1)" stroke-width="8" stroke-linecap="round"/><rect x="-12" y="37" width="24" height="7" rx="3.5" fill="#fff"/></g></svg>
         <div>
-          <h1 class="el-title" style="margin-top:0">Flávio<span class="el-t-sn"> Bolsonaro</span> × Lula</h1>
-          <p class="el-tagline">Notícias e números sobre o 2º turno para presidente, com a fonte de cada informação.</p>
+          <h1 class="el-title" style="margin-top:0">Política com <span class="el-hl">fonte</span>.</h1>
+          <p class="el-tagline">Eleições no Brasil e no mundo, explicadas com o link de cada informação.</p>
         </div>
       </div>
       <div class="el-actions"><div class="el-a11y" id="el-a11y" role="dialog" aria-label="Acessibilidade" hidden><div class="el-a11y-h">Acessibilidade</div><button type="button" class="el-a11y-o" data-a11y="ouvir" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Ouvir a seção</span></button><button type="button" class="el-a11y-o" data-a11y="contraste" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><span>Alto contraste</span></button><button type="button" class="el-a11y-o" data-a11y="espaco" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M2 9v6M22 9v6"/></svg><span>Mais espaço no texto</span></button><button type="button" class="el-a11y-o" data-a11y="parado" aria-pressed="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg><span>Sem animações</span></button><p class="el-a11y-n">O botão azul no canto da tela abre a tradução em Libras (VLibras).</p></div>
@@ -1276,10 +1329,6 @@ body.el-vp-lock{overflow:hidden}
       <button class="el-theme" id="a11y-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="el-a11y"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="2"/><path d="M4 8.5l8 1.5 8-1.5M12 10v5l-3.5 6M12 15l3.5 6"/></svg><span class="el-theme-l">Acessibilidade</span></button>
       </div>
     </div>
-    <div class="el-legend">
-      <span><i class="el-dot" style="background:var(--cf)"></i>Flávio Bolsonaro (PL)</span>
-      <span><i class="el-dot" style="background:var(--cl)"></i>Lula (PT)</span>
-    </div>
   </header>
   <div class="el-plt" id="el-plt" hidden>
     <button type="button" class="el-plt-go" id="el-plt-go" aria-haspopup="dialog" aria-controls="el-plt-dlg"><span class="el-plt-tag"><i aria-hidden="true"></i>Plantão</span><span class="el-plt-txt" id="el-plt-txt"></span><span class="el-plt-mais" aria-hidden="true">Entenda →</span></button>
@@ -1289,6 +1338,7 @@ body.el-vp-lock{overflow:hidden}
 
   <nav class="el-tabs" role="tablist" aria-label="Seções da página">
     <button class="el-tab" role="tab" id="tab-inicio" aria-controls="inicio" data-tab="inicio" aria-selected="true">Início</button>
+    <button class="el-tab" role="tab" id="tab-coberturas" aria-controls="coberturas" data-tab="coberturas" aria-selected="false">Coberturas</button>
     <button class="el-tab" role="tab" id="tab-resultados" aria-controls="resultados" data-tab="resultados" aria-selected="false">Resultados</button>
     <button class="el-tab" role="tab" id="tab-aovivo" aria-controls="aovivo" data-tab="aovivo" aria-selected="false"><i class="el-tab-dot" id="tab-live-dot" hidden></i>Ao vivo</button>
     <button class="el-tab" role="tab" id="tab-pesquisas" aria-controls="pesquisas" data-tab="pesquisas" aria-selected="false">Pesquisas</button>
@@ -1300,7 +1350,7 @@ body.el-vp-lock{overflow:hidden}
   </nav>
   </div>
 
-  <section class="el-vids" id="el-vids" aria-labelledby="el-vids-t"><h2 class="el-vids-t" id="el-vids-t">Vídeos da Clareia</h2><div class="el-vids-row" id="el-vids-row"><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span></div></section><div class="el-vp" id="el-vp" role="dialog" aria-modal="true" aria-labelledby="el-vp-t" hidden><div class="el-vp-box"><div class="el-vp-seg" id="el-vp-seg" aria-hidden="true"></div><div class="el-vp-top"><p class="el-vp-t" id="el-vp-t"></p><button type="button" class="el-vp-x" id="el-vp-x" aria-label="Fechar o vídeo">×</button></div><video class="el-vp-v" id="el-vp-v" playsinline controls preload="none"></video><div class="el-vp-pe"><button type="button" class="el-vp-nav" id="el-vp-ant" aria-label="Vídeo anterior">‹</button><span class="el-vp-n" id="el-vp-n"></span><a class="el-vp-ig" id="el-vp-ig" target="_blank" rel="noopener noreferrer">Ver no Instagram</a><button type="button" class="el-vp-nav" id="el-vp-prox" aria-label="Próximo vídeo">›</button></div></div></div><aside class="el-aviso" id="el-aviso" aria-labelledby="aviso-t">
+  <aside class="el-aviso" id="el-aviso" aria-labelledby="aviso-t">
     <div class="el-aviso-top">
       <span class="el-aviso-tag">Atenção, eleitor</span>
       <button type="button" class="el-aviso-x" id="aviso-x" aria-label="Fechar aviso sobre local de votação">×</button>
@@ -1328,6 +1378,12 @@ body.el-vp-lock{overflow:hidden}
 
   <!-- ================= INÍCIO ================= -->
   <main id="conteudo" tabindex="-1" class="el-main">
+  <section class="el-page" id="coberturas" role="tabpanel" aria-labelledby="tab-coberturas" tabindex="-1" hidden>
+    <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Coberturas</span><p class="el-pgtitle">Eleições <em>no Brasil e no mundo</em></p></div>
+    <p class="el-intro">Cada eleição que acompanhamos tem sua página: resultado, cadeiras, o que ainda está em aberto e a fonte de cada número. Toque numa cobertura para abrir.</p>
+    <div id="cob-lista" class="el-cob-grid" aria-live="polite"><p class="el-note">Carregando…</p></div>
+    <div id="cob-det" class="el-cob-det" hidden></div>
+  </section>
   <section class="el-page" id="resultados" role="tabpanel" aria-labelledby="tab-resultados" tabindex="-1" hidden>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Resultados</span><p class="el-pgtitle">Resultados <em>das eleições</em></p></div>
     <p class="el-intro">Os números oficiais do TSE, direto dos arquivos da Justiça Eleitoral. Toque no ano para abrir ou fechar.</p>
@@ -1616,6 +1672,83 @@ document.addEventListener("click", function (e) {
         <p class="el-note">O que governos e organizações de outros países disseram sobre o resultado, segundo a imprensa. A lista cresce conforme novas reações são publicadas.</p>
         <div id="mundo-lista"><p class="el-note">Carregando…</p></div>
       </section>
+<script data-hub>
+(function () {
+function run() {
+  var MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  function dt(s) { var p = (s || "").slice(0, 10).split("-"); return p.length === 3 ? (+p[2]) + " " + MES[+p[1] - 1] : ""; }
+  function el(t, c, txt) { var e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; }
+  function lk(n, u) { var a = el("a", null, n); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; return a; }
+  function tr(id, rows) { return window.__tradRows ? window.__tradRows(id, rows) : rows; }
+  var V = "?v=" + Math.floor(Date.now() / 600000);
+  var P = (window.__tmP || Promise.resolve());
+  function get(u) { return P.then(function () { return fetch(u + V, {cache: "no-cache"}); }).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+  // Novidades
+  var g = document.getElementById("news-grid");
+  if (g) get("/data/manchetes.json").then(function (rows) {
+    rows = tr("manchetes", rows.slice().sort(function (a, b) { return a.data < b.data ? 1 : -1; }).slice(0, 5));
+    g.replaceChildren();
+    rows.forEach(function (x, i) {
+      var a = el("a", "el-news-c" + (i === 0 ? " lead" : "")); a.href = x.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      var m = el("div", "el-news-meta"); m.appendChild(el("span", "el-news-tag", x.editoria)); m.appendChild(el("span", "el-news-d", dt(x.data))); a.appendChild(m);
+      a.appendChild(el(i === 0 ? "h3" : "h3", "el-news-t", x.titulo));
+      if (i < 3) a.appendChild(el("p", "el-news-r", x.resumo));
+      var ff = el("span", "el-news-f"); ff.appendChild(el("span", null, "Ler a matéria")); ff.appendChild(document.createTextNode(" · " + x.fonte + " ↗")); a.appendChild(ff);
+      g.appendChild(a);
+    });
+  }).catch(function () { g.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
+  // Coberturas
+  var L = document.getElementById("cob-lista"), D = document.getElementById("cob-det");
+  if (!L) return;
+  var COB = [];
+  function abre(c) {
+    if (c.abre.indexOf("aba:") === 0) { var b = document.querySelector('.el-tab[data-tab="' + c.abre.slice(4) + '"]'); if (b) b.click(); return; }
+    L.hidden = true; D.hidden = false; D.replaceChildren(el("p", "el-note", "Carregando…"));
+    try { history.replaceState(null, "", "#cobertura=" + c.id); } catch (e) {}
+    get("/data/coberturas/" + c.id + ".json").then(function (d) {
+      D.replaceChildren();
+      var bk = el("button", "el-cob-back", "← Todas as coberturas"); bk.type = "button"; bk.addEventListener("click", fecha); D.appendChild(bk);
+      var h = el("h2", "el-pgtitle", tr("coberturas", [Object.assign({}, c)])[0].titulo); h.style.marginTop = "14px"; D.appendChild(h);
+      if (d.atualizado) { var up = el("p", "el-note"); up.appendChild(el("span", null, "Atualizado em")); up.appendChild(document.createTextNode(" " + dt(d.atualizado))); D.appendChild(up); }
+      tr("cobertura_bloco", d.blocos || []).forEach(function (b) {
+        var box = el("section", "el-cob-b"); box.appendChild(el("h3", null, b.titulo));
+        if (b.tipo === "texto") box.appendChild(el("p", null, b.texto));
+        if (b.tipo === "cadeiras") {
+          var ls = tr("cobertura_linha", b.linhas || []), bar = el("div", "el-seats"); bar.setAttribute("role", "img");
+          bar.setAttribute("aria-label", ls.map(function (r) { return r.nome + ": " + r.valor; }).join(", ") + ". Maioria: " + b.maioria + " de " + b.total + ".");
+          ls.forEach(function (r) { var i = el("i"); i.style.width = (100 * r.valor / b.total) + "%"; i.style.background = r.cor; bar.appendChild(i); });
+          var mk = el("b"); mk.style.left = (100 * b.maioria / b.total) + "%"; mk.title = "Maioria: " + b.maioria; bar.appendChild(mk);
+          box.appendChild(bar);
+          var lg = el("div", "el-seats-leg"); ls.forEach(function (r) { var s = el("span"); var q = el("i"); q.style.background = r.cor; s.appendChild(q); s.appendChild(document.createTextNode(r.nome + " " + r.valor)); lg.appendChild(s); });
+          var mj = el("span"); mj.appendChild(el("span", null, "Maioria")); mj.appendChild(document.createTextNode(": " + b.maioria + " / " + b.total)); lg.appendChild(mj); box.appendChild(lg);
+          if (b.nota) box.appendChild(el("p", "el-note", b.nota));
+        }
+        if (b.tipo === "lista") { var ul = el("ul", "el-cob-li"); tr("cobertura_linha", b.itens || []).forEach(function (r) { var li = el("li"); li.appendChild(el("b", null, r.rotulo)); li.appendChild(el("span", null, r.texto)); ul.appendChild(li); }); box.appendChild(ul); }
+        if (b.url) { var f = el("p", "el-cob-f"); f.appendChild(document.createTextNode("Fonte: ")); f.appendChild(lk(b.fonte, b.url)); box.appendChild(f); }
+        D.appendChild(box);
+      });
+    }).catch(function () { D.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
+  }
+  function fecha() { D.hidden = true; L.hidden = false; try { history.replaceState(null, "", "#coberturas"); } catch (e) {} }
+  get("/data/coberturas.json").then(function (rows) {
+    COB = rows.slice().sort(function (a, b) { return a.data_eleicao < b.data_eleicao ? 1 : -1; });
+    var vis = tr("coberturas", COB.map(function (x) { return Object.assign({}, x); }));
+    L.replaceChildren();
+    vis.forEach(function (x, i) {
+      var c = COB[i], b = el("button", "el-cob-c"); b.type = "button";
+      var t = el("div", "el-cob-top"); t.appendChild(el("span", "el-cob-sig", c.sigla)); t.appendChild(el("span", "el-cob-st" + (c.status === "Encerrada" ? "" : " on"), x.status)); t.appendChild(el("span", "el-news-d", dt(c.data_eleicao)));
+      b.appendChild(t); b.appendChild(el("h3", "el-cob-t", x.titulo)); b.appendChild(el("p", "el-cob-r", x.resumo)); b.appendChild(el("span", "el-cob-go", "Abrir cobertura →"));
+      b.addEventListener("click", function () { abre(c); });
+      L.appendChild(b);
+    });
+    var m = /^#cobertura=([\w-]+)$/.exec(location.hash);
+    if (m) { var c = COB.filter(function (x) { return x.id === m[1]; })[0]; var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (c && tb) { tb.click(); abre(c); } }
+  }).catch(function () { L.replaceChildren(el("p", "el-note", "Não foi possível carregar agora.")); });
+  var tb = document.querySelector('.el-tab[data-tab="coberturas"]'); if (tb) tb.addEventListener("click", function () { if (!/^#cobertura=/.test(location.hash)) fecha(); });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+})();
+</script>
 <script data-entenda>
 (function () {
 function run() {
@@ -1686,6 +1819,10 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
   </section>
 
   <section class="el-page" id="inicio" role="tabpanel" aria-labelledby="tab-inicio" tabindex="-1">
+    <section class="el-news" aria-labelledby="news-h">
+      <div class="el-news-hd"><div class="el-pghead" style="margin:0"><span class="el-pgchip" aria-hidden="true">Novidades</span><h2 class="el-pgtitle" id="news-h">O que mudou <em>na política</em></h2></div><button type="button" class="el-cob-back" data-go="coberturas">Ver coberturas →</button></div>
+      <div class="el-news-grid" id="news-grid" aria-live="polite"><p class="el-note">Carregando…</p></div>
+    </section><section class="el-vids" id="el-vids" aria-labelledby="el-vids-t"><h2 class="el-vids-t" id="el-vids-t">Vídeos da Clareia</h2><div class="el-vids-row" id="el-vids-row"><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span><span class="el-vb el-vb-sk" aria-hidden="true"><span class="el-vb-r"><span class="el-vb-i"></span></span><span class="el-vb-t">&nbsp;</span></span></div></section><div class="el-vp" id="el-vp" role="dialog" aria-modal="true" aria-labelledby="el-vp-t" hidden><div class="el-vp-box"><div class="el-vp-seg" id="el-vp-seg" aria-hidden="true"></div><div class="el-vp-top"><p class="el-vp-t" id="el-vp-t"></p><button type="button" class="el-vp-x" id="el-vp-x" aria-label="Fechar o vídeo">×</button></div><video class="el-vp-v" id="el-vp-v" playsinline controls preload="none"></video><div class="el-vp-pe"><button type="button" class="el-vp-nav" id="el-vp-ant" aria-label="Vídeo anterior">‹</button><span class="el-vp-n" id="el-vp-n"></span><a class="el-vp-ig" id="el-vp-ig" target="_blank" rel="noopener noreferrer">Ver no Instagram</a><button type="button" class="el-vp-nav" id="el-vp-prox" aria-label="Próximo vídeo">›</button></div></div></div>
     <div class="el-pghead"><span class="el-pgchip" aria-hidden="true">Início</span><p class="el-pgtitle">Depois da votação, <em>em poucas palavras</em></p></div>
     <button type="button" class="el-res-cta" data-go="resultados"><span class="el-res-cta-tag">Resultados</span><span class="el-res-cta-t">O TSE já divulgou o resultado final do 2º turno.</span><span class="el-res-cta-go">Ver os resultados →</span></button>
     <aside class="el-camp" aria-labelledby="camp-t">
@@ -3903,6 +4040,7 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
   (function () {
     const IC = {
       inicio: '<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',
+      coberturas: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
       resultados: '<path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3"/>',
       aovivo: '<circle cx="12" cy="12" r="3"/><path d="M6.3 6.3a8 8 0 0 0 0 11.4M17.7 6.3a8 8 0 0 1 0 11.4"/>',
       pesquisas: '<path d="M3 21h18M6 17v-6M11 17V5M16 17v-9M20 17v-3"/>',
@@ -3913,7 +4051,7 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
       sobre: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.5v.5"/>'
     };
     const DESC = {
-      inicio: "Resumo do 2º turno e campanha", resultados: "Resultado oficial do TSE, com o mapa", aovivo: "Debates, eventos e avisos", pesquisas: "Todas as pesquisas e a média",
+      inicio: "Novidades da política e resumos", coberturas: "Eleições no Brasil e no mundo", resultados: "Resultado oficial do TSE, com o mapa", aovivo: "Debates, eventos e avisos", pesquisas: "Todas as pesquisas e a média",
       redes: "Desempenho dos candidatos nas redes", campanha: "Apoios, agenda e Justiça Eleitoral", checagem: "Boatos e falas checadas",
       verificar: "Confira um print e veja as correções",
       sobre: "Como a Clareia trabalha e contato"
