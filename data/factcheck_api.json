@@ -698,11 +698,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1105,7 +1105,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1939,7 +1939,7 @@
   "data_afirmacao": "2026-10-06",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Posts distorcem matéria de 2025 para alegar que governo Lula quer acabar com o Bolsa Família",
+  "titulo": "Posts distorcem matéria de 2025 para alegar que governo Lula quer ...",
   "data_checagem": "2026-10-19",
   "url": "https://checamos.afp.com/doc.afp.com.D3RQ9WF"
  },
@@ -2875,7 +2875,7 @@
   "data_afirmacao": "2026-10-05",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Diferença entre votos para senadores do PL e Flávio não indica fraude",
+  "titulo": "Diferença entre votos para senadores do PL e Flávio não indica ...",
   "data_checagem": "2026-10-05",
   "url": "https://www.aosfatos.org/noticias/votos-senadores-pl-flavio-fraude/"
  },
@@ -3283,7 +3283,7 @@
   "data_afirmacao": "2026-09-29",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Flávio Bolsonaro não levantou figura de Trump como “santo”; imagem foi gerada por IA",
+  "titulo": "Flávio Bolsonaro não levantou figura de Trump como “santo ...",
   "data_checagem": "2026-10-01",
   "url": "https://checamos.afp.com/doc.afp.com.C9YX4WE"
  },
@@ -3343,19 +3343,19 @@
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo em que Romário critica Lula por fim das bets é manipulação de IA",
+  "titulo": "Vídeo em que Romário critica Lula por fim das bets é manipulação ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/romario-lula-bets-ia/"
  },
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -3415,7 +3415,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso que presidente do Paraguai agradeceu a Lula por migração de empresas",
+  "titulo": "É falso que presidente do Paraguai agradeceu a Lula por migração ...",
   "data_checagem": "2026-09-28",
   "url": "https://www.aosfatos.org/noticias/presidente-paraguai-lula-migracao-empresas/"
  },
@@ -3439,7 +3439,7 @@
   "data_afirmacao": "2026-09-21",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo antigo de Lula volta a viralizar com falas editadas; petista não defendeu ‘destruir tudo que o Estado faz’",
+  "titulo": "Vídeo antigo de Lula volta a viralizar com falas editadas; petista não ...",
   "data_checagem": "2026-09-28",
   "url": "https://checamos.afp.com/doc.afp.com.C9KP69E"
  },
@@ -3487,7 +3487,7 @@
   "data_afirmacao": "2026-09-22",
   "checador": "Projeto Comprova",
   "selo": "Enganoso",
-  "titulo": "Post atribui declaração a Ives Gandra sobre Lula, mas jurista desconhece o registro",
+  "titulo": "Post atribui declaração a Ives Gandra sobre Lula, mas jurista ...",
   "data_checagem": "2026-09-25",
   "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-atribui-declaracao-a-ives-gandra-sobre-lula-mas-jurista-desconhece-o-registro/"
  },
@@ -3511,7 +3511,7 @@
   "data_afirmacao": "2026-09-23",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que presidente do Paraguai agradeceu a Lula na ONU por ida de empresas brasileiras ao país vizinho",
+  "titulo": "É falso que presidente do Paraguai agradeceu a Lula na ONU por ...",
   "data_checagem": "2026-09-25",
   "url": "https://checamos.afp.com/doc.afp.com.C9DR7ZQ"
  },
@@ -3523,7 +3523,7 @@
   "data_afirmacao": "2026-09-18",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Governo Lula não implementou ducha higiênica no SUS nacional; insumo é oferecido em Salvador",
+  "titulo": "Governo Lula não implementou ducha higiênica no SUS nacional ...",
   "data_checagem": "2026-09-25",
   "url": "https://checamos.afp.com/doc.afp.com.C9DK6G3"
  },
@@ -3842,12 +3842,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -4915,7 +4915,7 @@
   "data_afirmacao": "2026-09-24",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Post usa imagens de antes de discurso de Lula em Porto Alegre para alegar baixa adesão do público",
+  "titulo": "Post usa imagens de antes de discurso de Lula em Porto Alegre ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/postagem-engana-ao-mostra-pouco-publico-em-comicio-de-lula-em-porto-alegre/"
  },
@@ -5059,7 +5059,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Lula não disse que ‘nenhum de nós escapa’ de delações do Banco Master",
+  "titulo": "Lula não disse que 'nenhum de nós escapa' de delações do Banco ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-se-delacoes-master-continuarem-nenhum-de-nos-escapa-enganoso/"
  },
@@ -5095,7 +5095,7 @@
   "data_afirmacao": "2026-09-25",
   "checador": "Estadão",
   "selo": "Fora de contexto",
-  "titulo": "Lula não defendeu que ‘pobre tem que morrer cortando cana’; ele criticou falta de acesso à educação",
+  "titulo": "Lula não defendeu que 'pobre tem que morrer cortando cana'; ele ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-defendeu-que-pobre-tem-que-morrer-cortando-cana-ele-criticou-falta-de-acesso-a-educacao/"
  },
@@ -5287,7 +5287,7 @@
   "data_afirmacao": "2026-10-16",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Post mostra imagem distante da concentração de ato pró-Lula na Paulista para alegar baixa adesão",
+  "titulo": "Post mostra imagem distante da concentração de ato pró-Lula na ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/foto-distante-pro-lula-paulista-enganoso/"
  },
@@ -5455,7 +5455,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que arcebispo emérito de Aparecida tenha pedido voto em Lula durante homilia",
+  "titulo": "É falso que arcebispo emérito de Aparecida tenha pedido voto em ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-arcebispo-aparecida-pediu-voto-lula-homilia/"
  },
@@ -5479,7 +5479,7 @@
   "data_afirmacao": "2026-09-25",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Bets foram autorizadas por Temer e regulamentadas por Lula; entenda a linha de tempo",
+  "titulo": "Bets foram autorizadas por Temer e regulamentadas por Lula ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/enganoso-bets-criadas-governo-lula-presidente-sancionou-lei-regulamentando-apostas/"
  },
@@ -7993,7 +7993,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "TSE determinou dias diferentes para eleitores do Flávio e do Lula votarem",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -8593,7 +8593,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
