@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra Lula sendo afastado dos demais líderes na COP31",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-12",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Vídeo não mostra Lula sendo afastado de outros presidentes na ...",
+  "data_checagem": "2026-11-12",
+  "url": "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/pf-investigacao-repasses-vorcaro-dark-horse/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "PF encerra caso de Flávio Bolsonaro: nenhuma prova achada e mensagens com vorcaro não revelam crime algum",
@@ -698,11 +710,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1105,7 +1117,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -2846,7 +2858,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3122,7 +3134,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3350,12 +3362,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -3842,12 +3854,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
-  "quem_disse": "Lula",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+  "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
+  "selo": "falso",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
@@ -5088,6 +5100,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-jogou-bandeira-do-brasil-no-chao-apos-votar-mas-sim-a-entregou-a-fotografo/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/lula-nao-disse-que-lulinha-fiscalizara-entregas-do-governo/",
+  "termo": "Lula",
+  "afirmacao": "Lula disse que Lulinha irá fiscalizar as entregas do governo",
+  "quem_disse": "Boato nas redes sociais",
+  "data_afirmacao": "2026-11-12",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Ao dizer que Lulinha fiscalizará ações do governo, presidente se ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-disse-que-lulinha-fiscalizara-entregas-do-governo/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/lula-nao-defendeu-que-pobre-tem-que-morrer-cortando-cana-ele-criticou-falta-de-acesso-a-educacao/",
   "termo": "Lula",
   "afirmacao": "Lula disse que pobre tinha que morrer cortando cana",
@@ -5362,6 +5386,18 @@
   "titulo": "É falso que Flávio Bolsonaro tenha anunciado corte em aposentadorias, no 13º salário e no Pé-de-Meia",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-corte-aposentadorias-13-salario-pe-de-meia-fake-news/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Urnas eletrônicas desviaram votos de Flávio para Lula",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-11-12",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "É falso que código das urnas eletrônicas tenha desviado votos de ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-relatorio-apocrifo-fraude-eleicoes/",
