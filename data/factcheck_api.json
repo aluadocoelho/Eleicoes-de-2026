@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/pagamento-pix-mei/",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula confirma que PixMEI de R$ 5 mil deverá ser pago apenas em 2030 e não será para todos os MEIs",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-13",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que pagamento do Pix MEI só começa em 2030",
+  "data_checagem": "2026-11-13",
+  "url": "https://www.aosfatos.org/noticias/pagamento-pix-mei/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/12/desinformacao-falso-video-lula-retirado-foto-lideres-cop31-turquia.amp.htm",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra Lula sendo retirado para não participar da foto oficial da COP31",
@@ -10,6 +22,30 @@
   "titulo": "É falso que Lula foi retirado da foto oficial de líderes na COP31",
   "data_checagem": "2026-11-13",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/12/desinformacao-falso-video-lula-retirado-foto-lideres-cop31-turquia.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D7EX49M",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra protesto na Venezuela contra governo Trump",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-27",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Vídeo mostra recepção a María Corina Machado na Venezuela, não ...",
+  "data_checagem": "2026-11-13",
+  "url": "https://checamos.afp.com/doc.afp.com.D7EX49M"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D7EP3NQ",
+  "termo": "Lula",
+  "afirmacao": "Facções comemoram a vitória de Lula no Rio de Janeiro",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-10-26",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Vídeo circula falsamente como comemoração de “facções” após ...",
+  "data_checagem": "2026-11-13",
+  "url": "https://checamos.afp.com/doc.afp.com.D7EP3NQ"
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D7BX9G4",
@@ -2882,7 +2918,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3158,11 +3194,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3386,7 +3422,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3878,7 +3914,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "afirmacao": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
@@ -5112,6 +5148,18 @@
   "url": "https://www.estadao.com.br/estadao-verifica/lula-ovacionado-rock-in-rio-2026-enganoso/"
  },
  {
+  "id": "https://www.estadao.com.br/estadao-verifica/lula-nao-se-referia-a-tornados-ao-dizer-que-vento-esta-levando-o-odio-em-santa-catarina/",
+  "termo": "Lula",
+  "afirmacao": "Lula disse que “o vento está levando o ódio”, após tornados atingiram Santa Catarina",
+  "quem_disse": "Boato nas redes sociais",
+  "data_afirmacao": "2026-11-13",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Lula não se referia a tornados em Santa Catarina quando falou que ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-se-referia-a-tornados-ao-dizer-que-vento-esta-levando-o-odio-em-santa-catarina/"
+ },
+ {
   "id": "https://www.estadao.com.br/estadao-verifica/lula-nao-jogou-bandeira-do-brasil-no-chao-apos-votar-mas-sim-a-entregou-a-fotografo/",
   "termo": "Lula",
   "afirmacao": "Lula jogou bandeira no chão",
@@ -5413,7 +5461,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Urnas eletrônicas desviaram votos de Flávio para Lula",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-11-12",
@@ -8665,7 +8713,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
