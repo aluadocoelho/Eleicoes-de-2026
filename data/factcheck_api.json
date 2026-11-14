@@ -770,7 +770,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -2918,7 +2918,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3422,7 +3422,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3914,12 +3914,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Quando o Alexandre de Moraes foi indicado para ministro do Supremo, [o Flávio] era senador. Ele deve ter votado nele.",
+  "afirmacao": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
   "quem_disse": "Lula",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
-  "selo": "falso",
-  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir crise no STF",
+  "selo": "não_é_bem_assim",
+  "titulo": "Lula e Flávio citam informações falsas e imprecisas ao repercutir ...",
   "data_checagem": "2026-09-17",
   "url": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/"
  },
