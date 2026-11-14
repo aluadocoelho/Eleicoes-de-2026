@@ -43,7 +43,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo circula falsamente como comemoração de “facções” após ...",
+  "titulo": "Vídeo circula falsamente como comemoração de “facções” após reeleição de Lula em 2026",
   "data_checagem": "2026-11-13",
   "url": "https://checamos.afp.com/doc.afp.com.D7EP3NQ"
  },
@@ -67,7 +67,7 @@
   "data_afirmacao": "2026-11-12",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Vídeo não mostra Lula sendo afastado de outros presidentes na ...",
+  "titulo": "Vídeo não mostra Lula sendo afastado de outros presidentes na COP31",
   "data_checagem": "2026-11-12",
   "url": "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
  },
@@ -770,11 +770,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -3194,7 +3194,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Você [Lula] que é o pai do tigrinho",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3422,7 +3422,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -5143,7 +5143,7 @@
   "data_afirmacao": "2026-09-15",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Vídeo de manifestação pró-Lula no Rock in Rio de 2022 circula como se fosse recente",
+  "titulo": "Vídeo de manifestação pró-Lula no Rock in Rio de 2022 circula ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-ovacionado-rock-in-rio-2026-enganoso/"
  },
@@ -5155,7 +5155,7 @@
   "data_afirmacao": "2026-11-13",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Lula não se referia a tornados em Santa Catarina quando falou que ...",
+  "titulo": "Lula não se referia a tornados em Santa Catarina quando falou que ‘o vento está levando o ódio’",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-se-referia-a-tornados-ao-dizer-que-vento-esta-levando-o-odio-em-santa-catarina/"
  },
@@ -5179,7 +5179,7 @@
   "data_afirmacao": "2026-11-12",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Ao dizer que Lulinha fiscalizará ações do governo, presidente se ...",
+  "titulo": "Ao dizer que Lulinha fiscalizará ações do governo, presidente se referiu a si mesmo, e não ao filho",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-nao-disse-que-lulinha-fiscalizara-entregas-do-governo/"
  },
@@ -5467,7 +5467,7 @@
   "data_afirmacao": "2026-11-12",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que código das urnas eletrônicas tenha desviado votos de ...",
+  "titulo": "É falso que código das urnas eletrônicas tenha desviado votos de Flávio para Lula",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/"
  },
@@ -7450,6 +7450,18 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/12/desinformacao-falso-video-lula-retirado-foto-lideres-cop31-turquia.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra Lula sendo retirado para não participar da foto oficial da COP31",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Lula foi retirado da foto oficial de líderes na COP31",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/12/desinformacao-falso-video-lula-retirado-foto-lideres-cop31-turquia.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/10/desinformacao-enganoso-lula-nomeou-filho-lulinha-fiscalizar-governo.ghtm",
