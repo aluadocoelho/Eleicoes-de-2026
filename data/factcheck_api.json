@@ -1,5 +1,53 @@
 [
  {
+  "id": "https://observador.pt/factchecks/fact-check-trump-pediu-investigacao-aos-resultados-das-eleicoes-no-brasil/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "O Presidente dos Estados Unidos, Donald Trump, pediu uma investigação internacional sobre as eleições brasileiras após a vitória de Lula. Em publicação no X, Trump afirmou que Flávio Bolsonaro “teve a eleição roubada” e classificou o governo brasileiro como “regime comunista”.",
+  "quem_disse": "Utilizador de Facebook",
+  "data_afirmacao": "2026-10-26",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Trump pediu investigação a eleições no Brasil? – Observador",
+  "data_checagem": "2026-11-15",
+  "url": "https://observador.pt/factchecks/fact-check-trump-pediu-investigacao-aos-resultados-das-eleicoes-no-brasil/"
+ },
+ {
+  "id": "https://observador.pt/factchecks/fact-check-foto-do-desfile-da-independencia-do-brasil-mostra-que-dedo-em-falta-de-lula-cresceu-magicamente/",
+  "termo": "Lula",
+  "afirmacao": "\"Hoje no desfile de ​7 de Setembro, o dedo do Lula cresceu magicamente… Que milagre\"",
+  "quem_disse": "Utilizador do Threads",
+  "data_afirmacao": "2026-09-08",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Dedo de Lula da Silva reapareceu \"magicamente\"? – Observador",
+  "data_checagem": "2026-11-15",
+  "url": "https://observador.pt/factchecks/fact-check-foto-do-desfile-da-independencia-do-brasil-mostra-que-dedo-em-falta-de-lula-cresceu-magicamente/"
+ },
+ {
+  "id": "https://observador.pt/factchecks/fact-check-donald-trump-recebeu-flavio-bolsonaro-nos-eua-apos-as-eleicoes-brasileiras/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio já está em Miami como exilado político. Com autorização de Donald Trump!",
+  "quem_disse": "Utilizador de Facebook",
+  "data_afirmacao": "2026-10-28",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Fact Check. Donald Trump recebeu Flávio Bolsonaro nos EUA após ...",
+  "data_checagem": "2026-11-15",
+  "url": "https://observador.pt/factchecks/fact-check-donald-trump-recebeu-flavio-bolsonaro-nos-eua-apos-as-eleicoes-brasileiras/"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/reportagem-pente-fino-inss-2016/",
+  "termo": "Lula",
+  "afirmacao": "Lula começou a trabalhar pelo povo! Pente fino no INSS aposentado tem que devolver dinheiro das aposentadoria.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-13",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Reportagem sobre pente-fino no INSS não é atual, mas de 2016",
+  "data_checagem": "2026-11-13",
+  "url": "https://www.aosfatos.org/noticias/reportagem-pente-fino-inss-2016/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/pagamento-pix-mei/",
   "termo": "Lula",
   "afirmacao": "Governo Lula confirma que PixMEI de R$ 5 mil deverá ser pago apenas em 2030 e não será para todos os MEIs",
@@ -770,11 +818,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -3194,7 +3242,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3422,7 +3470,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3914,7 +3962,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+  "afirmacao": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-09-17",
   "checador": "Aos Fatos",
