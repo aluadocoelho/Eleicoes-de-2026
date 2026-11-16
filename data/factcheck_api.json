@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/foto-de-lula-com-dez-dedos-na-cop31-foi-gerada-por-ia/",
+  "termo": "Lula",
+  "afirmacao": "Foto mostra Lula com dez dedos na COP31, na Turquia",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-16",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Foto de Lula com dez dedos na COP31 foi gerada por IA",
+  "data_checagem": "2026-11-16",
+  "url": "https://www.aosfatos.org/noticias/foto-de-lula-com-dez-dedos-na-cop31-foi-gerada-por-ia/"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D7N24CQ",
+  "termo": "Lula",
+  "afirmacao": "Lula é retirado para não participar da foto oficial da COP 31",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-12",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "É falso que Lula não participou de foto oficial na COP 31; registro ...",
+  "data_checagem": "2026-11-16",
+  "url": "https://checamos.afp.com/doc.afp.com.D7N24CQ"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-trump-pediu-investigacao-aos-resultados-das-eleicoes-no-brasil/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "O Presidente dos Estados Unidos, Donald Trump, pediu uma investigação internacional sobre as eleições brasileiras após a vitória de Lula. Em publicação no X, Trump afirmou que Flávio Bolsonaro “teve a eleição roubada” e classificou o governo brasileiro como “regime comunista”.",
@@ -1141,13 +1165,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -1358,7 +1382,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -2966,7 +2990,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3242,11 +3266,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3279,8 +3303,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3470,7 +3494,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -4683,8 +4707,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5566,6 +5590,18 @@
   "titulo": "É falso que Lula tenha sancionado lei autorizando banheiro sem ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-lula-sancionou-lei-autorizando-banheiro-sem-genero-definido/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/falso-golpe-urna-eletronica-paralisacao-eleicoes/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "O golpe da urna eletronica que permite inserir votos durante paralisações no TSE",
+  "quem_disse": "Boato de redes sociais",
+  "data_afirmacao": "2026-11-11",
+  "checador": "Estadão",
+  "selo": "Falso",
+  "titulo": "Contagem dos votos ocorre mesmo quando há interrupção na ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/falso-golpe-urna-eletronica-paralisacao-eleicoes/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/",
@@ -8773,7 +8809,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
