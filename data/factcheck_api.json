@@ -1165,13 +1165,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "É impossível Lula ter obtido mais de 10 milhões de votos a mais",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-26",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é ...",
+  "titulo": "Crescimento de 10 milhões de votos de Lula no 2º turno não é “impossível”; mobilização é vista como fator de virada",
   "data_checagem": "2026-10-28",
   "url": "https://checamos.afp.com/doc.afp.com.D4QQ8ZU"
  },
@@ -1249,7 +1249,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1382,7 +1382,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3266,11 +3266,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -8809,7 +8809,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
