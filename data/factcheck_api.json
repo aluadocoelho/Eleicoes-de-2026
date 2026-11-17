@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/",
+  "termo": "Lula",
+  "afirmacao": "Marco Rubio diz que o Departamento de Estado dos Estados Unidos confirmou que Lula conspirou contra os EUA em reunião com o Irã.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-17",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso post em que Marco Rubio acusa Lula de conspirar contra os ...",
+  "data_checagem": "2026-11-17",
+  "url": "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
+ },
+ {
+  "id": "https://observador.pt/factchecks/fact-check-imagens-mostram-flavio-bolsonaro-no-aeroporto-com-a-familia-depois-de-ser-derrotado-por-lula-da-silva/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio Bolsonaro no aeroporto após derrota no segundo turno.",
+  "quem_disse": "Utilizador de Facebook",
+  "data_afirmacao": "2026-10-26",
+  "checador": "Observador",
+  "selo": "Errado",
+  "titulo": "Flávio Bolsonaro visto no aeroporto após perder eleições?",
+  "data_checagem": "2026-11-17",
+  "url": "https://observador.pt/factchecks/fact-check-imagens-mostram-flavio-bolsonaro-no-aeroporto-com-a-familia-depois-de-ser-derrotado-por-lula-da-silva/"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/foto-de-lula-com-dez-dedos-na-cop31-foi-gerada-por-ia/",
   "termo": "Lula",
   "afirmacao": "Foto mostra Lula com dez dedos na COP31, na Turquia",
@@ -842,11 +866,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -2990,7 +3014,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3266,11 +3290,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
+  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "verdadeiro",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3967,7 +3991,7 @@
   "data_afirmacao": "2026-09-15",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das intenções de voto",
+  "titulo": "É falsa suposta pesquisa Datafolha que mostra Lula com 52,9% das ...",
   "data_checagem": "2026-09-18",
   "url": "https://checamos.afp.com/doc.afp.com.C8QD7T3"
  },
