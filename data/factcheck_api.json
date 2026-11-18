@@ -1,5 +1,41 @@
 [
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/18/falso-lula-deboche-santa-catarina-tornado.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Lula debochou de catarinenses ao falar que 'vento está levando o ódio' após tornado devastar estado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Fala de Lula sobre 'vento levar o ódio' não tem relação com tornado ...",
+  "data_checagem": "2026-11-18",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/18/falso-lula-deboche-santa-catarina-tornado.amp.htm"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D7WT7WE",
+  "termo": "Lula",
+  "afirmacao": "Capa da revista Veja chama Sergio Moro de ladrão",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-16",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "Capa da Veja que chama Sergio Moro de ladrão é falsa e foi criada ...",
+  "data_checagem": "2026-11-18",
+  "url": "https://checamos.afp.com/doc.afp.com.D7WT7WE"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D7VQ3ZQ",
+  "termo": "Lula",
+  "afirmacao": "Marco Rubio: comunicado oficial confirma que Lula conspirou contra os EUA",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-13",
+  "checador": "AFP Checamos",
+  "selo": "Falso",
+  "titulo": "É falso que Marco Rubio tenha atribuído a Lula conspiração com o Irã",
+  "data_checagem": "2026-11-18",
+  "url": "https://checamos.afp.com/doc.afp.com.D7VQ3ZQ"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/",
   "termo": "Lula",
   "afirmacao": "Marco Rubio diz que o Departamento de Estado dos Estados Unidos confirmou que Lula conspirou contra os EUA em reunião com o Irã.",
@@ -1285,7 +1321,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1418,7 +1454,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3026,7 +3062,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3530,7 +3566,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -4978,6 +5014,18 @@
   "titulo": "Vídeo sobre urna eletrônica vandalizada omite a existência de equipamentos de contingência",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/"
+ },
+ {
+  "id": "https://www.estadao.com.br/estadao-verifica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao/",
+  "termo": "Lula",
+  "afirmacao": "Nicolás Maduro que firmar delação premiada para se livrar de prisão perpétua",
+  "quem_disse": "Postagens em redes sociais",
+  "data_afirmacao": "2026-11-18",
+  "checador": "Estadão",
+  "selo": "Enganoso",
+  "titulo": "Suposta negociação de Maduro para delatar Lula é boato sem ...",
+  "data_checagem": null,
+  "url": "https://www.estadao.com.br/estadao-verifica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao/"
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/servidor-tse-petista-resultado-eleicoes-fake-news/",
