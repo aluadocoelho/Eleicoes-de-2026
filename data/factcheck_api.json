@@ -24,6 +24,18 @@
   "url": "https://observador.pt/factchecks/fact-check-imagens-mostram-flavio-bolsonaro-no-aeroporto-com-a-familia-depois-de-ser-derrotado-por-lula-da-silva/"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/17/falso-marco-rubio-lula-conspiracao-eua-reuniao-ira.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Governo dos EUA afirma que Lula conspirou contra o país ao se reunir com o Irã",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Marco Rubio disse que Lula conspirou contra EUA ao ...",
+  "data_checagem": "2026-11-17",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/17/falso-marco-rubio-lula-conspiracao-eua-reuniao-ira.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/foto-de-lula-com-dez-dedos-na-cop31-foi-gerada-por-ia/",
   "termo": "Lula",
   "afirmacao": "Foto mostra Lula com dez dedos na COP31, na Turquia",
@@ -866,11 +878,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1273,7 +1285,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -3014,7 +3026,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3518,12 +3530,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
