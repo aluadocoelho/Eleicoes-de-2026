@@ -43,7 +43,7 @@
   "data_afirmacao": "2026-11-17",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "É falso post em que Marco Rubio acusa Lula de conspirar contra os ...",
+  "titulo": "É falso post em que Marco Rubio acusa Lula de conspirar contra os EUA com Irã",
   "data_checagem": "2026-11-17",
   "url": "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
  },
@@ -55,7 +55,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Flávio Bolsonaro visto no aeroporto após perder eleições?",
+  "titulo": "Fact Check. Imagens mostram Flávio Bolsonaro no aeroporto com a família depois de ser derrotado por Lula da Silva?",
   "data_checagem": "2026-11-17",
   "url": "https://observador.pt/factchecks/fact-check-imagens-mostram-flavio-bolsonaro-no-aeroporto-com-a-familia-depois-de-ser-derrotado-por-lula-da-silva/"
  },
@@ -67,7 +67,7 @@
   "data_afirmacao": null,
   "checador": "UOL Notícias",
   "selo": "Falso",
-  "titulo": "É falso que Marco Rubio disse que Lula conspirou contra EUA ao ...",
+  "titulo": "É falso que Marco Rubio disse que Lula conspirou contra EUA ao se reunir com Irã",
   "data_checagem": "2026-11-17",
   "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/17/falso-marco-rubio-lula-conspiracao-eua-reuniao-ira.amp.htm"
  },
@@ -91,7 +91,7 @@
   "data_afirmacao": "2026-11-12",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que Lula não participou de foto oficial na COP 31; registro ...",
+  "titulo": "É falso que Lula não participou de foto oficial na COP 31; registro mostra líder brasileiro na primeira fila",
   "data_checagem": "2026-11-16",
   "url": "https://checamos.afp.com/doc.afp.com.D7N24CQ"
  },
@@ -103,7 +103,7 @@
   "data_afirmacao": "2026-10-26",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Trump pediu investigação a eleições no Brasil?",
+  "titulo": "Fact Check. Trump pediu investigação aos resultados das eleições no Brasil?",
   "data_checagem": "2026-11-15",
   "url": "https://observador.pt/factchecks/fact-check-trump-pediu-investigacao-aos-resultados-das-eleicoes-no-brasil/"
  },
@@ -115,7 +115,7 @@
   "data_afirmacao": "2026-09-08",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Dedo de Lula da Silva reapareceu \"magicamente\"?",
+  "titulo": "Fact Check. Foto do desfile da Independência do Brasil mostra que dedo em falta de Lula \"cresceu magicamente\"?",
   "data_checagem": "2026-11-15",
   "url": "https://observador.pt/factchecks/fact-check-foto-do-desfile-da-independencia-do-brasil-mostra-que-dedo-em-falta-de-lula-cresceu-magicamente/"
  },
@@ -127,7 +127,7 @@
   "data_afirmacao": "2026-10-28",
   "checador": "Observador",
   "selo": "Errado",
-  "titulo": "Fact Check. Donald Trump recebeu Flávio Bolsonaro nos EUA após ...",
+  "titulo": "Fact Check. Donald Trump recebeu Flávio Bolsonaro nos EUA após as eleições brasileiras?",
   "data_checagem": "2026-11-15",
   "url": "https://observador.pt/factchecks/fact-check-donald-trump-recebeu-flavio-bolsonaro-nos-eua-apos-as-eleicoes-brasileiras/"
  },
@@ -914,11 +914,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1321,7 +1321,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1454,7 +1454,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
+  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3338,7 +3338,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu tenho um irmão exilado nos Estados Unidos",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3375,8 +3375,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -3566,7 +3566,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -4779,8 +4779,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "Redes Sociais",
-  "data_afirmacao": "2026-10-02",
+  "quem_disse": "redes sociais",
+  "data_afirmacao": "2026-09-30",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -7618,6 +7618,30 @@
   "titulo": "Vídeo mostra carreata de Jair Bolsonaro em 2024, não de Flávio em 2026",
   "data_checagem": null,
   "url": "https://www.bol.uol.com.br/noticias/2026/08/31/desinformacao-video-jair-bolsonaro-2024-flavio-eleicoes-maceio-falso.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/18/falso-lula-deboche-santa-catarina-tornado.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Lula debochou de catarinenses ao falar que 'vento está levando o ódio' após tornado devastar estado",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Distorcido",
+  "titulo": "Fala de Lula sobre 'vento levar o ódio' não tem relação com tornado em SC",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/18/falso-lula-deboche-santa-catarina-tornado.ghtm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/17/falso-marco-rubio-lula-conspiracao-eua-reuniao-ira.ghtm",
+  "termo": "Lula",
+  "afirmacao": "Governo dos EUA afirma que Lula conspirou contra o país ao se reunir com o Irã",
+  "quem_disse": "Boatos de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que Rubio disse que Lula conspirou contra EUA ao se reunir com Irã",
+  "data_checagem": null,
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/17/falso-marco-rubio-lula-conspiracao-eua-reuniao-ira.ghtm"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/12/desinformacao-falso-video-lula-retirado-foto-lideres-cop31-turquia.ghtm",
