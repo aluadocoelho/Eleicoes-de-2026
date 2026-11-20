@@ -12,6 +12,30 @@
   "url": "https://www.aosfatos.org/noticias/nota-100-reais-lula/"
  },
  {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/19/falso-lula-bloqueio-bolsa-familia-12-milhao-pessoas.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Governo Lula bloqueou 1,2 milhão de beneficiários do Bolsa Família após as eleições",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Governo Lula não bloqueou Bolsa Família após eleições; vídeo é ...",
+  "data_checagem": "2026-11-19",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/19/falso-lula-bloqueio-bolsa-familia-12-milhao-pessoas.amp.htm"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/19/e-falso-que-pf-nao-achou-provas-contra-flavio-bolsonaro-investigacao-segue.amp.htm",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "PF encerrou inquérito que investiga Flavio Bolsonaro sem encontrar provas",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "É falso que PF encerrou investigação sobre Flavio Bolsonaro e ...",
+  "data_checagem": "2026-11-19",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/19/e-falso-que-pf-nao-achou-provas-contra-flavio-bolsonaro-investigacao-segue.amp.htm"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D8344T6",
   "termo": "Lula",
   "afirmacao": "Vídeo mostra artistas arrependidos de votar em Lula",
@@ -29,7 +53,7 @@
   "afirmacao": "Aumento de 55% no voto de centenários indica fraude eleitoral",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-11-16",
-  "checador": "AFP Checamos",
+  "checador": "Checamos AFP",
   "selo": "Enganoso",
   "titulo": "Aumento de 55% no voto de idosos com mais de 100 anos no ...",
   "data_checagem": "2026-11-19",
@@ -962,11 +986,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1369,7 +1393,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1502,7 +1526,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3386,11 +3410,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Cerca de 32 milhões que não votaram nas últimas eleições",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "verdadeiro",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3614,7 +3638,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -4015,7 +4039,7 @@
   "data_afirmacao": "2026-09-03",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Pesquisa Veritá mostra Flávio Bolsonaro com 64% das intenções de voto no Mato Grosso, não a nível nacional",
+  "titulo": "Pesquisa Veritá mostra Flávio Bolsonaro com 64% das intenções de ...",
   "data_checagem": "2026-09-21",
   "url": "https://checamos.afp.com/doc.afp.com.C8X899F"
  },
@@ -4027,7 +4051,7 @@
   "data_afirmacao": "2026-09-13",
   "checador": "AFP Checamos",
   "selo": "Enganoso",
-  "titulo": "Flávio Bolsonaro não viajou aos EUA em setembro; reportagem é de maio de 2026",
+  "titulo": "Flávio Bolsonaro não viajou aos EUA em setembro; reportagem é ...",
   "data_checagem": "2026-09-21",
   "url": "https://checamos.afp.com/doc.afp.com.C8WJ29E"
  },
