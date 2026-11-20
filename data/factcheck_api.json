@@ -1,5 +1,53 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/nota-100-reais-lula/",
+  "termo": "Lula",
+  "afirmacao": "Casa da Moeda avalia lançamento da nova nota de 100 reais para 2030.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-19",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "É falso que Casa da Moeda vai lançar nota de R$ 100 com rosto de ...",
+  "data_checagem": "2026-11-19",
+  "url": "https://www.aosfatos.org/noticias/nota-100-reais-lula/"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D8344T6",
+  "termo": "Lula",
+  "afirmacao": "Vídeo mostra artistas arrependidos de votar em Lula",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-01-17",
+  "checador": "AFP Checamos",
+  "selo": "Enganoso",
+  "titulo": "Vídeo não mostra arrependimento de artistas por votarem em Lula ...",
+  "data_checagem": "2026-11-19",
+  "url": "https://checamos.afp.com/doc.afp.com.D8344T6"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D82R263",
+  "termo": "Lula",
+  "afirmacao": "Aumento de 55% no voto de centenários indica fraude eleitoral",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-16",
+  "checador": "AFP Checamos",
+  "selo": "Enganoso",
+  "titulo": "Aumento de 55% no voto de idosos com mais de 100 anos no ...",
+  "data_checagem": "2026-11-19",
+  "url": "https://checamos.afp.com/doc.afp.com.D82R263"
+ },
+ {
+  "id": "https://www.aosfatos.org/noticias/lula-uranio-brasil-china/",
+  "termo": "Lula",
+  "afirmacao": "GRAVÍSSIMO: a maior reserva de urânio do Brasil é agora 100% da China. Acordo fechado.",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-18",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Lula não 'entregou' maior reserva de urânio do Brasil para a China",
+  "data_checagem": "2026-11-18",
+  "url": "https://www.aosfatos.org/noticias/lula-uranio-brasil-china/"
+ },
+ {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/18/falso-lula-deboche-santa-catarina-tornado.amp.htm",
   "termo": "Lula",
   "afirmacao": "Lula debochou de catarinenses ao falar que 'vento está levando o ódio' após tornado devastar estado",
@@ -914,11 +962,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -1321,7 +1369,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1565,7 +1613,7 @@
   "afirmacao": "Lula venceu o 2º turno no Japão com 28 mil votos",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
-  "checador": "Checamos AFP",
+  "checador": "AFP Checamos",
   "selo": "Falso",
   "titulo": "É falso que Lula venceu no Japão; Flávio Bolsonaro obteve 80 ...",
   "data_checagem": "2026-10-25",
@@ -3566,12 +3614,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
