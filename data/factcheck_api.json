@@ -1,5 +1,29 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/flavio-bolsonaro-vestido-fuga/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Interpol identifica vestido usado por Flávio Bolsonaro em fuga para a Argentina",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-23",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "O Globo não noticiou que Flávio Bolsonaro usou vestido como ...",
+  "data_checagem": "2026-11-23",
+  "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-vestido-fuga/"
+ },
+ {
+  "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/23/falso-imagem-lula-dez-dedos-cop31-ia.amp.htm",
+  "termo": "Lula",
+  "afirmacao": "Foto mostra Lula com dez dedos durante a COP31 na Turquia",
+  "quem_disse": "Boato de internet",
+  "data_afirmacao": null,
+  "checador": "UOL Notícias",
+  "selo": "Falso",
+  "titulo": "Imagem de Lula na COP31 com dez dedos é falsa e foi criada por IA",
+  "data_checagem": "2026-11-23",
+  "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/23/falso-imagem-lula-dez-dedos-cop31-ia.amp.htm"
+ },
+ {
   "id": "https://www.aosfatos.org/noticias/nota-100-reais-lula/",
   "termo": "Lula",
   "afirmacao": "Casa da Moeda avalia lançamento da nova nota de 100 reais para 2030.",
@@ -1645,13 +1669,13 @@
  },
  {
   "id": "https://checamos.afp.com/doc.afp.com.D4DR6G3",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Lula venceu o 2º turno no Japão com 28 mil votos",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-10-25",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "É falso que Lula venceu no Japão; Flávio Bolsonaro obteve 80% dos votos no país no segundo turno",
+  "titulo": "É falso que Lula venceu no Japão; Flávio Bolsonaro obteve 80 ...",
   "data_checagem": "2026-10-25",
   "url": "https://checamos.afp.com/doc.afp.com.D4DR6G3"
  },
@@ -3146,7 +3170,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3422,7 +3446,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Você [Lula] que é o pai do tigrinho",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3650,7 +3674,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -3859,7 +3883,7 @@
   "data_afirmacao": "2026-09-22",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Montagem de Flávio Bolsonaro com camisa contra nordestinos volta a circular antes das eleições",
+  "titulo": "Montagem de Flávio Bolsonaro com camisa contra nordestinos volta ...",
   "data_checagem": "2026-09-24",
   "url": "https://checamos.afp.com/doc.afp.com.C9AE4G3"
  },
@@ -8425,7 +8449,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/04/desinformacao-audio-falso-tse-dias-diferentes-eleitores-flavio-lula-votarem.ghtm",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "TSE determinou dias diferentes para eleitores do Flávio e do Lula votarem",
   "quem_disse": "Boato de internet",
   "data_afirmacao": null,
@@ -9025,7 +9049,7 @@
  },
  {
   "id": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/10/04/60-de-chance-de-vitoria-de-flavio-aposta-nao-e-pesquisa-eleitoral.ghtm",
-  "termo": "Lula",
+  "termo": "Flávio Bolsonaro",
   "afirmacao": "Presidência Flávio Bolsonaro (PL) estaria com mais de 60% das intenções de voto e, Lula (PT), cerca de 30%",
   "quem_disse": "boato de internet",
   "data_afirmacao": null,
