@@ -1,5 +1,41 @@
 [
  {
+  "id": "https://checamos.afp.com/doc.afp.com.D8LU6G3",
+  "termo": "Lula",
+  "afirmacao": "Casa da Moeda avalia lançamento da nova nota de 100 reais para 2030",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-21",
+  "checador": "Checamos AFP",
+  "selo": "Falso",
+  "titulo": "Casa da Moeda não anunciou lançamento de nota de R$ 100 com ...",
+  "data_checagem": "2026-11-25",
+  "url": "https://checamos.afp.com/doc.afp.com.D8LU6G3"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D8LP6GB",
+  "termo": "Lula",
+  "afirmacao": "12 países não reconheceram a vitória de Lula",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-04",
+  "checador": "Checamos AFP",
+  "selo": "Falso",
+  "titulo": "É falso que países como Japão, Reino Unido e Austrália não ...",
+  "data_checagem": "2026-11-25",
+  "url": "https://checamos.afp.com/doc.afp.com.D8LP6GB"
+ },
+ {
+  "id": "https://checamos.afp.com/doc.afp.com.D8KZ6ZQ",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Interpol identifica vestido de Flávio Bolsonaro na fuga para a Argentina",
+  "quem_disse": "Várias fontes",
+  "data_afirmacao": "2026-11-20",
+  "checador": "Checamos AFP",
+  "selo": "Falso",
+  "titulo": "O Globo não publicou que Flávio Bolsonaro fugiu de vestido para a ...",
+  "data_checagem": "2026-11-25",
+  "url": "https://checamos.afp.com/doc.afp.com.D8KZ6ZQ"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-relatorio-mostra-que-se-urnas-tivessem-encerrado-as-17-horas-flavio-bolsonaro-teria-sido-eleito-presidente-do-brasil/",
   "termo": "Flávio Bolsonaro",
   "afirmacao": "Às 17h Flávio já era presidente, diz relatório divulgado por comentarista americano. O comentarista político americano Joey Mannarino divulgou um \"relatório pericial independente\" sobre o 2.º turno das eleições presidenciais de 2026. Segundo o documento, Flávio Bolsonaro teria 52,39% dos votos.",
@@ -1477,7 +1513,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -1610,7 +1646,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -3494,7 +3530,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "Recorde de empresas fechadas [em 2026]",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3722,12 +3758,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
