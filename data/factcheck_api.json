@@ -1,5 +1,17 @@
 [
  {
+  "id": "https://www.aosfatos.org/noticias/flavio-bolsonaro-impeachment-moraes/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Flávio protocola impeachment de Moraes após sanção de Trump e publica vídeo detonando as arbitrariedades do STF, batendo 6 milhões de visualizações em uma hora!",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-25",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Flávio Bolsonaro pediu impeachment de Moraes em 2025, não ...",
+  "data_checagem": "2026-11-25",
+  "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-impeachment-moraes/"
+ },
+ {
   "id": "https://checamos.afp.com/doc.afp.com.D8LU6G3",
   "termo": "Lula",
   "afirmacao": "Casa da Moeda avalia lançamento da nova nota de 100 reais para 2030",
@@ -209,7 +221,7 @@
   "afirmacao": "Capa da revista Veja chama Sergio Moro de ladrão",
   "quem_disse": "Várias fontes",
   "data_afirmacao": "2026-11-16",
-  "checador": "AFP Checamos",
+  "checador": "Checamos AFP",
   "selo": "Falso",
   "titulo": "Capa da Veja que chama Sergio Moro de ladrão é falsa e foi criada ...",
   "data_checagem": "2026-11-18",
@@ -1106,11 +1118,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
-  "selo": "não_é_bem_assim",
+  "selo": "falso",
   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude ...",
   "data_checagem": "2026-10-29",
   "url": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/"
@@ -3530,7 +3542,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Recorde de empresas fechadas [em 2026]",
+  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -3758,7 +3770,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
