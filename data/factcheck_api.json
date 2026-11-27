@@ -1142,7 +1142,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -1682,7 +1682,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+  "afirmacao": "Os nossos fiscais do PL foram retirados de dentro da sala-cofre a partir do momento que a seleção foi tomada.",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-26",
   "checador": "Aos Fatos",
@@ -1870,6 +1870,18 @@
   "titulo": "Vídeo não mostra ameaça de prefeito a indígenas para voto em Lula, mas por fim de protesto em junho de 2026",
   "data_checagem": "2026-10-24",
   "url": "https://checamos.afp.com/doc.afp.com.D4BQ6CR"
+ },
+ {
+  "id": "https://almarketingdigital.com.br/lulavsflaviobolsonaro/en/fact-check/patrimonio-tse-lula/",
+  "termo": "Lula",
+  "afirmacao": "Lula hid tens of millions of reais in assets and declared unrealistic numbers to the Electoral Court.",
+  "quem_disse": "Flávio Nantes Bolsonaro",
+  "data_afirmacao": "2026-10-18",
+  "checador": "AL Marketing Digital",
+  "selo": "False",
+  "titulo": "Lula hid tens of millions of reais in assets and declared unrealistic ...",
+  "data_checagem": "2026-10-24",
+  "url": "https://almarketingdigital.com.br/lulavsflaviobolsonaro/en/fact-check/patrimonio-tse-lula/"
  },
  {
   "id": "https://almarketingdigital.com.br/lulavsflaviobolsonaro/checagem/votacao-presos-provisorios/",
@@ -3686,7 +3698,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3962,11 +3974,11 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+  "afirmacao": "Você [Lula] que deixou o povo brasileiro endividado",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
-  "selo": "falso",
+  "selo": "não_é_bem_assim",
   "titulo": "Checamos a live de Flávio Bolsonaro",
   "data_checagem": "2026-10-02",
   "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/"
@@ -3999,8 +4011,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4190,7 +4202,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
+  "afirmacao": "Torcida do Flamengo no Maracanã segurou uma bandeira com os dizeres “ninguém morre nos devendo”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
@@ -4279,7 +4291,7 @@
   "data_afirmacao": "2026-09-21",
   "checador": "AFP Checamos",
   "selo": "Falso",
-  "titulo": "Vídeo antigo de Lula volta a viralizar com falas editadas; petista não defendeu ‘destruir tudo que o Estado faz’",
+  "titulo": "Vídeo antigo de Lula volta a viralizar com falas editadas; petista não ...",
   "data_checagem": "2026-09-28",
   "url": "https://checamos.afp.com/doc.afp.com.C9KP69E"
  },
@@ -5403,8 +5415,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -5923,7 +5935,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Lula não disse que ‘nenhum de nós escapa’ de delações do Banco Master",
+  "titulo": "Lula não disse que 'nenhum de nós escapa' de delações do Banco ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/lula-se-delacoes-master-continuarem-nenhum-de-nos-escapa-enganoso/"
  },
@@ -6115,7 +6127,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Estadão",
   "selo": "Enganoso",
-  "titulo": "Imagens aéreas mostram bloco de São João, e não ato político de Flávio Bolsonaro em Recife",
+  "titulo": "Imagens aéreas mostram bloco de São João, e não ato político de ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/imagens-aereas-mostram-bloco-de-sao-joao-e-nao-ato-politico-de-flavio-bolsonaro-em-recife/"
  },
@@ -6391,7 +6403,7 @@
   "data_afirmacao": "2026-09-28",
   "checador": "Estadão",
   "selo": "Falso",
-  "titulo": "É falso que arcebispo emérito de Aparecida tenha pedido voto em Lula durante homilia",
+  "titulo": "É falso que arcebispo emérito de Aparecida tenha pedido voto em ...",
   "data_checagem": null,
   "url": "https://www.estadao.com.br/estadao-verifica/falso-arcebispo-aparecida-pediu-voto-lula-homilia/"
  },
