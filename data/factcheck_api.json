@@ -12,6 +12,18 @@
   "url": "https://www.aosfatos.org/noticias/tumulo-presidente-lula/"
  },
  {
+  "id": "https://www.aosfatos.org/noticias/trump-investigacao-eleicoes-brasileiras/",
+  "termo": "Flávio Bolsonaro",
+  "afirmacao": "Através de post no X, Trump pede intervenção internacional sobre a eleição no Brasil",
+  "quem_disse": "desinformação",
+  "data_afirmacao": "2026-11-27",
+  "checador": "Aos Fatos",
+  "selo": "falso",
+  "titulo": "Trump não pediu em post investigação internacional sobre eleições ...",
+  "data_checagem": "2026-11-27",
+  "url": "https://www.aosfatos.org/noticias/trump-investigacao-eleicoes-brasileiras/"
+ },
+ {
   "id": "https://observador.pt/factchecks/fact-check-multidao-criticou-lula-em-premio-de-formula-1-em-sao-paulo-depois-das-eleicoes/",
   "termo": "Lula",
   "afirmacao": "Durante o Grande Prêmio de São Paulo de Fórmula 1 no Autódromo de Interlagos, neste domingo,na zona sul de São Paulo, vídeos registrados nas arquibancadas (...) mostraram a multidão entoando o coro “Lula ladrão, seu lugar é na prisão”, em referência ao presidente reeleito há duas ssemanas.",
@@ -22,6 +34,18 @@
   "titulo": "Fact Check. Multidão criticou Lula em prémio de Fórmula 1, em São ...",
   "data_checagem": "2026-11-27",
   "url": "https://observador.pt/factchecks/fact-check-multidao-criticou-lula-em-premio-de-formula-1-em-sao-paulo-depois-das-eleicoes/"
+ },
+ {
+  "id": "https://observador.pt/factchecks/fact-check-depois-de-receber-a-cop-30-no-brasil-lula-retirado-da-foto-oficial-da-cimeira-do-clima-na-turquia/",
+  "termo": "Lula",
+  "afirmacao": "\"Lula é retirado. Não participa na foto oficial da COP 31\".",
+  "quem_disse": "Utilizador de Facebook",
+  "data_afirmacao": "2026-11-11",
+  "checador": "Observador",
+  "selo": "Enganador",
+  "titulo": "Lula recebeu COP, mas fica fora da foto na Turquia?",
+  "data_checagem": "2026-11-27",
+  "url": "https://observador.pt/factchecks/fact-check-depois-de-receber-a-cop-30-no-brasil-lula-retirado-da-foto-oficial-da-cimeira-do-clima-na-turquia/"
  },
  {
   "id": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/26/falso-software-manipulacao-votos-lula-2-turno.amp.htm",
@@ -1166,7 +1190,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Os dados foram sonegados da sociedade por 72 horas",
+  "afirmacao": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-29",
   "checador": "Aos Fatos",
@@ -1573,7 +1597,7 @@
  },
  {
   "id": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-27",
@@ -3722,7 +3746,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
   "termo": "Lula",
-  "afirmacao": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+  "afirmacao": "Lula disse que: “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-10-07",
   "checador": "Aos Fatos",
@@ -3998,7 +4022,7 @@
  {
   "id": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
   "termo": "Flávio Bolsonaro",
-  "afirmacao": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+  "afirmacao": "[Lula deixou o povo brasileiro] com fome",
   "quem_disse": "Flávio Bolsonaro",
   "data_afirmacao": "2026-10-02",
   "checador": "Aos Fatos",
@@ -4035,8 +4059,8 @@
   "id": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-de-xuxa-criticando-declaracao-sobre-menores-e-de-2022-e-foi-direcionado-a-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Projeto Comprova",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -4226,12 +4250,12 @@
  {
   "id": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
   "termo": "Lula",
-  "afirmacao": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+  "afirmacao": "Flamenguistas protestam contra decisão do governo sobre as bets",
   "quem_disse": "desinformação",
   "data_afirmacao": "2026-09-29",
   "checador": "Aos Fatos",
   "selo": "falso",
-  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das bets",
+  "titulo": "Posts não mostram protesto da torcida do Flamengo contra fim das ...",
   "data_checagem": "2026-09-29",
   "url": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/"
  },
@@ -5439,8 +5463,8 @@
   "id": "https://www.estadao.com.br/estadao-verifica/video-xuxa-critica-declaracao-menores-2022-bolsonaro/",
   "termo": "Lula",
   "afirmacao": "Xuxa se revolta contra Lula e pede para brasileiros não votarem nele",
-  "quem_disse": "redes sociais",
-  "data_afirmacao": "2026-09-30",
+  "quem_disse": "Redes Sociais",
+  "data_afirmacao": "2026-10-02",
   "checador": "Estadão",
   "selo": "Falso",
   "titulo": "Vídeo de Xuxa criticando declaração sobre menores é de 2022 e foi direcionado a Bolsonaro",
@@ -6097,7 +6121,7 @@
  },
  {
   "id": "https://www.estadao.com.br/estadao-verifica/locais-votacao-alterados-impactam-secoes-em-que-lula-e-flavio-venceram/",
-  "termo": "Flávio Bolsonaro",
+  "termo": "Lula",
   "afirmacao": "Seções foram alteradas pelo TSE para interferir no resultado eleitoral",
   "quem_disse": "Redes Sociais",
   "data_afirmacao": "2026-10-21",
